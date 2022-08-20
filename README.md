@@ -2,6 +2,11 @@
 
 ## 参考项目:https://github.com/yeqingzhao/relation-extraction/blob/master/README.md
 
+## 已经训练好的模型,可以直接进行预测
+    链接：https://pan.baidu.com/s/1nE_abL-n3mA_dxCdOWrjig?pwd=6666 
+    提取码：6666 
+    --来自百度网盘超级会员V5的分享
+
 ## 运行环境
 
 1. python==3.7.11
