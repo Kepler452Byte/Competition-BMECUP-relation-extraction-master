@@ -1,0 +1,93 @@
+T1	clinicalFeature 6 12	肿瘤指标异常
+T2	time 12 14	6天
+T3	time 23 26	一周前
+T4	clinicalFeature 29 31	发热
+T5	time 31 33	2天
+T6	clinicalFeature 54 60	肿瘤指标异常
+T22	sign 218 220	体温
+T23	indexValue 220 225	36.6℃
+T24	sign 226 228	脉搏
+T25	indexValue 228 233	78次/分
+T26	sign 234 236	呼吸
+T27	indexValue 236 241	17次/分
+T28	sign 242 244	血压
+T29	indexValue 244 254	144/78mmHg
+T30	clinicalFeature 255 258	神志清
+T33	body 263 265	皮肤
+T34	clinicalFeature 267 270	无黄染
+T35	body 271 276	浅表淋巴结
+T36	clinicalFeature 276 280	未及肿大
+T37	body 281 283	双肺
+T38	clinicalFeature 283 288	呼吸音清晰
+T39	clinicalFeature 290 299	未闻及明显干湿罗音
+T40	sign 300 302	HR
+T41	indexValue 302 307	78次/分
+T42	clinicalFeature 308 310	律齐
+T43	clinicalFeature 311 315	未及杂音
+T44	body 316 317	腹
+T45	clinicalFeature 317 319	平软
+T46	clinicalFeature 322 324	肠型
+T47	clinicalFeature 338 340	压痛
+T49	clinicalFeature 341 345	无反跳痛
+T50	clinicalFeature 346 350	未及包块
+T51	clinicalFeature 353 357	肋下未及
+T52	indexValue 371 373	阴性
+T54	body 381 384	双肾区
+T56	clinicalFeature 384 387	无叩痛
+T57	body 388 391	双下肢
+T58	clinicalFeature 391 394	无浮肿
+T59	clinicalFeature 397 402	活动无异常
+T60	sign 403 406	病理征
+T61	indexValue 406 409	未引出
+T62	body 410 412	颈部
+T63	clinicalFeature 412 421	可见7cm手术疤痕
+T64	body 422 424	腹部
+T65	clinicalFeature 424 433	可见腹腔镜手术疤痕
+R1	signIndexValue Arg1:T60 Arg2:T61
+R2	bodyClinicalFeature Arg1:T62 Arg2:T63
+R3	bodyClinicalFeature Arg1:T64 Arg2:T65
+T66	sign 359 370	Murphy sign
+R4	signIndexValue Arg1:T66 Arg2:T52
+R5	clinicalFeatureTime Arg1:T1 Arg2:T2
+T67	clinicalFeature 27 29	畏寒
+T68	cure 71 77	消炎对症治疗
+T69	drug 78 85	具体药物未告知
+T70	trend 95 101	未见明显降低
+R14	clinicalFeatureTrend Arg1:T6 Arg2:T70
+T9	disease 154 159	急性胆管炎
+T72	disease 160 166	肿瘤指标异常
+R26	signIndexValue Arg1:T22 Arg2:T23
+R27	signIndexValue Arg1:T24 Arg2:T25
+R28	signIndexValue Arg1:T26 Arg2:T27
+R29	signIndexValue Arg1:T28 Arg2:T29
+T7	clinicalFeature 259 262	精神可
+T31	body 265 267	巩膜
+R15	bodyClinicalFeature Arg1:T33 Arg2:T34
+R18	bodyClinicalFeature Arg1:T31 Arg2:T34
+R19	bodyClinicalFeature Arg1:T35 Arg2:T36
+R30	bodyClinicalFeature Arg1:T37 Arg2:T38
+R31	bodyClinicalFeature Arg1:T37 Arg2:T39
+R32	signIndexValue Arg1:T40 Arg2:T41
+R33	bodyClinicalFeature Arg1:T44 Arg2:T45
+T32	body 330 338	上腹部剑突下偏右
+R35	bodyClinicalFeature Arg1:T32 Arg2:T47
+R37	bodyClinicalFeature Arg1:T32 Arg2:T49
+R38	bodyClinicalFeature Arg1:T32 Arg2:T50
+R39	bodyClinicalFeature Arg1:T54 Arg2:T56
+R40	bodyClinicalFeature Arg1:T57 Arg2:T58
+T55	body 395 397	四肢
+R41	bodyClinicalFeature Arg1:T55 Arg2:T59
+R11	cureTime Arg1:T68 Arg2:T3
+T71	body 351 352	肝
+T73	body 352 353	脾
+R12	bodyClinicalFeature Arg1:T71 Arg2:T51
+R42	bodyClinicalFeature Arg1:T73 Arg2:T51
+T53	sign 374 377	肠鸣音
+T74	indexValue 377 380	无亢进
+R43	signIndexValue Arg1:T53 Arg2:T74
+T48	clinicalFeature 325 329	曲张静脉
+T75	negative 320 322	未见
+R34	negativeClinicalFeature Arg1:T75 Arg2:T46
+R36	negativeClinicalFeature Arg1:T75 Arg2:T48
+R6	clinicalFeatureTime Arg1:T67 Arg2:T5
+R7	clinicalFeatureTime Arg1:T4 Arg2:T5

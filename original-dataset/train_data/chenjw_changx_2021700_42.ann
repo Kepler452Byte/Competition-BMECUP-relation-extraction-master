@@ -1,0 +1,177 @@
+T1	clinicalFeature 4 6	腹泻
+T2	clinicalFeature 7 9	恶心
+T3	clinicalFeature 9 11	呕吐
+T4	time 11 13	3天
+T5	clinicalFeature 14 16	发热
+T6	time 16 18	1天
+T7	time 27 30	3天前
+T8	cause 30 35	无明显诱因
+T9	clinicalFeature 38 40	腹泻
+T10	modification 41 44	粪质稀
+T11	modification 45 48	量不多
+T12	modification 49 56	后转黄色水样便
+T15	negative 64 65	无
+T16	clinicalFeature 65 70	粘液脓血便
+T17	modification 71 73	稍有
+T18	clinicalFeature 73 78	上腹不适感
+T19	negative 79 80	无
+T20	clinicalFeature 82 84	腹痛
+T21	negative 85 86	无
+T22	clinicalFeature 86 88	畏寒
+T23	clinicalFeature 88 90	发热
+T24	clinicalFeature 92 94	恶心
+T25	clinicalFeature 94 96	呕吐
+T28	modification 106 112	少量胃内容物
+T31	cure 119 124	未重视治疗
+T32	clinicalFeature 129 131	发热
+T33	sign 132 136	最高体温
+T34	indexValue 136 141	38.4℃
+T35	clinicalFeature 143 145	咳嗽
+T36	modification 146 148	不剧
+T37	negative 149 150	无
+T38	clinicalFeature 150 152	咯血
+T39	negative 153 154	无
+T40	clinicalFeature 154 156	胸闷
+T41	clinicalFeature 156 158	气促
+T42	negative 159 160	无
+T43	clinicalFeature 160 162	腰酸
+T44	clinicalFeature 162 164	血尿
+T50	disease 224 230	胃肠功能紊乱
+T63	disease 276 284	慢性粒细胞白血病
+T64	time 285 288	19年
+T65	drug 293 301	甲磺酸伊马替尼片
+T66	dose 302 307	0.2g#
+T67	frequency 307 310	bid
+T68	disease 321 326	IgA肾病
+T69	disease 327 332	CKD5期
+T70	disease 333 337	腹膜透析
+T71	time 338 341	1年余
+T75	sign 382 384	体温
+T76	indexValue 384 389	38.3℃
+T77	sign 390 392	脉搏
+T78	indexValue 392 398	112次/分
+T79	sign 399 401	呼吸
+T80	indexValue 401 406	20次/分
+T81	sign 407 409	血压
+T82	indexValue 409 419	145/67mmHg
+T83	clinicalFeature 420 423	神志清
+T84	clinicalFeature 424 427	精神软
+T85	body 428 433	表浅淋巴结
+T86	clinicalFeature 433 435	未触
+T87	body 436 437	颈
+T88	clinicalFeature 437 438	软
+T89	body 439 442	颈静脉
+T90	clinicalFeature 442 445	无怒张
+T91	body 446 449	甲状腺
+T92	clinicalFeature 449 451	不大
+T93	body 453 455	双肺
+T94	clinicalFeature 455 460	呼吸音清晰
+T95	clinicalFeature 461 468	未闻及干湿罗音
+T96	sign 469 471	心率
+T97	indexValue 471 476	96次/分
+T98	clinicalFeature 477 479	律齐
+T99	clinicalFeature 480 490	未闻及明显病理性杂音
+T100	body 491 492	腹
+T101	clinicalFeature 492 493	软
+T102	body 494 495	肝
+T103	clinicalFeature 495 499	肋下未及
+T104	body 500 502	腹部
+T105	clinicalFeature 504 508	手术疤痕
+T106	body 509 510	脾
+T107	clinicalFeature 510 514	肋下可及
+T108	body 515 519	右上腹部
+T109	clinicalFeature 519 521	压痛
+T111	clinicalFeature 522 526	无反跳痛
+T112	body 528 531	双下肢
+T113	clinicalFeature 531 534	无浮肿
+T114	sign 535 538	病理征
+T115	indexValue 538 541	未引出
+T116	body 542 544	腹部
+T117	clinicalFeature 546 551	腹膜透析管
+T118	modification 559 564	管口无渗液
+R1	clinicalFeatureTime Arg1:T5 Arg2:T6
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T1 Arg2:T4
+R5	causeClinicalFeature Arg1:T8 Arg2:T9
+R6	clinicalFeatureTime Arg1:T9 Arg2:T7
+T13	frequency 57 63	每日3-4次
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	clinicalFeatureTime Arg1:T16 Arg2:T7
+R14	clinicalFeatureTime Arg1:T18 Arg2:T7
+R15	negativeClinicalFeature Arg1:T19 Arg2:T20
+R16	clinicalFeatureTime Arg1:T20 Arg2:T7
+R17	negativeClinicalFeature Arg1:T21 Arg2:T22
+R18	clinicalFeatureTime Arg1:T22 Arg2:T7
+R19	negativeClinicalFeature Arg1:T21 Arg2:T23
+R20	clinicalFeatureTime Arg1:T23 Arg2:T7
+R21	clinicalFeatureTime Arg1:T24 Arg2:T7
+R22	clinicalFeatureTime Arg1:T25 Arg2:T7
+T14	frequency 98 104	每日3-4次
+R23	clinicalFeatureFrequency Arg1:T25 Arg2:T14
+R10	clinicalFeatureFrequency Arg1:T9 Arg2:T13
+R26	cureTime Arg1:T31 Arg2:T7
+T26	modification 113 118	无咖啡样物
+R25	modificationClinicalFeature Arg1:T26 Arg2:T25
+T27	time 125 127	昨晚
+R27	clinicalFeatureTime Arg1:T32 Arg2:T27
+R28	signIndexValue Arg1:T33 Arg2:T34
+R30	clinicalFeatureTime Arg1:T35 Arg2:T27
+R31	modificationClinicalFeature Arg1:T36 Arg2:T35
+R32	negativeClinicalFeature Arg1:T37 Arg2:T38
+R33	clinicalFeatureTime Arg1:T38 Arg2:T27
+R34	negativeClinicalFeature Arg1:T39 Arg2:T40
+R35	clinicalFeatureTime Arg1:T40 Arg2:T27
+R36	negativeClinicalFeature Arg1:T39 Arg2:T41
+R37	clinicalFeatureTime Arg1:T41 Arg2:T27
+R38	negativeClinicalFeature Arg1:T42 Arg2:T43
+R39	clinicalFeatureTime Arg1:T43 Arg2:T27
+R40	negativeClinicalFeature Arg1:T42 Arg2:T44
+R41	clinicalFeatureTime Arg1:T44 Arg2:T27
+T29	drug 172 178	芙朴感冒冲剂
+T30	dose 178 180	1包
+T45	drug 181 185	蒙脱石散
+T119	dose 185 187	1包
+R43	drugDose Arg1:T29 Arg2:T30
+R45	drugTime Arg1:T45 Arg2:T27
+R46	drugTime Arg1:T29 Arg2:T27
+T46	trend 193 196	无改善
+R55	timeDisease Arg1:T64 Arg2:T63
+R56	drugDose Arg1:T65 Arg2:T66
+R57	doseFrequency Arg1:T66 Arg2:T67
+R61	timeDisease Arg1:T71 Arg2:T70
+R62	timeDisease Arg1:T71 Arg2:T69
+R63	timeDisease Arg1:T71 Arg2:T68
+R67	signIndexValue Arg1:T75 Arg2:T76
+R68	signIndexValue Arg1:T77 Arg2:T78
+R69	signIndexValue Arg1:T79 Arg2:T80
+R70	signIndexValue Arg1:T81 Arg2:T82
+R71	bodyClinicalFeature Arg1:T85 Arg2:T86
+R72	bodyClinicalFeature Arg1:T87 Arg2:T88
+R73	bodyClinicalFeature Arg1:T89 Arg2:T90
+R74	bodyClinicalFeature Arg1:T91 Arg2:T92
+R75	bodyClinicalFeature Arg1:T93 Arg2:T94
+R76	bodyClinicalFeature Arg1:T93 Arg2:T95
+R77	signIndexValue Arg1:T96 Arg2:T97
+R78	bodyClinicalFeature Arg1:T100 Arg2:T101
+R79	bodyClinicalFeature Arg1:T102 Arg2:T103
+R80	bodyClinicalFeature Arg1:T104 Arg2:T105
+R81	bodyClinicalFeature Arg1:T106 Arg2:T107
+R82	bodyClinicalFeature Arg1:T108 Arg2:T109
+R84	bodyClinicalFeature Arg1:T108 Arg2:T111
+R85	bodyClinicalFeature Arg1:T112 Arg2:T113
+R86	signIndexValue Arg1:T114 Arg2:T115
+R87	bodyClinicalFeature Arg1:T116 Arg2:T117
+T122	quantity 551 553	一根
+R89	modificationClinicalFeature Arg1:T118 Arg2:T117
+T123	modification 554 558	固定良好
+R90	modificationClinicalFeature Arg1:T123 Arg2:T117
+R47	clinicalFeatureTrend Arg1:T32 Arg2:T46
+R83	clinicalFeatureTrend Arg1:T35 Arg2:T46
+R42	drugDose Arg1:T45 Arg2:T119
+T48	cure 169 171	自服
+R7	modificationClinicalFeature Arg1:T10 Arg2:T9
+R8	modificationClinicalFeature Arg1:T11 Arg2:T9
+R9	modificationClinicalFeature Arg1:T12 Arg2:T9
+R13	modificationClinicalFeature Arg1:T17 Arg2:T18
+R24	modificationClinicalFeature Arg1:T28 Arg2:T25

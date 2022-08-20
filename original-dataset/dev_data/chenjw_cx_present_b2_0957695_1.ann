@@ -1,0 +1,5 @@
+T1	time 9 27	2020年4 月14 日1 时0 分
+T2	clinicalFeature 32 34	晕倒
+T3	clinicalFeature 35 41	左侧肢体无力
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1

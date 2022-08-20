@@ -1,0 +1,61 @@
+T2	time 14 17	3小时
+T3	time 26 30	3小时前
+T5	body 44 46	右肩
+T6	clinicalFeature 51 55	活动受限
+T7	clinicalFeature 58 60	胸闷
+T9	body 85 91	右侧锁骨中段
+T10	auxiliaryDescript 91 93	骨折
+T13	disease 121 126	右锁骨骨折
+T26	sign 182 184	体温
+T27	indexValue 184 189	36.5℃
+T28	sign 190 192	脉搏
+T29	indexValue 192 197	68次/分
+T30	sign 198 200	呼吸
+T31	indexValue 200 205	20次/分
+T32	sign 206 208	血压
+T33	indexValue 208 218	128/68mmHg
+T34	clinicalFeature 222 225	稍肿胀
+T36	clinicalFeature 240 246	可触及骨擦感
+T37	clinicalFeature 251 255	活动受限
+T38	sign 257 261	生理反射
+T39	indexValue 261 263	存在
+T40	sign 264 268	病理反射
+T41	indexValue 268 271	未引出
+T1	cause 4 6	摔伤
+T42	body 7 9	右肩
+T43	clinicalFeature 10 14	活动受限
+R1	causeClinicalFeature Arg1:T1 Arg2:T43
+R2	bodyClinicalFeature Arg1:T42 Arg2:T43
+R3	clinicalFeatureTime Arg1:T43 Arg2:T2
+T4	cause 34 36	摔伤
+R4	causeClinicalFeature Arg1:T4 Arg2:T6
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+T45	body 48 51	右肩部
+R6	bodyClinicalFeature Arg1:T45 Arg2:T6
+R9	clinicalFeatureTime Arg1:T7 Arg2:T3
+T46	auxiliaryExamination 81 83	X片
+R12	bodyAuxiliaryDescript Arg1:T9 Arg2:T10
+R13	auxiliaryExaminationAuxiliaryDescript Arg1:T46 Arg2:T10
+T47	auxiliaryExamination 96 98	CT
+T11	body 101 111	右侧第4、5、6前肋
+T12	auxiliaryDescript 111 116	骨皮质扭曲
+R14	bodyAuxiliaryDescript Arg1:T11 Arg2:T12
+R15	auxiliaryExaminationAuxiliaryDescript Arg1:T47 Arg2:T12
+R22	signIndexValue Arg1:T26 Arg2:T27
+R23	signIndexValue Arg1:T28 Arg2:T29
+R24	signIndexValue Arg1:T30 Arg2:T31
+R25	signIndexValue Arg1:T32 Arg2:T33
+T48	body 219 222	右肩部
+R26	bodyClinicalFeature Arg1:T48 Arg2:T34
+T35	body 226 231	右锁骨外段
+T49	clinicalFeature 231 233	压痛
+R27	bodyClinicalFeature Arg1:T35 Arg2:T49
+T50	clinicalFeature 235 239	异常活动
+R28	bodyClinicalFeature Arg1:T35 Arg2:T50
+R29	bodyClinicalFeature Arg1:T35 Arg2:T36
+T51	body 247 251	右肩关节
+R30	bodyClinicalFeature Arg1:T51 Arg2:T37
+R31	signIndexValue Arg1:T38 Arg2:T39
+R32	signIndexValue Arg1:T40 Arg2:T41
+R33	auxiliaryExaminationTime Arg1:T46 Arg2:T3
+R34	auxiliaryExaminationTime Arg1:T47 Arg2:T3

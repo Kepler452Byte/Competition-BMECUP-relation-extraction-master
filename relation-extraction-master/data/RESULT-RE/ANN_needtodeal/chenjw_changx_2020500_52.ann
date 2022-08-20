@@ -1,0 +1,39 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 8	1天
+T3	time 17 22	昨日晨起时
+T4	clinicalFeature 24 26	头晕
+T5	clinicalFeature 29 31	恶心
+T6	clinicalFeature 32 34	呕吐
+T7	modification 35 43	呕吐物为胃内容物
+T8	negative 44 45	无
+T9	clinicalFeature 45 47	发热
+T10	clinicalFeature 48 50	腹痛
+T11	time 70 74	昨晚饭后
+T12	trend 76 78	加重
+T13	clinicalFeature 84 88	视物旋转
+T14	negative 90 91	无
+T15	clinicalFeature 91 93	耳鸣
+T16	modification 94 96	略有
+T17	clinicalFeature 96 98	头痛
+T18	negative 99 100	无
+T19	clinicalFeature 100 106	肢体活动不灵
+T20	clinicalFeature 107 111	感觉异常
+T21	cure 114 120	未予特殊处置
+T22	trend 123 126	无好转
+T23	auxiliaryExamination 142 146	头部CT
+T24	auxiliaryDescript 147 153	目前未见异常
+T25	auxiliaryDescript 149 153	未见异常
+T26	laboratory 155 162	血常规+CRP
+T27	laboratory 163 166	肾功能
+T28	laboratory 167 169	血糖
+T29	laboratory 170 173	电解质
+T30	disease 186 191	眩晕综合征
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	modificationClinicalfeature Arg1:T7 Arg2:T6
+R3	negativeClinicalfeature Arg1:T8 Arg2:T10
+R4	clinicalFeatureTime Arg1:T10 Arg2:T3
+R5	clinicalFeatureTime Arg1:T13 Arg2:T11
+R6	clinicalFeatureTrend Arg1:T13 Arg2:T22
+R7	negativeClinicalfeature Arg1:T14 Arg2:T15
+R8	modificationClinicalfeature Arg1:T16 Arg2:T17
+R9	negativeClinicalfeature Arg1:T18 Arg2:T20

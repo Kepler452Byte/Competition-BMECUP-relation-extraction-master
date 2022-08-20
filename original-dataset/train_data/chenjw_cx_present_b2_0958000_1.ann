@@ -1,0 +1,19 @@
+T1	time 6 10	半小时前
+T2	cause 10 21	被他人打伤头面部等多处
+T4	negative 24 25	无
+T5	clinicalFeature 25 27	昏迷
+T6	clinicalFeature 29 31	头痛
+T7	clinicalFeature 31 33	头晕
+T8	body 34 36	面部
+T9	body 37 40	前胸部
+T10	clinicalFeature 46 48	疼痛
+R1	causeClinicalFeature Arg1:T2 Arg2:T6
+R2	causeClinicalFeature Arg1:T2 Arg2:T7
+T3	body 40 43	右腰部
+R3	bodyClinicalFeature Arg1:T8 Arg2:T10
+R4	bodyClinicalFeature Arg1:T9 Arg2:T10
+R5	bodyClinicalFeature Arg1:T3 Arg2:T10
+R6	causeClinicalFeature Arg1:T2 Arg2:T10
+R7	clinicalFeatureTime Arg1:T6 Arg2:T1
+R8	clinicalFeatureTime Arg1:T7 Arg2:T1
+R9	clinicalFeatureTime Arg1:T10 Arg2:T1

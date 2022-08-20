@@ -1,0 +1,5 @@
+T1	time 6 20	1年余（2018-9-26）
+T3	cause 22 26	检查发现
+T4	clinicalFeature 26 31	血三系减少
+R1	clinicalFeatureTime Arg1:T4 Arg2:T1
+R2	causeClinicalFeature Arg1:T3 Arg2:T4

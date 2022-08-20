@@ -1,0 +1,117 @@
+T1	clinicalFeature 6 11	升结肠息肉
+T2	time 11 14	1月余
+T3	time 25 29	1月余前
+T4	auxiliaryExamination 30 34	肠镜检查
+T5	auxiliaryDescript 37 42	升结肠息肉
+T6	negative 52 53	无
+T7	clinicalFeature 53 55	腹痛
+T8	clinicalFeature 55 57	腹泻
+T9	negative 58 59	无
+T10	clinicalFeature 59 61	便秘
+T11	negative 62 63	无
+T12	clinicalFeature 63 65	便血
+T13	negative 66 67	无
+T14	clinicalFeature 67 69	恶心
+T15	clinicalFeature 69 71	呕吐
+T16	negative 72 73	无
+T17	clinicalFeature 73 75	头晕
+T18	clinicalFeature 75 77	头痛
+T19	negative 78 79	无
+T20	clinicalFeature 79 81	畏寒
+T21	clinicalFeature 81 83	发热
+T35	disease 159 163	高血压病
+T36	time 166 168	3年
+T37	drug 172 175	安博诺
+T38	dose 175 178	1片#
+T39	frequency 178 180	qd
+T40	cure 181 185	药物治疗
+T41	clinicalFeature 188 194	控制血压尚可
+T42	drug 198 202	氯吡格雷
+T43	time 205 207	6天
+T44	sign 216 218	BP
+T45	indexValue 218 228	115/82mmHg
+T46	sign 229 230	T
+T47	indexValue 230 233	36℃
+T48	sign 234 235	P
+T49	indexValue 235 240	78次/分
+T50	sign 241 242	R
+T51	indexValue 242 247	18次/分
+T52	clinicalFeature 248 250	神清
+T53	clinicalFeature 251 254	精神可
+T54	body 255 257	巩膜
+T55	clinicalFeature 257 262	无明显黄染
+T56	body 263 268	浅表淋巴结
+T57	clinicalFeature 268 272	未及肿大
+T58	sign 273 275	心率
+T59	indexValue 275 280	78次/分
+T60	clinicalFeature 281 283	律齐
+T61	body 285 287	两肺
+T62	clinicalFeature 287 291	呼吸音清
+T63	clinicalFeature 292 297	未闻及罗音
+T64	body 298 299	腹
+T65	clinicalFeature 299 300	软
+T66	clinicalFeature 301 304	无压痛
+T67	sign 305 309	墨菲氏征
+T68	indexValue 309 311	阴性
+T69	clinicalFeature 312 316	无反跳痛
+T70	body 317 318	肝
+T71	body 318 319	脾
+T72	clinicalFeature 319 323	肋下未及
+T73	sign 324 327	肠鸣音
+T74	indexValue 327 330	无亢进
+T75	body 331 334	双下肢
+T76	clinicalFeature 334 337	无浮肿
+T77	body 338 340	四肢
+T78	sign 340 342	肌力
+T79	indexValue 342 344	正常
+T80	sign 345 348	病理症
+T81	indexValue 348 351	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	auxiliaryExaminationAuxiliaryDescript Arg1:T4 Arg2:T5
+R3	auxiliaryExaminationTime Arg1:T4 Arg2:T3
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T8
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	clinicalFeatureTime Arg1:T8 Arg2:T3
+R8	negativeClinicalFeature Arg1:T9 Arg2:T10
+R9	clinicalFeatureTime Arg1:T10 Arg2:T3
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	clinicalFeatureTime Arg1:T12 Arg2:T3
+R12	negativeClinicalFeature Arg1:T13 Arg2:T14
+R13	negativeClinicalFeature Arg1:T13 Arg2:T15
+R14	clinicalFeatureTime Arg1:T14 Arg2:T3
+R15	clinicalFeatureTime Arg1:T15 Arg2:T3
+R16	negativeClinicalFeature Arg1:T16 Arg2:T17
+R17	negativeClinicalFeature Arg1:T16 Arg2:T18
+R18	clinicalFeatureTime Arg1:T17 Arg2:T3
+R19	clinicalFeatureTime Arg1:T18 Arg2:T3
+R20	negativeClinicalFeature Arg1:T19 Arg2:T20
+R21	negativeClinicalFeature Arg1:T19 Arg2:T21
+R22	clinicalFeatureTime Arg1:T20 Arg2:T3
+R23	clinicalFeatureTime Arg1:T21 Arg2:T3
+R30	timeDisease Arg1:T36 Arg2:T35
+R31	drugDose Arg1:T37 Arg2:T38
+R32	doseFrequency Arg1:T38 Arg2:T39
+R34	diseaseClinicalFeature Arg1:T35 Arg2:T41
+R35	drugTime Arg1:T42 Arg2:T43
+R36	signIndexValue Arg1:T44 Arg2:T45
+R37	signIndexValue Arg1:T46 Arg2:T47
+R38	signIndexValue Arg1:T48 Arg2:T49
+R39	signIndexValue Arg1:T50 Arg2:T51
+R40	bodyClinicalFeature Arg1:T54 Arg2:T55
+R41	bodyClinicalFeature Arg1:T56 Arg2:T57
+R42	signIndexValue Arg1:T58 Arg2:T59
+R43	bodyClinicalFeature Arg1:T61 Arg2:T62
+R44	bodyClinicalFeature Arg1:T61 Arg2:T63
+R45	bodyClinicalFeature Arg1:T64 Arg2:T65
+R46	bodyClinicalFeature Arg1:T64 Arg2:T66
+R47	signIndexValue Arg1:T67 Arg2:T68
+R48	bodyClinicalFeature Arg1:T64 Arg2:T69
+R49	bodyClinicalFeature Arg1:T70 Arg2:T72
+R50	bodyClinicalFeature Arg1:T71 Arg2:T72
+R51	signIndexValue Arg1:T73 Arg2:T74
+R52	bodyClinicalFeature Arg1:T75 Arg2:T76
+R53	bodySign Arg1:T77 Arg2:T78
+R54	signIndexValue Arg1:T78 Arg2:T79
+R55	signIndexValue Arg1:T80 Arg2:T81
+T22	cure 45 51	未予重视处理

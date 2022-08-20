@@ -1,0 +1,6 @@
+T1	time 6 10	13月前
+T2	disease 11 15	膀胱肿瘤
+T3	operation 19 29	经尿道膀胱肿瘤电切术
+T4	auxiliaryExamination 30 34	术后病理
+T5	disease 36 47	低级别尿路上皮乳头状癌
+R2	timeOperation Arg1:T1 Arg2:T3

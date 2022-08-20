@@ -1,0 +1,12 @@
+T1	time 6 8	2月
+T2	laboratory 23 26	血常规
+T3	laboratoryValue 28 32	三系减少
+T4	laboratory 33 36	血常规
+T5	laboratory 37 40	血小板
+T6	laboratoryValue 41 50	53×10^9/L
+T9	clinicalFeature 10 12	乏力
+R1	clinicalFeatureTime Arg1:T9 Arg2:T1
+R3	laboratoryLaboratoryValue Arg1:T2 Arg2:T3
+R4	laboratoryLaboratoryValue Arg1:T5 Arg2:T6
+R5	laboratoryTime Arg1:T2 Arg2:T1
+R6	laboratoryTime Arg1:T4 Arg2:T1

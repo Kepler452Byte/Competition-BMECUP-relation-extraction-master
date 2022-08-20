@@ -1,0 +1,110 @@
+T1	clinicalFeature 4 10	右膝关节肿痛
+T2	time 10 12	3天
+T3	time 22 25	3天前
+T4	cause 25 30	无明显诱因
+T5	clinicalFeature 37 39	肿痛
+T6	trend 40 44	日益加剧
+T7	clinicalFeature 46 50	活动受限
+T8	clinicalFeature 53 59	右下肢体麻木
+T9	negative 60 61	无
+T10	clinicalFeature 61 63	畏寒
+T11	clinicalFeature 63 65	发热
+T12	negative 66 67	无
+T13	clinicalFeature 67 69	头晕
+T14	clinicalFeature 69 71	头痛
+T15	negative 72 73	无
+T16	clinicalFeature 73 75	恶心
+T17	clinicalFeature 75 77	呕吐
+T18	auxiliaryExamination 92 98	右膝正侧位片
+T19	body 100 104	右膝关节
+T20	auxiliaryDescript 104 112	诸骨未见明显异常
+T21	auxiliaryDescript 113 122	周围软组织局部肿胀
+T23	disease 139 144	右膝关节炎
+T35	sign 195 197	体温
+T36	indexValue 197 202	37.2℃
+T37	sign 203 205	脉搏
+T38	indexValue 205 210	99次/分
+T39	sign 211 213	呼吸
+T40	indexValue 213 218	18次/分
+T41	sign 219 221	血压
+T42	indexValue 221 231	127/79mmHg
+T43	clinicalFeature 232 234	神清
+T44	clinicalFeature 235 238	精神软
+T45	body 239 241	双瞳
+T46	clinicalFeature 241 245	等大等圆
+T47	clinicalFeature 246 252	Φ2.5mm
+T48	clinicalFeature 253 259	对光反射灵敏
+T49	body 260 261	颈
+T50	clinicalFeature 261 262	软
+T51	negative 264 265	无
+T52	clinicalFeature 265 270	颈静脉怒张
+T53	body 271 272	心
+T54	body 272 274	肺腹
+T55	clinicalFeature 274 276	无殊
+T56	body 277 279	脊柱
+T57	clinicalFeature 279 282	无畸形
+T58	negative 283 284	无
+T59	clinicalFeature 284 286	压痛
+T61	clinicalFeature 290 294	无放射痛
+T62	body 295 299	右膝关节
+T63	clinicalFeature 299 301	肿胀
+T64	clinicalFeature 302 304	压痛
+T65	body 305 308	右下肢
+T66	clinicalFeature 308 312	活动受限
+T67	body 313 315	足趾
+T68	clinicalFeature 315 322	血运、活动度可
+T69	clinicalFeature 323 328	末梢血运可
+T70	sign 329 332	病理征
+T71	indexValue 332 335	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R5	causeClinicalFeature Arg1:T4 Arg2:T7
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T9 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	negativeClinicalFeature Arg1:T15 Arg2:T17
+R13	clinicalFeatureTime Arg1:T10 Arg2:T3
+R14	clinicalFeatureTime Arg1:T11 Arg2:T3
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	clinicalFeatureTime Arg1:T14 Arg2:T3
+R17	clinicalFeatureTime Arg1:T16 Arg2:T3
+R18	clinicalFeatureTime Arg1:T17 Arg2:T3
+R19	bodyAuxiliaryDescript Arg1:T19 Arg2:T20
+R20	bodyAuxiliaryDescript Arg1:T19 Arg2:T21
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T20
+R22	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T21
+R30	signIndexValue Arg1:T35 Arg2:T36
+R31	signIndexValue Arg1:T37 Arg2:T38
+R32	signIndexValue Arg1:T39 Arg2:T40
+R33	signIndexValue Arg1:T41 Arg2:T42
+R34	bodyClinicalFeature Arg1:T45 Arg2:T46
+R35	bodyClinicalFeature Arg1:T45 Arg2:T47
+R36	bodyClinicalFeature Arg1:T45 Arg2:T48
+R37	bodyClinicalFeature Arg1:T49 Arg2:T50
+R38	negativeClinicalFeature Arg1:T51 Arg2:T52
+R39	bodyClinicalFeature Arg1:T53 Arg2:T55
+R40	bodyClinicalFeature Arg1:T54 Arg2:T55
+R41	bodyClinicalFeature Arg1:T56 Arg2:T57
+T72	clinicalFeature 286 289	叩击痛
+R42	negativeClinicalFeature Arg1:T58 Arg2:T59
+R43	negativeClinicalFeature Arg1:T58 Arg2:T72
+R45	bodyClinicalFeature Arg1:T62 Arg2:T63
+R46	bodyClinicalFeature Arg1:T62 Arg2:T64
+R47	bodyClinicalFeature Arg1:T56 Arg2:T59
+R48	bodyClinicalFeature Arg1:T56 Arg2:T72
+R49	bodyClinicalFeature Arg1:T56 Arg2:T61
+R50	bodyClinicalFeature Arg1:T65 Arg2:T66
+R51	bodyClinicalFeature Arg1:T67 Arg2:T68
+R52	bodyClinicalFeature Arg1:T67 Arg2:T69
+R53	signIndexValue Arg1:T70 Arg2:T71
+T73	body 33 37	右膝关节
+R54	bodyClinicalFeature Arg1:T73 Arg2:T5
+R55	bodyClinicalFeature Arg1:T73 Arg2:T7
+R56	auxiliaryExaminationTime Arg1:T18 Arg2:T3
+R4	clinicalFeatureTrend Arg1:T5 Arg2:T6
+T60	negative 51 52	不
+R44	negativeClinicalFeature Arg1:T60 Arg2:T8

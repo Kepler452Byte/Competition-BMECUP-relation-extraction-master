@@ -1,0 +1,116 @@
+T3	clinicalFeature 10 12	发热
+T4	time 12 14	2天
+T5	time 23 26	2天前
+T6	cause 26 31	无明显诱因
+T9	clinicalFeature 41 43	发热
+T10	sign 44 48	最高体温
+T11	indexValue 48 53	38.7℃
+T12	clinicalFeature 55 57	恶心
+T13	clinicalFeature 57 59	呕吐
+T14	frequency 59 61	1次
+T15	modification 63 71	呕吐物为胃内容物
+T16	negative 72 73	无
+T17	clinicalFeature 73 75	头晕
+T18	clinicalFeature 75 77	头痛
+T19	negative 78 79	无
+T20	clinicalFeature 79 81	腹泻
+T21	clinicalFeature 81 83	腹胀
+T22	auxiliaryExamination 115 119	全腹CT
+T23	body 121 125	左侧肾盂
+T24	auxiliaryDescript 125 127	扩大
+T26	body 132 135	肾盂内
+T45	sign 247 249	体温
+T46	indexValue 249 254	38.0℃
+T47	sign 255 257	脉搏
+T48	indexValue 257 262	70次/分
+T49	sign 263 265	呼吸
+T50	indexValue 265 270	20次/分
+T51	sign 271 273	血压
+T52	indexValue 273 283	132/88mmHg
+T53	clinicalFeature 285 288	神志清
+T55	body 294 296	皮肤
+T56	clinicalFeature 298 301	无黄染
+T57	body 302 303	腹
+T58	clinicalFeature 303 305	平软
+T59	body 306 308	腹部
+T61	clinicalFeature 312 315	反跳痛
+T62	clinicalFeature 316 320	未及包块
+T66	body 339 344	双侧腹股沟
+T67	clinicalFeature 344 348	未及肿块
+T1	clinicalFeature 4 9	左侧腰腹痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+T2	clinicalFeature 34 39	左侧腰腹痛
+R3	clinicalFeatureTime Arg1:T2 Arg2:T5
+R4	causeClinicalFeature Arg1:T6 Arg2:T2
+R5	causeClinicalFeature Arg1:T6 Arg2:T9
+R6	clinicalFeatureTime Arg1:T9 Arg2:T5
+R7	signIndexValue Arg1:T10 Arg2:T11
+R9	clinicalFeatureFrequency Arg1:T12 Arg2:T14
+R10	clinicalFeatureFrequency Arg1:T13 Arg2:T14
+R11	clinicalFeatureTime Arg1:T12 Arg2:T5
+R12	clinicalFeatureTime Arg1:T13 Arg2:T5
+R13	modificationClinicalFeature Arg1:T15 Arg2:T13
+R14	negativeClinicalFeature Arg1:T16 Arg2:T17
+R15	negativeClinicalFeature Arg1:T16 Arg2:T18
+R16	negativeClinicalFeature Arg1:T19 Arg2:T20
+R17	negativeClinicalFeature Arg1:T19 Arg2:T21
+R18	clinicalFeatureTime Arg1:T17 Arg2:T5
+R19	clinicalFeatureTime Arg1:T18 Arg2:T5
+R20	clinicalFeatureTime Arg1:T20 Arg2:T5
+R21	clinicalFeatureTime Arg1:T21 Arg2:T5
+T7	quantity 135 137	多发
+T8	auxiliaryDescript 137 139	结石
+R24	auxiliaryDescriptQuantity Arg1:T8 Arg2:T7
+R25	bodyAuxiliaryDescript Arg1:T26 Arg2:T8
+T25	auxiliaryDescript 128 131	壁增厚
+R23	bodyAuxiliaryDescript Arg1:T23 Arg2:T25
+T27	body 141 143	肝脏
+T28	auxiliaryDescript 143 147	小钙化点
+R26	bodyAuxiliaryDescript Arg1:T27 Arg2:T28
+T68	body 148 150	肝脏
+T69	auxiliaryDescript 150 153	小囊肿
+R27	bodyAuxiliaryDescript Arg1:T68 Arg2:T69
+T29	body 157 163	双侧附件区域
+T30	auxiliaryDescript 163 167	高密度影
+R29	bodyAuxiliaryDescript Arg1:T29 Arg2:T30
+R22	bodyAuxiliaryDescript Arg1:T23 Arg2:T24
+R31	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T24
+R32	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T25
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T8
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T28
+R35	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T69
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T30
+T32	disease 181 189	左肾积水伴肾结石
+T73	disease 190 195	泌尿道感染
+R46	signIndexValue Arg1:T45 Arg2:T46
+R47	signIndexValue Arg1:T47 Arg2:T48
+R48	signIndexValue Arg1:T49 Arg2:T50
+R49	signIndexValue Arg1:T51 Arg2:T52
+T54	clinicalFeature 289 293	精神稍软
+R50	bodyClinicalFeature Arg1:T55 Arg2:T56
+R51	bodyClinicalFeature Arg1:T57 Arg2:T58
+T60	negative 308 309	无
+T74	clinicalFeature 309 311	压痛
+R52	negativeClinicalFeature Arg1:T60 Arg2:T74
+R53	negativeClinicalFeature Arg1:T60 Arg2:T61
+R54	bodyClinicalFeature Arg1:T59 Arg2:T74
+R55	bodyClinicalFeature Arg1:T59 Arg2:T61
+R56	bodyClinicalFeature Arg1:T59 Arg2:T62
+T63	body 321 324	耻骨上
+T75	clinicalFeature 324 330	未及充盈膀胱
+R57	bodyClinicalFeature Arg1:T63 Arg2:T75
+T64	sign 334 336	叩痛
+T65	indexValue 336 338	阳性
+R58	signIndexValue Arg1:T64 Arg2:T65
+R59	bodyClinicalFeature Arg1:T66 Arg2:T67
+T76	body 296 298	巩膜
+R60	bodyClinicalFeature Arg1:T76 Arg2:T56
+T77	time 96 97	今
+R61	auxiliaryExaminationTime Arg1:T22 Arg2:T77
+T78	cure 90 94	未予处理
+R62	cureTime Arg1:T78 Arg2:T5
+T71	modification 168 171	术后？
+R30	auxiliaryDesModification Arg1:T30 Arg2:T71
+T72	body 331 334	左肾区
+R37	bodySign Arg1:T72 Arg2:T64

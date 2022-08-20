@@ -1,0 +1,109 @@
+T1	disease 4 14	左肩锁关节脱位折术后
+T2	time 14 17	4月余
+T3	time 26 29	4月前
+T4	cause 36 38	摔伤
+T5	clinicalFeature 39 43	左肩疼痛
+T6	clinicalFeature 45 54	上举、后伸活动受限
+T7	clinicalFeature 48 54	后伸活动受限
+T8	body 55 58	左上肢
+T9	clinicalFeature 55 61	左上肢无麻木
+T10	clinicalFeature 58 61	无麻木
+T11	body 62 64	手指
+T12	clinicalFeature 64 67	活动可
+T13	negative 68 69	无
+T14	clinicalFeature 69 71	发热
+T15	negative 72 73	无
+T16	clinicalFeature 73 75	头晕
+T17	clinicalFeature 76 78	头痛
+T18	negative 79 80	无
+T19	clinicalFeature 80 82	恶心
+T20	clinicalFeature 83 85	呕吐
+T21	auxiliaryExamination 97 99	拍片
+T22	body 101 106	左肩锁关节
+T23	auxiliaryDescript 106 108	脱位
+T24	cure 109 115	未予特殊处理
+T25	disease 131 138	左肩锁关节脱位
+T26	time 147 156	2019-08-9
+T27	operation 164 178	左肩锁关节脱位切开复位内固定
+T28	clinicalFeature 189 195	功能恢复尚可
+T29	time 196 197	现
+T30	negative 197 198	无
+T31	clinicalFeature 200 202	畏寒
+T32	clinicalFeature 202 204	发热
+T33	clinicalFeature 204 206	心悸
+T34	clinicalFeature 206 208	胸闷
+T35	time 213 214	今
+T36	disease 232 242	左肩锁关节脱位折术后
+T37	sign 294 296	体温
+T38	indexValue 296 301	36.0℃
+T39	sign 302 304	脉搏
+T40	indexValue 304 310	102次/分
+T41	sign 311 313	呼吸
+T42	indexValue 313 318	19次/分
+T43	sign 319 321	血压
+T44	indexValue 321 331	116/76mmHg
+T45	clinicalFeature 332 335	神志清
+T46	clinicalFeature 336 339	精神可
+T47	body 340 344	双肺听诊
+T48	clinicalFeature 344 349	呼吸音清晰
+T49	clinicalFeature 350 359	未及明显干湿性啰音
+T50	clinicalFeature 360 363	心律齐
+T51	body 365 369	瓣膜听诊
+T52	clinicalFeature 369 372	无杂音
+T53	body 373 374	腹
+T54	clinicalFeature 374 376	平软
+T55	clinicalFeature 376 379	无压痛
+T56	body 380 382	左肩
+T57	clinicalFeature 384 391	陈旧性手术疤痕
+T58	modification 392 395	愈合佳
+T59	modification 396 403	无明显窦道形成
+T60	body 404 407	右上肢
+T61	clinicalFeature 407 413	感觉及活动可
+T62	sign 414 416	肌力
+T63	indexValue 416 418	V级
+T64	sign 419 422	肌张力
+T65	indexValue 422 424	正常
+T66	sign 425 428	病理征
+T67	indexValue 428 430	阴性
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	causeClinicalfeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R6	bodyClinicalfeature Arg1:T9 Arg2:T9
+R7	bodyClinicalfeature Arg1:T9 Arg2:T10
+R8	clinicalFeatureTime Arg1:T9 Arg2:T3
+R9	clinicalFeatureTime Arg1:T10 Arg2:T3
+R10	bodyClinicalfeature Arg1:T11 Arg2:T12
+R11	clinicalFeatureTime Arg1:T12 Arg2:T3
+R12	negativeClinicalfeature Arg1:T13 Arg2:T14
+R13	clinicalFeatureTime Arg1:T14 Arg2:T3
+R14	negativeClinicalfeature Arg1:T15 Arg2:T17
+R15	clinicalFeatureTime Arg1:T16 Arg2:T3
+R16	clinicalFeatureTime Arg1:T17 Arg2:T3
+R17	negativeClinicalfeature Arg1:T18 Arg2:T20
+R18	clinicalFeatureTime Arg1:T19 Arg2:T3
+R19	clinicalFeatureTime Arg1:T20 Arg2:T3
+R20	auxiliaryExaminationTime Arg1:T21 Arg2:T3
+R21	bodyAuxiliarydescript Arg1:T22 Arg2:T23
+R22	cureTime Arg1:T24 Arg2:T3
+R23	clinicalFeatureTime Arg1:T31 Arg2:T29
+R24	clinicalFeatureTime Arg1:T32 Arg2:T29
+R25	clinicalFeatureTime Arg1:T33 Arg2:T26
+R26	clinicalFeatureTime Arg1:T33 Arg2:T29
+R27	clinicalFeatureTime Arg1:T34 Arg2:T26
+R28	clinicalFeatureTime Arg1:T34 Arg2:T29
+R29	signIndexvalue Arg1:T37 Arg2:T38
+R30	signIndexvalue Arg1:T39 Arg2:T40
+R31	signIndexvalue Arg1:T41 Arg2:T42
+R32	signIndexvalue Arg1:T43 Arg2:T44
+R33	bodyClinicalfeature Arg1:T47 Arg2:T49
+R34	bodyClinicalfeature Arg1:T51 Arg2:T52
+R35	bodyClinicalfeature Arg1:T53 Arg2:T55
+R36	bodyClinicalfeature Arg1:T56 Arg2:T57
+R37	modificationClinicalfeature Arg1:T58 Arg2:T57
+R38	modificationClinicalfeature Arg1:T59 Arg2:T57
+R39	bodyClinicalfeature Arg1:T60 Arg2:T61
+R40	signIndexvalue Arg1:T62 Arg2:T63
+R41	signIndexvalue Arg1:T64 Arg2:T65
+R42	signIndexvalue Arg1:T66 Arg2:T67

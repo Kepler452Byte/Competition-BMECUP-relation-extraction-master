@@ -1,0 +1,103 @@
+T1	sign 8 10	T：
+T2	indexValue 10 15	37.8℃
+T3	sign 16 18	P：
+T4	indexValue 18 23	96bpm
+T5	sign 24 26	BP
+T6	indexValue 27 37	148/82mmhg
+T7	sign 38 40	R：
+T8	indexValue 40 45	19bpm
+T9	clinicalFeature 46 49	神志清
+T10	clinicalFeature 50 53	精神可
+T11	body 54 56	双瞳
+T12	clinicalFeature 56 60	等大等圆
+T13	clinicalFeature 61 67	Φ3.0mm
+T14	clinicalFeature 68 74	对光反射灵敏
+T15	body 75 76	颈
+T16	clinicalFeature 76 77	软
+T17	sign 79 82	颈抵抗
+T18	indexValue 82 84	阴性
+T19	sign 85 88	克氏征
+T20	indexValue 88 90	阴性
+T21	body 91 94	心前区
+T22	clinicalFeature 94 97	无膨隆
+T23	sign 98 102	心浊音界
+T24	indexValue 102 105	无扩大
+T25	clinicalFeature 106 109	无猫喘
+T26	clinicalFeature 110 118	未闻及病理性杂音
+T27	body 119 121	双肺
+T28	clinicalFeature 121 127	呼吸运动对称
+T29	body 128 130	双肺
+T30	clinicalFeature 130 135	呼吸音清晰
+T31	clinicalFeature 136 148	未闻及干、湿罗音及啸鸣音
+T32	body 149 150	腹
+T33	clinicalFeature 150 152	平坦
+T34	body 154 155	肝
+T35	body 156 157	脾
+T36	clinicalFeature 157 164	肋下、剑下未及
+T37	body 165 169	肝、脾区
+T38	negative 169 171	未及
+T39	clinicalFeature 171 173	叩痛
+T40	clinicalFeature 174 176	压痛
+T41	body 177 178	肝
+T42	body 179 180	脾
+T43	sign 180 183	浊音界
+T44	indexValue 183 186	无扩大
+T45	sign 187 191	墨菲氏征
+T46	indexValue 191 193	阴性
+T47	sign 194 197	肠鸣音
+T48	indexValue 197 203	4-5bpm
+T49	indexValue 204 206	调中
+T50	sign 207 211	神经系统
+T51	indexValue 211 213	阴性
+T52	body 214 216	脊柱
+T53	clinicalFeature 216 222	生理弯曲存在
+T54	clinicalFeature 223 226	无侧弯
+T55	negative 228 230	未及
+T56	clinicalFeature 232 234	压痛
+T57	clinicalFeature 235 237	叩痛
+T58	body 238 241	左小腿
+T59	body 238 243	左小腿远端
+T60	clinicalFeature 241 245	远端肿胀
+T61	clinicalFeature 243 245	肿胀
+T62	body 246 248	局部
+T63	clinicalFeature 248 250	压痛
+T64	body 251 255	左踝关节
+T65	clinicalFeature 255 259	活动受限
+T66	clinicalFeature 260 266	未及麻木不适
+T67	body 267 273	左侧足背动脉
+T68	clinicalFeature 273 277	波动良好
+T69	clinicalFeature 278 284	末梢循环良好
+T70	sign 285 289	生理反射
+T71	indexValue 289 291	存在
+T72	sign 292 296	病理反射
+T73	indexValue 296 299	未引出
+R1	signIndexvalue Arg1:T1 Arg2:T2
+R2	signIndexvalue Arg1:T3 Arg2:T4
+R3	signIndexvalue Arg1:T5 Arg2:T6
+R4	signIndexvalue Arg1:T7 Arg2:T8
+R5	bodyClinicalfeature Arg1:T11 Arg2:T14
+R6	bodyClinicalfeature Arg1:T15 Arg2:T16
+R7	signIndexvalue Arg1:T17 Arg2:T18
+R8	signIndexvalue Arg1:T19 Arg2:T20
+R9	bodyClinicalfeature Arg1:T21 Arg2:T26
+R10	signIndexvalue Arg1:T23 Arg2:T24
+R11	bodyClinicalfeature Arg1:T27 Arg2:T28
+R12	bodyClinicalfeature Arg1:T29 Arg2:T31
+R13	bodyClinicalfeature Arg1:T32 Arg2:T33
+R14	bodyClinicalfeature Arg1:T34 Arg2:T36
+R15	bodyClinicalfeature Arg1:T35 Arg2:T36
+R16	bodyClinicalfeature Arg1:T37 Arg2:T40
+R17	negativeClinicalfeature Arg1:T38 Arg2:T40
+R18	bodySign Arg1:T41 Arg2:T43
+R19	bodySign Arg1:T42 Arg2:T43
+R20	signIndexvalue Arg1:T43 Arg2:T44
+R21	signIndexvalue Arg1:T45 Arg2:T46
+R22	signIndexvalue Arg1:T47 Arg2:T49
+R23	signIndexvalue Arg1:T50 Arg2:T51
+R24	bodyClinicalfeature Arg1:T52 Arg2:T57
+R25	negativeClinicalfeature Arg1:T55 Arg2:T57
+R26	bodyClinicalfeature Arg1:T62 Arg2:T63
+R27	bodyClinicalfeature Arg1:T64 Arg2:T66
+R28	bodyClinicalfeature Arg1:T67 Arg2:T69
+R29	signIndexvalue Arg1:T70 Arg2:T71
+R30	signIndexvalue Arg1:T72 Arg2:T73

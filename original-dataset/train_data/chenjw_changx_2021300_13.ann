@@ -1,0 +1,136 @@
+T1	clinicalFeature 7 12	左肩部疼痛
+T2	time 12 15	19天
+T3	time 26 30	19天前
+T4	cause 49 51	摔倒
+T5	clinicalFeature 58 60	疼痛
+T6	clinicalFeature 62 66	活动受限
+T7	clinicalFeature 69 71	疼痛
+T8	negative 72 73	无
+T9	clinicalFeature 75 77	胸闷
+T10	clinicalFeature 78 80	气急
+T11	clinicalFeature 81 85	呼吸困难
+T12	negative 87 88	无
+T13	clinicalFeature 88 94	头、腹部外伤
+T14	clinicalFeature 97 101	肢体麻木
+T15	negative 102 103	无
+T16	clinicalFeature 104 109	大小便异常
+T18	auxiliaryExamination 135 144	左肩关节平扫(CT
+T19	body 149 154	左肩关节诸
+T20	auxiliaryDescript 154 167	骨CT平扫目前未见明显异常
+T22	disease 179 184	左肩袖损伤
+T35	sign 236 238	T:
+T36	indexValue 238 243	36.8℃
+T37	sign 244 245	P
+T38	indexValue 246 252	100bpm
+T39	sign 253 255	BP
+T40	indexValue 256 266	140/95mmhg
+T41	sign 267 269	R:
+T42	indexValue 269 274	19bpm
+T43	clinicalFeature 275 277	神清
+T44	clinicalFeature 278 281	精神可
+T45	body 282 284	头部
+T46	clinicalFeature 284 287	无畸形
+T47	body 288 290	双瞳
+T48	clinicalFeature 290 294	等大等圆
+T49	clinicalFeature 295 301	Φ3.0mm
+T50	clinicalFeature 302 308	对光反射灵敏
+T51	body 310 311	颈
+T52	clinicalFeature 311 312	软
+T53	sign 313 316	颈抵抗
+T54	indexValue 316 318	阴性
+T55	sign 319 322	克氏征
+T56	indexValue 322 324	阴性
+T57	body 325 326	心
+T58	body 326 327	肺
+T59	clinicalFeature 327 335	听诊未及明显异常
+T60	body 336 337	腹
+T61	clinicalFeature 337 339	平坦
+T62	body 340 341	肝
+T63	body 342 343	脾
+T64	clinicalFeature 343 350	肋下、剑下未及
+T65	body 351 355	肝、脾区
+T66	negative 355 357	未及
+T67	clinicalFeature 357 359	叩痛
+T68	clinicalFeature 360 362	压痛
+T69	body 363 364	肝
+T70	body 365 366	脾
+T72	sign 373 377	墨菲氏征
+T73	indexValue 377 379	阴性
+T74	sign 380 383	肠鸣音
+T75	indexValue 383 389	3-4bpm
+T76	indexValue 391 393	调中
+T77	sign 394 398	神经系统
+T78	indexValue 398 400	阴性
+T79	body 401 403	脊柱
+T80	clinicalFeature 403 409	生理弯曲存在
+T81	clinicalFeature 410 416	未见明显侧弯
+T82	body 417 420	左肩部
+T83	clinicalFeature 421 423	压痛
+T84	clinicalFeature 425 429	活动受限
+T85	clinicalFeature 430 437	未及明显骨擦感
+T86	sign 438 442	生理反射
+T87	indexValue 442 444	存在
+T88	sign 445 449	病理反射
+T89	indexValue 449 452	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T90	cause 4 6	车祸
+R2	causeClinicalFeature Arg1:T90 Arg2:T1
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T5 Arg2:T3
+T91	body 55 58	左肩部
+R5	bodyClinicalFeature Arg1:T91 Arg2:T5
+R6	bodyClinicalFeature Arg1:T91 Arg2:T6
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T8 Arg2:T10
+R9	negativeClinicalFeature Arg1:T8 Arg2:T11
+R10	clinicalFeatureTime Arg1:T7 Arg2:T3
+R11	clinicalFeatureTime Arg1:T9 Arg2:T3
+R12	clinicalFeatureTime Arg1:T10 Arg2:T3
+R13	clinicalFeatureTime Arg1:T11 Arg2:T3
+R14	negativeClinicalFeature Arg1:T12 Arg2:T13
+T92	negative 95 96	无
+R15	negativeClinicalFeature Arg1:T92 Arg2:T14
+R16	clinicalFeatureTime Arg1:T13 Arg2:T3
+R17	clinicalFeatureTime Arg1:T14 Arg2:T3
+R18	negativeClinicalFeature Arg1:T15 Arg2:T16
+R19	clinicalFeatureTime Arg1:T16 Arg2:T3
+R22	bodyAuxiliaryDescript Arg1:T19 Arg2:T20
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T20
+R31	signIndexValue Arg1:T35 Arg2:T36
+R32	signIndexValue Arg1:T37 Arg2:T38
+R33	signIndexValue Arg1:T39 Arg2:T40
+R34	signIndexValue Arg1:T41 Arg2:T42
+R35	bodyClinicalFeature Arg1:T45 Arg2:T46
+R36	bodyClinicalFeature Arg1:T47 Arg2:T48
+R37	bodyClinicalFeature Arg1:T47 Arg2:T49
+R38	bodyClinicalFeature Arg1:T47 Arg2:T50
+R39	bodyClinicalFeature Arg1:T51 Arg2:T52
+R40	signIndexValue Arg1:T53 Arg2:T54
+R41	signIndexValue Arg1:T55 Arg2:T56
+R42	bodyClinicalFeature Arg1:T57 Arg2:T59
+R43	bodyClinicalFeature Arg1:T58 Arg2:T59
+R44	bodyClinicalFeature Arg1:T60 Arg2:T61
+R45	bodyClinicalFeature Arg1:T62 Arg2:T64
+R46	bodyClinicalFeature Arg1:T63 Arg2:T64
+R47	bodyClinicalFeature Arg1:T65 Arg2:T67
+R48	negativeClinicalFeature Arg1:T66 Arg2:T67
+R49	bodyClinicalFeature Arg1:T65 Arg2:T68
+R50	negativeClinicalFeature Arg1:T66 Arg2:T68
+R53	signIndexValue Arg1:T72 Arg2:T73
+R54	signIndexValue Arg1:T74 Arg2:T75
+R55	signIndexValue Arg1:T74 Arg2:T76
+R56	signIndexValue Arg1:T77 Arg2:T78
+R57	bodyClinicalFeature Arg1:T79 Arg2:T80
+R58	bodyClinicalFeature Arg1:T79 Arg2:T81
+R59	bodyClinicalFeature Arg1:T82 Arg2:T83
+R60	bodyClinicalFeature Arg1:T82 Arg2:T84
+R61	bodyClinicalFeature Arg1:T82 Arg2:T85
+R62	signIndexValue Arg1:T86 Arg2:T87
+R63	signIndexValue Arg1:T88 Arg2:T89
+T93	time 127 128	今
+R64	auxiliaryExaminationTime Arg1:T18 Arg2:T93
+T71	sign 366 369	浊音界
+T94	indexValue 369 372	无扩大
+R51	signIndexValue Arg1:T71 Arg2:T94
+R52	bodySign Arg1:T69 Arg2:T71
+R65	bodySign Arg1:T70 Arg2:T71

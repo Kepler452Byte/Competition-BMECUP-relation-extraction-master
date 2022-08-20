@@ -1,0 +1,14 @@
+T1	time 6 10	半小时前
+T2	cause 23 30	与轿车发生碰撞
+T3	body 32 34	头部
+T4	body 35 38	颜面部
+T5	clinicalFeature 38 42	外伤出血
+T6	modification 47 50	一过性
+T7	clinicalFeature 51 55	意识丧失
+T8	time 57 60	1分钟
+R1	causeClinicalfeature Arg1:T2 Arg2:T5
+R2	bodyClinicalfeature Arg1:T3 Arg2:T5
+R3	bodyClinicalfeature Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1
+R5	modificationClinicalfeature Arg1:T6 Arg2:T7
+R6	clinicalFeatureTime Arg1:T7 Arg2:T8

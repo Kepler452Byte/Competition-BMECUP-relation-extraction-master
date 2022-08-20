@@ -1,0 +1,15 @@
+T1	time 8 10	昨晚
+T2	clinicalFeature 21 23	头晕
+T3	clinicalFeature 24 26	头痛
+T4	modification 28 31	持续性
+T5	modification 32 34	稍感
+T6	clinicalFeature 34 38	胸闷不适
+T9	cause 15 19	摔落床下
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1
+R3	causeClinicalFeature Arg1:T9 Arg2:T2
+R4	causeClinicalFeature Arg1:T9 Arg2:T3
+R5	modificationClinicalFeature Arg1:T4 Arg2:T3
+R6	modificationClinicalFeature Arg1:T4 Arg2:T2
+R7	modificationClinicalFeature Arg1:T5 Arg2:T6
+R8	clinicalFeatureTime Arg1:T6 Arg2:T1

@@ -1,0 +1,132 @@
+T1	clinicalFeature 8 10	肿痛
+T2	clinicalFeature 11 15	活动受限
+T3	time 15 17	2天
+T4	time 28 31	2天前
+T5	cause 36 38	扭伤
+T6	clinicalFeature 46 48	肿痛
+T7	clinicalFeature 51 55	活动受限
+T8	negative 56 57	无
+T9	clinicalFeature 57 60	放射痛
+T10	negative 61 62	无
+T11	clinicalFeature 62 64	发热
+T12	clinicalFeature 65 67	畏寒
+T13	negative 68 69	无
+T14	clinicalFeature 69 71	盗汗
+T15	clinicalFeature 72 74	乏力
+T16	negative 75 76	无
+T17	clinicalFeature 76 78	恶心
+T18	clinicalFeature 78 80	呕吐
+T19	negative 81 82	无
+T20	clinicalFeature 82 84	头昏
+T21	negative 85 86	无
+T22	clinicalFeature 86 88	胸闷
+T23	clinicalFeature 88 90	气促
+T24	auxiliaryExamination 103 105	X线
+T25	body 112 115	左外踝
+T26	auxiliaryDescript 115 117	骨折
+T28	disease 152 157	左外踝骨折
+T29	disease 167 171	高血压病
+T30	time 172 174	1年
+T31	drug 177 181	厄贝沙坦
+T32	clinicalFeature 192 198	血压控制稳定
+T45	sign 245 246	T
+T46	indexValue 247 252	36.7℃
+T47	sign 253 254	P
+T48	indexValue 255 260	72次/分
+T49	sign 261 263	BP
+T50	indexValue 264 274	120/70mmhg
+T51	sign 275 276	R
+T52	indexValue 277 282	20bpm
+T53	clinicalFeature 283 286	神志清
+T54	clinicalFeature 287 290	精神可
+T55	body 291 292	心
+T56	body 292 293	肺
+T57	clinicalFeature 293 297	听诊无殊
+T58	body 298 299	腹
+T59	clinicalFeature 299 301	平软
+T60	body 302 304	脊柱
+T61	clinicalFeature 307 309	无殊
+T62	body 310 314	左踝关节
+T63	clinicalFeature 314 316	肿胀
+T64	clinicalFeature 317 319	压痛
+T67	clinicalFeature 322 327	周围无皮损
+T69	modification 328 334	外侧压痛明显
+T70	body 335 341	双侧足背动脉
+T71	clinicalFeature 341 345	搏动存在
+T72	body 346 348	足趾
+T73	clinicalFeature 348 355	血运、活动度可
+T74	clinicalFeature 356 361	末梢血运可
+T75	negative 363 364	无
+T76	clinicalFeature 364 368	肢体麻木
+T77	body 369 372	余肢体
+T78	clinicalFeature 372 378	未见明显异常
+T79	body 379 381	双侧
+T80	sign 381 384	腱反射
+T81	indexValue 384 386	正常
+T82	sign 387 390	病理征
+T83	indexValue 390 393	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+T84	body 38 40	左踝
+R3	bodyClinicalFeature Arg1:T84 Arg2:T6
+R4	bodyClinicalFeature Arg1:T84 Arg2:T7
+R5	negativeClinicalFeature Arg1:T8 Arg2:T9
+R6	negativeClinicalFeature Arg1:T10 Arg2:T11
+R7	negativeClinicalFeature Arg1:T10 Arg2:T12
+R8	negativeClinicalFeature Arg1:T13 Arg2:T14
+R9	negativeClinicalFeature Arg1:T13 Arg2:T15
+R10	negativeClinicalFeature Arg1:T16 Arg2:T17
+R11	negativeClinicalFeature Arg1:T16 Arg2:T18
+R12	negativeClinicalFeature Arg1:T19 Arg2:T20
+R13	negativeClinicalFeature Arg1:T21 Arg2:T22
+R14	negativeClinicalFeature Arg1:T21 Arg2:T23
+R15	causeClinicalFeature Arg1:T5 Arg2:T6
+R16	causeClinicalFeature Arg1:T5 Arg2:T7
+T85	body 4 6	左踝
+T86	cause 6 8	扭伤
+R2	bodyClinicalFeature Arg1:T85 Arg2:T1
+R17	bodyClinicalFeature Arg1:T85 Arg2:T2
+R18	clinicalFeatureTime Arg1:T1 Arg2:T3
+R19	causeClinicalFeature Arg1:T86 Arg2:T1
+R20	causeClinicalFeature Arg1:T86 Arg2:T2
+R21	bodyAuxiliaryDescript Arg1:T25 Arg2:T26
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T24 Arg2:T26
+T87	time 95 97	昨日
+R24	auxiliaryExaminationTime Arg1:T24 Arg2:T87
+R25	timeDisease Arg1:T30 Arg2:T29
+T88	drug 182 187	硝苯地平片
+R28	diseaseClinicalFeature Arg1:T29 Arg2:T32
+R35	signIndexValue Arg1:T45 Arg2:T46
+R36	signIndexValue Arg1:T47 Arg2:T48
+R37	signIndexValue Arg1:T49 Arg2:T50
+R38	signIndexValue Arg1:T51 Arg2:T52
+R39	bodyClinicalFeature Arg1:T55 Arg2:T57
+R40	bodyClinicalFeature Arg1:T56 Arg2:T57
+R41	bodyClinicalFeature Arg1:T58 Arg2:T59
+T89	body 305 307	骨盆
+R42	bodyClinicalFeature Arg1:T60 Arg2:T61
+R43	bodyClinicalFeature Arg1:T89 Arg2:T61
+R44	bodyClinicalFeature Arg1:T62 Arg2:T63
+R45	bodyClinicalFeature Arg1:T62 Arg2:T64
+R46	bodyClinicalFeature Arg1:T62 Arg2:T67
+R47	modificationClinicalFeature Arg1:T69 Arg2:T64
+R48	bodyClinicalFeature Arg1:T70 Arg2:T71
+R49	bodyClinicalFeature Arg1:T72 Arg2:T73
+R50	bodyClinicalFeature Arg1:T72 Arg2:T74
+R51	negativeClinicalFeature Arg1:T75 Arg2:T76
+R52	bodyClinicalFeature Arg1:T77 Arg2:T78
+R53	bodySign Arg1:T79 Arg2:T80
+R54	signIndexValue Arg1:T80 Arg2:T81
+R55	signIndexValue Arg1:T82 Arg2:T83
+T65	modification 48 50	明显
+R56	modificationClinicalFeature Arg1:T65 Arg2:T6
+R57	clinicalFeatureTime Arg1:T6 Arg2:T4
+R58	clinicalFeatureTime Arg1:T9 Arg2:T4
+R59	clinicalFeatureTime Arg1:T11 Arg2:T4
+R60	clinicalFeatureTime Arg1:T12 Arg2:T4
+R61	clinicalFeatureTime Arg1:T14 Arg2:T4
+R62	clinicalFeatureTime Arg1:T15 Arg2:T4
+R63	clinicalFeatureTime Arg1:T17 Arg2:T4
+R64	clinicalFeatureTime Arg1:T18 Arg2:T4
+R65	clinicalFeatureTime Arg1:T20 Arg2:T4
+R66	clinicalFeatureTime Arg1:T22 Arg2:T4
+R67	clinicalFeatureTime Arg1:T23 Arg2:T4

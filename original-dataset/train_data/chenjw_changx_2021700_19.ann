@@ -1,0 +1,123 @@
+T1	clinicalFeature 4 8	四肢乏力
+T2	time 8 10	1天
+T3	trend 11 13	加重
+T4	time 13 16	6小时
+T5	time 26 29	1天前
+T6	clinicalFeature 33 37	四肢乏力
+T7	clinicalFeature 39 41	咽痛
+T8	negative 44 45	无
+T9	clinicalFeature 45 47	头晕
+T10	clinicalFeature 47 49	头痛
+T11	negative 50 51	无
+T12	clinicalFeature 51 53	畏寒
+T13	clinicalFeature 53 55	发热
+T14	negative 56 57	无
+T15	clinicalFeature 57 59	胸闷
+T16	clinicalFeature 59 61	气促
+T17	cure 76 80	输液治疗
+T19	time 88 92	6小时前
+T20	clinicalFeature 103 107	四肢乏力
+T21	trend 107 112	进行性加重
+T22	body 115 117	四肢
+T23	clinicalFeature 117 121	活动受限
+T24	laboratory 131 133	血钾
+T25	laboratoryValue 133 142	1.7mmol/L
+T27	disease 145 150	低钾性麻痹
+T39	sign 202 204	体温
+T40	indexValue 204 209	36.5℃
+T41	sign 210 212	脉搏
+T42	indexValue 212 217	90次/分
+T43	sign 218 220	呼吸
+T44	indexValue 220 225	17次/分
+T45	sign 226 228	血压
+T46	indexValue 228 238	115/74mmHg
+T47	clinicalFeature 239 242	神志清
+T48	clinicalFeature 243 246	精神软
+T49	body 247 251	双侧瞳孔
+T50	clinicalFeature 251 255	等大等圆
+T51	clinicalFeature 256 261	对光反射可
+T52	body 262 267	表浅淋巴结
+T53	clinicalFeature 267 270	未触及
+T54	clinicalFeature 271 275	呼吸平稳
+T55	body 277 278	颈
+T56	clinicalFeature 278 279	软
+T57	body 280 283	颈静脉
+T58	clinicalFeature 283 286	无怒张
+T59	body 287 290	甲状腺
+T60	clinicalFeature 290 292	不大
+T61	body 293 295	胸廓
+T62	clinicalFeature 295 298	无畸形
+T63	body 299 301	双肺
+T64	clinicalFeature 301 305	呼吸音粗
+T65	clinicalFeature 306 313	未闻及干湿罗音
+T66	sign 314 316	心率
+T67	indexValue 316 321	90次/分
+T68	clinicalFeature 322 324	律齐
+T69	body 325 326	腹
+T70	clinicalFeature 326 327	软
+T71	body 328 329	肝
+T72	body 329 330	脾
+T73	clinicalFeature 330 334	肋下未及
+T74	body 335 337	全腹
+T75	negative 337 338	无
+T76	clinicalFeature 340 342	压痛
+T77	clinicalFeature 343 346	反跳痛
+T78	body 347 350	双下肢
+T79	clinicalFeature 350 353	无浮肿
+T80	body 355 358	双上肢
+T81	sign 358 360	肌力
+T82	indexValue 360 362	4级
+T83	body 363 366	双下肢
+T84	sign 366 368	肌力
+T85	indexValue 368 370	2级
+T86	body 371 373	双侧
+T87	sign 373 376	巴氏征
+T88	indexValue 376 378	阴性
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTrend Arg1:T1 Arg2:T3
+R4	clinicalFeatureTime Arg1:T6 Arg2:T5
+T89	clinicalFeature 41 43	流涕
+R5	clinicalFeatureTime Arg1:T7 Arg2:T5
+R6	clinicalFeatureTime Arg1:T89 Arg2:T5
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T8 Arg2:T10
+R9	negativeClinicalFeature Arg1:T11 Arg2:T12
+R10	negativeClinicalFeature Arg1:T11 Arg2:T13
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	negativeClinicalFeature Arg1:T14 Arg2:T16
+R13	clinicalFeatureTime Arg1:T9 Arg2:T5
+R14	clinicalFeatureTime Arg1:T10 Arg2:T5
+R15	clinicalFeatureTime Arg1:T12 Arg2:T5
+R16	clinicalFeatureTime Arg1:T13 Arg2:T5
+R17	clinicalFeatureTime Arg1:T15 Arg2:T5
+R18	clinicalFeatureTime Arg1:T16 Arg2:T5
+R19	clinicalFeatureTime Arg1:T20 Arg2:T19
+R20	clinicalFeatureTrend Arg1:T20 Arg2:T21
+R21	bodyClinicalFeature Arg1:T22 Arg2:T23
+R22	laboratoryLaboratoryValue Arg1:T24 Arg2:T25
+R30	signIndexValue Arg1:T39 Arg2:T40
+R31	signIndexValue Arg1:T41 Arg2:T42
+R32	signIndexValue Arg1:T43 Arg2:T44
+R33	signIndexValue Arg1:T45 Arg2:T46
+R34	bodyClinicalFeature Arg1:T52 Arg2:T53
+R35	bodyClinicalFeature Arg1:T55 Arg2:T56
+R36	bodyClinicalFeature Arg1:T57 Arg2:T58
+R37	bodyClinicalFeature Arg1:T59 Arg2:T60
+R38	bodyClinicalFeature Arg1:T61 Arg2:T62
+R39	bodyClinicalFeature Arg1:T63 Arg2:T64
+R40	bodyClinicalFeature Arg1:T63 Arg2:T65
+R41	signIndexValue Arg1:T66 Arg2:T67
+R42	bodyClinicalFeature Arg1:T69 Arg2:T70
+R43	bodyClinicalFeature Arg1:T71 Arg2:T73
+R44	bodyClinicalFeature Arg1:T72 Arg2:T73
+R45	negativeClinicalFeature Arg1:T75 Arg2:T76
+R46	negativeClinicalFeature Arg1:T75 Arg2:T77
+R47	bodyClinicalFeature Arg1:T74 Arg2:T76
+R48	bodyClinicalFeature Arg1:T74 Arg2:T77
+R49	bodyClinicalFeature Arg1:T78 Arg2:T79
+R50	bodySign Arg1:T80 Arg2:T81
+R51	signIndexValue Arg1:T81 Arg2:T82
+R52	bodySign Arg1:T83 Arg2:T84
+R53	signIndexValue Arg1:T84 Arg2:T85
+R54	bodySign Arg1:T86 Arg2:T87
+R55	signIndexValue Arg1:T87 Arg2:T88

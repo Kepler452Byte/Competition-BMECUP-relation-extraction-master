@@ -1,0 +1,94 @@
+T1	disease 4 13	左肱骨近端骨折术后
+T2	time 13 16	13月
+T3	time 26 31	13个月前
+T4	cause 38 40	摔倒
+T5	clinicalFeature 44 49	左肩部疼痛
+T6	clinicalFeature 51 55	活动受限
+T7	negative 56 57	无
+T8	clinicalFeature 57 61	皮肤破裂
+T9	clinicalFeature 57 63	皮肤破裂出血
+T10	clinicalFeature 61 63	出血
+T11	negative 64 66	否认
+T12	clinicalFeature 69 71	头晕
+T13	clinicalFeature 71 73	头痛
+T14	clinicalFeature 74 76	胸闷
+T15	clinicalFeature 76 78	气急
+T16	clinicalFeature 79 81	腹痛
+T17	clinicalFeature 81 83	腹胀
+T18	auxiliaryExamination 95 101	左肩关节CT
+T19	body 103 108	左肱骨上端
+T20	auxiliaryDescript 108 113	粉碎性骨折
+T21	body 120 125	左肱骨近端
+T22	operation 120 134	左肱骨近端骨折切开复位内固定
+T23	cure 142 144	抗炎
+T24	cure 142 147	抗炎、补液
+T25	cure 145 147	补液
+T26	cure 145 151	补液对症治疗
+T27	clinicalFeature 168 174	指导功能锻炼
+T28	time 175 176	现
+T29	body 180 183	左上肢
+T30	negative 189 190	无
+T31	negative 193 194	无
+T32	clinicalFeature 197 201	活动自如
+T33	disease 218 227	左肱骨近端骨折术后
+T34	sign 278 280	体温
+T35	indexValue 280 285	36.0℃
+T36	sign 286 288	脉搏
+T37	indexValue 288 294	100次/分
+T38	sign 295 297	呼吸
+T39	indexValue 297 302	20次/分
+T40	sign 303 305	血压
+T41	indexValue 305 315	140/90mmHg
+T42	clinicalFeature 318 321	神志清
+T43	clinicalFeature 322 325	精神可
+T44	clinicalFeature 326 330	查体配合
+T45	clinicalFeature 331 335	对答切题
+T46	body 336 339	右上肢
+T47	body 336 341	右上肢前侧
+T48	clinicalFeature 341 350	陈旧性手术切口疤痕
+T49	modification 352 355	愈合佳
+T50	clinicalFeature 356 359	无压痛
+T51	body 360 362	手指
+T52	clinicalFeature 362 368	活动及血供可
+T53	body 369 371	四肢
+T54	sign 371 373	肌力
+T55	indexValue 373 375	5级
+T56	sign 376 379	肌张力
+T57	indexValue 379 381	正常
+T58	sign 382 391	神经系统检查病理征
+T59	indexValue 391 394	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	timeOperation Arg1:T3 Arg2:T22
+R3	causeClinicalfeature Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T5 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+R6	negativeClinicalfeature Arg1:T7 Arg2:T9
+R7	negativeClinicalfeature Arg1:T7 Arg2:T10
+R8	clinicalFeatureTime Arg1:T9 Arg2:T3
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R10	clinicalFeatureTime Arg1:T10 Arg2:T3
+R11	negativeClinicalfeature Arg1:T11 Arg2:T17
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	clinicalFeatureTime Arg1:T13 Arg2:T3
+R14	clinicalFeatureTime Arg1:T14 Arg2:T3
+R15	clinicalFeatureTime Arg1:T15 Arg2:T3
+R16	clinicalFeatureTime Arg1:T16 Arg2:T3
+R17	clinicalFeatureTime Arg1:T17 Arg2:T3
+R18	auxiliaryExaminationTime Arg1:T18 Arg2:T3
+R19	bodyAuxiliarydescript Arg1:T19 Arg2:T20
+R20	cureTime Arg1:T24 Arg2:T3
+R21	cureTime Arg1:T24 Arg2:T3
+R22	cureTime Arg1:T26 Arg2:T3
+R23	cureTime Arg1:T26 Arg2:T3
+R24	signIndexvalue Arg1:T34 Arg2:T35
+R25	signIndexvalue Arg1:T36 Arg2:T37
+R26	signIndexvalue Arg1:T38 Arg2:T39
+R27	signIndexvalue Arg1:T40 Arg2:T41
+R28	bodyClinicalfeature Arg1:T47 Arg2:T48
+R29	bodyClinicalfeature Arg1:T47 Arg2:T48
+R30	modificationClinicalfeature Arg1:T49 Arg2:T48
+R31	bodyClinicalfeature Arg1:T51 Arg2:T52
+R32	bodySign Arg1:T53 Arg2:T54
+R33	signIndexvalue Arg1:T54 Arg2:T55
+R34	signIndexvalue Arg1:T56 Arg2:T57
+R35	signIndexvalue Arg1:T58 Arg2:T59

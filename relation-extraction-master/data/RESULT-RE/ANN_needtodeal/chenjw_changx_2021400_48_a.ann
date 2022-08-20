@@ -1,0 +1,86 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 12	左小腿肿痛
+T3	time 12 15	1小时
+T4	time 28 34	入院前1小时
+T5	cause 37 39	摔伤
+T6	body 41 46	左小腿远端
+T7	clinicalFeature 44 48	远端疼痛
+T8	clinicalFeature 46 48	疼痛
+T9	clinicalFeature 49 51	畸形
+T10	clinicalFeature 52 54	疼痛
+T11	modification 52 54	疼痛
+T12	modification 55 59	较为剧烈
+T13	modification 61 64	持续性
+T14	modification 64 69	酸胀样疼痛
+T15	clinicalFeature 70 74	活动受限
+T16	clinicalFeature 75 79	行走不能
+T17	negative 80 82	否认
+T18	clinicalFeature 82 84	昏迷
+T19	clinicalFeature 87 89	头晕
+T20	negative 90 91	无
+T21	clinicalFeature 91 93	头痛
+T22	negative 95 96	无
+T23	clinicalFeature 96 98	畏寒
+T24	clinicalFeature 98 100	发热
+T25	negative 101 102	无
+T26	clinicalFeature 102 104	恶心
+T27	clinicalFeature 104 106	呕吐
+T28	negative 107 108	无
+T29	clinicalFeature 108 110	胸闷
+T30	clinicalFeature 110 112	气促
+T31	negative 113 114	无
+T32	clinicalFeature 114 116	胸痛
+T33	clinicalFeature 116 118	心悸
+T34	negative 119 120	无
+T35	clinicalFeature 120 125	大小便失禁
+T36	negative 126 128	否认
+T37	clinicalFeature 129 133	其他外伤
+T38	clinicalFeature 129 138	其他外伤及肢体麻木
+T39	clinicalFeature 139 143	活动障碍
+T40	auxiliaryExamination 163 165	X片
+T41	body 169 175	左胫腓骨下端
+T42	disease 169 177	左胫腓骨下端骨折
+T43	auxiliaryDescript 175 177	骨折
+T44	cure 179 187	稍复位后石膏固定
+T45	disease 190 198	左胫腓骨下端骨折
+T46	clinicalFeature 223 226	未睡眠
+R1	causeClinicalfeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalfeature Arg1:T5 Arg2:T11
+R4	bodyClinicalfeature Arg1:T6 Arg2:T9
+R5	bodyClinicalfeature Arg1:T6 Arg2:T11
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R7	clinicalFeatureTime Arg1:T9 Arg2:T4
+R8	modificationClinicalfeature Arg1:T11 Arg2:T9
+R9	modificationClinicalfeature Arg1:T11 Arg2:T11
+R10	modificationClinicalfeature Arg1:T12 Arg2:T9
+R11	modificationClinicalfeature Arg1:T12 Arg2:T11
+R12	modificationClinicalfeature Arg1:T14 Arg2:T11
+R13	clinicalFeatureTime Arg1:T16 Arg2:T4
+R14	negativeClinicalfeature Arg1:T17 Arg2:T18
+R15	clinicalFeatureTime Arg1:T18 Arg2:T4
+R16	clinicalFeatureTime Arg1:T19 Arg2:T4
+R17	negativeClinicalfeature Arg1:T20 Arg2:T21
+R18	clinicalFeatureTime Arg1:T21 Arg2:T4
+R19	negativeClinicalfeature Arg1:T22 Arg2:T24
+R20	clinicalFeatureTime Arg1:T23 Arg2:T4
+R21	clinicalFeatureTime Arg1:T24 Arg2:T4
+R22	negativeClinicalfeature Arg1:T25 Arg2:T27
+R23	clinicalFeatureTime Arg1:T26 Arg2:T4
+R24	clinicalFeatureTime Arg1:T27 Arg2:T4
+R25	negativeClinicalfeature Arg1:T28 Arg2:T30
+R26	clinicalFeatureTime Arg1:T29 Arg2:T4
+R27	clinicalFeatureTime Arg1:T30 Arg2:T4
+R28	negativeClinicalfeature Arg1:T31 Arg2:T33
+R29	clinicalFeatureTime Arg1:T32 Arg2:T4
+R30	clinicalFeatureTime Arg1:T33 Arg2:T4
+R31	negativeClinicalfeature Arg1:T34 Arg2:T35
+R32	clinicalFeatureTime Arg1:T35 Arg2:T4
+R33	negativeClinicalfeature Arg1:T36 Arg2:T39
+R34	clinicalFeatureTime Arg1:T38 Arg2:T4
+R35	clinicalFeatureTime Arg1:T38 Arg2:T4
+R36	auxiliaryExaminationAuxiliarydescript Arg1:T40 Arg2:T43
+R37	auxiliaryExaminationCure Arg1:T40 Arg2:T44
+R38	bodyDisease Arg1:T42 Arg2:T42
+R39	bodyAuxiliarydescript Arg1:T42 Arg2:T43
+R40	diseaseAuxiliarydescript Arg1:T42 Arg2:T43

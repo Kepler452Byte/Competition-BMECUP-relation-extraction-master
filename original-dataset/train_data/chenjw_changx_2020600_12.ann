@@ -1,0 +1,94 @@
+T1	clinicalFeature 7 12	右小腿疼痛
+T2	time 12 14	5天
+T3	time 23 26	5天前
+T4	cause 30 32	撞伤
+T6	modification 42 47	活动稍受限
+T7	negative 48 49	无
+T8	clinicalFeature 51 56	双下肢麻木
+T9	body 57 59	余肢
+T10	clinicalFeature 59 61	无殊
+T11	negative 62 63	无
+T12	clinicalFeature 63 68	大小便失禁
+T13	negative 69 70	无
+T14	clinicalFeature 70 72	头晕
+T15	clinicalFeature 72 74	头痛
+T16	negative 76 77	无
+T17	clinicalFeature 77 79	恶心
+T18	clinicalFeature 79 81	呕吐
+T19	negative 82 83	无
+T20	clinicalFeature 83 85	胸闷
+T21	clinicalFeature 85 87	气急
+T22	negative 88 89	无
+T23	clinicalFeature 89 91	腹痛
+T24	clinicalFeature 91 93	腹胀
+T26	disease 141 149	右小腿软组织挫伤
+T27	clinicalFeature 158 162	血压增高
+T28	time 162 164	1周
+T42	sign 217 219	体温
+T43	indexValue 219 224	37.3℃
+T44	sign 225 227	脉搏
+T45	indexValue 227 232	88次/分
+T46	sign 233 235	呼吸
+T47	indexValue 235 240	20次/分
+T48	sign 241 243	血压
+T49	indexValue 243 253	131/84mmHg
+T51	body 264 266	局部
+T52	clinicalFeature 266 273	可见张力性水泡
+T53	modification 274 276	未破
+T54	clinicalFeature 284 290	局部压痛明显
+T55	body 292 295	双下肢
+T56	clinicalFeature 295 300	无明显麻木
+T58	cause 4 6	外伤
+R1	causeClinicalFeature Arg1:T58 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T5	clinicalFeature 35 39	小腿疼痛
+R5	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	modificationClinicalFeature Arg1:T6 Arg2:T5
+R6	bodyClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T11 Arg2:T12
+R8	negativeClinicalFeature Arg1:T13 Arg2:T14
+R9	negativeClinicalFeature Arg1:T13 Arg2:T15
+R11	negativeClinicalFeature Arg1:T16 Arg2:T17
+R12	negativeClinicalFeature Arg1:T16 Arg2:T18
+R13	negativeClinicalFeature Arg1:T19 Arg2:T20
+R14	negativeClinicalFeature Arg1:T19 Arg2:T21
+R15	negativeClinicalFeature Arg1:T22 Arg2:T23
+R16	negativeClinicalFeature Arg1:T22 Arg2:T24
+T59	trend 126 132	疼痛加重明显
+R4	clinicalFeatureTrend Arg1:T5 Arg2:T59
+T60	time 124 125	今
+R18	clinicalFeatureTime Arg1:T27 Arg2:T28
+R25	signIndexValue Arg1:T42 Arg2:T43
+R26	signIndexValue Arg1:T44 Arg2:T45
+R27	signIndexValue Arg1:T46 Arg2:T47
+R28	signIndexValue Arg1:T48 Arg2:T49
+T29	body 255 258	右小腿
+T50	clinicalFeature 259 263	肿胀明显
+R29	bodyClinicalFeature Arg1:T29 Arg2:T50
+R30	modificationClinicalFeature Arg1:T53 Arg2:T52
+R31	bodyClinicalFeature Arg1:T51 Arg2:T52
+T62	clinicalFeature 277 283	皮肤淤青存在
+R32	bodyClinicalFeature Arg1:T51 Arg2:T62
+R33	bodyClinicalFeature Arg1:T29 Arg2:T54
+R34	bodyClinicalFeature Arg1:T55 Arg2:T56
+T57	sign 304 306	肌力
+T63	indexValue 306 308	五级
+R35	signIndexValue Arg1:T57 Arg2:T63
+T64	sign 309 312	病理征
+T65	indexValue 312 315	（-）
+R36	signIndexValue Arg1:T64 Arg2:T65
+R37	clinicalFeatureTime Arg1:T5 Arg2:T3
+R38	negativeClinicalFeature Arg1:T7 Arg2:T8
+R39	clinicalFeatureTime Arg1:T8 Arg2:T3
+R40	clinicalFeatureTime Arg1:T10 Arg2:T3
+R41	clinicalFeatureTime Arg1:T12 Arg2:T3
+R42	clinicalFeatureTime Arg1:T14 Arg2:T3
+R43	clinicalFeatureTime Arg1:T15 Arg2:T3
+R44	clinicalFeatureTime Arg1:T17 Arg2:T3
+R45	clinicalFeatureTime Arg1:T18 Arg2:T3
+R46	clinicalFeatureTime Arg1:T20 Arg2:T3
+R47	clinicalFeatureTime Arg1:T23 Arg2:T3
+R48	clinicalFeatureTime Arg1:T24 Arg2:T3
+T25	cure 165 171	暂未特殊处理
+T66	body 301 304	双下肢
+R50	bodySign Arg1:T66 Arg2:T57

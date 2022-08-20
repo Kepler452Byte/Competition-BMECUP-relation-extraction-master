@@ -1,0 +1,147 @@
+T1	disease 4 11	右锁骨骨折术后
+T2	time 11 14	1年余
+T3	time 23 26	1年前
+T4	body 38 41	右肩部
+T5	body 42 45	右胸部
+T6	body 46 48	腰部
+T7	modification 53 56	持续性
+T8	modification 59 61	较剧
+T9	clinicalFeature 62 66	活动受限
+T10	body 69 72	右胸部
+T11	clinicalFeature 72 74	疼痛
+T12	body 75 77	腰部
+T13	clinicalFeature 77 81	活动受限
+T14	negative 82 83	无
+T15	clinicalFeature 85 89	上肢麻木
+T16	negative 91 92	无
+T17	clinicalFeature 92 97	大小便失禁
+T18	negative 98 99	无
+T19	clinicalFeature 99 101	头晕
+T20	clinicalFeature 101 104	头痛史
+T21	negative 105 106	无
+T22	clinicalFeature 106 108	恶心
+T23	clinicalFeature 108 110	呕吐
+T24	negative 111 112	无
+T25	clinicalFeature 112 114	胸闷
+T26	clinicalFeature 114 116	气急
+T27	negative 117 118	无
+T28	clinicalFeature 118 120	腹痛
+T29	clinicalFeature 120 122	腹胀
+T30	auxiliaryExamination 128 130	X线
+T31	auxiliaryExamination 131 133	CT
+T32	body 140 144	右侧锁骨
+T33	auxiliaryDescript 144 146	骨折
+T34	body 147 149	肋骨
+T35	auxiliaryDescript 149 151	骨折
+T36	auxiliaryDescript 152 158	腰椎横突骨折
+T37	disease 166 172	右侧锁骨骨折
+T38	time 179 188	2018-10-4
+T39	operation 189 202	右锁骨骨折切开复位内固定术
+T40	time 218 228	2019-12-4行
+T41	auxiliaryExamination 228 230	X线
+T42	body 233 236	右锁骨
+T43	auxiliaryDescript 236 245	骨折术后内固定在位
+T45	disease 262 269	右锁骨骨折术后
+T58	sign 318 320	体温
+T59	indexValue 320 325	36.7℃
+T60	sign 326 328	脉搏
+T61	indexValue 328 333	83次/分
+T62	sign 334 336	呼吸
+T63	indexValue 336 341	19次/分
+T64	sign 342 344	血压
+T65	indexValue 344 354	145/89mmHg
+T66	clinicalFeature 355 358	神志清
+T67	clinicalFeature 359 362	精神可
+T68	body 363 365	双肺
+T69	clinicalFeature 367 372	呼吸音清晰
+T70	clinicalFeature 373 382	未及明显干湿性啰音
+T71	clinicalFeature 383 386	心律齐
+T72	body 388 390	瓣膜
+T73	clinicalFeature 390 395	听诊无杂音
+T74	body 396 397	腹
+T75	clinicalFeature 397 399	平软
+T77	clinicalFeature 399 402	无压痛
+T78	body 403 405	右肩
+T79	clinicalFeature 407 414	陈旧性手术疤痕
+T80	modification 415 418	愈合佳
+T81	modification 419 426	无明显窦道形成
+T82	body 427 430	右上肢
+T83	clinicalFeature 430 436	感觉及活动可
+T84	sign 437 439	肌力
+T85	indexValue 439 441	V级
+T86	sign 442 445	肌张力
+T87	indexValue 445 447	正常
+T88	sign 448 451	病理征
+T89	indexValue 451 453	阴性
+R1	timeDisease Arg1:T2 Arg2:T1
+T90	cause 33 35	摔下
+T91	clinicalFeature 36 38	致伤
+R2	bodyClinicalFeature Arg1:T4 Arg2:T91
+R3	bodyClinicalFeature Arg1:T5 Arg2:T91
+R4	bodyClinicalFeature Arg1:T6 Arg2:T91
+R5	causeClinicalFeature Arg1:T90 Arg2:T91
+R6	clinicalFeatureTime Arg1:T91 Arg2:T3
+R9	bodyClinicalFeature Arg1:T4 Arg2:T9
+R10	bodyClinicalFeature Arg1:T5 Arg2:T9
+R11	bodyClinicalFeature Arg1:T6 Arg2:T9
+R12	bodyClinicalFeature Arg1:T10 Arg2:T11
+R13	clinicalFeatureTime Arg1:T9 Arg2:T3
+R14	bodyClinicalFeature Arg1:T12 Arg2:T13
+R15	clinicalFeatureTime Arg1:T11 Arg2:T3
+R16	negativeClinicalFeature Arg1:T16 Arg2:T17
+R17	negativeClinicalFeature Arg1:T18 Arg2:T19
+R18	negativeClinicalFeature Arg1:T18 Arg2:T20
+R19	clinicalFeatureTime Arg1:T17 Arg2:T3
+R20	clinicalFeatureTime Arg1:T19 Arg2:T3
+R21	clinicalFeatureTime Arg1:T20 Arg2:T3
+R22	negativeClinicalFeature Arg1:T14 Arg2:T15
+R23	clinicalFeatureTime Arg1:T15 Arg2:T3
+R24	clinicalFeatureTime Arg1:T13 Arg2:T3
+R25	negativeClinicalFeature Arg1:T21 Arg2:T22
+R26	negativeClinicalFeature Arg1:T21 Arg2:T23
+R27	clinicalFeatureTime Arg1:T22 Arg2:T3
+R28	clinicalFeatureTime Arg1:T23 Arg2:T3
+R29	negativeClinicalFeature Arg1:T24 Arg2:T25
+R30	negativeClinicalFeature Arg1:T24 Arg2:T26
+R31	clinicalFeatureTime Arg1:T25 Arg2:T3
+R32	clinicalFeatureTime Arg1:T26 Arg2:T3
+R33	negativeClinicalFeature Arg1:T27 Arg2:T28
+R34	negativeClinicalFeature Arg1:T27 Arg2:T29
+R35	clinicalFeatureTime Arg1:T28 Arg2:T3
+R36	clinicalFeatureTime Arg1:T29 Arg2:T3
+R37	bodyAuxiliaryDescript Arg1:T32 Arg2:T33
+R38	bodyAuxiliaryDescript Arg1:T34 Arg2:T35
+R39	auxiliaryExaminationAuxiliaryDescript Arg1:T31 Arg2:T33
+R40	auxiliaryExaminationAuxiliaryDescript Arg1:T31 Arg2:T35
+R41	auxiliaryExaminationAuxiliaryDescript Arg1:T31 Arg2:T36
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T30 Arg2:T36
+R43	auxiliaryExaminationBody Arg1:T30 Arg2:T34
+R44	auxiliaryExaminationAuxiliaryDescript Arg1:T30 Arg2:T33
+R46	timeOperation Arg1:T38 Arg2:T39
+R47	auxiliaryExaminationTime Arg1:T41 Arg2:T40
+R48	bodyAuxiliaryDescript Arg1:T42 Arg2:T43
+R49	auxiliaryExaminationAuxiliaryDescript Arg1:T41 Arg2:T43
+R57	signIndexValue Arg1:T58 Arg2:T59
+R58	signIndexValue Arg1:T60 Arg2:T61
+R59	signIndexValue Arg1:T62 Arg2:T63
+R60	signIndexValue Arg1:T64 Arg2:T65
+R61	bodyClinicalFeature Arg1:T68 Arg2:T69
+R62	bodyClinicalFeature Arg1:T68 Arg2:T70
+R63	bodyClinicalFeature Arg1:T72 Arg2:T73
+R64	bodyClinicalFeature Arg1:T74 Arg2:T75
+R66	bodyClinicalFeature Arg1:T74 Arg2:T77
+R67	bodyClinicalFeature Arg1:T78 Arg2:T79
+R68	modificationClinicalFeature Arg1:T80 Arg2:T79
+R69	modificationClinicalFeature Arg1:T81 Arg2:T79
+R70	bodyClinicalFeature Arg1:T82 Arg2:T83
+R71	signIndexValue Arg1:T84 Arg2:T85
+R72	bodySign Arg1:T82 Arg2:T84
+R73	signIndexValue Arg1:T86 Arg2:T87
+R74	bodySign Arg1:T82 Arg2:T86
+R75	signIndexValue Arg1:T88 Arg2:T89
+T76	clinicalFeature 56 58	疼痛
+R7	bodyClinicalFeature Arg1:T4 Arg2:T76
+R8	bodyClinicalFeature Arg1:T5 Arg2:T76
+R65	bodyClinicalFeature Arg1:T6 Arg2:T76
+R76	modificationClinicalFeature Arg1:T7 Arg2:T76
+R77	modificationClinicalFeature Arg1:T8 Arg2:T76

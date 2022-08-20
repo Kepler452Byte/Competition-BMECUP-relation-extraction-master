@@ -1,0 +1,7 @@
+T2	clinicalFeature 18 26	异常阴道流血流液
+T5	time 4 9	10+年前
+T6	clinicalFeature 9 13	自然绝经
+R1	clinicalFeatureTime Arg1:T6 Arg2:T5
+T1	negative 17 18	无
+R2	negativeClinicalFeature Arg1:T1 Arg2:T2
+R3	clinicalFeatureTime Arg1:T2 Arg2:T5

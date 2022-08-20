@@ -1,0 +1,122 @@
+T1	clinicalFeature 4 8	腰部疼痛
+T2	time 8 10	半月
+T3	time 21 24	半月前
+T4	cause 25 30	无明显诱因
+T5	clinicalFeature 33 38	腰背部疼痛
+T6	modification 40 43	持续性
+T7	modification 43 48	酸胀样疼痛
+T8	modification 51 55	尚能忍受
+T9	trend 57 59	加重
+T10	clinicalFeature 62 66	活动受限
+T11	negative 67 68	无
+T12	clinicalFeature 68 71	放射痛
+T13	negative 72 74	否认
+T14	clinicalFeature 74 79	胸腹部疼痛
+T15	negative 80 82	否认
+T16	clinicalFeature 82 87	双下肢麻木
+T17	clinicalFeature 88 90	乏力
+T18	clinicalFeature 93 97	头部外伤
+T19	negative 98 100	否认
+T20	clinicalFeature 100 102	头昏
+T21	clinicalFeature 103 105	恶心
+T22	clinicalFeature 106 108	呕吐
+T23	negative 109 111	否认
+T24	clinicalFeature 111 113	胸闷
+T25	clinicalFeature 114 116	气急
+T26	negative 117 119	否认
+T27	clinicalFeature 119 121	腹胀
+T28	clinicalFeature 122 124	腹痛
+T29	disease 149 153	骨质疏松
+T30	sign 206 208	体温
+T31	indexValue 208 213	36.8℃
+T32	sign 214 216	脉搏
+T33	indexValue 216 221	77次/分
+T34	sign 222 224	呼吸
+T35	indexValue 224 229	18次/分
+T36	sign 230 232	血压
+T37	indexValue 232 242	141/80mmHg
+T38	clinicalFeature 243 245	神清
+T39	clinicalFeature 246 249	精神可
+T40	body 250 252	双瞳
+T41	clinicalFeature 252 256	等大等圆
+T42	clinicalFeature 257 264	直径2.5MM
+T43	clinicalFeature 265 271	对光反射灵敏
+T44	body 272 274	头颅
+T45	clinicalFeature 274 277	无畸形
+T46	body 279 280	颈
+T47	clinicalFeature 280 281	软
+T48	clinicalFeature 282 285	无压痛
+T49	body 286 288	胸廓
+T50	clinicalFeature 288 291	无畸形
+T51	clinicalFeature 292 295	无压痛
+T52	body 296 298	双肺
+T53	clinicalFeature 298 302	呼吸音清
+T54	clinicalFeature 303 308	未闻及啰音
+T55	clinicalFeature 309 314	无活动受限
+T56	body 315 316	腹
+T57	clinicalFeature 316 318	平软
+T58	clinicalFeature 319 322	无压痛
+T59	body 323 325	腰椎
+T60	clinicalFeature 325 331	生理曲度变直
+T61	body 332 335	腰骶部
+T62	clinicalFeature 335 337	压痛
+T63	body 338 340	椎旁
+T64	clinicalFeature 340 342	压痛
+T65	clinicalFeature 343 346	叩击痛
+T66	clinicalFeature 347 351	活动受限
+T67	body 352 354	骨盆
+T68	clinicalFeature 354 357	无压痛
+T69	body 359 362	双下肢
+T70	sign 362 364	肌力
+T71	sign 365 368	肌张力
+T72	indexValue 368 370	亢进
+T73	body 371 373	四肢
+T74	clinicalFeature 373 377	未及麻木
+T75	sign 378 382	膝腱反射
+T76	indexValue 382 384	存在
+T77	sign 385 389	病理反射
+T78	indexValue 389 392	无引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	modificationClinicalfeature Arg1:T6 Arg2:T5
+R5	modificationClinicalfeature Arg1:T7 Arg2:T5
+R6	modificationClinicalfeature Arg1:T8 Arg2:T5
+R7	clinicalFeatureTime Arg1:T10 Arg2:T3
+R8	negativeClinicalfeature Arg1:T11 Arg2:T12
+R9	clinicalFeatureTime Arg1:T12 Arg2:T3
+R10	negativeClinicalfeature Arg1:T13 Arg2:T14
+R11	clinicalFeatureTime Arg1:T14 Arg2:T3
+R12	negativeClinicalfeature Arg1:T15 Arg2:T17
+R13	clinicalFeatureTime Arg1:T16 Arg2:T3
+R14	clinicalFeatureTime Arg1:T17 Arg2:T3
+R15	clinicalFeatureTime Arg1:T18 Arg2:T3
+R16	negativeClinicalfeature Arg1:T19 Arg2:T22
+R17	clinicalFeatureTime Arg1:T20 Arg2:T3
+R18	clinicalFeatureTime Arg1:T21 Arg2:T3
+R19	clinicalFeatureTime Arg1:T22 Arg2:T3
+R20	negativeClinicalfeature Arg1:T23 Arg2:T25
+R21	clinicalFeatureTime Arg1:T24 Arg2:T3
+R22	clinicalFeatureTime Arg1:T25 Arg2:T3
+R23	negativeClinicalfeature Arg1:T26 Arg2:T28
+R24	clinicalFeatureTime Arg1:T27 Arg2:T3
+R25	clinicalFeatureTime Arg1:T28 Arg2:T3
+R26	signIndexvalue Arg1:T30 Arg2:T31
+R27	signIndexvalue Arg1:T32 Arg2:T33
+R28	signIndexvalue Arg1:T34 Arg2:T35
+R29	signIndexvalue Arg1:T36 Arg2:T37
+R30	bodyClinicalfeature Arg1:T40 Arg2:T43
+R31	bodyClinicalfeature Arg1:T44 Arg2:T45
+R32	bodyClinicalfeature Arg1:T46 Arg2:T48
+R33	bodyClinicalfeature Arg1:T49 Arg2:T51
+R34	bodyClinicalfeature Arg1:T52 Arg2:T54
+R35	bodyClinicalfeature Arg1:T52 Arg2:T55
+R36	bodyClinicalfeature Arg1:T56 Arg2:T58
+R37	bodyClinicalfeature Arg1:T59 Arg2:T60
+R38	bodyClinicalfeature Arg1:T67 Arg2:T68
+R39	bodySign Arg1:T69 Arg2:T71
+R40	signIndexvalue Arg1:T70 Arg2:T72
+R41	signIndexvalue Arg1:T71 Arg2:T72
+R42	bodyClinicalfeature Arg1:T73 Arg2:T74
+R43	signIndexvalue Arg1:T75 Arg2:T76
+R44	signIndexvalue Arg1:T77 Arg2:T78

@@ -1,0 +1,210 @@
+T1	clinicalFeature 4 6	腹痛
+T2	time 6 8	2天
+T3	time 18 21	2天前
+T4	cause 21 26	无明显诱因
+T5	clinicalFeature 29 31	腹痛
+T6	body 32 38	以中上腹为主
+T7	modification 39 44	向背部放射
+T8	clinicalFeature 47 49	恶心
+T9	clinicalFeature 49 51	呕吐
+T10	frequency 52 58	1-2次/天
+T11	modification 59 63	胃内容物
+T12	negative 64 65	无
+T13	clinicalFeature 65 67	畏寒
+T14	clinicalFeature 67 69	发热
+T15	negative 70 71	无
+T16	clinicalFeature 71 73	腹泻
+T17	negative 74 75	无
+T18	clinicalFeature 75 77	头晕
+T19	clinicalFeature 77 79	头痛
+T20	negative 80 81	无
+T21	clinicalFeature 81 83	畏寒
+T22	clinicalFeature 83 85	发热
+T23	negative 87 88	无
+T24	clinicalFeature 88 90	头晕
+T25	clinicalFeature 90 92	头痛
+T26	negative 93 94	无
+T27	clinicalFeature 94 96	咳嗽
+T28	clinicalFeature 96 98	咳痰
+T29	negative 99 100	无
+T30	clinicalFeature 100 102	恶心
+T31	clinicalFeature 102 104	呕吐
+T32	negative 105 106	无
+T33	clinicalFeature 106 108	胸闷
+T34	clinicalFeature 108 110	气促
+T35	time 121 122	今
+T36	trend 124 126	加重
+T37	auxiliaryExamination 135 139	腹部CT
+T38	disease 140 145	急性胰腺炎
+T39	auxiliaryDescript 146 152	周围较多渗出
+T40	body 153 156	十二指
+T41	auxiliaryDescript 156 160	肠降部累
+T42	body 163 165	右肾
+T43	auxiliaryDescript 165 168	小结石
+T44	body 169 171	双肾
+T45	auxiliaryDescript 171 175	低密度灶
+T46	laboratory 176 181	急诊血常规
+T47	laboratory 182 185	白细胞
+T48	laboratoryValue 185 196	12.4*10^9/L
+T49	laboratory 197 203	中性粒细胞%
+T50	laboratoryValue 204 209	80.9%
+T51	laboratory 210 214	血红蛋白
+T52	laboratoryValue 215 221	142g/L
+T53	laboratory 222 225	血小板
+T54	laboratoryValue 225 234	88*10^9/L
+T55	laboratory 235 237	生化
+T56	laboratory 239 242	尿素氮
+T57	laboratoryValue 243 252	6.5mmol/L
+T58	laboratory 253 255	肌酐
+T59	laboratoryValue 255 265	72.0umol/L
+T60	laboratoryValue 269 277	2980IU/L
+T61	body 278 283	右肝、脾脏
+T62	auxiliaryDescript 283 286	钙化灶
+T63	body 287 289	胆囊
+T64	auxiliaryDescript 289 291	饱满
+T65	body 295 301	右侧多根肋骨
+T66	auxiliaryDescript 301 303	骨折
+T67	body 304 306	心影
+T68	auxiliaryDescript 306 308	增大
+T69	auxiliaryDescript 311 313	增厚
+T70	body 316 318	腰椎
+T71	auxiliaryDescript 318 323	退行性改变
+T72	auxiliaryDescript 324 328	排列不稳
+T73	body 329 333	L4椎体
+T74	auxiliaryDescript 333 338	轻度前滑移
+T75	cure 340 346	补液对症治疗
+T77	disease 359 364	急性胰腺炎
+T90	sign 417 419	BP
+T91	indexValue 419 429	122/67mmHg
+T92	sign 430 431	T
+T93	indexValue 432 437	36.3℃
+T94	sign 438 439	P
+T95	indexValue 439 444	66次/分
+T96	sign 445 446	R
+T97	indexValue 446 451	18次/分
+T98	clinicalFeature 452 455	神志清
+T99	clinicalFeature 456 459	精神可
+T100	body 460 462	皮肤
+T101	body 462 464	巩膜
+T102	clinicalFeature 464 467	无黄染
+T103	body 468 471	颈静脉
+T104	clinicalFeature 471 474	无怒张
+T105	sign 475 477	心率
+T106	indexValue 477 482	66次/分
+T107	clinicalFeature 483 486	心律齐
+T108	negative 488 491	未闻及
+T109	clinicalFeature 493 495	早搏
+T110	clinicalFeature 496 501	病理性杂音
+T111	body 502 504	双肺
+T112	clinicalFeature 506 510	呼吸音清
+T113	clinicalFeature 511 520	未闻及明显干湿啰音
+T114	body 521 522	腹
+T115	clinicalFeature 522 523	软
+T116	body 524 527	中上腹
+T117	clinicalFeature 527 529	压痛
+T118	clinicalFeature 530 534	无反跳痛
+T119	body 535 536	肝
+T120	body 536 537	脾
+T121	clinicalFeature 537 541	肋下未及
+T122	sign 542 545	肠鸣音
+T123	indexValue 545 548	无亢进
+T124	sign 549 554	移动性浊音
+T125	indexValue 554 556	阴性
+T126	body 557 560	双下肢
+T127	clinicalFeature 560 562	不肿
+T128	body 564 566	四肢
+T129	sign 566 568	肌力
+T130	indexValue 568 570	5级
+T131	body 571 573	双侧
+T132	sign 573 578	巴宾斯基征
+T133	indexValue 578 580	阴性
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+R8	clinicalFeatureFrequency Arg1:T9 Arg2:T10
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	clinicalFeatureTime Arg1:T13 Arg2:T3
+R12	negativeClinicalFeature Arg1:T12 Arg2:T14
+R13	clinicalFeatureTime Arg1:T14 Arg2:T3
+R14	negativeClinicalFeature Arg1:T15 Arg2:T16
+R15	clinicalFeatureTime Arg1:T16 Arg2:T3
+R16	negativeClinicalFeature Arg1:T17 Arg2:T18
+R17	clinicalFeatureTime Arg1:T18 Arg2:T3
+R18	negativeClinicalFeature Arg1:T17 Arg2:T19
+R19	clinicalFeatureTime Arg1:T19 Arg2:T3
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R21	clinicalFeatureTime Arg1:T21 Arg2:T3
+R22	negativeClinicalFeature Arg1:T20 Arg2:T22
+R23	clinicalFeatureTime Arg1:T22 Arg2:T3
+R24	negativeClinicalFeature Arg1:T23 Arg2:T24
+R25	clinicalFeatureTime Arg1:T24 Arg2:T3
+R26	negativeClinicalFeature Arg1:T23 Arg2:T25
+R27	clinicalFeatureTime Arg1:T25 Arg2:T3
+R28	negativeClinicalFeature Arg1:T26 Arg2:T27
+R29	clinicalFeatureTime Arg1:T27 Arg2:T3
+R30	negativeClinicalFeature Arg1:T26 Arg2:T28
+R31	clinicalFeatureTime Arg1:T28 Arg2:T3
+R32	negativeClinicalFeature Arg1:T29 Arg2:T30
+R33	clinicalFeatureTime Arg1:T30 Arg2:T3
+R34	negativeClinicalFeature Arg1:T29 Arg2:T31
+R35	clinicalFeatureTime Arg1:T31 Arg2:T3
+R36	negativeClinicalFeature Arg1:T32 Arg2:T33
+R37	clinicalFeatureTime Arg1:T33 Arg2:T3
+R38	negativeClinicalFeature Arg1:T32 Arg2:T34
+R39	clinicalFeatureTime Arg1:T34 Arg2:T3
+T134	cure 116 120	未予重视
+R40	cureTime Arg1:T134 Arg2:T3
+R43	auxiliaryExaminationAuxiliaryDescript Arg1:T37 Arg2:T39
+R44	bodyAuxiliaryDescript Arg1:T40 Arg2:T41
+R45	auxiliaryExaminationAuxiliaryDescript Arg1:T37 Arg2:T41
+R46	bodyAuxiliaryDescript Arg1:T42 Arg2:T43
+R47	bodyAuxiliaryDescript Arg1:T44 Arg2:T45
+R48	auxiliaryExaminationAuxiliaryDescript Arg1:T37 Arg2:T43
+R49	auxiliaryExaminationAuxiliaryDescript Arg1:T37 Arg2:T45
+R51	laboratoryLaboratoryValue Arg1:T47 Arg2:T48
+R53	laboratoryLaboratoryValue Arg1:T49 Arg2:T50
+R55	laboratoryLaboratoryValue Arg1:T51 Arg2:T52
+R57	laboratoryLaboratoryValue Arg1:T53 Arg2:T54
+R59	laboratoryLaboratoryValue Arg1:T56 Arg2:T57
+R61	laboratoryLaboratoryValue Arg1:T58 Arg2:T59
+T135	laboratory 265 269	血淀粉酶
+R63	laboratoryLaboratoryValue Arg1:T135 Arg2:T60
+R64	bodyAuxiliaryDescript Arg1:T61 Arg2:T62
+R65	bodyAuxiliaryDescript Arg1:T63 Arg2:T64
+R66	bodyAuxiliaryDescript Arg1:T65 Arg2:T66
+R67	bodyAuxiliaryDescript Arg1:T67 Arg2:T68
+T136	body 309 311	心包
+R68	bodyAuxiliaryDescript Arg1:T136 Arg2:T69
+R69	bodyAuxiliaryDescript Arg1:T70 Arg2:T71
+R70	bodyAuxiliaryDescript Arg1:T70 Arg2:T72
+R71	bodyAuxiliaryDescript Arg1:T73 Arg2:T74
+R79	signIndexValue Arg1:T90 Arg2:T91
+R80	signIndexValue Arg1:T92 Arg2:T93
+R81	signIndexValue Arg1:T94 Arg2:T95
+R82	signIndexValue Arg1:T96 Arg2:T97
+R83	bodyClinicalFeature Arg1:T100 Arg2:T102
+R84	bodyClinicalFeature Arg1:T101 Arg2:T102
+R85	bodyClinicalFeature Arg1:T103 Arg2:T104
+R86	signIndexValue Arg1:T105 Arg2:T106
+R87	negativeClinicalFeature Arg1:T108 Arg2:T109
+R88	negativeClinicalFeature Arg1:T108 Arg2:T110
+R89	bodyClinicalFeature Arg1:T111 Arg2:T112
+R90	bodyClinicalFeature Arg1:T111 Arg2:T113
+R91	bodyClinicalFeature Arg1:T114 Arg2:T115
+R92	bodyClinicalFeature Arg1:T116 Arg2:T117
+R93	bodyClinicalFeature Arg1:T116 Arg2:T118
+R94	bodyClinicalFeature Arg1:T120 Arg2:T121
+R95	bodyClinicalFeature Arg1:T119 Arg2:T121
+R96	signIndexValue Arg1:T122 Arg2:T123
+R97	signIndexValue Arg1:T124 Arg2:T125
+R98	bodyClinicalFeature Arg1:T126 Arg2:T127
+R99	bodySign Arg1:T128 Arg2:T129
+R100	signIndexValue Arg1:T129 Arg2:T130
+R101	bodySign Arg1:T131 Arg2:T132
+R102	signIndexValue Arg1:T132 Arg2:T133
+R103	clinicalFeatureTrend Arg1:T5 Arg2:T36
+R4	bodyClinicalFeature Arg1:T6 Arg2:T5
+R5	modificationClinicalFeature Arg1:T7 Arg2:T5
+R9	modificationClinicalFeature Arg1:T11 Arg2:T9

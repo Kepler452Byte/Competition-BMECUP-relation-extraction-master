@@ -1,0 +1,82 @@
+T1	clinicalFeature 7 11	言语不清
+T2	clinicalFeature 12 18	左侧肢体无力
+T3	time 18 20	半天
+T4	time 29 32	2天前
+T5	clinicalFeature 35 39	摔倒在地
+T7	time 45 48	半天前
+T8	clinicalFeature 64 68	言语不清
+T9	clinicalFeature 69 75	左侧肢体无力
+T10	clinicalFeature 77 83	全身多处疼痛
+T11	modification 87 91	腰部为主
+T12	negative 92 93	无
+T13	clinicalFeature 93 95	头痛
+T14	clinicalFeature 95 97	头晕
+T15	negative 99 100	无
+T16	clinicalFeature 100 102	恶心
+T17	clinicalFeature 102 104	呕吐
+T18	negative 105 106	无
+T19	clinicalFeature 106 110	抽搐发作
+T20	negative 111 112	无
+T21	clinicalFeature 112 114	黑曚
+T22	clinicalFeature 114 116	晕厥
+T23	negative 117 118	无
+T24	clinicalFeature 121 123	昏迷
+T25	negative 124 125	无
+T26	clinicalFeature 125 129	肢体麻木
+T27	laboratory 151 157	血常规CRP
+T28	laboratory 159 162	CRP
+T29	laboratoryValue 162 170	38.3mg/L
+T30	laboratory 171 174	白细胞
+T31	laboratoryValue 175 186	13.3*10^9/L
+T32	laboratory 187 192	中性粒细胞
+T33	laboratoryValue 193 198	90.2%
+T34	laboratory 203 208	D-二聚体
+T35	laboratoryValue 209 217	3870ug/L
+T36	laboratory 218 223	纤维蛋白原
+T37	laboratoryValue 223 230	479mg/L
+T38	laboratory 231 239	部分凝血活酶时间
+T40	disease 249 253	脑血管病
+T53	disease 302 305	高血压
+T54	drug 309 315	具体用药不详
+T55	clinicalFeature 316 320	控制一般
+T56	disease 323 326	心脏病
+T57	drug 330 336	具体用药不详
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+R4	clinicalFeatureTime Arg1:T8 Arg2:T7
+R5	clinicalFeatureTime Arg1:T9 Arg2:T7
+T6	clinicalFeature 54 60	躺在家中地上
+R6	clinicalFeatureTime Arg1:T6 Arg2:T7
+R7	clinicalFeatureTime Arg1:T10 Arg2:T7
+R8	modificationClinicalFeature Arg1:T11 Arg2:T10
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+R11	clinicalFeatureTime Arg1:T13 Arg2:T7
+R12	clinicalFeatureTime Arg1:T14 Arg2:T7
+R13	negativeClinicalFeature Arg1:T15 Arg2:T16
+R14	negativeClinicalFeature Arg1:T15 Arg2:T17
+R15	negativeClinicalFeature Arg1:T18 Arg2:T19
+R16	negativeClinicalFeature Arg1:T20 Arg2:T21
+R17	negativeClinicalFeature Arg1:T20 Arg2:T22
+R18	negativeClinicalFeature Arg1:T23 Arg2:T24
+R19	negativeClinicalFeature Arg1:T25 Arg2:T26
+T130	modification 118 121	一过性
+R20	modificationClinicalFeature Arg1:T130 Arg2:T24
+R21	clinicalFeatureTime Arg1:T16 Arg2:T7
+R22	clinicalFeatureTime Arg1:T17 Arg2:T7
+R23	clinicalFeatureTime Arg1:T19 Arg2:T7
+R24	clinicalFeatureTime Arg1:T21 Arg2:T7
+R25	clinicalFeatureTime Arg1:T22 Arg2:T7
+R26	clinicalFeatureTime Arg1:T24 Arg2:T7
+R27	clinicalFeatureTime Arg1:T26 Arg2:T7
+R29	laboratoryLaboratoryValue Arg1:T28 Arg2:T29
+R31	laboratoryLaboratoryValue Arg1:T30 Arg2:T31
+R33	laboratoryLaboratoryValue Arg1:T32 Arg2:T33
+T131	laboratory 200 202	凝血
+R35	laboratoryLaboratoryValue Arg1:T34 Arg2:T35
+R37	laboratoryLaboratoryValue Arg1:T36 Arg2:T37
+T132	laboratoryValue 240 245	21.7秒
+R38	laboratoryLaboratoryValue Arg1:T38 Arg2:T132
+R48	diseaseClinicalFeature Arg1:T53 Arg2:T55
+T133	modification 40 44	具体不详

@@ -1,0 +1,4 @@
+T1	time 9 12	9月前
+T2	disease 14 19	腺性膀胱炎
+T3	operation 31 40	腺性膀胱炎电切手术
+R1	timeDisease Arg1:T1 Arg2:T2

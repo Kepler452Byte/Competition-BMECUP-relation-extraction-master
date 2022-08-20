@@ -1,0 +1,92 @@
+T1	disease 6 9	右肺癌
+T2	time 9 11	3天
+T3	clinicalFeature 13 15	咳嗽
+T4	clinicalFeature 15 17	乏力
+T5	time 27 30	半月前
+T6	clinicalFeature 31 33	咳嗽
+T7	clinicalFeature 33 35	乏力
+T8	auxiliaryExamination 43 47	胸部CT
+T11	time 88 91	3天前
+T14	modification 152 154	偶有
+T15	clinicalFeature 154 156	咳嗽
+T16	clinicalFeature 156 158	咳痰
+T17	negative 159 160	无
+T18	clinicalFeature 160 162	畏寒
+T19	clinicalFeature 162 164	发热
+T20	negative 166 167	无
+T21	clinicalFeature 167 169	心慌
+T22	clinicalFeature 169 171	胸痛
+T23	clinicalFeature 173 175	乏力
+T25	disease 199 204	肺恶性肿瘤
+T26	sign 217 218	T
+T27	indexValue 219 224	36.8℃
+T28	sign 225 226	P
+T29	indexValue 227 233	102次/分
+T30	sign 234 235	R
+T31	indexValue 236 241	19次/分
+T32	sign 242 244	BP
+T33	indexValue 245 255	102/71mmHg
+T34	clinicalFeature 256 259	神志清
+T35	clinicalFeature 260 264	呼吸平稳
+T36	body 265 270	浅表淋巴结
+T37	clinicalFeature 270 274	未及肿大
+T38	body 275 277	口唇
+T39	clinicalFeature 277 282	无明显发绀
+T40	body 283 285	两肺
+T41	clinicalFeature 285 289	呼吸音低
+T42	clinicalFeature 291 300	未闻及干湿性干啰音
+T43	sign 301 303	心率
+T44	indexValue 303 309	102次/分
+T45	clinicalFeature 310 312	律齐
+T46	clinicalFeature 313 318	未闻及杂音
+T47	body 319 320	腹
+T48	clinicalFeature 320 322	平软
+T50	clinicalFeature 323 326	无压痛
+T51	body 327 328	肝
+T52	body 328 329	脾
+T53	clinicalFeature 329 334	肋下未触及
+T54	body 335 338	双下肢
+T55	clinicalFeature 338 341	无浮肿
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T6 Arg2:T5
+R3	clinicalFeatureTime Arg1:T7 Arg2:T5
+T9	disease 49 57	右侧中心型肺CA
+T56	auxiliaryExamination 92 100	支气管镜活检病理
+T12	auxiliaryDescript 104 120	见破碎退变异形细胞，倾向低分化癌
+R5	auxiliaryExaminationTime Arg1:T56 Arg2:T11
+T58	auxiliaryDescript 58 63	阻塞性炎症
+T59	modification 64 69	淋巴结转移
+R9	auxiliaryExaminationAuxiliaryDescript Arg1:T8 Arg2:T58
+R12	negativeClinicalFeature Arg1:T17 Arg2:T18
+R13	negativeClinicalFeature Arg1:T17 Arg2:T19
+R14	negativeClinicalFeature Arg1:T20 Arg2:T21
+R15	negativeClinicalFeature Arg1:T20 Arg2:T22
+T60	clinicalFeature 175 177	纳差
+R17	signIndexValue Arg1:T26 Arg2:T27
+R18	signIndexValue Arg1:T28 Arg2:T29
+T61	time 149 150	现
+R19	auxiliaryExaminationAuxiliaryDescript Arg1:T56 Arg2:T12
+R6	clinicalFeatureTime Arg1:T15 Arg2:T61
+R20	clinicalFeatureTime Arg1:T16 Arg2:T61
+R21	clinicalFeatureTime Arg1:T18 Arg2:T61
+R22	clinicalFeatureTime Arg1:T19 Arg2:T61
+R23	clinicalFeatureTime Arg1:T21 Arg2:T61
+R24	clinicalFeatureTime Arg1:T22 Arg2:T61
+R25	clinicalFeatureTime Arg1:T23 Arg2:T61
+R26	clinicalFeatureTime Arg1:T60 Arg2:T61
+R27	signIndexValue Arg1:T30 Arg2:T31
+R28	signIndexValue Arg1:T32 Arg2:T33
+R29	bodyClinicalFeature Arg1:T36 Arg2:T37
+R30	bodyClinicalFeature Arg1:T38 Arg2:T39
+R31	bodyClinicalFeature Arg1:T40 Arg2:T41
+R32	bodyClinicalFeature Arg1:T40 Arg2:T42
+R33	signIndexValue Arg1:T43 Arg2:T44
+R34	bodyClinicalFeature Arg1:T47 Arg2:T48
+R35	bodyClinicalFeature Arg1:T47 Arg2:T50
+R36	bodyClinicalFeature Arg1:T51 Arg2:T53
+R37	bodyClinicalFeature Arg1:T52 Arg2:T53
+R38	bodyClinicalFeature Arg1:T54 Arg2:T55
+R39	clinicalFeatureTime Arg1:T3 Arg2:T2
+R40	clinicalFeatureTime Arg1:T4 Arg2:T2
+R4	modificationClinicalFeature Arg1:T14 Arg2:T15
+R11	modificationClinicalFeature Arg1:T14 Arg2:T16

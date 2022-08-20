@@ -1,0 +1,94 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 15	左侧腰腿多处疼痛
+T3	time 15 18	2小时
+T4	time 27 31	2小时前
+T5	cause 44 46	摔下
+T6	body 48 52	左侧腰部
+T7	body 53 55	下肢
+T8	clinicalFeature 57 59	疼痛
+T9	clinicalFeature 63 67	活动受限
+T10	negative 70 71	无
+T11	clinicalFeature 71 73	昏迷
+T12	negative 74 75	无
+T13	clinicalFeature 75 77	恶心
+T14	clinicalFeature 77 79	呕吐
+T15	negative 80 81	无
+T16	clinicalFeature 81 83	胸闷
+T17	clinicalFeature 83 85	气促
+T18	negative 86 87	无
+T19	clinicalFeature 87 89	畏寒
+T20	clinicalFeature 89 91	发热
+T21	negative 93 94	无
+T22	clinicalFeature 94 96	腹痛
+T23	clinicalFeature 96 98	腹胀
+T25	disease 128 132	多处挫伤
+T38	sign 185 187	体温
+T39	indexValue 187 192	36.3℃
+T40	sign 193 195	脉搏
+T41	indexValue 195 200	80次/分
+T42	sign 201 203	呼吸
+T43	indexValue 203 208	20次/分
+T44	sign 209 211	血压
+T45	indexValue 211 221	147/95mmHg
+T46	clinicalFeature 222 225	神志清
+T47	clinicalFeature 226 229	精神可
+T48	body 230 233	双瞳孔
+T49	clinicalFeature 233 237	等大等圆
+T50	clinicalFeature 238 242	光反灵敏
+T51	body 243 246	胸腹部
+T52	clinicalFeature 246 249	无压痛
+T53	body 251 255	左侧腰部
+T54	body 256 258	臀部
+T55	clinicalFeature 258 260	压痛
+T56	body 261 263	手指
+T57	body 264 266	足趾
+T58	clinicalFeature 266 275	末梢血运及活动正常
+T59	body 276 278	双侧
+T60	sign 278 282	生理反射
+T61	indexValue 282 283	存
+T62	sign 284 288	病理反射
+T63	indexValue 288 291	未引出
+R1	causeClinicalFeature Arg1:T5 Arg2:T8
+R2	bodyClinicalFeature Arg1:T7 Arg2:T8
+R3	bodyClinicalFeature Arg1:T6 Arg2:T8
+R4	clinicalFeatureTime Arg1:T8 Arg2:T4
+R5	bodyClinicalFeature Arg1:T7 Arg2:T9
+R6	bodyClinicalFeature Arg1:T6 Arg2:T9
+R7	causeClinicalFeature Arg1:T5 Arg2:T9
+R8	clinicalFeatureTime Arg1:T9 Arg2:T4
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T19
+R15	negativeClinicalFeature Arg1:T18 Arg2:T20
+R16	clinicalFeatureTime Arg1:T11 Arg2:T4
+R17	clinicalFeatureTime Arg1:T13 Arg2:T4
+R18	clinicalFeatureTime Arg1:T14 Arg2:T4
+R19	clinicalFeatureTime Arg1:T16 Arg2:T4
+R20	clinicalFeatureTime Arg1:T17 Arg2:T4
+R21	clinicalFeatureTime Arg1:T19 Arg2:T4
+R22	clinicalFeatureTime Arg1:T20 Arg2:T4
+R23	negativeClinicalFeature Arg1:T21 Arg2:T22
+R24	negativeClinicalFeature Arg1:T21 Arg2:T23
+R25	clinicalFeatureTime Arg1:T22 Arg2:T4
+R26	clinicalFeatureTime Arg1:T23 Arg2:T4
+R34	signIndexValue Arg1:T38 Arg2:T39
+R35	signIndexValue Arg1:T40 Arg2:T41
+R36	signIndexValue Arg1:T42 Arg2:T43
+R37	signIndexValue Arg1:T44 Arg2:T45
+R38	bodyClinicalFeature Arg1:T48 Arg2:T49
+R39	bodyClinicalFeature Arg1:T48 Arg2:T50
+R40	bodyClinicalFeature Arg1:T51 Arg2:T52
+R41	bodyClinicalFeature Arg1:T54 Arg2:T55
+R42	bodyClinicalFeature Arg1:T53 Arg2:T55
+R43	bodyClinicalFeature Arg1:T57 Arg2:T58
+R44	bodyClinicalFeature Arg1:T56 Arg2:T58
+R45	bodySign Arg1:T59 Arg2:T60
+R46	signIndexValue Arg1:T60 Arg2:T61
+R47	signIndexValue Arg1:T62 Arg2:T63
+R48	clinicalFeatureTime Arg1:T2 Arg2:T3
+R49	causeClinicalFeature Arg1:T1 Arg2:T2
+T64	negative 60 61	无
+R50	negativeClinicalFeature Arg1:T64 Arg2:T9

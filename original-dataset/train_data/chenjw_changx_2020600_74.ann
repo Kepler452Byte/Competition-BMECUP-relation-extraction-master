@@ -1,0 +1,99 @@
+T2	time 14 16	一周
+T3	time 25 28	1周前
+T5	clinicalFeature 49 53	活动受限
+T6	clinicalFeature 59 63	行走跛行
+T7	time 64 67	近7天
+T8	clinicalFeature 68 70	疼痛
+T9	trend 72 78	未见明显好转
+T10	negative 79 80	无
+T11	clinicalFeature 80 82	畏寒
+T12	clinicalFeature 82 84	发热
+T13	negative 85 86	无
+T14	clinicalFeature 86 88	恶心
+T15	clinicalFeature 88 90	呕吐
+T16	negative 92 93	无
+T17	clinicalFeature 93 95	腹胀
+T18	clinicalFeature 95 97	腹泻
+T19	disease 121 128	左第五跖骨骨折
+T20	disease 144 151	左第五跖骨骨折
+T33	sign 202 204	体温
+T34	indexValue 204 207	37℃
+T35	sign 208 210	脉搏
+T36	indexValue 210 215	73次/分
+T37	sign 216 218	呼吸
+T38	indexValue 218 223	20次/分
+T39	sign 224 226	血压
+T40	indexValue 226 236	116/76mmHg
+T41	clinicalFeature 238 241	神志清
+T44	clinicalFeature 248 252	肿胀明显
+T45	clinicalFeature 254 259	大面积淤青
+T47	clinicalFeature 260 264	皮肤完整
+T48	clinicalFeature 265 269	皮温不高
+T49	clinicalFeature 273 279	活动及血供可
+T51	clinicalFeature 293 298	可及骨擦感
+T1	cause 4 6	扭伤
+T53	body 6 8	左足
+T54	clinicalFeature 8 10	肿痛
+T55	clinicalFeature 10 14	活动受限
+R1	bodyClinicalFeature Arg1:T53 Arg2:T54
+R2	bodyClinicalFeature Arg1:T53 Arg2:T55
+R3	causeClinicalFeature Arg1:T1 Arg2:T54
+R4	causeClinicalFeature Arg1:T1 Arg2:T55
+R5	clinicalFeatureTime Arg1:T55 Arg2:T2
+R6	clinicalFeatureTime Arg1:T54 Arg2:T2
+T56	cause 34 36	扭伤
+T57	body 36 38	左足
+T4	clinicalFeature 41 43	疼痛
+T58	clinicalFeature 43 45	肿胀
+R7	bodyClinicalFeature Arg1:T57 Arg2:T4
+R8	bodyClinicalFeature Arg1:T57 Arg2:T58
+R9	causeClinicalFeature Arg1:T56 Arg2:T58
+R10	causeClinicalFeature Arg1:T56 Arg2:T4
+R11	clinicalFeatureTime Arg1:T4 Arg2:T3
+R12	clinicalFeatureTime Arg1:T58 Arg2:T3
+R13	bodyClinicalFeature Arg1:T57 Arg2:T5
+R14	clinicalFeatureTime Arg1:T5 Arg2:T3
+R15	clinicalFeatureTime Arg1:T6 Arg2:T3
+T59	clinicalFeature 70 72	肿胀
+R16	clinicalFeatureTime Arg1:T8 Arg2:T7
+R17	clinicalFeatureTime Arg1:T59 Arg2:T7
+R18	clinicalFeatureTrend Arg1:T8 Arg2:T9
+R19	clinicalFeatureTrend Arg1:T59 Arg2:T9
+R20	negativeClinicalFeature Arg1:T10 Arg2:T11
+R21	negativeClinicalFeature Arg1:T10 Arg2:T12
+R22	negativeClinicalFeature Arg1:T13 Arg2:T14
+R23	negativeClinicalFeature Arg1:T13 Arg2:T15
+R24	clinicalFeatureTime Arg1:T11 Arg2:T7
+R25	clinicalFeatureTime Arg1:T12 Arg2:T7
+R26	clinicalFeatureTime Arg1:T14 Arg2:T7
+R27	clinicalFeatureTime Arg1:T15 Arg2:T7
+R28	negativeClinicalFeature Arg1:T16 Arg2:T17
+R29	negativeClinicalFeature Arg1:T16 Arg2:T18
+R30	clinicalFeatureTime Arg1:T17 Arg2:T7
+R31	clinicalFeatureTime Arg1:T18 Arg2:T7
+T60	auxiliaryExamination 114 118	X线检查
+R40	signIndexValue Arg1:T33 Arg2:T34
+R41	signIndexValue Arg1:T35 Arg2:T36
+R42	signIndexValue Arg1:T37 Arg2:T38
+R43	signIndexValue Arg1:T39 Arg2:T40
+T42	clinicalFeature 242 245	精神可
+T43	body 280 288	足背外侧第五跖骨
+T50	clinicalFeature 288 290	压痛
+R46	bodyClinicalFeature Arg1:T43 Arg2:T50
+R47	bodyClinicalFeature Arg1:T43 Arg2:T51
+T63	time 102 103	今
+R49	auxiliaryExaminationTime Arg1:T60 Arg2:T63
+T64	body 271 273	足趾
+R51	bodyClinicalFeature Arg1:T64 Arg2:T49
+T52	body 299 304	左足背动脉
+T62	clinicalFeature 304 308	搏动存在
+R48	bodyClinicalFeature Arg1:T52 Arg2:T62
+T65	body 246 248	左足
+R52	bodyClinicalFeature Arg1:T65 Arg2:T44
+R44	bodyClinicalFeature Arg1:T65 Arg2:T45
+R45	bodyClinicalFeature Arg1:T65 Arg2:T47
+R50	bodyClinicalFeature Arg1:T65 Arg2:T48
+T46	modification 45 47	明显
+R53	modificationClinicalFeature Arg1:T46 Arg2:T58
+R54	modificationClinicalFeature Arg1:T46 Arg2:T4
+T67	cure 54 58	未予重视

@@ -1,0 +1,7 @@
+T2	time 13 17	4小时余
+T1	clinicalFeature 10 13	车祸伤
+T5	body 3 6	头面部
+T6	body 6 9	双下肢
+R1	bodyClinicalFeature Arg1:T5 Arg2:T1
+R2	bodyClinicalFeature Arg1:T6 Arg2:T1
+R3	clinicalFeatureTime Arg1:T1 Arg2:T2

@@ -1,0 +1,136 @@
+T1	disease 4 9	脑出血术后
+T2	clinicalFeature 10 18	右侧肢体活动不利
+T3	time 18 21	1年余
+T4	time 31 34	1年前
+T5	clinicalFeature 38 43	头颅大出血
+T6	operation 55 67	颅内血肿清除+去骨瓣减压
+T7	cure 89 91	输血
+T8	modification 92 98	具体输血不详
+T9	trend 119 121	好转
+T10	cause 137 142	无明显诱因
+T11	clinicalFeature 144 146	呕血
+T12	clinicalFeature 189 193	右侧偏瘫
+T13	negative 199 201	未见
+T14	clinicalFeature 201 203	呕血
+T15	negative 204 205	无
+T16	clinicalFeature 205 207	畏寒
+T17	clinicalFeature 207 209	发热
+T18	negative 210 211	无
+T19	clinicalFeature 211 215	口吐白沫
+T20	negative 216 217	无
+T21	clinicalFeature 217 221	四肢抽搐
+T22	negative 222 223	无
+T23	clinicalFeature 223 227	意识障碍
+T24	negative 228 229	无
+T25	clinicalFeature 229 231	头痛
+T26	clinicalFeature 231 233	头晕
+T27	negative 234 235	无
+T28	clinicalFeature 235 239	肢体麻木
+T29	time 248 251	9月余
+T30	clinicalFeature 262 270	右侧肢体活动不利
+T31	body 271 274	右上肢
+T32	clinicalFeature 274 280	近端可稍活动
+T33	modification 281 285	抬离床面
+T34	body 286 289	右上肢
+T35	clinicalFeature 289 294	远端活动差
+T36	body 295 298	右下肢
+T37	clinicalFeature 298 303	可平移活动
+T38	modification 304 310	站立时较平稳
+T39	negative 311 312	无
+T40	clinicalFeature 312 316	痉挛抽搐
+T41	negative 318 319	无
+T42	clinicalFeature 319 321	咳嗽
+T43	clinicalFeature 321 323	咳痰
+T44	negative 324 325	无
+T45	clinicalFeature 325 327	畏寒
+T46	clinicalFeature 327 329	发热
+T47	disease 347 353	脑出血后遗症
+T58	disease 396 402	血小板减少症
+T59	drug 409 413	生血宁片
+T60	dose 414 416	2#
+T61	frequency 416 419	tid
+T62	disease 423 428	继发性癫痫
+T63	drug 437 440	开浦兰
+T64	dose 441 443	1#
+T65	frequency 443 446	tid
+T66	sign 457 459	体温
+T67	indexValue 459 464	36.1℃
+T68	sign 465 467	脉搏
+T69	indexValue 467 472	84次/分
+T70	sign 473 475	呼吸
+T71	indexValue 475 480	19次/分
+T72	sign 481 483	血压
+T73	indexValue 483 493	124/73mmHg
+T74	clinicalFeature 494 497	神志清
+T75	clinicalFeature 498 501	精神软
+T76	clinicalFeature 502 507	查体不配合
+T77	clinicalFeature 508 512	反应迟钝
+T78	modification 513 518	先天性失语
+T79	body 519 526	头颅左侧颅骨部
+T80	clinicalFeature 526 529	分缺如
+T81	body 531 533	皮肤
+T82	body 533 535	巩膜
+T83	clinicalFeature 535 538	无黄染
+T84	body 539 542	颈静脉
+T85	clinicalFeature 542 545	无怒张
+T86	sign 546 548	心率
+T87	indexValue 548 553	84次/分
+T88	clinicalFeature 554 557	心律齐
+T89	negative 558 561	未闻及
+T90	clinicalFeature 563 565	早搏
+T91	clinicalFeature 566 571	病理性杂音
+T92	body 572 576	双肺听诊
+T93	clinicalFeature 576 580	呼吸音粗
+T94	body 581 583	下肺
+T95	clinicalFeature 583 587	呼吸音低
+T96	clinicalFeature 588 597	未闻及明显干湿啰音
+T97	body 598 599	腹
+T98	clinicalFeature 599 600	软
+T99	negative 601 602	无
+T100	clinicalFeature 604 606	压痛
+T101	body 608 609	肝
+T102	body 609 610	脾
+T103	clinicalFeature 610 614	肋下未及
+T104	clinicalFeature 615 621	肠鸣音无亢进
+T105	sign 622 627	移动性浊音
+T106	indexValue 627 629	阴性
+T107	body 630 632	四肢
+T108	sign 632 635	肌张力
+T109	indexValue 635 637	正常
+T110	disease 638 647	右上肢肌力III级
+T111	body 648 651	右下肢
+T112	sign 651 653	肌力
+T113	indexValue 653 656	II级
+T114	body 657 661	左侧肢体
+T115	sign 661 663	肌力
+T116	indexValue 663 665	正常
+T117	clinicalFeature 666 674	膝腱反射双侧正常
+T118	sign 676 687	Babinski征右侧
+T119	indexValue 687 689	阳性
+T120	sign 690 692	左侧
+T121	indexValue 692 694	阴性
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+T122	cause 35 37	摔跤
+R2	causeClinicalFeature Arg1:T122 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+R11	negativeClinicalFeature Arg1:T44 Arg2:T45
+R12	negativeClinicalFeature Arg1:T44 Arg2:T46
+R13	negativeClinicalFeature Arg1:T41 Arg2:T42
+R14	negativeClinicalFeature Arg1:T41 Arg2:T43
+R15	negativeClinicalFeature Arg1:T39 Arg2:T40
+R16	bodyClinicalFeature Arg1:T36 Arg2:T37
+R17	modificationClinicalFeature Arg1:T38 Arg2:T37
+R18	bodyClinicalFeature Arg1:T34 Arg2:T35
+R19	bodyClinicalFeature Arg1:T31 Arg2:T32
+R20	modificationClinicalFeature Arg1:T33 Arg2:T32
+R21	causeClinicalFeature Arg1:T10 Arg2:T11
+T124	clinicalFeature 194 198	长期卧床
+R22	negativeClinicalFeature Arg1:T13 Arg2:T14
+R23	negativeClinicalFeature Arg1:T15 Arg2:T16
+R24	negativeClinicalFeature Arg1:T15 Arg2:T17
+R25	negativeClinicalFeature Arg1:T18 Arg2:T19
+R26	negativeClinicalFeature Arg1:T20 Arg2:T21
+R27	negativeClinicalFeature Arg1:T22 Arg2:T23
+R28	negativeClinicalFeature Arg1:T24 Arg2:T25
+R29	negativeClinicalFeature Arg1:T24 Arg2:T26
+R30	negativeClinicalFeature Arg1:T27 Arg2:T28

@@ -1,0 +1,116 @@
+T1	disease 4 10	结肠息肉术后
+T2	time 10 13	1小时
+T3	time 23 27	1小时前
+T4	auxiliaryExamination 28 32	肠镜检查
+T5	disease 35 41	结肠多发息肉
+T6	time 53 57	术中术后
+T7	clinicalFeature 60 62	出血
+T8	time 63 65	术后
+T9	negative 65 66	无
+T10	clinicalFeature 66 68	腹痛
+T11	clinicalFeature 68 70	便血
+T12	negative 71 72	无
+T13	clinicalFeature 72 74	畏寒
+T14	clinicalFeature 74 76	发热
+T15	negative 77 78	无
+T16	clinicalFeature 78 80	头晕
+T17	clinicalFeature 80 82	头痛
+T18	negative 83 84	无
+T19	clinicalFeature 84 86	胸闷
+T20	clinicalFeature 86 88	气促
+T22	disease 97 103	结肠息肉术后
+T35	sign 156 158	BP
+T36	indexValue 158 168	144/70mmHg
+T37	sign 169 170	T
+T38	indexValue 171 176	37.2℃
+T39	sign 177 178	P
+T40	indexValue 178 183	74次/分
+T41	sign 184 185	R
+T42	indexValue 185 190	18次/分
+T43	clinicalFeature 191 194	神志清
+T44	clinicalFeature 195 198	精神可
+T45	body 199 201	皮肤
+T46	body 201 203	巩膜
+T47	clinicalFeature 203 206	无黄染
+T48	body 207 210	颈静脉
+T49	clinicalFeature 210 213	无怒张
+T50	sign 214 216	心率
+T51	indexValue 216 221	74次/分
+T52	clinicalFeature 222 225	心律齐
+T53	negative 227 230	未闻及
+T54	clinicalFeature 232 234	早搏
+T55	clinicalFeature 235 240	病理性杂音
+T56	body 241 243	双肺
+T57	clinicalFeature 243 249	听诊呼吸音清
+T58	clinicalFeature 250 259	未闻及明显干湿啰音
+T59	body 260 261	腹
+T60	clinicalFeature 261 262	软
+T61	clinicalFeature 263 268	无明显压痛
+T62	body 269 270	肝
+T63	body 270 271	脾
+T64	clinicalFeature 271 275	肋下未及
+T65	sign 276 279	肠鸣音
+T66	indexValue 279 282	无亢进
+T67	sign 283 288	移动性浊音
+T68	indexValue 288 290	阴性
+T69	body 291 294	双下肢
+T70	clinicalFeature 294 296	不肿
+T71	body 297 299	四肢
+T72	sign 299 301	肌力
+T73	indexValue 301 303	5级
+T74	body 305 307	双侧
+T75	sign 307 312	巴宾斯基征
+T76	indexValue 312 314	阴性
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	auxiliaryExaminationTime Arg1:T4 Arg2:T3
+T77	negative 57 58	无
+R4	negativeClinicalFeature Arg1:T77 Arg2:T7
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T9 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T19
+R15	negativeClinicalFeature Arg1:T18 Arg2:T20
+T78	cure 42 52	在肠镜下给予息肉摘除
+R8	clinicalFeatureTime Arg1:T10 Arg2:T8
+R9	clinicalFeatureTime Arg1:T11 Arg2:T8
+R18	clinicalFeatureTime Arg1:T13 Arg2:T8
+R19	clinicalFeatureTime Arg1:T14 Arg2:T8
+R20	clinicalFeatureTime Arg1:T16 Arg2:T8
+R21	clinicalFeatureTime Arg1:T17 Arg2:T8
+R22	clinicalFeatureTime Arg1:T19 Arg2:T8
+R23	clinicalFeatureTime Arg1:T20 Arg2:T8
+R30	signIndexValue Arg1:T35 Arg2:T36
+R31	signIndexValue Arg1:T37 Arg2:T38
+R32	signIndexValue Arg1:T39 Arg2:T40
+R33	signIndexValue Arg1:T41 Arg2:T42
+R34	bodyClinicalFeature Arg1:T45 Arg2:T47
+R35	bodyClinicalFeature Arg1:T46 Arg2:T47
+R36	bodyClinicalFeature Arg1:T48 Arg2:T49
+R37	signIndexValue Arg1:T50 Arg2:T51
+R38	negativeClinicalFeature Arg1:T53 Arg2:T54
+R39	negativeClinicalFeature Arg1:T53 Arg2:T55
+R40	bodyClinicalFeature Arg1:T56 Arg2:T57
+R41	bodyClinicalFeature Arg1:T56 Arg2:T58
+R42	bodyClinicalFeature Arg1:T59 Arg2:T60
+R43	bodyClinicalFeature Arg1:T59 Arg2:T61
+R44	bodyClinicalFeature Arg1:T62 Arg2:T64
+R45	bodyClinicalFeature Arg1:T63 Arg2:T64
+R46	signIndexValue Arg1:T65 Arg2:T66
+R47	signIndexValue Arg1:T67 Arg2:T68
+R48	bodyClinicalFeature Arg1:T69 Arg2:T70
+R49	bodySign Arg1:T71 Arg2:T72
+R50	signIndexValue Arg1:T72 Arg2:T73
+R51	signIndexValue Arg1:T75 Arg2:T76
+R52	bodySign Arg1:T74 Arg2:T75
+R53	clinicalFeatureTime Arg1:T7 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T6
+T21	time 111 114	患病来
+T23	clinicalFeature 115 118	神志清
+T24	clinicalFeature 119 123	精神尚可
+T25	clinicalFeature 124 127	胃纳可
+T26	clinicalFeature 128 131	睡眠可
+T27	clinicalFeature 132 137	大小便如常
+T28	clinicalFeature 138 147	近期体重无明显改变

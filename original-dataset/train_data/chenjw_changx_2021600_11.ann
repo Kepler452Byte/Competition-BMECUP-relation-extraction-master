@@ -1,0 +1,128 @@
+T1	clinicalFeature 4 6	腹痛
+T2	clinicalFeature 6 8	腹泻
+T3	time 8 10	三天
+T4	time 21 24	三天前
+T5	cause 24 29	无明显诱因
+T6	clinicalFeature 34 36	腹痛
+T7	clinicalFeature 36 38	腹胀
+T8	clinicalFeature 42 44	腹泻
+T11	clinicalFeature 67 69	咳嗽
+T12	negative 70 71	无
+T13	clinicalFeature 71 73	胸闷
+T14	clinicalFeature 73 75	气急
+T15	negative 76 77	无
+T16	clinicalFeature 77 79	畏寒
+T17	clinicalFeature 79 81	发热
+T18	cure 82 89	未予处理及治疗
+T19	time 91 92	今
+T20	trend 95 97	加重
+T21	auxiliaryExamination 109 115	全腹CT平扫
+T24	body 131 133	脾脏
+T25	auxiliaryDescript 133 137	边缘钙化
+T28	auxiliaryExamination 153 156	心电图
+T29	auxiliaryDescript 159 165	窦性心动过速
+T30	auxiliaryDescript 167 173	频发房性早搏
+T31	auxiliaryDescript 174 178	成对房早
+T32	auxiliaryDescript 179 187	短阵房性心动过速
+T34	disease 202 208	胃肠功能紊乱
+T47	sign 260 262	BP
+T48	indexValue 262 272	125/76mmHg
+T49	sign 273 274	T
+T50	indexValue 274 279	36.1℃
+T51	sign 280 281	P
+T52	indexValue 281 286	96次/分
+T53	sign 287 288	R
+T54	indexValue 288 293	19次/分
+T55	clinicalFeature 294 296	神清
+T56	clinicalFeature 297 301	精神一般
+T57	body 302 304	巩膜
+T58	clinicalFeature 304 309	无明显黄染
+T59	body 310 315	浅表淋巴结
+T60	clinicalFeature 315 319	未及肿大
+T61	sign 320 322	心率
+T62	indexValue 322 327	96次/分
+T63	clinicalFeature 328 330	律齐
+T64	body 332 334	两肺
+T65	clinicalFeature 334 338	呼吸音粗
+T66	clinicalFeature 339 344	未闻及罗音
+T67	body 345 346	腹
+T68	clinicalFeature 346 347	软
+T69	body 348 351	中上腹
+T70	clinicalFeature 351 355	压之不适
+T71	sign 356 360	墨菲氏征
+T72	indexValue 360 362	阴性
+T74	clinicalFeature 363 367	无反跳痛
+T75	body 368 369	肝
+T76	body 369 370	脾
+T77	clinicalFeature 370 374	肋下未及
+T78	sign 375 378	肠鸣音
+T79	indexValue 378 381	无亢进
+T80	body 382 385	双下肢
+T81	clinicalFeature 385 388	无浮肿
+T82	body 389 391	四肢
+T83	sign 391 393	肌力
+T84	indexValue 393 395	正常
+T85	sign 396 399	病理症
+T86	indexValue 399 402	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	clinicalFeatureTime Arg1:T8 Arg2:T4
+R11	clinicalFeatureTime Arg1:T11 Arg2:T4
+R12	negativeClinicalFeature Arg1:T12 Arg2:T13
+R13	negativeClinicalFeature Arg1:T12 Arg2:T14
+T87	modification 65 67	少许
+R15	negativeClinicalFeature Arg1:T15 Arg2:T16
+R16	negativeClinicalFeature Arg1:T15 Arg2:T17
+R17	clinicalFeatureTime Arg1:T16 Arg2:T4
+R18	clinicalFeatureTime Arg1:T17 Arg2:T4
+R21	clinicalFeatureTrend Arg1:T6 Arg2:T20
+R22	clinicalFeatureTrend Arg1:T7 Arg2:T20
+T22	disease 118 122	肝脏囊肿
+T88	body 123 127	肝脏边缘
+T89	auxiliaryDescript 127 130	钙化点
+R26	bodyAuxiliaryDescript Arg1:T88 Arg2:T89
+R27	auxiliaryExaminationAuxiliaryDescript Arg1:T21 Arg2:T89
+R28	bodyAuxiliaryDescript Arg1:T24 Arg2:T25
+R29	auxiliaryExaminationAuxiliaryDescript Arg1:T21 Arg2:T25
+T26	body 138 142	左肾下极
+T90	auxiliaryDescript 150 152	钙化
+R31	auxiliaryExaminationAuxiliaryDescript Arg1:T21 Arg2:T90
+T91	auxiliaryDescript 142 144	囊肿
+R30	bodyAuxiliaryDescript Arg1:T26 Arg2:T91
+T92	body 145 150	腹部血管壁
+R32	bodyAuxiliaryDescript Arg1:T92 Arg2:T90
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T29
+R35	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T30
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T31
+R37	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T32
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	signIndexValue Arg1:T51 Arg2:T52
+R48	signIndexValue Arg1:T53 Arg2:T54
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T59 Arg2:T60
+R51	signIndexValue Arg1:T61 Arg2:T62
+R52	bodyClinicalFeature Arg1:T64 Arg2:T65
+R53	bodyClinicalFeature Arg1:T64 Arg2:T66
+R54	bodyClinicalFeature Arg1:T67 Arg2:T68
+R55	bodyClinicalFeature Arg1:T69 Arg2:T70
+R56	signIndexValue Arg1:T71 Arg2:T72
+R57	bodyClinicalFeature Arg1:T67 Arg2:T74
+R58	bodyClinicalFeature Arg1:T75 Arg2:T77
+R59	bodyClinicalFeature Arg1:T76 Arg2:T77
+R60	signIndexValue Arg1:T78 Arg2:T79
+R61	bodyClinicalFeature Arg1:T80 Arg2:T81
+R62	bodySign Arg1:T82 Arg2:T83
+R63	signIndexValue Arg1:T83 Arg2:T84
+R64	signIndexValue Arg1:T85 Arg2:T86
+R65	auxiliaryExaminationTime Arg1:T21 Arg2:T19
+R66	auxiliaryExaminationTime Arg1:T28 Arg2:T19
+T9	modification 45 51	解黄色水样便
+R8	modificationClinicalFeature Arg1:T9 Arg2:T8
+T73	frequency 51 56	四五次每天
+R67	clinicalFeatureFrequency Arg1:T8 Arg2:T73
+R14	modificationClinicalFeature Arg1:T87 Arg2:T11

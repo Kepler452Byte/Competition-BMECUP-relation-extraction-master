@@ -1,0 +1,16 @@
+T1	time 11 14	3天前
+T2	clinicalFeature 20 22	胸痛
+T3	modification 26 29	阵发性
+T4	modification 30 36	持续约1小时
+T6	negative 47 48	无
+T7	clinicalFeature 50 52	咳嗽
+T8	clinicalFeature 52 54	咳痰
+T11	cause 15 18	干活时
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T11 Arg2:T2
+R3	modificationClinicalFeature Arg1:T3 Arg2:T2
+R4	modificationClinicalFeature Arg1:T4 Arg2:T2
+R6	negativeClinicalFeature Arg1:T6 Arg2:T7
+R7	negativeClinicalFeature Arg1:T6 Arg2:T8
+R8	clinicalFeatureTime Arg1:T7 Arg2:T1
+R9	clinicalFeatureTime Arg1:T8 Arg2:T1

@@ -1,0 +1,139 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 9	上腹痛
+T3	time 9 11	半月
+T4	clinicalFeature 12 14	黑便
+T5	time 14 16	1周
+T6	time 25 28	半月前
+T7	cause 28 33	无明显诱因
+T8	clinicalFeature 39 44	上腹部隐痛
+T9	modification 45 50	阵发性加剧
+T11	clinicalFeature 63 65	腹痛
+T12	modification 65 71	不向他处放射
+T13	clinicalFeature 73 75	恶心
+T14	negative 76 77	无
+T15	clinicalFeature 77 79	呕吐
+T16	time 80 83	1周前
+T17	clinicalFeature 86 88	黑便
+T18	modification 89 91	量多
+T19	clinicalFeature 94 99	解黄便带黑
+T20	time 100 102	目前
+T21	clinicalFeature 102 104	大便
+T22	clinicalFeature 111 113	腹痛
+T23	negative 114 115	无
+T24	clinicalFeature 115 117	胸闷
+T25	negative 118 119	无
+T26	clinicalFeature 119 121	头昏
+T27	negative 122 123	无
+T28	clinicalFeature 123 125	晕厥
+T29	clinicalFeature 126 128	黑朦
+T30	negative 129 130	无
+T31	clinicalFeature 130 132	畏寒
+T32	clinicalFeature 132 134	发热
+T33	cure 139 143	未予诊治
+T35	disease 157 159	黑便
+T50	disease 211 214	高血压
+T51	time 217 221	10年余
+T52	drug 225 230	珍菊降压片
+T53	dose 230 232	1#
+T54	frequency 233 235	qd
+T56	sign 255 257	BP
+T57	indexValue 257 267	166/82mmHg
+T58	sign 268 269	T
+T59	indexValue 270 275	37.3℃
+T60	sign 276 277	P
+T61	indexValue 277 282	78次/分
+T62	sign 283 284	R
+T63	indexValue 284 289	19次/分
+T64	clinicalFeature 290 293	神志清
+T65	clinicalFeature 294 297	精神软
+T66	clinicalFeature 298 301	贫血貌
+T67	body 302 304	皮肤
+T68	body 304 306	巩膜
+T69	clinicalFeature 306 309	无黄染
+T70	body 310 313	锁骨上
+T71	clinicalFeature 313 321	未及肿大的淋巴结
+T72	body 322 325	颈静脉
+T73	clinicalFeature 325 328	无怒张
+T74	sign 330 332	心率
+T75	indexValue 332 337	78次/分
+T76	clinicalFeature 338 341	心律齐
+T77	negative 342 345	未闻及
+T78	clinicalFeature 347 349	早搏
+T79	clinicalFeature 350 355	病理性杂音
+T80	body 356 360	双肺听诊
+T81	clinicalFeature 360 364	呼吸音粗
+T82	clinicalFeature 365 374	未闻及明显干湿啰音
+T83	body 375 376	腹
+T84	clinicalFeature 376 377	软
+T85	body 378 381	中上腹
+T86	clinicalFeature 381 383	压痛
+T87	negative 384 385	无
+T88	clinicalFeature 387 390	反跳痛
+T89	body 391 392	肝
+T90	body 392 393	脾
+T91	clinicalFeature 393 397	肋下未及
+T92	sign 398 401	肠鸣音
+T93	indexValue 401 404	无亢进
+T94	sign 406 411	移动性浊音
+T95	indexValue 411 413	阴性
+T96	body 414 417	双下肢
+T97	clinicalFeature 417 419	不肿
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	causeClinicalFeature Arg1:T7 Arg2:T8
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R9	clinicalFeatureTime Arg1:T11 Arg2:T6
+R10	clinicalFeatureTime Arg1:T13 Arg2:T6
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	clinicalFeatureTime Arg1:T15 Arg2:T6
+T98	frequency 84 86	1次
+R13	clinicalFeatureFrequency Arg1:T17 Arg2:T98
+R14	clinicalFeatureTime Arg1:T17 Arg2:T16
+R17	clinicalFeatureTime Arg1:T22 Arg2:T20
+R18	negativeClinicalFeature Arg1:T23 Arg2:T24
+R19	clinicalFeatureTime Arg1:T24 Arg2:T20
+R20	negativeClinicalFeature Arg1:T25 Arg2:T26
+R21	clinicalFeatureTime Arg1:T26 Arg2:T20
+R22	negativeClinicalFeature Arg1:T27 Arg2:T28
+R23	clinicalFeatureTime Arg1:T28 Arg2:T20
+R24	negativeClinicalFeature Arg1:T27 Arg2:T29
+R25	clinicalFeatureTime Arg1:T29 Arg2:T20
+R26	negativeClinicalFeature Arg1:T30 Arg2:T31
+R27	clinicalFeatureTime Arg1:T31 Arg2:T20
+R28	negativeClinicalFeature Arg1:T30 Arg2:T32
+R29	clinicalFeatureTime Arg1:T32 Arg2:T20
+R39	timeDisease Arg1:T51 Arg2:T50
+R40	drugDose Arg1:T52 Arg2:T53
+R41	doseFrequency Arg1:T53 Arg2:T54
+R44	signIndexValue Arg1:T56 Arg2:T57
+R45	signIndexValue Arg1:T58 Arg2:T59
+R46	signIndexValue Arg1:T60 Arg2:T61
+R47	signIndexValue Arg1:T62 Arg2:T63
+R48	bodyClinicalFeature Arg1:T67 Arg2:T69
+R49	bodyClinicalFeature Arg1:T68 Arg2:T69
+R50	bodyClinicalFeature Arg1:T70 Arg2:T71
+R51	bodyClinicalFeature Arg1:T72 Arg2:T73
+R52	signIndexValue Arg1:T74 Arg2:T75
+R53	negativeClinicalFeature Arg1:T77 Arg2:T78
+R54	bodyClinicalFeature Arg1:T80 Arg2:T81
+R55	negativeClinicalFeature Arg1:T77 Arg2:T79
+R56	bodyClinicalFeature Arg1:T80 Arg2:T82
+R57	bodyClinicalFeature Arg1:T83 Arg2:T84
+R58	bodyClinicalFeature Arg1:T85 Arg2:T86
+R59	negativeClinicalFeature Arg1:T87 Arg2:T88
+R60	bodyClinicalFeature Arg1:T83 Arg2:T88
+R61	bodyClinicalFeature Arg1:T90 Arg2:T91
+R62	bodyClinicalFeature Arg1:T89 Arg2:T91
+R63	signIndexValue Arg1:T92 Arg2:T93
+R64	signIndexValue Arg1:T94 Arg2:T95
+R65	bodyClinicalFeature Arg1:T96 Arg2:T97
+R66	clinicalFeatureTime Arg1:T19 Arg2:T16
+T100	negative 106 108	未解
+R30	cureTime Arg1:T33 Arg2:T6
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R6	modificationClinicalFeature Arg1:T9 Arg2:T8
+R8	modificationClinicalFeature Arg1:T12 Arg2:T11
+R15	modificationClinicalFeature Arg1:T18 Arg2:T17
+T55	time 104 106	两天
+R43	negativeClinicalFeature Arg1:T100 Arg2:T21
+R16	clinicalFeatureTime Arg1:T21 Arg2:T55

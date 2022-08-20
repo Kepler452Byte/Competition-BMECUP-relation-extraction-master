@@ -1,0 +1,7 @@
+T1	time 6 10	2月余前
+T3	disease 35 41	结肠多发息肉
+T2	cause 13 16	检查时
+T6	disease 22 29	结直肠多发息肉
+R1	timeDisease Arg1:T1 Arg2:T6
+R2	causeDisease Arg1:T2 Arg2:T6
+T7	cure 42 47	圈套电切除

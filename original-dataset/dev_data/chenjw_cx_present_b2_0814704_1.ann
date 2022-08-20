@@ -1,0 +1,5 @@
+T1	time 6 10	1月余前
+T2	clinicalFeature 14 19	肝功能异常
+T5	cause 10 14	检查发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T5 Arg2:T2

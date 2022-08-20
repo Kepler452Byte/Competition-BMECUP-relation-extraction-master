@@ -1,0 +1,86 @@
+T1	clinicalFeature 6 10	右腕肿块
+T2	time 10 12	2月
+T3	time 21 25	2个月前
+T4	clinicalFeature 30 35	右腕部肿块
+T5	modification 36 41	如蚕豆大小
+T6	clinicalFeature 59 61	包块
+T7	modification 68 73	如弹珠大小
+T9	modification 74 77	无压痛
+T10	negative 81 82	无
+T11	clinicalFeature 82 84	畏寒
+T12	clinicalFeature 84 86	发热
+T13	negative 87 88	无
+T14	clinicalFeature 88 90	恶心
+T15	clinicalFeature 90 92	呕吐
+T16	negative 94 95	无
+T17	clinicalFeature 95 97	胸闷
+T18	clinicalFeature 97 99	气促
+T19	negative 100 101	无
+T20	clinicalFeature 101 103	腹痛
+T21	clinicalFeature 103 105	腹泻
+T23	disease 131 138	右腕部腱鞘囊肿
+T36	sign 190 192	T:
+T39	clinicalFeature 228 231	神志清
+T42	body 236 238	两肺
+T43	clinicalFeature 238 242	呼吸音清
+T44	clinicalFeature 243 251	未及明显干湿啰音
+T49	modification 273 276	边界清
+T50	modification 277 279	质硬
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+R3	modificationClinicalFeature Arg1:T5 Arg2:T4
+T53	modification 42 49	压之疼痛不明显
+T54	time 54 58	近段时间
+R4	clinicalFeatureTime Arg1:T6 Arg2:T54
+R5	modificationClinicalFeature Arg1:T7 Arg2:T6
+R6	modificationClinicalFeature Arg1:T53 Arg2:T4
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T10 Arg2:T12
+R10	negativeClinicalFeature Arg1:T13 Arg2:T14
+R11	negativeClinicalFeature Arg1:T13 Arg2:T15
+R12	negativeClinicalFeature Arg1:T16 Arg2:T17
+R13	negativeClinicalFeature Arg1:T16 Arg2:T18
+R14	negativeClinicalFeature Arg1:T19 Arg2:T20
+R15	negativeClinicalFeature Arg1:T19 Arg2:T21
+T37	indexValue 192 197	36.0℃
+T55	sign 198 199	P
+T56	indexValue 200 205	82bpm
+T57	sign 206 208	BP
+T58	indexValue 209 219	126/80mmhg
+T59	sign 220 221	R
+T38	indexValue 222 224	20
+T40	clinicalFeature 232 235	精神可
+R32	bodyClinicalFeature Arg1:T42 Arg2:T43
+R33	bodyClinicalFeature Arg1:T42 Arg2:T44
+T41	body 252 253	腹
+T45	clinicalFeature 253 254	软
+R34	bodyClinicalFeature Arg1:T41 Arg2:T45
+T46	clinicalFeature 255 258	无压痛
+R35	bodyClinicalFeature Arg1:T41 Arg2:T46
+R36	signIndexValue Arg1:T36 Arg2:T37
+R37	signIndexValue Arg1:T55 Arg2:T56
+R38	signIndexValue Arg1:T57 Arg2:T58
+R39	signIndexValue Arg1:T59 Arg2:T38
+T47	body 260 264	右腕部处
+T48	clinicalFeature 270 272	包块
+R40	bodyClinicalFeature Arg1:T47 Arg2:T48
+R41	modificationClinicalFeature Arg1:T49 Arg2:T48
+R42	modificationClinicalFeature Arg1:T50 Arg2:T48
+T61	cause 25 30	无意中发现
+R47	causeClinicalFeature Arg1:T61 Arg2:T4
+T62	trend 61 66	进行性增大
+R48	clinicalFeatureTrend Arg1:T6 Arg2:T62
+R7	modificationClinicalFeature Arg1:T9 Arg2:T6
+T8	time 78 79	现
+R17	clinicalFeatureTime Arg1:T11 Arg2:T8
+R18	clinicalFeatureTime Arg1:T12 Arg2:T8
+R19	clinicalFeatureTime Arg1:T14 Arg2:T8
+R20	clinicalFeatureTime Arg1:T15 Arg2:T8
+R21	clinicalFeatureTime Arg1:T17 Arg2:T8
+R22	clinicalFeatureTime Arg1:T18 Arg2:T8
+R23	clinicalFeatureTime Arg1:T20 Arg2:T8
+R24	clinicalFeatureTime Arg1:T21 Arg2:T8
+T63	modification 266 270	弹珠大小
+R25	modificationClinicalFeature Arg1:T63 Arg2:T48
+T51	modification 280 286	无瘙痒及压痛
+R43	modificationClinicalFeature Arg1:T51 Arg2:T48

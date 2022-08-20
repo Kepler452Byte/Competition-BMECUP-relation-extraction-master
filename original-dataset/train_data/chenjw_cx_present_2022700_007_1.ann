@@ -1,0 +1,18 @@
+T1	time 9 13	2月余前
+T2	cause 14 19	无明显诱因
+T3	modification 20 22	反复
+T4	laboratory 34 37	血常规
+T5	laboratory 39 42	白细胞
+T6	laboratoryValue 42 52	2.8*10^9/L
+T7	laboratory 53 57	血红蛋白
+T8	laboratoryValue 57 62	83g/L
+T9	laboratory 63 66	血小板
+T10	laboratoryValue 66 75	93*10^9/L
+T13	clinicalFeature 24 28	口腔溃疡
+R1	clinicalFeatureTime Arg1:T13 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T13
+R3	modificationClinicalFeature Arg1:T3 Arg2:T13
+R5	laboratoryLaboratoryValue Arg1:T5 Arg2:T6
+R7	laboratoryLaboratoryValue Arg1:T7 Arg2:T8
+R8	laboratoryLaboratoryValue Arg1:T9 Arg2:T10
+R10	laboratoryTime Arg1:T4 Arg2:T1

@@ -1,0 +1,86 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 6 8	气促
+T3	clinicalFeature 9 11	心悸
+T4	time 11 13	2天
+T5	time 22 25	2天前
+T6	cause 25 30	无明显诱因
+T7	clinicalFeature 33 35	胸闷
+T8	clinicalFeature 35 37	气促
+T9	clinicalFeature 39 41	心悸
+T10	modification 43 46	阵发性
+T11	clinicalFeature 48 52	大汗淋漓
+T12	negative 53 54	无
+T13	clinicalFeature 54 60	胸骨后压榨感
+T14	clinicalFeature 62 64	乏力
+T15	negative 65 66	无
+T16	clinicalFeature 66 75	夜间阵发性呼吸困难
+T17	negative 76 77	无
+T18	clinicalFeature 77 79	畏寒
+T19	clinicalFeature 79 81	发热
+T20	negative 83 84	无
+T21	clinicalFeature 84 86	恶心
+T22	clinicalFeature 86 88	呕吐
+T23	negative 89 90	无
+T24	clinicalFeature 90 92	反酸
+T25	clinicalFeature 92 94	烧心
+T26	negative 95 96	无
+T27	clinicalFeature 96 98	头痛
+T28	clinicalFeature 98 100	头晕
+T29	negative 101 102	无
+T30	clinicalFeature 102 104	黑曚
+T31	clinicalFeature 104 106	晕厥
+T32	negative 107 108	无
+T33	clinicalFeature 108 110	咳嗽
+T34	clinicalFeature 110 112	咳痰
+T35	cure 116 120	未予治疗
+T36	time 121 123	此后
+T37	modification 127 131	反复存在
+T38	disease 152 156	心房颤动
+T39	disease 204 208	高血压病
+T40	time 208 212	20余年
+T41	disease 213 218	心脏房颤病
+T42	time 219 221	数年
+T43	drug 226 230	卡维地洛
+T44	drug 231 234	复代文
+T45	drug 235 242	苯磺酸氨氯地平
+T46	drug 243 246	华法林
+T47	dose 246 250	0.5片
+T48	frequency 251 253	qd
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	causeClinicalfeature Arg1:T6 Arg2:T9
+R5	clinicalFeatureTime Arg1:T9 Arg2:T5
+R6	modificationClinicalfeature Arg1:T10 Arg2:T8
+R7	modificationClinicalfeature Arg1:T10 Arg2:T9
+R8	clinicalFeatureTime Arg1:T11 Arg2:T5
+R9	negativeClinicalfeature Arg1:T12 Arg2:T13
+R10	clinicalFeatureTime Arg1:T13 Arg2:T5
+R11	clinicalFeatureTime Arg1:T14 Arg2:T5
+R12	negativeClinicalfeature Arg1:T15 Arg2:T16
+R13	clinicalFeatureTime Arg1:T16 Arg2:T5
+R14	negativeClinicalfeature Arg1:T17 Arg2:T19
+R15	clinicalFeatureTime Arg1:T18 Arg2:T5
+R16	clinicalFeatureTime Arg1:T19 Arg2:T5
+R17	negativeClinicalfeature Arg1:T20 Arg2:T22
+R18	clinicalFeatureTime Arg1:T21 Arg2:T5
+R19	clinicalFeatureTime Arg1:T22 Arg2:T5
+R20	negativeClinicalfeature Arg1:T23 Arg2:T25
+R21	clinicalFeatureTime Arg1:T24 Arg2:T5
+R22	clinicalFeatureTime Arg1:T25 Arg2:T5
+R23	negativeClinicalfeature Arg1:T26 Arg2:T28
+R24	clinicalFeatureTime Arg1:T27 Arg2:T5
+R25	clinicalFeatureTime Arg1:T28 Arg2:T5
+R26	negativeClinicalfeature Arg1:T29 Arg2:T31
+R27	clinicalFeatureTime Arg1:T30 Arg2:T5
+R28	clinicalFeatureTime Arg1:T31 Arg2:T5
+R29	negativeClinicalfeature Arg1:T32 Arg2:T34
+R30	clinicalFeatureTime Arg1:T33 Arg2:T5
+R31	clinicalFeatureTime Arg1:T34 Arg2:T5
+R32	cureTime Arg1:T35 Arg2:T5
+R33	timeDisease Arg1:T40 Arg2:T39
+R34	timeDisease Arg1:T42 Arg2:T39
+R35	timeDisease Arg1:T42 Arg2:T41
+R36	drugFrequency Arg1:T45 Arg2:T48
+R37	drugFrequency Arg1:T46 Arg2:T48
+R38	doseFrequency Arg1:T47 Arg2:T48

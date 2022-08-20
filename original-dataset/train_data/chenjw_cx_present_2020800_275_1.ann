@@ -1,0 +1,10 @@
+T1	clinicalFeature 20 24	神志不清
+T2	modification 25 29	呼之不应
+T3	modification 31 34	喷射性
+T4	clinicalFeature 34 36	呕吐
+T5	modification 37 45	呕吐物为胃内容物
+T8	modification 46 48	量多
+R1	modificationClinicalFeature Arg1:T5 Arg2:T4
+R2	modificationClinicalFeature Arg1:T8 Arg2:T4
+R3	modificationClinicalFeature Arg1:T2 Arg2:T1
+R4	modificationClinicalFeature Arg1:T3 Arg2:T4

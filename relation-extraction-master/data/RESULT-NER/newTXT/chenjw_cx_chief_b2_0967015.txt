@@ -1,0 +1,2 @@
+{"sent": "主 诉 ： 反 复 大 便 次 数 增 多 1 年", "ners": [[3, 5, "modification", "反复"], [5, 11, "clinicalFeature", "大便次数增多"], [11, 13, "time", "1年"]]}
+

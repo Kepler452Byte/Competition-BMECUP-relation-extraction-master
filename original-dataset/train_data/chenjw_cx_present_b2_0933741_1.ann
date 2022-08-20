@@ -1,0 +1,7 @@
+T1	time 6 9	2年前
+T2	auxiliaryExamination 13 19	支气管镜检查
+T3	disease 21 24	右肺癌
+T4	disease 31 33	腺癌
+R2	timeDisease Arg1:T1 Arg2:T3
+T7	auxiliaryExamination 27 29	病理
+R4	timeDisease Arg1:T1 Arg2:T4

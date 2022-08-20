@@ -1,0 +1,5 @@
+T3	clinicalFeature 43 47	意识模糊
+T1	time 28 34	7时30左右
+T2	cause 40 43	被发现
+R1	causeClinicalFeature Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1

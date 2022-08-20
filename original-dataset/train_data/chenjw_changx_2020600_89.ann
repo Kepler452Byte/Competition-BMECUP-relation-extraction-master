@@ -1,0 +1,99 @@
+T2	time 9 13	半小时余
+T3	time 22 26	半小时前
+T5	clinicalFeature 52 56	不能活动
+T6	negative 57 58	无
+T7	clinicalFeature 58 60	昏迷
+T8	negative 62 63	无
+T9	clinicalFeature 63 65	呕吐
+T10	clinicalFeature 67 69	胸闷
+T11	clinicalFeature 69 71	气促
+T13	disease 94 97	多发伤
+T26	sign 150 151	T
+T27	indexValue 151 156	37.6℃
+T28	sign 157 159	BP
+T29	indexValue 159 169	137/94mmHg
+T30	sign 170 171	R
+T31	indexValue 171 176	24次/分
+T32	sign 177 178	P
+T33	indexValue 178 184	101次/分
+T38	body 193 196	双瞳孔
+T39	clinicalFeature 196 198	等大
+T42	clinicalFeature 210 216	对光反射灵敏
+T43	body 217 218	颈
+T44	clinicalFeature 219 222	无抵抗
+T45	body 224 228	双肺听诊
+T46	clinicalFeature 228 232	呼吸音粗
+T47	clinicalFeature 233 243	未闻及明显干湿性啰音
+T48	clinicalFeature 245 254	未闻及明显干湿啰音
+T49	sign 255 257	HR
+T50	indexValue 258 266	101bpm左右
+T51	clinicalFeature 267 270	律尚齐
+T52	clinicalFeature 271 281	未闻及明显病理性杂音
+T53	body 282 283	腹
+T54	clinicalFeature 283 287	膨隆尚软
+T55	clinicalFeature 290 294	肋下未及
+T56	negative 296 297	无
+T57	clinicalFeature 299 301	压痛
+T58	clinicalFeature 302 305	反跳痛
+T60	clinicalFeature 314 319	可及骨擦感
+T62	clinicalFeature 329 331	肿胀
+T63	clinicalFeature 335 338	活动可
+T64	sign 339 342	病理征
+T65	indexValue 342 344	阴性
+T1	cause 40 42	跌落
+T4	clinicalFeature 45 49	全身疼痛
+R1	negativeClinicalFeature Arg1:T6 Arg2:T7
+R2	negativeClinicalFeature Arg1:T8 Arg2:T9
+T66	clinicalFeature 4 9	高处坠落伤
+R3	clinicalFeatureTime Arg1:T66 Arg2:T2
+R4	causeClinicalFeature Arg1:T1 Arg2:T4
+R5	causeClinicalFeature Arg1:T1 Arg2:T5
+R6	causeClinicalFeature Arg1:T1 Arg2:T10
+R7	causeClinicalFeature Arg1:T1 Arg2:T11
+R8	clinicalFeatureTime Arg1:T4 Arg2:T3
+R9	clinicalFeatureTime Arg1:T5 Arg2:T3
+R10	clinicalFeatureTime Arg1:T7 Arg2:T3
+R11	clinicalFeatureTime Arg1:T10 Arg2:T3
+R12	clinicalFeatureTime Arg1:T11 Arg2:T3
+R13	clinicalFeatureTime Arg1:T9 Arg2:T3
+R21	signIndexValue Arg1:T26 Arg2:T27
+R22	signIndexValue Arg1:T28 Arg2:T29
+R23	signIndexValue Arg1:T30 Arg2:T31
+R24	signIndexValue Arg1:T32 Arg2:T33
+T34	clinicalFeature 185 188	神志清
+T35	clinicalFeature 189 192	精神软
+R25	bodyClinicalFeature Arg1:T38 Arg2:T39
+T36	clinicalFeature 199 209	左侧直径约2.0mm
+R26	bodyClinicalFeature Arg1:T38 Arg2:T36
+R27	bodyClinicalFeature Arg1:T38 Arg2:T42
+T37	clinicalFeature 218 219	软
+R28	bodyClinicalFeature Arg1:T43 Arg2:T37
+R29	bodyClinicalFeature Arg1:T43 Arg2:T44
+R30	bodyClinicalFeature Arg1:T45 Arg2:T46
+R31	bodyClinicalFeature Arg1:T45 Arg2:T47
+R32	bodyClinicalFeature Arg1:T45 Arg2:T48
+R33	signIndexValue Arg1:T49 Arg2:T50
+R34	bodyClinicalFeature Arg1:T53 Arg2:T54
+R35	negativeClinicalFeature Arg1:T56 Arg2:T57
+R36	negativeClinicalFeature Arg1:T56 Arg2:T58
+R37	bodyClinicalFeature Arg1:T53 Arg2:T57
+R38	bodyClinicalFeature Arg1:T53 Arg2:T58
+T40	body 306 308	骨盆
+R40	bodyClinicalFeature Arg1:T40 Arg2:T60
+T59	body 320 323	右下肢
+T61	clinicalFeature 323 327	活动欠佳
+R41	bodyClinicalFeature Arg1:T59 Arg2:T61
+R42	bodyClinicalFeature Arg1:T59 Arg2:T62
+R43	signIndexValue Arg1:T64 Arg2:T65
+T67	body 288 289	肝
+T68	body 289 290	脾
+R44	bodyClinicalFeature Arg1:T67 Arg2:T55
+R45	bodyClinicalFeature Arg1:T68 Arg2:T55
+T41	sign 308 311	挤压征
+T69	indexValue 311 313	阳性
+R39	signIndexValue Arg1:T41 Arg2:T69
+R46	bodySign Arg1:T40 Arg2:T41
+T70	body 332 335	余肢体
+R47	bodyClinicalFeature Arg1:T70 Arg2:T63
+T71	modification 49 51	明显
+R48	modificationClinicalFeature Arg1:T71 Arg2:T4

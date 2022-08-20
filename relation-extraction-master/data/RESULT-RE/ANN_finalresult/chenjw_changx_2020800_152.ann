@@ -1,0 +1,132 @@
+T1	clinicalFeature 4 6	腹痛
+T2	time 6 9	2月余
+T3	time 19 23	2月余前
+T4	cause 23 28	无明显诱因
+T5	clinicalFeature 31 33	腹痛
+T6	clinicalFeature 33 35	腹胀
+T7	body 38 43	中上腹为主
+T8	modification 44 46	不剧
+T9	clinicalFeature 48 50	恶心
+T10	negative 51 52	无
+T11	clinicalFeature 52 54	呕吐
+T12	negative 55 56	无
+T13	clinicalFeature 56 58	反酸
+T14	clinicalFeature 58 60	嗳气
+T15	negative 61 62	无
+T16	clinicalFeature 62 64	咳嗽
+T17	clinicalFeature 64 66	咳痰
+T18	negative 67 68	无
+T19	clinicalFeature 68 70	头晕
+T20	clinicalFeature 70 72	头痛
+T21	negative 73 74	无
+T22	clinicalFeature 74 76	腹泻
+T23	negative 77 78	无
+T24	clinicalFeature 78 80	黑便
+T25	negative 81 82	无
+T26	clinicalFeature 82 84	胸闷
+T27	clinicalFeature 84 86	气促
+T28	cure 91 95	未予重视
+T29	disease 115 117	胃炎
+T30	disease 171 175	高血压病
+T31	disease 176 179	糖尿病
+T32	time 182 186	10余年
+T33	drug 187 191	用药不详
+T34	disease 194 196	便秘
+T35	sign 208 210	BP
+T36	indexValue 210 220	142/93mmHg
+T37	sign 221 222	T
+T38	indexValue 223 228	36.4℃
+T39	sign 229 230	P
+T40	indexValue 230 236	120次/分
+T41	sign 237 238	R
+T42	indexValue 238 243	19次/分
+T43	clinicalFeature 244 247	神志清
+T44	clinicalFeature 248 251	精神可
+T45	body 252 254	皮肤
+T46	body 254 256	巩膜
+T47	clinicalFeature 256 259	无黄染
+T48	body 260 263	颈静脉
+T49	clinicalFeature 263 266	无怒张
+T50	sign 267 269	心率
+T51	indexValue 269 275	120次/分
+T52	clinicalFeature 276 279	心律齐
+T53	negative 281 284	未闻及
+T54	clinicalFeature 286 288	早搏
+T55	clinicalFeature 289 294	病理性杂音
+T56	body 295 297	双肺
+T57	body 295 299	双肺听诊
+T58	clinicalFeature 297 303	听诊呼吸音清
+T59	clinicalFeature 299 303	呼吸音清
+T60	clinicalFeature 304 313	未闻及明显干湿啰音
+T61	body 314 315	腹
+T62	clinicalFeature 315 316	软
+T63	body 317 320	中上腹
+T64	clinicalFeature 320 322	压痛
+T65	clinicalFeature 323 327	无反跳痛
+T66	body 328 329	肝
+T67	body 329 330	脾
+T68	clinicalFeature 330 334	肋下未及
+T69	sign 335 338	肠鸣音
+T70	indexValue 338 341	无亢进
+T71	sign 342 347	移动性浊音
+T72	indexValue 347 349	阴性
+T73	body 350 353	双下肢
+T74	clinicalFeature 353 355	不肿
+T75	body 357 359	四肢
+T76	sign 359 361	肌力
+T77	indexValue 361 363	5级
+T78	body 364 366	双侧
+T79	sign 366 371	巴宾斯基征
+T80	indexValue 371 373	阴性
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T6
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	bodyClinicalfeature Arg1:T7 Arg2:T5
+R6	bodyClinicalfeature Arg1:T7 Arg2:T6
+R7	modificationClinicalfeature Arg1:T8 Arg2:T5
+R8	modificationClinicalfeature Arg1:T8 Arg2:T6
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R10	negativeClinicalfeature Arg1:T10 Arg2:T11
+R11	clinicalFeatureTime Arg1:T11 Arg2:T3
+R12	negativeClinicalfeature Arg1:T12 Arg2:T14
+R13	clinicalFeatureTime Arg1:T13 Arg2:T3
+R14	clinicalFeatureTime Arg1:T14 Arg2:T3
+R15	negativeClinicalfeature Arg1:T15 Arg2:T17
+R16	clinicalFeatureTime Arg1:T16 Arg2:T3
+R17	clinicalFeatureTime Arg1:T17 Arg2:T3
+R18	negativeClinicalfeature Arg1:T18 Arg2:T20
+R19	clinicalFeatureTime Arg1:T19 Arg2:T3
+R20	clinicalFeatureTime Arg1:T20 Arg2:T3
+R21	negativeClinicalfeature Arg1:T21 Arg2:T22
+R22	clinicalFeatureTime Arg1:T22 Arg2:T3
+R23	negativeClinicalfeature Arg1:T23 Arg2:T24
+R24	clinicalFeatureTime Arg1:T24 Arg2:T3
+R25	negativeClinicalfeature Arg1:T25 Arg2:T27
+R26	clinicalFeatureTime Arg1:T26 Arg2:T3
+R27	clinicalFeatureTime Arg1:T27 Arg2:T3
+R28	cureTime Arg1:T28 Arg2:T3
+R29	timeDisease Arg1:T32 Arg2:T30
+R30	timeDisease Arg1:T32 Arg2:T31
+R31	signIndexvalue Arg1:T35 Arg2:T36
+R32	signIndexvalue Arg1:T37 Arg2:T38
+R33	signIndexvalue Arg1:T39 Arg2:T40
+R34	signIndexvalue Arg1:T41 Arg2:T42
+R35	bodyClinicalfeature Arg1:T45 Arg2:T47
+R36	bodyClinicalfeature Arg1:T46 Arg2:T47
+R37	bodyClinicalfeature Arg1:T48 Arg2:T49
+R38	signIndexvalue Arg1:T50 Arg2:T51
+R39	negativeClinicalfeature Arg1:T53 Arg2:T55
+R40	bodyClinicalfeature Arg1:T57 Arg2:T60
+R41	bodyClinicalfeature Arg1:T57 Arg2:T60
+R42	bodyClinicalfeature Arg1:T61 Arg2:T65
+R43	bodyClinicalfeature Arg1:T63 Arg2:T65
+R44	bodyClinicalfeature Arg1:T66 Arg2:T68
+R45	bodyClinicalfeature Arg1:T67 Arg2:T68
+R46	signIndexvalue Arg1:T69 Arg2:T70
+R47	signIndexvalue Arg1:T71 Arg2:T72
+R48	bodyClinicalfeature Arg1:T73 Arg2:T74
+R49	bodySign Arg1:T75 Arg2:T76
+R50	signIndexvalue Arg1:T76 Arg2:T77
+R51	bodySign Arg1:T78 Arg2:T79
+R52	signIndexvalue Arg1:T79 Arg2:T80

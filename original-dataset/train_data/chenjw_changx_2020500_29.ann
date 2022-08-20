@@ -1,0 +1,42 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 8	4天
+T3	time 11 13	2天
+T4	trend 14 16	加重
+T5	time 16 18	1天
+T6	time 28 31	4天前
+T7	clinicalFeature 35 37	头晕
+T8	negative 38 39	无
+T9	clinicalFeature 40 43	物旋转
+T10	clinicalFeature 47 49	呕吐
+T11	clinicalFeature 57 60	双耳吗
+T12	modification 62 65	间断性
+T15	time 83 86	1天前
+T16	clinicalFeature 88 90	头晕
+T17	trend 92 94	加重
+T18	clinicalFeature 98 105	站立及行走不稳
+T19	negative 106 107	无
+T20	clinicalFeature 107 111	肢体无力
+T21	disease 133 137	头晕待查
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T108	clinicalFeature 9 11	耳鸣
+R2	clinicalFeatureTime Arg1:T108 Arg2:T3
+R6	clinicalFeatureTime Arg1:T7 Arg2:T6
+T109	clinicalFeature 44 46	恶心
+R8	clinicalFeatureTime Arg1:T9 Arg2:T6
+R9	clinicalFeatureTime Arg1:T109 Arg2:T6
+R11	negativeClinicalFeature Arg1:T8 Arg2:T109
+R12	negativeClinicalFeature Arg1:T8 Arg2:T10
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+T110	time 50 55	2前晨起后
+R10	clinicalFeatureTime Arg1:T11 Arg2:T110
+R17	clinicalFeatureTime Arg1:T16 Arg2:T15
+R18	clinicalFeatureTrend Arg1:T16 Arg2:T17
+R19	clinicalFeatureTime Arg1:T18 Arg2:T15
+R20	negativeClinicalFeature Arg1:T19 Arg2:T20
+R21	clinicalFeatureTime Arg1:T20 Arg2:T15
+R3	clinicalFeatureTrend Arg1:T1 Arg2:T4
+R5	clinicalFeatureTrend Arg1:T108 Arg2:T4
+T34	clinicalFeature 112 116	好的不灵
+R13	negativeClinicalFeature Arg1:T19 Arg2:T34
+R28	clinicalFeatureTime Arg1:T34 Arg2:T15
+R14	modificationClinicalFeature Arg1:T12 Arg2:T11

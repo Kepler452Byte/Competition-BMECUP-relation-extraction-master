@@ -1,0 +1,7 @@
+T1	time 7 12	2 年余前
+T2	disease 33 37	“胃癌”
+T5	operation 39 44	胃癌根治术
+T6	clinicalFeature 14 16	黑便
+R1	clinicalFeatureTime Arg1:T6 Arg2:T1
+R2	timeDisease Arg1:T1 Arg2:T2
+R3	timeOperation Arg1:T1 Arg2:T5

@@ -1,0 +1,10 @@
+T1	time 6 10	1月余前
+T2	disease 14 17	结肠癌
+T3	operation 25 35	腹腔镜下结肠癌根治术
+T4	auxiliaryExamination 37 41	术后病理
+T5	auxiliaryDescript 50 54	低分化癌
+R1	timeDisease Arg1:T1 Arg2:T2
+T8	body 46 49	横结肠
+R3	bodyAuxiliaryDescript Arg1:T8 Arg2:T5
+R4	auxiliaryExaminationAuxiliaryDescript Arg1:T4 Arg2:T5
+R5	auxiliaryExaminationTime Arg1:T4 Arg2:T1

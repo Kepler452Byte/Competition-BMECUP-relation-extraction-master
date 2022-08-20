@@ -1,0 +1,78 @@
+T1	time 8 10	1天
+T2	time 19 22	1天前
+T3	cause 22 27	无明显诱因
+T4	clinicalFeature 32 36	口角歪斜
+T5	clinicalFeature 38 44	右侧闭眼无力
+T6	negative 45 46	无
+T7	clinicalFeature 46 48	头痛
+T8	clinicalFeature 49 51	头晕
+T9	negative 52 53	无
+T10	clinicalFeature 53 55	畏寒
+T11	clinicalFeature 55 57	发热
+T12	negative 58 59	无
+T13	clinicalFeature 59 61	黑朦
+T14	clinicalFeature 61 63	晕厥
+T15	negative 64 65	无
+T16	clinicalFeature 65 71	肢体活动不灵
+T17	negative 77 78	无
+T18	clinicalFeature 78 80	头晕
+T19	clinicalFeature 80 82	头痛
+T20	negative 83 84	无
+T21	clinicalFeature 84 86	耳鸣
+T22	negative 93 94	无
+T23	clinicalFeature 94 98	意识障碍
+T24	negative 99 100	无
+T25	clinicalFeature 100 102	畏寒
+T26	clinicalFeature 102 104	发热
+T27	negative 105 106	无
+T28	clinicalFeature 106 108	恶心
+T29	clinicalFeature 108 110	呕吐
+T30	cure 116 122	未予特殊处置
+T33	trend 130 134	逐渐加重
+T34	auxiliaryExamination 147 150	心电图
+T35	auxiliaryDescript 151 157	窦性心律不齐
+T37	disease 163 168	面神经麻痹
+T126	clinicalFeature 4 8	口角歪斜
+R1	clinicalFeatureTime Arg1:T126 Arg2:T1
+R2	clinicalFeatureTime Arg1:T4 Arg2:T2
+R3	causeClinicalFeature Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T2
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7
+R6	negativeClinicalFeature Arg1:T6 Arg2:T8
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T9 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+T127	clinicalFeature 72 76	感觉异常
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	negativeClinicalFeature Arg1:T15 Arg2:T127
+R13	negativeClinicalFeature Arg1:T17 Arg2:T18
+R14	negativeClinicalFeature Arg1:T17 Arg2:T19
+T128	clinicalFeature 87 91	听力下降
+R15	negativeClinicalFeature Arg1:T20 Arg2:T21
+R16	negativeClinicalFeature Arg1:T20 Arg2:T128
+R17	clinicalFeatureTime Arg1:T7 Arg2:T2
+R18	clinicalFeatureTime Arg1:T8 Arg2:T2
+R19	clinicalFeatureTime Arg1:T10 Arg2:T2
+R20	clinicalFeatureTime Arg1:T11 Arg2:T2
+R21	clinicalFeatureTime Arg1:T13 Arg2:T2
+R22	clinicalFeatureTime Arg1:T14 Arg2:T2
+R23	clinicalFeatureTime Arg1:T16 Arg2:T2
+R24	clinicalFeatureTime Arg1:T127 Arg2:T2
+R25	clinicalFeatureTime Arg1:T18 Arg2:T2
+R26	clinicalFeatureTime Arg1:T19 Arg2:T2
+R27	clinicalFeatureTime Arg1:T21 Arg2:T2
+R28	clinicalFeatureTime Arg1:T128 Arg2:T2
+R29	negativeClinicalFeature Arg1:T22 Arg2:T23
+R30	negativeClinicalFeature Arg1:T24 Arg2:T25
+R31	negativeClinicalFeature Arg1:T24 Arg2:T26
+R32	negativeClinicalFeature Arg1:T27 Arg2:T28
+R33	negativeClinicalFeature Arg1:T27 Arg2:T29
+R34	clinicalFeatureTime Arg1:T23 Arg2:T2
+R35	clinicalFeatureTime Arg1:T25 Arg2:T2
+R36	clinicalFeatureTime Arg1:T26 Arg2:T2
+R37	clinicalFeatureTime Arg1:T28 Arg2:T2
+R38	clinicalFeatureTime Arg1:T29 Arg2:T2
+R39	cureTime Arg1:T30 Arg2:T2
+R42	clinicalFeatureTrend Arg1:T4 Arg2:T33
+R43	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T35

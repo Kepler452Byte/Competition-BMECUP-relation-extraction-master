@@ -1,0 +1,113 @@
+T1	disease 4 10	左踝骨折术后
+T2	time 28 31	1年前
+T3	cause 38 40	摔伤
+T4	clinicalFeature 41 47	左踝关节疼痛
+T5	clinicalFeature 51 53	疼痛
+T6	clinicalFeature 57 59	肿胀
+T7	clinicalFeature 60 64	活动受限
+T8	disease 72 78	左内外踝骨折
+T9	operation 88 101	踝关节骨折切开复位内固定术
+T10	negative 110 111	无
+T11	clinicalFeature 111 113	畏寒
+T12	clinicalFeature 113 115	发热
+T13	negative 116 117	无
+T14	clinicalFeature 117 119	胸闷
+T15	clinicalFeature 119 121	气促
+T16	negative 122 123	无
+T17	clinicalFeature 123 125	头痛
+T18	clinicalFeature 125 127	胸痛
+T20	disease 158 166	左内外踝骨折术后
+T33	sign 217 219	体温
+T34	indexValue 219 224	36.1℃
+T35	sign 225 227	脉搏
+T36	indexValue 227 232	71次/分
+T37	sign 233 235	呼吸
+T38	indexValue 235 240	19次/分
+T39	sign 241 243	血压
+T40	indexValue 243 253	139/79mmHg
+T41	clinicalFeature 254 256	神清
+T42	clinicalFeature 257 260	精神可
+T43	body 261 264	双瞳孔
+T44	clinicalFeature 264 268	等大等圆
+T45	clinicalFeature 269 273	光反灵敏
+T46	body 274 275	颈
+T47	clinicalFeature 275 276	软
+T48	clinicalFeature 277 280	无抵抗
+T49	body 281 283	胸部
+T50	clinicalFeature 283 286	无畸形
+T52	clinicalFeature 287 290	无压痛
+T53	body 292 293	心
+T54	body 293 294	肺
+T55	clinicalFeature 294 302	听诊未及明显异常
+T56	body 303 304	腹
+T57	clinicalFeature 304 306	平软
+T58	negative 307 308	无
+T59	clinicalFeature 308 310	压痛
+T60	clinicalFeature 311 314	反跳痛
+T61	body 315 317	四肢
+T62	clinicalFeature 317 322	活动不受限
+T63	negative 323 324	无
+T64	clinicalFeature 324 326	偏瘫
+T65	body 327 335	左踝关节内外踝处
+T66	clinicalFeature 337 341	手术疤痕
+T67	body 342 344	局部
+T68	clinicalFeature 344 349	无红肿热痛
+T69	body 350 353	踝关节
+T70	clinicalFeature 353 356	活动可
+T71	sign 357 361	生理反射
+T72	indexValue 361 363	存在
+T73	sign 364 369	神经病理征
+T74	indexValue 369 371	阴性
+T75	time 10 13	一年余
+R1	timeDisease Arg1:T75 Arg2:T1
+R2	causeClinicalFeature Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T4 Arg2:T2
+R4	clinicalFeatureTime Arg1:T5 Arg2:T2
+T76	body 49 51	左踝
+R5	bodyClinicalFeature Arg1:T76 Arg2:T5
+R6	bodyClinicalFeature Arg1:T76 Arg2:T6
+R7	bodyClinicalFeature Arg1:T76 Arg2:T7
+R8	clinicalFeatureTime Arg1:T5 Arg2:T2
+R9	clinicalFeatureTime Arg1:T6 Arg2:T2
+R10	clinicalFeatureTime Arg1:T7 Arg2:T2
+R11	timeDisease Arg1:T2 Arg2:T8
+R12	timeOperation Arg1:T2 Arg2:T9
+R13	negativeClinicalFeature Arg1:T10 Arg2:T11
+R14	negativeClinicalFeature Arg1:T10 Arg2:T12
+R15	clinicalFeatureTime Arg1:T11 Arg2:T2
+R16	clinicalFeatureTime Arg1:T12 Arg2:T2
+R17	negativeClinicalFeature Arg1:T13 Arg2:T14
+R18	negativeClinicalFeature Arg1:T13 Arg2:T15
+R19	negativeClinicalFeature Arg1:T16 Arg2:T17
+R20	negativeClinicalFeature Arg1:T16 Arg2:T18
+R21	clinicalFeatureTime Arg1:T14 Arg2:T2
+R22	clinicalFeatureTime Arg1:T14 Arg2:T2
+R23	clinicalFeatureTime Arg1:T17 Arg2:T2
+R24	clinicalFeatureTime Arg1:T18 Arg2:T2
+R32	signIndexValue Arg1:T33 Arg2:T34
+R33	signIndexValue Arg1:T35 Arg2:T36
+R34	signIndexValue Arg1:T37 Arg2:T38
+R35	signIndexValue Arg1:T39 Arg2:T40
+R36	bodyClinicalFeature Arg1:T43 Arg2:T44
+R37	bodyClinicalFeature Arg1:T43 Arg2:T45
+R38	bodyClinicalFeature Arg1:T46 Arg2:T47
+R39	bodyClinicalFeature Arg1:T46 Arg2:T48
+R40	bodyClinicalFeature Arg1:T49 Arg2:T50
+R42	bodyClinicalFeature Arg1:T49 Arg2:T52
+R43	bodyClinicalFeature Arg1:T53 Arg2:T55
+R44	bodyClinicalFeature Arg1:T54 Arg2:T55
+R45	bodyClinicalFeature Arg1:T56 Arg2:T57
+R46	negativeClinicalFeature Arg1:T58 Arg2:T59
+R47	negativeClinicalFeature Arg1:T58 Arg2:T60
+R48	bodyClinicalFeature Arg1:T56 Arg2:T59
+R49	bodyClinicalFeature Arg1:T56 Arg2:T60
+R50	bodyClinicalFeature Arg1:T61 Arg2:T62
+R51	negativeClinicalFeature Arg1:T63 Arg2:T64
+R52	bodyClinicalFeature Arg1:T65 Arg2:T66
+R53	bodyClinicalFeature Arg1:T67 Arg2:T68
+R54	bodyClinicalFeature Arg1:T69 Arg2:T70
+R55	bodyClinicalFeature Arg1:T65 Arg2:T68
+R56	signIndexValue Arg1:T71 Arg2:T72
+R41	signIndexValue Arg1:T73 Arg2:T74
+T51	modification 53 55	剧烈
+R57	modificationClinicalFeature Arg1:T51 Arg2:T5

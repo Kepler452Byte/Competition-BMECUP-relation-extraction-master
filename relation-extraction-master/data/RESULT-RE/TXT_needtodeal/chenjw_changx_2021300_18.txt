@@ -1,0 +1,35 @@
+{"sent": "主 诉 : $ 摔 伤 致 右 髋 痛 3 小 时 $ ￣ 现 病 史 : $ 代 诉 缘 于 入 院 前 3 小 时 在 家 不 慎 摔 倒 ， 致 右 髋 疼 痛 ， 较 为 剧 烈 ， 站 立 及 行 走 活 动 受 限 ， 无 出 血 ， 否 认 头 、 胸 、 腹 部 外 伤 ， 无 伴 昏 迷 、 恶 心 、 呕 吐 ， 无 伴 肢 体 麻 木 ， ￣ 无 伴 大 小 便 异 常 ， 送 至 我 院 就 诊 ， 予 拍 片 检 查 示 ” 右 股 骨 颈 骨 折 ” ， 急 诊 拟 ” 右 股 骨 颈 骨 折 ” 收 入 住 院 。 ￣ $ 高 血 压 1 0 余 ， 初 始 血 压 血 压 1 5 0 / 1 0 0 m m H g ， 口 服 ” 替 米 沙 坦 片 ” 自 诉 控 制 良 好 ； ￣ $ 患 病 来 ， 神 志 清 ， 精 神 软 ， 胃 纳 可 ， 睡 眠 可 ， 大 小 便 如 常 ， 近 期 体 重 无 明 显 改 变 。 $ ￣ 专 科 查 体 : $ T 3 6 ℃ ， P 7 8 次 / 分 ， R 1 9 次 / 分 ， B P 1 8 4 / 8 0 m m H g 神 清 ， 精 神 可 ， 头 颅 无 殊 ， 颈 软 ， 胸 廓 无 畸 形 ， 无 渗 出 ， 心 肺 阴 性 ， 未 闻 及 啰 音 ， 腹 平 软 ， ￣ 无 压 痛 ， 左 髋 外 旋 短 缩 畸 形 ， 肿 痛 ， 右 髋 关 节 活 动 受 限 ， 末 梢 血 运 可 ， 无 麻 木 ， 生 理 放 射 未 做 ， 病 理 反 射 未 引 出 ， 血 运 良 好 。", "ners": [[4, 6, "cause", "摔伤"], [7, 10, "clinicalFeature", "右髋痛"], [10, 13, "time", "3小时"], [24, 30, "time", "入院前3小时"], [34, 36, "cause", "摔倒"], [38, 40, "body", "右髋"], [43, 47, "modification", "较为剧烈"], [51, 57, "clinicalFeature", "行走活动受限"], [58, 59, "negative", "无"], [59, 61, "clinicalFeature", "出血"], [62, 64, "negative", "否认"], [64, 65, "body", "头"], [66, 67, "body", "胸"], [73, 74, "negative", "无"], [75, 77, "clinicalFeature", "昏迷"], [78, 80, "clinicalFeature", "恶心"], [81, 83, "clinicalFeature", "呕吐"], [84, 85, "negative", "无"], [86, 90, "clinicalFeature", "肢体麻木"], [92, 93, "negative", "无"], [94, 99, "clinicalFeature", "大小便异常"], [108, 110, "auxiliaryExamination", "拍片"], [108, 112, "auxiliaryExamination", "拍片检查"], [114, 118, "body", "右股骨颈"], [114, 120, "disease", "右股骨颈骨折"], [118, 120, "auxiliaryDescript", "骨折"], [126, 132, "disease", "右股骨颈骨折"], [140, 143, "disease", "高血压"], [143, 146, "time", "10余"], [149, 153, "sign", "血压血压"], [153, 164, "indexValue", "150/100mmHg"], [168, 173, "drug", "替米沙坦片"], [227, 228, "sign", "T"], [228, 231, "indexValue", "36℃"], [232, 233, "sign", "P"], [233, 238, "indexValue", "78次/分"], [239, 240, "sign", "R"], [240, 245, "indexValue", "19次/分"], [246, 248, "sign", "BP"], [248, 258, "indexValue", "184/80mmHg"], [258, 260, "clinicalFeature", "神清"], [261, 264, "clinicalFeature", "精神可"], [265, 267, "body", "头颅"], [267, 269, "clinicalFeature", "无殊"], [270, 271, "body", "颈"], [271, 272, "clinicalFeature", "软"], [273, 275, "body", "胸廓"], [275, 278, "clinicalFeature", "无畸形"], [279, 282, "clinicalFeature", "无渗出"], [283, 284, "body", "心"], [284, 285, "body", "肺"], [285, 287, "indexValue", "阴性"], [288, 293, "clinicalFeature", "未闻及啰音"], [294, 295, "body", "腹"], [295, 297, "clinicalFeature", "平软"], [299, 302, "clinicalFeature", "无压痛"], [303, 305, "body", "左髋"], [305, 311, "clinicalFeature", "外旋短缩畸形"], [312, 314, "clinicalFeature", "肿痛"], [315, 319, "body", "右髋关节"], [319, 323, "clinicalFeature", "活动受限"], [324, 329, "clinicalFeature", "末梢血运可"], [330, 333, "clinicalFeature", "无麻木"], [334, 338, "sign", "生理放射"], [338, 340, "indexValue", "未做"], [341, 345, "sign", "病理反射"], [345, 348, "indexValue", "未引出"], [349, 353, "clinicalFeature", "血运良好"]]}
+[4, 6, 'cause', '摔伤']	[7, 10, 'clinicalFeature', '右髋痛']	属性
+[7, 10, 'clinicalFeature', '右髋痛']	[10, 13, 'time', '3小时']	属性
+[38, 40, 'body', '右髋']	[51, 57, 'clinicalFeature', '行走活动受限']	属性
+[51, 57, 'clinicalFeature', '行走活动受限']	[24, 30, 'time', '入院前3小时']	属性
+[58, 59, 'negative', '无']	[59, 61, 'clinicalFeature', '出血']	属性
+[59, 61, 'clinicalFeature', '出血']	[24, 30, 'time', '入院前3小时']	属性
+[73, 74, 'negative', '无']	[81, 83, 'clinicalFeature', '呕吐']	属性
+[75, 77, 'clinicalFeature', '昏迷']	[24, 30, 'time', '入院前3小时']	属性
+[78, 80, 'clinicalFeature', '恶心']	[24, 30, 'time', '入院前3小时']	属性
+[81, 83, 'clinicalFeature', '呕吐']	[24, 30, 'time', '入院前3小时']	属性
+[84, 85, 'negative', '无']	[86, 90, 'clinicalFeature', '肢体麻木']	属性
+[86, 90, 'clinicalFeature', '肢体麻木']	[24, 30, 'time', '入院前3小时']	属性
+[92, 93, 'negative', '无']	[94, 99, 'clinicalFeature', '大小便异常']	属性
+[94, 99, 'clinicalFeature', '大小便异常']	[24, 30, 'time', '入院前3小时']	属性
+[108, 110, 'auxiliaryExamination', '拍片']	[24, 30, 'time', '入院前3小时']	属性
+[108, 112, 'auxiliaryExamination', '拍片检查']	[24, 30, 'time', '入院前3小时']	属性
+[114, 118, 'body', '右股骨颈']	[118, 120, 'auxiliaryDescript', '骨折']	属性
+[114, 120, 'disease', '右股骨颈骨折']	[118, 120, 'auxiliaryDescript', '骨折']	属性
+[140, 143, 'disease', '高血压']	[143, 146, 'time', '10余']	属性
+[149, 153, 'sign', '血压血压']	[153, 164, 'indexValue', '150/100mmHg']	属性
+[227, 228, 'sign', 'T']	[228, 231, 'indexValue', '36℃']	属性
+[232, 233, 'sign', 'P']	[233, 238, 'indexValue', '78次/分']	属性
+[239, 240, 'sign', 'R']	[240, 245, 'indexValue', '19次/分']	属性
+[246, 248, 'sign', 'BP']	[248, 258, 'indexValue', '184/80mmHg']	属性
+[265, 267, 'body', '头颅']	[267, 269, 'clinicalFeature', '无殊']	属性
+[270, 271, 'body', '颈']	[271, 272, 'clinicalFeature', '软']	属性
+[273, 275, 'body', '胸廓']	[279, 282, 'clinicalFeature', '无渗出']	属性
+[283, 284, 'body', '心']	[285, 287, 'indexValue', '阴性']	属性
+[284, 285, 'body', '肺']	[285, 287, 'indexValue', '阴性']	属性
+[294, 295, 'body', '腹']	[299, 302, 'clinicalFeature', '无压痛']	属性
+[303, 305, 'body', '左髋']	[312, 314, 'clinicalFeature', '肿痛']	属性
+[334, 338, 'sign', '生理放射']	[338, 340, 'indexValue', '未做']	属性
+[341, 345, 'sign', '病理反射']	[345, 348, 'indexValue', '未引出']	属性
+

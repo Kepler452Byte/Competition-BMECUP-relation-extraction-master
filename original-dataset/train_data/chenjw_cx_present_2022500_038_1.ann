@@ -1,0 +1,5 @@
+T1	time 9 14	4小时余前
+T2	cause 29 36	被对方轿车撞倒
+T3	clinicalFeature 37 43	致伤右侧肢体
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3

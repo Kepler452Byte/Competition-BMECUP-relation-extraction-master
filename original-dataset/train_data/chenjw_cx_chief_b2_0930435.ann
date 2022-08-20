@@ -1,0 +1,11 @@
+T1	cause 3 5	扭伤
+T2	body 6 9	右踝部
+T3	clinicalFeature 9 11	肿痛
+T4	clinicalFeature 12 16	活动受限
+R1	bodyClinicalFeature Arg1:T2 Arg2:T3
+T7	time 16 18	3周
+R2	bodyClinicalFeature Arg1:T2 Arg2:T4
+R3	causeClinicalFeature Arg1:T1 Arg2:T3
+R4	causeClinicalFeature Arg1:T1 Arg2:T4
+R5	clinicalFeatureTime Arg1:T4 Arg2:T7
+R6	clinicalFeatureTime Arg1:T3 Arg2:T7

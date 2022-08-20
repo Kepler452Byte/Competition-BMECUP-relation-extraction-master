@@ -1,0 +1,138 @@
+T1	clinicalFeature 4 8	全身乏力
+T2	time 8 11	一月余
+T3	time 20 23	一月前
+T4	cause 23 28	无明显诱因
+T5	clinicalFeature 31 35	全身乏力
+T6	negative 36 37	无
+T7	clinicalFeature 37 39	腹痛
+T8	clinicalFeature 39 41	腹泻
+T9	negative 42 43	无
+T10	clinicalFeature 43 45	恶心
+T11	clinicalFeature 45 47	呕吐
+T12	negative 48 49	无
+T13	clinicalFeature 49 51	畏寒
+T14	clinicalFeature 51 53	发热
+T15	negative 54 55	无
+T16	clinicalFeature 55 57	心悸
+T17	clinicalFeature 57 59	胸闷
+T18	negative 60 61	无
+T19	clinicalFeature 61 63	眼黄
+T20	negative 66 67	无
+T21	clinicalFeature 67 69	尿频
+T25	disease 136 140	胰腺CA
+T38	disease 187 190	高血压
+T39	time 193 196	15年
+T40	drug 200 205	氨氯地平片
+T41	dose 206 208	1片
+T42	frequency 208 211	qd"
+T43	clinicalFeature 212 217	血压控制可
+T44	sign 225 227	体温
+T45	indexValue 227 232	37.1℃
+T46	sign 233 235	脉搏
+T47	indexValue 235 240	91次/分
+T48	sign 241 243	呼吸
+T49	indexValue 243 248	17次/分
+T50	sign 249 251	血压
+T51	indexValue 251 261	133/71mmHg
+T52	clinicalFeature 262 265	神志清
+T55	body 270 274	皮肤巩膜
+T56	clinicalFeature 274 277	无黄染
+T57	body 278 285	全身浅表淋巴结
+T58	clinicalFeature 285 289	未及肿大
+T59	clinicalFeature 292 297	外形无畸形
+T60	clinicalFeature 302 305	无增宽
+T61	body 306 308	肺部
+T62	clinicalFeature 308 312	呼吸音清
+T63	sign 313 315	心率
+T64	indexValue 315 320	91次/分
+T65	clinicalFeature 321 324	心律齐
+T66	clinicalFeature 325 329	心音正常
+T67	body 330 336	各瓣膜听诊区
+T68	clinicalFeature 336 344	未闻及病理性杂音
+T69	body 345 346	腹
+T70	clinicalFeature 346 348	平软
+T71	clinicalFeature 351 355	肋下未及
+T72	body 356 358	全腹
+T73	clinicalFeature 358 361	无压痛
+T75	clinicalFeature 362 366	无反跳痛
+T76	negative 370 371	无
+T77	sign 372 375	墨菲征
+T78	indexValue 375 377	阴性
+T79	body 379 382	双肾区
+T81	clinicalFeature 382 385	无叩痛
+T82	indexValue 391 393	阴性
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T8
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T9 Arg2:T11
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T12 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T15 Arg2:T17
+T83	clinicalFeature 63 65	尿黄
+R12	negativeClinicalFeature Arg1:T18 Arg2:T19
+R13	negativeClinicalFeature Arg1:T18 Arg2:T83
+T84	clinicalFeature 69 71	尿急
+T85	clinicalFeature 71 73	尿痛
+R14	negativeClinicalFeature Arg1:T20 Arg2:T21
+R15	negativeClinicalFeature Arg1:T20 Arg2:T84
+R16	negativeClinicalFeature Arg1:T20 Arg2:T85
+R17	clinicalFeatureTime Arg1:T7 Arg2:T3
+R18	clinicalFeatureTime Arg1:T8 Arg2:T3
+R19	clinicalFeatureTime Arg1:T10 Arg2:T3
+R20	clinicalFeatureTime Arg1:T11 Arg2:T3
+R21	clinicalFeatureTime Arg1:T13 Arg2:T3
+R22	clinicalFeatureTime Arg1:T14 Arg2:T3
+R23	clinicalFeatureTime Arg1:T16 Arg2:T3
+R24	clinicalFeatureTime Arg1:T17 Arg2:T3
+R25	clinicalFeatureTime Arg1:T19 Arg2:T3
+R26	clinicalFeatureTime Arg1:T83 Arg2:T3
+R27	clinicalFeatureTime Arg1:T21 Arg2:T3
+R28	clinicalFeatureTime Arg1:T84 Arg2:T3
+R29	clinicalFeatureTime Arg1:T85 Arg2:T3
+T86	disease 90 94	胰腺疾患
+T22	cure 105 114	行"AG"方案化疗
+R39	timeDisease Arg1:T39 Arg2:T38
+R40	drugDose Arg1:T40 Arg2:T41
+R41	drugFrequency Arg1:T40 Arg2:T42
+R42	doseFrequency Arg1:T41 Arg2:T42
+R43	diseaseClinicalFeature Arg1:T38 Arg2:T43
+R45	signIndexValue Arg1:T44 Arg2:T45
+R46	signIndexValue Arg1:T46 Arg2:T47
+R47	signIndexValue Arg1:T48 Arg2:T49
+R48	signIndexValue Arg1:T50 Arg2:T51
+T23	clinicalFeature 266 269	精神可
+R49	bodyClinicalFeature Arg1:T55 Arg2:T56
+R50	bodyClinicalFeature Arg1:T57 Arg2:T58
+T53	body 290 292	胸部
+R51	bodyClinicalFeature Arg1:T53 Arg2:T59
+T54	body 299 302	肋间隙
+R52	bodyClinicalFeature Arg1:T54 Arg2:T60
+R53	bodyClinicalFeature Arg1:T61 Arg2:T62
+R54	signIndexValue Arg1:T63 Arg2:T64
+R55	bodyClinicalFeature Arg1:T67 Arg2:T68
+R56	bodyClinicalFeature Arg1:T69 Arg2:T70
+R58	bodyClinicalFeature Arg1:T72 Arg2:T73
+R60	bodyClinicalFeature Arg1:T72 Arg2:T75
+T89	clinicalFeature 367 370	蠕动波
+R61	negativeClinicalFeature Arg1:T76 Arg2:T89
+R62	signIndexValue Arg1:T77 Arg2:T78
+R63	bodyClinicalFeature Arg1:T79 Arg2:T81
+T80	sign 386 391	移动性浊音
+R64	signIndexValue Arg1:T80 Arg2:T82
+T90	body 394 396	脊柱
+T91	body 396 398	四肢
+T92	clinicalFeature 398 400	正常
+R65	bodyClinicalFeature Arg1:T90 Arg2:T92
+R66	bodyClinicalFeature Arg1:T91 Arg2:T92
+T93	sign 401 407	神经系统检查
+T94	indexValue 407 409	阴性
+R67	signIndexValue Arg1:T93 Arg2:T94
+T95	body 349 350	肝
+T96	body 350 351	脾
+R68	bodyClinicalFeature Arg1:T95 Arg2:T71
+R69	bodyClinicalFeature Arg1:T96 Arg2:T71
+R32	cureTime Arg1:T22 Arg2:T3

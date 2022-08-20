@@ -1,0 +1,122 @@
+T1	clinicalFeature 10 15	左胸部疼痛
+T2	time 15 18	3天余
+T3	time 28 31	3天前
+T4	cause 42 44	摔倒
+T5	body 47 50	左胸部
+T6	clinicalFeature 52 56	伤处疼痛
+T8	negative 64 65	无
+T9	clinicalFeature 65 67	昏迷
+T10	negative 68 69	无
+T11	clinicalFeature 69 71	腹痛
+T12	negative 72 73	无
+T13	clinicalFeature 73 75	胸闷
+T14	clinicalFeature 75 77	气急
+T15	clinicalFeature 78 80	咳嗽
+T16	clinicalFeature 80 82	咳痰
+T18	disease 95 99	肋骨骨折
+T19	disease 100 104	胸腔积液
+T32	sign 159 160	T
+T33	indexValue 162 167	37.9℃
+T34	sign 168 169	R
+T35	indexValue 171 176	20次/分
+T36	sign 177 179	P：
+T37	indexValue 179 184	96次/分
+T38	sign 185 187	BP
+T39	indexValue 188 198	155/90mmHg
+T40	clinicalFeature 201 204	神志清
+T41	clinicalFeature 205 208	精神可
+T42	clinicalFeature 209 214	急性痛苦貌
+T43	body 215 217	皮肤
+T44	body 217 219	巩膜
+T45	clinicalFeature 219 221	不黄
+T46	body 222 227	浅表淋巴结
+T47	clinicalFeature 227 231	未及肿大
+T48	body 232 234	头颅
+T49	clinicalFeature 234 239	无外伤畸形
+T50	body 240 242	双瞳
+T51	clinicalFeature 242 244	阴性
+T52	body 245 247	颈部
+T53	clinicalFeature 247 250	无压痛
+T54	clinicalFeature 251 255	活动良好
+T55	body 256 258	胸廓
+T56	clinicalFeature 258 261	无畸形
+T57	sign 262 265	挤压征
+T58	indexValue 265 267	阳性
+T59	body 268 272	左侧胸部
+T60	clinicalFeature 272 274	压痛
+T61	clinicalFeature 278 285	未及明显骨擦感
+T62	body 288 290	双肺
+T63	clinicalFeature 290 295	呼吸音清晰
+T64	clinicalFeature 296 303	未闻及明显罗音
+T65	sign 304 306	HR
+T66	indexValue 307 312	96次/分
+T67	clinicalFeature 313 315	律齐
+T68	clinicalFeature 316 326	未闻及明显病理性杂音
+T69	body 327 328	腹
+T70	clinicalFeature 328 330	平软
+T71	body 331 332	肝
+T72	body 332 333	脾
+T73	clinicalFeature 333 337	肋下未及
+T74	sign 338 349	Murphy sign
+T75	indexValue 350 352	阴性
+T76	body 354 356	全腹
+T78	clinicalFeature 356 359	无压痛
+T80	clinicalFeature 360 364	无反跳痛
+T81	body 365 368	双肾区
+T82	clinicalFeature 368 371	无叩痛
+T83	sign 372 375	肠鸣音
+T84	indexValue 375 378	无亢进
+T85	body 379 382	双下肢
+T86	clinicalFeature 382 385	无浮肿
+T87	body 386 388	四肢
+T88	clinicalFeature 388 392	活动良好
+T89	sign 393 396	病理征
+T90	indexValue 396 399	未引出
+T91	cause 8 10	摔伤
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T91 Arg2:T1
+R3	causeClinicalFeature Arg1:T4 Arg2:T6
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	bodyClinicalFeature Arg1:T5 Arg2:T6
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+R11	negativeClinicalFeature Arg1:T12 Arg2:T15
+R12	negativeClinicalFeature Arg1:T12 Arg2:T16
+R13	clinicalFeatureTime Arg1:T9 Arg2:T3
+R14	clinicalFeatureTime Arg1:T11 Arg2:T3
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	clinicalFeatureTime Arg1:T14 Arg2:T3
+R17	clinicalFeatureTime Arg1:T15 Arg2:T3
+R18	clinicalFeatureTime Arg1:T16 Arg2:T3
+R27	signIndexValue Arg1:T32 Arg2:T33
+R28	signIndexValue Arg1:T34 Arg2:T35
+R29	signIndexValue Arg1:T36 Arg2:T37
+R30	signIndexValue Arg1:T38 Arg2:T39
+R31	bodyClinicalFeature Arg1:T43 Arg2:T45
+R32	bodyClinicalFeature Arg1:T44 Arg2:T45
+R33	bodyClinicalFeature Arg1:T46 Arg2:T47
+R34	bodyClinicalFeature Arg1:T48 Arg2:T49
+R35	bodyClinicalFeature Arg1:T50 Arg2:T51
+R36	bodyClinicalFeature Arg1:T52 Arg2:T53
+R37	bodyClinicalFeature Arg1:T52 Arg2:T54
+R38	bodyClinicalFeature Arg1:T55 Arg2:T56
+R39	bodySign Arg1:T55 Arg2:T57
+R40	signIndexValue Arg1:T57 Arg2:T58
+R41	bodyClinicalFeature Arg1:T59 Arg2:T60
+R42	bodyClinicalFeature Arg1:T59 Arg2:T61
+R43	bodyClinicalFeature Arg1:T62 Arg2:T63
+R44	bodyClinicalFeature Arg1:T62 Arg2:T64
+R45	signIndexValue Arg1:T65 Arg2:T66
+R46	bodyClinicalFeature Arg1:T69 Arg2:T70
+R47	bodyClinicalFeature Arg1:T72 Arg2:T73
+R48	bodyClinicalFeature Arg1:T71 Arg2:T73
+R49	signIndexValue Arg1:T74 Arg2:T75
+R50	bodyClinicalFeature Arg1:T76 Arg2:T78
+R51	bodyClinicalFeature Arg1:T76 Arg2:T80
+R52	bodyClinicalFeature Arg1:T81 Arg2:T82
+R53	signIndexValue Arg1:T83 Arg2:T84
+R54	bodyClinicalFeature Arg1:T85 Arg2:T86
+R55	bodyClinicalFeature Arg1:T87 Arg2:T88
+R56	signIndexValue Arg1:T89 Arg2:T90

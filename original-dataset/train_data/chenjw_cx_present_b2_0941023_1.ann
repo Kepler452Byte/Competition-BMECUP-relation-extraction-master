@@ -1,0 +1,7 @@
+T1	time 6 10	10月前
+T2	cause 20 22	车祸
+T3	disease 25 31	双侧外踝骨折
+R1	timeDisease Arg1:T1 Arg2:T3
+R2	causeDisease Arg1:T2 Arg2:T3
+T4	operation 38 51	双侧外踝骨折切开复位内固定
+R3	timeOperation Arg1:T1 Arg2:T4

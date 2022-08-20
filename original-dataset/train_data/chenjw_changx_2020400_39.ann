@@ -1,0 +1,141 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 13	右侧腰腹部疼痛
+T3	time 13 15	半年
+T4	trend 16 18	加重
+T5	time 18 20	半天
+T6	time 29 32	半年前
+T7	cause 32 37	无明显诱因
+T8	clinicalFeature 42 49	右侧腰腹部疼痛
+T9	modification 50 54	程度较剧
+T10	modification 55 59	难以忍受
+T11	negative 60 61	无
+T12	clinicalFeature 61 63	腹胀
+T13	clinicalFeature 63 65	腹泻
+T14	negative 66 67	无
+T15	clinicalFeature 67 71	肉眼血尿
+T16	cure 81 85	药物治疗
+T17	drug 86 90	具体不详
+T19	trend 93 99	腹部疼痛好转
+T20	time 101 105	8月中旬
+T21	clinicalFeature 108 110	腹痛
+T22	modification 111 117	程度性质同前
+T23	time 118 122	8月中旬
+T24	time 123 125	9月
+T25	cure 130 136	体外碎石治疗
+T27	trend 139 144	结石未排出
+T28	time 157 160	半天前
+T29	clinicalFeature 161 165	右侧腹痛
+T31	modification 170 172	较剧
+T32	modification 174 177	阵发性
+T33	clinicalFeature 182 184	恶心
+T34	clinicalFeature 185 187	尿频
+T35	clinicalFeature 187 189	尿急
+T36	negative 190 191	无
+T37	clinicalFeature 191 193	尿痛
+T38	negative 194 195	无
+T39	clinicalFeature 195 199	肉眼血尿
+T40	negative 200 201	无
+T41	clinicalFeature 201 203	呕吐
+T42	negative 204 205	无
+T43	clinicalFeature 205 207	胸闷
+T44	clinicalFeature 207 209	气急
+T45	negative 210 211	无
+T46	clinicalFeature 211 213	腹胀
+T47	clinicalFeature 213 215	腹泻
+T48	auxiliaryExamination 228 232	全腹CT
+T49	body 235 241	右输尿管下段
+T50	auxiliaryDescript 241 243	结石
+T51	body 244 246	右肾
+T52	auxiliaryDescript 246 248	积水
+T54	disease 262 267	输尿管结石
+T71	sign 327 329	体温
+T72	indexValue 329 334	36.0℃
+T73	sign 335 337	脉搏
+T74	indexValue 337 342	80次/分
+T75	sign 343 345	呼吸
+T76	indexValue 345 350	20次/分
+T77	sign 351 353	血压
+T78	indexValue 353 363	154/95mmHg
+T79	clinicalFeature 364 366	神清
+T80	clinicalFeature 367 371	精神一般
+T81	body 372 373	心
+T82	body 373 374	肺
+T83	clinicalFeature 374 378	听诊无殊
+T84	body 379 380	腹
+T85	clinicalFeature 380 382	平软
+T87	clinicalFeature 383 390	无明显固定压痛
+T88	body 391 394	麦氏点
+T89	clinicalFeature 394 399	无明显压痛
+T90	sign 401 408	Murphy征
+T91	indexValue 408 410	阴性
+T92	sign 411 417	右侧肾区叩痛
+T93	indexValue 417 419	阳性
+T94	body 420 422	左侧
+T95	clinicalFeature 422 424	无殊
+T96	body 425 427	会阴
+T97	body 428 433	外生殖系统
+T98	clinicalFeature 433 438	无明显异常
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTrend Arg1:T2 Arg2:T4
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R6	causeClinicalFeature Arg1:T7 Arg2:T8
+T99	modification 38 40	反复
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	negativeClinicalFeature Arg1:T11 Arg2:T13
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	clinicalFeatureTime Arg1:T12 Arg2:T6
+R14	clinicalFeatureTime Arg1:T13 Arg2:T6
+R15	clinicalFeatureTime Arg1:T15 Arg2:T6
+R17	cureTime Arg1:T16 Arg2:T6
+R18	clinicalFeatureTime Arg1:T21 Arg2:T20
+R20	modificationClinicalFeature Arg1:T22 Arg2:T21
+R21	cureTime Arg1:T25 Arg2:T24
+R22	cureTime Arg1:T25 Arg2:T23
+R24	clinicalFeatureTime Arg1:T29 Arg2:T28
+R27	clinicalFeatureTime Arg1:T33 Arg2:T28
+R28	clinicalFeatureTime Arg1:T34 Arg2:T28
+R29	clinicalFeatureTime Arg1:T35 Arg2:T28
+R30	negativeClinicalFeature Arg1:T36 Arg2:T37
+R31	negativeClinicalFeature Arg1:T38 Arg2:T39
+R32	negativeClinicalFeature Arg1:T40 Arg2:T41
+R33	negativeClinicalFeature Arg1:T42 Arg2:T43
+R34	negativeClinicalFeature Arg1:T42 Arg2:T44
+R35	negativeClinicalFeature Arg1:T45 Arg2:T46
+R36	negativeClinicalFeature Arg1:T45 Arg2:T47
+R37	clinicalFeatureTime Arg1:T37 Arg2:T28
+R38	clinicalFeatureTime Arg1:T39 Arg2:T28
+R39	clinicalFeatureTime Arg1:T41 Arg2:T28
+R40	clinicalFeatureTime Arg1:T43 Arg2:T28
+R41	clinicalFeatureTime Arg1:T44 Arg2:T28
+R42	clinicalFeatureTime Arg1:T46 Arg2:T28
+R43	clinicalFeatureTime Arg1:T47 Arg2:T28
+T18	time 219 221	今日
+R44	auxiliaryExaminationTime Arg1:T48 Arg2:T18
+R45	bodyAuxiliaryDescript Arg1:T49 Arg2:T50
+R46	bodyAuxiliaryDescript Arg1:T51 Arg2:T52
+R47	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T50
+R48	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T52
+R58	signIndexValue Arg1:T71 Arg2:T72
+R59	signIndexValue Arg1:T73 Arg2:T74
+R60	signIndexValue Arg1:T75 Arg2:T76
+R61	signIndexValue Arg1:T77 Arg2:T78
+R62	bodyClinicalFeature Arg1:T81 Arg2:T83
+R63	bodyClinicalFeature Arg1:T82 Arg2:T83
+R64	bodyClinicalFeature Arg1:T84 Arg2:T85
+R65	bodyClinicalFeature Arg1:T84 Arg2:T87
+R66	bodyClinicalFeature Arg1:T88 Arg2:T89
+R67	signIndexValue Arg1:T90 Arg2:T91
+R68	signIndexValue Arg1:T92 Arg2:T93
+R69	bodyClinicalFeature Arg1:T94 Arg2:T95
+R70	bodyClinicalFeature Arg1:T96 Arg2:T98
+R71	bodyClinicalFeature Arg1:T97 Arg2:T98
+R8	modificationClinicalFeature Arg1:T9 Arg2:T8
+R9	modificationClinicalFeature Arg1:T10 Arg2:T8
+R25	modificationClinicalFeature Arg1:T31 Arg2:T29
+R26	modificationClinicalFeature Arg1:T32 Arg2:T29
+R4	modificationClinicalFeature Arg1:T1 Arg2:T2
+R7	modificationClinicalFeature Arg1:T99 Arg2:T8
+T30	modification 177 179	绞痛
+R72	modificationClinicalFeature Arg1:T30 Arg2:T29
+T68	cure 147 152	未予以重视
+T86	cure 153 156	未复查

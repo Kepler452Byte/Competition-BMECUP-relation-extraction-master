@@ -1,0 +1,110 @@
+T1	clinicalFeature 4 6	尿频
+T2	clinicalFeature 6 8	尿急
+T3	time 8 11	半月余
+T4	time 20 24	半月余前
+T5	cause 24 29	无明显诱因
+T6	clinicalFeature 31 33	尿频
+T7	clinicalFeature 33 35	尿急
+T8	clinicalFeature 36 41	下腹部胀痛
+T9	clinicalFeature 42 46	尿量尚可
+T10	clinicalFeature 51 55	肉眼血尿
+T11	negative 56 57	无
+T12	clinicalFeature 57 59	发热
+T13	clinicalFeature 59 61	畏寒
+T14	clinicalFeature 62 64	恶心
+T15	clinicalFeature 64 66	呕吐
+T16	time 79 82	4天前
+T17	auxiliaryExamination 104 109	泌尿系B超
+T18	body 111 113	右肾
+T19	auxiliaryDescript 113 115	积水
+T20	body 116 123	右侧输尿管上段
+T21	auxiliaryDescript 123 127	轻度扩张
+T22	auxiliaryDescript 131 133	增生
+T25	disease 180 185	前列腺增生
+T26	disease 186 190	右肾积水
+T39	sign 242 244	体温
+T40	indexValue 244 249	35.8℃
+T41	sign 250 252	脉搏
+T42	indexValue 252 257	62次/分
+T43	sign 258 260	呼吸
+T44	indexValue 260 265	20次/分
+T45	sign 266 268	血压
+T46	indexValue 268 278	123/70mmHg
+T47	clinicalFeature 279 282	神志清
+T48	clinicalFeature 283 286	精神可
+T50	clinicalFeature 289 291	无殊
+T51	body 292 293	腹
+T52	clinicalFeature 293 295	平软
+T53	negative 295 296	无
+T54	clinicalFeature 296 298	压痛
+T55	clinicalFeature 299 302	反跳痛
+T56	body 303 306	双肾区
+T57	clinicalFeature 306 310	无叩击痛
+T58	body 312 315	耻骨上
+T59	clinicalFeature 315 321	未及膀胱充盈
+T60	body 322 325	颜面部
+T61	body 326 329	双下肢
+T62	clinicalFeature 329 332	无水肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T6 Arg2:T4
+R4	clinicalFeatureTime Arg1:T7 Arg2:T4
+R5	causeClinicalFeature Arg1:T5 Arg2:T6
+R6	causeClinicalFeature Arg1:T5 Arg2:T7
+R7	clinicalFeatureTime Arg1:T8 Arg2:T4
+R8	clinicalFeatureTime Arg1:T9 Arg2:T4
+T63	negative 47 49	未见
+R9	negativeClinicalFeature Arg1:T63 Arg2:T10
+R10	clinicalFeatureTime Arg1:T10 Arg2:T4
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	negativeClinicalFeature Arg1:T11 Arg2:T13
+R13	negativeClinicalFeature Arg1:T11 Arg2:T14
+R14	negativeClinicalFeature Arg1:T11 Arg2:T15
+R15	clinicalFeatureTime Arg1:T12 Arg2:T4
+R16	clinicalFeatureTime Arg1:T13 Arg2:T4
+R17	clinicalFeatureTime Arg1:T14 Arg2:T4
+R18	clinicalFeatureTime Arg1:T15 Arg2:T4
+T64	cure 70 77	未予重视及治疗
+R19	cureTime Arg1:T64 Arg2:T4
+T65	laboratory 94 97	尿常规
+T66	laboratoryValue 99 103	隐血3+
+R20	laboratoryLaboratoryValue Arg1:T65 Arg2:T66
+R21	laboratoryTime Arg1:T65 Arg2:T16
+R22	auxiliaryExaminationTime Arg1:T17 Arg2:T16
+R23	bodyAuxiliaryDescript Arg1:T18 Arg2:T19
+R24	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T19
+R25	bodyAuxiliaryDescript Arg1:T20 Arg2:T21
+R26	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T21
+T67	auxiliaryDescript 134 139	钙化斑形成
+T68	body 128 131	前列腺
+R27	bodyAuxiliaryDescript Arg1:T68 Arg2:T22
+R28	bodyAuxiliaryDescript Arg1:T68 Arg2:T67
+R29	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T22
+R30	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T67
+T23	body 140 143	膀胱壁
+T69	auxiliaryDescript 143 145	毛糙
+T70	auxiliaryDescript 145 147	增厚
+R31	bodyAuxiliaryDescript Arg1:T23 Arg2:T69
+R32	bodyAuxiliaryDescript Arg1:T23 Arg2:T70
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T69
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T70
+T71	auxiliaryDescript 148 153	残余尿测定
+T72	indexValue 153 157	84ml
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T71
+R45	signIndexValue Arg1:T39 Arg2:T40
+R46	signIndexValue Arg1:T41 Arg2:T42
+R47	signIndexValue Arg1:T43 Arg2:T44
+R48	signIndexValue Arg1:T45 Arg2:T46
+T49	body 287 288	心
+T73	body 288 289	肺
+R49	bodyClinicalFeature Arg1:T49 Arg2:T50
+R50	bodyClinicalFeature Arg1:T73 Arg2:T50
+R51	bodyClinicalFeature Arg1:T51 Arg2:T52
+R52	negativeClinicalFeature Arg1:T53 Arg2:T54
+R53	negativeClinicalFeature Arg1:T53 Arg2:T55
+R54	bodyClinicalFeature Arg1:T51 Arg2:T54
+R55	bodyClinicalFeature Arg1:T51 Arg2:T55
+R56	bodyClinicalFeature Arg1:T56 Arg2:T57
+R57	bodyClinicalFeature Arg1:T58 Arg2:T59
+R58	bodyClinicalFeature Arg1:T60 Arg2:T62
+R59	bodyClinicalFeature Arg1:T61 Arg2:T62

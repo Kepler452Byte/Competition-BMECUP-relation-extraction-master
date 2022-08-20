@@ -1,0 +1,121 @@
+T2	time 15 19	2小时余
+T3	time 31 35	2小时余
+T4	cause 47 49	相撞
+T5	clinicalFeature 56 58	肿痛
+T6	clinicalFeature 59 63	活动受限
+T7	modification 64 70	疼痛性质剧烈
+T8	clinicalFeature 72 80	左踝少许擦伤渗血
+T9	clinicalFeature 81 86	左膝前疼痛
+T11	negative 95 96	无
+T26	disease 198 202	高血压病
+T27	time 204 206	5年
+T28	drug 211 214	施慧达
+T29	dose 214 216	1#
+T30	frequency 217 219	qd
+T32	dose 224 226	1#
+T33	frequency 227 229	qd
+T34	clinicalFeature 232 237	血压控制可
+T35	sign 245 247	体温
+T36	indexValue 247 252	36.9℃
+T37	sign 253 255	脉搏
+T38	indexValue 255 260	88次/分
+T39	sign 261 263	呼吸
+T40	indexValue 263 268	20次/分
+T41	sign 269 271	血压
+T42	indexValue 271 281	125/79mmHg
+T43	clinicalFeature 282 284	神清
+T44	body 285 288	双瞳孔
+T45	clinicalFeature 288 294	对光反射灵敏
+T46	body 295 297	胸部
+T47	clinicalFeature 297 300	无压痛
+T52	clinicalFeature 325 328	擦伤痕
+T57	clinicalFeature 349 351	压痛
+T59	clinicalFeature 360 364	石膏固定
+T61	clinicalFeature 379 385	未见明显异常
+T1	clinicalFeature 11 15	活动受限
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T5 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+T10	negative 87 89	否认
+T62	clinicalFeature 91 93	昏迷
+R8	negativeClinicalFeature Arg1:T10 Arg2:T62
+R9	clinicalFeatureTime Arg1:T62 Arg2:T3
+T12	clinicalFeature 96 100	胸腹疼痛
+T63	clinicalFeature 101 106	大小便失禁
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	negativeClinicalFeature Arg1:T11 Arg2:T63
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	clinicalFeatureTime Arg1:T63 Arg2:T3
+T64	auxiliaryExamination 121 125	左踝X线
+T65	auxiliaryExamination 126 128	CT
+T13	body 130 134	左踝关节
+T66	auxiliaryDescript 134 139	骨折伴脱位
+R14	bodyAuxiliaryDescript Arg1:T13 Arg2:T66
+R15	auxiliaryExaminationAuxiliaryDescript Arg1:T64 Arg2:T66
+R16	auxiliaryExaminationAuxiliaryDescript Arg1:T65 Arg2:T66
+T67	cure 141 149	手法复位石膏固定
+R24	timeDisease Arg1:T27 Arg2:T26
+R25	drugDose Arg1:T28 Arg2:T29
+R26	doseFrequency Arg1:T29 Arg2:T30
+T31	drug 221 224	安博诺
+R27	drugDose Arg1:T31 Arg2:T32
+R28	doseFrequency Arg1:T32 Arg2:T33
+R31	diseaseClinicalFeature Arg1:T26 Arg2:T34
+R32	signIndexValue Arg1:T35 Arg2:T36
+R33	signIndexValue Arg1:T37 Arg2:T38
+R34	signIndexValue Arg1:T39 Arg2:T40
+R35	signIndexValue Arg1:T41 Arg2:T42
+R36	bodyClinicalFeature Arg1:T44 Arg2:T45
+R37	bodyClinicalFeature Arg1:T46 Arg2:T47
+T48	body 301 302	腹
+T68	clinicalFeature 302 303	软
+R38	bodyClinicalFeature Arg1:T48 Arg2:T68
+T49	clinicalFeature 304 307	无压痛
+R39	bodyClinicalFeature Arg1:T48 Arg2:T49
+T50	body 309 314	脊柱及骨盆
+T51	negative 314 315	无
+T69	clinicalFeature 315 317	压痛
+T70	clinicalFeature 318 321	叩击痛
+R40	negativeClinicalFeature Arg1:T51 Arg2:T69
+R41	negativeClinicalFeature Arg1:T51 Arg2:T70
+R42	bodyClinicalFeature Arg1:T50 Arg2:T69
+R43	bodyClinicalFeature Arg1:T50 Arg2:T70
+T53	body 329 331	左膝
+T71	clinicalFeature 331 336	屈伸活动可
+R44	bodyClinicalFeature Arg1:T53 Arg2:T71
+T54	body 337 340	内外侧
+T55	clinicalFeature 340 343	无压痛
+R45	bodyClinicalFeature Arg1:T54 Arg2:T55
+R46	bodyBody Arg1:T53 Arg2:T54
+T56	body 344 346	左踝
+T72	clinicalFeature 346 348	肿胀
+R47	bodyClinicalFeature Arg1:T56 Arg2:T72
+R48	bodyClinicalFeature Arg1:T56 Arg2:T57
+T58	clinicalFeature 352 359	踝前内侧擦伤痕
+R49	bodyClinicalFeature Arg1:T56 Arg2:T58
+T60	body 365 367	左足
+T73	clinicalFeature 367 375	末梢感觉及血运可
+R50	bodyClinicalFeature Arg1:T60 Arg2:T73
+T74	body 376 379	余肢体
+R51	bodyClinicalFeature Arg1:T74 Arg2:T61
+R52	auxiliaryExaminationTime Arg1:T64 Arg2:T3
+R53	auxiliaryExaminationTime Arg1:T65 Arg2:T3
+R17	cureTime Arg1:T67 Arg2:T3
+T76	body 322 325	左膝前
+R55	bodyClinicalFeature Arg1:T76 Arg2:T52
+R56	bodyClinicalFeature Arg1:T56 Arg2:T59
+T75	cause 4 6	车祸
+R54	causeClinicalFeature Arg1:T75 Arg2:T1
+T77	clinicalFeature 9 11	肿痛
+T78	body 7 9	左踝
+R57	bodyClinicalFeature Arg1:T78 Arg2:T77
+R58	bodyClinicalFeature Arg1:T78 Arg2:T1
+R59	causeClinicalFeature Arg1:T75 Arg2:T77
+T79	body 54 56	左踝
+R4	bodyClinicalFeature Arg1:T79 Arg2:T5
+R60	bodyClinicalFeature Arg1:T79 Arg2:T6
+R61	causeClinicalFeature Arg1:T4 Arg2:T6
+R62	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	modificationClinicalFeature Arg1:T7 Arg2:T5

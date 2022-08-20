@@ -1,0 +1,5 @@
+T1	time 7 10	7年前
+T2	disease 14 16	肺癌
+T5	cause 10 14	检查发现
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	causeDisease Arg1:T5 Arg2:T2

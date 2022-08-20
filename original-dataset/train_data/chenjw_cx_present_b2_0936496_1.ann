@@ -1,0 +1,6 @@
+T1	time 6 10	4月余前
+T2	time 38 47	2019-12-7
+T3	operation 49 55	右半肝切除术
+T6	disease 17 19	肝癌
+R1	timeDisease Arg1:T1 Arg2:T6
+R2	timeOperation Arg1:T2 Arg2:T3

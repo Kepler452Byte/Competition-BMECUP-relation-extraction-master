@@ -1,0 +1,164 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 6 8	气急
+T3	time 8 11	1年余
+T4	time 14 16	3天
+T5	time 28 32	1年余前
+T6	cause 32 37	无明显诱因
+T7	clinicalFeature 39 41	胸闷
+T8	clinicalFeature 42 44	气急
+T11	clinicalFeature 58 66	夜间偶有不能平卧
+T12	clinicalFeature 68 70	乏力
+T13	clinicalFeature 71 73	纳差
+T14	modification 74 78	不思饮食
+T15	negative 79 80	无
+T16	clinicalFeature 80 82	咳痰
+T17	clinicalFeature 83 85	咳痰
+T18	negative 87 88	无
+T19	clinicalFeature 88 90	畏寒
+T20	negative 91 92	无
+T21	clinicalFeature 92 94	发热
+T22	negative 95 96	无
+T23	clinicalFeature 96 98	恶心
+T24	clinicalFeature 98 100	呕吐
+T25	negative 101 102	无
+T26	clinicalFeature 102 104	腹痛
+T27	clinicalFeature 105 107	腹胀
+T28	negative 108 109	无
+T29	clinicalFeature 109 111	头晕
+T30	clinicalFeature 112 114	头痛
+T31	negative 115 116	无
+T32	clinicalFeature 116 118	晕厥
+T33	clinicalFeature 119 121	黑朦
+T34	disease 157 169	冠状动脉粥样硬化性心脏病
+T35	disease 172 180	房颤伴快速心室率
+T36	disease 183 187	高血压病
+T37	disease 188 195	高血压性心脏病
+T38	disease 196 201	心功能Ⅲ级
+T42	disease 220 226	频发室性早搏
+T45	cure 241 245	药物治疗
+T46	modification 255 257	偶有
+T47	clinicalFeature 257 259	胸闷
+T48	clinicalFeature 259 261	气促
+T49	time 262 266	近3天来
+T51	modification 277 282	稍活动即感
+T52	clinicalFeature 282 284	胸闷
+T53	clinicalFeature 284 286	气促
+T54	negative 288 289	无
+T57	clinicalFeature 289 298	夜间阵发性呼吸困难
+T58	clinicalFeature 299 303	尚能平卧
+T59	cause 311 313	摔倒
+T60	negative 314 315	无
+T61	clinicalFeature 315 319	明显外伤
+T62	disease 331 335	心力衰竭
+T74	disease 385 389	高血压病
+T75	time 392 395	8年余
+T76	disease 398 401	冠心病
+T77	disease 402 406	房颤"病
+T78	drug 410 414	药物不详
+T79	indexValue 430 435	36.5℃
+T80	sign 451 453	BP
+T81	indexValue 453 463	139/92mmHg
+T82	clinicalFeature 464 467	神志清
+T83	clinicalFeature 468 472	呼吸平稳
+T84	body 473 475	两肺
+T85	clinicalFeature 475 479	呼吸音粗
+T86	body 480 483	双下肺
+T87	clinicalFeature 483 489	可闻及湿罗音
+T88	sign 490 492	心率
+T89	indexValue 492 498	150次/分
+T90	clinicalFeature 499 502	律不齐
+T91	clinicalFeature 503 511	未闻及病理性杂音
+T92	body 512 513	腹
+T93	clinicalFeature 513 515	平软
+T94	clinicalFeature 516 519	无压痛
+T95	clinicalFeature 522 527	肋下未触及
+T96	body 529 532	双下肢
+T97	clinicalFeature 532 535	略浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+T98	trend 12 14	加重
+R4	clinicalFeatureTrend Arg1:T2 Arg2:T98
+R5	clinicalFeatureTrend Arg1:T1 Arg2:T98
+R10	modificationClinicalFeature Arg1:T14 Arg2:T13
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	negativeClinicalFeature Arg1:T15 Arg2:T17
+R13	negativeClinicalFeature Arg1:T18 Arg2:T19
+R14	negativeClinicalFeature Arg1:T20 Arg2:T21
+R15	negativeClinicalFeature Arg1:T22 Arg2:T23
+R16	negativeClinicalFeature Arg1:T22 Arg2:T24
+R17	negativeClinicalFeature Arg1:T25 Arg2:T26
+R18	negativeClinicalFeature Arg1:T25 Arg2:T27
+R19	negativeClinicalFeature Arg1:T28 Arg2:T29
+R20	negativeClinicalFeature Arg1:T28 Arg2:T30
+R21	negativeClinicalFeature Arg1:T31 Arg2:T32
+R22	negativeClinicalFeature Arg1:T31 Arg2:T33
+R23	causeClinicalFeature Arg1:T6 Arg2:T7
+R24	causeClinicalFeature Arg1:T6 Arg2:T8
+R25	causeClinicalFeature Arg1:T6 Arg2:T11
+R26	causeClinicalFeature Arg1:T6 Arg2:T12
+R27	causeClinicalFeature Arg1:T6 Arg2:T13
+R28	clinicalFeatureTime Arg1:T7 Arg2:T5
+R29	clinicalFeatureTime Arg1:T8 Arg2:T5
+R30	clinicalFeatureTime Arg1:T11 Arg2:T5
+R31	clinicalFeatureTime Arg1:T12 Arg2:T5
+R32	clinicalFeatureTime Arg1:T13 Arg2:T5
+R33	clinicalFeatureTime Arg1:T16 Arg2:T5
+R34	clinicalFeatureTime Arg1:T17 Arg2:T5
+R35	clinicalFeatureTime Arg1:T19 Arg2:T5
+R36	clinicalFeatureTime Arg1:T21 Arg2:T5
+R37	clinicalFeatureTime Arg1:T23 Arg2:T5
+R38	clinicalFeatureTime Arg1:T24 Arg2:T5
+R39	clinicalFeatureTime Arg1:T26 Arg2:T5
+R40	clinicalFeatureTime Arg1:T27 Arg2:T5
+R41	clinicalFeatureTime Arg1:T29 Arg2:T5
+R42	clinicalFeatureTime Arg1:T30 Arg2:T5
+R43	clinicalFeatureTime Arg1:T32 Arg2:T5
+R44	clinicalFeatureTime Arg1:T33 Arg2:T5
+T100	disease 204 206	胃炎
+T39	disease 209 216	颈动脉斑块形成
+T40	disease 229 236	肺动脉高压中度
+R63	modificationClinicalFeature Arg1:T46 Arg2:T47
+R64	modificationClinicalFeature Arg1:T46 Arg2:T48
+R65	modificationClinicalFeature Arg1:T51 Arg2:T52
+R66	modificationClinicalFeature Arg1:T51 Arg2:T53
+R67	clinicalFeatureTime Arg1:T52 Arg2:T49
+R68	clinicalFeatureTime Arg1:T53 Arg2:T49
+R72	negativeClinicalFeature Arg1:T60 Arg2:T61
+R69	negativeClinicalFeature Arg1:T54 Arg2:T57
+R70	clinicalFeatureTime Arg1:T57 Arg2:T49
+R71	clinicalFeatureTime Arg1:T58 Arg2:T49
+R73	causeClinicalFeature Arg1:T59 Arg2:T61
+T43	time 304 306	昨日
+R74	clinicalFeatureTime Arg1:T61 Arg2:T43
+T50	disease 336 338	房颤
+T55	clinicalFeature 248 254	一般情况尚可
+T56	time 238 240	平时
+R55	cureTime Arg1:T45 Arg2:T56
+R56	clinicalFeatureTime Arg1:T55 Arg2:T56
+R57	clinicalFeatureTime Arg1:T47 Arg2:T56
+R58	clinicalFeatureTime Arg1:T48 Arg2:T56
+T101	trend 274 276	加重
+R59	clinicalFeatureTrend Arg1:T47 Arg2:T101
+R60	clinicalFeatureTrend Arg1:T48 Arg2:T101
+R81	timeDisease Arg1:T75 Arg2:T74
+T103	clinicalFeature 415 421	血压控制一般
+R82	diseaseClinicalFeature Arg1:T74 Arg2:T103
+T104	indexValue 437 442	19次/分
+T105	indexValue 444 450	100次/分
+R86	signIndexValue Arg1:T80 Arg2:T81
+T106	sign 443 444	P
+T107	sign 436 437	R
+T108	sign 429 430	T
+R87	signIndexValue Arg1:T108 Arg2:T79
+R88	signIndexValue Arg1:T107 Arg2:T104
+R89	signIndexValue Arg1:T106 Arg2:T105
+R90	bodyClinicalFeature Arg1:T84 Arg2:T85
+R91	bodyClinicalFeature Arg1:T86 Arg2:T87
+R92	signIndexValue Arg1:T88 Arg2:T89
+R93	bodyClinicalFeature Arg1:T92 Arg2:T93
+R95	bodyClinicalFeature Arg1:T96 Arg2:T97
+T110	body 520 521	肝
+T111	body 521 522	脾
+R96	bodyClinicalFeature Arg1:T110 Arg2:T95
+R97	bodyClinicalFeature Arg1:T111 Arg2:T95
+R94	bodyClinicalFeature Arg1:T92 Arg2:T94

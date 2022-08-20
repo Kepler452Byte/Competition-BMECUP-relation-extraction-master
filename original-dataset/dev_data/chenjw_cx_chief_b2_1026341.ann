@@ -1,0 +1,11 @@
+T1	time 5 8	60天
+T2	clinicalFeature 9 11	恶心
+T3	clinicalFeature 11 13	呕吐
+T6	clinicalFeature 3 5	停经
+R1	clinicalFeatureTime Arg1:T6 Arg2:T1
+T7	time 15 17	1周
+T8	modification 13 15	明显
+R2	modificationClinicalFeature Arg1:T8 Arg2:T3
+R3	modificationClinicalFeature Arg1:T8 Arg2:T2
+R4	clinicalFeatureTime Arg1:T3 Arg2:T7
+R5	clinicalFeatureTime Arg1:T2 Arg2:T7

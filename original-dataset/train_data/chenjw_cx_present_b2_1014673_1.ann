@@ -1,0 +1,9 @@
+T1	time 10 14	3小时前
+T2	cause 26 28	相撞
+T3	body 30 32	胸部
+T4	body 33 37	全身多处
+T5	clinicalFeature 37 41	外伤疼痛
+R1	bodyClinicalFeature Arg1:T3 Arg2:T5
+R2	bodyClinicalFeature Arg1:T4 Arg2:T5
+R3	causeClinicalFeature Arg1:T2 Arg2:T5
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1

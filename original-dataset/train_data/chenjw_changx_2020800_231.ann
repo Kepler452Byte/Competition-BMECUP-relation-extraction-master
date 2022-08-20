@@ -1,0 +1,105 @@
+T1	disease 4 11	回盲部腺癌术后
+T2	disease 12 15	脑出血
+T3	time 15 18	3月余
+T4	clinicalFeature 19 21	咳痰
+T5	time 21 23	4天
+T6	time 32 36	3月余前
+T8	clinicalFeature 40 44	结肠肿瘤
+T9	operation 48 55	右半结肠癌根治
+T10	operation 56 61	肠粘连松解
+T11	operation 62 69	大网膜结节切除
+T12	operation 70 75	小肠排列术
+T13	disease 80 85	回盲部腺癌
+T15	disease 90 93	脑出血
+T16	disease 94 96	脑疝
+T17	cure 108 112	气管切开
+T18	time 116 119	4天前
+T19	clinicalFeature 121 123	咳嗽
+T20	clinicalFeature 123 125	咳痰
+T21	modification 128 130	反复
+T22	negative 131 132	无
+T23	clinicalFeature 132 134	咯血
+T24	negative 135 136	无
+T25	clinicalFeature 136 138	发热
+T26	clinicalFeature 138 140	畏寒
+T27	negative 141 142	无
+T28	clinicalFeature 142 144	呕吐
+T29	sign 166 167	T
+T30	indexValue 167 172	37.0℃
+T31	sign 173 174	P
+T32	indexValue 174 179	84次/分
+T33	sign 180 181	R
+T34	indexValue 181 186	22次/分
+T35	clinicalFeature 187 195	呼吸机辅助通气）
+T36	sign 196 198	Bp
+T37	indexValue 198 208	137/82mmHg
+T38	clinicalFeature 211 215	神志不清
+T39	modification 216 220	呼之不应
+T40	clinicalFeature 221 224	能睁眼
+T41	clinicalFeature 225 231	不能配合检查
+T42	body 232 235	双瞳孔
+T43	clinicalFeature 235 237	无殊
+T44	body 238 239	颈
+T45	clinicalFeature 239 240	软
+T47	clinicalFeature 241 245	气管切开
+T48	clinicalFeature 246 254	接呼吸机辅助通气
+T49	modification 255 262	模式BIPAP
+T50	clinicalFeature 263 269	自主呼吸存在
+T51	body 270 272	双肺
+T52	clinicalFeature 272 277	呼吸音偏低
+T53	clinicalFeature 278 287	未闻及明显干湿啰音
+T54	sign 289 291	心率
+T55	indexValue 295 300	84bpm
+T56	clinicalFeature 301 304	律尚齐
+T57	body 305 306	腹
+T58	clinicalFeature 306 307	软
+T59	body 308 312	右侧肢体
+T60	clinicalFeature 312 314	偏瘫
+T61	body 315 319	左侧肢体
+T62	clinicalFeature 320 325	不自主活动
+T63	clinicalFeature 326 332	不能配合检查
+T64	sign 333 336	病理征
+T65	indexValue 336 339	未引出
+T66	body 340 343	双下肢
+T67	clinicalFeature 343 348	无明显水肿
+R1	timeDisease Arg1:T3 Arg2:T2
+R2	timeDisease Arg1:T3 Arg2:T1
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T8 Arg2:T6
+R5	timeOperation Arg1:T6 Arg2:T9
+R6	timeOperation Arg1:T6 Arg2:T10
+R7	timeOperation Arg1:T6 Arg2:T11
+R8	timeOperation Arg1:T6 Arg2:T12
+R9	timeDisease Arg1:T6 Arg2:T13
+R10	timeDisease Arg1:T6 Arg2:T15
+R11	timeDisease Arg1:T6 Arg2:T16
+R12	clinicalFeatureTime Arg1:T19 Arg2:T18
+R13	clinicalFeatureTime Arg1:T20 Arg2:T18
+R14	modificationClinicalFeature Arg1:T21 Arg2:T20
+R15	modificationClinicalFeature Arg1:T21 Arg2:T19
+R16	negativeClinicalFeature Arg1:T22 Arg2:T23
+R17	negativeClinicalFeature Arg1:T24 Arg2:T25
+R18	negativeClinicalFeature Arg1:T27 Arg2:T28
+R19	negativeClinicalFeature Arg1:T24 Arg2:T26
+R20	clinicalFeatureTime Arg1:T23 Arg2:T18
+R21	clinicalFeatureTime Arg1:T25 Arg2:T18
+R22	clinicalFeatureTime Arg1:T28 Arg2:T18
+R23	clinicalFeatureTime Arg1:T26 Arg2:T18
+R24	signIndexValue Arg1:T29 Arg2:T30
+R25	signIndexValue Arg1:T31 Arg2:T32
+R26	signIndexValue Arg1:T33 Arg2:T34
+R27	signIndexValue Arg1:T36 Arg2:T37
+R28	modificationClinicalFeature Arg1:T39 Arg2:T38
+R29	bodyClinicalFeature Arg1:T42 Arg2:T43
+R30	bodyClinicalFeature Arg1:T44 Arg2:T45
+R31	modificationClinicalFeature Arg1:T49 Arg2:T48
+R32	bodyClinicalFeature Arg1:T51 Arg2:T52
+R33	bodyClinicalFeature Arg1:T51 Arg2:T53
+T7	indexValue 291 293	不快
+R34	signIndexValue Arg1:T54 Arg2:T7
+R35	signIndexValue Arg1:T54 Arg2:T55
+R36	bodyClinicalFeature Arg1:T57 Arg2:T58
+R37	bodyClinicalFeature Arg1:T59 Arg2:T60
+R38	bodyClinicalFeature Arg1:T61 Arg2:T62
+R39	signIndexValue Arg1:T64 Arg2:T65
+R40	bodyClinicalFeature Arg1:T66 Arg2:T67

@@ -1,0 +1,5 @@
+T1	disease 7 11	肺部病灶
+T2	time 11 14	10天
+T5	cause 3 7	体检发现
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	causeDisease Arg1:T5 Arg2:T1

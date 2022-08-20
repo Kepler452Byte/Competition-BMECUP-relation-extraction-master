@@ -1,0 +1,5 @@
+T1	clinicalFeature 6 10	意识丧失
+T2	time 10 14	20分钟
+T5	modification 3 6	发作性
+R1	modificationClinicalFeature Arg1:T5 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2

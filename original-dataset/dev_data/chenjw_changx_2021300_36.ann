@@ -1,0 +1,180 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 9 11	疼痛
+T3	time 11 13	4年
+T5	time 16 18	1周
+T6	time 29 32	4年前
+T7	cause 33 38	无明显诱因
+T8	clinicalFeature 46 48	疼痛
+T9	modification 49 54	疼痛不剧烈
+T11	negative 63 64	无
+T12	clinicalFeature 64 67	放射痛
+T13	clinicalFeature 69 73	活动受限
+T14	negative 74 76	否认
+T15	clinicalFeature 76 81	胸腹部疼痛
+T16	negative 82 84	否认
+T17	clinicalFeature 84 89	双下肢麻木
+T18	clinicalFeature 90 92	乏力
+T19	negative 94 96	否认
+T20	clinicalFeature 96 98	头昏
+T21	clinicalFeature 99 101	恶心
+T22	clinicalFeature 102 104	呕吐
+T23	negative 105 107	否认
+T24	clinicalFeature 107 109	胸闷
+T25	clinicalFeature 110 112	气急
+T26	negative 113 115	否认
+T27	clinicalFeature 115 117	腹胀
+T28	clinicalFeature 118 120	腹痛
+T29	modification 121 128	通过休息可好转
+T30	modification 130 134	反复发作
+T31	time 135 138	1周前
+T33	disease 163 168	颈腰综合征
+T34	disease 178 181	高血压
+T35	time 181 184	12年
+T36	sign 187 189	血压
+T37	indexValue 189 200	150/100mmHg
+T38	drug 204 209	替米沙坦片
+T39	dose 209 213	40mg
+T40	clinicalFeature 217 220	控制差
+T53	sign 268 270	体温
+T54	indexValue 270 275	36.9℃
+T55	sign 276 278	脉搏
+T56	indexValue 278 283	92次/分
+T57	sign 284 286	呼吸
+T58	indexValue 286 291	19次/分
+T59	sign 292 294	血压
+T60	indexValue 294 304	132/96mmHg
+T61	clinicalFeature 305 307	神清
+T62	clinicalFeature 308 311	精神可
+T63	body 312 314	双瞳
+T64	clinicalFeature 314 318	等大等圆
+T65	clinicalFeature 319 326	直径2.5MM
+T66	clinicalFeature 327 333	对光反射灵敏
+T67	body 334 336	头颅
+T68	clinicalFeature 336 339	无畸形
+T69	body 341 343	颈椎
+T70	clinicalFeature 343 345	变直
+T71	clinicalFeature 346 350	压痛存在
+T72	body 351 353	胸廓
+T73	clinicalFeature 353 356	无畸形
+T75	clinicalFeature 357 360	无压痛
+T76	body 361 363	双肺
+T77	clinicalFeature 363 367	呼吸音清
+T78	clinicalFeature 368 373	未闻及啰音
+T79	negative 374 375	无
+T80	clinicalFeature 375 379	活动受限
+T81	body 380 381	腹
+T82	clinicalFeature 381 383	平软
+T84	clinicalFeature 384 387	无压痛
+T85	body 388 390	腰椎
+T86	clinicalFeature 390 396	生理曲度变直
+T88	clinicalFeature 405 407	压痛
+T89	clinicalFeature 408 411	叩击痛
+T90	clinicalFeature 412 416	活动受限
+T91	body 418 420	骨盆
+T92	clinicalFeature 420 423	无压痛
+T93	body 424 427	双下肢
+T94	sign 427 429	肌力
+T95	sign 430 433	肌张力
+T96	indexValue 433 435	亢进
+T97	sign 436 442	直腿抬高试验
+T98	indexValue 442 444	阴性
+T99	body 445 447	足趾
+T100	clinicalFeature 447 454	活动、血运正常
+T101	body 455 457	四肢
+T102	clinicalFeature 457 462	无明显麻木
+T103	sign 463 467	膝腱反射
+T104	indexValue 467 469	存在
+T105	sign 470 474	病理反射
+T106	indexValue 474 477	无引出
+T107	body 6 7	颈
+T108	body 7 9	腰部
+R1	bodyClinicalFeature Arg1:T107 Arg2:T2
+R2	bodyClinicalFeature Arg1:T108 Arg2:T2
+R4	clinicalFeatureTime Arg1:T2 Arg2:T3
+T109	body 41 42	颈
+T110	body 43 46	腰背部
+R7	bodyClinicalFeature Arg1:T110 Arg2:T8
+R8	bodyClinicalFeature Arg1:T109 Arg2:T8
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	negativeClinicalFeature Arg1:T16 Arg2:T17
+R14	bodyClinicalFeature Arg1:T109 Arg2:T13
+R15	bodyClinicalFeature Arg1:T110 Arg2:T13
+R16	negativeClinicalFeature Arg1:T16 Arg2:T18
+R17	causeClinicalFeature Arg1:T7 Arg2:T8
+R18	causeClinicalFeature Arg1:T7 Arg2:T13
+R19	clinicalFeatureTime Arg1:T8 Arg2:T6
+R20	clinicalFeatureTime Arg1:T12 Arg2:T6
+R21	clinicalFeatureTime Arg1:T13 Arg2:T6
+R22	clinicalFeatureTime Arg1:T15 Arg2:T6
+R23	clinicalFeatureTime Arg1:T17 Arg2:T6
+R24	clinicalFeatureTime Arg1:T18 Arg2:T6
+R25	negativeClinicalFeature Arg1:T19 Arg2:T20
+R26	negativeClinicalFeature Arg1:T19 Arg2:T21
+R27	negativeClinicalFeature Arg1:T19 Arg2:T22
+R28	negativeClinicalFeature Arg1:T23 Arg2:T24
+R29	negativeClinicalFeature Arg1:T23 Arg2:T25
+R30	negativeClinicalFeature Arg1:T26 Arg2:T27
+R31	negativeClinicalFeature Arg1:T26 Arg2:T28
+T111	trend 140 142	再发
+R32	modificationClinicalFeature Arg1:T29 Arg2:T8
+R33	modificationClinicalFeature Arg1:T29 Arg2:T13
+R34	modificationClinicalFeature Arg1:T30 Arg2:T8
+R35	modificationClinicalFeature Arg1:T30 Arg2:T13
+R36	clinicalFeatureTime Arg1:T20 Arg2:T6
+R37	clinicalFeatureTime Arg1:T21 Arg2:T6
+R38	clinicalFeatureTime Arg1:T22 Arg2:T6
+R39	clinicalFeatureTime Arg1:T24 Arg2:T6
+R40	clinicalFeatureTime Arg1:T25 Arg2:T6
+R41	clinicalFeatureTime Arg1:T27 Arg2:T6
+R42	clinicalFeatureTime Arg1:T28 Arg2:T6
+R44	clinicalFeatureTrend Arg1:T8 Arg2:T111
+R46	timeDisease Arg1:T35 Arg2:T34
+R47	signIndexValue Arg1:T36 Arg2:T37
+R49	drugDose Arg1:T38 Arg2:T39
+R51	diseaseClinicalFeature Arg1:T34 Arg2:T40
+R58	signIndexValue Arg1:T53 Arg2:T54
+R59	signIndexValue Arg1:T55 Arg2:T56
+R60	signIndexValue Arg1:T57 Arg2:T58
+R61	signIndexValue Arg1:T59 Arg2:T60
+R62	bodyClinicalFeature Arg1:T63 Arg2:T64
+R63	bodyClinicalFeature Arg1:T63 Arg2:T65
+R64	bodyClinicalFeature Arg1:T63 Arg2:T66
+R65	bodyClinicalFeature Arg1:T67 Arg2:T68
+R66	bodyClinicalFeature Arg1:T69 Arg2:T70
+R67	bodyClinicalFeature Arg1:T69 Arg2:T71
+R68	bodyClinicalFeature Arg1:T72 Arg2:T73
+R70	bodyClinicalFeature Arg1:T76 Arg2:T77
+R71	bodyClinicalFeature Arg1:T76 Arg2:T78
+R72	negativeClinicalFeature Arg1:T79 Arg2:T80
+R73	bodyClinicalFeature Arg1:T81 Arg2:T82
+R74	bodyClinicalFeature Arg1:T81 Arg2:T84
+R69	bodyClinicalFeature Arg1:T72 Arg2:T75
+R75	bodyClinicalFeature Arg1:T85 Arg2:T86
+T74	body 397 400	腰背部
+T83	body 400 402	棘突
+T87	body 403 405	椎旁
+R76	bodyBody Arg1:T74 Arg2:T83
+R77	bodyBody Arg1:T74 Arg2:T87
+R78	bodyClinicalFeature Arg1:T83 Arg2:T88
+R79	bodyClinicalFeature Arg1:T87 Arg2:T88
+R80	bodyClinicalFeature Arg1:T83 Arg2:T89
+R81	bodyClinicalFeature Arg1:T87 Arg2:T89
+R82	bodyClinicalFeature Arg1:T74 Arg2:T90
+R83	bodyClinicalFeature Arg1:T91 Arg2:T92
+R84	signIndexValue Arg1:T94 Arg2:T96
+R85	signIndexValue Arg1:T95 Arg2:T96
+R86	bodySign Arg1:T93 Arg2:T94
+R87	bodySign Arg1:T93 Arg2:T95
+R88	signIndexValue Arg1:T97 Arg2:T98
+R89	bodyClinicalFeature Arg1:T101 Arg2:T102
+R90	signIndexValue Arg1:T103 Arg2:T104
+R91	signIndexValue Arg1:T105 Arg2:T106
+R92	bodyClinicalFeature Arg1:T99 Arg2:T100
+R3	modificationClinicalFeature Arg1:T1 Arg2:T2
+R5	clinicalFeatureTime Arg1:T2 Arg2:T5
+R6	modificationClinicalFeature Arg1:T9 Arg2:T8
+T4	modification 56 59	持续性
+T10	modification 59 62	酸胀痛
+R9	modificationClinicalFeature Arg1:T4 Arg2:T8
+R10	modificationClinicalFeature Arg1:T10 Arg2:T8

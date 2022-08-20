@@ -1,0 +1,177 @@
+T2	time 31 34	1年前
+T5	modification 61 64	持续性
+T6	modification 70 72	较剧
+T7	clinicalFeature 73 77	活动受限
+T8	operation 91 110	左胫骨平台骨折切开复位取髂骨植骨内固定
+T9	clinicalFeature 118 123	功能恢复佳
+T11	clinicalFeature 124 131	无明显活动受限
+T12	time 133 143	2019.08.05
+T13	operation 147 159	左胫骨平台骨折内固定术后
+T15	time 178 181	3月前
+T16	drug 199 204	地奥司明片
+T17	clinicalFeature 215 217	胸闷
+T18	clinicalFeature 218 220	气急
+T19	clinicalFeature 221 225	呼吸困难
+T21	negative 235 236	无
+T22	clinicalFeature 236 238	昏迷
+T23	clinicalFeature 239 241	恶心
+T24	clinicalFeature 242 244	呕吐
+T25	negative 246 247	无
+T27	negative 253 254	无
+T29	trend 270 276	未见明显好转
+T31	disease 288 303	左胫骨平台骨折取内固定术后感染
+T44	disease 353 356	糖尿病
+T45	time 358 360	6年
+T46	drug 366 370	瑞格列奈
+T47	frequency 371 374	BID
+T48	clinicalFeature 382 387	血糖控制可
+T49	sign 396 398	体温
+T50	indexValue 398 403	36.5℃
+T51	sign 404 406	脉搏
+T52	indexValue 406 411	82次/分
+T53	sign 412 414	呼吸
+T54	indexValue 414 419	20次/分
+T55	sign 420 422	血压
+T56	indexValue 422 432	132/72mmHg
+T57	clinicalFeature 433 435	神清
+T58	clinicalFeature 436 439	精神可
+T61	body 451 452	腹
+T62	clinicalFeature 452 454	平坦
+T63	clinicalFeature 458 465	肋下、剑下未及
+T64	body 467 471	肝、脾区
+T66	clinicalFeature 476 478	压痛
+T68	sign 489 493	墨菲氏征
+T69	indexValue 493 495	阴性
+T72	body 540 543	左下肢
+T73	clinicalFeature 543 546	无压痛
+T76	clinicalFeature 552 561	可见陈旧性手术疤痕
+T78	clinicalFeature 571 577	少量血性渗出
+T81	clinicalFeature 582 588	局部皮温正常
+T82	body 589 592	左下肢
+T83	clinicalFeature 592 599	无明显活动受限
+T85	sign 610 614	生理反射
+T86	indexValue 614 616	存在
+T87	sign 617 621	病理反射
+T88	indexValue 621 624	未引出
+T89	clinicalFeature 4 19	左胫骨平台骨折取内固定术后感染
+T90	time 19 21	3月
+R2	clinicalFeatureTime Arg1:T89 Arg2:T90
+T3	cause 45 47	撞伤
+T91	body 49 51	左膝
+T4	clinicalFeature 54 56	肿胀
+T92	clinicalFeature 57 59	疼痛
+R3	bodyClinicalFeature Arg1:T91 Arg2:T4
+R4	bodyClinicalFeature Arg1:T91 Arg2:T92
+R5	causeClinicalFeature Arg1:T3 Arg2:T4
+R6	causeClinicalFeature Arg1:T3 Arg2:T92
+R7	clinicalFeatureTime Arg1:T4 Arg2:T2
+R8	clinicalFeatureTime Arg1:T92 Arg2:T2
+T93	time 112 114	术后
+T95	clinicalFeature 185 189	伤口破溃
+T96	drug 195 198	康迈欣
+T97	cure 205 208	抗感染
+T98	negative 211 213	否认
+R14	clinicalFeatureTime Arg1:T9 Arg2:T93
+R19	clinicalFeatureTime Arg1:T95 Arg2:T15
+R23	negativeClinicalFeature Arg1:T98 Arg2:T17
+R24	negativeClinicalFeature Arg1:T98 Arg2:T18
+R25	negativeClinicalFeature Arg1:T98 Arg2:T19
+R27	negativeClinicalFeature Arg1:T21 Arg2:T22
+R28	negativeClinicalFeature Arg1:T21 Arg2:T23
+R29	negativeClinicalFeature Arg1:T21 Arg2:T24
+R30	clinicalFeatureTime Arg1:T17 Arg2:T15
+R31	clinicalFeatureTime Arg1:T18 Arg2:T15
+R32	clinicalFeatureTime Arg1:T19 Arg2:T15
+R34	clinicalFeatureTime Arg1:T22 Arg2:T15
+R35	clinicalFeatureTime Arg1:T23 Arg2:T15
+R36	clinicalFeatureTime Arg1:T24 Arg2:T15
+T26	clinicalFeature 248 252	肢体麻木
+T28	clinicalFeature 255 260	大小便异常
+R37	negativeClinicalFeature Arg1:T27 Arg2:T28
+R38	negativeClinicalFeature Arg1:T25 Arg2:T26
+R39	clinicalFeatureTime Arg1:T26 Arg2:T15
+R40	clinicalFeatureTime Arg1:T28 Arg2:T15
+R41	clinicalFeatureTrend Arg1:T95 Arg2:T29
+R49	timeDisease Arg1:T45 Arg2:T44
+T100	cure 375 377	降糖
+R51	drugFrequency Arg1:T46 Arg2:T47
+R52	diseaseClinicalFeature Arg1:T44 Arg2:T48
+R54	signIndexValue Arg1:T49 Arg2:T50
+R55	signIndexValue Arg1:T51 Arg2:T52
+R56	signIndexValue Arg1:T53 Arg2:T54
+R57	signIndexValue Arg1:T55 Arg2:T56
+T59	body 440 441	心
+T101	body 441 442	肺
+T60	clinicalFeature 442 450	听诊未及明显异常
+R58	bodyClinicalFeature Arg1:T59 Arg2:T60
+R59	bodyClinicalFeature Arg1:T101 Arg2:T60
+R60	bodyClinicalFeature Arg1:T61 Arg2:T62
+T65	negative 471 473	未及
+T102	clinicalFeature 473 475	叩痛
+R61	bodyClinicalFeature Arg1:T64 Arg2:T102
+R62	bodyClinicalFeature Arg1:T64 Arg2:T66
+R63	negativeClinicalFeature Arg1:T65 Arg2:T102
+R64	negativeClinicalFeature Arg1:T65 Arg2:T66
+R65	signIndexValue Arg1:T68 Arg2:T69
+T70	sign 496 499	肠鸣音
+T103	indexValue 499 505	3-4bpm
+R66	signIndexValue Arg1:T70 Arg2:T103
+T105	sign 509 513	神经系统
+T106	indexValue 513 515	阴性
+T71	clinicalFeature 525 531	未见明显侧弯
+T109	sign 532 537	骨盆挤压征
+T110	indexValue 537 539	阴性
+R68	signIndexValue Arg1:T109 Arg2:T110
+R69	bodyClinicalFeature Arg1:T72 Arg2:T73
+T74	clinicalFeature 548 551	无肿胀
+R70	bodyClinicalFeature Arg1:T72 Arg2:T74
+T75	clinicalFeature 566 568	破溃
+T77	clinicalFeature 578 581	无脓液
+R75	bodyClinicalFeature Arg1:T82 Arg2:T83
+T79	body 600 602	四肢
+T80	sign 602 604	感觉
+T84	sign 605 607	运动
+T111	indexValue 607 609	良好
+R76	signIndexValue Arg1:T85 Arg2:T86
+R77	signIndexValue Arg1:T87 Arg2:T88
+R78	bodySign Arg1:T79 Arg2:T80
+R79	bodySign Arg1:T79 Arg2:T84
+R80	signIndexValue Arg1:T80 Arg2:T111
+R81	signIndexValue Arg1:T84 Arg2:T111
+R1	timeOperation Arg1:T12 Arg2:T13
+R16	cureTime Arg1:T97 Arg2:T15
+T1	body 455 456	肝
+T14	body 457 458	脾
+R17	bodyClinicalFeature Arg1:T1 Arg2:T63
+R82	bodyClinicalFeature Arg1:T14 Arg2:T63
+T94	body 479 480	肝
+T112	body 481 482	脾
+R85	signIndexValue Arg1:T105 Arg2:T106
+T107	body 516 518	脊柱
+T108	clinicalFeature 518 524	生理弯曲存在
+R67	bodyClinicalFeature Arg1:T107 Arg2:T108
+R86	bodyClinicalFeature Arg1:T107 Arg2:T71
+R71	bodyClinicalFeature Arg1:T72 Arg2:T76
+T113	body 562 566	部分伤口
+R72	bodyBody Arg1:T72 Arg2:T113
+R73	bodyClinicalFeature Arg1:T113 Arg2:T75
+R74	bodyClinicalFeature Arg1:T113 Arg2:T78
+R87	bodyClinicalFeature Arg1:T113 Arg2:T77
+R88	bodyClinicalFeature Arg1:T113 Arg2:T81
+T104	indexValue 506 508	调中
+R90	signIndexValue Arg1:T70 Arg2:T104
+R13	bodyClinicalFeature Arg1:T91 Arg2:T7
+T115	clinicalFeature 78 82	行走不能
+R91	bodyClinicalFeature Arg1:T91 Arg2:T115
+T116	body 114 118	左下肢部
+R92	bodyClinicalFeature Arg1:T116 Arg2:T9
+R15	bodyClinicalFeature Arg1:T116 Arg2:T11
+T10	sign 482 485	浊音界
+T20	indexValue 485 488	无扩大
+R26	signIndexValue Arg1:T10 Arg2:T20
+R33	bodySign Arg1:T94 Arg2:T10
+R83	bodySign Arg1:T112 Arg2:T10
+T67	modification 64 67	酸胀样
+R9	modificationClinicalFeature Arg1:T5 Arg2:T92
+R10	modificationClinicalFeature Arg1:T67 Arg2:T92
+R11	modificationClinicalFeature Arg1:T6 Arg2:T92

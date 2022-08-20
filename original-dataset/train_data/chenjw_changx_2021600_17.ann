@@ -1,0 +1,120 @@
+T1	clinicalFeature 4 9	中上腹疼痛
+T2	time 9 13	10余天
+T3	time 23 28	10余天前
+T4	cause 28 33	无明显诱因
+T5	clinicalFeature 36 40	中上腹痛
+T7	modification 48 54	未放射至他处
+T8	negative 55 56	无
+T9	clinicalFeature 56 58	呕血
+T10	clinicalFeature 58 60	黑便
+T11	negative 61 62	无
+T12	clinicalFeature 62 64	腹胀
+T13	clinicalFeature 64 66	腹泻
+T14	negative 67 68	无
+T15	clinicalFeature 68 76	肛门排便排气消失
+T16	negative 77 78	无
+T17	clinicalFeature 78 80	畏寒
+T18	clinicalFeature 80 82	发热
+T19	negative 83 84	无
+T20	clinicalFeature 84 86	咳嗽
+T21	clinicalFeature 86 88	咳痰
+T22	auxiliaryExamination 102 106	胸部CT
+T23	body 107 109	两肺
+T24	auxiliaryDescript 109 111	感染
+T25	auxiliaryExamination 114 120	腹部增强CT
+T26	disease 122 127	慢性胆囊炎
+T27	body 128 131	胆总管
+T28	auxiliaryDescript 134 140	肠内容物增多
+T29	cure 143 145	抗炎
+T30	trend 151 157	未见明显好转
+T34	disease 217 221	肺部感染
+T47	sign 273 274	T
+T48	indexValue 275 280	36.4℃
+T49	sign 281 282	P
+T50	indexValue 283 288	96次/分
+T51	sign 289 290	R
+T52	indexValue 291 296	20次/分
+T53	sign 297 299	BP
+T54	indexValue 300 310	131/83mmHg
+T55	clinicalFeature 311 315	神志欠清
+T56	clinicalFeature 316 319	精神软
+T57	clinicalFeature 320 324	呼吸平稳
+T58	body 325 330	浅表淋巴结
+T59	clinicalFeature 330 334	未及肿大
+T60	body 335 337	口唇
+T61	clinicalFeature 337 340	无发绀
+T62	body 342 344	两肺
+T63	clinicalFeature 344 348	呼吸音低
+T64	clinicalFeature 349 357	未闻及干湿性啰音
+T65	sign 358 360	心率
+T66	indexValue 360 365	96次/分
+T67	clinicalFeature 366 368	律齐
+T68	clinicalFeature 369 377	未闻及病理性杂音
+T69	body 378 379	腹
+T70	clinicalFeature 379 381	平坦
+T71	body 382 385	剑突下
+T74	clinicalFeature 390 394	无反跳痛
+T75	body 395 396	肝
+T76	body 396 397	脾
+T77	clinicalFeature 397 402	肋下未触及
+T78	body 403 406	双下肢
+T79	clinicalFeature 406 410	中度浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R6	clinicalFeatureTime Arg1:T9 Arg2:T3
+R7	clinicalFeatureTime Arg1:T10 Arg2:T3
+R8	clinicalFeatureTime Arg1:T12 Arg2:T3
+R9	clinicalFeatureTime Arg1:T13 Arg2:T3
+R10	clinicalFeatureTime Arg1:T15 Arg2:T3
+R11	clinicalFeatureTime Arg1:T17 Arg2:T3
+R12	clinicalFeatureTime Arg1:T18 Arg2:T3
+R13	clinicalFeatureTime Arg1:T20 Arg2:T3
+R14	clinicalFeatureTime Arg1:T21 Arg2:T3
+R15	negativeClinicalFeature Arg1:T8 Arg2:T9
+R16	negativeClinicalFeature Arg1:T8 Arg2:T10
+R17	negativeClinicalFeature Arg1:T11 Arg2:T12
+R18	negativeClinicalFeature Arg1:T11 Arg2:T13
+R19	negativeClinicalFeature Arg1:T14 Arg2:T15
+R20	negativeClinicalFeature Arg1:T16 Arg2:T17
+R21	negativeClinicalFeature Arg1:T16 Arg2:T18
+R22	negativeClinicalFeature Arg1:T19 Arg2:T20
+R23	negativeClinicalFeature Arg1:T19 Arg2:T21
+R24	auxiliaryExaminationAuxiliaryDescript Arg1:T22 Arg2:T24
+R25	bodyAuxiliaryDescript Arg1:T23 Arg2:T24
+R28	auxiliaryExaminationAuxiliaryDescript Arg1:T25 Arg2:T28
+T80	cure 146 148	护胃
+R29	clinicalFeatureTrend Arg1:T5 Arg2:T30
+R30	cureTime Arg1:T29 Arg2:T3
+R31	cureTime Arg1:T80 Arg2:T3
+T31	cure 173 179	调整水电解质
+T81	cure 180 182	护胃
+R39	signIndexValue Arg1:T47 Arg2:T48
+R40	signIndexValue Arg1:T49 Arg2:T50
+R41	signIndexValue Arg1:T51 Arg2:T52
+R42	signIndexValue Arg1:T53 Arg2:T54
+R43	bodyClinicalFeature Arg1:T58 Arg2:T59
+R44	bodyClinicalFeature Arg1:T60 Arg2:T61
+R45	bodyClinicalFeature Arg1:T62 Arg2:T63
+R46	bodyClinicalFeature Arg1:T62 Arg2:T64
+R47	signIndexValue Arg1:T65 Arg2:T66
+R48	bodyClinicalFeature Arg1:T69 Arg2:T70
+T72	sign 385 387	压痛
+T82	indexValue 387 389	阳性
+R49	bodySign Arg1:T71 Arg2:T72
+R50	signIndexValue Arg1:T72 Arg2:T82
+R52	bodyClinicalFeature Arg1:T75 Arg2:T77
+R53	bodyClinicalFeature Arg1:T76 Arg2:T77
+R54	bodyClinicalFeature Arg1:T78 Arg2:T79
+R56	auxiliaryExaminationTime Arg1:T22 Arg2:T3
+R57	auxiliaryExaminationTime Arg1:T25 Arg2:T3
+T84	auxiliaryDescript 131 133	扩张
+R27	bodyAuxiliaryDescript Arg1:T27 Arg2:T84
+R58	auxiliaryExaminationAuxiliaryDescript Arg1:T25 Arg2:T84
+T32	cure 193 195	抗炎
+R51	bodyClinicalFeature Arg1:T71 Arg2:T74
+T6	modification 42 45	持续性
+T73	modification 45 47	隐痛
+R4	modificationClinicalFeature Arg1:T6 Arg2:T5
+R55	modificationClinicalFeature Arg1:T73 Arg2:T5
+R5	modificationClinicalFeature Arg1:T7 Arg2:T5

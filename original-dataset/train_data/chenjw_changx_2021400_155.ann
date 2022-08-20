@@ -1,0 +1,113 @@
+T1	disease 4 9	左乳癌术后
+T2	time 9 12	4月余
+T3	time 21 25	4月余前
+T4	time 26 35	2019-7-11
+T5	disease 47 54	左乳肿块切除术
+T6	disease 63 71	左乳浸润性导管癌
+T8	cure 114 121	EC-TH方案
+T9	time 137 138	今
+T10	negative 138 139	无
+T11	clinicalFeature 139 141	畏寒
+T12	clinicalFeature 141 143	发热
+T13	negative 144 145	无
+T14	clinicalFeature 145 147	恶心
+T15	clinicalFeature 147 149	呕吐
+T16	negative 151 152	无
+T17	clinicalFeature 152 154	腹胀
+T18	clinicalFeature 154 156	腹泻
+T19	negative 157 158	无
+T20	clinicalFeature 158 162	纳差乏力
+T22	disease 185 190	左乳癌术后
+T35	sign 241 243	体温
+T36	indexValue 243 248	36.1℃
+T37	sign 249 251	脉搏
+T38	indexValue 251 256	81次/分
+T39	sign 257 259	呼吸
+T40	indexValue 259 264	20次/分
+T41	sign 265 267	血压
+T42	indexValue 267 277	110/81mmHg
+T43	clinicalFeature 278 280	神清
+T44	clinicalFeature 281 284	精神可
+T45	body 285 286	颈
+T46	clinicalFeature 286 287	软
+T47	clinicalFeature 288 291	无抵抗
+T48	body 292 294	皮肤
+T49	body 294 296	巩膜
+T50	clinicalFeature 296 299	无黄染
+T51	body 300 305	浅表淋巴结
+T52	clinicalFeature 305 309	未及肿大
+T53	body 310 312	双乳
+T54	clinicalFeature 312 314	对称
+T55	body 316 318	左乳
+T56	body 319 323	左侧腋窝
+T57	clinicalFeature 332 336	手术疤痕
+T59	body 346 348	双乳
+T60	body 349 353	双侧腋窝
+T61	clinicalFeature 353 360	未扪及肿大结节
+T62	body 361 362	心
+T63	body 362 363	肺
+T64	clinicalFeature 363 371	听诊未见明显异常
+T65	body 372 373	腹
+T66	clinicalFeature 373 375	平软
+T67	negative 376 377	无
+T68	clinicalFeature 377 379	压痛
+T69	clinicalFeature 380 383	反跳痛
+T70	indexValue 387 390	无亢进
+T71	body 392 395	双下肢
+T72	clinicalFeature 395 398	无浮肿
+T73	sign 399 402	病理征
+T74	indexValue 402 405	未引出
+R1	timeDisease Arg1:T4 Arg2:T5
+R2	timeDisease Arg1:T3 Arg2:T5
+T75	auxiliaryExamination 56 60	术后病理
+R3	timeDisease Arg1:T2 Arg2:T1
+T76	cure 122 124	化疗
+R5	negativeClinicalFeature Arg1:T10 Arg2:T11
+R6	negativeClinicalFeature Arg1:T10 Arg2:T12
+R7	clinicalFeatureTime Arg1:T11 Arg2:T9
+R8	clinicalFeatureTime Arg1:T12 Arg2:T9
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T13 Arg2:T15
+R11	clinicalFeatureTime Arg1:T14 Arg2:T9
+R12	clinicalFeatureTime Arg1:T15 Arg2:T9
+R13	negativeClinicalFeature Arg1:T16 Arg2:T17
+R14	negativeClinicalFeature Arg1:T16 Arg2:T18
+R15	negativeClinicalFeature Arg1:T19 Arg2:T20
+R17	clinicalFeatureTime Arg1:T20 Arg2:T9
+R18	clinicalFeatureTime Arg1:T17 Arg2:T9
+R19	clinicalFeatureTime Arg1:T18 Arg2:T9
+R26	signIndexValue Arg1:T35 Arg2:T36
+R27	signIndexValue Arg1:T37 Arg2:T38
+R28	signIndexValue Arg1:T39 Arg2:T40
+R29	signIndexValue Arg1:T41 Arg2:T42
+R30	bodyClinicalFeature Arg1:T45 Arg2:T46
+R31	bodyClinicalFeature Arg1:T45 Arg2:T47
+R32	bodyClinicalFeature Arg1:T49 Arg2:T50
+R33	bodyClinicalFeature Arg1:T48 Arg2:T50
+R34	bodyClinicalFeature Arg1:T51 Arg2:T52
+R35	bodyClinicalFeature Arg1:T53 Arg2:T54
+R37	bodyClinicalFeature Arg1:T56 Arg2:T57
+R38	bodyClinicalFeature Arg1:T55 Arg2:T57
+R39	bodyClinicalFeature Arg1:T60 Arg2:T61
+R40	bodyClinicalFeature Arg1:T59 Arg2:T61
+R41	bodyClinicalFeature Arg1:T62 Arg2:T64
+R42	bodyClinicalFeature Arg1:T63 Arg2:T64
+R43	bodyClinicalFeature Arg1:T65 Arg2:T66
+R44	negativeClinicalFeature Arg1:T67 Arg2:T68
+R45	negativeClinicalFeature Arg1:T67 Arg2:T69
+T78	sign 384 387	肠鸣音
+R46	signIndexValue Arg1:T78 Arg2:T70
+R47	bodyClinicalFeature Arg1:T71 Arg2:T72
+R48	signIndexValue Arg1:T73 Arg2:T74
+T7	operation 81 91	左乳保乳乳腺癌根治术
+T79	operation 92 100	腋窝淋巴结清扫术
+R50	timeOperation Arg1:T4 Arg2:T7
+R51	timeOperation Arg1:T4 Arg2:T79
+R4	cureTime Arg1:T8 Arg2:T3
+R52	cureTime Arg1:T76 Arg2:T3
+T80	cure 170 184	手术后恶性肿瘤维持性化学治疗
+T58	body 337 339	左乳
+T81	clinicalFeature 339 345	保乳术后表现
+R53	bodyClinicalFeature Arg1:T58 Arg2:T81
+R54	bodyClinicalFeature Arg1:T65 Arg2:T68
+R55	bodyClinicalFeature Arg1:T65 Arg2:T69

@@ -1,0 +1,131 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	气喘
+T3	clinicalFeature 9 11	乏力
+T4	time 11 13	1周
+T5	time 22 25	1周前
+T6	cause 25 30	无明显诱因
+T7	clinicalFeature 33 35	咳嗽
+T8	clinicalFeature 36 38	咳痰
+T9	clinicalFeature 40 42	胸闷
+T10	clinicalFeature 43 45	气促
+T11	clinicalFeature 47 49	乏力
+T12	negative 50 51	无
+T13	clinicalFeature 51 53	头晕
+T14	clinicalFeature 53 55	头痛
+T15	negative 56 57	无
+T16	clinicalFeature 57 59	畏寒
+T17	clinicalFeature 59 61	发热
+T18	negative 62 63	无
+T19	clinicalFeature 63 65	胸痛
+T20	clinicalFeature 65 67	心悸
+T21	cure 72 78	自服药物治疗
+T22	trend 81 86	无明显好转
+T23	auxiliaryExamination 99 103	头胸CT
+T24	auxiliaryExamination 105 109	颅脑CT
+T25	auxiliaryDescript 109 117	目前未见明显异常
+T26	body 119 123	双侧胸腔
+T27	auxiliaryDescript 123 125	积液
+T28	modification 126 131	右侧稍多）
+T29	body 132 134	两肺
+T30	auxiliaryDescript 134 139	散在感染灶
+T31	body 141 143	心影
+T32	auxiliaryDescript 143 145	增大
+T33	body 146 150	主动脉弓
+T34	auxiliaryDescript 154 156	钙化
+T36	disease 172 176	肺部感染
+T37	disease 177 181	胸腔积液
+T38	disease 182 184	心衰
+T39	disease 193 196	高血压
+T40	time 199 201	多年
+T41	drug 205 210	非洛地平片
+T42	clinicalFeature 214 222	控制血压情况不详
+T54	sign 267 268	T
+T55	indexValue 269 274	37.1℃
+T56	sign 275 276	P
+T57	indexValue 277 282	82次/分
+T58	sign 283 284	R
+T59	indexValue 285 290	22次/分
+T60	sign 291 293	BP
+T61	indexValue 294 304	123/62mmHg
+T62	clinicalFeature 305 308	神志清
+T63	clinicalFeature 309 312	精神差
+T64	clinicalFeature 313 317	呼吸急促
+T65	body 318 323	浅表淋巴结
+T66	clinicalFeature 323 327	未及肿大
+T67	body 328 330	结膜
+T68	clinicalFeature 330 332	水肿
+T69	clinicalFeature 335 337	发绀
+T70	body 339 341	两肺
+T71	clinicalFeature 341 345	呼吸音粗
+T72	clinicalFeature 346 354	可及散在干湿啰音
+T73	sign 355 357	心率
+T74	indexValue 357 362	82次/分
+T75	clinicalFeature 363 365	律齐
+T76	clinicalFeature 371 376	吹风样杂音
+T77	body 377 378	腹
+T78	clinicalFeature 378 380	平软
+T79	clinicalFeature 381 384	无压痛
+T80	body 385 386	肝
+T81	body 386 387	脾
+T82	clinicalFeature 387 392	肋下未触及
+T83	body 393 396	双下肢
+T84	clinicalFeature 396 406	轻度-中度凹陷性浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	causeClinicalFeature Arg1:T6 Arg2:T7
+R5	causeClinicalFeature Arg1:T6 Arg2:T8
+R6	causeClinicalFeature Arg1:T6 Arg2:T9
+R7	causeClinicalFeature Arg1:T6 Arg2:T10
+R8	causeClinicalFeature Arg1:T6 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	negativeClinicalFeature Arg1:T15 Arg2:T17
+R13	negativeClinicalFeature Arg1:T18 Arg2:T19
+R14	negativeClinicalFeature Arg1:T18 Arg2:T20
+R15	clinicalFeatureTime Arg1:T7 Arg2:T5
+R16	clinicalFeatureTime Arg1:T8 Arg2:T5
+R17	clinicalFeatureTime Arg1:T9 Arg2:T5
+R18	clinicalFeatureTime Arg1:T10 Arg2:T5
+R19	clinicalFeatureTime Arg1:T11 Arg2:T5
+R20	clinicalFeatureTime Arg1:T13 Arg2:T5
+R21	clinicalFeatureTime Arg1:T14 Arg2:T5
+R22	clinicalFeatureTime Arg1:T16 Arg2:T5
+R23	clinicalFeatureTime Arg1:T17 Arg2:T5
+R24	clinicalFeatureTime Arg1:T19 Arg2:T5
+R25	clinicalFeatureTime Arg1:T20 Arg2:T5
+R27	cureTime Arg1:T21 Arg2:T5
+R28	clinicalFeatureTrend Arg1:T7 Arg2:T22
+R29	clinicalFeatureTrend Arg1:T8 Arg2:T22
+R30	clinicalFeatureTrend Arg1:T9 Arg2:T22
+R31	clinicalFeatureTrend Arg1:T10 Arg2:T22
+R32	clinicalFeatureTrend Arg1:T11 Arg2:T22
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T24 Arg2:T25
+R35	bodyAuxiliaryDescript Arg1:T26 Arg2:T27
+R36	auxiliaryDesModification Arg1:T27 Arg2:T28
+R37	bodyAuxiliaryDescript Arg1:T29 Arg2:T30
+R34	bodyAuxiliaryDescript Arg1:T31 Arg2:T32
+T85	body 151 154	冠脉区
+R38	bodyAuxiliaryDescript Arg1:T33 Arg2:T34
+R39	bodyAuxiliaryDescript Arg1:T85 Arg2:T34
+R43	timeDisease Arg1:T40 Arg2:T39
+R45	diseaseClinicalFeature Arg1:T39 Arg2:T42
+R52	signIndexValue Arg1:T54 Arg2:T55
+R53	signIndexValue Arg1:T56 Arg2:T57
+R54	signIndexValue Arg1:T58 Arg2:T59
+R55	signIndexValue Arg1:T60 Arg2:T61
+R56	bodyClinicalFeature Arg1:T65 Arg2:T66
+R57	bodyClinicalFeature Arg1:T67 Arg2:T68
+T87	body 333 335	口唇
+R58	bodyClinicalFeature Arg1:T87 Arg2:T69
+R59	bodyClinicalFeature Arg1:T70 Arg2:T71
+R60	bodyClinicalFeature Arg1:T70 Arg2:T72
+R61	signIndexValue Arg1:T73 Arg2:T74
+T88	body 368 371	心尖部
+R62	bodyClinicalFeature Arg1:T88 Arg2:T76
+R63	bodyClinicalFeature Arg1:T77 Arg2:T78
+R64	bodyClinicalFeature Arg1:T77 Arg2:T79
+R65	bodyClinicalFeature Arg1:T80 Arg2:T82
+R66	bodyClinicalFeature Arg1:T81 Arg2:T82
+R67	bodyClinicalFeature Arg1:T83 Arg2:T84

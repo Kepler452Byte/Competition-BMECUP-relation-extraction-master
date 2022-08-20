@@ -1,0 +1,179 @@
+T1	disease 6 10	膜性肾病
+T2	time 10 13	4月余
+T3	time 31 35	4月余前
+T6	laboratory 59 63	白蛋白2
+T7	laboratoryValue 63 69	8.8g/L
+T9	laboratory 74 77	尿常规
+T10	laboratory 89 92	红细胞
+T11	laboratoryValue 92 98	151/ul
+T12	laboratory 100 109	24小时尿蛋白定量
+T13	laboratoryValue 110 116	5672mg
+T15	auxiliaryExamination 127 133	肾穿刺活检术
+T16	auxiliaryExamination 134 136	病理
+T17	disease 138 145	膜性肾病II期
+T18	drug 147 153	醋酸泼尼松片
+T19	dose 153 157	50mg
+T20	frequency 159 161	qd
+T23	dose 183 190	累积量3.2g
+T25	time 205 214	2019.11.7
+T27	laboratoryValue 225 230	125mg
+T28	laboratory 231 234	白蛋白
+T29	laboratoryValue 234 241	35.6g/L
+T30	body 243 246	双下肢
+T31	clinicalFeature 249 252	泡沫尿
+T32	negative 257 258	无
+T33	clinicalFeature 258 260	胸痛
+T34	clinicalFeature 260 262	心悸
+T35	negative 263 264	无
+T36	clinicalFeature 264 266	头晕
+T37	clinicalFeature 266 268	头痛
+T38	negative 269 270	无
+T39	clinicalFeature 270 272	胸闷
+T40	clinicalFeature 272 274	气促
+T41	negative 275 276	无
+T42	clinicalFeature 276 278	腹痛
+T43	clinicalFeature 278 280	腹泻
+T44	negative 281 282	无
+T45	clinicalFeature 282 284	畏寒
+T46	clinicalFeature 284 286	发热
+T48	disease 306 310	膜性肾病
+T61	disease 359 363	高血压病
+T62	time 366 369	1年余
+T63	drug 374 379	缬沙坦胶囊
+T64	dose 379 383	80mg
+T65	frequency 384 387	BID
+T66	clinicalFeature 389 395	血压控制一般
+T67	sign 404 406	体温
+T68	indexValue 406 411	37.0℃
+T69	sign 412 414	脉搏
+T70	indexValue 414 420	118次/分
+T71	sign 421 423	呼吸
+T72	indexValue 423 428	19次/分
+T73	sign 429 431	血压
+T74	indexValue 431 441	150/96mmHg
+T75	clinicalFeature 442 445	神志清
+T76	clinicalFeature 446 449	精神可
+T77	body 450 453	颈静脉
+T78	clinicalFeature 453 456	无怒张
+T79	body 457 459	双肺
+T80	clinicalFeature 459 464	呼吸音略粗
+T81	clinicalFeature 465 474	未闻及明显干湿啰音
+T82	sign 476 478	心率
+T83	indexValue 478 484	118次/分
+T84	clinicalFeature 485 487	律齐
+T85	clinicalFeature 488 498	未闻及明显病理性杂音
+T86	body 499 500	腹
+T87	clinicalFeature 500 501	软
+T88	negative 502 503	无
+T89	clinicalFeature 503 505	压痛
+T90	clinicalFeature 506 509	反跳痛
+T91	body 510 513	双下肢
+T92	clinicalFeature 513 517	轻度浮肿
+T93	body 518 520	四肢
+T94	sign 520 522	肌力
+T95	sign 522 525	肌张力
+T96	indexValue 525 527	正常
+T97	sign 528 531	病理征
+T98	indexValue 531 534	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R4	laboratoryLaboratoryValue Arg1:T6 Arg2:T7
+T100	laboratory 78 81	蛋白质
+T101	laboratoryValue 81 83	3+
+T102	laboratory 84 86	隐血
+T103	laboratoryValue 86 88	2+
+R5	laboratoryLaboratoryValue Arg1:T10 Arg2:T11
+R6	laboratoryLaboratoryValue Arg1:T102 Arg2:T103
+R7	laboratoryLaboratoryValue Arg1:T100 Arg2:T101
+R11	laboratoryLaboratoryValue Arg1:T12 Arg2:T13
+T104	disease 119 124	肾病综合征
+R14	drugDose Arg1:T18 Arg2:T19
+R15	doseFrequency Arg1:T19 Arg2:T20
+T8	laboratory 215 224	24小时尿蛋白定了
+R16	laboratoryLaboratoryValue Arg1:T8 Arg2:T27
+R17	laboratoryLaboratoryValue Arg1:T28 Arg2:T29
+R18	laboratoryTime Arg1:T8 Arg2:T25
+R19	laboratoryTime Arg1:T28 Arg2:T25
+T21	clinicalFeature 246 248	浮肿
+R20	bodyClinicalFeature Arg1:T30 Arg2:T21
+T22	trend 254 256	好转
+R21	clinicalFeatureTrend Arg1:T31 Arg2:T22
+R22	clinicalFeatureTrend Arg1:T21 Arg2:T22
+R23	negativeClinicalFeature Arg1:T32 Arg2:T33
+T24	drug 177 180	CTX
+T26	frequency 180 182	4次
+R24	drugFrequency Arg1:T24 Arg2:T26
+T105	drug 162 165	CTX
+T106	dose 165 171	0.8g/m
+R25	drugDose Arg1:T105 Arg2:T106
+T107	drug 191 197	醋酸泼尼松片
+T108	dose 200 204	35mg
+R26	drugDose Arg1:T107 Arg2:T108
+R27	negativeClinicalFeature Arg1:T35 Arg2:T36
+R28	negativeClinicalFeature Arg1:T35 Arg2:T37
+R29	clinicalFeatureTime Arg1:T21 Arg2:T25
+R30	clinicalFeatureTime Arg1:T31 Arg2:T25
+R31	clinicalFeatureTime Arg1:T33 Arg2:T25
+R32	clinicalFeatureTime Arg1:T34 Arg2:T25
+R33	clinicalFeatureTime Arg1:T36 Arg2:T25
+R34	clinicalFeatureTime Arg1:T37 Arg2:T25
+R35	negativeClinicalFeature Arg1:T38 Arg2:T39
+R36	negativeClinicalFeature Arg1:T38 Arg2:T40
+R37	clinicalFeatureTime Arg1:T39 Arg2:T25
+R38	clinicalFeatureTime Arg1:T40 Arg2:T25
+R39	negativeClinicalFeature Arg1:T41 Arg2:T42
+R40	negativeClinicalFeature Arg1:T41 Arg2:T43
+R41	clinicalFeatureTime Arg1:T42 Arg2:T25
+R42	clinicalFeatureTime Arg1:T43 Arg2:T25
+R43	negativeClinicalFeature Arg1:T44 Arg2:T45
+R44	clinicalFeatureTime Arg1:T45 Arg2:T25
+R45	negativeClinicalFeature Arg1:T44 Arg2:T46
+R46	clinicalFeatureTime Arg1:T46 Arg2:T25
+R54	timeDisease Arg1:T62 Arg2:T61
+R55	drugDose Arg1:T63 Arg2:T64
+R56	doseFrequency Arg1:T64 Arg2:T65
+R58	diseaseClinicalFeature Arg1:T61 Arg2:T66
+R59	signIndexValue Arg1:T67 Arg2:T68
+R60	signIndexValue Arg1:T69 Arg2:T70
+R61	signIndexValue Arg1:T71 Arg2:T72
+R62	signIndexValue Arg1:T73 Arg2:T74
+R63	bodyClinicalFeature Arg1:T77 Arg2:T78
+R64	bodyClinicalFeature Arg1:T79 Arg2:T80
+R65	bodyClinicalFeature Arg1:T79 Arg2:T81
+R66	signIndexValue Arg1:T82 Arg2:T83
+R67	bodyClinicalFeature Arg1:T86 Arg2:T87
+R68	negativeClinicalFeature Arg1:T88 Arg2:T89
+R69	negativeClinicalFeature Arg1:T88 Arg2:T90
+R70	bodyClinicalFeature Arg1:T86 Arg2:T89
+R71	bodyClinicalFeature Arg1:T86 Arg2:T90
+R72	bodyClinicalFeature Arg1:T91 Arg2:T92
+R73	bodySign Arg1:T93 Arg2:T94
+R74	signIndexValue Arg1:T94 Arg2:T96
+R75	bodySign Arg1:T93 Arg2:T95
+R76	signIndexValue Arg1:T95 Arg2:T96
+R77	signIndexValue Arg1:T97 Arg2:T98
+T4	clinicalFeature 36 41	双下肢浮肿
+R3	laboratoryTime Arg1:T6 Arg2:T3
+R78	laboratoryTime Arg1:T9 Arg2:T3
+R79	laboratoryTime Arg1:T12 Arg2:T3
+R80	timeDisease Arg1:T3 Arg2:T104
+R81	auxiliaryExaminationTime Arg1:T15 Arg2:T3
+R82	auxiliaryExaminationTime Arg1:T16 Arg2:T3
+R83	drugTime Arg1:T18 Arg2:T3
+R84	drugTime Arg1:T105 Arg2:T3
+R85	drugDose Arg1:T24 Arg2:T23
+T5	clinicalFeature 42 46	解泡沫尿
+T99	time 46 48	1年
+R2	clinicalFeatureTime Arg1:T5 Arg2:T99
+R86	clinicalFeatureTime Arg1:T4 Arg2:T99
+T14	time 319 322	患病来
+T47	clinicalFeature 323 326	神志清
+T49	clinicalFeature 327 330	精神可
+T50	clinicalFeature 331 334	胃纳可
+T51	clinicalFeature 335 338	睡眠可
+T52	clinicalFeature 339 344	大小便如常
+T53	clinicalFeature 345 354	近期体重无明显改变
+R8	clinicalFeatureTime Arg1:T52 Arg2:T14	
+R9	clinicalFeatureTime Arg1:T51 Arg2:T14	
+R10	clinicalFeatureTime Arg1:T50 Arg2:T14	
+R12	clinicalFeatureTime Arg1:T49 Arg2:T14	
+R13	clinicalFeatureTime Arg1:T47 Arg2:T14	

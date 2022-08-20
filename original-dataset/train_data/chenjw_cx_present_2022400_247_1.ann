@@ -1,0 +1,7 @@
+T1	time 10 15	2小时余前
+T2	clinicalFeature 27 31	神志不清
+T3	modification 32 36	呼之不应
+T6	cause 18 22	被人发现
+R1	causeClinicalFeature Arg1:T6 Arg2:T2
+R2	modificationClinicalFeature Arg1:T3 Arg2:T2
+R3	clinicalFeatureTime Arg1:T2 Arg2:T1

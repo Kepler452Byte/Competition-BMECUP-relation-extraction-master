@@ -1,0 +1,212 @@
+T1	clinicalFeature 4 9	双下肢浮肿
+T2	clinicalFeature 10 12	腹胀
+T3	time 12 15	19天
+T4	modification 16 18	反复
+T5	clinicalFeature 18 20	畏寒
+T6	time 22 24	2周
+T7	time 33 37	19天前
+T8	cause 38 43	无明显诱因
+T9	clinicalFeature 46 51	双下肢浮肿
+T10	clinicalFeature 53 55	腹胀
+T11	clinicalFeature 57 59	胸闷
+T12	clinicalFeature 59 61	气促
+T13	clinicalFeature 63 65	乏力
+T14	clinicalFeature 65 67	纳差
+T15	negative 68 69	无
+T16	clinicalFeature 69 71	恶心
+T17	clinicalFeature 71 73	呕吐
+T18	negative 74 75	无
+T19	clinicalFeature 75 77	头痛
+T20	clinicalFeature 77 79	头晕
+T21	negative 80 81	无
+T22	clinicalFeature 81 87	肢体活动障碍
+T23	time 93 96	2周前
+T24	clinicalFeature 100 102	寒战
+T26	body 111 114	双下肢
+T27	clinicalFeature 114 116	浮肿
+T28	clinicalFeature 117 119	腹胀
+T29	clinicalFeature 120 122	胸闷
+T30	clinicalFeature 122 124	气促
+T31	trend 127 131	较前加重
+T32	negative 132 133	无
+T33	clinicalFeature 133 135	咳嗽
+T34	clinicalFeature 135 137	咳痰
+T35	negative 138 139	无
+T36	clinicalFeature 139 141	腹痛
+T37	clinicalFeature 141 143	腹泻
+T38	time 144 148	12天前
+T39	laboratory 161 163	肌酐
+T40	laboratoryValue 164 173	294μmol/L
+T41	laboratory 175 177	尿酸
+T42	laboratoryValue 178 188	1071μmol/L
+T43	laboratory 189 192	尿素氮
+T44	laboratoryValue 193 203	30.0mmol/L
+T45	laboratory 204 207	钾离子
+T46	laboratoryValue 208 217	3.3mmol/L
+T47	laboratory 219 226	CRP+血常规
+T48	laboratory 227 230	CRP
+T49	laboratoryValue 231 239	>200mg/L
+T50	laboratory 241 244	白细胞
+T51	laboratoryValue 245 256	14.2*10^9/L
+T52	laboratory 257 262	中性粒细胞
+T53	laboratoryValue 263 274	13.0*10^9/L
+T54	laboratory 275 279	血红蛋白
+T55	laboratoryValue 280 285	52g/L
+T56	laboratory 286 289	血小板
+T57	laboratoryValue 290 299	69*10^9/L
+T58	cure 317 320	抗感染
+T59	drug 321 326	头孢曲松针
+T60	dose 326 330	2.0g
+T61	frequency 332 334	qd
+T62	clinicalFeature 352 356	血压下降
+T63	clinicalFeature 357 359	胸闷
+T64	clinicalFeature 359 361	气促
+T65	time 364 368	11天前
+T66	time 369 379	2019-11-17
+T67	cure 392 396	留置导尿
+T68	cure 398 401	抗感染
+T70	time 452 455	9天前
+T71	time 456 466	2019-11-19
+T73	cure 482 486	升血小板
+T74	cure 487 489	输血
+T75	cure 505 508	抗感染
+T76	clinicalFeature 515 522	肾功能恢复正常
+T77	clinicalFeature 524 526	胸闷
+T78	clinicalFeature 526 528	气促
+T79	clinicalFeature 529 538	双下肢浮肿明显好转
+T80	clinicalFeature 541 543	发热
+T81	time 544 547	半天前
+T83	disease 602 605	菌血症
+T98	sign 661 663	体温
+T99	indexValue 663 668	36.6℃
+T100	sign 669 671	脉搏
+T101	indexValue 671 676	94次/分
+T102	sign 677 679	呼吸
+T103	indexValue 679 684	19次/分
+T104	sign 685 687	血压
+T105	indexValue 687 697	100/71mmHg
+T106	clinicalFeature 698 702	慢性病容
+T109	clinicalFeature 707 710	精神软
+T110	body 711 713	两肺
+T111	clinicalFeature 713 717	呼吸音清
+T112	clinicalFeature 718 725	未闻及明显罗音
+T113	clinicalFeature 726 729	心律齐
+T114	clinicalFeature 731 741	未闻及明显病理性杂音
+T115	body 742 743	腹
+T116	clinicalFeature 743 745	膨隆
+T117	negative 746 747	无
+T118	clinicalFeature 747 749	压痛
+T119	clinicalFeature 750 753	反跳痛
+T120	sign 754 759	移动性浊音
+T121	indexValue 759 761	阳性
+T123	clinicalFeature 771 778	未扪及明显包块
+T124	body 779 782	双下肢
+T125	clinicalFeature 782 785	无浮肿
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+T126	clinicalFeature 20 22	寒战
+R5	clinicalFeatureTime Arg1:T126 Arg2:T6
+R6	clinicalFeatureTime Arg1:T5 Arg2:T6
+R7	causeClinicalFeature Arg1:T8 Arg2:T9
+R8	clinicalFeatureTime Arg1:T9 Arg2:T7
+R9	clinicalFeatureTime Arg1:T10 Arg2:T7
+R10	clinicalFeatureTime Arg1:T11 Arg2:T7
+R11	clinicalFeatureTime Arg1:T12 Arg2:T7
+R12	clinicalFeatureTime Arg1:T13 Arg2:T7
+R13	clinicalFeatureTime Arg1:T14 Arg2:T7
+R14	negativeClinicalFeature Arg1:T15 Arg2:T16
+R15	negativeClinicalFeature Arg1:T15 Arg2:T17
+R16	negativeClinicalFeature Arg1:T18 Arg2:T19
+R17	negativeClinicalFeature Arg1:T18 Arg2:T20
+R18	negativeClinicalFeature Arg1:T21 Arg2:T22
+R19	clinicalFeatureTime Arg1:T16 Arg2:T7
+R20	clinicalFeatureTime Arg1:T17 Arg2:T7
+R21	clinicalFeatureTime Arg1:T19 Arg2:T7
+R22	clinicalFeatureTime Arg1:T20 Arg2:T7
+R23	clinicalFeatureTime Arg1:T22 Arg2:T7
+T127	clinicalFeature 98 100	畏寒
+R24	clinicalFeatureTime Arg1:T127 Arg2:T23
+R25	clinicalFeatureTime Arg1:T24 Arg2:T23
+R26	bodyClinicalFeature Arg1:T26 Arg2:T27
+R27	clinicalFeatureTime Arg1:T27 Arg2:T23
+R28	clinicalFeatureTime Arg1:T28 Arg2:T23
+R29	clinicalFeatureTime Arg1:T29 Arg2:T23
+R30	clinicalFeatureTime Arg1:T30 Arg2:T23
+R31	clinicalFeatureTrend Arg1:T30 Arg2:T31
+R32	clinicalFeatureTrend Arg1:T28 Arg2:T31
+R33	clinicalFeatureTrend Arg1:T29 Arg2:T31
+R34	clinicalFeatureTrend Arg1:T27 Arg2:T31
+R35	negativeClinicalFeature Arg1:T32 Arg2:T33
+R36	negativeClinicalFeature Arg1:T32 Arg2:T34
+R37	negativeClinicalFeature Arg1:T35 Arg2:T36
+R38	negativeClinicalFeature Arg1:T35 Arg2:T37
+R39	clinicalFeatureTime Arg1:T33 Arg2:T23
+R40	clinicalFeatureTime Arg1:T34 Arg2:T23
+R41	clinicalFeatureTime Arg1:T36 Arg2:T23
+R42	clinicalFeatureTime Arg1:T37 Arg2:T23
+T25	laboratory 155 159	急诊生化
+R44	laboratoryLaboratoryValue Arg1:T39 Arg2:T40
+R45	laboratoryLaboratoryValue Arg1:T41 Arg2:T42
+R46	laboratoryLaboratoryValue Arg1:T43 Arg2:T44
+R47	laboratoryLaboratoryValue Arg1:T45 Arg2:T46
+R52	laboratoryLaboratoryValue Arg1:T48 Arg2:T49
+R53	laboratoryLaboratoryValue Arg1:T50 Arg2:T51
+R54	laboratoryLaboratoryValue Arg1:T52 Arg2:T53
+R55	laboratoryLaboratoryValue Arg1:T54 Arg2:T55
+R56	laboratoryLaboratoryValue Arg1:T56 Arg2:T57
+R61	drugDose Arg1:T59 Arg2:T60
+R62	drugFrequency Arg1:T59 Arg2:T61
+T128	clinicalFeature 347 351	持续高热
+R63	clinicalFeatureTime Arg1:T64 Arg2:T65
+R64	clinicalFeatureTime Arg1:T63 Arg2:T65
+R65	clinicalFeatureTime Arg1:T62 Arg2:T65
+R66	clinicalFeatureTime Arg1:T128 Arg2:T65
+T69	cure 402 409	输血红细胞悬液
+T129	cure 410 416	新鲜冰冻血浆
+T130	cure 417 425	输血小板10单位
+T131	cure 426 431	补充白蛋白
+T132	cure 432 434	补钾
+T133	cure 435 437	护肝
+R67	cureTime Arg1:T67 Arg2:T66
+R68	cureTime Arg1:T68 Arg2:T66
+R69	cureTime Arg1:T69 Arg2:T66
+R70	cureTime Arg1:T129 Arg2:T66
+R71	cureTime Arg1:T130 Arg2:T66
+R72	cureTime Arg1:T131 Arg2:T66
+R73	cureTime Arg1:T132 Arg2:T66
+R74	cureTime Arg1:T133 Arg2:T66
+T72	cure 477 481	改善贫血
+T134	cure 490 494	利尿消肿
+T135	cure 495 499	抑酸护胃
+T136	cure 500 504	碱化尿液
+R75	cureTime Arg1:T72 Arg2:T71
+R76	cureTime Arg1:T73 Arg2:T71
+R77	cureTime Arg1:T74 Arg2:T71
+R78	cureTime Arg1:T134 Arg2:T71
+R79	cureTime Arg1:T135 Arg2:T71
+R80	cureTime Arg1:T136 Arg2:T71
+R81	cureTime Arg1:T75 Arg2:T71
+R82	clinicalFeatureTime Arg1:T76 Arg2:T71
+R91	signIndexValue Arg1:T98 Arg2:T99
+R92	signIndexValue Arg1:T100 Arg2:T101
+R93	signIndexValue Arg1:T102 Arg2:T103
+R94	signIndexValue Arg1:T104 Arg2:T105
+T107	clinicalFeature 703 706	神志清
+R95	bodyClinicalFeature Arg1:T110 Arg2:T111
+R96	bodyClinicalFeature Arg1:T110 Arg2:T112
+R97	bodyClinicalFeature Arg1:T115 Arg2:T116
+R98	negativeClinicalFeature Arg1:T117 Arg2:T118
+R99	negativeClinicalFeature Arg1:T117 Arg2:T119
+R100	bodyClinicalFeature Arg1:T115 Arg2:T118
+R101	bodyClinicalFeature Arg1:T115 Arg2:T119
+R102	signIndexValue Arg1:T120 Arg2:T121
+R103	bodySign Arg1:T115 Arg2:T120
+T108	body 762 763	脾
+T122	clinicalFeature 763 770	肋下3cm可及
+R104	bodyClinicalFeature Arg1:T108 Arg2:T122
+R105	bodyClinicalFeature Arg1:T115 Arg2:T123
+R106	bodyClinicalFeature Arg1:T124 Arg2:T125
+R3	modificationClinicalFeature Arg1:T4 Arg2:T5
+R4	modificationClinicalFeature Arg1:T4 Arg2:T126
+R107	laboratoryTime Arg1:T25 Arg2:T38
+T138	cure 88 92	未予重视

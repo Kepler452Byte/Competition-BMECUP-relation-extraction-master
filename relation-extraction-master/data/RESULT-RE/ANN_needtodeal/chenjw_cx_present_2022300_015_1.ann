@@ -1,0 +1,14 @@
+T1	time 9 12	4天前
+T2	negative 12 15	无意见
+T3	body 17 21	左侧前位
+T4	quantity 23 24	一
+T5	clinicalFeature 24 26	肿块
+T6	modification 27 33	约鹌鹑蛋大小
+T7	modification 34 40	周围红肿明显
+T8	body 41 43	表皮
+T9	negative 43 44	无
+R1	negativeClinicalfeature Arg1:T2 Arg2:T5
+R2	bodyClinicalfeature Arg1:T3 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T1
+R4	modificationClinicalfeature Arg1:T6 Arg2:T5
+R5	modificationClinicalfeature Arg1:T7 Arg2:T5

@@ -1,0 +1,5 @@
+T1	time 6 10	7年余前
+T2	operation 28 34	横结肠癌根治
+T5	disease 14 18	横结肠癌
+T6	operation 35 40	胆囊切除术
+R3	timeDisease Arg1:T1 Arg2:T5

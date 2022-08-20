@@ -1,0 +1,110 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 10	10余天
+T3	time 20 28	10余天前起床时
+T4	cause 28 33	无明显诱因
+T5	clinicalFeature 36 38	头晕
+T6	clinicalFeature 39 43	摔倒在地
+T7	clinicalFeature 49 51	晕厥
+T9	negative 59 60	无
+T10	clinicalFeature 60 65	大小便失禁
+T11	negative 66 67	无
+T12	clinicalFeature 67 71	肢体抽搐
+T13	negative 72 73	无
+T14	clinicalFeature 73 77	视物旋转
+T15	negative 79 80	无
+T16	clinicalFeature 80 82	恶心
+T17	clinicalFeature 82 84	呕吐
+T18	negative 85 86	无
+T19	clinicalFeature 86 88	咳嗽
+T20	clinicalFeature 88 90	咳痰
+T21	negative 91 92	无
+T22	clinicalFeature 92 94	心慌
+T23	clinicalFeature 94 96	胸痛
+T24	clinicalFeature 106 108	头晕
+T26	clinicalFeature 113 115	晕厥
+T27	negative 116 117	无
+T28	clinicalFeature 117 121	视物旋转
+T29	negative 122 123	无
+T30	clinicalFeature 123 125	恶心
+T31	clinicalFeature 125 127	呕吐
+T32	negative 128 129	无
+T33	clinicalFeature 129 131	胸闷
+T34	clinicalFeature 131 133	气促
+T45	indexValue 212 217	36.4℃
+T46	indexValue 219 224	78次/分
+T47	indexValue 227 232	20次/分
+T51	clinicalFeature 255 258	神志清
+T52	clinicalFeature 259 263	呼吸平稳
+T53	body 264 269	浅表淋巴结
+T54	clinicalFeature 269 273	未及肿大
+T55	body 275 277	口唇
+T56	clinicalFeature 277 280	无发绀
+T57	body 281 283	两肺
+T58	clinicalFeature 283 288	呼吸音略粗
+T59	clinicalFeature 289 295	未及明显啰音
+T60	sign 296 298	心率
+T61	indexValue 298 303	78次/分
+T62	clinicalFeature 304 306	律齐
+T63	clinicalFeature 307 312	未闻及杂音
+T64	body 313 314	腹
+T65	clinicalFeature 314 316	平软
+T66	clinicalFeature 317 320	无压痛
+T67	clinicalFeature 323 328	肋下未触及
+T68	body 329 332	双下肢
+T69	clinicalFeature 332 335	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T5 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T15 Arg2:T17
+R12	negativeClinicalFeature Arg1:T18 Arg2:T19
+R13	negativeClinicalFeature Arg1:T18 Arg2:T20
+R14	negativeClinicalFeature Arg1:T21 Arg2:T22
+R15	negativeClinicalFeature Arg1:T21 Arg2:T23
+T70	cure 97 101	未经诊治
+R16	cureTime Arg1:T70 Arg2:T3
+T25	negative 111 112	未
+R17	negativeClinicalFeature Arg1:T25 Arg2:T26
+R18	negativeClinicalFeature Arg1:T27 Arg2:T28
+R19	negativeClinicalFeature Arg1:T29 Arg2:T30
+R20	negativeClinicalFeature Arg1:T29 Arg2:T31
+R21	negativeClinicalFeature Arg1:T32 Arg2:T33
+R22	negativeClinicalFeature Arg1:T32 Arg2:T34
+T71	time 102 103	后
+R23	clinicalFeatureTime Arg1:T24 Arg2:T71
+R24	clinicalFeatureTime Arg1:T26 Arg2:T71
+R25	clinicalFeatureTime Arg1:T28 Arg2:T71
+R26	clinicalFeatureTime Arg1:T30 Arg2:T71
+R27	clinicalFeatureTime Arg1:T31 Arg2:T71
+R28	clinicalFeatureTime Arg1:T33 Arg2:T71
+R29	clinicalFeatureTime Arg1:T34 Arg2:T71
+T73	disease 157 161	头晕待查
+T75	sign 210 211	T
+R37	signIndexValue Arg1:T75 Arg2:T45
+T76	sign 218 219	P
+R38	signIndexValue Arg1:T76 Arg2:T46
+T77	sign 225 226	R
+R39	signIndexValue Arg1:T77 Arg2:T47
+T48	sign 233 235	BP
+T78	indexValue 236 246	165/95mmHg
+R40	signIndexValue Arg1:T48 Arg2:T78
+T49	sign 247 251	氧饱和度
+T50	indexValue 251 254	97%
+R41	signIndexValue Arg1:T49 Arg2:T50
+R42	bodyClinicalFeature Arg1:T53 Arg2:T54
+R43	bodyClinicalFeature Arg1:T55 Arg2:T56
+R44	bodyClinicalFeature Arg1:T57 Arg2:T58
+R45	bodyClinicalFeature Arg1:T57 Arg2:T59
+R46	signIndexValue Arg1:T60 Arg2:T61
+R47	bodyClinicalFeature Arg1:T64 Arg2:T65
+R49	bodyClinicalFeature Arg1:T64 Arg2:T66
+R50	bodyClinicalFeature Arg1:T68 Arg2:T69
+T80	body 321 322	肝
+T81	body 322 323	脾
+R51	bodyClinicalFeature Arg1:T80 Arg2:T67
+R52	bodyClinicalFeature Arg1:T81 Arg2:T67

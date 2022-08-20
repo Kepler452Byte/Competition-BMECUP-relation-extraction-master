@@ -1,0 +1,26 @@
+{"sent": "主 诉 : $ 反 复 胸 闷 气 促 5 年 余 ， 再 发 1 天 $ ￣ 现 病 史 : $ 患 者 于 5 年 余 前 开 始 出 现 胸 闷 、 气 促 ， 无 胸 痛 ， 无 晕 厥 等 不 适 ， 曾 反 复 我 院 住 院 治 疗 ， ￣ 诊 断 为 ” 1 . 高 血 压 病 $ 高 血 压 性 心 脏 病 $ 快 速 心 室 率 心 房 颤 动 $ 心 功 能 3 级 $ 双 侧 胸 腔 积 液 $ 2 . 慢 性 阻 塞 性 肺 病 急 性 加 重 $ 3 . 双 侧 颈 动 脉 硬 化 伴 右 侧 斑 块 形 成 $ 4 . 前 列 腺 增 生 ￣ $ 5 . 高 尿 酸 血 症 $ 6 . 低 钾 血 症 7 . 泌 尿 道 感 染 $ ” ， 1 天 前 患 者 再 发 胸 闷 、 气 促 ， 活 动 后 加 重 ， 无 胸 痛 ， 无 端 坐 呼 吸 等 不 适 ， 伴 有 便 频 繁 ， 小 便 不 能 自 解 ， 今 至 我 院 就 诊 ， ￣ 心 电 图 提 示 房 颤 ， 频 发 室 早 ， 血 常 规 示 W B C 1 2 . 3 * 1 0 E 9 / L ， N 9 2 . 9 % ， 肾 功 能 电 解 质 、 肌 钙 蛋 白 未 见 异 常 ， 为 行 进 一 步 诊 治 ， 急 诊 拟 ” 房 颤 ” 收 住 入 院 。", "ners": [[4, 6, "modification", "反复"], [6, 8, "clinicalFeature", "胸闷"], [8, 10, "clinicalFeature", "气促"], [10, 13, "time", "5年余"], [16, 18, "time", "1天"], [28, 32, "time", "5年余前"], [36, 38, "clinicalFeature", "胸闷"], [39, 41, "clinicalFeature", "气促"], [42, 43, "negative", "无"], [43, 45, "clinicalFeature", "胸痛"], [46, 47, "negative", "无"], [47, 49, "clinicalFeature", "晕厥"], [53, 62, "cure", "曾反复我院住院治疗"], [54, 56, "modification", "反复"], [70, 74, "disease", "高血压病"], [75, 82, "disease", "高血压性心脏病"], [83, 92, "disease", "快速心室率心房颤动"], [93, 98, "disease", "心功能3级"], [99, 105, "disease", "双侧胸腔积液"], [108, 119, "disease", "慢性阻塞性肺病急性加重"], [122, 127, "body", "双侧颈动脉"], [127, 129, "auxiliaryDescript", "硬化"], [132, 136, "auxiliaryDescript", "斑块形成"], [139, 144, "disease", "前列腺增生"], [148, 153, "disease", "高尿酸血症"], [156, 160, "disease", "低钾血症"], [162, 167, "disease", "泌尿道感染"], [170, 173, "time", "1天前"], [177, 179, "clinicalFeature", "胸闷"], [180, 182, "clinicalFeature", "气促"], [186, 188, "trend", "加重"], [189, 190, "negative", "无"], [190, 192, "clinicalFeature", "胸痛"], [193, 194, "negative", "无"], [208, 214, "clinicalFeature", "小便不能自解"], [215, 216, "time", "今"], [223, 226, "auxiliaryExamination", "心电图"], [228, 230, "clinicalFeature", "房颤"], [228, 230, "disease", "房颤"], [231, 239, "laboratory", "频发室早，血常规"], [236, 239, "laboratory", "血常规"], [236, 243, "laboratory", "血常规示WBC"], [240, 243, "laboratory", "WBC"], [243, 254, "laboratoryValue", "12.3*10E9/L"], [251, 254, "laboratoryValue", "9/L"], [251, 261, "laboratoryValue", "9/L，N92.9%"], [255, 256, "sign", "N"], [256, 261, "laboratoryValue", "92.9%"], [262, 268, "laboratory", "肾功能电解质"], [269, 273, "laboratory", "肌钙蛋白"], [273, 277, "laboratoryValue", "未见异常"], [290, 292, "disease", "房颤"]]}
+[4, 6, 'modification', '反复']	[8, 10, 'clinicalFeature', '气促']	属性
+[6, 8, 'clinicalFeature', '胸闷']	[16, 18, 'time', '1天']	属性
+[8, 10, 'clinicalFeature', '气促']	[16, 18, 'time', '1天']	属性
+[36, 38, 'clinicalFeature', '胸闷']	[28, 32, 'time', '5年余前']	属性
+[39, 41, 'clinicalFeature', '气促']	[28, 32, 'time', '5年余前']	属性
+[42, 43, 'negative', '无']	[43, 45, 'clinicalFeature', '胸痛']	属性
+[43, 45, 'clinicalFeature', '胸痛']	[28, 32, 'time', '5年余前']	属性
+[46, 47, 'negative', '无']	[47, 49, 'clinicalFeature', '晕厥']	属性
+[47, 49, 'clinicalFeature', '晕厥']	[28, 32, 'time', '5年余前']	属性
+[122, 127, 'body', '双侧颈动脉']	[132, 136, 'auxiliaryDescript', '斑块形成']	属性
+[177, 179, 'clinicalFeature', '胸闷']	[170, 173, 'time', '1天前']	属性
+[180, 182, 'clinicalFeature', '气促']	[170, 173, 'time', '1天前']	属性
+[189, 190, 'negative', '无']	[190, 192, 'clinicalFeature', '胸痛']	属性
+[190, 192, 'clinicalFeature', '胸痛']	[170, 173, 'time', '1天前']	属性
+[208, 214, 'clinicalFeature', '小便不能自解']	[170, 173, 'time', '1天前']	属性
+[223, 226, 'auxiliaryExamination', '心电图']	[170, 173, 'time', '1天前']	属性
+[223, 226, 'auxiliaryExamination', '心电图']	[215, 216, 'time', '今']	属性
+[228, 230, 'clinicalFeature', '房颤']	[215, 216, 'time', '今']	属性
+[228, 230, 'disease', '房颤']	[215, 216, 'time', '今']	属性
+[236, 239, 'laboratory', '血常规']	[215, 216, 'time', '今']	属性
+[240, 243, 'laboratory', 'WBC']	[243, 254, 'laboratoryValue', '12.3*10E9/L']	属性
+[240, 243, 'laboratory', 'WBC']	[251, 254, 'laboratoryValue', '9/L']	属性
+[255, 256, 'sign', 'N']	[256, 261, 'laboratoryValue', '92.9%']	属性
+[269, 273, 'laboratory', '肌钙蛋白']	[273, 277, 'laboratoryValue', '未见异常']	属性
+

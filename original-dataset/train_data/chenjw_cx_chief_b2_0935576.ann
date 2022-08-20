@@ -1,0 +1,5 @@
+T1	clinicalFeature 9 15	自服安眠药物
+T2	clinicalFeature 16 19	饮酒后
+T3	time 19 23	1小时余
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3

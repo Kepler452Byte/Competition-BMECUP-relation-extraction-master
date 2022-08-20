@@ -1,0 +1,134 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 8 10	咳痰
+T4	time 10 14	40余年
+T5	clinicalFeature 18 20	胸闷
+T6	clinicalFeature 20 22	气急
+T7	time 22 24	1周
+T8	time 33 38	40余年前
+T9	modification 42 44	反复
+T10	clinicalFeature 44 46	咳嗽
+T11	clinicalFeature 46 48	咳痰
+T14	disease 74 81	慢性阻塞性肺病
+T15	disease 82 90	慢性肺源性心脏病
+T16	time 92 95	1周前
+T17	cause 97 102	无明显诱因
+T18	clinicalFeature 107 109	咳嗽
+T19	clinicalFeature 109 111	咳痰
+T20	modification 112 119	痰为黄色或白色
+T21	modification 120 123	能咳出
+T22	clinicalFeature 124 126	胸闷
+T23	clinicalFeature 126 128	气急
+T24	clinicalFeature 133 135	喘息
+T25	negative 136 137	无
+T26	clinicalFeature 137 139	畏寒
+T27	clinicalFeature 139 141	发热
+T28	negative 142 143	无
+T29	clinicalFeature 143 145	胸痛
+T30	clinicalFeature 145 147	咯血
+T31	negative 148 149	无
+T32	clinicalFeature 149 151	恶心
+T33	clinicalFeature 151 153	呕吐
+T34	negative 154 155	无
+T35	clinicalFeature 155 159	腹部疼痛
+T36	cure 164 170	自服药物治疗
+T38	trend 190 195	无明显好转
+T40	disease 215 226	慢性阻塞性肺病急性加重
+T53	disease 272 275	高血压
+T54	time 278 282	10年余
+T55	drug 287 292	施慧达药片
+T56	dose 292 297	2.5mg
+T57	frequency 297 299	/日
+T58	clinicalFeature 302 308	血压控制良好
+T59	sign 321 322	T
+T60	indexValue 323 328	37.3℃
+T61	sign 329 330	P
+T62	indexValue 331 337	106次/分
+T63	sign 338 339	R
+T64	indexValue 340 345	21次/分
+T65	sign 346 348	BP
+T66	indexValue 349 359	116/67mmHg
+T67	clinicalFeature 360 363	神志清
+T68	clinicalFeature 364 368	呼吸平稳
+T69	body 369 374	浅表淋巴结
+T70	clinicalFeature 374 378	未及肿大
+T71	clinicalFeature 381 383	发绀
+T72	body 385 387	两肺
+T73	clinicalFeature 387 391	呼吸音粗
+T74	clinicalFeature 392 397	未闻及啰音
+T75	sign 398 400	心率
+T76	indexValue 400 406	106次/分
+T77	clinicalFeature 407 409	律齐
+T78	clinicalFeature 410 415	未闻及杂音
+T79	body 416 417	腹
+T80	clinicalFeature 417 419	平软
+T81	clinicalFeature 420 423	无压痛
+T82	body 424 425	肝
+T83	body 425 426	脾
+T84	clinicalFeature 426 431	肋下未触及
+T85	body 432 435	双下肢
+T86	clinicalFeature 435 438	无浮肿
+R1	clinicalFeatureTime Arg1:T2 Arg2:T4
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R5	clinicalFeatureTime Arg1:T5 Arg2:T7
+R6	clinicalFeatureTime Arg1:T6 Arg2:T7
+R9	clinicalFeatureTime Arg1:T10 Arg2:T8
+R10	clinicalFeatureTime Arg1:T11 Arg2:T8
+R15	causeClinicalFeature Arg1:T17 Arg2:T18
+R16	causeClinicalFeature Arg1:T17 Arg2:T19
+R17	clinicalFeatureTime Arg1:T18 Arg2:T16
+R18	clinicalFeatureTime Arg1:T19 Arg2:T16
+R21	clinicalFeatureTime Arg1:T22 Arg2:T16
+R22	clinicalFeatureTime Arg1:T23 Arg2:T16
+R23	clinicalFeatureTime Arg1:T24 Arg2:T16
+R24	negativeClinicalFeature Arg1:T25 Arg2:T26
+R25	negativeClinicalFeature Arg1:T25 Arg2:T27
+R26	negativeClinicalFeature Arg1:T28 Arg2:T29
+R27	negativeClinicalFeature Arg1:T28 Arg2:T30
+R28	negativeClinicalFeature Arg1:T31 Arg2:T32
+R29	negativeClinicalFeature Arg1:T31 Arg2:T33
+R30	negativeClinicalFeature Arg1:T34 Arg2:T35
+R31	clinicalFeatureTime Arg1:T26 Arg2:T16
+R32	clinicalFeatureTime Arg1:T27 Arg2:T16
+R33	clinicalFeatureTime Arg1:T29 Arg2:T16
+R34	clinicalFeatureTime Arg1:T30 Arg2:T16
+R35	clinicalFeatureTime Arg1:T32 Arg2:T16
+R36	clinicalFeatureTime Arg1:T33 Arg2:T16
+R37	clinicalFeatureTime Arg1:T35 Arg2:T16
+T37	drug 174 186	布地奈德福莫特罗粉吸入剂
+R45	timeDisease Arg1:T54 Arg2:T53
+R46	drugDose Arg1:T55 Arg2:T56
+R47	drugFrequency Arg1:T55 Arg2:T57
+R48	signIndexValue Arg1:T59 Arg2:T60
+R49	signIndexValue Arg1:T61 Arg2:T62
+R50	signIndexValue Arg1:T63 Arg2:T64
+R51	signIndexValue Arg1:T65 Arg2:T66
+R52	bodyClinicalFeature Arg1:T69 Arg2:T70
+R53	bodyClinicalFeature Arg1:T72 Arg2:T73
+R54	signIndexValue Arg1:T75 Arg2:T76
+R55	bodyClinicalFeature Arg1:T79 Arg2:T80
+R56	bodyClinicalFeature Arg1:T79 Arg2:T81
+R57	bodyClinicalFeature Arg1:T83 Arg2:T84
+R58	bodyClinicalFeature Arg1:T82 Arg2:T84
+R59	bodyClinicalFeature Arg1:T85 Arg2:T86
+R60	cureTime Arg1:T36 Arg2:T16
+R61	drugTime Arg1:T37 Arg2:T16
+R62	clinicalFeatureTrend Arg1:T18 Arg2:T38
+R63	clinicalFeatureTrend Arg1:T19 Arg2:T38
+R64	clinicalFeatureTrend Arg1:T22 Arg2:T38
+R65	clinicalFeatureTrend Arg1:T23 Arg2:T38
+T87	body 379 381	口唇
+R66	bodyClinicalFeature Arg1:T87 Arg2:T71
+R67	timeDisease Arg1:T8 Arg2:T14
+R68	timeDisease Arg1:T8 Arg2:T15
+R3	modificationClinicalFeature Arg1:T1 Arg2:T2
+R4	modificationClinicalFeature Arg1:T1 Arg2:T3
+R69	clinicalFeatureTime Arg1:T2 Arg2:T7
+R70	clinicalFeatureTime Arg1:T3 Arg2:T7
+R7	modificationClinicalFeature Arg1:T9 Arg2:T10
+R8	modificationClinicalFeature Arg1:T9 Arg2:T11
+R19	modificationClinicalFeature Arg1:T20 Arg2:T19
+R20	modificationClinicalFeature Arg1:T21 Arg2:T19
+T88	modification 128 130	明显
+R71	modificationClinicalFeature Arg1:T88 Arg2:T23
+R72	modificationClinicalFeature Arg1:T88 Arg2:T22

@@ -1,0 +1,84 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 11	7月余
+T4	time 21 25	7月余前
+T5	cause 25 30	无明显诱因
+T6	clinicalFeature 33 35	咳嗽
+T7	clinicalFeature 35 37	咳痰
+T8	modification 38 41	阵发性
+T9	modification 42 47	痰不易咳出
+T10	clinicalFeature 49 51	胸闷
+T11	clinicalFeature 52 56	呼吸困难
+T12	negative 57 58	无
+T13	clinicalFeature 58 60	胸痛
+T14	negative 61 62	无
+T15	clinicalFeature 62 64	腹泻
+T16	negative 65 66	无
+T17	clinicalFeature 66 68	咯血
+T18	clinicalFeature 68 70	黑便
+T19	negative 71 72	无
+T20	clinicalFeature 72 76	肢体抽搐
+T21	time 86 108	2018-11-26至2018-112-24
+T22	time 97 108	2018-112-24
+T23	disease 128 132	肺部感染
+T24	disease 133 137	呼吸衰竭
+T25	sign 191 192	T
+T26	indexValue 192 197	36.8℃
+T27	sign 198 199	P
+T28	indexValue 199 204	78次/分
+T29	sign 205 206	R
+T30	indexValue 206 211	26次/分
+T31	sign 212 214	BP
+T32	indexValue 214 224	117/47mmHg
+T33	clinicalFeature 225 229	神志朦胧
+T34	clinicalFeature 230 234	呼吸略促
+T35	body 235 237	气管
+T36	clinicalFeature 237 241	切开状态
+T37	body 242 247	浅表淋巴结
+T38	clinicalFeature 247 251	未及肿大
+T39	body 252 254	口唇
+T40	clinicalFeature 254 257	无发绀
+T41	body 258 260	两肺
+T42	clinicalFeature 260 264	呼吸音粗
+T43	clinicalFeature 266 272	未及明显啰音
+T44	sign 273 275	心率
+T45	indexValue 275 280	78次/分
+T46	clinicalFeature 281 283	律齐
+T47	clinicalFeature 284 289	未闻及杂音
+T48	body 290 291	腹
+T49	clinicalFeature 291 293	平软
+T50	clinicalFeature 294 297	无压痛
+T51	body 298 299	肝
+T52	body 299 300	脾
+T53	clinicalFeature 300 305	肋下未触及
+T54	body 306 309	双下肢
+T55	clinicalFeature 309 312	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalfeature Arg1:T5 Arg2:T7
+R4	modificationClinicalfeature Arg1:T8 Arg2:T7
+R5	modificationClinicalfeature Arg1:T9 Arg2:T7
+R6	clinicalFeatureTime Arg1:T10 Arg2:T4
+R7	clinicalFeatureTime Arg1:T11 Arg2:T4
+R8	negativeClinicalfeature Arg1:T12 Arg2:T13
+R9	clinicalFeatureTime Arg1:T13 Arg2:T4
+R10	negativeClinicalfeature Arg1:T14 Arg2:T15
+R11	clinicalFeatureTime Arg1:T15 Arg2:T4
+R12	negativeClinicalfeature Arg1:T16 Arg2:T18
+R13	clinicalFeatureTime Arg1:T17 Arg2:T4
+R14	clinicalFeatureTime Arg1:T18 Arg2:T4
+R15	negativeClinicalfeature Arg1:T19 Arg2:T20
+R16	clinicalFeatureTime Arg1:T20 Arg2:T4
+R17	signIndexvalue Arg1:T25 Arg2:T26
+R18	signIndexvalue Arg1:T27 Arg2:T28
+R19	signIndexvalue Arg1:T29 Arg2:T30
+R20	signIndexvalue Arg1:T31 Arg2:T32
+R21	bodyClinicalfeature Arg1:T35 Arg2:T36
+R22	bodyClinicalfeature Arg1:T37 Arg2:T38
+R23	bodyClinicalfeature Arg1:T39 Arg2:T40
+R24	bodyClinicalfeature Arg1:T41 Arg2:T43
+R25	signIndexvalue Arg1:T44 Arg2:T45
+R26	bodyClinicalfeature Arg1:T48 Arg2:T50
+R27	bodyClinicalfeature Arg1:T51 Arg2:T53
+R28	bodyClinicalfeature Arg1:T52 Arg2:T53
+R29	bodyClinicalfeature Arg1:T54 Arg2:T55

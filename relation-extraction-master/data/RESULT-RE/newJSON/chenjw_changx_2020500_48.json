@@ -1,0 +1,7390 @@
+[
+  {
+    "sent": "主 诉 : $ 头 晕 乏 力 5 天 。 $ ￣ 现 病 史 : $ 患 者 5 天 前 无 明 显 诱 因 出 现 头 晕 ， 伴 双 下 肢 乏 力 ， 无 视 物 旋 转 ， 无 耳 鸣 ， 有 恶 心 无 呕 吐 ， 感 反 酸 ， 无 畏 寒 发 热 ， 无 胸 闷 气 促 ， 无 四 肢 抽 搐 ， 无 肢 体 麻 木 ， ￣ 无 黑 朦 晕 厥 等 不 适 ， 期 间 未 就 诊 ， 症 状 无 明 显 改 善 ， 今 为 进 一 步 明 确 诊 治 ， 遂 至 我 院 急 诊 就 诊 ， 予 以 收 住 入 院 。 $ ￣ 患 病 来 ， 神 志 清 ， 精 神 软 ， 胃 纳 睡 眠 较 差 ， 大 小 便 如 常 ， 近 期 体 重 无 明 显 改 变 。",
+    "ners": [
+      [
+        4,
+        6,
+        "clinicalFeature",
+        "头晕"
+      ],
+      [
+        6,
+        8,
+        "clinicalFeature",
+        "乏力"
+      ],
+      [
+        8,
+        10,
+        "time",
+        "5天"
+      ],
+      [
+        20,
+        23,
+        "time",
+        "5天前"
+      ],
+      [
+        23,
+        28,
+        "cause",
+        "无明显诱因"
+      ],
+      [
+        30,
+        32,
+        "clinicalFeature",
+        "头晕"
+      ],
+      [
+        34,
+        39,
+        "clinicalFeature",
+        "双下肢乏力"
+      ],
+      [
+        40,
+        41,
+        "negative",
+        "无"
+      ],
+      [
+        41,
+        45,
+        "clinicalFeature",
+        "视物旋转"
+      ],
+      [
+        46,
+        47,
+        "negative",
+        "无"
+      ],
+      [
+        47,
+        49,
+        "clinicalFeature",
+        "耳鸣"
+      ],
+      [
+        51,
+        53,
+        "clinicalFeature",
+        "恶心"
+      ],
+      [
+        53,
+        54,
+        "negative",
+        "无"
+      ],
+      [
+        54,
+        56,
+        "clinicalFeature",
+        "呕吐"
+      ],
+      [
+        58,
+        60,
+        "clinicalFeature",
+        "反酸"
+      ],
+      [
+        61,
+        62,
+        "negative",
+        "无"
+      ],
+      [
+        62,
+        64,
+        "clinicalFeature",
+        "畏寒"
+      ],
+      [
+        64,
+        66,
+        "clinicalFeature",
+        "发热"
+      ],
+      [
+        67,
+        68,
+        "negative",
+        "无"
+      ],
+      [
+        68,
+        70,
+        "clinicalFeature",
+        "胸闷"
+      ],
+      [
+        70,
+        72,
+        "clinicalFeature",
+        "气促"
+      ],
+      [
+        73,
+        74,
+        "negative",
+        "无"
+      ],
+      [
+        74,
+        78,
+        "clinicalFeature",
+        "四肢抽搐"
+      ],
+      [
+        79,
+        80,
+        "negative",
+        "无"
+      ],
+      [
+        80,
+        84,
+        "clinicalFeature",
+        "肢体麻木"
+      ],
+      [
+        86,
+        87,
+        "negative",
+        "无"
+      ],
+      [
+        87,
+        89,
+        "clinicalFeature",
+        "黑朦"
+      ],
+      [
+        89,
+        91,
+        "clinicalFeature",
+        "晕厥"
+      ],
+      [
+        97,
+        100,
+        "cure",
+        "未就诊"
+      ],
+      [
+        103,
+        108,
+        "trend",
+        "无明显改善"
+      ]
+    ],
+    "sentence_text": "[CLS] 主 诉 : $ 头 晕 乏 力 5 天 。 $ ￣ 现 病 史 : $ 患 者 5 天 前 无 明 显 诱 因 出 现 头 晕 ， 伴 双 下 肢 乏 力 ， 无 视 物 旋 转 ， 无 耳 鸣 ， 有 恶 心 无 呕 吐 ， 感 反 酸 ， 无 畏 寒 发 热 ， 无 胸 闷 气 促 ， 无 四 肢 抽 搐 ， 无 肢 体 麻 木 ， ￣ 无 黑 朦 晕 厥 等 不 适 ， 期 间 未 就 诊 ， 症 状 无 明 显 改 善 ， 今 为 进 一 步 明 确 诊 治 ， 遂 至 我 院 急 诊 就 诊 ， 予 以 收 住 入 院 。 $ ￣ 患 病 来 ， 神 志 清 ， 精 神 软 ， 胃 纳 睡 眠 较 差 ， 大 小 便 如 常 ， 近 期 体 重 无 明 显 改 变 。 [SEP] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [time] [/time] [time] [/time] [cause] [/cause] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [negative] [/negative] [clinicalFeature] [/clinicalFeature] [clinicalFeature] [/clinicalFeature] [cure] [/cure] [trend] [/trend]",
+    "position_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      21,
+      23,
+      24,
+      28,
+      31,
+      32,
+      35,
+      39,
+      41,
+      41,
+      42,
+      45,
+      47,
+      47,
+      48,
+      49,
+      52,
+      53,
+      54,
+      54,
+      55,
+      56,
+      59,
+      60,
+      62,
+      62,
+      63,
+      64,
+      65,
+      66,
+      68,
+      68,
+      69,
+      70,
+      71,
+      72,
+      74,
+      74,
+      75,
+      78,
+      80,
+      80,
+      81,
+      84,
+      87,
+      87,
+      88,
+      89,
+      90,
+      91,
+      98,
+      100,
+      104,
+      108
+    ],
+    "relation": [
+      "[4, 6, 'clinicalFeature', '头晕']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[8, 10, 'time', '5天']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[20, 23, 'time', '5天前']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[23, 28, 'cause', '无明显诱因']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[40, 41, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[46, 47, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[53, 54, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[61, 62, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[64, 66, 'clinicalFeature', '发热']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[67, 68, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[70, 72, 'clinicalFeature', '气促']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[73, 74, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[79, 80, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[86, 87, 'negative', '无']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[97, 100, 'cure', '未就诊']",
+      "[4, 6, 'clinicalFeature', '头晕']\t[103, 108, 'trend', '无明显改善']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[8, 10, 'time', '5天']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[20, 23, 'time', '5天前']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[23, 28, 'cause', '无明显诱因']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[40, 41, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[46, 47, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[53, 54, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[61, 62, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[64, 66, 'clinicalFeature', '发热']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[67, 68, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[70, 72, 'clinicalFeature', '气促']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[73, 74, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[79, 80, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[86, 87, 'negative', '无']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[97, 100, 'cure', '未就诊']",
+      "[6, 8, 'clinicalFeature', '乏力']\t[103, 108, 'trend', '无明显改善']",
+      "[8, 10, 'time', '5天']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[8, 10, 'time', '5天']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[8, 10, 'time', '5天']\t[20, 23, 'time', '5天前']",
+      "[8, 10, 'time', '5天']\t[23, 28, 'cause', '无明显诱因']",
+      "[8, 10, 'time', '5天']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[8, 10, 'time', '5天']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[8, 10, 'time', '5天']\t[40, 41, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[8, 10, 'time', '5天']\t[46, 47, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[8, 10, 'time', '5天']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[8, 10, 'time', '5天']\t[53, 54, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[8, 10, 'time', '5天']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[8, 10, 'time', '5天']\t[61, 62, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[8, 10, 'time', '5天']\t[64, 66, 'clinicalFeature', '发热']",
+      "[8, 10, 'time', '5天']\t[67, 68, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[8, 10, 'time', '5天']\t[70, 72, 'clinicalFeature', '气促']",
+      "[8, 10, 'time', '5天']\t[73, 74, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[8, 10, 'time', '5天']\t[79, 80, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[8, 10, 'time', '5天']\t[86, 87, 'negative', '无']",
+      "[8, 10, 'time', '5天']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[8, 10, 'time', '5天']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[8, 10, 'time', '5天']\t[97, 100, 'cure', '未就诊']",
+      "[8, 10, 'time', '5天']\t[103, 108, 'trend', '无明显改善']",
+      "[20, 23, 'time', '5天前']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[20, 23, 'time', '5天前']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[20, 23, 'time', '5天前']\t[8, 10, 'time', '5天']",
+      "[20, 23, 'time', '5天前']\t[23, 28, 'cause', '无明显诱因']",
+      "[20, 23, 'time', '5天前']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[20, 23, 'time', '5天前']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[20, 23, 'time', '5天前']\t[40, 41, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[20, 23, 'time', '5天前']\t[46, 47, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[20, 23, 'time', '5天前']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[20, 23, 'time', '5天前']\t[53, 54, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[20, 23, 'time', '5天前']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[20, 23, 'time', '5天前']\t[61, 62, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[20, 23, 'time', '5天前']\t[64, 66, 'clinicalFeature', '发热']",
+      "[20, 23, 'time', '5天前']\t[67, 68, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[20, 23, 'time', '5天前']\t[70, 72, 'clinicalFeature', '气促']",
+      "[20, 23, 'time', '5天前']\t[73, 74, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[20, 23, 'time', '5天前']\t[79, 80, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[20, 23, 'time', '5天前']\t[86, 87, 'negative', '无']",
+      "[20, 23, 'time', '5天前']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[20, 23, 'time', '5天前']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[20, 23, 'time', '5天前']\t[97, 100, 'cure', '未就诊']",
+      "[20, 23, 'time', '5天前']\t[103, 108, 'trend', '无明显改善']",
+      "[23, 28, 'cause', '无明显诱因']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[23, 28, 'cause', '无明显诱因']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[23, 28, 'cause', '无明显诱因']\t[8, 10, 'time', '5天']",
+      "[23, 28, 'cause', '无明显诱因']\t[20, 23, 'time', '5天前']",
+      "[23, 28, 'cause', '无明显诱因']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[23, 28, 'cause', '无明显诱因']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[23, 28, 'cause', '无明显诱因']\t[40, 41, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[23, 28, 'cause', '无明显诱因']\t[46, 47, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[23, 28, 'cause', '无明显诱因']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[23, 28, 'cause', '无明显诱因']\t[53, 54, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[23, 28, 'cause', '无明显诱因']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[23, 28, 'cause', '无明显诱因']\t[61, 62, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[23, 28, 'cause', '无明显诱因']\t[64, 66, 'clinicalFeature', '发热']",
+      "[23, 28, 'cause', '无明显诱因']\t[67, 68, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[23, 28, 'cause', '无明显诱因']\t[70, 72, 'clinicalFeature', '气促']",
+      "[23, 28, 'cause', '无明显诱因']\t[73, 74, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[23, 28, 'cause', '无明显诱因']\t[79, 80, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[23, 28, 'cause', '无明显诱因']\t[86, 87, 'negative', '无']",
+      "[23, 28, 'cause', '无明显诱因']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[23, 28, 'cause', '无明显诱因']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[23, 28, 'cause', '无明显诱因']\t[97, 100, 'cure', '未就诊']",
+      "[23, 28, 'cause', '无明显诱因']\t[103, 108, 'trend', '无明显改善']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[8, 10, 'time', '5天']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[20, 23, 'time', '5天前']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[23, 28, 'cause', '无明显诱因']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[40, 41, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[46, 47, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[53, 54, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[61, 62, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[64, 66, 'clinicalFeature', '发热']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[67, 68, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[70, 72, 'clinicalFeature', '气促']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[73, 74, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[79, 80, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[86, 87, 'negative', '无']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[97, 100, 'cure', '未就诊']",
+      "[30, 32, 'clinicalFeature', '头晕']\t[103, 108, 'trend', '无明显改善']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[8, 10, 'time', '5天']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[20, 23, 'time', '5天前']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[23, 28, 'cause', '无明显诱因']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[40, 41, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[46, 47, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[53, 54, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[61, 62, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[64, 66, 'clinicalFeature', '发热']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[67, 68, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[70, 72, 'clinicalFeature', '气促']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[73, 74, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[79, 80, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[86, 87, 'negative', '无']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[97, 100, 'cure', '未就诊']",
+      "[34, 39, 'clinicalFeature', '双下肢乏力']\t[103, 108, 'trend', '无明显改善']",
+      "[40, 41, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[40, 41, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[40, 41, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[40, 41, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[40, 41, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[40, 41, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[40, 41, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[40, 41, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[40, 41, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[40, 41, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[40, 41, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[40, 41, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[40, 41, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[40, 41, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[40, 41, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[40, 41, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[40, 41, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[40, 41, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[40, 41, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[40, 41, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[40, 41, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[40, 41, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[40, 41, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[8, 10, 'time', '5天']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[20, 23, 'time', '5天前']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[23, 28, 'cause', '无明显诱因']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[40, 41, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[46, 47, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[53, 54, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[61, 62, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[64, 66, 'clinicalFeature', '发热']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[67, 68, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[70, 72, 'clinicalFeature', '气促']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[73, 74, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[79, 80, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[86, 87, 'negative', '无']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[97, 100, 'cure', '未就诊']",
+      "[41, 45, 'clinicalFeature', '视物旋转']\t[103, 108, 'trend', '无明显改善']",
+      "[46, 47, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[46, 47, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[46, 47, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[46, 47, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[46, 47, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[46, 47, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[46, 47, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[46, 47, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[46, 47, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[46, 47, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[46, 47, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[46, 47, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[46, 47, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[46, 47, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[46, 47, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[46, 47, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[46, 47, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[46, 47, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[46, 47, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[46, 47, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[46, 47, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[46, 47, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[46, 47, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[8, 10, 'time', '5天']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[20, 23, 'time', '5天前']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[23, 28, 'cause', '无明显诱因']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[40, 41, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[46, 47, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[53, 54, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[61, 62, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[64, 66, 'clinicalFeature', '发热']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[67, 68, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[70, 72, 'clinicalFeature', '气促']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[73, 74, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[79, 80, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[86, 87, 'negative', '无']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[97, 100, 'cure', '未就诊']",
+      "[47, 49, 'clinicalFeature', '耳鸣']\t[103, 108, 'trend', '无明显改善']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[8, 10, 'time', '5天']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[20, 23, 'time', '5天前']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[23, 28, 'cause', '无明显诱因']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[40, 41, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[46, 47, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[53, 54, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[61, 62, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[64, 66, 'clinicalFeature', '发热']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[67, 68, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[70, 72, 'clinicalFeature', '气促']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[73, 74, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[79, 80, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[86, 87, 'negative', '无']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[97, 100, 'cure', '未就诊']",
+      "[51, 53, 'clinicalFeature', '恶心']\t[103, 108, 'trend', '无明显改善']",
+      "[53, 54, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[53, 54, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[53, 54, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[53, 54, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[53, 54, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[53, 54, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[53, 54, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[53, 54, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[53, 54, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[53, 54, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[53, 54, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[53, 54, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[53, 54, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[53, 54, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[53, 54, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[53, 54, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[53, 54, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[53, 54, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[53, 54, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[53, 54, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[53, 54, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[53, 54, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[53, 54, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[8, 10, 'time', '5天']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[20, 23, 'time', '5天前']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[23, 28, 'cause', '无明显诱因']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[40, 41, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[46, 47, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[53, 54, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[61, 62, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[64, 66, 'clinicalFeature', '发热']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[67, 68, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[70, 72, 'clinicalFeature', '气促']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[73, 74, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[79, 80, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[86, 87, 'negative', '无']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[97, 100, 'cure', '未就诊']",
+      "[54, 56, 'clinicalFeature', '呕吐']\t[103, 108, 'trend', '无明显改善']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[8, 10, 'time', '5天']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[20, 23, 'time', '5天前']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[23, 28, 'cause', '无明显诱因']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[40, 41, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[46, 47, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[53, 54, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[61, 62, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[64, 66, 'clinicalFeature', '发热']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[67, 68, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[70, 72, 'clinicalFeature', '气促']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[73, 74, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[79, 80, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[86, 87, 'negative', '无']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[97, 100, 'cure', '未就诊']",
+      "[58, 60, 'clinicalFeature', '反酸']\t[103, 108, 'trend', '无明显改善']",
+      "[61, 62, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[61, 62, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[61, 62, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[61, 62, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[61, 62, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[61, 62, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[61, 62, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[61, 62, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[61, 62, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[61, 62, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[61, 62, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[61, 62, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[61, 62, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[61, 62, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[61, 62, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[61, 62, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[61, 62, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[61, 62, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[61, 62, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[61, 62, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[61, 62, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[61, 62, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[61, 62, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[8, 10, 'time', '5天']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[20, 23, 'time', '5天前']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[23, 28, 'cause', '无明显诱因']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[40, 41, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[46, 47, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[53, 54, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[61, 62, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[64, 66, 'clinicalFeature', '发热']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[67, 68, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[70, 72, 'clinicalFeature', '气促']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[73, 74, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[79, 80, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[86, 87, 'negative', '无']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[97, 100, 'cure', '未就诊']",
+      "[62, 64, 'clinicalFeature', '畏寒']\t[103, 108, 'trend', '无明显改善']",
+      "[64, 66, 'clinicalFeature', '发热']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[64, 66, 'clinicalFeature', '发热']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[64, 66, 'clinicalFeature', '发热']\t[8, 10, 'time', '5天']",
+      "[64, 66, 'clinicalFeature', '发热']\t[20, 23, 'time', '5天前']",
+      "[64, 66, 'clinicalFeature', '发热']\t[23, 28, 'cause', '无明显诱因']",
+      "[64, 66, 'clinicalFeature', '发热']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[64, 66, 'clinicalFeature', '发热']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[64, 66, 'clinicalFeature', '发热']\t[40, 41, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[64, 66, 'clinicalFeature', '发热']\t[46, 47, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[64, 66, 'clinicalFeature', '发热']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[64, 66, 'clinicalFeature', '发热']\t[53, 54, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[64, 66, 'clinicalFeature', '发热']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[64, 66, 'clinicalFeature', '发热']\t[61, 62, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[64, 66, 'clinicalFeature', '发热']\t[67, 68, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[64, 66, 'clinicalFeature', '发热']\t[70, 72, 'clinicalFeature', '气促']",
+      "[64, 66, 'clinicalFeature', '发热']\t[73, 74, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[64, 66, 'clinicalFeature', '发热']\t[79, 80, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[64, 66, 'clinicalFeature', '发热']\t[86, 87, 'negative', '无']",
+      "[64, 66, 'clinicalFeature', '发热']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[64, 66, 'clinicalFeature', '发热']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[64, 66, 'clinicalFeature', '发热']\t[97, 100, 'cure', '未就诊']",
+      "[64, 66, 'clinicalFeature', '发热']\t[103, 108, 'trend', '无明显改善']",
+      "[67, 68, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[67, 68, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[67, 68, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[67, 68, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[67, 68, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[67, 68, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[67, 68, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[67, 68, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[67, 68, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[67, 68, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[67, 68, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[67, 68, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[67, 68, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[67, 68, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[67, 68, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[67, 68, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[67, 68, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[67, 68, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[67, 68, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[67, 68, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[67, 68, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[67, 68, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[67, 68, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[8, 10, 'time', '5天']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[20, 23, 'time', '5天前']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[23, 28, 'cause', '无明显诱因']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[40, 41, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[46, 47, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[53, 54, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[61, 62, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[64, 66, 'clinicalFeature', '发热']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[67, 68, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[70, 72, 'clinicalFeature', '气促']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[73, 74, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[79, 80, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[86, 87, 'negative', '无']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[97, 100, 'cure', '未就诊']",
+      "[68, 70, 'clinicalFeature', '胸闷']\t[103, 108, 'trend', '无明显改善']",
+      "[70, 72, 'clinicalFeature', '气促']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[70, 72, 'clinicalFeature', '气促']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[70, 72, 'clinicalFeature', '气促']\t[8, 10, 'time', '5天']",
+      "[70, 72, 'clinicalFeature', '气促']\t[20, 23, 'time', '5天前']",
+      "[70, 72, 'clinicalFeature', '气促']\t[23, 28, 'cause', '无明显诱因']",
+      "[70, 72, 'clinicalFeature', '气促']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[70, 72, 'clinicalFeature', '气促']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[70, 72, 'clinicalFeature', '气促']\t[40, 41, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[70, 72, 'clinicalFeature', '气促']\t[46, 47, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[70, 72, 'clinicalFeature', '气促']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[70, 72, 'clinicalFeature', '气促']\t[53, 54, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[70, 72, 'clinicalFeature', '气促']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[70, 72, 'clinicalFeature', '气促']\t[61, 62, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[70, 72, 'clinicalFeature', '气促']\t[64, 66, 'clinicalFeature', '发热']",
+      "[70, 72, 'clinicalFeature', '气促']\t[67, 68, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[70, 72, 'clinicalFeature', '气促']\t[73, 74, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[70, 72, 'clinicalFeature', '气促']\t[79, 80, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[70, 72, 'clinicalFeature', '气促']\t[86, 87, 'negative', '无']",
+      "[70, 72, 'clinicalFeature', '气促']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[70, 72, 'clinicalFeature', '气促']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[70, 72, 'clinicalFeature', '气促']\t[97, 100, 'cure', '未就诊']",
+      "[70, 72, 'clinicalFeature', '气促']\t[103, 108, 'trend', '无明显改善']",
+      "[73, 74, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[73, 74, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[73, 74, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[73, 74, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[73, 74, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[73, 74, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[73, 74, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[73, 74, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[73, 74, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[73, 74, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[73, 74, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[73, 74, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[73, 74, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[73, 74, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[73, 74, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[73, 74, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[73, 74, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[73, 74, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[73, 74, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[73, 74, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[73, 74, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[73, 74, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[73, 74, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[8, 10, 'time', '5天']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[20, 23, 'time', '5天前']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[23, 28, 'cause', '无明显诱因']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[40, 41, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[46, 47, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[53, 54, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[61, 62, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[64, 66, 'clinicalFeature', '发热']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[67, 68, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[70, 72, 'clinicalFeature', '气促']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[73, 74, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[79, 80, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[86, 87, 'negative', '无']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[97, 100, 'cure', '未就诊']",
+      "[74, 78, 'clinicalFeature', '四肢抽搐']\t[103, 108, 'trend', '无明显改善']",
+      "[79, 80, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[79, 80, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[79, 80, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[79, 80, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[79, 80, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[79, 80, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[79, 80, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[79, 80, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[79, 80, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[79, 80, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[79, 80, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[79, 80, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[79, 80, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[79, 80, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[79, 80, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[79, 80, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[79, 80, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[79, 80, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[79, 80, 'negative', '无']\t[86, 87, 'negative', '无']",
+      "[79, 80, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[79, 80, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[79, 80, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[79, 80, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[8, 10, 'time', '5天']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[20, 23, 'time', '5天前']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[23, 28, 'cause', '无明显诱因']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[40, 41, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[46, 47, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[53, 54, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[61, 62, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[64, 66, 'clinicalFeature', '发热']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[67, 68, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[70, 72, 'clinicalFeature', '气促']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[73, 74, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[79, 80, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[86, 87, 'negative', '无']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[97, 100, 'cure', '未就诊']",
+      "[80, 84, 'clinicalFeature', '肢体麻木']\t[103, 108, 'trend', '无明显改善']",
+      "[86, 87, 'negative', '无']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[86, 87, 'negative', '无']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[86, 87, 'negative', '无']\t[8, 10, 'time', '5天']",
+      "[86, 87, 'negative', '无']\t[20, 23, 'time', '5天前']",
+      "[86, 87, 'negative', '无']\t[23, 28, 'cause', '无明显诱因']",
+      "[86, 87, 'negative', '无']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[86, 87, 'negative', '无']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[86, 87, 'negative', '无']\t[40, 41, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[86, 87, 'negative', '无']\t[46, 47, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[86, 87, 'negative', '无']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[86, 87, 'negative', '无']\t[53, 54, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[86, 87, 'negative', '无']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[86, 87, 'negative', '无']\t[61, 62, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[86, 87, 'negative', '无']\t[64, 66, 'clinicalFeature', '发热']",
+      "[86, 87, 'negative', '无']\t[67, 68, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[86, 87, 'negative', '无']\t[70, 72, 'clinicalFeature', '气促']",
+      "[86, 87, 'negative', '无']\t[73, 74, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[86, 87, 'negative', '无']\t[79, 80, 'negative', '无']",
+      "[86, 87, 'negative', '无']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[86, 87, 'negative', '无']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[86, 87, 'negative', '无']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[86, 87, 'negative', '无']\t[97, 100, 'cure', '未就诊']",
+      "[86, 87, 'negative', '无']\t[103, 108, 'trend', '无明显改善']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[8, 10, 'time', '5天']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[20, 23, 'time', '5天前']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[23, 28, 'cause', '无明显诱因']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[40, 41, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[46, 47, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[53, 54, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[61, 62, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[64, 66, 'clinicalFeature', '发热']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[67, 68, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[70, 72, 'clinicalFeature', '气促']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[73, 74, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[79, 80, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[86, 87, 'negative', '无']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[97, 100, 'cure', '未就诊']",
+      "[87, 89, 'clinicalFeature', '黑朦']\t[103, 108, 'trend', '无明显改善']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[8, 10, 'time', '5天']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[20, 23, 'time', '5天前']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[23, 28, 'cause', '无明显诱因']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[40, 41, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[46, 47, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[53, 54, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[61, 62, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[64, 66, 'clinicalFeature', '发热']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[67, 68, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[70, 72, 'clinicalFeature', '气促']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[73, 74, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[79, 80, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[86, 87, 'negative', '无']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[97, 100, 'cure', '未就诊']",
+      "[89, 91, 'clinicalFeature', '晕厥']\t[103, 108, 'trend', '无明显改善']",
+      "[97, 100, 'cure', '未就诊']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[97, 100, 'cure', '未就诊']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[97, 100, 'cure', '未就诊']\t[8, 10, 'time', '5天']",
+      "[97, 100, 'cure', '未就诊']\t[20, 23, 'time', '5天前']",
+      "[97, 100, 'cure', '未就诊']\t[23, 28, 'cause', '无明显诱因']",
+      "[97, 100, 'cure', '未就诊']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[97, 100, 'cure', '未就诊']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[97, 100, 'cure', '未就诊']\t[40, 41, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[97, 100, 'cure', '未就诊']\t[46, 47, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[97, 100, 'cure', '未就诊']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[97, 100, 'cure', '未就诊']\t[53, 54, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[97, 100, 'cure', '未就诊']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[97, 100, 'cure', '未就诊']\t[61, 62, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[97, 100, 'cure', '未就诊']\t[64, 66, 'clinicalFeature', '发热']",
+      "[97, 100, 'cure', '未就诊']\t[67, 68, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[97, 100, 'cure', '未就诊']\t[70, 72, 'clinicalFeature', '气促']",
+      "[97, 100, 'cure', '未就诊']\t[73, 74, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[97, 100, 'cure', '未就诊']\t[79, 80, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[97, 100, 'cure', '未就诊']\t[86, 87, 'negative', '无']",
+      "[97, 100, 'cure', '未就诊']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[97, 100, 'cure', '未就诊']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[97, 100, 'cure', '未就诊']\t[103, 108, 'trend', '无明显改善']",
+      "[103, 108, 'trend', '无明显改善']\t[4, 6, 'clinicalFeature', '头晕']",
+      "[103, 108, 'trend', '无明显改善']\t[6, 8, 'clinicalFeature', '乏力']",
+      "[103, 108, 'trend', '无明显改善']\t[8, 10, 'time', '5天']",
+      "[103, 108, 'trend', '无明显改善']\t[20, 23, 'time', '5天前']",
+      "[103, 108, 'trend', '无明显改善']\t[23, 28, 'cause', '无明显诱因']",
+      "[103, 108, 'trend', '无明显改善']\t[30, 32, 'clinicalFeature', '头晕']",
+      "[103, 108, 'trend', '无明显改善']\t[34, 39, 'clinicalFeature', '双下肢乏力']",
+      "[103, 108, 'trend', '无明显改善']\t[40, 41, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[41, 45, 'clinicalFeature', '视物旋转']",
+      "[103, 108, 'trend', '无明显改善']\t[46, 47, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[47, 49, 'clinicalFeature', '耳鸣']",
+      "[103, 108, 'trend', '无明显改善']\t[51, 53, 'clinicalFeature', '恶心']",
+      "[103, 108, 'trend', '无明显改善']\t[53, 54, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[54, 56, 'clinicalFeature', '呕吐']",
+      "[103, 108, 'trend', '无明显改善']\t[58, 60, 'clinicalFeature', '反酸']",
+      "[103, 108, 'trend', '无明显改善']\t[61, 62, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[62, 64, 'clinicalFeature', '畏寒']",
+      "[103, 108, 'trend', '无明显改善']\t[64, 66, 'clinicalFeature', '发热']",
+      "[103, 108, 'trend', '无明显改善']\t[67, 68, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[68, 70, 'clinicalFeature', '胸闷']",
+      "[103, 108, 'trend', '无明显改善']\t[70, 72, 'clinicalFeature', '气促']",
+      "[103, 108, 'trend', '无明显改善']\t[73, 74, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[74, 78, 'clinicalFeature', '四肢抽搐']",
+      "[103, 108, 'trend', '无明显改善']\t[79, 80, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[80, 84, 'clinicalFeature', '肢体麻木']",
+      "[103, 108, 'trend', '无明显改善']\t[86, 87, 'negative', '无']",
+      "[103, 108, 'trend', '无明显改善']\t[87, 89, 'clinicalFeature', '黑朦']",
+      "[103, 108, 'trend', '无明显改善']\t[89, 91, 'clinicalFeature', '晕厥']",
+      "[103, 108, 'trend', '无明显改善']\t[97, 100, 'cure', '未就诊']"
+    ],
+    "relation_label": [
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无"
+    ],
+    "relation_idx": [
+      [
+        174,
+        175,
+        176,
+        177
+      ],
+      [
+        174,
+        175,
+        178,
+        179
+      ],
+      [
+        174,
+        175,
+        180,
+        181
+      ],
+      [
+        174,
+        175,
+        182,
+        183
+      ],
+      [
+        174,
+        175,
+        184,
+        185
+      ],
+      [
+        174,
+        175,
+        186,
+        187
+      ],
+      [
+        174,
+        175,
+        188,
+        189
+      ],
+      [
+        174,
+        175,
+        190,
+        191
+      ],
+      [
+        174,
+        175,
+        192,
+        193
+      ],
+      [
+        174,
+        175,
+        194,
+        195
+      ],
+      [
+        174,
+        175,
+        196,
+        197
+      ],
+      [
+        174,
+        175,
+        198,
+        199
+      ],
+      [
+        174,
+        175,
+        200,
+        201
+      ],
+      [
+        174,
+        175,
+        202,
+        203
+      ],
+      [
+        174,
+        175,
+        204,
+        205
+      ],
+      [
+        174,
+        175,
+        206,
+        207
+      ],
+      [
+        174,
+        175,
+        208,
+        209
+      ],
+      [
+        174,
+        175,
+        210,
+        211
+      ],
+      [
+        174,
+        175,
+        212,
+        213
+      ],
+      [
+        174,
+        175,
+        214,
+        215
+      ],
+      [
+        174,
+        175,
+        216,
+        217
+      ],
+      [
+        174,
+        175,
+        218,
+        219
+      ],
+      [
+        174,
+        175,
+        220,
+        221
+      ],
+      [
+        174,
+        175,
+        222,
+        223
+      ],
+      [
+        174,
+        175,
+        224,
+        225
+      ],
+      [
+        174,
+        175,
+        226,
+        227
+      ],
+      [
+        174,
+        175,
+        228,
+        229
+      ],
+      [
+        174,
+        175,
+        230,
+        231
+      ],
+      [
+        174,
+        175,
+        232,
+        233
+      ],
+      [
+        176,
+        177,
+        174,
+        175
+      ],
+      [
+        176,
+        177,
+        178,
+        179
+      ],
+      [
+        176,
+        177,
+        180,
+        181
+      ],
+      [
+        176,
+        177,
+        182,
+        183
+      ],
+      [
+        176,
+        177,
+        184,
+        185
+      ],
+      [
+        176,
+        177,
+        186,
+        187
+      ],
+      [
+        176,
+        177,
+        188,
+        189
+      ],
+      [
+        176,
+        177,
+        190,
+        191
+      ],
+      [
+        176,
+        177,
+        192,
+        193
+      ],
+      [
+        176,
+        177,
+        194,
+        195
+      ],
+      [
+        176,
+        177,
+        196,
+        197
+      ],
+      [
+        176,
+        177,
+        198,
+        199
+      ],
+      [
+        176,
+        177,
+        200,
+        201
+      ],
+      [
+        176,
+        177,
+        202,
+        203
+      ],
+      [
+        176,
+        177,
+        204,
+        205
+      ],
+      [
+        176,
+        177,
+        206,
+        207
+      ],
+      [
+        176,
+        177,
+        208,
+        209
+      ],
+      [
+        176,
+        177,
+        210,
+        211
+      ],
+      [
+        176,
+        177,
+        212,
+        213
+      ],
+      [
+        176,
+        177,
+        214,
+        215
+      ],
+      [
+        176,
+        177,
+        216,
+        217
+      ],
+      [
+        176,
+        177,
+        218,
+        219
+      ],
+      [
+        176,
+        177,
+        220,
+        221
+      ],
+      [
+        176,
+        177,
+        222,
+        223
+      ],
+      [
+        176,
+        177,
+        224,
+        225
+      ],
+      [
+        176,
+        177,
+        226,
+        227
+      ],
+      [
+        176,
+        177,
+        228,
+        229
+      ],
+      [
+        176,
+        177,
+        230,
+        231
+      ],
+      [
+        176,
+        177,
+        232,
+        233
+      ],
+      [
+        178,
+        179,
+        174,
+        175
+      ],
+      [
+        178,
+        179,
+        176,
+        177
+      ],
+      [
+        178,
+        179,
+        180,
+        181
+      ],
+      [
+        178,
+        179,
+        182,
+        183
+      ],
+      [
+        178,
+        179,
+        184,
+        185
+      ],
+      [
+        178,
+        179,
+        186,
+        187
+      ],
+      [
+        178,
+        179,
+        188,
+        189
+      ],
+      [
+        178,
+        179,
+        190,
+        191
+      ],
+      [
+        178,
+        179,
+        192,
+        193
+      ],
+      [
+        178,
+        179,
+        194,
+        195
+      ],
+      [
+        178,
+        179,
+        196,
+        197
+      ],
+      [
+        178,
+        179,
+        198,
+        199
+      ],
+      [
+        178,
+        179,
+        200,
+        201
+      ],
+      [
+        178,
+        179,
+        202,
+        203
+      ],
+      [
+        178,
+        179,
+        204,
+        205
+      ],
+      [
+        178,
+        179,
+        206,
+        207
+      ],
+      [
+        178,
+        179,
+        208,
+        209
+      ],
+      [
+        178,
+        179,
+        210,
+        211
+      ],
+      [
+        178,
+        179,
+        212,
+        213
+      ],
+      [
+        178,
+        179,
+        214,
+        215
+      ],
+      [
+        178,
+        179,
+        216,
+        217
+      ],
+      [
+        178,
+        179,
+        218,
+        219
+      ],
+      [
+        178,
+        179,
+        220,
+        221
+      ],
+      [
+        178,
+        179,
+        222,
+        223
+      ],
+      [
+        178,
+        179,
+        224,
+        225
+      ],
+      [
+        178,
+        179,
+        226,
+        227
+      ],
+      [
+        178,
+        179,
+        228,
+        229
+      ],
+      [
+        178,
+        179,
+        230,
+        231
+      ],
+      [
+        178,
+        179,
+        232,
+        233
+      ],
+      [
+        180,
+        181,
+        174,
+        175
+      ],
+      [
+        180,
+        181,
+        176,
+        177
+      ],
+      [
+        180,
+        181,
+        178,
+        179
+      ],
+      [
+        180,
+        181,
+        182,
+        183
+      ],
+      [
+        180,
+        181,
+        184,
+        185
+      ],
+      [
+        180,
+        181,
+        186,
+        187
+      ],
+      [
+        180,
+        181,
+        188,
+        189
+      ],
+      [
+        180,
+        181,
+        190,
+        191
+      ],
+      [
+        180,
+        181,
+        192,
+        193
+      ],
+      [
+        180,
+        181,
+        194,
+        195
+      ],
+      [
+        180,
+        181,
+        196,
+        197
+      ],
+      [
+        180,
+        181,
+        198,
+        199
+      ],
+      [
+        180,
+        181,
+        200,
+        201
+      ],
+      [
+        180,
+        181,
+        202,
+        203
+      ],
+      [
+        180,
+        181,
+        204,
+        205
+      ],
+      [
+        180,
+        181,
+        206,
+        207
+      ],
+      [
+        180,
+        181,
+        208,
+        209
+      ],
+      [
+        180,
+        181,
+        210,
+        211
+      ],
+      [
+        180,
+        181,
+        212,
+        213
+      ],
+      [
+        180,
+        181,
+        214,
+        215
+      ],
+      [
+        180,
+        181,
+        216,
+        217
+      ],
+      [
+        180,
+        181,
+        218,
+        219
+      ],
+      [
+        180,
+        181,
+        220,
+        221
+      ],
+      [
+        180,
+        181,
+        222,
+        223
+      ],
+      [
+        180,
+        181,
+        224,
+        225
+      ],
+      [
+        180,
+        181,
+        226,
+        227
+      ],
+      [
+        180,
+        181,
+        228,
+        229
+      ],
+      [
+        180,
+        181,
+        230,
+        231
+      ],
+      [
+        180,
+        181,
+        232,
+        233
+      ],
+      [
+        182,
+        183,
+        174,
+        175
+      ],
+      [
+        182,
+        183,
+        176,
+        177
+      ],
+      [
+        182,
+        183,
+        178,
+        179
+      ],
+      [
+        182,
+        183,
+        180,
+        181
+      ],
+      [
+        182,
+        183,
+        184,
+        185
+      ],
+      [
+        182,
+        183,
+        186,
+        187
+      ],
+      [
+        182,
+        183,
+        188,
+        189
+      ],
+      [
+        182,
+        183,
+        190,
+        191
+      ],
+      [
+        182,
+        183,
+        192,
+        193
+      ],
+      [
+        182,
+        183,
+        194,
+        195
+      ],
+      [
+        182,
+        183,
+        196,
+        197
+      ],
+      [
+        182,
+        183,
+        198,
+        199
+      ],
+      [
+        182,
+        183,
+        200,
+        201
+      ],
+      [
+        182,
+        183,
+        202,
+        203
+      ],
+      [
+        182,
+        183,
+        204,
+        205
+      ],
+      [
+        182,
+        183,
+        206,
+        207
+      ],
+      [
+        182,
+        183,
+        208,
+        209
+      ],
+      [
+        182,
+        183,
+        210,
+        211
+      ],
+      [
+        182,
+        183,
+        212,
+        213
+      ],
+      [
+        182,
+        183,
+        214,
+        215
+      ],
+      [
+        182,
+        183,
+        216,
+        217
+      ],
+      [
+        182,
+        183,
+        218,
+        219
+      ],
+      [
+        182,
+        183,
+        220,
+        221
+      ],
+      [
+        182,
+        183,
+        222,
+        223
+      ],
+      [
+        182,
+        183,
+        224,
+        225
+      ],
+      [
+        182,
+        183,
+        226,
+        227
+      ],
+      [
+        182,
+        183,
+        228,
+        229
+      ],
+      [
+        182,
+        183,
+        230,
+        231
+      ],
+      [
+        182,
+        183,
+        232,
+        233
+      ],
+      [
+        184,
+        185,
+        174,
+        175
+      ],
+      [
+        184,
+        185,
+        176,
+        177
+      ],
+      [
+        184,
+        185,
+        178,
+        179
+      ],
+      [
+        184,
+        185,
+        180,
+        181
+      ],
+      [
+        184,
+        185,
+        182,
+        183
+      ],
+      [
+        184,
+        185,
+        186,
+        187
+      ],
+      [
+        184,
+        185,
+        188,
+        189
+      ],
+      [
+        184,
+        185,
+        190,
+        191
+      ],
+      [
+        184,
+        185,
+        192,
+        193
+      ],
+      [
+        184,
+        185,
+        194,
+        195
+      ],
+      [
+        184,
+        185,
+        196,
+        197
+      ],
+      [
+        184,
+        185,
+        198,
+        199
+      ],
+      [
+        184,
+        185,
+        200,
+        201
+      ],
+      [
+        184,
+        185,
+        202,
+        203
+      ],
+      [
+        184,
+        185,
+        204,
+        205
+      ],
+      [
+        184,
+        185,
+        206,
+        207
+      ],
+      [
+        184,
+        185,
+        208,
+        209
+      ],
+      [
+        184,
+        185,
+        210,
+        211
+      ],
+      [
+        184,
+        185,
+        212,
+        213
+      ],
+      [
+        184,
+        185,
+        214,
+        215
+      ],
+      [
+        184,
+        185,
+        216,
+        217
+      ],
+      [
+        184,
+        185,
+        218,
+        219
+      ],
+      [
+        184,
+        185,
+        220,
+        221
+      ],
+      [
+        184,
+        185,
+        222,
+        223
+      ],
+      [
+        184,
+        185,
+        224,
+        225
+      ],
+      [
+        184,
+        185,
+        226,
+        227
+      ],
+      [
+        184,
+        185,
+        228,
+        229
+      ],
+      [
+        184,
+        185,
+        230,
+        231
+      ],
+      [
+        184,
+        185,
+        232,
+        233
+      ],
+      [
+        186,
+        187,
+        174,
+        175
+      ],
+      [
+        186,
+        187,
+        176,
+        177
+      ],
+      [
+        186,
+        187,
+        178,
+        179
+      ],
+      [
+        186,
+        187,
+        180,
+        181
+      ],
+      [
+        186,
+        187,
+        182,
+        183
+      ],
+      [
+        186,
+        187,
+        184,
+        185
+      ],
+      [
+        186,
+        187,
+        188,
+        189
+      ],
+      [
+        186,
+        187,
+        190,
+        191
+      ],
+      [
+        186,
+        187,
+        192,
+        193
+      ],
+      [
+        186,
+        187,
+        194,
+        195
+      ],
+      [
+        186,
+        187,
+        196,
+        197
+      ],
+      [
+        186,
+        187,
+        198,
+        199
+      ],
+      [
+        186,
+        187,
+        200,
+        201
+      ],
+      [
+        186,
+        187,
+        202,
+        203
+      ],
+      [
+        186,
+        187,
+        204,
+        205
+      ],
+      [
+        186,
+        187,
+        206,
+        207
+      ],
+      [
+        186,
+        187,
+        208,
+        209
+      ],
+      [
+        186,
+        187,
+        210,
+        211
+      ],
+      [
+        186,
+        187,
+        212,
+        213
+      ],
+      [
+        186,
+        187,
+        214,
+        215
+      ],
+      [
+        186,
+        187,
+        216,
+        217
+      ],
+      [
+        186,
+        187,
+        218,
+        219
+      ],
+      [
+        186,
+        187,
+        220,
+        221
+      ],
+      [
+        186,
+        187,
+        222,
+        223
+      ],
+      [
+        186,
+        187,
+        224,
+        225
+      ],
+      [
+        186,
+        187,
+        226,
+        227
+      ],
+      [
+        186,
+        187,
+        228,
+        229
+      ],
+      [
+        186,
+        187,
+        230,
+        231
+      ],
+      [
+        186,
+        187,
+        232,
+        233
+      ],
+      [
+        188,
+        189,
+        174,
+        175
+      ],
+      [
+        188,
+        189,
+        176,
+        177
+      ],
+      [
+        188,
+        189,
+        178,
+        179
+      ],
+      [
+        188,
+        189,
+        180,
+        181
+      ],
+      [
+        188,
+        189,
+        182,
+        183
+      ],
+      [
+        188,
+        189,
+        184,
+        185
+      ],
+      [
+        188,
+        189,
+        186,
+        187
+      ],
+      [
+        188,
+        189,
+        190,
+        191
+      ],
+      [
+        188,
+        189,
+        192,
+        193
+      ],
+      [
+        188,
+        189,
+        194,
+        195
+      ],
+      [
+        188,
+        189,
+        196,
+        197
+      ],
+      [
+        188,
+        189,
+        198,
+        199
+      ],
+      [
+        188,
+        189,
+        200,
+        201
+      ],
+      [
+        188,
+        189,
+        202,
+        203
+      ],
+      [
+        188,
+        189,
+        204,
+        205
+      ],
+      [
+        188,
+        189,
+        206,
+        207
+      ],
+      [
+        188,
+        189,
+        208,
+        209
+      ],
+      [
+        188,
+        189,
+        210,
+        211
+      ],
+      [
+        188,
+        189,
+        212,
+        213
+      ],
+      [
+        188,
+        189,
+        214,
+        215
+      ],
+      [
+        188,
+        189,
+        216,
+        217
+      ],
+      [
+        188,
+        189,
+        218,
+        219
+      ],
+      [
+        188,
+        189,
+        220,
+        221
+      ],
+      [
+        188,
+        189,
+        222,
+        223
+      ],
+      [
+        188,
+        189,
+        224,
+        225
+      ],
+      [
+        188,
+        189,
+        226,
+        227
+      ],
+      [
+        188,
+        189,
+        228,
+        229
+      ],
+      [
+        188,
+        189,
+        230,
+        231
+      ],
+      [
+        188,
+        189,
+        232,
+        233
+      ],
+      [
+        190,
+        191,
+        174,
+        175
+      ],
+      [
+        190,
+        191,
+        176,
+        177
+      ],
+      [
+        190,
+        191,
+        178,
+        179
+      ],
+      [
+        190,
+        191,
+        180,
+        181
+      ],
+      [
+        190,
+        191,
+        182,
+        183
+      ],
+      [
+        190,
+        191,
+        184,
+        185
+      ],
+      [
+        190,
+        191,
+        186,
+        187
+      ],
+      [
+        190,
+        191,
+        188,
+        189
+      ],
+      [
+        190,
+        191,
+        192,
+        193
+      ],
+      [
+        190,
+        191,
+        194,
+        195
+      ],
+      [
+        190,
+        191,
+        196,
+        197
+      ],
+      [
+        190,
+        191,
+        198,
+        199
+      ],
+      [
+        190,
+        191,
+        200,
+        201
+      ],
+      [
+        190,
+        191,
+        202,
+        203
+      ],
+      [
+        190,
+        191,
+        204,
+        205
+      ],
+      [
+        190,
+        191,
+        206,
+        207
+      ],
+      [
+        190,
+        191,
+        208,
+        209
+      ],
+      [
+        190,
+        191,
+        210,
+        211
+      ],
+      [
+        190,
+        191,
+        212,
+        213
+      ],
+      [
+        190,
+        191,
+        214,
+        215
+      ],
+      [
+        190,
+        191,
+        216,
+        217
+      ],
+      [
+        190,
+        191,
+        218,
+        219
+      ],
+      [
+        190,
+        191,
+        220,
+        221
+      ],
+      [
+        190,
+        191,
+        222,
+        223
+      ],
+      [
+        190,
+        191,
+        224,
+        225
+      ],
+      [
+        190,
+        191,
+        226,
+        227
+      ],
+      [
+        190,
+        191,
+        228,
+        229
+      ],
+      [
+        190,
+        191,
+        230,
+        231
+      ],
+      [
+        190,
+        191,
+        232,
+        233
+      ],
+      [
+        192,
+        193,
+        174,
+        175
+      ],
+      [
+        192,
+        193,
+        176,
+        177
+      ],
+      [
+        192,
+        193,
+        178,
+        179
+      ],
+      [
+        192,
+        193,
+        180,
+        181
+      ],
+      [
+        192,
+        193,
+        182,
+        183
+      ],
+      [
+        192,
+        193,
+        184,
+        185
+      ],
+      [
+        192,
+        193,
+        186,
+        187
+      ],
+      [
+        192,
+        193,
+        188,
+        189
+      ],
+      [
+        192,
+        193,
+        190,
+        191
+      ],
+      [
+        192,
+        193,
+        194,
+        195
+      ],
+      [
+        192,
+        193,
+        196,
+        197
+      ],
+      [
+        192,
+        193,
+        198,
+        199
+      ],
+      [
+        192,
+        193,
+        200,
+        201
+      ],
+      [
+        192,
+        193,
+        202,
+        203
+      ],
+      [
+        192,
+        193,
+        204,
+        205
+      ],
+      [
+        192,
+        193,
+        206,
+        207
+      ],
+      [
+        192,
+        193,
+        208,
+        209
+      ],
+      [
+        192,
+        193,
+        210,
+        211
+      ],
+      [
+        192,
+        193,
+        212,
+        213
+      ],
+      [
+        192,
+        193,
+        214,
+        215
+      ],
+      [
+        192,
+        193,
+        216,
+        217
+      ],
+      [
+        192,
+        193,
+        218,
+        219
+      ],
+      [
+        192,
+        193,
+        220,
+        221
+      ],
+      [
+        192,
+        193,
+        222,
+        223
+      ],
+      [
+        192,
+        193,
+        224,
+        225
+      ],
+      [
+        192,
+        193,
+        226,
+        227
+      ],
+      [
+        192,
+        193,
+        228,
+        229
+      ],
+      [
+        192,
+        193,
+        230,
+        231
+      ],
+      [
+        192,
+        193,
+        232,
+        233
+      ],
+      [
+        194,
+        195,
+        174,
+        175
+      ],
+      [
+        194,
+        195,
+        176,
+        177
+      ],
+      [
+        194,
+        195,
+        178,
+        179
+      ],
+      [
+        194,
+        195,
+        180,
+        181
+      ],
+      [
+        194,
+        195,
+        182,
+        183
+      ],
+      [
+        194,
+        195,
+        184,
+        185
+      ],
+      [
+        194,
+        195,
+        186,
+        187
+      ],
+      [
+        194,
+        195,
+        188,
+        189
+      ],
+      [
+        194,
+        195,
+        190,
+        191
+      ],
+      [
+        194,
+        195,
+        192,
+        193
+      ],
+      [
+        194,
+        195,
+        196,
+        197
+      ],
+      [
+        194,
+        195,
+        198,
+        199
+      ],
+      [
+        194,
+        195,
+        200,
+        201
+      ],
+      [
+        194,
+        195,
+        202,
+        203
+      ],
+      [
+        194,
+        195,
+        204,
+        205
+      ],
+      [
+        194,
+        195,
+        206,
+        207
+      ],
+      [
+        194,
+        195,
+        208,
+        209
+      ],
+      [
+        194,
+        195,
+        210,
+        211
+      ],
+      [
+        194,
+        195,
+        212,
+        213
+      ],
+      [
+        194,
+        195,
+        214,
+        215
+      ],
+      [
+        194,
+        195,
+        216,
+        217
+      ],
+      [
+        194,
+        195,
+        218,
+        219
+      ],
+      [
+        194,
+        195,
+        220,
+        221
+      ],
+      [
+        194,
+        195,
+        222,
+        223
+      ],
+      [
+        194,
+        195,
+        224,
+        225
+      ],
+      [
+        194,
+        195,
+        226,
+        227
+      ],
+      [
+        194,
+        195,
+        228,
+        229
+      ],
+      [
+        194,
+        195,
+        230,
+        231
+      ],
+      [
+        194,
+        195,
+        232,
+        233
+      ],
+      [
+        196,
+        197,
+        174,
+        175
+      ],
+      [
+        196,
+        197,
+        176,
+        177
+      ],
+      [
+        196,
+        197,
+        178,
+        179
+      ],
+      [
+        196,
+        197,
+        180,
+        181
+      ],
+      [
+        196,
+        197,
+        182,
+        183
+      ],
+      [
+        196,
+        197,
+        184,
+        185
+      ],
+      [
+        196,
+        197,
+        186,
+        187
+      ],
+      [
+        196,
+        197,
+        188,
+        189
+      ],
+      [
+        196,
+        197,
+        190,
+        191
+      ],
+      [
+        196,
+        197,
+        192,
+        193
+      ],
+      [
+        196,
+        197,
+        194,
+        195
+      ],
+      [
+        196,
+        197,
+        198,
+        199
+      ],
+      [
+        196,
+        197,
+        200,
+        201
+      ],
+      [
+        196,
+        197,
+        202,
+        203
+      ],
+      [
+        196,
+        197,
+        204,
+        205
+      ],
+      [
+        196,
+        197,
+        206,
+        207
+      ],
+      [
+        196,
+        197,
+        208,
+        209
+      ],
+      [
+        196,
+        197,
+        210,
+        211
+      ],
+      [
+        196,
+        197,
+        212,
+        213
+      ],
+      [
+        196,
+        197,
+        214,
+        215
+      ],
+      [
+        196,
+        197,
+        216,
+        217
+      ],
+      [
+        196,
+        197,
+        218,
+        219
+      ],
+      [
+        196,
+        197,
+        220,
+        221
+      ],
+      [
+        196,
+        197,
+        222,
+        223
+      ],
+      [
+        196,
+        197,
+        224,
+        225
+      ],
+      [
+        196,
+        197,
+        226,
+        227
+      ],
+      [
+        196,
+        197,
+        228,
+        229
+      ],
+      [
+        196,
+        197,
+        230,
+        231
+      ],
+      [
+        196,
+        197,
+        232,
+        233
+      ],
+      [
+        198,
+        199,
+        174,
+        175
+      ],
+      [
+        198,
+        199,
+        176,
+        177
+      ],
+      [
+        198,
+        199,
+        178,
+        179
+      ],
+      [
+        198,
+        199,
+        180,
+        181
+      ],
+      [
+        198,
+        199,
+        182,
+        183
+      ],
+      [
+        198,
+        199,
+        184,
+        185
+      ],
+      [
+        198,
+        199,
+        186,
+        187
+      ],
+      [
+        198,
+        199,
+        188,
+        189
+      ],
+      [
+        198,
+        199,
+        190,
+        191
+      ],
+      [
+        198,
+        199,
+        192,
+        193
+      ],
+      [
+        198,
+        199,
+        194,
+        195
+      ],
+      [
+        198,
+        199,
+        196,
+        197
+      ],
+      [
+        198,
+        199,
+        200,
+        201
+      ],
+      [
+        198,
+        199,
+        202,
+        203
+      ],
+      [
+        198,
+        199,
+        204,
+        205
+      ],
+      [
+        198,
+        199,
+        206,
+        207
+      ],
+      [
+        198,
+        199,
+        208,
+        209
+      ],
+      [
+        198,
+        199,
+        210,
+        211
+      ],
+      [
+        198,
+        199,
+        212,
+        213
+      ],
+      [
+        198,
+        199,
+        214,
+        215
+      ],
+      [
+        198,
+        199,
+        216,
+        217
+      ],
+      [
+        198,
+        199,
+        218,
+        219
+      ],
+      [
+        198,
+        199,
+        220,
+        221
+      ],
+      [
+        198,
+        199,
+        222,
+        223
+      ],
+      [
+        198,
+        199,
+        224,
+        225
+      ],
+      [
+        198,
+        199,
+        226,
+        227
+      ],
+      [
+        198,
+        199,
+        228,
+        229
+      ],
+      [
+        198,
+        199,
+        230,
+        231
+      ],
+      [
+        198,
+        199,
+        232,
+        233
+      ],
+      [
+        200,
+        201,
+        174,
+        175
+      ],
+      [
+        200,
+        201,
+        176,
+        177
+      ],
+      [
+        200,
+        201,
+        178,
+        179
+      ],
+      [
+        200,
+        201,
+        180,
+        181
+      ],
+      [
+        200,
+        201,
+        182,
+        183
+      ],
+      [
+        200,
+        201,
+        184,
+        185
+      ],
+      [
+        200,
+        201,
+        186,
+        187
+      ],
+      [
+        200,
+        201,
+        188,
+        189
+      ],
+      [
+        200,
+        201,
+        190,
+        191
+      ],
+      [
+        200,
+        201,
+        192,
+        193
+      ],
+      [
+        200,
+        201,
+        194,
+        195
+      ],
+      [
+        200,
+        201,
+        196,
+        197
+      ],
+      [
+        200,
+        201,
+        198,
+        199
+      ],
+      [
+        200,
+        201,
+        202,
+        203
+      ],
+      [
+        200,
+        201,
+        204,
+        205
+      ],
+      [
+        200,
+        201,
+        206,
+        207
+      ],
+      [
+        200,
+        201,
+        208,
+        209
+      ],
+      [
+        200,
+        201,
+        210,
+        211
+      ],
+      [
+        200,
+        201,
+        212,
+        213
+      ],
+      [
+        200,
+        201,
+        214,
+        215
+      ],
+      [
+        200,
+        201,
+        216,
+        217
+      ],
+      [
+        200,
+        201,
+        218,
+        219
+      ],
+      [
+        200,
+        201,
+        220,
+        221
+      ],
+      [
+        200,
+        201,
+        222,
+        223
+      ],
+      [
+        200,
+        201,
+        224,
+        225
+      ],
+      [
+        200,
+        201,
+        226,
+        227
+      ],
+      [
+        200,
+        201,
+        228,
+        229
+      ],
+      [
+        200,
+        201,
+        230,
+        231
+      ],
+      [
+        200,
+        201,
+        232,
+        233
+      ],
+      [
+        202,
+        203,
+        174,
+        175
+      ],
+      [
+        202,
+        203,
+        176,
+        177
+      ],
+      [
+        202,
+        203,
+        178,
+        179
+      ],
+      [
+        202,
+        203,
+        180,
+        181
+      ],
+      [
+        202,
+        203,
+        182,
+        183
+      ],
+      [
+        202,
+        203,
+        184,
+        185
+      ],
+      [
+        202,
+        203,
+        186,
+        187
+      ],
+      [
+        202,
+        203,
+        188,
+        189
+      ],
+      [
+        202,
+        203,
+        190,
+        191
+      ],
+      [
+        202,
+        203,
+        192,
+        193
+      ],
+      [
+        202,
+        203,
+        194,
+        195
+      ],
+      [
+        202,
+        203,
+        196,
+        197
+      ],
+      [
+        202,
+        203,
+        198,
+        199
+      ],
+      [
+        202,
+        203,
+        200,
+        201
+      ],
+      [
+        202,
+        203,
+        204,
+        205
+      ],
+      [
+        202,
+        203,
+        206,
+        207
+      ],
+      [
+        202,
+        203,
+        208,
+        209
+      ],
+      [
+        202,
+        203,
+        210,
+        211
+      ],
+      [
+        202,
+        203,
+        212,
+        213
+      ],
+      [
+        202,
+        203,
+        214,
+        215
+      ],
+      [
+        202,
+        203,
+        216,
+        217
+      ],
+      [
+        202,
+        203,
+        218,
+        219
+      ],
+      [
+        202,
+        203,
+        220,
+        221
+      ],
+      [
+        202,
+        203,
+        222,
+        223
+      ],
+      [
+        202,
+        203,
+        224,
+        225
+      ],
+      [
+        202,
+        203,
+        226,
+        227
+      ],
+      [
+        202,
+        203,
+        228,
+        229
+      ],
+      [
+        202,
+        203,
+        230,
+        231
+      ],
+      [
+        202,
+        203,
+        232,
+        233
+      ],
+      [
+        204,
+        205,
+        174,
+        175
+      ],
+      [
+        204,
+        205,
+        176,
+        177
+      ],
+      [
+        204,
+        205,
+        178,
+        179
+      ],
+      [
+        204,
+        205,
+        180,
+        181
+      ],
+      [
+        204,
+        205,
+        182,
+        183
+      ],
+      [
+        204,
+        205,
+        184,
+        185
+      ],
+      [
+        204,
+        205,
+        186,
+        187
+      ],
+      [
+        204,
+        205,
+        188,
+        189
+      ],
+      [
+        204,
+        205,
+        190,
+        191
+      ],
+      [
+        204,
+        205,
+        192,
+        193
+      ],
+      [
+        204,
+        205,
+        194,
+        195
+      ],
+      [
+        204,
+        205,
+        196,
+        197
+      ],
+      [
+        204,
+        205,
+        198,
+        199
+      ],
+      [
+        204,
+        205,
+        200,
+        201
+      ],
+      [
+        204,
+        205,
+        202,
+        203
+      ],
+      [
+        204,
+        205,
+        206,
+        207
+      ],
+      [
+        204,
+        205,
+        208,
+        209
+      ],
+      [
+        204,
+        205,
+        210,
+        211
+      ],
+      [
+        204,
+        205,
+        212,
+        213
+      ],
+      [
+        204,
+        205,
+        214,
+        215
+      ],
+      [
+        204,
+        205,
+        216,
+        217
+      ],
+      [
+        204,
+        205,
+        218,
+        219
+      ],
+      [
+        204,
+        205,
+        220,
+        221
+      ],
+      [
+        204,
+        205,
+        222,
+        223
+      ],
+      [
+        204,
+        205,
+        224,
+        225
+      ],
+      [
+        204,
+        205,
+        226,
+        227
+      ],
+      [
+        204,
+        205,
+        228,
+        229
+      ],
+      [
+        204,
+        205,
+        230,
+        231
+      ],
+      [
+        204,
+        205,
+        232,
+        233
+      ],
+      [
+        206,
+        207,
+        174,
+        175
+      ],
+      [
+        206,
+        207,
+        176,
+        177
+      ],
+      [
+        206,
+        207,
+        178,
+        179
+      ],
+      [
+        206,
+        207,
+        180,
+        181
+      ],
+      [
+        206,
+        207,
+        182,
+        183
+      ],
+      [
+        206,
+        207,
+        184,
+        185
+      ],
+      [
+        206,
+        207,
+        186,
+        187
+      ],
+      [
+        206,
+        207,
+        188,
+        189
+      ],
+      [
+        206,
+        207,
+        190,
+        191
+      ],
+      [
+        206,
+        207,
+        192,
+        193
+      ],
+      [
+        206,
+        207,
+        194,
+        195
+      ],
+      [
+        206,
+        207,
+        196,
+        197
+      ],
+      [
+        206,
+        207,
+        198,
+        199
+      ],
+      [
+        206,
+        207,
+        200,
+        201
+      ],
+      [
+        206,
+        207,
+        202,
+        203
+      ],
+      [
+        206,
+        207,
+        204,
+        205
+      ],
+      [
+        206,
+        207,
+        208,
+        209
+      ],
+      [
+        206,
+        207,
+        210,
+        211
+      ],
+      [
+        206,
+        207,
+        212,
+        213
+      ],
+      [
+        206,
+        207,
+        214,
+        215
+      ],
+      [
+        206,
+        207,
+        216,
+        217
+      ],
+      [
+        206,
+        207,
+        218,
+        219
+      ],
+      [
+        206,
+        207,
+        220,
+        221
+      ],
+      [
+        206,
+        207,
+        222,
+        223
+      ],
+      [
+        206,
+        207,
+        224,
+        225
+      ],
+      [
+        206,
+        207,
+        226,
+        227
+      ],
+      [
+        206,
+        207,
+        228,
+        229
+      ],
+      [
+        206,
+        207,
+        230,
+        231
+      ],
+      [
+        206,
+        207,
+        232,
+        233
+      ],
+      [
+        208,
+        209,
+        174,
+        175
+      ],
+      [
+        208,
+        209,
+        176,
+        177
+      ],
+      [
+        208,
+        209,
+        178,
+        179
+      ],
+      [
+        208,
+        209,
+        180,
+        181
+      ],
+      [
+        208,
+        209,
+        182,
+        183
+      ],
+      [
+        208,
+        209,
+        184,
+        185
+      ],
+      [
+        208,
+        209,
+        186,
+        187
+      ],
+      [
+        208,
+        209,
+        188,
+        189
+      ],
+      [
+        208,
+        209,
+        190,
+        191
+      ],
+      [
+        208,
+        209,
+        192,
+        193
+      ],
+      [
+        208,
+        209,
+        194,
+        195
+      ],
+      [
+        208,
+        209,
+        196,
+        197
+      ],
+      [
+        208,
+        209,
+        198,
+        199
+      ],
+      [
+        208,
+        209,
+        200,
+        201
+      ],
+      [
+        208,
+        209,
+        202,
+        203
+      ],
+      [
+        208,
+        209,
+        204,
+        205
+      ],
+      [
+        208,
+        209,
+        206,
+        207
+      ],
+      [
+        208,
+        209,
+        210,
+        211
+      ],
+      [
+        208,
+        209,
+        212,
+        213
+      ],
+      [
+        208,
+        209,
+        214,
+        215
+      ],
+      [
+        208,
+        209,
+        216,
+        217
+      ],
+      [
+        208,
+        209,
+        218,
+        219
+      ],
+      [
+        208,
+        209,
+        220,
+        221
+      ],
+      [
+        208,
+        209,
+        222,
+        223
+      ],
+      [
+        208,
+        209,
+        224,
+        225
+      ],
+      [
+        208,
+        209,
+        226,
+        227
+      ],
+      [
+        208,
+        209,
+        228,
+        229
+      ],
+      [
+        208,
+        209,
+        230,
+        231
+      ],
+      [
+        208,
+        209,
+        232,
+        233
+      ],
+      [
+        210,
+        211,
+        174,
+        175
+      ],
+      [
+        210,
+        211,
+        176,
+        177
+      ],
+      [
+        210,
+        211,
+        178,
+        179
+      ],
+      [
+        210,
+        211,
+        180,
+        181
+      ],
+      [
+        210,
+        211,
+        182,
+        183
+      ],
+      [
+        210,
+        211,
+        184,
+        185
+      ],
+      [
+        210,
+        211,
+        186,
+        187
+      ],
+      [
+        210,
+        211,
+        188,
+        189
+      ],
+      [
+        210,
+        211,
+        190,
+        191
+      ],
+      [
+        210,
+        211,
+        192,
+        193
+      ],
+      [
+        210,
+        211,
+        194,
+        195
+      ],
+      [
+        210,
+        211,
+        196,
+        197
+      ],
+      [
+        210,
+        211,
+        198,
+        199
+      ],
+      [
+        210,
+        211,
+        200,
+        201
+      ],
+      [
+        210,
+        211,
+        202,
+        203
+      ],
+      [
+        210,
+        211,
+        204,
+        205
+      ],
+      [
+        210,
+        211,
+        206,
+        207
+      ],
+      [
+        210,
+        211,
+        208,
+        209
+      ],
+      [
+        210,
+        211,
+        212,
+        213
+      ],
+      [
+        210,
+        211,
+        214,
+        215
+      ],
+      [
+        210,
+        211,
+        216,
+        217
+      ],
+      [
+        210,
+        211,
+        218,
+        219
+      ],
+      [
+        210,
+        211,
+        220,
+        221
+      ],
+      [
+        210,
+        211,
+        222,
+        223
+      ],
+      [
+        210,
+        211,
+        224,
+        225
+      ],
+      [
+        210,
+        211,
+        226,
+        227
+      ],
+      [
+        210,
+        211,
+        228,
+        229
+      ],
+      [
+        210,
+        211,
+        230,
+        231
+      ],
+      [
+        210,
+        211,
+        232,
+        233
+      ],
+      [
+        212,
+        213,
+        174,
+        175
+      ],
+      [
+        212,
+        213,
+        176,
+        177
+      ],
+      [
+        212,
+        213,
+        178,
+        179
+      ],
+      [
+        212,
+        213,
+        180,
+        181
+      ],
+      [
+        212,
+        213,
+        182,
+        183
+      ],
+      [
+        212,
+        213,
+        184,
+        185
+      ],
+      [
+        212,
+        213,
+        186,
+        187
+      ],
+      [
+        212,
+        213,
+        188,
+        189
+      ],
+      [
+        212,
+        213,
+        190,
+        191
+      ],
+      [
+        212,
+        213,
+        192,
+        193
+      ],
+      [
+        212,
+        213,
+        194,
+        195
+      ],
+      [
+        212,
+        213,
+        196,
+        197
+      ],
+      [
+        212,
+        213,
+        198,
+        199
+      ],
+      [
+        212,
+        213,
+        200,
+        201
+      ],
+      [
+        212,
+        213,
+        202,
+        203
+      ],
+      [
+        212,
+        213,
+        204,
+        205
+      ],
+      [
+        212,
+        213,
+        206,
+        207
+      ],
+      [
+        212,
+        213,
+        208,
+        209
+      ],
+      [
+        212,
+        213,
+        210,
+        211
+      ],
+      [
+        212,
+        213,
+        214,
+        215
+      ],
+      [
+        212,
+        213,
+        216,
+        217
+      ],
+      [
+        212,
+        213,
+        218,
+        219
+      ],
+      [
+        212,
+        213,
+        220,
+        221
+      ],
+      [
+        212,
+        213,
+        222,
+        223
+      ],
+      [
+        212,
+        213,
+        224,
+        225
+      ],
+      [
+        212,
+        213,
+        226,
+        227
+      ],
+      [
+        212,
+        213,
+        228,
+        229
+      ],
+      [
+        212,
+        213,
+        230,
+        231
+      ],
+      [
+        212,
+        213,
+        232,
+        233
+      ],
+      [
+        214,
+        215,
+        174,
+        175
+      ],
+      [
+        214,
+        215,
+        176,
+        177
+      ],
+      [
+        214,
+        215,
+        178,
+        179
+      ],
+      [
+        214,
+        215,
+        180,
+        181
+      ],
+      [
+        214,
+        215,
+        182,
+        183
+      ],
+      [
+        214,
+        215,
+        184,
+        185
+      ],
+      [
+        214,
+        215,
+        186,
+        187
+      ],
+      [
+        214,
+        215,
+        188,
+        189
+      ],
+      [
+        214,
+        215,
+        190,
+        191
+      ],
+      [
+        214,
+        215,
+        192,
+        193
+      ],
+      [
+        214,
+        215,
+        194,
+        195
+      ],
+      [
+        214,
+        215,
+        196,
+        197
+      ],
+      [
+        214,
+        215,
+        198,
+        199
+      ],
+      [
+        214,
+        215,
+        200,
+        201
+      ],
+      [
+        214,
+        215,
+        202,
+        203
+      ],
+      [
+        214,
+        215,
+        204,
+        205
+      ],
+      [
+        214,
+        215,
+        206,
+        207
+      ],
+      [
+        214,
+        215,
+        208,
+        209
+      ],
+      [
+        214,
+        215,
+        210,
+        211
+      ],
+      [
+        214,
+        215,
+        212,
+        213
+      ],
+      [
+        214,
+        215,
+        216,
+        217
+      ],
+      [
+        214,
+        215,
+        218,
+        219
+      ],
+      [
+        214,
+        215,
+        220,
+        221
+      ],
+      [
+        214,
+        215,
+        222,
+        223
+      ],
+      [
+        214,
+        215,
+        224,
+        225
+      ],
+      [
+        214,
+        215,
+        226,
+        227
+      ],
+      [
+        214,
+        215,
+        228,
+        229
+      ],
+      [
+        214,
+        215,
+        230,
+        231
+      ],
+      [
+        214,
+        215,
+        232,
+        233
+      ],
+      [
+        216,
+        217,
+        174,
+        175
+      ],
+      [
+        216,
+        217,
+        176,
+        177
+      ],
+      [
+        216,
+        217,
+        178,
+        179
+      ],
+      [
+        216,
+        217,
+        180,
+        181
+      ],
+      [
+        216,
+        217,
+        182,
+        183
+      ],
+      [
+        216,
+        217,
+        184,
+        185
+      ],
+      [
+        216,
+        217,
+        186,
+        187
+      ],
+      [
+        216,
+        217,
+        188,
+        189
+      ],
+      [
+        216,
+        217,
+        190,
+        191
+      ],
+      [
+        216,
+        217,
+        192,
+        193
+      ],
+      [
+        216,
+        217,
+        194,
+        195
+      ],
+      [
+        216,
+        217,
+        196,
+        197
+      ],
+      [
+        216,
+        217,
+        198,
+        199
+      ],
+      [
+        216,
+        217,
+        200,
+        201
+      ],
+      [
+        216,
+        217,
+        202,
+        203
+      ],
+      [
+        216,
+        217,
+        204,
+        205
+      ],
+      [
+        216,
+        217,
+        206,
+        207
+      ],
+      [
+        216,
+        217,
+        208,
+        209
+      ],
+      [
+        216,
+        217,
+        210,
+        211
+      ],
+      [
+        216,
+        217,
+        212,
+        213
+      ],
+      [
+        216,
+        217,
+        214,
+        215
+      ],
+      [
+        216,
+        217,
+        218,
+        219
+      ],
+      [
+        216,
+        217,
+        220,
+        221
+      ],
+      [
+        216,
+        217,
+        222,
+        223
+      ],
+      [
+        216,
+        217,
+        224,
+        225
+      ],
+      [
+        216,
+        217,
+        226,
+        227
+      ],
+      [
+        216,
+        217,
+        228,
+        229
+      ],
+      [
+        216,
+        217,
+        230,
+        231
+      ],
+      [
+        216,
+        217,
+        232,
+        233
+      ],
+      [
+        218,
+        219,
+        174,
+        175
+      ],
+      [
+        218,
+        219,
+        176,
+        177
+      ],
+      [
+        218,
+        219,
+        178,
+        179
+      ],
+      [
+        218,
+        219,
+        180,
+        181
+      ],
+      [
+        218,
+        219,
+        182,
+        183
+      ],
+      [
+        218,
+        219,
+        184,
+        185
+      ],
+      [
+        218,
+        219,
+        186,
+        187
+      ],
+      [
+        218,
+        219,
+        188,
+        189
+      ],
+      [
+        218,
+        219,
+        190,
+        191
+      ],
+      [
+        218,
+        219,
+        192,
+        193
+      ],
+      [
+        218,
+        219,
+        194,
+        195
+      ],
+      [
+        218,
+        219,
+        196,
+        197
+      ],
+      [
+        218,
+        219,
+        198,
+        199
+      ],
+      [
+        218,
+        219,
+        200,
+        201
+      ],
+      [
+        218,
+        219,
+        202,
+        203
+      ],
+      [
+        218,
+        219,
+        204,
+        205
+      ],
+      [
+        218,
+        219,
+        206,
+        207
+      ],
+      [
+        218,
+        219,
+        208,
+        209
+      ],
+      [
+        218,
+        219,
+        210,
+        211
+      ],
+      [
+        218,
+        219,
+        212,
+        213
+      ],
+      [
+        218,
+        219,
+        214,
+        215
+      ],
+      [
+        218,
+        219,
+        216,
+        217
+      ],
+      [
+        218,
+        219,
+        220,
+        221
+      ],
+      [
+        218,
+        219,
+        222,
+        223
+      ],
+      [
+        218,
+        219,
+        224,
+        225
+      ],
+      [
+        218,
+        219,
+        226,
+        227
+      ],
+      [
+        218,
+        219,
+        228,
+        229
+      ],
+      [
+        218,
+        219,
+        230,
+        231
+      ],
+      [
+        218,
+        219,
+        232,
+        233
+      ],
+      [
+        220,
+        221,
+        174,
+        175
+      ],
+      [
+        220,
+        221,
+        176,
+        177
+      ],
+      [
+        220,
+        221,
+        178,
+        179
+      ],
+      [
+        220,
+        221,
+        180,
+        181
+      ],
+      [
+        220,
+        221,
+        182,
+        183
+      ],
+      [
+        220,
+        221,
+        184,
+        185
+      ],
+      [
+        220,
+        221,
+        186,
+        187
+      ],
+      [
+        220,
+        221,
+        188,
+        189
+      ],
+      [
+        220,
+        221,
+        190,
+        191
+      ],
+      [
+        220,
+        221,
+        192,
+        193
+      ],
+      [
+        220,
+        221,
+        194,
+        195
+      ],
+      [
+        220,
+        221,
+        196,
+        197
+      ],
+      [
+        220,
+        221,
+        198,
+        199
+      ],
+      [
+        220,
+        221,
+        200,
+        201
+      ],
+      [
+        220,
+        221,
+        202,
+        203
+      ],
+      [
+        220,
+        221,
+        204,
+        205
+      ],
+      [
+        220,
+        221,
+        206,
+        207
+      ],
+      [
+        220,
+        221,
+        208,
+        209
+      ],
+      [
+        220,
+        221,
+        210,
+        211
+      ],
+      [
+        220,
+        221,
+        212,
+        213
+      ],
+      [
+        220,
+        221,
+        214,
+        215
+      ],
+      [
+        220,
+        221,
+        216,
+        217
+      ],
+      [
+        220,
+        221,
+        218,
+        219
+      ],
+      [
+        220,
+        221,
+        222,
+        223
+      ],
+      [
+        220,
+        221,
+        224,
+        225
+      ],
+      [
+        220,
+        221,
+        226,
+        227
+      ],
+      [
+        220,
+        221,
+        228,
+        229
+      ],
+      [
+        220,
+        221,
+        230,
+        231
+      ],
+      [
+        220,
+        221,
+        232,
+        233
+      ],
+      [
+        222,
+        223,
+        174,
+        175
+      ],
+      [
+        222,
+        223,
+        176,
+        177
+      ],
+      [
+        222,
+        223,
+        178,
+        179
+      ],
+      [
+        222,
+        223,
+        180,
+        181
+      ],
+      [
+        222,
+        223,
+        182,
+        183
+      ],
+      [
+        222,
+        223,
+        184,
+        185
+      ],
+      [
+        222,
+        223,
+        186,
+        187
+      ],
+      [
+        222,
+        223,
+        188,
+        189
+      ],
+      [
+        222,
+        223,
+        190,
+        191
+      ],
+      [
+        222,
+        223,
+        192,
+        193
+      ],
+      [
+        222,
+        223,
+        194,
+        195
+      ],
+      [
+        222,
+        223,
+        196,
+        197
+      ],
+      [
+        222,
+        223,
+        198,
+        199
+      ],
+      [
+        222,
+        223,
+        200,
+        201
+      ],
+      [
+        222,
+        223,
+        202,
+        203
+      ],
+      [
+        222,
+        223,
+        204,
+        205
+      ],
+      [
+        222,
+        223,
+        206,
+        207
+      ],
+      [
+        222,
+        223,
+        208,
+        209
+      ],
+      [
+        222,
+        223,
+        210,
+        211
+      ],
+      [
+        222,
+        223,
+        212,
+        213
+      ],
+      [
+        222,
+        223,
+        214,
+        215
+      ],
+      [
+        222,
+        223,
+        216,
+        217
+      ],
+      [
+        222,
+        223,
+        218,
+        219
+      ],
+      [
+        222,
+        223,
+        220,
+        221
+      ],
+      [
+        222,
+        223,
+        224,
+        225
+      ],
+      [
+        222,
+        223,
+        226,
+        227
+      ],
+      [
+        222,
+        223,
+        228,
+        229
+      ],
+      [
+        222,
+        223,
+        230,
+        231
+      ],
+      [
+        222,
+        223,
+        232,
+        233
+      ],
+      [
+        224,
+        225,
+        174,
+        175
+      ],
+      [
+        224,
+        225,
+        176,
+        177
+      ],
+      [
+        224,
+        225,
+        178,
+        179
+      ],
+      [
+        224,
+        225,
+        180,
+        181
+      ],
+      [
+        224,
+        225,
+        182,
+        183
+      ],
+      [
+        224,
+        225,
+        184,
+        185
+      ],
+      [
+        224,
+        225,
+        186,
+        187
+      ],
+      [
+        224,
+        225,
+        188,
+        189
+      ],
+      [
+        224,
+        225,
+        190,
+        191
+      ],
+      [
+        224,
+        225,
+        192,
+        193
+      ],
+      [
+        224,
+        225,
+        194,
+        195
+      ],
+      [
+        224,
+        225,
+        196,
+        197
+      ],
+      [
+        224,
+        225,
+        198,
+        199
+      ],
+      [
+        224,
+        225,
+        200,
+        201
+      ],
+      [
+        224,
+        225,
+        202,
+        203
+      ],
+      [
+        224,
+        225,
+        204,
+        205
+      ],
+      [
+        224,
+        225,
+        206,
+        207
+      ],
+      [
+        224,
+        225,
+        208,
+        209
+      ],
+      [
+        224,
+        225,
+        210,
+        211
+      ],
+      [
+        224,
+        225,
+        212,
+        213
+      ],
+      [
+        224,
+        225,
+        214,
+        215
+      ],
+      [
+        224,
+        225,
+        216,
+        217
+      ],
+      [
+        224,
+        225,
+        218,
+        219
+      ],
+      [
+        224,
+        225,
+        220,
+        221
+      ],
+      [
+        224,
+        225,
+        222,
+        223
+      ],
+      [
+        224,
+        225,
+        226,
+        227
+      ],
+      [
+        224,
+        225,
+        228,
+        229
+      ],
+      [
+        224,
+        225,
+        230,
+        231
+      ],
+      [
+        224,
+        225,
+        232,
+        233
+      ],
+      [
+        226,
+        227,
+        174,
+        175
+      ],
+      [
+        226,
+        227,
+        176,
+        177
+      ],
+      [
+        226,
+        227,
+        178,
+        179
+      ],
+      [
+        226,
+        227,
+        180,
+        181
+      ],
+      [
+        226,
+        227,
+        182,
+        183
+      ],
+      [
+        226,
+        227,
+        184,
+        185
+      ],
+      [
+        226,
+        227,
+        186,
+        187
+      ],
+      [
+        226,
+        227,
+        188,
+        189
+      ],
+      [
+        226,
+        227,
+        190,
+        191
+      ],
+      [
+        226,
+        227,
+        192,
+        193
+      ],
+      [
+        226,
+        227,
+        194,
+        195
+      ],
+      [
+        226,
+        227,
+        196,
+        197
+      ],
+      [
+        226,
+        227,
+        198,
+        199
+      ],
+      [
+        226,
+        227,
+        200,
+        201
+      ],
+      [
+        226,
+        227,
+        202,
+        203
+      ],
+      [
+        226,
+        227,
+        204,
+        205
+      ],
+      [
+        226,
+        227,
+        206,
+        207
+      ],
+      [
+        226,
+        227,
+        208,
+        209
+      ],
+      [
+        226,
+        227,
+        210,
+        211
+      ],
+      [
+        226,
+        227,
+        212,
+        213
+      ],
+      [
+        226,
+        227,
+        214,
+        215
+      ],
+      [
+        226,
+        227,
+        216,
+        217
+      ],
+      [
+        226,
+        227,
+        218,
+        219
+      ],
+      [
+        226,
+        227,
+        220,
+        221
+      ],
+      [
+        226,
+        227,
+        222,
+        223
+      ],
+      [
+        226,
+        227,
+        224,
+        225
+      ],
+      [
+        226,
+        227,
+        228,
+        229
+      ],
+      [
+        226,
+        227,
+        230,
+        231
+      ],
+      [
+        226,
+        227,
+        232,
+        233
+      ],
+      [
+        228,
+        229,
+        174,
+        175
+      ],
+      [
+        228,
+        229,
+        176,
+        177
+      ],
+      [
+        228,
+        229,
+        178,
+        179
+      ],
+      [
+        228,
+        229,
+        180,
+        181
+      ],
+      [
+        228,
+        229,
+        182,
+        183
+      ],
+      [
+        228,
+        229,
+        184,
+        185
+      ],
+      [
+        228,
+        229,
+        186,
+        187
+      ],
+      [
+        228,
+        229,
+        188,
+        189
+      ],
+      [
+        228,
+        229,
+        190,
+        191
+      ],
+      [
+        228,
+        229,
+        192,
+        193
+      ],
+      [
+        228,
+        229,
+        194,
+        195
+      ],
+      [
+        228,
+        229,
+        196,
+        197
+      ],
+      [
+        228,
+        229,
+        198,
+        199
+      ],
+      [
+        228,
+        229,
+        200,
+        201
+      ],
+      [
+        228,
+        229,
+        202,
+        203
+      ],
+      [
+        228,
+        229,
+        204,
+        205
+      ],
+      [
+        228,
+        229,
+        206,
+        207
+      ],
+      [
+        228,
+        229,
+        208,
+        209
+      ],
+      [
+        228,
+        229,
+        210,
+        211
+      ],
+      [
+        228,
+        229,
+        212,
+        213
+      ],
+      [
+        228,
+        229,
+        214,
+        215
+      ],
+      [
+        228,
+        229,
+        216,
+        217
+      ],
+      [
+        228,
+        229,
+        218,
+        219
+      ],
+      [
+        228,
+        229,
+        220,
+        221
+      ],
+      [
+        228,
+        229,
+        222,
+        223
+      ],
+      [
+        228,
+        229,
+        224,
+        225
+      ],
+      [
+        228,
+        229,
+        226,
+        227
+      ],
+      [
+        228,
+        229,
+        230,
+        231
+      ],
+      [
+        228,
+        229,
+        232,
+        233
+      ],
+      [
+        230,
+        231,
+        174,
+        175
+      ],
+      [
+        230,
+        231,
+        176,
+        177
+      ],
+      [
+        230,
+        231,
+        178,
+        179
+      ],
+      [
+        230,
+        231,
+        180,
+        181
+      ],
+      [
+        230,
+        231,
+        182,
+        183
+      ],
+      [
+        230,
+        231,
+        184,
+        185
+      ],
+      [
+        230,
+        231,
+        186,
+        187
+      ],
+      [
+        230,
+        231,
+        188,
+        189
+      ],
+      [
+        230,
+        231,
+        190,
+        191
+      ],
+      [
+        230,
+        231,
+        192,
+        193
+      ],
+      [
+        230,
+        231,
+        194,
+        195
+      ],
+      [
+        230,
+        231,
+        196,
+        197
+      ],
+      [
+        230,
+        231,
+        198,
+        199
+      ],
+      [
+        230,
+        231,
+        200,
+        201
+      ],
+      [
+        230,
+        231,
+        202,
+        203
+      ],
+      [
+        230,
+        231,
+        204,
+        205
+      ],
+      [
+        230,
+        231,
+        206,
+        207
+      ],
+      [
+        230,
+        231,
+        208,
+        209
+      ],
+      [
+        230,
+        231,
+        210,
+        211
+      ],
+      [
+        230,
+        231,
+        212,
+        213
+      ],
+      [
+        230,
+        231,
+        214,
+        215
+      ],
+      [
+        230,
+        231,
+        216,
+        217
+      ],
+      [
+        230,
+        231,
+        218,
+        219
+      ],
+      [
+        230,
+        231,
+        220,
+        221
+      ],
+      [
+        230,
+        231,
+        222,
+        223
+      ],
+      [
+        230,
+        231,
+        224,
+        225
+      ],
+      [
+        230,
+        231,
+        226,
+        227
+      ],
+      [
+        230,
+        231,
+        228,
+        229
+      ],
+      [
+        230,
+        231,
+        232,
+        233
+      ],
+      [
+        232,
+        233,
+        174,
+        175
+      ],
+      [
+        232,
+        233,
+        176,
+        177
+      ],
+      [
+        232,
+        233,
+        178,
+        179
+      ],
+      [
+        232,
+        233,
+        180,
+        181
+      ],
+      [
+        232,
+        233,
+        182,
+        183
+      ],
+      [
+        232,
+        233,
+        184,
+        185
+      ],
+      [
+        232,
+        233,
+        186,
+        187
+      ],
+      [
+        232,
+        233,
+        188,
+        189
+      ],
+      [
+        232,
+        233,
+        190,
+        191
+      ],
+      [
+        232,
+        233,
+        192,
+        193
+      ],
+      [
+        232,
+        233,
+        194,
+        195
+      ],
+      [
+        232,
+        233,
+        196,
+        197
+      ],
+      [
+        232,
+        233,
+        198,
+        199
+      ],
+      [
+        232,
+        233,
+        200,
+        201
+      ],
+      [
+        232,
+        233,
+        202,
+        203
+      ],
+      [
+        232,
+        233,
+        204,
+        205
+      ],
+      [
+        232,
+        233,
+        206,
+        207
+      ],
+      [
+        232,
+        233,
+        208,
+        209
+      ],
+      [
+        232,
+        233,
+        210,
+        211
+      ],
+      [
+        232,
+        233,
+        212,
+        213
+      ],
+      [
+        232,
+        233,
+        214,
+        215
+      ],
+      [
+        232,
+        233,
+        216,
+        217
+      ],
+      [
+        232,
+        233,
+        218,
+        219
+      ],
+      [
+        232,
+        233,
+        220,
+        221
+      ],
+      [
+        232,
+        233,
+        222,
+        223
+      ],
+      [
+        232,
+        233,
+        224,
+        225
+      ],
+      [
+        232,
+        233,
+        226,
+        227
+      ],
+      [
+        232,
+        233,
+        228,
+        229
+      ],
+      [
+        232,
+        233,
+        230,
+        231
+      ]
+    ]
+  }
+]

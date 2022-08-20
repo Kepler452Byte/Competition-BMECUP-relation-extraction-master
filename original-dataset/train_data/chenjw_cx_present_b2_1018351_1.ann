@@ -1,0 +1,5 @@
+T1	time 6 9	8月前
+T2	cause 9 14	无明显诱因
+T3	clinicalFeature 16 22	双侧乳房增大
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3

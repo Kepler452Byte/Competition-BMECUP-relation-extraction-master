@@ -1,0 +1,13 @@
+T1	disease 22 26	结肠息肉
+T2	time 27 29	平素
+T3	negative 29 30	无
+T4	clinicalFeature 30 32	腹痛
+T5	clinicalFeature 32 34	腹胀
+T8	time 13 17	30分钟
+T9	cause 18 22	检查发现
+R1	timeDisease Arg1:T8 Arg2:T1
+R2	causeDisease Arg1:T9 Arg2:T1
+R3	negativeClinicalFeature Arg1:T3 Arg2:T4
+R4	negativeClinicalFeature Arg1:T3 Arg2:T5
+R5	clinicalFeatureTime Arg1:T4 Arg2:T2
+R6	clinicalFeatureTime Arg1:T5 Arg2:T2

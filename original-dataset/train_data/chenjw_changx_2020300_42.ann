@@ -1,0 +1,121 @@
+T1	clinicalFeature 4 9	右上腹不适
+T2	time 9 12	5年余
+T3	time 21 24	5年前
+T4	cause 24 29	无明显诱因
+T5	clinicalFeature 32 37	右上腹不适
+T6	modification 52 59	腹泻物无鲜血便
+T7	negative 60 61	无
+T8	clinicalFeature 61 63	黑便
+T9	negative 64 65	无
+T10	clinicalFeature 65 67	恶心
+T11	clinicalFeature 67 69	呕吐
+T12	clinicalFeature 70 72	胸闷
+T13	clinicalFeature 72 74	气急
+T14	clinicalFeature 75 77	畏寒
+T15	clinicalFeature 77 79	发热
+T16	clinicalFeature 80 82	尿频
+T17	clinicalFeature 85 87	呕血
+T20	disease 168 171	胆囊炎
+T33	sign 221 223	体温
+T34	indexValue 223 228	36.6℃
+T35	sign 229 231	脉搏
+T36	indexValue 231 236	76次/分
+T37	sign 237 239	呼吸
+T38	indexValue 239 244	18次/分
+T39	sign 245 247	血压
+T40	indexValue 247 257	111/63mmHg
+T41	clinicalFeature 258 261	神志清
+T44	body 266 268	皮肤
+T45	clinicalFeature 270 273	无黄染
+T46	body 274 279	浅表淋巴结
+T47	clinicalFeature 279 283	未及肿大
+T48	body 284 286	胸部
+T49	clinicalFeature 286 289	无畸形
+T50	body 291 293	两肺
+T51	clinicalFeature 293 297	呼吸音粗
+T52	clinicalFeature 298 307	未闻及明显干湿啰音
+T53	sign 312 314	心率
+T54	indexValue 314 319	76次/分
+T55	clinicalFeature 320 327	未闻及心脏杂音
+T56	body 333 339	各瓣膜听诊区
+T57	clinicalFeature 339 347	未闻及病理性杂音
+T58	body 348 349	腹
+T59	clinicalFeature 349 351	平软
+T60	clinicalFeature 354 358	肋下未及
+T62	clinicalFeature 359 362	无压痛
+T64	clinicalFeature 363 367	无反跳痛
+T65	clinicalFeature 369 372	蠕动波
+T66	sign 374 377	墨菲征
+T67	indexValue 377 379	阴性
+T68	body 380 383	双肾区
+T70	clinicalFeature 383 386	无叩痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+T72	cause 39 46	进食油腻食物后
+T73	clinicalFeature 47 49	腹泻
+R3	causeClinicalFeature Arg1:T72 Arg2:T73
+R4	modificationClinicalFeature Arg1:T6 Arg2:T73
+R5	negativeClinicalFeature Arg1:T7 Arg2:T8
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T9 Arg2:T11
+R8	negativeClinicalFeature Arg1:T9 Arg2:T12
+R9	negativeClinicalFeature Arg1:T9 Arg2:T13
+R10	negativeClinicalFeature Arg1:T9 Arg2:T14
+R11	negativeClinicalFeature Arg1:T9 Arg2:T15
+T74	clinicalFeature 82 84	尿急
+R12	negativeClinicalFeature Arg1:T9 Arg2:T16
+R13	negativeClinicalFeature Arg1:T9 Arg2:T74
+R14	negativeClinicalFeature Arg1:T9 Arg2:T17
+R15	clinicalFeatureTime Arg1:T5 Arg2:T3
+R16	clinicalFeatureTime Arg1:T73 Arg2:T3
+R17	clinicalFeatureTime Arg1:T8 Arg2:T3
+R18	clinicalFeatureTime Arg1:T10 Arg2:T3
+R19	clinicalFeatureTime Arg1:T11 Arg2:T3
+R20	clinicalFeatureTime Arg1:T12 Arg2:T3
+R21	clinicalFeatureTime Arg1:T13 Arg2:T3
+R22	clinicalFeatureTime Arg1:T14 Arg2:T3
+R23	clinicalFeatureTime Arg1:T15 Arg2:T3
+R24	clinicalFeatureTime Arg1:T16 Arg2:T3
+R25	clinicalFeatureTime Arg1:T74 Arg2:T3
+R26	clinicalFeatureTime Arg1:T17 Arg2:T3
+T75	auxiliaryExamination 102 104	胃镜
+T76	disease 109 116	慢性浅表性胃炎
+R36	signIndexValue Arg1:T33 Arg2:T34
+R37	signIndexValue Arg1:T35 Arg2:T36
+R38	signIndexValue Arg1:T37 Arg2:T38
+R39	signIndexValue Arg1:T39 Arg2:T40
+R42	bodyClinicalFeature Arg1:T46 Arg2:T47
+R43	bodyClinicalFeature Arg1:T48 Arg2:T49
+T77	body 268 270	巩膜
+R41	bodyClinicalFeature Arg1:T44 Arg2:T45
+R44	bodyClinicalFeature Arg1:T77 Arg2:T45
+R45	bodyClinicalFeature Arg1:T50 Arg2:T51
+R46	bodyClinicalFeature Arg1:T50 Arg2:T52
+T78	clinicalFeature 308 311	心律齐
+R47	signIndexValue Arg1:T53 Arg2:T54
+T79	clinicalFeature 328 332	心音正常
+R48	bodyClinicalFeature Arg1:T56 Arg2:T57
+R49	bodyClinicalFeature Arg1:T58 Arg2:T59
+R52	bodyClinicalFeature Arg1:T58 Arg2:T62
+R53	bodyClinicalFeature Arg1:T58 Arg2:T64
+R55	signIndexValue Arg1:T66 Arg2:T67
+R57	bodyClinicalFeature Arg1:T68 Arg2:T70
+T71	sign 387 392	移动性浊音
+T80	body 395 397	脊柱
+T81	body 397 399	四肢
+T82	clinicalFeature 399 401	正常
+R58	bodyClinicalFeature Arg1:T80 Arg2:T82
+R59	bodyClinicalFeature Arg1:T81 Arg2:T82
+T83	sign 402 408	神经系统检查
+T84	indexValue 408 410	阴性
+R60	signIndexValue Arg1:T83 Arg2:T84
+T85	indexValue 392 394	阴性
+R61	signIndexValue Arg1:T71 Arg2:T85
+T86	negative 372 373	无
+R54	negativeClinicalFeature Arg1:T86 Arg2:T65
+T42	clinicalFeature 262 265	精神可
+T43	cure 117 122	服用过胃药
+T87	body 352 353	肝
+T88	body 353 354	脾
+R63	bodyClinicalFeature Arg1:T87 Arg2:T60
+R64	bodyClinicalFeature Arg1:T88 Arg2:T60

@@ -1,0 +1,9 @@
+T1	time 6 10	2小时前
+T2	cause 23 30	与对方轿车相撞
+T3	body 32 37	右侧胸腹部
+T4	body 38 41	右肘部
+T5	clinicalFeature 45 47	疼痛
+R1	bodyClinicalFeature Arg1:T4 Arg2:T5
+R2	bodyClinicalFeature Arg1:T3 Arg2:T5
+R3	causeClinicalFeature Arg1:T2 Arg2:T5
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1

@@ -1,0 +1,10 @@
+T1	time 8 13	3小时余前
+T2	clinicalFeature 31 33	恶心
+T3	clinicalFeature 33 35	呕吐
+T4	modification 36 44	呕吐物为胃内容物
+T7	cause 13 17	自服农药
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1
+R3	causeClinicalFeature Arg1:T7 Arg2:T2
+R4	causeClinicalFeature Arg1:T7 Arg2:T3
+R5	modificationClinicalFeature Arg1:T4 Arg2:T3

@@ -1,0 +1,112 @@
+T1	cause 4 6	外伤
+T2	clinicalFeature 7 11	多处挫伤
+T3	time 11 14	4小时
+T4	time 25 29	4小时前
+T5	clinicalFeature 41 43	肿胀
+T6	clinicalFeature 50 52	挫伤
+T8	negative 65 67	否认
+T9	clinicalFeature 67 69	昏迷
+T10	clinicalFeature 70 72	恶心
+T11	clinicalFeature 73 75	呕吐
+T12	negative 79 80	无
+T13	clinicalFeature 81 83	恶心
+T14	clinicalFeature 84 86	呕吐
+T15	negative 87 88	无
+T16	clinicalFeature 89 93	肢体麻木
+T17	negative 95 96	无
+T18	clinicalFeature 97 102	大小便异常
+T21	disease 135 139	多处挫伤
+T35	sign 205 207	体温
+T36	indexValue 207 212	37.0℃
+T37	sign 213 215	脉搏
+T38	indexValue 215 220	57次/分
+T39	sign 221 223	呼吸
+T40	indexValue 223 228	19次/分
+T41	sign 229 231	血压
+T42	indexValue 231 241	153/88mmHg
+T43	clinicalFeature 242 244	神清
+T44	clinicalFeature 245 248	精神可
+T45	sign 249 253	神经系统
+T46	indexValue 253 255	阴性
+T47	body 256 257	心
+T48	body 257 258	肺
+T49	clinicalFeature 258 266	听诊未及明显异常
+T50	body 267 268	腹
+T51	clinicalFeature 268 269	软
+T52	negative 270 271	无
+T53	clinicalFeature 271 273	压痛
+T54	clinicalFeature 274 277	反跳痛
+T55	clinicalFeature 279 283	右眼肿胀
+T56	body 284 286	右眼
+T58	clinicalFeature 296 301	无活动受限
+T59	body 302 305	双下肢
+T60	clinicalFeature 305 309	多处挫伤
+T61	clinicalFeature 310 315	末梢血运可
+T62	negative 316 317	无
+T63	clinicalFeature 317 319	麻木
+T64	sign 320 324	生理反射
+T65	indexValue 324 326	未做
+T66	sign 327 331	病理反射
+T67	indexValue 331 334	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	causeClinicalFeature Arg1:T1 Arg2:T2
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+T68	cause 29 37	开车与大货车追尾
+R4	causeClinicalFeature Arg1:T68 Arg2:T5
+R5	causeClinicalFeature Arg1:T68 Arg2:T6
+R6	clinicalFeatureTime Arg1:T6 Arg2:T4
+T7	body 54 57	肋脊角
+T69	body 58 62	脐左腹部
+T70	clinicalFeature 62 64	疼痛
+R7	bodyClinicalFeature Arg1:T69 Arg2:T70
+R8	bodyClinicalFeature Arg1:T7 Arg2:T70
+R9	clinicalFeatureTime Arg1:T70 Arg2:T4
+R10	negativeClinicalFeature Arg1:T8 Arg2:T9
+R11	negativeClinicalFeature Arg1:T8 Arg2:T10
+R12	negativeClinicalFeature Arg1:T8 Arg2:T11
+R13	clinicalFeatureTime Arg1:T9 Arg2:T4
+R14	clinicalFeatureTime Arg1:T10 Arg2:T4
+R15	clinicalFeatureTime Arg1:T11 Arg2:T4
+R16	negativeClinicalFeature Arg1:T12 Arg2:T13
+R17	negativeClinicalFeature Arg1:T12 Arg2:T14
+R18	negativeClinicalFeature Arg1:T15 Arg2:T16
+R19	clinicalFeatureTime Arg1:T13 Arg2:T4
+R20	clinicalFeatureTime Arg1:T14 Arg2:T4
+R21	clinicalFeatureTime Arg1:T16 Arg2:T4
+R22	negativeClinicalFeature Arg1:T17 Arg2:T18
+R23	clinicalFeatureTime Arg1:T18 Arg2:T4
+T19	operation 119 124	清创缝合术
+T22	disease 152 156	胆囊结石
+T23	disease 140 151	右眼、左膝清创缝合术后
+R30	signIndexValue Arg1:T35 Arg2:T36
+R31	signIndexValue Arg1:T37 Arg2:T38
+R32	signIndexValue Arg1:T39 Arg2:T40
+R33	signIndexValue Arg1:T41 Arg2:T42
+R34	signIndexValue Arg1:T45 Arg2:T46
+R35	bodyClinicalFeature Arg1:T48 Arg2:T49
+R36	bodyClinicalFeature Arg1:T47 Arg2:T49
+R37	bodyClinicalFeature Arg1:T50 Arg2:T51
+R38	negativeClinicalFeature Arg1:T52 Arg2:T53
+R39	negativeClinicalFeature Arg1:T52 Arg2:T54
+R40	bodyClinicalFeature Arg1:T50 Arg2:T53
+R41	bodyClinicalFeature Arg1:T50 Arg2:T54
+T24	body 287 289	左膝
+T57	clinicalFeature 289 295	清创缝合术后
+R42	bodyClinicalFeature Arg1:T24 Arg2:T57
+R43	bodyClinicalFeature Arg1:T56 Arg2:T57
+R44	bodyClinicalFeature Arg1:T24 Arg2:T58
+R45	bodyClinicalFeature Arg1:T59 Arg2:T60
+R46	bodyClinicalFeature Arg1:T59 Arg2:T61
+R47	negativeClinicalFeature Arg1:T62 Arg2:T63
+R48	signIndexValue Arg1:T64 Arg2:T65
+R49	bodyClinicalFeature Arg1:T59 Arg2:T63
+R50	signIndexValue Arg1:T66 Arg2:T67
+T71	clinicalFeature 43 45	出血
+T72	body 39 41	右眼
+R51	causeClinicalFeature Arg1:T68 Arg2:T71
+R52	bodyClinicalFeature Arg1:T72 Arg2:T5
+R53	bodyClinicalFeature Arg1:T72 Arg2:T71
+T73	body 46 50	全身多处
+R54	bodyClinicalFeature Arg1:T73 Arg2:T6
+T75	body 114 116	右眼
+T76	body 117 119	左膝

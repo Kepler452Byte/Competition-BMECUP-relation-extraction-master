@@ -1,0 +1,5 @@
+T1	modification 3 6	不规则
+T2	clinicalFeature 6 10	阴道流血
+T3	time 11 14	半个月
+R1	modificationClinicalfeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3

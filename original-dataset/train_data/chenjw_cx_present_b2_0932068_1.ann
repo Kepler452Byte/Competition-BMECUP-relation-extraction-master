@@ -1,0 +1,12 @@
+T1	modification 15 17	反复
+T2	clinicalFeature 17 19	咳嗽
+T3	clinicalFeature 19 21	咳痰
+T4	clinicalFeature 24 26	胸闷
+T5	clinicalFeature 26 28	气促
+T9	time 7 11	5 年前
+R5	modificationClinicalFeature Arg1:T1 Arg2:T2
+R6	modificationClinicalFeature Arg1:T1 Arg2:T3
+R7	clinicalFeatureTime Arg1:T2 Arg2:T9
+R8	clinicalFeatureTime Arg1:T3 Arg2:T9
+R9	clinicalFeatureTime Arg1:T4 Arg2:T9
+R10	clinicalFeatureTime Arg1:T5 Arg2:T9

@@ -1,0 +1,102 @@
+T1	clinicalFeature 4 10	小便不能自解
+T2	time 10 13	2小时
+T3	time 23 27	2小时前
+T4	cause 27 32	无明显诱因
+T5	clinicalFeature 35 41	小便不能自解
+T6	clinicalFeature 43 45	腹胀
+T7	negative 46 47	无
+T8	clinicalFeature 47 49	畏寒
+T9	clinicalFeature 49 51	发热
+T11	disease 74 77	尿潴留
+T12	disease 80 87	前列腺电切术后
+T25	disease 136 140	膜性肾病
+T26	disease 141 147	继发性糖尿病
+T27	disease 148 152	高血压病
+T28	time 155 158	1年余
+T30	drug 173 179	他克莫司胶囊
+T31	dose 179 184	0.5mg
+T32	drug 189 196	盐酸地尔硫卓片
+T33	dose 196 200	30mg
+T34	frequency 201 204	TID
+T35	drug 206 211	厄贝沙坦片
+T36	dose 211 216	150mg
+T37	drug 220 225	阿卡波糖片
+T38	dose 225 229	50mg
+T39	sign 245 247	体温
+T40	indexValue 247 251	37.℃
+T41	sign 252 254	脉搏
+T42	indexValue 254 260	130次/分
+T43	sign 261 263	呼吸
+T44	indexValue 263 268	20次/分
+T45	sign 269 271	血压
+T46	indexValue 271 281	125/85mmHg
+T47	clinicalFeature 282 285	神志清
+T50	body 290 291	颈
+T51	clinicalFeature 291 292	软
+T52	body 293 296	颈静脉
+T53	clinicalFeature 296 299	无怒张
+T54	body 300 302	双肺
+T55	clinicalFeature 302 306	呼吸音清
+T56	clinicalFeature 307 310	心律齐
+T57	body 311 312	腹
+T58	clinicalFeature 312 314	平软
+T59	negative 316 317	无
+T60	clinicalFeature 317 319	压痛
+T61	clinicalFeature 320 323	反跳痛
+T62	indexValue 330 332	阴性
+T63	clinicalFeature 335 338	活动可
+T64	sign 339 343	病理反射
+T65	indexValue 343 346	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	negativeClinicalFeature Arg1:T7 Arg2:T8
+R3	negativeClinicalFeature Arg1:T7 Arg2:T9
+R4	causeClinicalFeature Arg1:T4 Arg2:T5
+R5	causeClinicalFeature Arg1:T4 Arg2:T6
+R6	clinicalFeatureTime Arg1:T5 Arg2:T3
+R7	clinicalFeatureTime Arg1:T6 Arg2:T3
+R8	clinicalFeatureTime Arg1:T8 Arg2:T3
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R18	timeDisease Arg1:T28 Arg2:T25
+R19	timeDisease Arg1:T28 Arg2:T26
+R20	timeDisease Arg1:T28 Arg2:T27
+T29	drug 162 166	甲泼尼龙
+T66	dose 166 169	8mg
+T67	frequency 170 172	QD
+R21	drugDose Arg1:T29 Arg2:T66
+R22	drugFrequency Arg1:T29 Arg2:T67
+T68	frequency 185 188	BID
+R23	drugDose Arg1:T30 Arg2:T31
+R24	drugFrequency Arg1:T30 Arg2:T68
+R25	drugDose Arg1:T32 Arg2:T33
+R26	drugFrequency Arg1:T32 Arg2:T34
+R27	doseFrequency Arg1:T33 Arg2:T34
+R28	doseFrequency Arg1:T31 Arg2:T68
+R29	doseFrequency Arg1:T66 Arg2:T67
+T69	frequency 217 219	QD
+R30	drugFrequency Arg1:T35 Arg2:T69
+R31	doseFrequency Arg1:T36 Arg2:T69
+R32	drugDose Arg1:T35 Arg2:T36
+T70	frequency 230 233	TID
+R33	drugFrequency Arg1:T37 Arg2:T70
+R34	doseFrequency Arg1:T38 Arg2:T70
+R35	drugDose Arg1:T37 Arg2:T38
+R36	signIndexValue Arg1:T39 Arg2:T40
+R37	signIndexValue Arg1:T41 Arg2:T42
+R38	signIndexValue Arg1:T43 Arg2:T44
+R39	signIndexValue Arg1:T45 Arg2:T46
+T48	clinicalFeature 286 289	精神可
+R40	bodyClinicalFeature Arg1:T50 Arg2:T51
+R41	bodyClinicalFeature Arg1:T52 Arg2:T53
+R42	bodyClinicalFeature Arg1:T54 Arg2:T55
+R43	bodyClinicalFeature Arg1:T57 Arg2:T58
+R44	negativeClinicalFeature Arg1:T59 Arg2:T60
+R45	negativeClinicalFeature Arg1:T59 Arg2:T61
+R46	bodyClinicalFeature Arg1:T57 Arg2:T60
+R47	bodyClinicalFeature Arg1:T57 Arg2:T61
+T49	body 324 327	双肾区
+T71	sign 327 330	叩击痛
+R48	signIndexValue Arg1:T71 Arg2:T62
+R49	bodySign Arg1:T49 Arg2:T71
+T72	body 333 335	四肢
+R50	bodyClinicalFeature Arg1:T72 Arg2:T63
+R51	signIndexValue Arg1:T64 Arg2:T65

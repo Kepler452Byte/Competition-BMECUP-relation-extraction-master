@@ -1,0 +1,11 @@
+T1	time 9 12	二周前
+T2	auxiliaryExamination 16 20	肺穿刺活
+T3	disease 23 26	右肺癌
+T5	laboratory 33 39	EGFR检测
+T6	laboratoryValue 39 41	阴性
+T4	auxiliaryExamination 27 29	病理
+T9	disease 30 32	腺癌
+R3	auxiliaryExaminationTime Arg1:T2 Arg2:T1
+R4	auxiliaryExaminationTime Arg1:T4 Arg2:T1
+R5	laboratoryLaboratoryValue Arg1:T5 Arg2:T6
+R6	laboratoryTime Arg1:T5 Arg2:T1

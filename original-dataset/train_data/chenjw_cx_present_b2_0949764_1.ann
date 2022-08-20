@@ -1,0 +1,6 @@
+T1	time 15 18	5天前
+T3	clinicalFeature 44 46	头晕
+T2	cause 39 44	检查时出现
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3
+T4	operation 25 32	外阴肿物切除术

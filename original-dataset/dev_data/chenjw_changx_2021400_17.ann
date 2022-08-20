@@ -1,0 +1,137 @@
+T1	clinicalFeature 6 13	左侧腹沟股肿块
+T2	time 13 16	1月余
+T3	time 25 29	1月余前
+T4	clinicalFeature 44 46	肿块
+T6	clinicalFeature 56 64	左侧腹股沟区疼痛
+T9	negative 82 83	无
+T10	clinicalFeature 83 85	畏寒
+T11	clinicalFeature 85 87	发热
+T12	negative 88 89	无
+T13	clinicalFeature 89 91	恶心
+T14	clinicalFeature 91 93	呕吐
+T15	negative 95 96	无
+T16	clinicalFeature 96 98	咳嗽
+T17	clinicalFeature 98 100	咳痰
+T18	negative 101 102	无
+T19	clinicalFeature 102 104	腹胀
+T20	clinicalFeature 104 106	腹泻
+T21	cure 107 113	未予特殊治疗
+T22	trend 116 122	未见明显好转
+T23	auxiliaryExamination 140 146	浅表肿块B超
+T26	disease 166 172	左侧腹股沟疝
+T41	disease 230 234	高血压病
+T42	time 237 241	10余前
+T43	drug 245 250	缬沙坦胶囊
+T44	dose 251 255	1片/天
+T45	clinicalFeature 260 265	血压控制可
+T46	disease 270 275	血小板减少
+T47	time 276 279	2月余
+T48	drug 284 288	利可君片
+T49	dose 289 291	1片
+T50	frequency 291 296	*3次/天
+T51	sign 307 309	体温
+T52	indexValue 309 314	36.0℃
+T53	sign 315 317	脉搏
+T54	indexValue 317 322	80次/分
+T55	sign 323 325	呼吸
+T56	indexValue 325 330	19次/分
+T57	sign 331 333	血压
+T58	indexValue 333 343	138/68mmHg
+T59	clinicalFeature 345 347	神清
+T60	clinicalFeature 348 351	精神可
+T61	body 352 353	颈
+T62	clinicalFeature 353 354	软
+T63	clinicalFeature 355 358	无抵抗
+T64	body 359 361	皮肤
+T65	body 361 363	巩膜
+T66	clinicalFeature 363 366	无黄染
+T67	body 367 372	浅表淋巴结
+T68	clinicalFeature 372 376	未及肿块
+T69	body 378 379	心
+T70	body 379 380	肺
+T71	clinicalFeature 380 388	听诊未见明显异常
+T72	body 389 390	腹
+T73	clinicalFeature 390 392	平软
+T74	negative 393 394	无
+T75	clinicalFeature 394 396	压痛
+T76	clinicalFeature 397 400	反跳痛
+T77	body 401 402	肝
+T78	body 402 403	脾
+T79	clinicalFeature 403 407	肋下未及
+T80	sign 408 412	墨菲斯征
+T81	indexValue 412 414	阴性
+T82	body 415 418	双肾区
+T83	clinicalFeature 418 421	无叩痛
+T84	body 422 428	左侧腹股沟区
+T85	clinicalFeature 431 433	包块
+T87	modification 452 462	站立及咳嗽时肿块突出
+T88	modification 463 465	质软
+T90	clinicalFeature 466 471	无明显压痛
+T91	body 472 474	右侧
+T92	clinicalFeature 474 476	无殊
+T93	body 477 480	双下肢
+T94	clinicalFeature 480 483	无浮肿
+T95	sign 484 487	病理征
+T96	indexValue 487 490	未引出
+R2	negativeClinicalFeature Arg1:T15 Arg2:T16
+R3	negativeClinicalFeature Arg1:T15 Arg2:T17
+T97	body 31 37	左侧腹股沟区
+R5	bodyClinicalFeature Arg1:T97 Arg2:T4
+R6	clinicalFeatureTime Arg1:T4 Arg2:T3
+R8	clinicalFeatureTime Arg1:T6 Arg2:T3
+R11	negativeClinicalFeature Arg1:T9 Arg2:T10
+R12	negativeClinicalFeature Arg1:T9 Arg2:T11
+R13	clinicalFeatureTime Arg1:T10 Arg2:T3
+R14	clinicalFeatureTime Arg1:T11 Arg2:T3
+R15	negativeClinicalFeature Arg1:T12 Arg2:T13
+R16	negativeClinicalFeature Arg1:T12 Arg2:T14
+R17	clinicalFeatureTime Arg1:T13 Arg2:T3
+R18	clinicalFeatureTime Arg1:T14 Arg2:T3
+R19	clinicalFeatureTime Arg1:T1 Arg2:T2
+R20	clinicalFeatureTime Arg1:T19 Arg2:T3
+R21	clinicalFeatureTime Arg1:T16 Arg2:T3
+R22	clinicalFeatureTime Arg1:T17 Arg2:T3
+R23	clinicalFeatureTime Arg1:T20 Arg2:T3
+R25	clinicalFeatureTrend Arg1:T4 Arg2:T22
+R26	clinicalFeatureTrend Arg1:T6 Arg2:T22
+R35	timeDisease Arg1:T42 Arg2:T41
+R37	drugDose Arg1:T43 Arg2:T44
+R38	diseaseClinicalFeature Arg1:T41 Arg2:T45
+R39	timeDisease Arg1:T47 Arg2:T46
+R41	drugDose Arg1:T48 Arg2:T49
+R42	doseFrequency Arg1:T49 Arg2:T50
+R43	signIndexValue Arg1:T51 Arg2:T52
+R44	signIndexValue Arg1:T53 Arg2:T54
+R45	signIndexValue Arg1:T55 Arg2:T56
+R46	signIndexValue Arg1:T57 Arg2:T58
+R47	bodyClinicalFeature Arg1:T61 Arg2:T62
+R48	bodyClinicalFeature Arg1:T61 Arg2:T63
+R49	bodyClinicalFeature Arg1:T64 Arg2:T66
+R50	bodyClinicalFeature Arg1:T65 Arg2:T66
+R51	bodyClinicalFeature Arg1:T67 Arg2:T68
+R52	bodyClinicalFeature Arg1:T69 Arg2:T71
+R53	bodyClinicalFeature Arg1:T70 Arg2:T71
+R54	bodyClinicalFeature Arg1:T72 Arg2:T73
+R55	bodyClinicalFeature Arg1:T72 Arg2:T75
+R56	bodyClinicalFeature Arg1:T72 Arg2:T76
+R57	negativeClinicalFeature Arg1:T74 Arg2:T75
+R58	negativeClinicalFeature Arg1:T74 Arg2:T76
+R59	bodyClinicalFeature Arg1:T77 Arg2:T79
+R60	bodyClinicalFeature Arg1:T78 Arg2:T79
+R61	signIndexValue Arg1:T80 Arg2:T81
+R62	bodyClinicalFeature Arg1:T82 Arg2:T83
+R63	bodyClinicalFeature Arg1:T84 Arg2:T85
+T99	quantity 430 431	一
+R66	modificationClinicalFeature Arg1:T87 Arg2:T85
+R67	modificationClinicalFeature Arg1:T88 Arg2:T85
+R69	bodyClinicalFeature Arg1:T84 Arg2:T90
+R70	bodyClinicalFeature Arg1:T91 Arg2:T92
+R71	bodyClinicalFeature Arg1:T93 Arg2:T94
+R72	signIndexValue Arg1:T95 Arg2:T96
+T98	quantity 38 39	一
+T100	modification 39 43	鸡蛋大小
+R24	cureTime Arg1:T21 Arg2:T3
+T101	time 123 124	今
+R75	auxiliaryExaminationTime Arg1:T23 Arg2:T101
+T24	disease 149 155	左侧腹股沟疝
+R68	modificationClinicalFeature Arg1:T100 Arg2:T4

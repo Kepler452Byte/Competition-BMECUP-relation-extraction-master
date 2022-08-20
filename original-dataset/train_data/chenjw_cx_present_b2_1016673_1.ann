@@ -1,0 +1,11 @@
+T1	clinicalFeature 8 12	月经规则
+T2	modification 13 18	周期30天
+T3	modification 19 23	经期7天
+T4	clinicalFeature 26 28	绝经
+T5	time 28 31	14年
+T6	negative 32 34	否认
+T7	clinicalFeature 34 46	绝经后异常阴道流血流液史
+R1	modificationClinicalFeature Arg1:T2 Arg2:T1
+R2	modificationClinicalFeature Arg1:T3 Arg2:T1
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7

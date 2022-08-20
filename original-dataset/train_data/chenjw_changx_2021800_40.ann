@@ -1,0 +1,127 @@
+T1	disease 6 12	结肠多发息肉
+T2	time 12 14	3天
+T3	time 24 27	3天前
+T5	negative 41 42	无
+T6	clinicalFeature 42 44	畏寒
+T7	clinicalFeature 44 46	发热
+T8	negative 47 48	无
+T9	clinicalFeature 48 50	恶心
+T10	clinicalFeature 50 52	呕吐
+T11	negative 53 54	无
+T12	clinicalFeature 54 56	腹痛
+T13	clinicalFeature 56 58	腹胀
+T14	negative 59 60	无
+T15	clinicalFeature 60 64	大便变细
+T16	negative 65 66	无
+T17	clinicalFeature 66 68	呕血
+T18	clinicalFeature 68 70	黑便
+T19	negative 71 72	无
+T20	clinicalFeature 72 74	尿频
+T21	clinicalFeature 74 76	尿急
+T22	negative 77 78	无
+T23	clinicalFeature 78 80	头晕
+T24	clinicalFeature 80 82	乏力
+T25	cure 86 91	未予以处理
+T27	disease 112 116	结肠息肉
+T40	disease 163 165	乙肝
+T41	drug 174 181	恩替卡韦分散片
+T42	dose 181 183	1#
+T43	frequency 184 186	qd
+T44	sign 196 198	BP
+T45	indexValue 198 208	118/78mmHg
+T46	sign 209 210	T
+T47	indexValue 210 215	36.2℃
+T48	sign 216 217	P
+T49	indexValue 217 222	72次/分
+T50	sign 223 224	R
+T51	indexValue 224 229	19次/分
+T52	clinicalFeature 230 232	神清
+T53	clinicalFeature 233 236	精神可
+T54	body 237 239	巩膜
+T55	clinicalFeature 239 242	无黄染
+T56	body 243 248	浅表淋巴结
+T57	clinicalFeature 248 252	未及肿大
+T58	sign 253 255	心率
+T59	indexValue 255 260	72次/分
+T60	clinicalFeature 261 263	律齐
+T61	body 265 267	两肺
+T62	clinicalFeature 267 271	呼吸音清
+T63	clinicalFeature 272 277	未闻及罗音
+T64	body 278 279	腹
+T65	clinicalFeature 279 280	软
+T66	clinicalFeature 281 286	未见胃肠型
+T67	clinicalFeature 287 290	无压痛
+T68	sign 291 295	墨菲氏征
+T69	indexValue 295 297	阴性
+T70	clinicalFeature 298 302	无反跳痛
+T71	body 303 304	肝
+T72	body 304 305	脾
+T73	clinicalFeature 305 309	肋下未及
+T74	sign 310 313	肠鸣音
+T75	indexValue 313 316	无亢进
+T76	body 317 320	双下肢
+T77	clinicalFeature 320 323	无浮肿
+T78	body 324 326	四肢
+T79	sign 326 328	肌力
+T80	indexValue 328 330	正常
+T81	sign 331 334	病理症
+T82	indexValue 334 337	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+T83	auxiliaryExamination 28 30	肠镜
+R3	auxiliaryExaminationTime Arg1:T83 Arg2:T3
+R4	negativeClinicalFeature Arg1:T5 Arg2:T6
+R5	negativeClinicalFeature Arg1:T5 Arg2:T7
+R6	clinicalFeatureTime Arg1:T6 Arg2:T3
+R7	clinicalFeatureTime Arg1:T7 Arg2:T3
+R8	negativeClinicalFeature Arg1:T8 Arg2:T9
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R10	negativeClinicalFeature Arg1:T8 Arg2:T10
+R11	clinicalFeatureTime Arg1:T10 Arg2:T3
+R12	negativeClinicalFeature Arg1:T11 Arg2:T12
+R13	clinicalFeatureTime Arg1:T12 Arg2:T3
+R14	negativeClinicalFeature Arg1:T11 Arg2:T13
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	negativeClinicalFeature Arg1:T14 Arg2:T15
+R17	clinicalFeatureTime Arg1:T15 Arg2:T3
+R18	negativeClinicalFeature Arg1:T16 Arg2:T17
+R19	clinicalFeatureTime Arg1:T17 Arg2:T3
+R20	negativeClinicalFeature Arg1:T16 Arg2:T18
+R21	negativeClinicalFeature Arg1:T19 Arg2:T20
+R22	clinicalFeatureTime Arg1:T18 Arg2:T3
+R23	clinicalFeatureTime Arg1:T20 Arg2:T3
+R24	negativeClinicalFeature Arg1:T19 Arg2:T21
+R25	clinicalFeatureTime Arg1:T21 Arg2:T3
+R26	negativeClinicalFeature Arg1:T22 Arg2:T23
+R27	clinicalFeatureTime Arg1:T23 Arg2:T3
+R28	negativeClinicalFeature Arg1:T22 Arg2:T24
+R29	clinicalFeatureTime Arg1:T24 Arg2:T3
+R30	cureTime Arg1:T25 Arg2:T3
+R38	drugDose Arg1:T41 Arg2:T42
+R39	doseFrequency Arg1:T42 Arg2:T43
+R41	signIndexValue Arg1:T44 Arg2:T45
+R42	signIndexValue Arg1:T46 Arg2:T47
+R43	signIndexValue Arg1:T48 Arg2:T49
+R44	signIndexValue Arg1:T50 Arg2:T51
+R45	bodyClinicalFeature Arg1:T54 Arg2:T55
+R46	bodyClinicalFeature Arg1:T56 Arg2:T57
+R47	signIndexValue Arg1:T58 Arg2:T59
+R48	bodyClinicalFeature Arg1:T61 Arg2:T62
+R49	bodyClinicalFeature Arg1:T61 Arg2:T63
+R50	bodyClinicalFeature Arg1:T64 Arg2:T65
+R51	bodyClinicalFeature Arg1:T64 Arg2:T66
+R52	bodyClinicalFeature Arg1:T64 Arg2:T67
+R53	signIndexValue Arg1:T68 Arg2:T69
+R54	bodyClinicalFeature Arg1:T64 Arg2:T70
+R55	bodyClinicalFeature Arg1:T72 Arg2:T73
+R56	bodyClinicalFeature Arg1:T71 Arg2:T73
+R57	signIndexValue Arg1:T74 Arg2:T75
+R58	bodyClinicalFeature Arg1:T76 Arg2:T77
+R59	bodySign Arg1:T78 Arg2:T79
+R60	signIndexValue Arg1:T79 Arg2:T80
+R61	signIndexValue Arg1:T81 Arg2:T82
+T4	body 34 36	结肠
+T85	quantity 36 38	多发
+T86	auxiliaryDescript 38 40	息肉
+R2	bodyAuxiliaryDescript Arg1:T4 Arg2:T86
+R62	auxiliaryDescriptQuantity Arg1:T86 Arg2:T85
+R63	auxiliaryExaminationAuxiliaryDescript Arg1:T83 Arg2:T86

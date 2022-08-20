@@ -1,0 +1,7 @@
+T1	time 10 14	1小时前
+T2	clinicalFeature 20 22	倒地
+T3	clinicalFeature 23 27	呼之不应
+T6	cause 14 20	在家中被发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T6 Arg2:T2
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1

@@ -1,0 +1,110 @@
+T1	disease 4 12	左手外伤骨折术后
+T2	time 12 14	1年
+T3	time 25 28	1年前
+T4	negative 40 41	无
+T5	clinicalFeature 41 45	手指麻木
+T6	negative 46 47	无
+T7	clinicalFeature 47 49	乏力
+T8	negative 50 52	否认
+T9	clinicalFeature 53 55	头痛
+T10	clinicalFeature 56 58	头昏
+T11	clinicalFeature 59 61	恶心
+T12	clinicalFeature 62 64	呕吐
+T13	clinicalFeature 65 67	昏迷
+T14	negative 68 70	否认
+T15	clinicalFeature 71 73	发热
+T16	clinicalFeature 73 75	畏寒
+T17	negative 76 78	否认
+T18	clinicalFeature 79 81	胸闷
+T19	clinicalFeature 82 84	气促
+T20	clinicalFeature 85 87	胸痛
+T21	negative 88 90	否认
+T22	clinicalFeature 91 93	腹痛
+T23	clinicalFeature 93 95	腹胀
+T24	disease 113 120	左第4掌骨骨折
+T25	auxiliaryDescript 121 127	骨折位移明显
+T26	operation 140 155	左手第四掌骨骨折切复内固定术后
+T27	cure 160 166	抗炎补液治疗
+T28	time 190 191	现
+T29	auxiliaryDescript 197 203	骨折愈合良好
+T30	disease 208 217	左第4掌骨骨折术后
+T43	sign 272 274	体温
+T44	indexValue 274 279	36.7℃
+T45	sign 280 282	脉搏
+T46	indexValue 282 288	100次/分
+T47	sign 289 291	呼吸
+T48	indexValue 291 296	19次/分
+T49	sign 297 299	血压
+T50	indexValue 299 309	136/98mmHg
+T51	body 310 312	双瞳
+T52	clinicalFeature 312 316	等大等圆
+T53	clinicalFeature 317 323	Φ2.5mm
+T54	clinicalFeature 324 330	对光反射灵敏
+T55	body 331 332	心
+T56	body 332 333	肺
+T57	clinicalFeature 333 337	听诊无殊
+T58	body 338 340	腹软
+T59	clinicalFeature 340 343	无压痛
+T60	body 345 347	腰部
+T61	clinicalFeature 347 350	无压痛
+T62	clinicalFeature 351 356	无活动受限
+T63	body 357 359	左手
+T64	clinicalFeature 359 368	原手术切口愈合良好
+T65	clinicalFeature 369 372	无压痛
+T66	clinicalFeature 373 376	活动可
+T67	body 377 379	手指
+T68	clinicalFeature 379 382	无麻木
+T69	clinicalFeature 383 386	血运佳
+T70	clinicalFeature 387 393	未见明显出血
+T71	sign 394 396	肌力
+T72	indexValue 396 400	正常五级
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	negativeClinicalFeature Arg1:T4 Arg2:T5
+R3	negativeClinicalFeature Arg1:T6 Arg2:T7
+R4	clinicalFeatureTime Arg1:T5 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R6	clinicalFeatureTime Arg1:T9 Arg2:T3
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T8 Arg2:T10
+R9	negativeClinicalFeature Arg1:T8 Arg2:T11
+R10	clinicalFeatureTime Arg1:T11 Arg2:T3
+R11	negativeClinicalFeature Arg1:T8 Arg2:T12
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	negativeClinicalFeature Arg1:T8 Arg2:T13
+R14	clinicalFeatureTime Arg1:T13 Arg2:T3
+R15	negativeClinicalFeature Arg1:T14 Arg2:T15
+R16	clinicalFeatureTime Arg1:T15 Arg2:T3
+R17	clinicalFeatureTime Arg1:T16 Arg2:T3
+R18	negativeClinicalFeature Arg1:T14 Arg2:T16
+R19	negativeClinicalFeature Arg1:T17 Arg2:T18
+R20	clinicalFeatureTime Arg1:T18 Arg2:T3
+R21	negativeClinicalFeature Arg1:T17 Arg2:T19
+R22	clinicalFeatureTime Arg1:T19 Arg2:T3
+R23	clinicalFeatureTime Arg1:T20 Arg2:T3
+R24	negativeClinicalFeature Arg1:T17 Arg2:T20
+R25	negativeClinicalFeature Arg1:T21 Arg2:T22
+R26	negativeClinicalFeature Arg1:T21 Arg2:T23
+R27	clinicalFeatureTime Arg1:T22 Arg2:T3
+R28	clinicalFeatureTime Arg1:T23 Arg2:T3
+R29	cureTime Arg1:T27 Arg2:T3
+R30	timeOperation Arg1:T3 Arg2:T26
+R38	signIndexValue Arg1:T43 Arg2:T44
+R39	signIndexValue Arg1:T45 Arg2:T46
+R40	signIndexValue Arg1:T47 Arg2:T48
+R41	signIndexValue Arg1:T49 Arg2:T50
+R42	bodyClinicalFeature Arg1:T51 Arg2:T52
+R43	bodyClinicalFeature Arg1:T51 Arg2:T53
+R44	bodyClinicalFeature Arg1:T51 Arg2:T54
+R45	bodyClinicalFeature Arg1:T55 Arg2:T57
+R46	bodyClinicalFeature Arg1:T56 Arg2:T57
+R47	bodyClinicalFeature Arg1:T58 Arg2:T59
+R48	bodyClinicalFeature Arg1:T60 Arg2:T61
+R49	bodyClinicalFeature Arg1:T60 Arg2:T62
+R50	bodyClinicalFeature Arg1:T63 Arg2:T64
+R51	bodyClinicalFeature Arg1:T63 Arg2:T65
+R52	bodyClinicalFeature Arg1:T63 Arg2:T66
+R53	bodyClinicalFeature Arg1:T67 Arg2:T68
+R54	bodyClinicalFeature Arg1:T67 Arg2:T69
+R55	bodyClinicalFeature Arg1:T67 Arg2:T70
+R56	signIndexValue Arg1:T71 Arg2:T72
+T74	cause 33 35	砸伤

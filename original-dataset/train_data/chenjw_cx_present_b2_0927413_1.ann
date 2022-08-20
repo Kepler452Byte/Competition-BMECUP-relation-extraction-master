@@ -1,0 +1,7 @@
+T1	time 6 9	一年前
+T2	cause 14 16	跌倒
+T5	operation 38 52	左肱骨近端骨折切复内固定术”
+T3	disease 24 31	左肱骨近端骨折
+R1	timeDisease Arg1:T1 Arg2:T3
+R2	causeDisease Arg1:T2 Arg2:T3
+R3	timeOperation Arg1:T1 Arg2:T5

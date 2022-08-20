@@ -1,0 +1,135 @@
+T1	clinicalFeature 10 14	活动受限
+T2	time 14 17	3小时
+T3	time 27 31	3小时前
+T4	clinicalFeature 39 43	右髋疼痛
+T5	clinicalFeature 44 49	右髋部畸形
+T6	clinicalFeature 51 55	活动受限
+T7	negative 56 57	无
+T8	clinicalFeature 57 59	畏寒
+T9	clinicalFeature 59 61	发热
+T10	negative 62 63	无
+T11	clinicalFeature 63 65	咳嗽
+T12	clinicalFeature 65 67	咳痰
+T13	negative 68 69	无
+T14	clinicalFeature 69 71	恶心
+T15	clinicalFeature 71 73	呕吐
+T16	negative 74 75	无
+T17	clinicalFeature 75 77	腹痛
+T18	clinicalFeature 77 79	腹泻
+T19	auxiliaryDescript 115 117	骨折
+T21	disease 143 147	股骨骨折
+T34	disease 196 200	高血压病
+T35	time 203 205	8年
+T36	drug 209 217	单硝酸异山梨酯片
+T37	dose 218 220	1#
+T38	frequency 220 223	bid
+T39	clinicalFeature 224 230	血压控制一般
+T40	disease 236 239	脑梗死
+T41	time 242 244	8年
+T43	frequency 254 257	tid
+T44	disease 263 268	前列腺增生
+T45	time 271 273	5年
+T47	time 289 292	10年
+T48	drug 296 301	非那雄胺片
+T49	dose 302 304	1#
+T50	frequency 304 306	qd
+T51	sign 315 317	体温
+T52	indexValue 317 322	36.6℃
+T53	sign 323 325	脉搏
+T54	indexValue 325 330	85次/分
+T55	sign 331 333	呼吸
+T56	indexValue 333 338	20次/分
+T57	sign 339 341	血压
+T58	indexValue 341 351	134/83mmHg
+T59	clinicalFeature 352 354	神清
+T60	body 355 357	心肺
+T61	clinicalFeature 357 361	听诊无殊
+T62	clinicalFeature 363 364	软
+T64	clinicalFeature 365 368	无压痛
+T65	clinicalFeature 371 373	压痛
+T66	clinicalFeature 374 376	畸形
+T67	clinicalFeature 380 382	外旋
+T68	clinicalFeature 386 390	活动受限
+T69	body 391 394	双下肢
+T70	clinicalFeature 394 397	无麻木
+T74	sign 409 413	病理反射
+T75	indexValue 413 416	未引出
+T76	body 417 421	足背动脉
+T77	clinicalFeature 421 423	可及
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T78	cause 4 6	摔伤
+R2	causeClinicalFeature Arg1:T78 Arg2:T1
+T79	cause 33 35	摔伤
+R3	causeClinicalFeature Arg1:T79 Arg2:T4
+R4	causeClinicalFeature Arg1:T79 Arg2:T5
+R5	causeClinicalFeature Arg1:T79 Arg2:T6
+R6	negativeClinicalFeature Arg1:T7 Arg2:T8
+R7	negativeClinicalFeature Arg1:T7 Arg2:T9
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T10 Arg2:T12
+R10	negativeClinicalFeature Arg1:T13 Arg2:T14
+R11	negativeClinicalFeature Arg1:T13 Arg2:T15
+R12	negativeClinicalFeature Arg1:T16 Arg2:T17
+R13	negativeClinicalFeature Arg1:T16 Arg2:T18
+R14	clinicalFeatureTime Arg1:T4 Arg2:T3
+R15	clinicalFeatureTime Arg1:T5 Arg2:T3
+R16	clinicalFeatureTime Arg1:T6 Arg2:T3
+R17	clinicalFeatureTime Arg1:T8 Arg2:T3
+R18	clinicalFeatureTime Arg1:T9 Arg2:T3
+R19	clinicalFeatureTime Arg1:T11 Arg2:T3
+R20	clinicalFeatureTime Arg1:T12 Arg2:T3
+R21	clinicalFeatureTime Arg1:T14 Arg2:T3
+R22	clinicalFeatureTime Arg1:T15 Arg2:T3
+R23	clinicalFeatureTime Arg1:T17 Arg2:T3
+R24	clinicalFeatureTime Arg1:T18 Arg2:T3
+T80	auxiliaryExamination 102 104	X片
+T81	body 108 115	右股骨股骨近端
+R25	bodyAuxiliaryDescript Arg1:T81 Arg2:T19
+R26	auxiliaryExaminationAuxiliaryDescript Arg1:T80 Arg2:T19
+R34	timeDisease Arg1:T35 Arg2:T34
+R35	drugDose Arg1:T36 Arg2:T37
+R36	drugFrequency Arg1:T36 Arg2:T38
+R37	doseFrequency Arg1:T37 Arg2:T38
+R39	diseaseClinicalFeature Arg1:T34 Arg2:T39
+R40	timeDisease Arg1:T41 Arg2:T40
+T42	drug 248 251	脑心通
+T82	dose 252 254	3#
+R41	doseFrequency Arg1:T82 Arg2:T43
+R42	drugDose Arg1:T42 Arg2:T82
+R43	drugFrequency Arg1:T42 Arg2:T43
+R45	timeDisease Arg1:T45 Arg2:T44
+T83	disease 284 288	癫痫病史
+R47	timeDisease Arg1:T47 Arg2:T83
+R48	drugDose Arg1:T48 Arg2:T49
+R49	drugFrequency Arg1:T48 Arg2:T50
+R50	doseFrequency Arg1:T49 Arg2:T50
+R51	signIndexValue Arg1:T51 Arg2:T52
+R52	signIndexValue Arg1:T53 Arg2:T54
+R53	signIndexValue Arg1:T55 Arg2:T56
+R54	signIndexValue Arg1:T57 Arg2:T58
+R55	bodyClinicalFeature Arg1:T60 Arg2:T61
+T84	body 362 363	腹
+R56	bodyClinicalFeature Arg1:T84 Arg2:T62
+R58	bodyClinicalFeature Arg1:T84 Arg2:T64
+T85	body 369 371	右髋
+R59	bodyClinicalFeature Arg1:T85 Arg2:T65
+R60	bodyClinicalFeature Arg1:T85 Arg2:T66
+T86	body 377 380	右下肢
+R61	bodyClinicalFeature Arg1:T86 Arg2:T67
+R62	bodyClinicalFeature Arg1:T86 Arg2:T68
+R63	bodyClinicalFeature Arg1:T69 Arg2:T70
+R65	signIndexValue Arg1:T74 Arg2:T75
+R66	bodyClinicalFeature Arg1:T76 Arg2:T77
+T72	sign 403 407	生理反射
+T73	indexValue 407 408	存
+R67	signIndexValue Arg1:T72 Arg2:T73
+T71	sign 398 400	肌力
+T87	indexValue 400 402	正常
+R64	signIndexValue Arg1:T71 Arg2:T87
+R68	bodySign Arg1:T69 Arg2:T71
+T46	clinicalFeature 382 384	短缩
+R57	bodyClinicalFeature Arg1:T86 Arg2:T46
+T63	clinicalFeature 8 10	疼痛
+T88	body 6 8	右髋
+R69	bodyClinicalFeature Arg1:T88 Arg2:T63
+R70	bodyClinicalFeature Arg1:T88 Arg2:T1

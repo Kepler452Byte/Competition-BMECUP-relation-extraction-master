@@ -1,0 +1,58 @@
+T1	modification 4 6	突发
+T2	clinicalFeature 6 8	头晕
+T3	clinicalFeature 9 13	视物旋转
+T4	time 13 15	半天
+T5	time 24 27	半天前
+T6	cause 28 33	无明显诱因
+T7	clinicalFeature 41 43	头晕
+T8	clinicalFeature 44 48	视物旋转
+T9	modification 50 53	持续性
+T10	clinicalFeature 55 57	恶心
+T11	clinicalFeature 58 60	呕吐
+T12	modification 61 69	呕吐物为胃内容物
+T15	clinicalFeature 79 81	出汗
+T16	negative 82 83	无
+T17	clinicalFeature 89 93	听力下降
+T18	negative 95 96	无
+T19	clinicalFeature 96 98	复视
+T20	negative 99 100	无
+T21	clinicalFeature 100 106	肢体麻木无力
+T24	disease 145 149	头晕待查
+T37	time 195 198	2年前
+T38	drug 208 215	非洛地平缓释片
+T39	dose 215 217	1片
+T40	frequency 217 219	qd
+T41	clinicalFeature 224 230	血压控制不佳
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T3 Arg2:T4
+R5	causeClinicalFeature Arg1:T6 Arg2:T7
+R6	causeClinicalFeature Arg1:T6 Arg2:T8
+R7	clinicalFeatureTime Arg1:T7 Arg2:T5
+R8	clinicalFeatureTime Arg1:T8 Arg2:T5
+R11	clinicalFeatureTime Arg1:T10 Arg2:T5
+R12	clinicalFeatureTime Arg1:T11 Arg2:T5
+R13	modificationClinicalFeature Arg1:T12 Arg2:T11
+R15	clinicalFeatureTime Arg1:T15 Arg2:T5
+T118	clinicalFeature 83 85	耳鸣
+T119	clinicalFeature 86 88	耳闭
+R16	negativeClinicalFeature Arg1:T16 Arg2:T118
+R17	negativeClinicalFeature Arg1:T16 Arg2:T119
+R18	negativeClinicalFeature Arg1:T16 Arg2:T17
+R19	negativeClinicalFeature Arg1:T18 Arg2:T19
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R22	clinicalFeatureTime Arg1:T19 Arg2:T5
+R23	clinicalFeatureTime Arg1:T21 Arg2:T5
+T120	disease 200 203	高血压
+R31	timeDisease Arg1:T37 Arg2:T120
+T13	modification 70 76	无咖啡色液体
+R14	modificationClinicalFeature Arg1:T13 Arg2:T11
+R32	doseFrequency Arg1:T39 Arg2:T40
+R33	drugDose Arg1:T38 Arg2:T39
+R36	diseaseClinicalFeature Arg1:T120 Arg2:T41
+T14	cure 219 223	降压治疗
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+T42	modification 37 39	突然
+R37	modificationClinicalFeature Arg1:T42 Arg2:T7
+R9	modificationClinicalFeature Arg1:T9 Arg2:T7
+R10	modificationClinicalFeature Arg1:T9 Arg2:T8

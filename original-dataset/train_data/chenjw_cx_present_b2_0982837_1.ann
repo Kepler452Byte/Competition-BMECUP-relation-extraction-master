@@ -1,0 +1,10 @@
+T1	time 6 9	6年前
+T2	cause 12 16	检查发现
+T3	disease 16 20	左肾囊肿
+T4	clinicalFeature 23 25	恶心
+T5	clinicalFeature 25 27	呕吐
+R1	causeDisease Arg1:T2 Arg2:T3
+R2	timeDisease Arg1:T1 Arg2:T3
+T8	time 21 23	平素
+R3	clinicalFeatureTime Arg1:T4 Arg2:T8
+R4	clinicalFeatureTime Arg1:T5 Arg2:T8

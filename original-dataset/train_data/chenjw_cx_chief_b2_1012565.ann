@@ -1,0 +1,5 @@
+T1	clinicalFeature 3 7	胡言乱语
+T2	clinicalFeature 8 10	幻觉
+T5	time 10 13	2个月
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5

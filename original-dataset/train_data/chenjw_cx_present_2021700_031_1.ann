@@ -1,0 +1,15 @@
+T1	time 9 14	10余年前
+T2	clinicalFeature 19 23	血糖升高
+T3	negative 26 27	无
+T4	clinicalFeature 27 29	口干
+T5	clinicalFeature 29 31	多饮
+T6	clinicalFeature 31 33	多尿
+T9	cause 14 19	体检时发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T9 Arg2:T2
+R3	negativeClinicalFeature Arg1:T3 Arg2:T4
+R4	negativeClinicalFeature Arg1:T3 Arg2:T5
+R5	negativeClinicalFeature Arg1:T3 Arg2:T6
+R6	clinicalFeatureTime Arg1:T4 Arg2:T1
+R7	clinicalFeatureTime Arg1:T5 Arg2:T1
+R8	clinicalFeatureTime Arg1:T6 Arg2:T1

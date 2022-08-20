@@ -1,0 +1,5 @@
+T1	modification 3 5	突发
+T2	clinicalFeature 5 11	心跳呼吸骤停
+T5	time 11 14	7分钟
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5

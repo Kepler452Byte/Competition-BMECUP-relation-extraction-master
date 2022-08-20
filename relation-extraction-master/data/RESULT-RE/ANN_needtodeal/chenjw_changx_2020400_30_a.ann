@@ -1,0 +1,70 @@
+T1	modification 4 6	反复
+T2	body 6 9	右下肢
+T3	clinicalFeature 6 13	右下肢酸胀麻木
+T4	clinicalFeature 9 11	酸胀
+T5	time 13 16	1年余
+T6	trend 17 19	加重
+T7	time 19 22	2月余
+T8	time 31 35	1年余前
+T9	cause 35 40	无明显诱因
+T10	body 43 46	右下肢
+T11	clinicalFeature 43 50	右下肢酸胀麻木
+T12	modification 52 55	阵发性
+T13	modification 56 60	程度一般
+T14	clinicalFeature 73 80	日常生活无影响
+T15	cure 83 87	未予重视
+T16	cure 88 92	未予诊治
+T17	time 93 96	1年余
+T18	modification 101 103	反复
+T19	cure 105 111	曾予多次理疗
+T20	cure 105 113	曾予多次理疗治疗
+T21	trend 113 117	效果不佳
+T22	time 118 122	2月余前
+T23	cause 122 127	无明显诱因
+T24	trend 136 140	较前加重
+T25	modification 141 143	难忍
+T26	modification 144 148	晨起明显
+T27	trend 153 157	稍有减轻
+T28	modification 162 166	非间歇性
+T29	clinicalFeature 167 173	夜间酸胀麻木
+T30	clinicalFeature 176 180	睡觉难安
+T31	body 182 185	骶尾部
+T32	modification 185 187	时有
+T33	clinicalFeature 187 189	胀痛
+T34	negative 193 194	无
+T35	clinicalFeature 194 200	肢体痉挛抽搐
+T36	negative 201 202	无
+T37	clinicalFeature 202 204	胸闷
+T38	clinicalFeature 204 206	心悸
+T39	negative 207 208	无
+T40	clinicalFeature 208 212	二便失禁
+T41	auxiliaryExamination 225 229	腰椎MR
+T42	body 237 244	L3/4椎间盘
+T43	auxiliaryDescript 244 246	膨出
+T44	body 247 254	L4/5椎间盘
+T45	auxiliaryDescript 254 257	膨突出
+T46	disease 259 268	L5椎体上缘终板炎
+T47	disease 275 281	腰椎间盘突出
+T48	disease 282 287	坐骨神经痛
+T49	cure 296 302	封闭对症治疗
+T50	trend 307 312	无明显好转
+T51	disease 336 342	腰椎间盘突出
+R1	modificationClinicalfeature Arg1:T1 Arg2:T3
+R2	modificationClinicalfeature Arg1:T1 Arg2:T4
+R3	bodyClinicalfeature Arg1:T3 Arg2:T3
+R4	clinicalFeatureTrend Arg1:T3 Arg2:T6
+R5	clinicalFeatureTrend Arg1:T4 Arg2:T6
+R6	causeClinicalfeature Arg1:T9 Arg2:T11
+R7	bodyClinicalfeature Arg1:T11 Arg2:T11
+R8	clinicalFeatureTime Arg1:T11 Arg2:T8
+R9	modificationClinicalfeature Arg1:T12 Arg2:T11
+R10	modificationClinicalfeature Arg1:T13 Arg2:T11
+R11	clinicalFeatureTime Arg1:T14 Arg2:T8
+R12	cureTime Arg1:T15 Arg2:T8
+R13	cureTime Arg1:T16 Arg2:T8
+R14	cureTime Arg1:T20 Arg2:T17
+R15	negativeClinicalfeature Arg1:T34 Arg2:T35
+R16	negativeClinicalfeature Arg1:T36 Arg2:T38
+R17	negativeClinicalfeature Arg1:T39 Arg2:T40
+R18	bodyAuxiliarydescript Arg1:T42 Arg2:T43
+R19	bodyAuxiliarydescript Arg1:T44 Arg2:T45

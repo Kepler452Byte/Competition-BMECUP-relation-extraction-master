@@ -1,0 +1,57 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	头晕
+T3	time 8 10	3天
+T4	time 19 22	3天前
+T5	cause 22 27	无明显诱因
+T6	clinicalFeature 30 32	头晕
+T7	modification 34 37	阵发性
+T8	clinicalFeature 44 46	恶心
+T9	negative 47 48	无
+T10	clinicalFeature 48 50	呕吐
+T11	negative 52 53	无
+T12	clinicalFeature 53 57	视物旋转
+T13	negative 58 59	无
+T14	clinicalFeature 59 63	走路不稳
+T16	clinicalFeature 81 86	上腹部不适
+T17	clinicalFeature 90 93	烧心感
+T18	negative 94 95	无
+T19	clinicalFeature 95 97	腹泻
+T20	negative 98 99	无
+T21	clinicalFeature 99 103	意识障碍
+T22	negative 104 105	无
+T23	clinicalFeature 105 109	大汗淋漓
+T24	disease 125 129	头晕待查
+T37	disease 179 183	高血压病
+T38	drug 188 193	非洛地平片
+T39	dose 194 199	2.5mg
+T40	frequency 200 202	qd
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T6 Arg2:T4
+R4	causeClinicalFeature Arg1:T5 Arg2:T6
+T117	modification 38 43	与体位无关
+R7	clinicalFeatureTime Arg1:T8 Arg2:T4
+R8	negativeClinicalFeature Arg1:T9 Arg2:T10
+R9	clinicalFeatureTime Arg1:T10 Arg2:T4
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	clinicalFeatureTime Arg1:T12 Arg2:T4
+R12	negativeClinicalFeature Arg1:T13 Arg2:T14
+R13	clinicalFeatureTime Arg1:T14 Arg2:T4
+T118	cure 72 77	期间未处理
+R15	cureTime Arg1:T118 Arg2:T4
+T119	modification 88 90	时有
+R19	negativeClinicalFeature Arg1:T18 Arg2:T19
+R21	negativeClinicalFeature Arg1:T20 Arg2:T21
+R23	negativeClinicalFeature Arg1:T22 Arg2:T23
+R32	drugDose Arg1:T38 Arg2:T39
+R33	drugFrequency Arg1:T38 Arg2:T40
+T122	time 78 80	平素
+R16	clinicalFeatureTime Arg1:T16 Arg2:T122
+R18	clinicalFeatureTime Arg1:T17 Arg2:T122
+R20	clinicalFeatureTime Arg1:T19 Arg2:T122
+R22	clinicalFeatureTime Arg1:T21 Arg2:T122
+R24	clinicalFeatureTime Arg1:T23 Arg2:T122
+R36	doseFrequency Arg1:T39 Arg2:T40
+R2	modificationClinicalFeature Arg1:T1 Arg2:T2
+R5	modificationClinicalFeature Arg1:T7 Arg2:T6
+R6	modificationClinicalFeature Arg1:T117 Arg2:T6
+R17	modificationClinicalFeature Arg1:T119 Arg2:T17

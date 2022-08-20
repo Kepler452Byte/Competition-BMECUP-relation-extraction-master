@@ -1,0 +1,19 @@
+T1	time 6 9	1周来
+T3	clinicalFeature 19 21	咳嗽
+T4	clinicalFeature 21 23	咳痰
+T5	cure 24 27	未处理
+T6	time 28 33	1小时余前
+T7	cause 33 36	散步后
+T8	clinicalFeature 37 39	胸闷
+T9	clinicalFeature 39 41	气急
+T2	cause 12 15	受凉后
+T12	disease 15 17	感冒
+R1	timeDisease Arg1:T1 Arg2:T12
+R2	causeDisease Arg1:T2 Arg2:T12
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	cureTime Arg1:T5 Arg2:T1
+R6	causeClinicalFeature Arg1:T7 Arg2:T8
+R7	causeClinicalFeature Arg1:T7 Arg2:T9
+R8	clinicalFeatureTime Arg1:T8 Arg2:T6
+R9	clinicalFeatureTime Arg1:T9 Arg2:T6

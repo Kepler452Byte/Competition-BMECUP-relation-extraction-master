@@ -1,0 +1,117 @@
+T1	clinicalFeature 4 6	腰痛
+T3	trend 18 20	加重
+T4	time 20 22	4天
+T5	time 31 34	1年前
+T6	cause 34 39	无明显诱因
+T7	clinicalFeature 42 46	腰部疼痛
+T8	clinicalFeature 49 55	右下肢放射痛
+T9	trend 68 74	休息后无好转
+T10	negative 75 76	无
+T11	clinicalFeature 76 78	发热
+T12	negative 79 80	无
+T13	clinicalFeature 80 82	恶心
+T14	clinicalFeature 82 84	呕吐
+T15	negative 85 86	无
+T16	clinicalFeature 86 91	腹部疼痛等
+T17	time 93 96	近几日
+T18	clinicalFeature 99 101	腰痛
+T20	trend 109 111	加重
+T21	auxiliaryExamination 129 133	ct检查
+T25	disease 157 164	腰椎间盘突出症
+T38	clinicalFeature 216 218	神清
+T39	clinicalFeature 219 222	精神可
+T40	sign 223 224	T
+T41	indexValue 224 229	36.8℃
+T42	sign 230 231	R
+T43	indexValue 231 236	18次/分
+T44	sign 237 238	P
+T45	indexValue 238 243	88次/分
+T46	sign 244 246	BP
+T47	indexValue 246 256	145/89mmHg
+T48	body 257 259	两肺
+T49	clinicalFeature 259 263	呼吸音清
+T50	body 264 265	腹
+T51	clinicalFeature 265 266	软
+T53	clinicalFeature 267 270	无压痛
+T54	body 271 274	腰骶部
+T55	clinicalFeature 274 276	压痛
+T57	body 284 287	右下肢
+T58	sign 287 293	直腿抬高试验
+T59	indexValue 293 295	阳性
+T60	sign 298 301	挤压征
+T61	indexValue 301 303	阴性
+T62	sign 304 310	"4"字试验
+T63	indexValue 310 312	阴性
+T64	body 313 315	双侧
+T65	sign 315 319	伸踇肌力
+T66	indexValue 319 321	5级
+T67	sign 322 326	屈踇肌力
+T68	indexValue 326 328	5级
+T69	body 329 331	双侧
+T70	sign 331 334	膝反射
+T71	indexValue 334 336	对症
+T72	body 337 339	足趾
+T73	clinicalFeature 339 343	活动正常
+T74	sign 344 348	生理反射
+T75	indexValue 348 350	存在
+T76	sign 351 355	病理反射
+T77	indexValue 355 358	未引出
+T2	body 7 10	右下肢
+T78	clinicalFeature 10 12	疼痛
+T79	clinicalFeature 12 14	麻木
+R1	bodyClinicalFeature Arg1:T2 Arg2:T78
+R2	bodyClinicalFeature Arg1:T2 Arg2:T79
+R3	clinicalFeatureTrend Arg1:T1 Arg2:T3
+R4	clinicalFeatureTrend Arg1:T78 Arg2:T3
+R5	clinicalFeatureTrend Arg1:T79 Arg2:T3
+R9	causeClinicalFeature Arg1:T6 Arg2:T7
+R10	clinicalFeatureTime Arg1:T7 Arg2:T5
+R11	causeClinicalFeature Arg1:T6 Arg2:T8
+R12	clinicalFeatureTime Arg1:T8 Arg2:T5
+R13	clinicalFeatureTrend Arg1:T8 Arg2:T9
+R14	clinicalFeatureTrend Arg1:T7 Arg2:T9
+T80	cure 64 68	口服药物
+R17	negativeClinicalFeature Arg1:T10 Arg2:T11
+R18	negativeClinicalFeature Arg1:T12 Arg2:T13
+R19	negativeClinicalFeature Arg1:T12 Arg2:T14
+R20	negativeClinicalFeature Arg1:T15 Arg2:T16
+R21	clinicalFeatureTime Arg1:T18 Arg2:T17
+T19	body 102 105	右下肢
+T81	clinicalFeature 105 107	疼痛
+T82	clinicalFeature 107 109	麻木
+R22	bodyClinicalFeature Arg1:T19 Arg2:T81
+R23	bodyClinicalFeature Arg1:T19 Arg2:T82
+R24	clinicalFeatureTrend Arg1:T82 Arg2:T20
+R25	clinicalFeatureTrend Arg1:T81 Arg2:T20
+R26	clinicalFeatureTrend Arg1:T18 Arg2:T20
+T22	body 135 140	L5/S1
+T23	auxiliaryDescript 140 147	椎间盘向后突出
+R27	bodyAuxiliaryDescript Arg1:T22 Arg2:T23
+R28	auxiliaryExaminationAuxiliaryDescript Arg1:T21 Arg2:T23
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	signIndexValue Arg1:T46 Arg2:T47
+R40	bodyClinicalFeature Arg1:T48 Arg2:T49
+R41	bodyClinicalFeature Arg1:T50 Arg2:T51
+R43	bodyClinicalFeature Arg1:T50 Arg2:T53
+R44	bodyClinicalFeature Arg1:T54 Arg2:T55
+T56	body 277 280	右臀部
+R45	bodyClinicalFeature Arg1:T56 Arg2:T55
+R46	signIndexValue Arg1:T58 Arg2:T59
+R47	bodySign Arg1:T57 Arg2:T58
+R48	signIndexValue Arg1:T60 Arg2:T61
+T83	body 296 298	骨盆
+R49	bodySign Arg1:T83 Arg2:T60
+R50	signIndexValue Arg1:T62 Arg2:T63
+R51	signIndexValue Arg1:T65 Arg2:T66
+R52	bodySign Arg1:T64 Arg2:T65
+R53	signIndexValue Arg1:T67 Arg2:T68
+R54	signIndexValue Arg1:T70 Arg2:T71
+R55	bodySign Arg1:T69 Arg2:T70
+R56	bodyClinicalFeature Arg1:T72 Arg2:T73
+R57	signIndexValue Arg1:T74 Arg2:T75
+R58	signIndexValue Arg1:T76 Arg2:T77
+T52	time 16 18	1年
+R7	clinicalFeatureTime Arg1:T79 Arg2:T52
+R8	clinicalFeatureTime Arg1:T78 Arg2:T52

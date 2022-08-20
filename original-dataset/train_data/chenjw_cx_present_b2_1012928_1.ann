@@ -1,0 +1,9 @@
+T1	time 6 11	4小时余前
+T2	body 33 36	头面部
+T3	body 37 40	双下肢
+T4	clinicalFeature 44 46	疼痛
+T7	cause 24 31	与对方货车相撞
+R1	bodyClinicalFeature Arg1:T3 Arg2:T4
+R2	bodyClinicalFeature Arg1:T2 Arg2:T4
+R3	causeClinicalFeature Arg1:T7 Arg2:T4
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1

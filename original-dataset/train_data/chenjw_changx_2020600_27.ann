@@ -1,0 +1,122 @@
+T4	time 17 20	6小时
+T5	time 31 35	6小时前
+T10	clinicalFeature 63 70	肩关节活动受限
+T11	body 71 74	左手指
+T12	clinicalFeature 77 79	麻木
+T15	disease 125 130	左锁骨骨折
+T30	drug 186 192	具体药物不详
+T31	clinicalFeature 193 198	血压控制可
+T32	sign 206 208	T:
+T35	clinicalFeature 247 250	精神可
+T36	body 251 253	双瞳
+T37	clinicalFeature 253 257	等大等圆
+T38	clinicalFeature 258 264	Φ3.0mm
+T39	clinicalFeature 265 271	对光反射灵敏
+T40	body 272 275	心前区
+T41	clinicalFeature 275 278	无膨隆
+T42	clinicalFeature 280 288	未闻及病理性杂音
+T43	body 289 291	双肺
+T44	clinicalFeature 291 297	呼吸运动对称
+T45	body 298 300	双肺
+T46	clinicalFeature 300 305	呼吸音清晰
+T47	clinicalFeature 306 318	未闻及干、湿罗音及啸鸣音
+T48	body 319 320	腹
+T49	clinicalFeature 320 322	平坦
+T50	body 323 327	肝、脾区
+T52	clinicalFeature 332 334	压痛
+T57	clinicalFeature 371 373	压痛
+T58	clinicalFeature 375 379	活动受限
+T59	body 380 383	左手指
+T60	clinicalFeature 383 388	无明显麻木
+T61	body 389 393	左桡动脉
+T62	clinicalFeature 393 395	可及
+T63	body 396 399	右上肢
+T64	body 401 404	右下肢
+T65	clinicalFeature 404 410	未见明显异常
+T66	sign 411 414	病理征
+T67	indexValue 414 417	未引出
+T1	body 8 10	左肩
+T2	body 11 15	左侧胸部
+T3	clinicalFeature 15 17	疼痛
+R1	bodyClinicalFeature Arg1:T1 Arg2:T3
+R2	bodyClinicalFeature Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+T6	cause 42 44	摔倒
+T68	body 47 49	左肩
+T7	body 50 54	左侧胸部
+T8	body 55 57	左肩
+T9	clinicalFeature 57 59	肿胀
+R4	clinicalFeatureTime Arg1:T9 Arg2:T5
+R5	causeClinicalFeature Arg1:T6 Arg2:T9
+R6	bodyClinicalFeature Arg1:T68 Arg2:T9
+R7	bodyClinicalFeature Arg1:T7 Arg2:T9
+R8	bodyClinicalFeature Arg1:T8 Arg2:T9
+R9	clinicalFeatureTime Arg1:T10 Arg2:T5
+R10	causeClinicalFeature Arg1:T6 Arg2:T10
+R11	bodyClinicalFeature Arg1:T11 Arg2:T12
+R12	clinicalFeatureTime Arg1:T12 Arg2:T5
+T69	auxiliaryExamination 92 96	CT检查
+T13	body 98 101	左锁骨
+T14	auxiliaryDescript 101 103	骨折
+R13	bodyAuxiliaryDescript Arg1:T13 Arg2:T14
+R14	auxiliaryExaminationAuxiliaryDescript Arg1:T69 Arg2:T14
+T28	disease 175 178	高血压
+T71	time 178 180	3年
+R22	timeDisease Arg1:T71 Arg2:T28
+R23	diseaseClinicalFeature Arg1:T28 Arg2:T31
+T29	indexValue 208 213	37.2℃
+T33	sign 214 215	P
+T72	indexValue 216 221	84bpm
+T73	sign 222 224	BP
+T74	indexValue 225 235	136/74mmhg
+T34	sign 236 237	R
+T75	indexValue 238 240	18
+T76	clinicalFeature 244 246	神清
+R25	signIndexValue Arg1:T32 Arg2:T29
+R26	signIndexValue Arg1:T33 Arg2:T72
+R27	signIndexValue Arg1:T73 Arg2:T74
+R28	signIndexValue Arg1:T34 Arg2:T75
+R29	bodyClinicalFeature Arg1:T36 Arg2:T37
+R30	bodyClinicalFeature Arg1:T36 Arg2:T38
+R31	bodyClinicalFeature Arg1:T36 Arg2:T39
+R32	bodyClinicalFeature Arg1:T40 Arg2:T41
+R33	bodyClinicalFeature Arg1:T40 Arg2:T42
+R34	bodyClinicalFeature Arg1:T43 Arg2:T44
+R35	bodyClinicalFeature Arg1:T45 Arg2:T46
+R36	bodyClinicalFeature Arg1:T45 Arg2:T47
+R37	bodyClinicalFeature Arg1:T48 Arg2:T49
+T51	negative 327 329	未及
+T77	clinicalFeature 329 331	叩痛
+R38	negativeClinicalFeature Arg1:T51 Arg2:T77
+R39	negativeClinicalFeature Arg1:T51 Arg2:T52
+R40	bodyClinicalFeature Arg1:T50 Arg2:T77
+R41	bodyClinicalFeature Arg1:T50 Arg2:T52
+T53	sign 335 339	墨菲氏征
+T78	indexValue 339 341	阴性
+R42	signIndexValue Arg1:T53 Arg2:T78
+T80	indexValue 352 354	调中
+T55	sign 356 360	神经系统
+T81	indexValue 360 362	阴性
+R44	signIndexValue Arg1:T55 Arg2:T81
+T56	body 363 366	左肩部
+T82	clinicalFeature 366 370	肿胀明显
+R45	bodyClinicalFeature Arg1:T56 Arg2:T82
+R46	bodyClinicalFeature Arg1:T56 Arg2:T57
+R47	bodyClinicalFeature Arg1:T56 Arg2:T58
+R48	bodyClinicalFeature Arg1:T59 Arg2:T60
+R49	bodyClinicalFeature Arg1:T61 Arg2:T62
+R50	bodyClinicalFeature Arg1:T63 Arg2:T65
+R51	bodyClinicalFeature Arg1:T64 Arg2:T65
+R52	signIndexValue Arg1:T66 Arg2:T67
+R53	auxiliaryExaminationTime Arg1:T69 Arg2:T5
+T83	cure 181 185	药物治疗
+T54	sign 342 345	肠鸣音
+T79	indexValue 345 351	4-5bpm
+R43	signIndexValue Arg1:T54 Arg2:T79
+R56	signIndexValue Arg1:T54 Arg2:T80
+T84	cause 4 6	摔倒
+R57	causeClinicalFeature Arg1:T84 Arg2:T3
+T85	modification 59 61	明显
+R58	modificationClinicalFeature Arg1:T85 Arg2:T9
+T87	modification 74 77	无明显
+R59	modificationClinicalFeature Arg1:T87 Arg2:T12

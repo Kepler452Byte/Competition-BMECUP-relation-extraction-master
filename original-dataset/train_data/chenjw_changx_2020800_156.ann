@@ -1,0 +1,100 @@
+T1	clinicalFeature 14 16	疼痛
+T2	time 16 19	半小时
+T3	time 29 33	半小时余
+T4	clinicalFeature 39 44	头腹部受伤
+T5	clinicalFeature 47 50	神志清
+T6	clinicalFeature 52 57	左眼部出血
+T7	clinicalFeature 58 60	腹胀
+T8	negative 63 64	无
+T9	clinicalFeature 64 66	恶心
+T10	clinicalFeature 66 68	呕吐
+T11	negative 69 70	无
+T12	clinicalFeature 70 74	肢体抽搐
+T13	negative 75 76	无
+T14	clinicalFeature 76 81	大小便失禁
+T15	negative 82 83	无
+T16	clinicalFeature 83 89	耳鼻流血流液
+T17	auxiliaryExamination 100 104	头颅CT
+T18	disease 106 110	颅骨骨折
+T19	disease 116 120	胰头损伤
+T21	disease 144 148	腹胀待查
+T22	disease 153 162	头面部外伤颅骨骨折
+T23	disease 163 167	颅内积气
+T24	disease 168 172	胰头损伤
+T25	disease 173 177	眼眶骨折
+T36	sign 229 230	T
+T37	indexValue 230 235	37.2℃
+T38	sign 236 237	P
+T39	indexValue 237 242	84次/分
+T40	sign 243 244	R
+T41	indexValue 244 249	26次/分
+T42	sign 250 252	Bp
+T43	indexValue 252 262	130/84mmHg
+T44	clinicalFeature 263 266	神志清
+T45	clinicalFeature 272 276	较多血迹
+T46	clinicalFeature 277 283	敷料包扎在位
+T47	body 284 285	颈
+T48	clinicalFeature 285 286	软
+T49	body 287 289	胸部
+T50	clinicalFeature 289 292	无压痛
+T51	body 295 297	双肺
+T52	clinicalFeature 297 301	呼吸音粗
+T53	clinicalFeature 303 313	可闻及散在干湿性啰音
+T54	sign 314 316	心率
+T55	indexValue 316 322	：84次/分
+T56	clinicalFeature 323 325	律齐
+T57	clinicalFeature 326 333	未及病理性杂音
+T58	body 334 336	腹部
+T59	clinicalFeature 336 338	膨隆
+T60	clinicalFeature 339 343	压痛明显
+T61	body 344 347	双下肢
+T62	clinicalFeature 349 351	擦伤
+T63	cause 4 6	车祸
+R1	causeClinicalFeature Arg1:T63 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T64	cause 35 38	车祸后
+R3	causeClinicalFeature Arg1:T64 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	clinicalFeatureTime Arg1:T9 Arg2:T3
+R9	negativeClinicalFeature Arg1:T8 Arg2:T10
+R10	clinicalFeatureTime Arg1:T10 Arg2:T3
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	negativeClinicalFeature Arg1:T13 Arg2:T14
+R14	clinicalFeatureTime Arg1:T14 Arg2:T3
+R15	negativeClinicalFeature Arg1:T15 Arg2:T16
+R16	clinicalFeatureTime Arg1:T16 Arg2:T3
+T65	disease 111 115	颅内积气
+T66	disease 121 125	眼眶骨折
+T67	cure 129 133	清创缝合
+T68	disease 149 152	肠穿孔
+R32	signIndexValue Arg1:T36 Arg2:T37
+R33	signIndexValue Arg1:T38 Arg2:T39
+R34	signIndexValue Arg1:T40 Arg2:T41
+R35	signIndexValue Arg1:T42 Arg2:T43
+T69	body 267 270	头面部
+R36	bodyClinicalFeature Arg1:T69 Arg2:T45
+R38	bodyClinicalFeature Arg1:T47 Arg2:T48
+R39	bodyClinicalFeature Arg1:T49 Arg2:T50
+R40	bodyClinicalFeature Arg1:T51 Arg2:T52
+R41	bodyClinicalFeature Arg1:T51 Arg2:T53
+R42	signIndexValue Arg1:T54 Arg2:T55
+R43	bodyClinicalFeature Arg1:T58 Arg2:T59
+R45	bodyClinicalFeature Arg1:T61 Arg2:T62
+R37	bodyClinicalFeature Arg1:T69 Arg2:T46
+R44	bodyClinicalFeature Arg1:T58 Arg2:T60
+R47	cureTime Arg1:T67 Arg2:T3
+T70	body 7 9	头部
+T73	body 10 12	腹部
+T74	clinicalFeature 12 14	外伤
+R48	bodyBody Arg1:T70 Arg2:T73
+R49	bodyClinicalFeature Arg1:T70 Arg2:T1
+R50	bodyClinicalFeature Arg1:T73 Arg2:T74
+R51	bodyClinicalFeature Arg1:T73 Arg2:T1
+R52	causeClinicalFeature Arg1:T63 Arg2:T74
+R53	clinicalFeatureTime Arg1:T74 Arg2:T2
+T75	modification 60 62	明显
+R54	modificationClinicalFeature Arg1:T75 Arg2:T7

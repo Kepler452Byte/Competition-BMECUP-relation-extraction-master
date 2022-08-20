@@ -1,0 +1,98 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 11	左肩外伤
+T3	time 11 14	2小时
+T4	time 27 31	2小时前
+T5	cause 37 39	摔倒
+T6	clinicalFeature 41 47	左侧肩部外伤
+T7	body 49 52	左肩部
+T8	clinicalFeature 52 56	活动受限
+T9	modification 59 61	剧烈
+T11	body 72 74	左肩
+T12	clinicalFeature 74 76	疼痛
+T13	modification 77 79	稍有
+T14	clinicalFeature 79 83	活动受限
+T15	body 84 87	余肢体
+T16	clinicalFeature 87 90	无外伤
+T17	auxiliaryExamination 99 101	摄片
+T19	auxiliaryDescript 103 117	左肩关节脱位伴肱骨大结节骨折
+T21	disease 132 146	左肩关节脱位伴肱骨大结节骨折
+T34	sign 199 201	体温
+T35	indexValue 201 204	37℃
+T36	sign 205 207	脉搏
+T37	indexValue 207 212	72次/分
+T38	sign 213 215	呼吸
+T39	indexValue 215 220	18次/分
+T40	sign 221 223	血压
+T41	indexValue 223 233	119/62mmHg
+T42	clinicalFeature 234 236	神清
+T43	clinicalFeature 237 240	精神可
+T44	body 241 243	头部
+T45	clinicalFeature 243 246	无畸形
+T46	body 247 249	双瞳
+T47	clinicalFeature 249 253	等大等圆
+T48	clinicalFeature 254 260	Φ3.0mm
+T49	clinicalFeature 261 267	对光反射灵敏
+T50	body 268 269	颈
+T51	clinicalFeature 269 270	软
+T52	sign 272 275	颈抵抗
+T53	indexValue 275 277	阴性
+T54	sign 278 281	克氏征
+T55	indexValue 281 283	阴性
+T56	body 284 285	心
+T57	body 285 286	肺
+T58	clinicalFeature 286 294	听诊未及明显异常
+T59	body 295 297	脊柱
+T60	clinicalFeature 297 303	生理弯曲存在
+T61	clinicalFeature 304 310	未见明显侧弯
+T62	body 311 313	左肩
+T63	clinicalFeature 313 315	压痛
+T64	clinicalFeature 316 318	肿胀
+T65	clinicalFeature 319 323	活动受限
+T66	body 325 327	余肢
+T67	clinicalFeature 327 334	感觉、运动良好
+T68	sign 335 339	生理反射
+T69	indexValue 339 341	存在
+T70	sign 342 346	病理反射
+T71	indexValue 346 349	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	causeClinicalFeature Arg1:T1 Arg2:T2
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	clinicalFeatureTime Arg1:T6 Arg2:T4
+R5	bodyClinicalFeature Arg1:T7 Arg2:T8
+R8	bodyClinicalFeature Arg1:T11 Arg2:T12
+R10	bodyClinicalFeature Arg1:T11 Arg2:T14
+R11	bodyClinicalFeature Arg1:T15 Arg2:T16
+R13	clinicalFeatureTime Arg1:T12 Arg2:T4
+R14	clinicalFeatureTime Arg1:T14 Arg2:T4
+R15	clinicalFeatureTime Arg1:T16 Arg2:T4
+R17	auxiliaryExaminationAuxiliaryDescript Arg1:T17 Arg2:T19
+R24	signIndexValue Arg1:T34 Arg2:T35
+R25	signIndexValue Arg1:T36 Arg2:T37
+R26	signIndexValue Arg1:T38 Arg2:T39
+R27	signIndexValue Arg1:T40 Arg2:T41
+R28	bodyClinicalFeature Arg1:T44 Arg2:T45
+R29	bodyClinicalFeature Arg1:T46 Arg2:T47
+R30	bodyClinicalFeature Arg1:T46 Arg2:T48
+R31	bodyClinicalFeature Arg1:T46 Arg2:T49
+R32	bodyClinicalFeature Arg1:T50 Arg2:T51
+R33	signIndexValue Arg1:T52 Arg2:T53
+R34	signIndexValue Arg1:T54 Arg2:T55
+R35	bodyClinicalFeature Arg1:T56 Arg2:T58
+R36	bodyClinicalFeature Arg1:T57 Arg2:T58
+R37	bodyClinicalFeature Arg1:T59 Arg2:T60
+R38	bodyClinicalFeature Arg1:T59 Arg2:T61
+R39	bodyClinicalFeature Arg1:T62 Arg2:T63
+R40	bodyClinicalFeature Arg1:T62 Arg2:T64
+R41	bodyClinicalFeature Arg1:T62 Arg2:T65
+R42	bodyClinicalFeature Arg1:T66 Arg2:T67
+R43	signIndexValue Arg1:T68 Arg2:T69
+R44	signIndexValue Arg1:T70 Arg2:T71
+T18	clinicalFeature 57 59	疼痛
+R45	bodyClinicalFeature Arg1:T7 Arg2:T18
+R6	modificationClinicalFeature Arg1:T9 Arg2:T18
+T10	modification 63 71	持续性酸胀样疼痛
+R7	modificationClinicalFeature Arg1:T10 Arg2:T18
+T72	modification 0 69	主诉: 摔伤致左肩外伤2小时。 
+现病史:患者自诉缘于2小时前骑电瓶车不慎摔倒，致左侧肩部外伤，伴左肩部活动受限，疼痛剧烈，呈持续性酸胀样
+R12	modificationClinicalFeature Arg1:T72 Arg2:T18
+R9	modificationClinicalFeature Arg1:T13 Arg2:T14

@@ -1,0 +1,11 @@
+T1	time 7 10	半年前
+T2	sign 14 16	血压
+T3	indexValue 16 32	为230-240/180mmHg
+T4	disease 50 61	高血压3级（极高危组）
+T5	disease 64 69	肝功能不全
+T6	disease 72 84	睡眠呼吸暂停低通气综合征
+T7	disease 87 91	高脂血症
+T8	disease 94 97	脂肪肝
+R1	signIndexValue Arg1:T2 Arg2:T3
+T11	clinicalFeature 11 13	头昏
+R2	clinicalFeatureTime Arg1:T11 Arg2:T1

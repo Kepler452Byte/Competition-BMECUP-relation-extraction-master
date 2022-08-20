@@ -1,0 +1,5 @@
+T1	time 6 9	1年前
+T2	cause 9 14	检查时发现
+T3	disease 14 18	胆管占位
+R1	timeDisease Arg1:T1 Arg2:T3
+R2	causeDisease Arg1:T2 Arg2:T3

@@ -1,0 +1,100 @@
+T1	clinicalFeature 9 17	左手拇指疼痛出血
+T2	time 17 20	5小时
+T3	time 30 34	5小时前
+T6	clinicalFeature 59 61	疼痛
+T7	clinicalFeature 62 64	出血
+T8	modification 65 67	较剧
+T9	modification 68 72	程度剧烈
+T10	negative 73 74	无
+T11	clinicalFeature 74 76	畏寒
+T12	clinicalFeature 76 78	发热
+T13	negative 79 80	无
+T14	clinicalFeature 80 82	胸闷
+T15	clinicalFeature 82 84	气急
+T16	negative 85 86	无
+T17	clinicalFeature 86 88	腹痛
+T18	negative 89 90	无
+T19	clinicalFeature 90 95	头腹部外伤
+T20	auxiliaryExamination 108 110	X线
+T21	body 112 115	左拇指
+T22	auxiliaryDescript 115 117	骨折
+T24	disease 137 143	左拇指切割伤
+T25	disease 144 152	左拇指开放性骨折
+T38	sign 199 200	T
+T39	indexValue 200 205	36.1℃
+T40	sign 206 207	R
+T41	indexValue 207 212	18次/分
+T42	sign 213 214	P
+T43	indexValue 214 219	89次/分
+T44	sign 220 222	BP
+T45	indexValue 222 232	138/97mmHg
+T46	clinicalFeature 233 235	神清
+T47	clinicalFeature 236 239	精神可
+T48	body 240 244	双侧瞳孔
+T49	clinicalFeature 244 248	等大等圆
+T50	clinicalFeature 249 255	直径约3mm
+T51	clinicalFeature 256 261	光反射灵敏
+T52	clinicalFeature 262 268	生命体征正常
+T53	body 270 272	脊柱
+T54	clinicalFeature 272 278	生理弯曲存在
+T55	body 279 282	各棘突
+T56	clinicalFeature 283 285	压痛
+T57	clinicalFeature 286 289	叩击痛
+T58	body 290 296	左手拇指末节
+T59	clinicalFeature 296 302	敷料明显渗血
+T60	body 303 307	左手手指
+T61	clinicalFeature 307 313	末梢血运尚可
+T62	body 315 318	余肢体
+T63	clinicalFeature 318 324	未见明显异常
+T64	sign 325 329	生理反射
+T65	indexValue 329 331	存在
+T66	sign 332 336	病理反射
+T67	indexValue 336 339	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T4	cause 6 8	割伤
+R2	causeClinicalFeature Arg1:T4 Arg2:T1
+T5	cause 43 45	割伤
+T68	body 55 59	左手拇指
+R3	bodyClinicalFeature Arg1:T68 Arg2:T6
+R4	bodyClinicalFeature Arg1:T68 Arg2:T7
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T10 Arg2:T12
+R11	negativeClinicalFeature Arg1:T13 Arg2:T14
+R12	negativeClinicalFeature Arg1:T13 Arg2:T15
+R13	negativeClinicalFeature Arg1:T16 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T19
+R15	causeClinicalFeature Arg1:T5 Arg2:T6
+R16	causeClinicalFeature Arg1:T5 Arg2:T7
+R17	clinicalFeatureTime Arg1:T6 Arg2:T3
+R18	clinicalFeatureTime Arg1:T7 Arg2:T3
+R19	clinicalFeatureTime Arg1:T11 Arg2:T3
+R20	clinicalFeatureTime Arg1:T12 Arg2:T3
+R21	clinicalFeatureTime Arg1:T14 Arg2:T3
+R22	clinicalFeatureTime Arg1:T15 Arg2:T3
+R23	clinicalFeatureTime Arg1:T17 Arg2:T3
+R24	clinicalFeatureTime Arg1:T19 Arg2:T3
+R25	bodyAuxiliaryDescript Arg1:T21 Arg2:T22
+R26	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T22
+R35	signIndexValue Arg1:T38 Arg2:T39
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	bodyClinicalFeature Arg1:T48 Arg2:T49
+R40	bodyClinicalFeature Arg1:T48 Arg2:T50
+R41	bodyClinicalFeature Arg1:T48 Arg2:T51
+R42	bodyClinicalFeature Arg1:T53 Arg2:T54
+T69	negative 282 283	无
+R43	negativeClinicalFeature Arg1:T69 Arg2:T56
+R44	negativeClinicalFeature Arg1:T69 Arg2:T57
+R45	bodyClinicalFeature Arg1:T55 Arg2:T56
+R46	bodyClinicalFeature Arg1:T55 Arg2:T57
+R47	bodyClinicalFeature Arg1:T58 Arg2:T59
+R48	bodyClinicalFeature Arg1:T60 Arg2:T61
+R49	bodyClinicalFeature Arg1:T62 Arg2:T63
+R50	signIndexValue Arg1:T64 Arg2:T65
+R51	signIndexValue Arg1:T66 Arg2:T67
+R52	auxiliaryExaminationTime Arg1:T20 Arg2:T3
+R5	modificationClinicalFeature Arg1:T8 Arg2:T7
+R6	modificationClinicalFeature Arg1:T8 Arg2:T6
+R7	modificationClinicalFeature Arg1:T9 Arg2:T6
+R8	modificationClinicalFeature Arg1:T9 Arg2:T7

@@ -1,0 +1,8 @@
+T1	clinicalFeature 8 10	肿块
+T4	clinicalFeature 10 12	疼痛
+T5	body 5 8	右环指
+R1	bodyClinicalFeature Arg1:T5 Arg2:T1
+R2	bodyClinicalFeature Arg1:T5 Arg2:T4
+T6	time 14 16	1年
+R3	clinicalFeatureTime Arg1:T4 Arg2:T6
+R4	clinicalFeatureTime Arg1:T1 Arg2:T6

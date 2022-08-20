@@ -1,0 +1,68 @@
+T1	clinicalFeature 7 9	头晕
+T2	clinicalFeature 10 14	视物旋转
+T3	time 14 16	半月
+T4	time 27 30	半月前
+T5	cause 32 37	无明显诱因
+T6	clinicalFeature 39 41	头晕
+T7	clinicalFeature 42 46	视物旋转
+T10	negative 75 76	无
+T11	clinicalFeature 76 78	耳鸣
+T12	negative 79 80	无
+T13	clinicalFeature 80 82	恶心
+T14	clinicalFeature 83 85	呕吐
+T16	negative 94 95	无
+T17	clinicalFeature 95 99	走路不稳
+T18	negative 100 101	无
+T19	clinicalFeature 101 108	肢体无力、麻木
+T20	negative 109 110	无
+T21	clinicalFeature 110 114	口齿不清
+T22	negative 115 116	无
+T23	clinicalFeature 116 118	腹痛
+T24	clinicalFeature 118 120	腹泻
+T25	negative 121 122	无
+T26	clinicalFeature 122 124	胸闷
+T27	clinicalFeature 124 126	气促
+T28	negative 127 128	无
+T29	clinicalFeature 128 132	四肢抽搐
+T30	cure 138 144	未予特殊处置
+T33	disease 174 180	眩晕原因待查
+T46	disease 226 230	高血压病
+T47	drug 237 241	具体不详
+T48	clinicalFeature 243 247	控制一般
+T126	modification 4 7	发作性
+R3	clinicalFeatureTime Arg1:T2 Arg2:T3
+R4	clinicalFeatureTime Arg1:T1 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	causeClinicalFeature Arg1:T5 Arg2:T6
+R8	causeClinicalFeature Arg1:T5 Arg2:T7
+R12	negativeClinicalFeature Arg1:T10 Arg2:T11
+R13	negativeClinicalFeature Arg1:T12 Arg2:T13
+R14	negativeClinicalFeature Arg1:T12 Arg2:T14
+R16	clinicalFeatureTime Arg1:T11 Arg2:T4
+R17	clinicalFeatureTime Arg1:T13 Arg2:T4
+R18	clinicalFeatureTime Arg1:T14 Arg2:T4
+R19	negativeClinicalFeature Arg1:T16 Arg2:T17
+R20	negativeClinicalFeature Arg1:T18 Arg2:T19
+R21	negativeClinicalFeature Arg1:T20 Arg2:T21
+R22	negativeClinicalFeature Arg1:T22 Arg2:T23
+R23	negativeClinicalFeature Arg1:T22 Arg2:T24
+R24	negativeClinicalFeature Arg1:T25 Arg2:T26
+R25	negativeClinicalFeature Arg1:T25 Arg2:T27
+R26	negativeClinicalFeature Arg1:T28 Arg2:T29
+R27	clinicalFeatureTime Arg1:T17 Arg2:T4
+R28	clinicalFeatureTime Arg1:T19 Arg2:T4
+R29	clinicalFeatureTime Arg1:T21 Arg2:T4
+R30	clinicalFeatureTime Arg1:T23 Arg2:T4
+R31	clinicalFeatureTime Arg1:T26 Arg2:T4
+R32	clinicalFeatureTime Arg1:T27 Arg2:T4
+R33	clinicalFeatureTime Arg1:T29 Arg2:T4
+T32	trend 147 150	无好转
+R34	clinicalFeatureTrend Arg1:T6 Arg2:T32
+R35	clinicalFeatureTrend Arg1:T7 Arg2:T32
+T127	cure 233 236	药降压
+R46	diseaseClinicalFeature Arg1:T46 Arg2:T48
+R47	cureTime Arg1:T30 Arg2:T4
+R1	modificationClinicalFeature Arg1:T126 Arg2:T1
+R2	modificationClinicalFeature Arg1:T126 Arg2:T2
+T49	clinicalFeature 86 88	头晕

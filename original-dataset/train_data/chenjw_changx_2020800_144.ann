@@ -1,0 +1,196 @@
+T1	clinicalFeature 6 11	肾功能异常
+T2	clinicalFeature 14 16	咳嗽
+T3	clinicalFeature 16 20	呼吸困难
+T4	time 20 23	1周余
+T5	time 34 37	3月前
+T6	clinicalFeature 53 58	肾功能异常
+T7	laboratoryValue 65 74	160umol/L
+T8	clinicalFeature 76 78	无尿
+T9	negative 79 80	无
+T10	clinicalFeature 80 82	恶心
+T11	clinicalFeature 82 84	呕吐
+T12	negative 85 86	无
+T13	clinicalFeature 86 88	胸闷
+T14	clinicalFeature 88 90	气促
+T15	negative 91 92	无
+T16	clinicalFeature 92 94	腹痛
+T17	clinicalFeature 94 96	腹泻
+T18	negative 97 98	无
+T19	clinicalFeature 98 102	肢体麻木
+T20	clinicalFeature 105 112	血肌酐逐渐升高
+T21	modification 113 127	最高达602.9umol/L
+T23	time 143 146	1周前
+T24	cause 148 153	无明显诱因
+T25	clinicalFeature 156 160	呼吸困难
+T26	clinicalFeature 163 165	胸闷
+T27	clinicalFeature 165 167	气促
+T28	negative 168 169	无
+T29	clinicalFeature 169 171	畏寒
+T30	clinicalFeature 171 173	发热
+T31	negative 174 175	无
+T32	clinicalFeature 175 177	恶心
+T33	clinicalFeature 177 179	呕吐
+T34	negative 181 182	无
+T35	clinicalFeature 182 184	反酸
+T36	clinicalFeature 184 186	嗳气
+T37	negative 187 188	无
+T38	clinicalFeature 188 190	胸痛
+T39	clinicalFeature 190 192	咯血
+T40	negative 193 194	无
+T41	clinicalFeature 194 196	尿频
+T42	negative 199 200	无
+T43	clinicalFeature 200 202	腹痛
+T44	clinicalFeature 202 204	腹泻
+T45	time 208 212	近1月来
+T47	trend 249 255	未见明显好转
+T49	disease 268 272	肺部感染
+T64	disease 324 327	高血压
+T65	time 330 334	20余年
+T66	drug 341 356	苯磺酸左旋氨氯地平片2.5毫克
+T68	dose 357 359	1片
+T69	frequency 360 362	qd
+T71	frequency 376 378	qd
+T72	drug 379 395	琥珀酸美托洛尔缓释片47.5毫克
+T74	dose 396 398	1片
+T75	frequency 398 400	qd
+T77	disease 417 420	糖尿病
+T78	time 423 427	30余年
+T79	drug 433 442	阿卡波糖片0.1克
+T80	dose 443 445	1片
+T81	frequency 446 449	tid
+T82	drug 450 461	盐酸二甲双胍片0.5克
+T84	dose 462 464	1片
+T85	frequency 464 467	tid
+T86	drug 468 476	瑞格列奈片1毫克
+T87	dose 477 479	1片
+T88	frequency 480 483	tid
+T89	clinicalFeature 487 493	控制情况不详
+T90	sign 503 505	体温
+T91	indexValue 505 510	38.6℃
+T92	sign 511 513	脉搏
+T93	indexValue 513 518	96次/分
+T94	sign 519 521	呼吸
+T95	indexValue 521 526	20次/分
+T96	sign 527 529	血压
+T97	indexValue 529 539	120/45mmHg
+T98	clinicalFeature 540 544	神志朦胧
+T101	sign 550 552	心率
+T102	indexValue 552 557	78次/分
+T103	clinicalFeature 558 562	心律不齐
+T104	clinicalFeature 563 569	心音强弱不等
+T105	clinicalFeature 571 579	未闻及病理性杂音
+T106	body 580 582	两肺
+T107	clinicalFeature 582 592	听诊未及明显干湿啰音
+T108	body 593 594	腹
+T109	clinicalFeature 594 597	稍膨隆
+T110	negative 598 599	无
+T111	clinicalFeature 599 601	压痛
+T112	body 605 608	双下肢
+T113	clinicalFeature 608 611	无水肿
+R1	clinicalFeatureTime Arg1:T2 Arg2:T4
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+T115	time 11 13	3月
+T116	cause 44 52	泌尿系结石伴感染
+R3	causeClinicalFeature Arg1:T116 Arg2:T6
+T117	laboratory 60 63	血肌酐
+R4	laboratoryLaboratoryValue Arg1:T117 Arg2:T7
+R5	negativeClinicalFeature Arg1:T9 Arg2:T10
+R6	negativeClinicalFeature Arg1:T9 Arg2:T11
+R7	negativeClinicalFeature Arg1:T12 Arg2:T13
+R8	negativeClinicalFeature Arg1:T12 Arg2:T14
+R9	negativeClinicalFeature Arg1:T15 Arg2:T16
+R10	negativeClinicalFeature Arg1:T15 Arg2:T17
+R11	negativeClinicalFeature Arg1:T18 Arg2:T19
+T118	cure 130 136	血液透析治疗
+R12	causeClinicalFeature Arg1:T24 Arg2:T25
+R13	causeClinicalFeature Arg1:T24 Arg2:T26
+R14	causeClinicalFeature Arg1:T24 Arg2:T27
+R15	negativeClinicalFeature Arg1:T28 Arg2:T29
+R16	negativeClinicalFeature Arg1:T28 Arg2:T30
+R17	negativeClinicalFeature Arg1:T31 Arg2:T32
+R18	negativeClinicalFeature Arg1:T31 Arg2:T33
+R19	negativeClinicalFeature Arg1:T34 Arg2:T35
+R20	negativeClinicalFeature Arg1:T34 Arg2:T36
+R21	negativeClinicalFeature Arg1:T37 Arg2:T38
+R22	negativeClinicalFeature Arg1:T37 Arg2:T39
+T119	clinicalFeature 196 198	尿急
+R23	negativeClinicalFeature Arg1:T40 Arg2:T41
+R24	negativeClinicalFeature Arg1:T40 Arg2:T119
+R25	negativeClinicalFeature Arg1:T42 Arg2:T43
+R26	negativeClinicalFeature Arg1:T42 Arg2:T44
+R35	timeDisease Arg1:T65 Arg2:T64
+R32	timeDisease Arg1:T78 Arg2:T77
+R36	signIndexValue Arg1:T90 Arg2:T91
+R37	signIndexValue Arg1:T92 Arg2:T93
+R38	signIndexValue Arg1:T94 Arg2:T95
+R39	signIndexValue Arg1:T96 Arg2:T97
+T59	clinicalFeature 545 549	精神一般
+R40	signIndexValue Arg1:T101 Arg2:T102
+R41	bodyClinicalFeature Arg1:T106 Arg2:T107
+R42	bodyClinicalFeature Arg1:T108 Arg2:T109
+T67	clinicalFeature 601 604	反跳痛
+R43	negativeClinicalFeature Arg1:T110 Arg2:T111
+R44	negativeClinicalFeature Arg1:T110 Arg2:T67
+R45	bodyClinicalFeature Arg1:T108 Arg2:T111
+R46	bodyClinicalFeature Arg1:T108 Arg2:T67
+R47	bodyClinicalFeature Arg1:T112 Arg2:T113
+T73	cure 215 219	住院治疗
+R48	cureTime Arg1:T73 Arg2:T45
+T58	drug 363 372	缬沙坦胶囊80毫克
+T70	sign 614 618	肌力检查
+T99	indexValue 618 621	不合作
+R50	signIndexValue Arg1:T70 Arg2:T99
+R53	modificationClinicalFeature Arg1:T21 Arg2:T20
+R54	clinicalFeatureTrend Arg1:T25 Arg2:T47
+R55	clinicalFeatureTrend Arg1:T26 Arg2:T47
+R56	clinicalFeatureTrend Arg1:T27 Arg2:T47
+R59	causeClinicalFeature Arg1:T116 Arg2:T8
+R60	clinicalFeatureTime Arg1:T8 Arg2:T5
+R61	clinicalFeatureTime Arg1:T6 Arg2:T5
+R62	laboratoryTime Arg1:T117 Arg2:T5
+R63	clinicalFeatureTime Arg1:T10 Arg2:T5
+R64	clinicalFeatureTime Arg1:T11 Arg2:T5
+R65	clinicalFeatureTime Arg1:T13 Arg2:T5
+R66	clinicalFeatureTime Arg1:T14 Arg2:T5
+R67	clinicalFeatureTime Arg1:T16 Arg2:T5
+R68	clinicalFeatureTime Arg1:T17 Arg2:T5
+R69	clinicalFeatureTime Arg1:T19 Arg2:T5
+R57	clinicalFeatureTime Arg1:T20 Arg2:T5
+R71	clinicalFeatureTime Arg1:T25 Arg2:T23
+R72	clinicalFeatureTime Arg1:T26 Arg2:T23
+R73	clinicalFeatureTime Arg1:T27 Arg2:T23
+R74	clinicalFeatureTime Arg1:T29 Arg2:T23
+R75	clinicalFeatureTime Arg1:T30 Arg2:T23
+R76	clinicalFeatureTime Arg1:T32 Arg2:T23
+R77	clinicalFeatureTime Arg1:T33 Arg2:T23
+R78	clinicalFeatureTime Arg1:T35 Arg2:T23
+R79	clinicalFeatureTime Arg1:T36 Arg2:T23
+R80	clinicalFeatureTime Arg1:T38 Arg2:T23
+R81	clinicalFeatureTime Arg1:T39 Arg2:T23
+R82	clinicalFeatureTime Arg1:T41 Arg2:T23
+R83	clinicalFeatureTime Arg1:T119 Arg2:T23
+R84	clinicalFeatureTime Arg1:T43 Arg2:T23
+R85	clinicalFeatureTime Arg1:T44 Arg2:T23
+R58	cureTime Arg1:T118 Arg2:T5
+T22	body 612 614	四肢
+R70	bodySign Arg1:T22 Arg2:T70
+R87	drugDose Arg1:T66 Arg2:T68
+R88	doseFrequency Arg1:T68 Arg2:T69
+R89	drugFrequency Arg1:T66 Arg2:T69
+T100	dose 373 375	1粒
+R90	drugDose Arg1:T58 Arg2:T100
+R91	doseFrequency Arg1:T100 Arg2:T71
+R92	drugFrequency Arg1:T58 Arg2:T71
+R95	drugDose Arg1:T72 Arg2:T74
+R96	drugFrequency Arg1:T72 Arg2:T75
+R97	doseFrequency Arg1:T74 Arg2:T75
+R51	drugDose Arg1:T79 Arg2:T80
+R98	doseFrequency Arg1:T80 Arg2:T81
+R99	drugFrequency Arg1:T79 Arg2:T81
+R101	drugDose Arg1:T82 Arg2:T84
+R102	drugFrequency Arg1:T82 Arg2:T85
+R103	doseFrequency Arg1:T84 Arg2:T85
+R52	drugDose Arg1:T86 Arg2:T87
+R105	drugFrequency Arg1:T86 Arg2:T88
+R106	doseFrequency Arg1:T87 Arg2:T88
+R107	clinicalFeatureTime Arg1:T1 Arg2:T115

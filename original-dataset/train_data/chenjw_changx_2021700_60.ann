@@ -1,0 +1,137 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 8 10	咳痰
+T4	time 10 13	3年余
+T5	trend 14 16	加重
+T6	clinicalFeature 17 19	胸闷
+T7	clinicalFeature 19 21	气促
+T8	time 21 23	5天
+T9	time 33 36	3年余
+T11	clinicalFeature 46 48	咳嗽
+T12	clinicalFeature 48 50	咳痰
+T13	modification 52 55	白粘痰
+T15	time 65 68	5天前
+T16	cause 70 73	受凉后
+T17	clinicalFeature 75 77	咳嗽
+T18	clinicalFeature 78 82	咳黄脓痰
+T19	modification 83 89	痰粘不易咳出
+T20	clinicalFeature 91 93	胸闷
+T21	clinicalFeature 93 95	气急
+T24	negative 110 111	无
+T25	clinicalFeature 111 113	畏寒
+T26	clinicalFeature 113 115	发热
+T27	negative 116 117	无
+T28	clinicalFeature 117 119	胸痛
+T29	clinicalFeature 119 121	咯血
+T30	negative 122 123	无
+T31	clinicalFeature 125 127	心悸
+T32	clinicalFeature 127 129	心慌
+T33	negative 130 131	无
+T34	clinicalFeature 131 133	腹痛
+T35	clinicalFeature 133 135	腹泻
+T36	cure 136 143	未予重视及就诊
+T37	time 144 147	5天来
+T38	trend 149 155	未见明显好转
+T39	time 156 157	今
+T40	auxiliaryExamination 166 170	胸部CT
+T41	disease 172 177	慢支伴感染
+T42	disease 178 181	肺气肿
+T43	body 183 186	右上肺
+T44	auxiliaryDescript 186 193	混杂磨玻璃结节
+T46	disease 208 220	慢性阻塞性肺病伴急性加重
+T59	sign 272 273	T
+T60	indexValue 274 279	36.3℃
+T61	sign 280 281	P
+T62	indexValue 282 288	114次/分
+T63	sign 289 290	R
+T64	indexValue 291 296	19次/分
+T65	sign 297 299	BP
+T66	indexValue 300 310	112/68mmHg
+T67	clinicalFeature 311 314	神志清
+T68	clinicalFeature 315 319	精神一般
+T69	clinicalFeature 320 324	呼吸平稳
+T70	body 325 330	浅表淋巴结
+T71	clinicalFeature 330 334	未及肿大
+T72	body 335 337	口唇
+T73	clinicalFeature 337 340	无发绀
+T74	body 342 344	两肺
+T75	clinicalFeature 344 348	呼吸音粗
+T76	clinicalFeature 349 357	未闻及干湿性啰音
+T77	sign 358 360	心率
+T78	indexValue 360 366	114次/分
+T79	clinicalFeature 367 369	律齐
+T80	clinicalFeature 370 378	未闻及病理性杂音
+T81	body 379 380	腹
+T82	clinicalFeature 380 382	平软
+T83	negative 383 384	无
+T84	clinicalFeature 384 386	压痛
+T85	clinicalFeature 387 390	反跳痛
+T86	body 391 392	肝
+T87	body 392 393	脾
+T88	clinicalFeature 393 398	肋下未触及
+T89	body 399 402	双下肢
+T90	clinicalFeature 402 405	无浮肿
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T3 Arg2:T4
+R5	clinicalFeatureTrend Arg1:T2 Arg2:T5
+R6	clinicalFeatureTrend Arg1:T3 Arg2:T5
+R8	clinicalFeatureTime Arg1:T6 Arg2:T8
+R9	clinicalFeatureTime Arg1:T7 Arg2:T8
+R10	causeClinicalFeature Arg1:T16 Arg2:T17
+R17	clinicalFeatureTime Arg1:T11 Arg2:T9
+R18	clinicalFeatureTime Arg1:T12 Arg2:T9
+R19	clinicalFeatureTime Arg1:T17 Arg2:T15
+R20	clinicalFeatureTime Arg1:T18 Arg2:T15
+R21	clinicalFeatureTime Arg1:T20 Arg2:T15
+R22	clinicalFeatureTime Arg1:T21 Arg2:T15
+R27	causeClinicalFeature Arg1:T16 Arg2:T18
+R28	causeClinicalFeature Arg1:T16 Arg2:T20
+R29	causeClinicalFeature Arg1:T16 Arg2:T21
+R30	negativeClinicalFeature Arg1:T24 Arg2:T25
+R31	negativeClinicalFeature Arg1:T24 Arg2:T26
+R32	negativeClinicalFeature Arg1:T27 Arg2:T28
+R33	negativeClinicalFeature Arg1:T27 Arg2:T29
+R34	negativeClinicalFeature Arg1:T30 Arg2:T31
+R35	negativeClinicalFeature Arg1:T30 Arg2:T32
+R36	negativeClinicalFeature Arg1:T33 Arg2:T34
+R37	negativeClinicalFeature Arg1:T33 Arg2:T35
+R39	auxiliaryExaminationTime Arg1:T40 Arg2:T39
+R42	clinicalFeatureTime Arg1:T25 Arg2:T15
+R43	clinicalFeatureTime Arg1:T26 Arg2:T15
+R44	clinicalFeatureTime Arg1:T28 Arg2:T15
+R45	clinicalFeatureTime Arg1:T29 Arg2:T15
+R46	clinicalFeatureTime Arg1:T31 Arg2:T15
+R47	clinicalFeatureTime Arg1:T32 Arg2:T15
+R48	clinicalFeatureTime Arg1:T34 Arg2:T15
+R49	clinicalFeatureTime Arg1:T35 Arg2:T15
+R50	cureTime Arg1:T36 Arg2:T15
+R51	clinicalFeatureTrend Arg1:T17 Arg2:T38
+R52	clinicalFeatureTrend Arg1:T18 Arg2:T38
+R53	clinicalFeatureTrend Arg1:T20 Arg2:T38
+R54	clinicalFeatureTrend Arg1:T21 Arg2:T38
+R55	bodyAuxiliaryDescript Arg1:T43 Arg2:T44
+R56	auxiliaryExaminationAuxiliaryDescript Arg1:T40 Arg2:T44
+R64	signIndexValue Arg1:T59 Arg2:T60
+R65	signIndexValue Arg1:T61 Arg2:T62
+R66	signIndexValue Arg1:T63 Arg2:T64
+R67	signIndexValue Arg1:T65 Arg2:T66
+R68	bodyClinicalFeature Arg1:T70 Arg2:T71
+R69	bodyClinicalFeature Arg1:T72 Arg2:T73
+R70	bodyClinicalFeature Arg1:T74 Arg2:T75
+R71	bodyClinicalFeature Arg1:T74 Arg2:T76
+R72	signIndexValue Arg1:T77 Arg2:T78
+R73	bodyClinicalFeature Arg1:T81 Arg2:T82
+R74	negativeClinicalFeature Arg1:T83 Arg2:T84
+R75	negativeClinicalFeature Arg1:T83 Arg2:T85
+R76	bodyClinicalFeature Arg1:T86 Arg2:T88
+R77	bodyClinicalFeature Arg1:T87 Arg2:T88
+R78	bodyClinicalFeature Arg1:T89 Arg2:T90
+R79	bodyClinicalFeature Arg1:T81 Arg2:T84
+R80	bodyClinicalFeature Arg1:T81 Arg2:T85
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+R14	modificationClinicalFeature Arg1:T13 Arg2:T12
+T10	modification 37 39	反复
+R12	modificationClinicalFeature Arg1:T10 Arg2:T11
+R13	modificationClinicalFeature Arg1:T10 Arg2:T12
+R11	modificationClinicalFeature Arg1:T19 Arg2:T18

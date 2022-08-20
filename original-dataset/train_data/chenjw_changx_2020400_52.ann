@@ -1,0 +1,107 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 7 9	心悸
+T3	time 9 11	2天
+T4	time 20 23	2天前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 33 35	胸闷
+T7	clinicalFeature 36 38	心悸
+T9	negative 51 52	无
+T10	clinicalFeature 52 54	胸痛
+T11	clinicalFeature 54 56	气促
+T12	negative 57 58	无
+T13	clinicalFeature 58 62	呼吸困难
+T14	negative 63 64	无
+T15	clinicalFeature 64 66	黑曚
+T16	clinicalFeature 67 71	意识障碍
+T17	negative 72 73	无
+T18	clinicalFeature 73 75	头晕
+T19	clinicalFeature 75 77	头痛
+T20	negative 78 79	无
+T21	clinicalFeature 79 83	四肢乏力
+T22	negative 85 86	无
+T23	clinicalFeature 88 90	咳嗽
+T24	clinicalFeature 90 92	咳痰
+T26	disease 105 112	快速率心房扑动
+T39	disease 159 163	高血压病
+T40	drug 172 175	拜新同
+T41	drug 176 179	缬沙坦
+T42	clinicalFeature 189 195	血压控制不详
+T43	sign 204 205	T
+T44	indexValue 206 209	36℃
+T45	sign 210 211	P
+T46	indexValue 212 218	175次/分
+T47	sign 219 220	R
+T48	indexValue 221 226	19次/分
+T49	sign 227 229	BP
+T50	indexValue 230 241	166/101mmHg
+T51	sign 242 246	氧饱和度
+T52	indexValue 246 249	99%
+T53	clinicalFeature 250 253	神志清
+T54	clinicalFeature 254 258	呼吸平稳
+T55	body 259 264	浅表淋巴结
+T56	clinicalFeature 264 268	未及肿大
+T57	body 269 272	颈静脉
+T58	clinicalFeature 272 275	无充盈
+T59	body 277 279	口唇
+T60	clinicalFeature 279 284	无明显发绀
+T61	body 285 287	两肺
+T62	clinicalFeature 287 291	呼吸音清
+T63	body 292 295	双下肺
+T64	clinicalFeature 295 300	未闻及啰音
+T65	sign 301 303	心率
+T66	indexValue 303 309	175次/分
+T67	clinicalFeature 310 312	律齐
+T68	clinicalFeature 313 318	未闻及杂音
+T69	body 319 320	腹
+T70	clinicalFeature 320 322	平软
+T72	clinicalFeature 323 326	无压痛
+T73	clinicalFeature 329 334	肋下未触及
+T74	body 335 338	双下肢
+T75	clinicalFeature 338 342	中度浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R9	negativeClinicalFeature Arg1:T9 Arg2:T10
+R10	negativeClinicalFeature Arg1:T9 Arg2:T11
+R11	negativeClinicalFeature Arg1:T12 Arg2:T13
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	negativeClinicalFeature Arg1:T14 Arg2:T16
+R14	negativeClinicalFeature Arg1:T17 Arg2:T18
+R15	negativeClinicalFeature Arg1:T17 Arg2:T19
+R16	negativeClinicalFeature Arg1:T20 Arg2:T21
+R17	clinicalFeatureTime Arg1:T10 Arg2:T4
+R18	clinicalFeatureTime Arg1:T11 Arg2:T4
+R19	clinicalFeatureTime Arg1:T13 Arg2:T4
+R20	clinicalFeatureTime Arg1:T15 Arg2:T4
+R21	clinicalFeatureTime Arg1:T16 Arg2:T4
+R22	clinicalFeatureTime Arg1:T18 Arg2:T4
+R23	clinicalFeatureTime Arg1:T19 Arg2:T4
+R24	clinicalFeatureTime Arg1:T21 Arg2:T4
+R25	negativeClinicalFeature Arg1:T22 Arg2:T23
+R26	negativeClinicalFeature Arg1:T22 Arg2:T24
+R27	clinicalFeatureTime Arg1:T23 Arg2:T4
+R28	clinicalFeatureTime Arg1:T24 Arg2:T4
+T76	drug 180 185	复方利血平
+T77	cure 186 188	降压
+R42	diseaseClinicalFeature Arg1:T39 Arg2:T42
+R43	signIndexValue Arg1:T43 Arg2:T44
+R44	signIndexValue Arg1:T45 Arg2:T46
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	signIndexValue Arg1:T51 Arg2:T52
+R48	bodyClinicalFeature Arg1:T55 Arg2:T56
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T59 Arg2:T60
+R51	bodyClinicalFeature Arg1:T61 Arg2:T62
+R52	bodyClinicalFeature Arg1:T63 Arg2:T64
+R53	signIndexValue Arg1:T65 Arg2:T66
+R54	bodyClinicalFeature Arg1:T69 Arg2:T70
+R56	bodyClinicalFeature Arg1:T69 Arg2:T72
+R57	bodyClinicalFeature Arg1:T74 Arg2:T75
+T78	body 327 328	肝
+T79	body 328 329	脾
+R58	bodyClinicalFeature Arg1:T78 Arg2:T73
+R59	bodyClinicalFeature Arg1:T79 Arg2:T73

@@ -1,0 +1,76 @@
+T2	clinicalFeature 10 17	尿液不经意流出
+T3	time 17 20	8年余
+T4	time 29 32	8年前
+T5	cause 32 37	无明显诱因
+T7	clinicalFeature 46 53	尿液不经意流出
+T8	clinicalFeature 55 59	尿酸胀感
+T11	clinicalFeature 76 78	夜尿
+T12	negative 83 84	无
+T13	clinicalFeature 84 86	尿频
+T14	negative 89 90	无
+T15	clinicalFeature 90 94	肉眼血尿
+T16	negative 95 96	无
+T17	clinicalFeature 96 98	畏寒
+T18	clinicalFeature 98 100	发热
+T19	negative 102 103	无
+T20	clinicalFeature 103 105	胸闷
+T21	clinicalFeature 105 107	气促
+T23	disease 129 135	压力性尿失禁
+T36	sign 188 190	体温
+T37	indexValue 190 195	36.3℃
+T38	sign 196 198	脉搏
+T39	indexValue 198 203	92次/分
+T40	sign 204 206	呼吸
+T41	indexValue 206 211	20次/分
+T42	sign 212 214	血压
+T43	indexValue 214 224	150/71mmHg
+T44	clinicalFeature 225 228	神志清
+T45	clinicalFeature 229 233	精神尚可
+T46	clinicalFeature 235 236	软
+T47	body 237 239	腹部
+T48	clinicalFeature 240 242	压痛
+T49	clinicalFeature 243 246	反跳痛
+T50	clinicalFeature 247 251	未及包块
+T51	clinicalFeature 255 261	未及充盈膀胱
+T52	body 263 266	双肾区
+T53	clinicalFeature 266 270	无叩击痛
+T54	body 271 276	双侧腹股沟
+T55	clinicalFeature 276 280	未及肿块
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R9	negativeClinicalFeature Arg1:T19 Arg2:T20
+R10	negativeClinicalFeature Arg1:T19 Arg2:T21
+T6	frequency 78 82	2-3次
+R11	clinicalFeatureFrequency Arg1:T11 Arg2:T6
+T57	clinicalFeature 86 88	尿急
+R12	negativeClinicalFeature Arg1:T12 Arg2:T13
+R13	negativeClinicalFeature Arg1:T12 Arg2:T57
+R14	negativeClinicalFeature Arg1:T14 Arg2:T15
+R15	negativeClinicalFeature Arg1:T16 Arg2:T17
+R16	negativeClinicalFeature Arg1:T16 Arg2:T18
+R18	clinicalFeatureTime Arg1:T11 Arg2:T4
+R19	clinicalFeatureTime Arg1:T13 Arg2:T4
+R20	clinicalFeatureTime Arg1:T57 Arg2:T4
+R21	clinicalFeatureTime Arg1:T15 Arg2:T4
+R22	clinicalFeatureTime Arg1:T17 Arg2:T4
+R23	clinicalFeatureTime Arg1:T18 Arg2:T4
+R24	clinicalFeatureTime Arg1:T20 Arg2:T4
+R25	clinicalFeatureTime Arg1:T21 Arg2:T4
+R32	signIndexValue Arg1:T36 Arg2:T37
+R33	signIndexValue Arg1:T38 Arg2:T39
+R34	signIndexValue Arg1:T40 Arg2:T41
+R35	signIndexValue Arg1:T42 Arg2:T43
+T58	body 234 235	腹
+R36	bodyClinicalFeature Arg1:T58 Arg2:T46
+T59	negative 239 240	无
+R37	negativeClinicalFeature Arg1:T59 Arg2:T48
+R38	negativeClinicalFeature Arg1:T59 Arg2:T49
+R39	bodyClinicalFeature Arg1:T47 Arg2:T48
+R40	bodyClinicalFeature Arg1:T47 Arg2:T49
+R41	bodyClinicalFeature Arg1:T47 Arg2:T50
+T60	body 252 255	耻骨上
+R42	bodyClinicalFeature Arg1:T60 Arg2:T51
+R43	bodyClinicalFeature Arg1:T52 Arg2:T53
+R44	bodyClinicalFeature Arg1:T54 Arg2:T55

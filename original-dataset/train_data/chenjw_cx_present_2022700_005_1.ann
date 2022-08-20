@@ -1,0 +1,13 @@
+T1	time 9 13	1月余前
+T2	disease 19 24	左乳腺肿块
+T3	auxiliaryExamination 32 36	乳腺B超
+T4	body 38 40	左乳
+T5	auxiliaryDescript 40 45	低回声团块
+T6	modification 46 57	BI-RADS 4b类
+T9	cause 14 18	检查发现
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	causeDisease Arg1:T9 Arg2:T2
+R3	auxiliaryExaminationAuxiliaryDescript Arg1:T3 Arg2:T5
+R4	bodyAuxiliaryDescript Arg1:T4 Arg2:T5
+R5	auxiliaryDesModification Arg1:T5 Arg2:T6
+R6	auxiliaryExaminationTime Arg1:T3 Arg2:T1

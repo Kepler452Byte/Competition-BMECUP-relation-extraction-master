@@ -1,0 +1,101 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 9	3小时
+T3	time 18 22	3小时前
+T4	clinicalFeature 26 28	头晕
+T5	clinicalFeature 31 35	视物旋转
+T6	clinicalFeature 39 41	呕吐
+T7	negative 42 43	无
+T8	clinicalFeature 43 49	肢体活动不灵
+T9	negative 55 56	无
+T10	clinicalFeature 56 60	抽搐发作
+T11	negative 66 67	无
+T12	clinicalFeature 67 71	意识障碍
+T13	negative 72 73	无
+T14	clinicalFeature 73 75	头痛
+T15	negative 76 77	无
+T16	clinicalFeature 77 81	视物模糊
+T17	negative 82 83	无
+T18	clinicalFeature 83 85	耳鸣
+T19	negative 92 93	无
+T20	clinicalFeature 93 95	畏寒
+T21	clinicalFeature 95 97	发热
+T22	negative 98 99	无
+T23	clinicalFeature 99 101	胸闷
+T24	clinicalFeature 101 103	胸痛
+T25	negative 104 105	无
+T26	clinicalFeature 105 107	心悸
+T27	cure 113 119	未予特殊处置
+T28	auxiliaryExamination 131 135	头部CT
+T29	auxiliaryDescript 136 142	老年性脑改变
+T30	laboratory 143 147	凝血全套
+T31	laboratory 148 152	APTT
+T32	laboratoryValue 165 173	1810ug/L
+T33	laboratory 186 193	血常规+CRP
+T34	laboratory 194 198	肌钙蛋白
+T35	laboratory 199 202	肾功能
+T36	laboratory 203 206	电解质
+T37	laboratoryValue 209 216	大致正常结果"
+T39	disease 221 226	头晕和眩晕
+T52	disease 274 278	高血压病
+T53	time 281 285	7-8年
+T54	drug 293 297	施慧达片
+T55	dose 298 300	1#
+T56	frequency 300 302	qd
+T57	clinicalFeature 306 312	血压控制不详
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+T134	clinicalFeature 36 38	恶心
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	clinicalFeatureTime Arg1:T134 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+T135	clinicalFeature 51 54	觉异常
+R6	negativeClinicalFeature Arg1:T7 Arg2:T8
+R7	negativeClinicalFeature Arg1:T7 Arg2:T135
+R8	clinicalFeatureTime Arg1:T8 Arg2:T3
+R9	clinicalFeatureTime Arg1:T135 Arg2:T3
+T136	clinicalFeature 61 65	二便失禁
+R10	negativeClinicalFeature Arg1:T9 Arg2:T10
+R11	negativeClinicalFeature Arg1:T9 Arg2:T136
+R12	clinicalFeatureTime Arg1:T10 Arg2:T3
+R13	clinicalFeatureTime Arg1:T136 Arg2:T3
+R14	negativeClinicalFeature Arg1:T11 Arg2:T12
+R15	negativeClinicalFeature Arg1:T13 Arg2:T14
+R16	negativeClinicalFeature Arg1:T15 Arg2:T16
+T137	clinicalFeature 86 90	听力下降
+R17	negativeClinicalFeature Arg1:T17 Arg2:T18
+R18	negativeClinicalFeature Arg1:T17 Arg2:T137
+R19	clinicalFeatureTime Arg1:T12 Arg2:T3
+R20	clinicalFeatureTime Arg1:T14 Arg2:T3
+R21	clinicalFeatureTime Arg1:T18 Arg2:T3
+R22	clinicalFeatureTime Arg1:T16 Arg2:T3
+R23	clinicalFeatureTime Arg1:T137 Arg2:T3
+R24	negativeClinicalFeature Arg1:T19 Arg2:T20
+R25	negativeClinicalFeature Arg1:T19 Arg2:T21
+R26	negativeClinicalFeature Arg1:T22 Arg2:T23
+R27	negativeClinicalFeature Arg1:T22 Arg2:T24
+R28	negativeClinicalFeature Arg1:T25 Arg2:T26
+R29	clinicalFeatureTime Arg1:T20 Arg2:T3
+R30	clinicalFeatureTime Arg1:T21 Arg2:T3
+R31	clinicalFeatureTime Arg1:T23 Arg2:T3
+R32	clinicalFeatureTime Arg1:T24 Arg2:T3
+R33	clinicalFeatureTime Arg1:T26 Arg2:T3
+R35	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T29
+T138	laboratoryValue 153 158	24.5S
+R37	laboratoryLaboratoryValue Arg1:T31 Arg2:T138
+T139	laboratory 160 165	D-二聚体
+T140	laboratory 174 176	血糖
+T141	laboratoryValue 176 185	8.2mmol/L
+R38	laboratoryLaboratoryValue Arg1:T140 Arg2:T141
+R39	laboratoryLaboratoryValue Arg1:T139 Arg2:T32
+R42	laboratoryLaboratoryValue Arg1:T33 Arg2:T37
+R43	laboratoryLaboratoryValue Arg1:T34 Arg2:T37
+R44	laboratoryLaboratoryValue Arg1:T35 Arg2:T37
+R45	laboratoryLaboratoryValue Arg1:T36 Arg2:T37
+R53	timeDisease Arg1:T53 Arg2:T52
+R55	drugDose Arg1:T54 Arg2:T55
+R56	doseFrequency Arg1:T55 Arg2:T56
+R57	diseaseClinicalFeature Arg1:T52 Arg2:T57
+R34	cureTime Arg1:T27 Arg2:T3
+R58	auxiliaryExaminationTime Arg1:T28 Arg2:T3
+R59	laboratoryTime Arg1:T31 Arg2:T3
+R60	laboratoryTime Arg1:T139 Arg2:T3

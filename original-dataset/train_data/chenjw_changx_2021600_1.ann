@@ -1,0 +1,75 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 11	2月余
+T4	time 21 24	2月前
+T5	cause 24 29	无明显诱因
+T6	clinicalFeature 32 34	咳嗽
+T7	clinicalFeature 34 36	咳痰
+T9	negative 47 48	无
+T10	clinicalFeature 48 50	发热
+T11	negative 51 52	无
+T12	clinicalFeature 52 54	胸痛
+T13	negative 55 56	无
+T14	clinicalFeature 56 58	咯血
+T15	trend 77 80	未好转
+T17	disease 102 106	肺部感染
+T30	sign 158 159	T
+T31	indexValue 160 165	35.8℃
+T32	sign 166 167	P
+T33	indexValue 168 173	88次/分
+T34	sign 174 175	R
+T35	indexValue 176 181	18次/分
+T36	sign 182 184	BP
+T37	indexValue 185 195	113/71mmHg
+T38	clinicalFeature 196 199	神志清
+T39	clinicalFeature 200 204	呼吸平稳
+T40	body 205 210	浅表淋巴结
+T41	clinicalFeature 210 214	未及肿大
+T42	body 215 217	口唇
+T43	clinicalFeature 217 222	无明显发绀
+T44	body 223 225	两肺
+T45	clinicalFeature 225 229	呼吸音粗
+T46	clinicalFeature 231 236	未闻及啰音
+T47	sign 237 239	心率
+T48	indexValue 239 244	88次/分
+T49	clinicalFeature 245 247	律齐
+T50	clinicalFeature 248 253	未闻及杂音
+T51	body 254 255	腹
+T52	clinicalFeature 255 257	平软
+T53	clinicalFeature 258 261	无压痛
+T54	body 262 263	肝
+T55	body 263 264	脾
+T56	clinicalFeature 264 269	肋下未触及
+T57	body 270 273	双下肢
+T58	clinicalFeature 273 276	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	clinicalFeatureTime Arg1:T10 Arg2:T4
+R11	clinicalFeatureTime Arg1:T12 Arg2:T4
+R12	clinicalFeatureTime Arg1:T14 Arg2:T4
+R15	clinicalFeatureTrend Arg1:T7 Arg2:T15
+R16	clinicalFeatureTrend Arg1:T6 Arg2:T15
+R24	signIndexValue Arg1:T30 Arg2:T31
+R25	signIndexValue Arg1:T32 Arg2:T33
+R26	signIndexValue Arg1:T34 Arg2:T35
+R27	signIndexValue Arg1:T36 Arg2:T37
+R28	bodyClinicalFeature Arg1:T40 Arg2:T41
+R29	bodyClinicalFeature Arg1:T42 Arg2:T43
+R30	bodyClinicalFeature Arg1:T44 Arg2:T45
+R31	bodyClinicalFeature Arg1:T44 Arg2:T46
+R32	signIndexValue Arg1:T47 Arg2:T48
+R33	bodyClinicalFeature Arg1:T51 Arg2:T52
+R34	bodyClinicalFeature Arg1:T54 Arg2:T56
+R35	bodyClinicalFeature Arg1:T55 Arg2:T56
+R36	bodyClinicalFeature Arg1:T57 Arg2:T58
+R37	bodyClinicalFeature Arg1:T51 Arg2:T53
+T59	cure 65 72	未予重视及诊治
+R38	cureTime Arg1:T59 Arg2:T4
+T60	time 73 74	现

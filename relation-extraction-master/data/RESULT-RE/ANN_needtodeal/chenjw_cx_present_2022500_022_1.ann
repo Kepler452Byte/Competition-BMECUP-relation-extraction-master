@@ -1,0 +1,4 @@
+T1	time 10 27	2019年12月05日06时30分
+T2	cause 27 34	起床穿衣时出现
+T3	clinicalFeature 34 40	右手活动不便
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1

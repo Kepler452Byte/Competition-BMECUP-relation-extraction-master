@@ -1,0 +1,14 @@
+T1	time 6 11	25小时前
+T2	clinicalFeature 17 21	胸部不适
+T3	clinicalFeature 23 25	乏力
+T4	modification 27 30	持续性
+T5	clinicalFeature 31 35	大汗淋漓
+T9	cause 11 14	走路时
+R1	causeClinicalFeature Arg1:T9 Arg2:T2
+R2	causeClinicalFeature Arg1:T9 Arg2:T3
+R3	modificationClinicalFeature Arg1:T4 Arg2:T2
+R4	modificationClinicalFeature Arg1:T4 Arg2:T3
+R5	causeClinicalFeature Arg1:T9 Arg2:T5
+R6	clinicalFeatureTime Arg1:T2 Arg2:T1
+R7	clinicalFeatureTime Arg1:T3 Arg2:T1
+R8	clinicalFeatureTime Arg1:T5 Arg2:T1

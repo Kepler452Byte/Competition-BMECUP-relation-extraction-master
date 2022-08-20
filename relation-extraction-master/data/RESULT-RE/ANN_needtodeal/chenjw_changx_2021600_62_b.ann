@@ -1,0 +1,51 @@
+T1	disease 40 44	高血压病
+T2	time 47 51	10余年
+T3	drug 54 58	药物不详
+T4	clinicalFeature 59 67	血压控制具体不详
+T5	sign 76 78	体温
+T6	indexValue 78 84	36.30℃
+T7	sign 85 87	脉搏
+T8	indexValue 87 92	80次/分
+T9	sign 93 95	呼吸
+T10	indexValue 95 100	19次/分
+T11	sign 101 103	血压
+T12	indexValue 103 114	192/113mmHg
+T13	clinicalFeature 115 118	神志清
+T14	clinicalFeature 119 123	呼吸平稳
+T15	body 124 129	浅表淋巴结
+T16	clinicalFeature 129 133	未及肿大
+T17	body 134 136	两肺
+T18	clinicalFeature 136 140	呼吸音粗
+T19	body 142 145	双下肺
+T20	clinicalFeature 145 151	可闻及湿罗音
+T21	sign 152 154	心率
+T22	indexValue 154 159	98次/分
+T23	clinicalFeature 160 165	律绝对不齐
+T24	clinicalFeature 166 174	未闻及病理性杂音
+T25	body 175 176	腹
+T26	clinicalFeature 176 178	平软
+T27	body 179 182	剑突下
+T28	clinicalFeature 182 186	压之不适
+T29	body 187 190	下腹部
+T30	clinicalFeature 190 192	压痛
+T31	clinicalFeature 194 196	尿意
+T32	body 197 198	肝
+T33	body 198 199	脾
+T34	clinicalFeature 199 204	肋下未触及
+T35	body 205 208	双下肢
+T36	clinicalFeature 208 211	无浮肿
+R1	diseaseClinicalfeature Arg1:T1 Arg2:T4
+R2	timeDisease Arg1:T2 Arg2:T1
+R3	signIndexvalue Arg1:T5 Arg2:T6
+R4	signIndexvalue Arg1:T7 Arg2:T8
+R5	signIndexvalue Arg1:T9 Arg2:T10
+R6	signIndexvalue Arg1:T11 Arg2:T12
+R7	bodyClinicalfeature Arg1:T15 Arg2:T16
+R8	bodyClinicalfeature Arg1:T19 Arg2:T20
+R9	signIndexvalue Arg1:T21 Arg2:T22
+R10	bodyClinicalfeature Arg1:T25 Arg2:T26
+R11	bodyClinicalfeature Arg1:T27 Arg2:T28
+R12	bodyClinicalfeature Arg1:T29 Arg2:T31
+R13	bodyClinicalfeature Arg1:T32 Arg2:T34
+R14	bodyClinicalfeature Arg1:T33 Arg2:T34
+R15	bodyClinicalfeature Arg1:T35 Arg2:T36

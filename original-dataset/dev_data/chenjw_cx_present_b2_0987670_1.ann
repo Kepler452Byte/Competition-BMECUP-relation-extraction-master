@@ -1,0 +1,12 @@
+T1	time 6 9	十年前
+T2	quantity 17 18	一
+T3	clinicalFeature 18 20	肿块
+T4	clinicalFeature 28 33	无明显不适
+T5	cure 36 39	未重视
+T6	trend 41 46	肿块渐增大
+T9	body 13 16	左腘窝
+R1	bodyClinicalFeature Arg1:T9 Arg2:T3
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	cureTime Arg1:T5 Arg2:T1
+R6	clinicalFeatureTrend Arg1:T3 Arg2:T6

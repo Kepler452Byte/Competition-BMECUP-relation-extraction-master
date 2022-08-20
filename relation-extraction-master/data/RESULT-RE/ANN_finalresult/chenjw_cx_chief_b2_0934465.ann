@@ -1,0 +1,6 @@
+T1	disease 3 6	脑出血
+T2	disease 3 7	脑出血后
+T3	clinicalFeature 7 11	意识不清
+T4	time 11 14	4月余
+R1	diseaseClinicalfeature Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4

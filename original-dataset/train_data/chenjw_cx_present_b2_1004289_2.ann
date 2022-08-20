@@ -1,0 +1,10 @@
+T1	clinicalFeature 4 7	神志清
+T2	time 0 3	患病来
+T3	clinicalFeature 8 11	精神软
+T4	clinicalFeature 12 17	胃纳睡眠可
+T5	clinicalFeature 18 23	大小便如常
+T7	clinicalFeature 24 33	近期无明显体重下降
+R3	clinicalFeatureTime Arg1:T5 Arg2:T2	
+R4	clinicalFeatureTime Arg1:T4 Arg2:T2	
+R5	clinicalFeatureTime Arg1:T3 Arg2:T2	
+R6	clinicalFeatureTime Arg1:T1 Arg2:T2	

@@ -1,0 +1,63 @@
+T1	disease 46 49	高血压
+T2	disease 50 53	糖尿病
+T3	drug 62 65	施慧达
+T4	dose 65 67	1#
+T5	frequency 68 70	qd
+T6	drug 71 76	格列美脲片
+T7	dose 76 78	1#
+T8	frequency 79 81	qd
+T9	drug 82 89	盐酸二甲双胍片
+T10	dose 89 91	1g
+T11	frequency 92 94	qd
+T12	sign 110 111	T
+T13	indexValue 112 117	36.7℃
+T14	sign 118 119	P
+T15	indexValue 120 125	86次/分
+T16	sign 126 127	R
+T17	indexValue 128 133	19次/分
+T18	sign 134 136	BP
+T19	indexValue 137 147	108/69mmHg
+T20	clinicalFeature 148 151	神志清
+T21	clinicalFeature 152 156	精神尚可
+T22	clinicalFeature 157 161	呼吸平稳
+T23	body 162 167	浅表淋巴结
+T24	clinicalFeature 167 171	未及肿大
+T25	body 172 174	口唇
+T26	clinicalFeature 174 177	无发绀
+T27	body 179 181	两肺
+T28	clinicalFeature 181 185	呼吸音粗
+T29	clinicalFeature 186 196	未闻及明显干湿性啰音
+T30	sign 197 199	心率
+T31	indexValue 199 204	86次/分
+T32	clinicalFeature 205 207	律齐
+T33	clinicalFeature 208 218	未闻及明显病理性杂音
+T34	body 219 220	腹
+T35	clinicalFeature 220 222	平软
+T36	clinicalFeature 221 222	软
+T37	negative 223 224	无
+T38	clinicalFeature 224 226	压痛
+T39	clinicalFeature 227 230	反跳痛
+T40	body 231 232	肝
+T41	body 232 233	脾
+T42	clinicalFeature 233 238	肋下未触及
+T43	body 239 242	双下肢
+T44	clinicalFeature 242 245	无浮肿
+R1	drugFrequency Arg1:T3 Arg2:T5
+R2	doseFrequency Arg1:T4 Arg2:T5
+R3	drugFrequency Arg1:T6 Arg2:T8
+R4	doseFrequency Arg1:T7 Arg2:T8
+R5	drugFrequency Arg1:T9 Arg2:T11
+R6	doseFrequency Arg1:T10 Arg2:T11
+R7	signIndexvalue Arg1:T12 Arg2:T13
+R8	signIndexvalue Arg1:T14 Arg2:T15
+R9	signIndexvalue Arg1:T16 Arg2:T17
+R10	signIndexvalue Arg1:T18 Arg2:T19
+R11	bodyClinicalfeature Arg1:T23 Arg2:T24
+R12	bodyClinicalfeature Arg1:T25 Arg2:T26
+R13	bodyClinicalfeature Arg1:T27 Arg2:T29
+R14	signIndexvalue Arg1:T30 Arg2:T31
+R15	bodyClinicalfeature Arg1:T34 Arg2:T39
+R16	negativeClinicalfeature Arg1:T37 Arg2:T39
+R17	bodyClinicalfeature Arg1:T40 Arg2:T42
+R18	bodyClinicalfeature Arg1:T41 Arg2:T42
+R19	bodyClinicalfeature Arg1:T43 Arg2:T44

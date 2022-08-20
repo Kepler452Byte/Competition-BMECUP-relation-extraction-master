@@ -1,0 +1,143 @@
+T1	clinicalFeature 4 9	双下肢乏力
+T2	time 9 12	1月余
+T3	time 23 27	1月余前
+T4	cause 27 32	无明显诱因
+T5	clinicalFeature 35 40	双下肢乏力
+T6	negative 41 42	无
+T7	clinicalFeature 42 44	头晕
+T8	clinicalFeature 44 46	头痛
+T9	clinicalFeature 47 52	无活动障碍
+T10	negative 53 54	无
+T11	clinicalFeature 54 56	发热
+T12	clinicalFeature 56 58	畏寒
+T13	negative 59 60	无
+T14	clinicalFeature 60 64	四肢抽搐
+T15	negative 65 66	无
+T16	clinicalFeature 66 70	肢体麻木
+T17	trend 92 94	加重
+T18	time 96 97	今
+T19	clinicalFeature 115 117	疼痛
+T20	negative 118 119	无
+T21	clinicalFeature 119 125	皮肤破溃红肿
+T22	clinicalFeature 127 131	活动障碍
+T35	disease 192 197	2型糖尿病
+T36	time 200 204	10余年
+T37	drug 208 212	诺和锐针
+T38	dose 212 225	早12单位中8单位晚8单位
+T39	drug 226 230	来得时针
+T40	dose 232 235	8单位
+T41	clinicalFeature 239 247	血糖控制情况不详
+T42	disease 251 255	高血压病
+T43	disease 256 263	高血压性心脏病
+T44	time 266 269	3年余
+T45	drug 274 281	非洛地平缓释片
+T46	dose 281 284	5mg
+T47	frequency 285 287	qd
+T48	time 289 291	近期
+T49	cure 296 299	未服药
+T50	sign 308 310	体温
+T51	indexValue 310 315	36.4℃
+T52	sign 316 318	脉搏
+T53	indexValue 318 324	106次/分
+T54	sign 325 327	呼吸
+T55	indexValue 327 332	20次/分
+T56	sign 333 335	血压
+T57	indexValue 335 345	115/63mmHg
+T58	clinicalFeature 346 349	神志清
+T59	clinicalFeature 350 354	精神一般
+T60	body 355 357	双肺
+T61	clinicalFeature 357 361	呼吸音粗
+T62	clinicalFeature 362 371	未闻及明显干湿啰音
+T63	sign 372 374	HR
+T64	indexValue 374 380	106次/分
+T65	clinicalFeature 382 384	律齐
+T66	clinicalFeature 385 395	未闻及明显病理性杂音
+T67	body 396 397	腹
+T68	clinicalFeature 397 398	软
+T69	body 399 400	腹
+T70	clinicalFeature 400 403	无压痛
+T71	body 404 405	肝
+T72	body 405 406	脾
+T73	clinicalFeature 406 410	肋下未及
+T74	body 411 414	双下肢
+T75	clinicalFeature 414 418	轻度浮肿
+T76	body 419 421	四肢
+T77	sign 421 423	肌力
+T78	sign 423 426	肌张力
+T79	indexValue 426 428	正常
+T80	body 429 431	双侧
+T81	sign 431 434	病理征
+T82	indexValue 434 436	阴性
+T83	body 437 439	腹部
+T84	quantity 441 442	一
+T85	clinicalFeature 442 445	腹透管
+T86	body 446 451	腹透管口处
+T87	clinicalFeature 451 455	未见渗液
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T8
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	clinicalFeatureTime Arg1:T8 Arg2:T3
+R8	clinicalFeatureTime Arg1:T9 Arg2:T3
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T10 Arg2:T12
+R11	clinicalFeatureTime Arg1:T11 Arg2:T3
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	negativeClinicalFeature Arg1:T13 Arg2:T14
+R14	negativeClinicalFeature Arg1:T15 Arg2:T16
+R15	clinicalFeatureTime Arg1:T14 Arg2:T3
+R16	clinicalFeatureTime Arg1:T16 Arg2:T3
+T88	cure 76 83	未予重视及诊治
+R17	cureTime Arg1:T88 Arg2:T3
+T89	clinicalFeature 100 102	乏力
+T90	clinicalFeature 103 105	摔倒
+R19	clinicalFeatureTime Arg1:T19 Arg2:T18
+R21	clinicalFeatureTime Arg1:T89 Arg2:T18
+R22	negativeClinicalFeature Arg1:T20 Arg2:T21
+R23	clinicalFeatureTime Arg1:T21 Arg2:T18
+R24	clinicalFeatureTime Arg1:T22 Arg2:T18
+R31	timeDisease Arg1:T36 Arg2:T35
+R32	drugDose Arg1:T37 Arg2:T38
+R33	drugDose Arg1:T39 Arg2:T40
+T91	cure 236 238	降糖
+R37	diseaseClinicalFeature Arg1:T35 Arg2:T41
+T92	time 205 207	目前
+R38	drugTime Arg1:T37 Arg2:T92
+R39	drugTime Arg1:T39 Arg2:T92
+R40	timeDisease Arg1:T44 Arg2:T43
+R41	timeDisease Arg1:T44 Arg2:T42
+R42	drugDose Arg1:T45 Arg2:T46
+R43	doseFrequency Arg1:T46 Arg2:T47
+R44	cureTime Arg1:T49 Arg2:T48
+R49	signIndexValue Arg1:T50 Arg2:T51
+R50	signIndexValue Arg1:T52 Arg2:T53
+R51	signIndexValue Arg1:T54 Arg2:T55
+R52	signIndexValue Arg1:T56 Arg2:T57
+R53	bodyClinicalFeature Arg1:T60 Arg2:T61
+R54	bodyClinicalFeature Arg1:T60 Arg2:T62
+R55	signIndexValue Arg1:T63 Arg2:T64
+R56	bodyClinicalFeature Arg1:T67 Arg2:T68
+R57	bodyClinicalFeature Arg1:T69 Arg2:T70
+R58	bodyClinicalFeature Arg1:T71 Arg2:T73
+R59	bodyClinicalFeature Arg1:T72 Arg2:T73
+R60	bodyClinicalFeature Arg1:T74 Arg2:T75
+R61	bodySign Arg1:T76 Arg2:T78
+R62	bodySign Arg1:T76 Arg2:T77
+R63	signIndexValue Arg1:T77 Arg2:T79
+R64	signIndexValue Arg1:T78 Arg2:T79
+R65	bodySign Arg1:T80 Arg2:T81
+R66	signIndexValue Arg1:T81 Arg2:T82
+R67	bodyClinicalFeature Arg1:T83 Arg2:T85
+R69	bodyAuxiliaryDescript Arg1:T86 Arg2:T87
+T93	frequency 105 107	一次
+R20	clinicalFeatureFrequency Arg1:T90 Arg2:T93
+R70	clinicalFeatureTime Arg1:T90 Arg2:T18
+R45	drugTime Arg1:T45 Arg2:T44
+T94	body 110 113	左下肢
+R48	bodyClinicalFeature Arg1:T94 Arg2:T19
+T95	modification 113 115	少许
+R71	modificationClinicalFeature Arg1:T95 Arg2:T19
+T96	negative 126 127	无
+R72	negativeClinicalFeature Arg1:T96 Arg2:T22

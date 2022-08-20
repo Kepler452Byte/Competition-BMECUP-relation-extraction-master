@@ -1,0 +1,13 @@
+T1	time 6 10	1年余前
+T2	cause 10 14	检查发现
+T3	clinicalFeature 16 18	结节
+T4	modification 19 21	不大
+T5	clinicalFeature 27 29	疼痛
+T7	cure 36 39	未治疗
+T10	body 14 16	乳房
+R1	bodyClinicalFeature Arg1:T10 Arg2:T3
+R2	modificationClinicalFeature Arg1:T4 Arg2:T3
+R3	causeClinicalFeature Arg1:T2 Arg2:T3
+R4	clinicalFeatureTime Arg1:T3 Arg2:T1
+R5	bodyClinicalFeature Arg1:T10 Arg2:T5
+R8	cureTime Arg1:T7 Arg2:T1

@@ -1,0 +1,5 @@
+{"sent": "主 诉 ： 停 经 3 7 + 3 周 ， 阴 道 见 红 2 小 时", "ners": [[3, 5, "clinicalFeature", "停经"], [5, 10, "time", "37+3周"], [11, 13, "body", "阴道"], [11, 15, "clinicalFeature", "阴道见红"], [15, 18, "time", "2小时"]]}
+[3, 5, 'clinicalFeature', '停经']	[5, 10, 'time', '37+3周']	属性
+[11, 13, 'body', '阴道']	[11, 15, 'clinicalFeature', '阴道见红']	属性
+[11, 15, 'clinicalFeature', '阴道见红']	[15, 18, 'time', '2小时']	属性
+

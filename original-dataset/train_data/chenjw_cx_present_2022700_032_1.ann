@@ -1,0 +1,20 @@
+T1	time 9 13	7小时前
+T2	modification 18 20	反复
+T3	clinicalFeature 22 24	胸闷
+T4	clinicalFeature 24 26	胸痛
+T5	modification 31 34	阵发性
+T6	modification 42 47	与活动无关
+T9	cause 13 18	吃完早饭后
+R1	clinicalFeatureTime Arg1:T4 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1
+R3	causeClinicalFeature Arg1:T9 Arg2:T3
+R4	causeClinicalFeature Arg1:T9 Arg2:T4
+T10	modification 34 36	闷痛
+T11	body 28 31	胸骨后
+R5	bodyClinicalFeature Arg1:T11 Arg2:T4
+R6	modificationClinicalFeature Arg1:T5 Arg2:T4
+R7	modificationClinicalFeature Arg1:T10 Arg2:T4
+R8	bodyClinicalFeature Arg1:T11 Arg2:T3
+R9	modificationClinicalFeature Arg1:T5 Arg2:T3
+R12	modificationClinicalFeature Arg1:T6 Arg2:T3
+R13	modificationClinicalFeature Arg1:T6 Arg2:T4

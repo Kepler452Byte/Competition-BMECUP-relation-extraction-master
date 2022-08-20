@@ -1,0 +1,8 @@
+{"sent": "现 $ 病 $ 史 : $ 患 者 于 入 院 前 半 小 时 余 被 人 发 现 意 识 丧 失 ， 呼 之 不 应 ， 当 时 无 恶 心 呕 吐", "ners": [[10, 17, "time", "入院前半小时余"], [17, 21, "cause", "被人发现"], [21, 25, "clinicalFeature", "意识丧失"], [26, 30, "modification", "呼之不应"], [33, 34, "negative", "无"], [34, 36, "clinicalFeature", "恶心"], [36, 38, "clinicalFeature", "呕吐"]]}
+[17, 21, 'cause', '被人发现']	[21, 25, 'clinicalFeature', '意识丧失']	属性
+[21, 25, 'clinicalFeature', '意识丧失']	[10, 17, 'time', '入院前半小时余']	属性
+[26, 30, 'modification', '呼之不应']	[21, 25, 'clinicalFeature', '意识丧失']	属性
+[33, 34, 'negative', '无']	[36, 38, 'clinicalFeature', '呕吐']	属性
+[34, 36, 'clinicalFeature', '恶心']	[10, 17, 'time', '入院前半小时余']	属性
+[36, 38, 'clinicalFeature', '呕吐']	[10, 17, 'time', '入院前半小时余']	属性
+

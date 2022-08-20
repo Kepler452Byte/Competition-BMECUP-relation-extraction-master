@@ -1,0 +1,94 @@
+T1	clinicalFeature 4 6	发热
+T2	clinicalFeature 7 9	咳嗽
+T3	clinicalFeature 9 11	咳痰
+T4	time 11 13	1周
+T5	time 22 25	1周前
+T6	cause 25 28	受凉后
+T7	clinicalFeature 32 34	畏寒
+T8	clinicalFeature 35 37	发热
+T9	sign 39 43	体温最高
+T10	indexValue 44 49	39.0℃
+T11	clinicalFeature 51 53	咳嗽
+T12	clinicalFeature 53 55	咳痰
+T13	modification 55 57	少许
+T14	modification 59 62	白粘痰
+T15	modification 63 65	量少
+T16	modification 66 69	能咳出
+T17	clinicalFeature 70 72	发热
+T18	modification 73 75	稍感
+T19	clinicalFeature 75 77	气急
+T20	negative 78 79	无
+T21	clinicalFeature 79 81	胸闷
+T22	clinicalFeature 81 83	胸痛
+T23	clinicalFeature 85 89	夜间盗汗
+T24	clinicalFeature 87 89	盗汗
+T25	negative 90 91	无
+T26	clinicalFeature 91 93	咯血
+T27	body 96 100	全身关节
+T28	clinicalFeature 96 102	全身关节酸痛
+T29	negative 103 104	无
+T30	clinicalFeature 104 108	关节红肿
+T31	modification 110 113	阵发性
+T32	clinicalFeature 113 115	打嗝
+T33	negative 116 117	无
+T34	clinicalFeature 117 119	反酸
+T35	clinicalFeature 119 121	嗳气
+T36	negative 122 123	无
+T37	clinicalFeature 123 125	腹痛
+T38	clinicalFeature 125 127	腹泻
+T39	clinicalFeature 130 134	小便发黄
+T40	negative 135 136	无
+T41	clinicalFeature 136 138	尿急
+T42	clinicalFeature 138 140	尿痛
+T43	clinicalFeature 140 142	尿频
+T44	negative 143 144	无
+T45	clinicalFeature 144 146	恶心
+T46	clinicalFeature 146 148	呕吐
+T47	negative 149 150	无
+T48	clinicalFeature 150 152	胸痛
+T49	clinicalFeature 152 154	心悸
+T50	clinicalFeature 159 161	发热
+T51	laboratory 168 171	血常规
+T52	laboratory 172 177	CRP稍高
+T53	laboratory 178 180	血钾
+T54	laboratoryValue 180 189	3.4mmol/L
+T55	drug 194 200	布洛芬混悬液
+T56	drug 201 207	氯化钾缓释片
+T57	drug 208 216	磷酸奥司他韦胶囊
+T58	trend 217 221	未见好转
+T59	time 222 226	近1周来
+T60	clinicalFeature 232 234	发热
+T61	disease 255 260	感染性发热
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	causeClinicalfeature Arg1:T6 Arg2:T8
+R5	signIndexvalue Arg1:T9 Arg2:T10
+R6	clinicalFeatureTime Arg1:T11 Arg2:T5
+R7	clinicalFeatureTime Arg1:T12 Arg2:T5
+R8	modificationClinicalfeature Arg1:T13 Arg2:T12
+R9	modificationClinicalfeature Arg1:T14 Arg2:T12
+R10	modificationClinicalfeature Arg1:T15 Arg2:T12
+R11	modificationClinicalfeature Arg1:T16 Arg2:T12
+R12	clinicalFeatureTime Arg1:T17 Arg2:T5
+R13	modificationClinicalfeature Arg1:T18 Arg2:T19
+R14	clinicalFeatureTime Arg1:T19 Arg2:T5
+R15	negativeClinicalfeature Arg1:T20 Arg2:T22
+R16	clinicalFeatureTime Arg1:T21 Arg2:T5
+R17	clinicalFeatureTime Arg1:T22 Arg2:T5
+R18	clinicalFeatureTime Arg1:T23 Arg2:T5
+R19	clinicalFeatureTime Arg1:T24 Arg2:T5
+R20	negativeClinicalfeature Arg1:T25 Arg2:T26
+R21	clinicalFeatureTime Arg1:T26 Arg2:T5
+R22	bodyClinicalfeature Arg1:T28 Arg2:T28
+R23	negativeClinicalfeature Arg1:T29 Arg2:T30
+R24	clinicalFeatureTime Arg1:T30 Arg2:T5
+R25	modificationClinicalfeature Arg1:T31 Arg2:T32
+R26	negativeClinicalfeature Arg1:T33 Arg2:T35
+R27	negativeClinicalfeature Arg1:T36 Arg2:T38
+R28	negativeClinicalfeature Arg1:T40 Arg2:T43
+R29	negativeClinicalfeature Arg1:T44 Arg2:T46
+R30	negativeClinicalfeature Arg1:T47 Arg2:T49
+R31	clinicalFeatureTrend Arg1:T50 Arg2:T58
+R32	laboratoryLaboratoryvalue Arg1:T53 Arg2:T54
+R33	clinicalFeatureTime Arg1:T60 Arg2:T59

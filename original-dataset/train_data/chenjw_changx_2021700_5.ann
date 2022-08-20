@@ -1,0 +1,112 @@
+T1	cure 4 8	血液透析
+T2	time 8 12	20年余
+T4	clinicalFeature 13 25	左上肢动静脉内瘘功能不良
+T5	time 25 28	半年余
+T6	time 37 41	20年前
+T7	disease 45 48	尿毒症
+T8	cure 50 54	血液透析
+T9	operation 57 61	肾移植术
+T10	time 62 68	维持约4年后
+T11	disease 69 76	慢性肾功能衰竭
+T12	cure 79 83	血透治疗
+T13	frequency 84 88	每周3次
+T14	time 89 92	半年前
+T15	cause 92 97	无明显诱因
+T16	clinicalFeature 102 106	内瘘流量
+T17	cause 112 119	假性动脉瘤过多
+T18	clinicalFeature 120 125	穿刺亦困难
+T33	disease 198 202	高血压病
+T34	disease 203 210	高血压性心脏病
+T35	time 211 215	20余年
+T36	drug 221 228	非洛地平缓释片
+T37	dose 228 231	5mg
+T38	frequency 232 235	BID
+T39	clinicalFeature 239 245	血压控制理想
+T40	indexValue 254 259	37.6℃
+T41	sign 260 261	P
+T42	indexValue 261 266	78次/分
+T43	sign 267 268	R
+T44	indexValue 268 273	20次/分
+T45	sign 274 276	Bp
+T46	indexValue 276 286	179/89mmHg
+T47	clinicalFeature 287 291	神志清楚
+T48	clinicalFeature 292 296	精神稍软
+T49	body 297 301	皮肤粘膜
+T50	clinicalFeature 301 305	未见黄染
+T51	body 306 313	全身浅表淋巴结
+T52	clinicalFeature 313 316	无肿大
+T53	body 317 318	颈
+T54	clinicalFeature 318 319	软
+T55	body 320 323	颈静脉
+T56	clinicalFeature 323 326	无怒张
+T57	body 328 330	双肺
+T58	clinicalFeature 330 334	呼吸音粗
+T59	clinicalFeature 335 341	未及湿性啰音
+T60	clinicalFeature 342 345	心律齐
+T61	body 346 352	各瓣膜听诊区
+T62	clinicalFeature 352 356	未及杂音
+T63	body 357 358	腹
+T64	clinicalFeature 358 359	软
+T65	clinicalFeature 360 363	无压痛
+T67	clinicalFeature 364 368	无反跳痛
+T68	body 369 370	肝
+T69	body 370 371	脾
+T70	clinicalFeature 371 376	肋下未触及
+T71	body 377 379	肝区
+T72	clinicalFeature 379 383	无叩击痛
+T73	body 384 387	双肾区
+T74	clinicalFeature 387 390	无叩痛
+T75	sign 391 396	移动性浊音
+T76	indexValue 396 398	阴性
+T77	sign 399 402	肠鸣音
+T78	indexValue 402 405	无亢进
+T79	body 407 410	双下肢
+T80	clinicalFeature 410 413	无水肿
+T81	sign 414 418	病理反射
+T82	indexValue 418 422	未能引出
+T83	body 423 432	左前臂动静脉内瘘处
+T84	clinicalFeature 432 438	听诊高调杂音
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R5	timeDisease Arg1:T6 Arg2:T7
+R7	timeDisease Arg1:T10 Arg2:T11
+R9	clinicalFeatureTime Arg1:T16 Arg2:T14
+R10	causeClinicalFeature Arg1:T15 Arg2:T16
+R17	timeDisease Arg1:T35 Arg2:T33
+R18	timeDisease Arg1:T35 Arg2:T34
+R19	drugDose Arg1:T36 Arg2:T37
+R20	doseFrequency Arg1:T37 Arg2:T38
+T85	cure 236 238	降压
+R23	diseaseClinicalFeature Arg1:T33 Arg2:T39
+R24	signIndexValue Arg1:T41 Arg2:T42
+R25	signIndexValue Arg1:T43 Arg2:T44
+R26	signIndexValue Arg1:T45 Arg2:T46
+R27	bodyClinicalFeature Arg1:T49 Arg2:T50
+R28	bodyClinicalFeature Arg1:T51 Arg2:T52
+R29	bodyClinicalFeature Arg1:T53 Arg2:T54
+R30	bodyClinicalFeature Arg1:T55 Arg2:T56
+R31	bodyClinicalFeature Arg1:T57 Arg2:T58
+R32	bodyClinicalFeature Arg1:T57 Arg2:T59
+R33	bodyClinicalFeature Arg1:T61 Arg2:T62
+R34	bodyClinicalFeature Arg1:T63 Arg2:T64
+R36	bodyClinicalFeature Arg1:T63 Arg2:T65
+R37	bodyClinicalFeature Arg1:T68 Arg2:T70
+R38	bodyClinicalFeature Arg1:T69 Arg2:T70
+R39	bodyClinicalFeature Arg1:T71 Arg2:T72
+R40	bodyClinicalFeature Arg1:T73 Arg2:T74
+R41	signIndexValue Arg1:T75 Arg2:T76
+R42	signIndexValue Arg1:T77 Arg2:T78
+R43	bodyClinicalFeature Arg1:T79 Arg2:T80
+R44	signIndexValue Arg1:T81 Arg2:T82
+R45	bodyClinicalFeature Arg1:T83 Arg2:T84
+T86	clinicalFeature 439 446	触诊震颤不甚强
+R46	bodyClinicalFeature Arg1:T83 Arg2:T86
+R47	cureTime Arg1:T8 Arg2:T6
+R48	timeOperation Arg1:T6 Arg2:T9
+R1	cureTime Arg1:T1 Arg2:T2
+T3	cure 127 131	血液透析
+T19	modification 131 135	难以为继
+T87	body 108 111	内瘘处
+R50	bodyClinicalFeature Arg1:T87 Arg2:T18
+R49	causeClinicalFeature Arg1:T17 Arg2:T18
+T88	time 126 127	现
+R51	cureTime Arg1:T3 Arg2:T88

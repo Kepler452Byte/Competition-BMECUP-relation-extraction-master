@@ -1,0 +1,108 @@
+T1	clinicalFeature 6 10	胆囊息肉
+T2	time 10 12	1周
+T3	time 21 24	1周前
+T4	clinicalFeature 30 34	胆囊息肉
+T5	negative 39 40	无
+T6	clinicalFeature 40 42	腹痛
+T7	clinicalFeature 42 44	腹泻
+T8	negative 45 46	无
+T9	clinicalFeature 46 48	恶心
+T10	clinicalFeature 48 50	呕吐
+T11	negative 51 52	无
+T12	clinicalFeature 52 54	胸闷
+T13	clinicalFeature 54 56	气促
+T14	negative 57 58	无
+T15	clinicalFeature 58 62	四肢乏力
+T16	clinicalFeature 63 65	呕血
+T17	clinicalFeature 65 67	黑便
+T19	disease 105 109	胆囊息肉
+T32	sign 161 163	体温
+T33	indexValue 163 168	36.9℃
+T34	sign 169 171	脉搏
+T35	indexValue 171 176	78次/分
+T36	sign 177 179	呼吸
+T37	indexValue 179 184	18次/分
+T38	sign 185 187	血压
+T39	indexValue 187 197	159/91mmHg
+T40	clinicalFeature 198 201	神志清
+T43	body 208 210	巩膜
+T44	clinicalFeature 210 213	无黄染
+T45	body 214 219	浅表淋巴结
+T46	clinicalFeature 219 223	未及肿大
+T47	body 224 226	胸部
+T48	clinicalFeature 226 229	无畸形
+T49	body 231 233	两肺
+T50	clinicalFeature 233 237	呼吸音粗
+T51	clinicalFeature 238 247	未闻及明显干湿啰音
+T52	sign 252 254	心率
+T53	indexValue 254 259	78次/分
+T54	clinicalFeature 260 267	未闻及心脏杂音
+T55	body 273 279	各瓣膜听诊区
+T56	clinicalFeature 279 287	未闻及病理性杂音
+T57	body 288 289	腹
+T58	clinicalFeature 289 291	平软
+T61	clinicalFeature 299 302	无压痛
+T63	clinicalFeature 303 307	无反跳痛
+T64	sign 310 313	墨菲征
+T65	indexValue 313 315	阴性
+T66	body 316 319	双肾区
+T68	clinicalFeature 319 322	无叩痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+R3	negativeClinicalFeature Arg1:T5 Arg2:T6
+R4	negativeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T8 Arg2:T10
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R10	clinicalFeatureTime Arg1:T10 Arg2:T3
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	negativeClinicalFeature Arg1:T11 Arg2:T13
+R13	clinicalFeatureTime Arg1:T12 Arg2:T3
+R14	clinicalFeatureTime Arg1:T13 Arg2:T3
+R15	negativeClinicalFeature Arg1:T14 Arg2:T15
+R16	clinicalFeatureTime Arg1:T15 Arg2:T3
+R17	negativeClinicalFeature Arg1:T14 Arg2:T16
+R18	negativeClinicalFeature Arg1:T14 Arg2:T17
+R19	clinicalFeatureTime Arg1:T16 Arg2:T3
+R20	clinicalFeatureTime Arg1:T17 Arg2:T3
+R28	signIndexValue Arg1:T32 Arg2:T33
+R29	signIndexValue Arg1:T34 Arg2:T35
+R30	signIndexValue Arg1:T36 Arg2:T37
+R31	signIndexValue Arg1:T38 Arg2:T39
+R33	bodyClinicalFeature Arg1:T43 Arg2:T44
+R34	bodyClinicalFeature Arg1:T45 Arg2:T46
+R35	bodyClinicalFeature Arg1:T47 Arg2:T48
+R36	bodyClinicalFeature Arg1:T49 Arg2:T50
+R37	bodyClinicalFeature Arg1:T49 Arg2:T51
+T71	clinicalFeature 248 251	心律齐
+R39	signIndexValue Arg1:T52 Arg2:T53
+T73	clinicalFeature 268 272	心音正常
+R41	bodyClinicalFeature Arg1:T55 Arg2:T56
+R42	bodyClinicalFeature Arg1:T57 Arg2:T58
+R44	bodyClinicalFeature Arg1:T57 Arg2:T61
+R45	bodyClinicalFeature Arg1:T57 Arg2:T63
+R47	signIndexValue Arg1:T64 Arg2:T65
+R48	bodyClinicalFeature Arg1:T66 Arg2:T68
+T74	clinicalFeature 335 337	正常
+T41	clinicalFeature 202 205	精神可
+T42	body 206 208	皮肤
+R32	bodyClinicalFeature Arg1:T42 Arg2:T44
+T70	body 292 293	肝
+T72	body 293 294	脾
+T75	clinicalFeature 294 298	肋下未及
+R38	bodyClinicalFeature Arg1:T70 Arg2:T75
+R40	bodyClinicalFeature Arg1:T72 Arg2:T75
+T67	sign 323 328	移动性浊音
+T69	indexValue 328 330	阴性
+R49	signIndexValue Arg1:T67 Arg2:T69
+T76	body 331 333	脊柱
+T77	body 333 335	四肢
+R50	bodyClinicalFeature Arg1:T76 Arg2:T74
+R51	bodyClinicalFeature Arg1:T77 Arg2:T74
+T59	sign 338 344	神经系统检查
+T78	indexValue 344 346	阴性
+R52	signIndexValue Arg1:T59 Arg2:T78
+T79	cause 25 30	体检时发现
+R53	causeClinicalFeature Arg1:T79 Arg2:T4

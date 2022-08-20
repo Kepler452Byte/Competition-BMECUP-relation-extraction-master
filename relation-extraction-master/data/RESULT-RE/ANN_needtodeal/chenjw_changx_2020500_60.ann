@@ -1,0 +1,101 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 10	12小时
+T3	time 19 24	12小时前
+T4	cause 24 29	无明显诱因
+T5	modification 33 37	突然出现
+T6	clinicalFeature 37 39	头晕
+T7	clinicalFeature 41 45	视物旋转
+T8	clinicalFeature 46 48	恶心
+T9	clinicalFeature 48 50	呕吐
+T10	frequency 50 52	数次
+T11	modification 53 61	呕吐物为胃内容物
+T12	modification 62 68	无咖啡样液体
+T13	negative 69 70	无
+T14	clinicalFeature 70 72	耳鸣
+T15	clinicalFeature 73 79	肢体活动不灵
+T16	negative 80 81	无
+T17	clinicalFeature 81 83	出汗
+T18	negative 85 86	无
+T19	clinicalFeature 86 88	耳鸣
+T20	clinicalFeature 89 91	耳闭
+T21	clinicalFeature 92 96	听力下降
+T22	negative 97 98	无
+T23	clinicalFeature 98 100	复视
+T24	negative 101 102	无
+T25	clinicalFeature 102 108	肢体麻木无力
+T26	negative 109 110	无
+T27	clinicalFeature 110 114	四肢抽搐
+T28	negative 115 116	无
+T29	clinicalFeature 116 118	黑朦
+T30	clinicalFeature 118 120	晕厥
+T31	drug 134 137	西比灵
+T32	drug 138 142	培他啶针
+T33	clinicalFeature 148 150	头晕
+T34	auxiliaryExamination 153 157	颅脑CT
+T35	auxiliaryDescript 158 164	老年性脑改变
+T36	laboratory 175 179	急诊生化
+T37	laboratory 180 184	心肌酶谱
+T38	laboratory 185 189	血淀粉酶
+T39	laboratory 190 193	葡萄糖
+T40	laboratoryValue 193 202	7.7mmol/L
+T41	laboratory 203 206	氯离子
+T42	laboratoryValue 207 217	98.7mmol/L
+T43	laboratory 222 227	急诊血常规
+T44	laboratory 224 231	血常规+CRP
+T45	laboratory 228 231	CRP
+T46	laboratory 233 238	中性粒细胞
+T47	laboratoryValue 239 244	80.4%
+T48	laboratory 245 250	余基本无殊
+T49	time 250 259	019-02-24
+T50	auxiliaryExamination 264 268	头颅CT
+T51	auxiliaryDescript 269 275	老年性脑改变
+T52	auxiliaryDescript 276 282	未见明显异常
+T53	body 283 285	两肺
+T54	auxiliaryDescript 285 290	纹理稍紊乱
+T55	laboratory 293 296	血常规
+T56	laboratory 297 300	CRP
+T57	laboratory 305 307	生化
+T58	laboratory 309 312	葡萄糖
+T59	laboratoryValue 313 324	10.20mmom/l
+T60	laboratory 327 329	凝血
+T61	laboratory 330 338	部分凝血活酶时间
+T62	laboratoryValue 339 344	21.6秒
+T63	disease 364 368	头晕待查
+T64	disease 419 423	高血压病
+T65	time 426 428	多年
+T66	clinicalFeature 434 440	血压控制不详
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T6
+R3	modificationClinicalfeature Arg1:T5 Arg2:T6
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+R8	modificationClinicalfeature Arg1:T11 Arg2:T9
+R9	modificationClinicalfeature Arg1:T12 Arg2:T9
+R10	negativeClinicalfeature Arg1:T13 Arg2:T15
+R11	clinicalFeatureTime Arg1:T14 Arg2:T3
+R12	clinicalFeatureTime Arg1:T15 Arg2:T3
+R13	negativeClinicalfeature Arg1:T16 Arg2:T17
+R14	clinicalFeatureTime Arg1:T17 Arg2:T3
+R15	negativeClinicalfeature Arg1:T18 Arg2:T21
+R16	clinicalFeatureTime Arg1:T19 Arg2:T3
+R17	clinicalFeatureTime Arg1:T20 Arg2:T3
+R18	clinicalFeatureTime Arg1:T21 Arg2:T3
+R19	negativeClinicalfeature Arg1:T22 Arg2:T23
+R20	clinicalFeatureTime Arg1:T23 Arg2:T3
+R21	negativeClinicalfeature Arg1:T24 Arg2:T25
+R22	clinicalFeatureTime Arg1:T25 Arg2:T3
+R23	negativeClinicalfeature Arg1:T26 Arg2:T27
+R24	clinicalFeatureTime Arg1:T27 Arg2:T3
+R25	negativeClinicalfeature Arg1:T28 Arg2:T30
+R26	clinicalFeatureTime Arg1:T29 Arg2:T3
+R27	clinicalFeatureTime Arg1:T30 Arg2:T3
+R28	laboratoryLaboratoryvalue Arg1:T39 Arg2:T40
+R29	laboratoryLaboratoryvalue Arg1:T41 Arg2:T42
+R30	laboratoryLaboratoryvalue Arg1:T46 Arg2:T47
+R31	bodyAuxiliarydescript Arg1:T53 Arg2:T54
+R32	laboratoryLaboratoryvalue Arg1:T58 Arg2:T59
+R33	laboratoryLaboratoryvalue Arg1:T61 Arg2:T62
+R34	diseaseClinicalfeature Arg1:T64 Arg2:T66
+R35	timeDisease Arg1:T65 Arg2:T64

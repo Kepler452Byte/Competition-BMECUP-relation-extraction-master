@@ -1,0 +1,11 @@
+T1	time 9 12	3月前
+T2	clinicalFeature 17 21	神志不清
+T3	modification 22 26	呼之不应
+T4	clinicalFeature 28 32	呼吸急促
+T5	clinicalFeature 34 38	大汗淋漓
+T8	cause 12 17	被家属发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T8 Arg2:T2
+R3	modificationClinicalFeature Arg1:T3 Arg2:T2
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	clinicalFeatureTime Arg1:T5 Arg2:T1

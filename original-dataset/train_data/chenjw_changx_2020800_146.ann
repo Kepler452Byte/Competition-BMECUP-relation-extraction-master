@@ -1,0 +1,159 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 6 8	气促
+T3	time 8 10	1周
+T4	clinicalFeature 11 13	发热
+T5	time 13 15	2天
+T6	time 22 25	1周前
+T7	cause 25 30	无明显诱因
+T8	clinicalFeature 33 35	胸闷
+T9	clinicalFeature 35 37	气促
+T10	clinicalFeature 41 43	咳嗽
+T11	clinicalFeature 48 57	夜间阵发性呼吸困难
+T12	negative 58 59	无
+T13	clinicalFeature 59 61	晕厥
+T14	negative 62 63	无
+T15	clinicalFeature 63 65	发懵
+T16	negative 66 67	无
+T17	clinicalFeature 67 69	心悸
+T18	negative 70 71	无
+T19	clinicalFeature 71 73	胸痛
+T20	negative 74 75	无
+T21	clinicalFeature 75 77	恶心
+T22	clinicalFeature 77 79	呕吐
+T23	negative 80 81	无
+T24	clinicalFeature 81 83	咯血
+T25	negative 84 85	无
+T26	clinicalFeature 85 92	咳粉红色泡沫痰
+T27	negative 94 95	无
+T28	clinicalFeature 95 101	肢体活动障碍
+T29	cure 113 116	未就医
+T30	time 117 120	2天前
+T31	clinicalFeature 122 124	发热
+T35	clinicalFeature 151 153	咳嗽
+T36	clinicalFeature 154 156	胸闷
+T37	clinicalFeature 156 158	气促
+T38	laboratory 168 170	血糖
+T39	laboratoryValue 170 180	3.14mmol/L
+T41	disease 193 197	低血糖症
+T55	disease 248 251	高血压
+T56	time 254 258	15年（
+T57	drug 260 268	苯磺酸氨氯地平片
+T58	dose 268 270	1#
+T59	frequency 270 272	qd
+T60	clinicalFeature 274 279	血压控制可
+T61	sign 288 290	血压
+T62	indexValue 290 300	141/72mmHg
+T63	sign 301 303	心率
+T64	indexValue 303 309	104次/分
+T65	sign 310 313	体温：
+T66	indexValue 313 318	37.3℃
+T67	sign 319 321	呼吸
+T68	indexValue 321 326	21次/分
+T69	clinicalFeature 327 330	神志清
+T70	clinicalFeature 331 335	急性面容
+T71	body 336 337	颈
+T72	clinicalFeature 337 338	软
+T73	body 339 342	颈静脉
+T74	auxiliaryDescript 342 344	充盈
+T75	body 345 348	甲状腺
+T76	clinicalFeature 348 350	不大
+T77	body 351 353	双肺
+T78	clinicalFeature 353 357	呼吸音低
+T79	body 359 361	左肺
+T80	clinicalFeature 361 369	可闻及明显湿啰音
+T81	clinicalFeature 370 376	未闻及哮鸣音
+T82	sign 377 379	心率
+T83	indexValue 379 385	104次/分
+T84	clinicalFeature 386 388	律齐
+T85	clinicalFeature 389 399	未闻及明显病理性杂音
+T86	body 400 401	腹
+T87	clinicalFeature 401 402	软
+T88	clinicalFeature 405 409	肋下未及
+T89	body 410 412	全腹
+T90	clinicalFeature 415 417	压痛
+T91	clinicalFeature 418 421	反跳痛
+T92	clinicalFeature 431 433	浮肿
+T93	sign 437 439	肌力
+T94	indexValue 439 441	5级
+T95	sign 442 445	病理征
+T96	indexValue 445 448	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	causeClinicalFeature Arg1:T7 Arg2:T8
+R5	causeClinicalFeature Arg1:T7 Arg2:T9
+T97	modification 44 46	干咳
+R6	modificationClinicalFeature Arg1:T97 Arg2:T10
+R7	negativeClinicalFeature Arg1:T12 Arg2:T13
+R8	negativeClinicalFeature Arg1:T14 Arg2:T15
+R9	negativeClinicalFeature Arg1:T16 Arg2:T17
+R10	negativeClinicalFeature Arg1:T18 Arg2:T19
+R11	negativeClinicalFeature Arg1:T20 Arg2:T21
+R12	negativeClinicalFeature Arg1:T20 Arg2:T22
+R13	negativeClinicalFeature Arg1:T23 Arg2:T24
+R14	negativeClinicalFeature Arg1:T25 Arg2:T26
+R15	negativeClinicalFeature Arg1:T27 Arg2:T28
+R16	causeClinicalFeature Arg1:T7 Arg2:T10
+R17	causeClinicalFeature Arg1:T7 Arg2:T11
+R18	clinicalFeatureTime Arg1:T8 Arg2:T6
+R19	clinicalFeatureTime Arg1:T9 Arg2:T6
+R20	clinicalFeatureTime Arg1:T10 Arg2:T6
+R21	clinicalFeatureTime Arg1:T13 Arg2:T6
+R22	clinicalFeatureTime Arg1:T15 Arg2:T6
+R23	clinicalFeatureTime Arg1:T17 Arg2:T6
+R24	clinicalFeatureTime Arg1:T19 Arg2:T6
+R25	clinicalFeatureTime Arg1:T21 Arg2:T6
+R26	clinicalFeatureTime Arg1:T22 Arg2:T6
+R27	clinicalFeatureTime Arg1:T24 Arg2:T6
+R28	clinicalFeatureTime Arg1:T26 Arg2:T6
+R29	clinicalFeatureTime Arg1:T28 Arg2:T6
+R31	clinicalFeatureTime Arg1:T31 Arg2:T30
+R30	cureTime Arg1:T29 Arg2:T6
+T33	cure 135 140	自服退热药
+R36	clinicalFeatureTime Arg1:T35 Arg2:T30
+R37	clinicalFeatureTime Arg1:T36 Arg2:T30
+R38	clinicalFeatureTime Arg1:T37 Arg2:T30
+R39	laboratoryLaboratoryValue Arg1:T38 Arg2:T39
+R48	timeDisease Arg1:T56 Arg2:T55
+R49	drugDose Arg1:T57 Arg2:T58
+R50	drugFrequency Arg1:T57 Arg2:T59
+R34	cureTime Arg1:T33 Arg2:T30
+R52	diseaseClinicalFeature Arg1:T55 Arg2:T60
+R53	signIndexValue Arg1:T61 Arg2:T62
+R54	signIndexValue Arg1:T63 Arg2:T64
+R55	signIndexValue Arg1:T65 Arg2:T66
+R56	signIndexValue Arg1:T67 Arg2:T68
+R57	bodyClinicalFeature Arg1:T71 Arg2:T72
+R58	bodyAuxiliaryDescript Arg1:T73 Arg2:T74
+R59	bodyClinicalFeature Arg1:T75 Arg2:T76
+R60	bodyClinicalFeature Arg1:T77 Arg2:T78
+R61	bodyClinicalFeature Arg1:T79 Arg2:T80
+R62	bodyClinicalFeature Arg1:T79 Arg2:T81
+R63	signIndexValue Arg1:T82 Arg2:T83
+R64	bodyClinicalFeature Arg1:T86 Arg2:T87
+T99	negative 412 413	无
+R65	negativeClinicalFeature Arg1:T99 Arg2:T90
+R66	negativeClinicalFeature Arg1:T99 Arg2:T91
+R67	bodyClinicalFeature Arg1:T89 Arg2:T90
+R68	bodyClinicalFeature Arg1:T89 Arg2:T91
+T100	body 422 425	颜面部
+T101	body 426 429	双下肢
+T102	modification 429 431	重度
+R69	modificationClinicalFeature Arg1:T102 Arg2:T92
+R70	bodyClinicalFeature Arg1:T100 Arg2:T92
+R71	bodyClinicalFeature Arg1:T101 Arg2:T92
+R72	signIndexValue Arg1:T93 Arg2:T94
+R73	signIndexValue Arg1:T95 Arg2:T96
+T32	sign 127 129	体温
+T103	indexValue 129 134	38.0℃
+R32	signIndexValue Arg1:T32 Arg2:T103
+T104	time 159 160	今
+R75	laboratoryTime Arg1:T38 Arg2:T104
+T105	body 403 404	肝
+T106	body 404 405	脾
+R76	bodyClinicalFeature Arg1:T105 Arg2:T88
+R77	bodyClinicalFeature Arg1:T106 Arg2:T88
+T107	body 435 437	四肢
+R78	bodySign Arg1:T107 Arg2:T93
+T109	cure 107 112	未引起重视
+T34	drug 137 140	退热药

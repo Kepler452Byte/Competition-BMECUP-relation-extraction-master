@@ -1,0 +1,15 @@
+T1	time 6 9	半月前
+T2	cause 9 12	体检时
+T3	auxiliaryExamination 12 16	胸部CT
+T4	disease 18 30	左上肺门旁慢性感染性病变
+T7	time 42 44	平素
+T8	negative 44 45	无
+T9	clinicalFeature 47 49	咳嗽
+T10	clinicalFeature 49 51	咳痰
+R3	timeDisease Arg1:T1 Arg2:T4
+R4	causeDisease Arg1:T2 Arg2:T4
+T13	modification 35 38	曲霉菌
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T8 Arg2:T10
+R9	clinicalFeatureTime Arg1:T9 Arg2:T7
+R10	clinicalFeatureTime Arg1:T10 Arg2:T7

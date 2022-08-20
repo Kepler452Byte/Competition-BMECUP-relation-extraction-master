@@ -1,0 +1,112 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 11	1周余
+T4	time 20 23	1周前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 31 33	咳嗽
+T7	clinicalFeature 33 35	咳痰
+T8	modification 36 41	咳白色粘痰
+T9	modification 42 44	量少
+T10	negative 45 46	无
+T11	clinicalFeature 46 48	发热
+T12	negative 49 50	无
+T13	clinicalFeature 50 52	胸痛
+T14	negative 53 54	无
+T15	clinicalFeature 54 56	咯血
+T16	negative 57 58	无
+T17	clinicalFeature 58 60	盗汗
+T18	cure 71 77	口服抗炎治疗
+T19	drug 83 89	具体用药不详
+T21	clinicalFeature 101 103	恶心
+T22	clinicalFeature 103 105	呕吐
+T23	negative 106 107	无
+T24	clinicalFeature 107 109	畏寒
+T25	negative 110 111	无
+T26	clinicalFeature 111 113	胸闷
+T27	clinicalFeature 113 115	气促
+T28	negative 116 117	无
+T29	clinicalFeature 117 119	腹痛
+T30	clinicalFeature 119 121	腹泻
+T31	auxiliaryExamination 132 136	胸部CT
+T32	disease 137 141	肺部感染
+T34	disease 144 146	肺炎
+T47	sign 202 203	T
+T48	indexValue 204 209	36.1℃
+T49	sign 210 211	P
+T50	indexValue 212 217	76次/分
+T51	sign 218 219	R
+T52	indexValue 220 225	19次/分
+T53	sign 226 228	BP
+T54	indexValue 229 239	141/83mmHg
+T55	clinicalFeature 240 243	神志清
+T56	clinicalFeature 244 248	呼吸平稳
+T57	body 249 254	浅表淋巴结
+T58	clinicalFeature 254 258	未及肿大
+T59	body 259 261	口唇
+T60	clinicalFeature 261 266	无明显发绀
+T61	body 268 270	两肺
+T62	clinicalFeature 270 274	呼吸音粗
+T63	clinicalFeature 275 280	未闻及啰音
+T64	sign 281 283	心率
+T65	indexValue 283 288	76次/分
+T66	clinicalFeature 289 291	律齐
+T67	clinicalFeature 292 297	未闻及杂音
+T68	body 298 299	腹
+T69	clinicalFeature 299 301	平软
+T70	clinicalFeature 302 305	无压痛
+T71	body 306 307	肝
+T72	body 307 308	脾
+T73	clinicalFeature 308 313	肋下未触及
+T74	body 314 317	双下肢
+T75	clinicalFeature 317 320	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R7	negativeClinicalFeature Arg1:T10 Arg2:T11
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T14 Arg2:T15
+R10	negativeClinicalFeature Arg1:T16 Arg2:T17
+R11	clinicalFeatureTime Arg1:T6 Arg2:T4
+R12	clinicalFeatureTime Arg1:T7 Arg2:T4
+R13	clinicalFeatureTime Arg1:T11 Arg2:T4
+R14	clinicalFeatureTime Arg1:T13 Arg2:T4
+R15	clinicalFeatureTime Arg1:T15 Arg2:T4
+R16	clinicalFeatureTime Arg1:T17 Arg2:T4
+T76	trend 80 82	好转
+R18	cureTime Arg1:T18 Arg2:T4
+R19	clinicalFeatureTrend Arg1:T6 Arg2:T76
+R20	clinicalFeatureTrend Arg1:T7 Arg2:T76
+T77	time 91 92	今
+T20	cause 92 99	服用"头孢"后
+R22	causeClinicalFeature Arg1:T20 Arg2:T21
+R23	causeClinicalFeature Arg1:T20 Arg2:T22
+R24	negativeClinicalFeature Arg1:T23 Arg2:T24
+R25	negativeClinicalFeature Arg1:T25 Arg2:T26
+R26	negativeClinicalFeature Arg1:T25 Arg2:T27
+R27	negativeClinicalFeature Arg1:T28 Arg2:T29
+R28	negativeClinicalFeature Arg1:T28 Arg2:T30
+R29	clinicalFeatureTime Arg1:T21 Arg2:T77
+R30	clinicalFeatureTime Arg1:T22 Arg2:T77
+R31	clinicalFeatureTime Arg1:T24 Arg2:T77
+R32	clinicalFeatureTime Arg1:T26 Arg2:T77
+R33	clinicalFeatureTime Arg1:T27 Arg2:T77
+R34	clinicalFeatureTime Arg1:T29 Arg2:T77
+R35	clinicalFeatureTime Arg1:T30 Arg2:T77
+R38	auxiliaryExaminationTime Arg1:T31 Arg2:T77
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	signIndexValue Arg1:T51 Arg2:T52
+R48	signIndexValue Arg1:T53 Arg2:T54
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T59 Arg2:T60
+R51	bodyClinicalFeature Arg1:T61 Arg2:T62
+R52	bodyClinicalFeature Arg1:T61 Arg2:T63
+R53	signIndexValue Arg1:T64 Arg2:T65
+R54	bodyClinicalFeature Arg1:T68 Arg2:T69
+R55	bodyClinicalFeature Arg1:T68 Arg2:T70
+R56	bodyClinicalFeature Arg1:T71 Arg2:T73
+R57	bodyClinicalFeature Arg1:T72 Arg2:T73
+R58	bodyClinicalFeature Arg1:T74 Arg2:T75
+R5	modificationClinicalFeature Arg1:T8 Arg2:T7
+R6	modificationClinicalFeature Arg1:T9 Arg2:T7

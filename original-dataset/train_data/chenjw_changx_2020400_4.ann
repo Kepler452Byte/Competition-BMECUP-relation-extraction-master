@@ -1,0 +1,133 @@
+T1	disease 10 15	前列腺腺癌
+T2	time 15 17	半年
+T4	time 22 24	1周
+T5	time 33 36	半年前
+T8	negative 84 85	无
+T9	time 93 96	1周前
+T11	clinicalFeature 106 110	左肩疼痛
+T12	negative 111 112	无
+T13	clinicalFeature 112 114	畏寒
+T14	clinicalFeature 114 116	发热
+T15	negative 117 118	无
+T16	clinicalFeature 118 120	恶心
+T17	clinicalFeature 120 122	呕吐
+T18	negative 123 124	无
+T20	negative 131 132	无
+T21	clinicalFeature 132 138	明显肉眼血尿
+T22	negative 139 140	无
+T23	clinicalFeature 140 142	腹胀
+T24	clinicalFeature 142 144	腹泻
+T26	disease 163 169	膀胱恶性肿瘤
+T27	disease 172 179	前列腺恶性肿瘤
+T40	disease 227 230	高血压
+T41	time 233 237	10余年
+T42	drug 243 251	厄贝沙坦氢氯噻嗪
+T43	dose 251 253	1#
+T44	frequency 254 257	qd"
+T45	clinicalFeature 260 266	血压控制尚可
+T46	sign 275 277	体温
+T47	indexValue 277 282	36.2℃
+T48	sign 283 285	脉搏
+T49	indexValue 285 290	58次/分
+T50	sign 291 293	呼吸
+T51	indexValue 293 298	20次/分
+T52	sign 299 301	血压
+T53	indexValue 301 311	153/90mmHg
+T54	clinicalFeature 313 316	神志清
+T57	body 321 325	全身皮肤
+T58	clinicalFeature 325 328	无黄染
+T59	body 329 336	全身浅表淋巴结
+T60	clinicalFeature 336 339	未触及
+T61	body 340 342	左肩
+T62	clinicalFeature 342 346	活动障碍
+T63	clinicalFeature 347 351	抬举困难
+T64	negative 352 353	无
+T65	clinicalFeature 353 358	左上肢麻木
+T69	negative 369 370	无
+T70	clinicalFeature 370 372	压痛
+T71	clinicalFeature 373 376	反跳痛
+T72	body 377 385	双侧输尿管走行区
+T73	clinicalFeature 385 388	无压痛
+T76	body 406 408	腹中
+T78	body 419 422	双肾区
+T81	disease 6 9	膀胱癌
+T3	clinicalFeature 18 20	乏力
+T82	clinicalFeature 20 22	纳差
+T6	disease 39 45	膀胱恶性肿瘤
+T83	disease 46 53	前列腺恶性肿瘤
+T7	operation 63 75	盆腔、腹股沟淋巴结清扫术
+T84	clinicalFeature 87 89	不适
+R1	timeDisease Arg1:T2 Arg2:T81
+R2	timeDisease Arg1:T2 Arg2:T1
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T82 Arg2:T4
+R5	timeDisease Arg1:T5 Arg2:T6
+R6	timeDisease Arg1:T5 Arg2:T83
+R7	negativeClinicalFeature Arg1:T8 Arg2:T84
+T85	time 77 79	术后
+R9	clinicalFeatureTime Arg1:T84 Arg2:T85
+T10	clinicalFeature 99 101	纳差
+T86	clinicalFeature 101 103	乏力
+R10	clinicalFeatureTime Arg1:T10 Arg2:T9
+R11	clinicalFeatureTime Arg1:T86 Arg2:T9
+R12	clinicalFeatureTime Arg1:T11 Arg2:T9
+R13	negativeClinicalFeature Arg1:T12 Arg2:T13
+R14	negativeClinicalFeature Arg1:T12 Arg2:T14
+R15	negativeClinicalFeature Arg1:T15 Arg2:T16
+R16	negativeClinicalFeature Arg1:T15 Arg2:T17
+T19	clinicalFeature 124 126	尿频
+T87	clinicalFeature 126 128	尿急
+T88	clinicalFeature 128 130	尿痛
+R17	negativeClinicalFeature Arg1:T18 Arg2:T19
+R18	negativeClinicalFeature Arg1:T18 Arg2:T87
+R19	negativeClinicalFeature Arg1:T18 Arg2:T88
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R21	negativeClinicalFeature Arg1:T22 Arg2:T23
+R22	negativeClinicalFeature Arg1:T22 Arg2:T24
+R31	timeDisease Arg1:T41 Arg2:T40
+R32	drugDose Arg1:T42 Arg2:T43
+R33	doseFrequency Arg1:T43 Arg2:T44
+R34	diseaseClinicalFeature Arg1:T40 Arg2:T45
+R35	signIndexValue Arg1:T46 Arg2:T47
+R36	signIndexValue Arg1:T48 Arg2:T49
+R37	signIndexValue Arg1:T50 Arg2:T51
+R38	signIndexValue Arg1:T52 Arg2:T53
+R40	bodyClinicalFeature Arg1:T57 Arg2:T58
+R41	bodyClinicalFeature Arg1:T59 Arg2:T60
+R42	bodyClinicalFeature Arg1:T61 Arg2:T62
+R43	bodyClinicalFeature Arg1:T61 Arg2:T63
+R44	negativeClinicalFeature Arg1:T64 Arg2:T65
+T66	body 359 360	心
+T89	body 360 361	肺
+T67	clinicalFeature 361 365	听诊无殊
+R45	bodyClinicalFeature Arg1:T66 Arg2:T67
+R46	bodyClinicalFeature Arg1:T89 Arg2:T67
+T68	body 366 367	腹
+T90	clinicalFeature 367 368	软
+R47	bodyClinicalFeature Arg1:T68 Arg2:T90
+R48	negativeClinicalFeature Arg1:T69 Arg2:T70
+R49	negativeClinicalFeature Arg1:T69 Arg2:T71
+R50	bodyClinicalFeature Arg1:T68 Arg2:T70
+R51	bodyClinicalFeature Arg1:T68 Arg2:T71
+R52	bodyClinicalFeature Arg1:T72 Arg2:T73
+T74	body 390 395	左侧腹股沟
+T91	clinicalFeature 401 405	手术疤痕
+R54	bodyClinicalFeature Arg1:T74 Arg2:T91
+T92	clinicalFeature 414 418	手术疤痕
+R55	bodyClinicalFeature Arg1:T76 Arg2:T92
+T80	body 427 430	双下肢
+T93	clinicalFeature 430 432	不肿
+T79	clinicalFeature 422 426	无叩击痛
+R57	bodyClinicalFeature Arg1:T78 Arg2:T79
+T55	clinicalFeature 317 320	精神软
+R39	clinicalFeatureTime Arg1:T13 Arg2:T9
+R58	clinicalFeatureTime Arg1:T14 Arg2:T9
+R59	clinicalFeatureTime Arg1:T16 Arg2:T9
+R60	clinicalFeatureTime Arg1:T17 Arg2:T9
+R61	clinicalFeatureTime Arg1:T19 Arg2:T9
+R62	clinicalFeatureTime Arg1:T87 Arg2:T9
+R63	clinicalFeatureTime Arg1:T88 Arg2:T9
+R64	clinicalFeatureTime Arg1:T21 Arg2:T9
+R65	clinicalFeatureTime Arg1:T23 Arg2:T9
+R66	clinicalFeatureTime Arg1:T24 Arg2:T9
+R67	drugFrequency Arg1:T42 Arg2:T44

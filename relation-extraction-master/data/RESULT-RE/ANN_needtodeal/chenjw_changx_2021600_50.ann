@@ -1,0 +1,130 @@
+T1	disease 7 11	左肺鳞癌
+T2	time 12 15	1年余
+T3	clinicalFeature 16 18	胸闷
+T4	clinicalFeature 18 20	气急
+T5	time 20 22	2天
+T6	time 32 36	1年余前
+T7	auxiliaryExamination 40 46	支气管镜活检
+T8	auxiliaryExamination 40 53	支气管镜活检及免疫组化检查
+T9	auxiliaryExamination 47 53	免疫组化检查
+T10	disease 57 61	左肺鳞癌
+T11	time 64 73	2018.4.16
+T12	drug 82 84	顺铂
+T13	dose 84 88	40mg
+T14	drug 96 100	吉西他滨
+T15	dose 100 106	1600mg
+T16	frequency 110 112	d8
+T17	cure 113 117	化疗治疗
+T18	cure 135 139	暂停化疗
+T19	time 140 149	2018.7.30
+T20	cure 158 162	化疗治疗
+T21	cure 163 167	化疗方案
+T22	drug 169 171	卡铂
+T23	dose 171 176	200mg
+T24	frequency 177 179	d1
+T25	drug 180 184	吉西他滨
+T26	dose 185 191	1400mg
+T27	drug 201 205	多西他赛
+T28	cure 208 210	化疗
+T29	frequency 210 212	2次
+T30	time 213 215	期间
+T31	clinicalFeature 217 222	胸腹部癌痛
+T32	clinicalFeature 220 222	癌痛
+T33	time 226 228	目前
+T34	drug 231 235	奥施康定
+T35	dose 235 239	40mg
+T36	frequency 240 244	q12h
+T37	dose 241 244	12h
+T38	time 249 252	2天前
+T39	cause 254 259	无明显诱因
+T40	clinicalFeature 264 266	胸闷
+T41	clinicalFeature 266 268	气急
+T42	clinicalFeature 269 271	咳嗽
+T43	clinicalFeature 271 273	咳痰
+T44	modification 276 278	偶有
+T45	clinicalFeature 278 282	痰中带血
+T46	modification 283 290	为鲜红色血丝痰
+T47	modification 284 290	鲜红色血丝痰
+T48	modification 291 294	量不多
+T49	negative 295 296	无
+T50	clinicalFeature 296 298	胸痛
+T51	clinicalFeature 298 300	腹痛
+T52	negative 301 302	无
+T53	clinicalFeature 302 304	畏寒
+T54	clinicalFeature 304 306	发热
+T55	disease 319 324	肺恶性肿瘤
+T56	sign 376 377	T
+T57	indexValue 378 383	36.0℃
+T58	sign 384 385	P
+T59	indexValue 385 390	52次/分
+T60	sign 391 392	R
+T61	indexValue 393 398	19次/分
+T62	sign 399 401	BP
+T63	indexValue 402 412	102/56mmHg
+T64	clinicalFeature 413 416	神志清
+T65	clinicalFeature 417 420	精神软
+T66	clinicalFeature 421 426	呼吸尚平稳
+T67	body 427 432	浅表淋巴结
+T68	clinicalFeature 432 436	未及肿大
+T69	body 437 439	口唇
+T70	clinicalFeature 439 442	无发绀
+T71	body 443 445	两肺
+T72	clinicalFeature 445 449	呼吸音低
+T73	clinicalFeature 451 459	未闻及干湿性啰音
+T74	sign 460 462	心率
+T75	indexValue 462 467	52次/分
+T76	clinicalFeature 468 470	律齐
+T77	clinicalFeature 471 479	未闻及病理性杂音
+T78	body 480 481	腹
+T79	clinicalFeature 481 483	平软
+T80	negative 484 485	无
+T81	clinicalFeature 485 487	压痛
+T82	clinicalFeature 488 491	反跳痛
+T83	body 492 493	肝
+T84	body 493 494	脾
+T85	clinicalFeature 494 499	肋下未触及
+T86	body 500 503	双下肢
+T87	clinicalFeature 503 506	无浮肿
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T5
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	timeDisease Arg1:T6 Arg2:T10
+R5	auxiliaryExaminationTime Arg1:T8 Arg2:T6
+R6	auxiliaryExaminationTime Arg1:T8 Arg2:T6
+R7	auxiliaryExaminationTime Arg1:T9 Arg2:T6
+R8	drugDose Arg1:T12 Arg2:T13
+R9	doseFrequency Arg1:T15 Arg2:T16
+R10	cureTime Arg1:T17 Arg2:T11
+R11	cureTime Arg1:T20 Arg2:T19
+R12	drugFrequency Arg1:T22 Arg2:T24
+R13	doseFrequency Arg1:T23 Arg2:T24
+R14	drugDose Arg1:T25 Arg2:T26
+R15	cureFrequency Arg1:T28 Arg2:T29
+R16	clinicalFeatureTime Arg1:T31 Arg2:T30
+R17	clinicalFeatureTime Arg1:T32 Arg2:T30
+R18	clinicalFeatureTime Arg1:T41 Arg2:T38
+R19	clinicalFeatureTime Arg1:T42 Arg2:T38
+R20	clinicalFeatureTime Arg1:T43 Arg2:T38
+R21	modificationClinicalfeature Arg1:T44 Arg2:T45
+R22	clinicalFeatureTime Arg1:T45 Arg2:T38
+R23	modificationClinicalfeature Arg1:T46 Arg2:T45
+R24	modificationClinicalfeature Arg1:T47 Arg2:T45
+R25	negativeClinicalfeature Arg1:T49 Arg2:T51
+R26	clinicalFeatureTime Arg1:T50 Arg2:T38
+R27	clinicalFeatureTime Arg1:T51 Arg2:T38
+R28	negativeClinicalfeature Arg1:T52 Arg2:T54
+R29	clinicalFeatureTime Arg1:T53 Arg2:T38
+R30	clinicalFeatureTime Arg1:T54 Arg2:T38
+R31	signIndexvalue Arg1:T56 Arg2:T57
+R32	signIndexvalue Arg1:T58 Arg2:T59
+R33	signIndexvalue Arg1:T60 Arg2:T61
+R34	signIndexvalue Arg1:T62 Arg2:T63
+R35	bodyClinicalfeature Arg1:T67 Arg2:T68
+R36	bodyClinicalfeature Arg1:T69 Arg2:T70
+R37	bodyClinicalfeature Arg1:T71 Arg2:T73
+R38	signIndexvalue Arg1:T74 Arg2:T75
+R39	bodyClinicalfeature Arg1:T78 Arg2:T82
+R40	negativeClinicalfeature Arg1:T80 Arg2:T82
+R41	bodyClinicalfeature Arg1:T83 Arg2:T85
+R42	bodyClinicalfeature Arg1:T84 Arg2:T85
+R43	bodyClinicalfeature Arg1:T86 Arg2:T87

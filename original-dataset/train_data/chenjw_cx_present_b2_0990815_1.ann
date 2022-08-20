@@ -1,0 +1,6 @@
+T1	time 6 9	9年前
+T2	disease 14 17	动脉瘤
+T5	cause 10 14	检查发现
+R1	causeDisease Arg1:T5 Arg2:T2
+R2	timeDisease Arg1:T1 Arg2:T2
+T3	diseaseKeyWord 27 33	新动脉瘤栓塞

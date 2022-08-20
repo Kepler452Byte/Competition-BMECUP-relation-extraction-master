@@ -1,0 +1,8 @@
+T1	time 6 8	今日
+T2	laboratory 22 25	血生化
+T3	laboratory 28 31	钾离子
+T4	laboratoryValue 31 40	6.0mmol/l
+T5	clinicalFeature 44 46	乏力
+R1	laboratoryTime Arg1:T2 Arg2:T1
+R3	laboratoryLaboratoryValue Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1

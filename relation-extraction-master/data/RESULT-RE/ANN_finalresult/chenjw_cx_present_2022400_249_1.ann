@@ -1,0 +1,6 @@
+T1	time 10 17	入院前近1小时
+T2	modification 23 25	突发
+T3	clinicalFeature 25 29	神志不清
+T4	cause 30 32	摔倒
+R1	modificationClinicalfeature Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1

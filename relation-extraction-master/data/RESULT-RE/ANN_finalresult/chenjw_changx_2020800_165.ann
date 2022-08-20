@@ -1,0 +1,131 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 11	一月余
+T4	time 20 23	一月前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 31 33	咳嗽
+T7	clinicalFeature 33 35	咳痰
+T8	clinicalFeature 37 39	发热
+T9	drug 40 46	具体体温不详
+T10	disease 61 65	肺部感染
+T11	cure 68 72	抗炎治疗
+T12	trend 68 75	抗炎治疗后好转
+T13	trend 73 75	好转
+T14	time 76 79	近几日
+T15	clinicalFeature 79 81	咳嗽
+T16	clinicalFeature 81 83	咳痰
+T17	trend 83 85	加重
+T18	negative 86 87	无
+T19	clinicalFeature 87 89	畏寒
+T20	clinicalFeature 89 91	发热
+T21	negative 93 94	无
+T22	clinicalFeature 94 96	胸闷
+T23	clinicalFeature 96 98	气急
+T24	negative 99 100	无
+T25	clinicalFeature 100 102	胸痛
+T26	clinicalFeature 102 104	咯血
+T27	negative 105 106	无
+T28	clinicalFeature 106 108	恶心
+T29	clinicalFeature 108 110	呕吐
+T30	negative 111 112	无
+T31	clinicalFeature 112 114	腹痛
+T32	clinicalFeature 114 116	腹泻
+T33	negative 117 118	无
+T34	clinicalFeature 118 122	四肢乏力
+T35	clinicalFeature 123 127	活动受限
+T36	cure 134 138	抗炎治疗
+T37	trend 138 145	症状无明显好转
+T38	trend 140 145	无明显好转
+T39	disease 157 161	肺部感染
+T40	disease 175 179	高血压病
+T41	disease 180 183	糖尿病
+T42	disease 184 186	脑梗
+T43	disease 187 191	心律失常
+T44	disease 192 194	房颤
+T45	cure 201 205	药物治疗
+T46	drug 206 210	具体不详
+T47	time 213 216	患病来
+T48	sign 257 258	T
+T49	indexValue 259 264	36.3℃
+T50	sign 265 266	P
+T51	indexValue 267 272	95次/分
+T52	sign 273 274	R
+T53	indexValue 275 280	20次/分
+T54	sign 281 283	BP
+T55	indexValue 284 294	173/91mmHg
+T56	clinicalFeature 295 299	意识不清
+T57	clinicalFeature 300 304	呼吸平稳
+T58	body 305 310	浅表淋巴结
+T59	clinicalFeature 310 314	未及肿大
+T60	body 315 317	口唇
+T61	clinicalFeature 317 322	无明显发绀
+T62	body 323 325	两肺
+T63	clinicalFeature 325 329	呼吸音粗
+T64	clinicalFeature 331 338	未闻及明显啰音
+T65	sign 339 341	心率
+T66	indexValue 341 347	106次/分
+T67	clinicalFeature 348 353	律绝对不齐
+T68	clinicalFeature 354 359	未闻及杂音
+T69	body 360 361	腹
+T70	clinicalFeature 361 363	平软
+T71	clinicalFeature 364 367	无压痛
+T72	body 368 369	肝
+T73	body 369 370	脾
+T74	clinicalFeature 370 375	肋下未触及
+T75	body 376 379	双下肢
+T76	clinicalFeature 379 382	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalfeature Arg1:T5 Arg2:T7
+R4	causeClinicalfeature Arg1:T5 Arg2:T8
+R5	clinicalFeatureTrend Arg1:T6 Arg2:T13
+R6	clinicalFeatureTrend Arg1:T6 Arg2:T37
+R7	clinicalFeatureTrend Arg1:T6 Arg2:T38
+R8	clinicalFeatureTrend Arg1:T7 Arg2:T13
+R9	clinicalFeatureTrend Arg1:T7 Arg2:T37
+R10	clinicalFeatureTrend Arg1:T7 Arg2:T38
+R11	clinicalFeatureTime Arg1:T8 Arg2:T4
+R12	drugClinicalfeature Arg1:T9 Arg2:T8
+R13	cureTime Arg1:T12 Arg2:T4
+R14	clinicalFeatureTime Arg1:T15 Arg2:T14
+R15	clinicalFeatureTrend Arg1:T15 Arg2:T37
+R16	clinicalFeatureTrend Arg1:T15 Arg2:T38
+R17	clinicalFeatureTime Arg1:T16 Arg2:T14
+R18	clinicalFeatureTrend Arg1:T16 Arg2:T37
+R19	clinicalFeatureTrend Arg1:T16 Arg2:T38
+R20	negativeClinicalfeature Arg1:T18 Arg2:T20
+R21	clinicalFeatureTime Arg1:T19 Arg2:T14
+R22	clinicalFeatureTime Arg1:T20 Arg2:T14
+R23	negativeClinicalfeature Arg1:T21 Arg2:T23
+R24	clinicalFeatureTime Arg1:T22 Arg2:T14
+R25	clinicalFeatureTime Arg1:T23 Arg2:T14
+R26	negativeClinicalfeature Arg1:T24 Arg2:T26
+R27	clinicalFeatureTime Arg1:T25 Arg2:T4
+R28	clinicalFeatureTime Arg1:T25 Arg2:T14
+R29	clinicalFeatureTime Arg1:T26 Arg2:T14
+R30	negativeClinicalfeature Arg1:T27 Arg2:T29
+R31	clinicalFeatureTime Arg1:T28 Arg2:T4
+R32	clinicalFeatureTime Arg1:T28 Arg2:T14
+R33	clinicalFeatureTime Arg1:T29 Arg2:T4
+R34	clinicalFeatureTime Arg1:T29 Arg2:T14
+R35	negativeClinicalfeature Arg1:T30 Arg2:T32
+R36	clinicalFeatureTime Arg1:T31 Arg2:T4
+R37	clinicalFeatureTime Arg1:T31 Arg2:T14
+R38	clinicalFeatureTime Arg1:T32 Arg2:T14
+R39	negativeClinicalfeature Arg1:T33 Arg2:T35
+R40	clinicalFeatureTime Arg1:T34 Arg2:T14
+R41	clinicalFeatureTime Arg1:T35 Arg2:T14
+R42	cureTime Arg1:T36 Arg2:T14
+R43	drugCure Arg1:T46 Arg2:T45
+R44	signIndexvalue Arg1:T48 Arg2:T49
+R45	signIndexvalue Arg1:T50 Arg2:T51
+R46	signIndexvalue Arg1:T52 Arg2:T53
+R47	signIndexvalue Arg1:T54 Arg2:T55
+R48	bodyClinicalfeature Arg1:T58 Arg2:T59
+R49	bodyClinicalfeature Arg1:T60 Arg2:T61
+R50	bodyClinicalfeature Arg1:T62 Arg2:T64
+R51	signIndexvalue Arg1:T65 Arg2:T66
+R52	bodyClinicalfeature Arg1:T69 Arg2:T71
+R53	bodyClinicalfeature Arg1:T72 Arg2:T74
+R54	bodyClinicalfeature Arg1:T73 Arg2:T74
+R55	bodyClinicalfeature Arg1:T75 Arg2:T76

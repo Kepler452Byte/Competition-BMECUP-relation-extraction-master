@@ -1,0 +1,8 @@
+T1	time 6 9	2天前
+T2	clinicalFeature 25 27	发热
+T3	sign 28 30	热峰
+T4	indexValue 30 35	39.6℃
+T8	cause 15 21	注射甲肝疫苗
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T8 Arg2:T2
+R3	signIndexValue Arg1:T3 Arg2:T4

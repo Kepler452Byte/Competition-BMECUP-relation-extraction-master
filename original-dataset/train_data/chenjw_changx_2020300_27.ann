@@ -1,0 +1,143 @@
+T1	clinicalFeature 7 12	右下腹疼痛
+T2	time 12 15	5小时
+T3	time 24 28	5小时前
+T4	cause 28 33	无明显诱因
+T5	clinicalFeature 36 41	中腹部隐痛
+T6	modification 42 46	程度不剧
+T7	modification 47 51	尚可忍受
+T9	clinicalFeature 55 60	右下腹剧痛
+T10	clinicalFeature 62 64	恶心
+T11	clinicalFeature 64 66	呕吐
+T14	negative 78 79	无
+T15	clinicalFeature 79 86	腹泻及里急后重
+T16	negative 87 88	无
+T17	clinicalFeature 88 90	胸闷
+T18	clinicalFeature 90 92	气促
+T19	negative 94 95	无
+T20	clinicalFeature 95 101	尿急尿痛尿频
+T21	negative 104 105	无
+T22	clinicalFeature 105 107	头痛
+T23	clinicalFeature 107 109	头晕
+T24	negative 110 111	无
+T25	clinicalFeature 111 113	畏寒
+T26	clinicalFeature 113 115	发热
+T27	negative 116 117	无
+T28	clinicalFeature 117 127	会阴部及腰背部放射痛
+T29	trend 140 144	未见缓解
+T30	auxiliaryDescript 159 164	炎症性改变
+T31	laboratory 168 175	CRP+血常规
+T32	laboratory 176 182	中性粒细胞%
+T33	laboratoryValue 183 188	75.6%
+T34	laboratory 189 193	血红蛋白
+T35	laboratoryValue 194 200	153g/L
+T36	laboratoryValue 205 216	18.7*10^9/L
+T37	laboratory 217 220	血小板
+T38	laboratoryValue 221 231	206*10^9/L
+T40	disease 245 250	急性阑尾炎
+T47	clinicalFeature 274 276	未眠
+T52	sign 301 303	体温
+T53	indexValue 303 308	37.1℃
+T54	sign 309 311	脉搏
+T55	indexValue 311 316	83次/分
+T56	sign 317 319	呼吸
+T57	indexValue 319 324	20次/分
+T58	sign 325 327	血压
+T59	indexValue 327 337	145/86mmHg
+T60	clinicalFeature 341 344	神志清
+T63	clinicalFeature 353 355	不黄
+T64	body 356 361	浅表淋巴结
+T65	clinicalFeature 361 365	未及肿大
+T66	body 366 368	双肺
+T67	clinicalFeature 368 373	呼吸音清晰
+T68	clinicalFeature 375 382	未闻及明显罗音
+T69	sign 383 386	HR：
+T70	indexValue 386 391	83次/分
+T71	clinicalFeature 392 394	律齐
+T72	clinicalFeature 395 405	未闻及明显病理性杂音
+T73	body 406 407	腹
+T74	clinicalFeature 407 409	平软
+T75	clinicalFeature 412 416	肋下未及
+T76	indexValue 429 431	阴性
+T77	body 432 435	右下腹
+T78	clinicalFeature 435 437	压痛
+T80	clinicalFeature 440 444	无反跳痛
+T81	clinicalFeature 445 451	未及明显包块
+T82	body 453 456	双肾区
+T84	clinicalFeature 456 459	无叩痛
+T86	body 467 470	双下肢
+T87	clinicalFeature 470 473	无浮肿
+T88	sign 474 477	病理征
+T89	indexValue 477 480	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R7	clinicalFeatureTime Arg1:T10 Arg2:T3
+R8	clinicalFeatureTime Arg1:T11 Arg2:T3
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	clinicalFeatureTime Arg1:T15 Arg2:T3
+R13	negativeClinicalFeature Arg1:T16 Arg2:T17
+R14	clinicalFeatureTime Arg1:T17 Arg2:T3
+R15	negativeClinicalFeature Arg1:T16 Arg2:T18
+R16	clinicalFeatureTime Arg1:T18 Arg2:T3
+R17	negativeClinicalFeature Arg1:T19 Arg2:T20
+R18	negativeClinicalFeature Arg1:T21 Arg2:T22
+R19	negativeClinicalFeature Arg1:T21 Arg2:T23
+R20	clinicalFeatureTime Arg1:T20 Arg2:T3
+R21	clinicalFeatureTime Arg1:T22 Arg2:T3
+R22	clinicalFeatureTime Arg1:T23 Arg2:T3
+R23	negativeClinicalFeature Arg1:T24 Arg2:T25
+R24	clinicalFeatureTime Arg1:T25 Arg2:T3
+R25	negativeClinicalFeature Arg1:T24 Arg2:T26
+R26	clinicalFeatureTime Arg1:T26 Arg2:T3
+R27	negativeClinicalFeature Arg1:T27 Arg2:T28
+R28	clinicalFeatureTime Arg1:T28 Arg2:T3
+T90	auxiliaryExamination 152 156	阑尾B超
+T91	body 157 159	阑尾
+R30	bodyAuxiliaryDescript Arg1:T91 Arg2:T30
+R31	auxiliaryExaminationAuxiliaryDescript Arg1:T90 Arg2:T30
+T93	laboratory 201 204	白细胞
+R32	laboratoryLaboratoryValue Arg1:T37 Arg2:T38
+R33	laboratoryLaboratoryValue Arg1:T93 Arg2:T36
+R34	laboratoryLaboratoryValue Arg1:T34 Arg2:T35
+R35	laboratoryLaboratoryValue Arg1:T32 Arg2:T33
+R42	signIndexValue Arg1:T52 Arg2:T53
+R43	signIndexValue Arg1:T54 Arg2:T55
+R44	signIndexValue Arg1:T56 Arg2:T57
+R45	signIndexValue Arg1:T58 Arg2:T59
+R47	bodyClinicalFeature Arg1:T64 Arg2:T65
+R48	bodyClinicalFeature Arg1:T66 Arg2:T67
+R49	bodyClinicalFeature Arg1:T66 Arg2:T68
+R50	signIndexValue Arg1:T69 Arg2:T70
+R51	bodyClinicalFeature Arg1:T73 Arg2:T74
+T94	sign 417 428	Murphy sign
+R52	signIndexValue Arg1:T94 Arg2:T76
+R53	bodyClinicalFeature Arg1:T77 Arg2:T78
+R55	bodyClinicalFeature Arg1:T77 Arg2:T80
+R56	bodyClinicalFeature Arg1:T77 Arg2:T81
+R59	bodyClinicalFeature Arg1:T82 Arg2:T84
+R60	bodyClinicalFeature Arg1:T86 Arg2:T87
+R61	signIndexValue Arg1:T88 Arg2:T89
+R6	clinicalFeatureTime Arg1:T9 Arg2:T3
+T8	frequency 66 68	2次
+R29	clinicalFeatureTrend Arg1:T9 Arg2:T29
+T12	clinicalFeature 345 348	精神软
+T61	body 349 351	皮肤
+T62	body 351 353	巩膜
+R46	bodyClinicalFeature Arg1:T61 Arg2:T63
+R69	bodyClinicalFeature Arg1:T62 Arg2:T63
+T92	body 410 411	肝
+T96	body 411 412	脾
+R70	bodyClinicalFeature Arg1:T92 Arg2:T75
+R71	bodyClinicalFeature Arg1:T96 Arg2:T75
+R58	clinicalFeatureFrequency Arg1:T11 Arg2:T8
+T83	cure 133 137	未予处理
+R62	cureTime Arg1:T83 Arg2:T3
+T85	sign 460 463	肠鸣音
+T97	indexValue 463 466	无亢进
+R72	signIndexValue Arg1:T85 Arg2:T97
+R4	modificationClinicalFeature Arg1:T6 Arg2:T5
+R5	modificationClinicalFeature Arg1:T7 Arg2:T5
+T95	modification 4 7	转移性
+R57	modificationClinicalFeature Arg1:T95 Arg2:T1
+T98	modification 53 55	转至
+R63	modificationClinicalFeature Arg1:T98 Arg2:T9

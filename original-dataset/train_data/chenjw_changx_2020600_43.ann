@@ -1,0 +1,91 @@
+T2	time 11 13	1天
+T3	time 22 25	1天前
+T6	negative 45 46	无
+T7	clinicalFeature 46 49	放射痛
+T8	clinicalFeature 52 56	活动受限
+T9	negative 57 58	无
+T10	clinicalFeature 58 60	恶心
+T11	clinicalFeature 60 62	呕吐
+T12	negative 63 64	无
+T13	clinicalFeature 64 66	心慌
+T14	clinicalFeature 66 68	胸闷
+T20	disease 144 150	腰5椎体骨折
+T33	sign 207 209	体温
+T34	indexValue 209 214	36.5℃
+T35	sign 215 217	脉搏
+T36	indexValue 217 222	63次/分
+T37	sign 223 225	呼吸
+T38	indexValue 225 230	19次/分
+T39	sign 231 233	血压
+T40	indexValue 233 243	171/82mmHg
+T41	clinicalFeature 244 246	神清
+T51	sign 285 288	生理反
+T52	indexValue 288 290	射存
+T53	sign 291 295	病理反射
+T54	indexValue 295 298	未引出
+T1	clinicalFeature 7 11	腰背疼痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T4	cause 29 31	摔伤
+T55	clinicalFeature 32 37	腰背部疼痛
+R2	clinicalFeatureTime Arg1:T55 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T55
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	clinicalFeatureTime Arg1:T8 Arg2:T3
+R8	negativeClinicalFeature Arg1:T9 Arg2:T10
+R9	negativeClinicalFeature Arg1:T9 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+T15	auxiliaryExamination 91 93	X线
+T16	disease 96 102	L1椎体术后
+R14	clinicalFeatureTime Arg1:T10 Arg2:T3
+R15	clinicalFeatureTime Arg1:T11 Arg2:T3
+R16	clinicalFeatureTime Arg1:T13 Arg2:T3
+R17	clinicalFeatureTime Arg1:T14 Arg2:T3
+T17	body 109 113	L5椎体
+T57	body 106 108	T7
+T58	auxiliaryDescript 113 117	略楔形变
+R18	bodyAuxiliaryDescript Arg1:T57 Arg2:T58
+R19	bodyAuxiliaryDescript Arg1:T17 Arg2:T58
+T59	auxiliaryDescript 118 124	请结合压痛点
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T15 Arg2:T58
+R30	signIndexValue Arg1:T33 Arg2:T34
+R31	signIndexValue Arg1:T35 Arg2:T36
+R32	signIndexValue Arg1:T37 Arg2:T38
+R33	signIndexValue Arg1:T39 Arg2:T40
+T42	body 247 248	心
+T60	body 248 249	肺
+T43	clinicalFeature 249 253	听诊无殊
+R34	bodyClinicalFeature Arg1:T42 Arg2:T43
+R35	bodyClinicalFeature Arg1:T60 Arg2:T43
+T44	body 254 255	腹
+T61	clinicalFeature 255 256	软
+R36	bodyClinicalFeature Arg1:T44 Arg2:T61
+T45	clinicalFeature 257 260	无压痛
+R37	bodyClinicalFeature Arg1:T44 Arg2:T45
+T46	body 261 264	下腰部
+T47	clinicalFeature 264 266	压痛
+R38	bodyClinicalFeature Arg1:T46 Arg2:T47
+T48	body 267 269	腰部
+T62	clinicalFeature 269 273	活动受限
+R39	bodyClinicalFeature Arg1:T48 Arg2:T62
+T49	sign 277 279	肌力
+T50	sign 280 282	感觉
+T63	indexValue 282 284	正常
+T64	body 275 277	四肢
+R40	signIndexValue Arg1:T50 Arg2:T63
+R41	signIndexValue Arg1:T49 Arg2:T63
+R42	bodySign Arg1:T64 Arg2:T49
+R43	bodySign Arg1:T64 Arg2:T50
+R44	signIndexValue Arg1:T51 Arg2:T52
+R45	signIndexValue Arg1:T53 Arg2:T54
+T65	cure 72 75	未治疗
+R46	cureTime Arg1:T65 Arg2:T3
+T66	time 80 81	今
+R47	auxiliaryExaminationTime Arg1:T15 Arg2:T66
+T18	cause 4 6	摔伤
+R22	causeClinicalFeature Arg1:T18 Arg2:T1
+T5	modification 39 42	持续性
+T67	modification 42 44	胀痛
+R4	modificationClinicalFeature Arg1:T5 Arg2:T55
+R23	modificationClinicalFeature Arg1:T67 Arg2:T55

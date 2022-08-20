@@ -1,0 +1,5 @@
+T1	time 10 15	1小时余前
+T2	clinicalFeature 46 48	头痛
+T5	cause 29 33	摔落下来
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T5 Arg2:T2

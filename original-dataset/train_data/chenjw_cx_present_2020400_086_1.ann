@@ -1,0 +1,9 @@
+T1	time 9 12	6月前
+T2	clinicalFeature 22 27	血小板减少
+T3	laboratory 28 31	血小板
+T4	laboratoryValue 31 40	46*10^9/L
+T7	cause 18 22	产检发现
+R1	causeClinicalFeature Arg1:T7 Arg2:T2
+R2	laboratoryLaboratoryValue Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T2 Arg2:T1
+R4	laboratoryTime Arg1:T3 Arg2:T1

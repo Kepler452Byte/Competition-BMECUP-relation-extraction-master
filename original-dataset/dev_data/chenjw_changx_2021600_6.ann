@@ -1,0 +1,219 @@
+T1	disease 6 12	多发性骨髓瘤
+T2	time 12 14	9年
+T3	modification 15 17	反复
+T4	clinicalFeature 17 20	腰背痛
+T5	clinicalFeature 21 23	乏力
+T6	time 23 25	4月
+T7	trend 26 28	加重
+T8	time 28 30	1周
+T9	time 39 42	9年前
+T10	clinicalFeature 44 46	乏力
+T11	disease 66 72	多发性骨髓瘤
+T12	drug 91 95	沙利度胺
+T13	drug 96 100	强的松片
+T17	time 116 119	4年前
+T18	drug 124 128	沙利度胺
+T19	dose 129 134	100mg
+T20	frequency 135 137	qd
+T21	drug 138 142	强的松片
+T22	dose 142 146	10mg
+T23	frequency 147 149	qw
+T25	time 165 168	4月前
+T26	body 172 175	腰背部
+T27	clinicalFeature 181 183	疼痛
+T28	modification 184 188	程度较剧
+T29	modification 191 194	持续性
+T30	negative 197 198	无
+T31	clinicalFeature 203 206	放射痛
+T32	clinicalFeature 208 210	乏力
+T33	auxiliaryExamination 233 238	腰椎MRI
+T38	body 268 274	腰5椎体上缘
+T39	auxiliaryDescript 274 281	许莫氏结节形成
+T40	body 290 294	L1/2
+T41	body 295 299	L2/3
+T43	body 310 315	L5/S1
+T44	auxiliaryDescript 315 320	椎间盘膨出
+T45	body 321 323	腰椎
+T46	auxiliaryDescript 323 327	退行性变
+T47	body 328 333	胸12椎体
+T48	auxiliaryDescript 333 339	骨折术后改变
+T50	drug 345 348	西乐葆
+T51	dose 348 350	1#
+T52	frequency 351 353	qd
+T53	drug 354 361	骨化三醇软胶囊
+T54	dose 361 363	1#
+T55	frequency 364 366	qd
+T56	dose 371 373	1支
+T57	trend 390 395	无明显好转
+T58	time 396 399	2月前
+T79	time 741 744	1周前
+T80	trend 751 753	加重
+T81	negative 754 755	无
+T82	clinicalFeature 755 757	畏寒
+T83	clinicalFeature 757 759	发热
+T84	negative 760 761	无
+T85	clinicalFeature 761 763	胸闷
+T86	clinicalFeature 763 765	气喘
+T87	negative 766 767	无
+T88	clinicalFeature 767 769	恶心
+T89	clinicalFeature 769 771	呕吐
+T90	negative 772 773	无
+T91	clinicalFeature 773 775	腹痛
+T92	clinicalFeature 775 777	腹泻
+T94	disease 791 797	多发性骨髓瘤
+T107	sign 848 850	体温
+T108	indexValue 850 853	36℃
+T109	sign 854 856	脉搏
+T110	indexValue 856 861	62次/分
+T111	sign 862 864	呼吸
+T112	indexValue 864 869	19次/分
+T113	sign 870 872	血压
+T114	indexValue 872 882	131/51mmHg
+T115	clinicalFeature 883 886	神志清
+T116	clinicalFeature 887 890	精神软
+T117	clinicalFeature 891 894	贫血貌
+T118	body 900 905	浅表淋巴结
+T119	clinicalFeature 905 908	未触及
+T120	clinicalFeature 909 913	呼吸平稳
+T121	body 914 915	颈
+T122	clinicalFeature 915 916	软
+T123	body 918 921	颈静脉
+T124	clinicalFeature 921 924	无怒张
+T125	body 925 927	双肺
+T126	clinicalFeature 927 932	呼吸音稍粗
+T127	clinicalFeature 933 940	未闻及干湿罗音
+T128	sign 941 943	心率
+T129	indexValue 943 948	68次/分
+T130	clinicalFeature 949 951	律齐
+T131	body 952 953	腹
+T132	clinicalFeature 953 954	软
+T133	negative 955 956	无
+T134	clinicalFeature 956 958	压痛
+T135	clinicalFeature 959 962	反跳痛
+T136	body 963 964	肝
+T137	body 964 965	脾
+T138	clinicalFeature 965 969	肋下未及
+T139	body 970 973	腰背部
+T140	body 974 979	右侧季肋部
+T142	body 984 987	双下肢
+T143	clinicalFeature 987 990	无浮肿
+T144	sign 991 994	病理征
+T145	indexValue 994 997	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R3	clinicalFeatureTime Arg1:T4 Arg2:T6
+R5	clinicalFeatureTime Arg1:T5 Arg2:T6
+R6	clinicalFeatureTrend Arg1:T4 Arg2:T7
+R8	clinicalFeatureTrend Arg1:T5 Arg2:T7
+R9	clinicalFeatureTime Arg1:T10 Arg2:T9
+T146	auxiliaryExamination 55 61	骨髓穿刺检查
+R10	auxiliaryExaminationTime Arg1:T146 Arg2:T9
+R17	drugDose Arg1:T18 Arg2:T19
+R19	drugDose Arg1:T21 Arg2:T22
+R20	drugFrequency Arg1:T21 Arg2:T23
+T16	body 176 181	右侧季肋部
+R21	bodyClinicalFeature Arg1:T16 Arg2:T27
+R22	bodyClinicalFeature Arg1:T26 Arg2:T27
+R23	clinicalFeatureTime Arg1:T27 Arg2:T25
+T147	body 201 203	腹部
+T148	body 198 200	肩部
+R26	bodyClinicalFeature Arg1:T147 Arg2:T31
+R27	bodyClinicalFeature Arg1:T148 Arg2:T31
+R28	negativeClinicalFeature Arg1:T30 Arg2:T31
+R29	clinicalFeatureTime Arg1:T31 Arg2:T25
+R30	clinicalFeatureTime Arg1:T32 Arg2:T25
+R33	bodyAuxiliaryDescript Arg1:T38 Arg2:T39
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T39
+T36	body 300 304	L3/4
+T37	body 305 309	L4/5
+R35	bodyAuxiliaryDescript Arg1:T40 Arg2:T44
+R36	bodyAuxiliaryDescript Arg1:T41 Arg2:T44
+R37	bodyAuxiliaryDescript Arg1:T36 Arg2:T44
+R38	bodyAuxiliaryDescript Arg1:T37 Arg2:T44
+R39	bodyAuxiliaryDescript Arg1:T43 Arg2:T44
+R40	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T44
+R41	bodyAuxiliaryDescript Arg1:T45 Arg2:T46
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T46
+R43	bodyAuxiliaryDescript Arg1:T47 Arg2:T48
+R45	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T48
+R46	drugDose Arg1:T50 Arg2:T51
+R47	drugFrequency Arg1:T50 Arg2:T52
+R48	drugDose Arg1:T53 Arg2:T54
+R49	drugFrequency Arg1:T53 Arg2:T55
+T42	drug 367 370	密盖息
+T151	frequency 375 381	m *10支
+R50	drugDose Arg1:T42 Arg2:T56
+R51	drugFrequency Arg1:T42 Arg2:T151
+T152	auxiliaryExamination 407 414	骨髓细胞学检查
+R52	auxiliaryExaminationTime Arg1:T152 Arg2:T58
+R53	negativeClinicalFeature Arg1:T81 Arg2:T82
+R54	negativeClinicalFeature Arg1:T81 Arg2:T83
+R55	negativeClinicalFeature Arg1:T84 Arg2:T85
+R56	negativeClinicalFeature Arg1:T84 Arg2:T86
+R57	negativeClinicalFeature Arg1:T87 Arg2:T88
+R58	negativeClinicalFeature Arg1:T87 Arg2:T89
+R59	negativeClinicalFeature Arg1:T90 Arg2:T91
+R60	negativeClinicalFeature Arg1:T90 Arg2:T92
+R63	clinicalFeatureTime Arg1:T82 Arg2:T79
+R64	clinicalFeatureTime Arg1:T83 Arg2:T79
+R65	clinicalFeatureTime Arg1:T85 Arg2:T79
+R66	clinicalFeatureTime Arg1:T86 Arg2:T79
+R67	clinicalFeatureTime Arg1:T88 Arg2:T79
+R68	clinicalFeatureTime Arg1:T89 Arg2:T79
+R69	clinicalFeatureTime Arg1:T91 Arg2:T79
+R70	clinicalFeatureTime Arg1:T92 Arg2:T79
+R77	signIndexValue Arg1:T107 Arg2:T108
+R78	signIndexValue Arg1:T109 Arg2:T110
+R79	signIndexValue Arg1:T111 Arg2:T112
+R80	signIndexValue Arg1:T113 Arg2:T114
+T60	clinicalFeature 895 899	结膜苍白
+R81	bodyClinicalFeature Arg1:T118 Arg2:T119
+R82	bodyClinicalFeature Arg1:T121 Arg2:T122
+R83	bodyClinicalFeature Arg1:T123 Arg2:T124
+R84	bodyClinicalFeature Arg1:T125 Arg2:T126
+R85	bodyClinicalFeature Arg1:T125 Arg2:T127
+R86	signIndexValue Arg1:T128 Arg2:T129
+R87	bodyClinicalFeature Arg1:T131 Arg2:T132
+R88	negativeClinicalFeature Arg1:T133 Arg2:T134
+R89	negativeClinicalFeature Arg1:T133 Arg2:T135
+R90	bodyClinicalFeature Arg1:T131 Arg2:T134
+R91	bodyClinicalFeature Arg1:T131 Arg2:T135
+R92	bodyClinicalFeature Arg1:T137 Arg2:T138
+R93	bodyClinicalFeature Arg1:T136 Arg2:T138
+R96	bodyClinicalFeature Arg1:T142 Arg2:T143
+R97	signIndexValue Arg1:T144 Arg2:T145
+R98	timeDisease Arg1:T9 Arg2:T11
+R11	drugTime Arg1:T12 Arg2:T9
+R12	drugTime Arg1:T13 Arg2:T9
+R13	drugTime Arg1:T18 Arg2:T17
+R14	drugFrequency Arg1:T18 Arg2:T20
+R15	drugTime Arg1:T21 Arg2:T17
+R16	auxiliaryExaminationTime Arg1:T33 Arg2:T25
+T14	body 240 242	腰3
+T15	auxiliaryDescript 242 249	椎体压缩性骨折
+T24	auxiliaryDescript 250 254	骨髓水肿
+R18	bodyAuxiliaryDescript Arg1:T14 Arg2:T15
+R31	bodyAuxiliaryDescript Arg1:T14 Arg2:T24
+T34	body 255 258	腰背部
+T35	auxiliaryDescript 258 265	软组织局部水肿
+R32	bodyAuxiliaryDescript Arg1:T34 Arg2:T35
+R99	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T15
+R100	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T35
+T61	auxiliaryDescript 282 288	轻度骨髓水肿
+R101	bodyAuxiliaryDescript Arg1:T38 Arg2:T61
+R102	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T61
+R103	drugTime Arg1:T50 Arg2:T25
+R104	drugTime Arg1:T53 Arg2:T25
+R105	drugTime Arg1:T42 Arg2:T25
+R106	clinicalFeatureTrend Arg1:T27 Arg2:T57
+R107	clinicalFeatureTrend Arg1:T27 Arg2:T80
+T59	sign 979 981	压痛
+T62	indexValue 981 983	阳性
+R62	signIndexValue Arg1:T59 Arg2:T62
+R94	bodySign Arg1:T139 Arg2:T59
+R95	bodySign Arg1:T140 Arg2:T59
+R2	modificationClinicalFeature Arg1:T3 Arg2:T4
+R4	modificationClinicalFeature Arg1:T3 Arg2:T5
+R24	modificationClinicalFeature Arg1:T28 Arg2:T27
+T63	modification 194 196	钝痛
+R25	modificationClinicalFeature Arg1:T29 Arg2:T27
+R108	modificationClinicalFeature Arg1:T63 Arg2:T27

@@ -1,0 +1,119 @@
+T1	clinicalFeature 4 6	腰痛
+T3	time 16 19	9月余
+T4	time 28 32	9月余前
+T5	cause 34 39	无明显诱因
+T6	clinicalFeature 42 46	腰部疼痛
+T7	clinicalFeature 48 55	向左下肢放射痛
+T8	negative 56 57	无
+T9	clinicalFeature 57 59	畏寒
+T10	clinicalFeature 59 61	发热
+T11	negative 62 63	无
+T12	clinicalFeature 63 65	恶心
+T13	clinicalFeature 65 67	呕吐
+T14	negative 68 69	无
+T15	clinicalFeature 69 74	腹部疼痛等
+T17	time 120 122	近来
+T18	clinicalFeature 125 132	左下肢疼痛麻木
+T19	modification 132 134	加重
+T21	disease 145 152	腰椎间盘突出症
+T22	disease 165 169	高血压病
+T25	clinicalFeature 185 190	血压控制可
+T38	clinicalFeature 235 237	神清
+T41	sign 242 243	T
+T42	indexValue 243 248	36.8℃
+T43	sign 249 250	R
+T44	indexValue 250 255	20次/分
+T45	sign 256 257	P
+T46	indexValue 257 262	80次/分
+T47	sign 263 265	BP
+T48	indexValue 265 275	137/87mmHg
+T49	body 276 278	两肺
+T50	clinicalFeature 278 282	呼吸音清
+T53	clinicalFeature 286 289	无压痛
+T55	modification 296 301	左臀部为甚
+T56	body 303 306	左下肢
+T59	indexValue 320 322	阴性
+T60	indexValue 329 331	阴性
+T61	sign 334 338	伸踇肌力
+T62	indexValue 338 340	5级
+T63	sign 341 345	屈踇肌力
+T64	indexValue 345 347	5级
+T68	sign 363 367	生理反射
+T69	indexValue 367 369	存在
+T70	sign 370 374	病理反射
+T71	indexValue 374 377	未引出
+T2	body 7 10	左下肢
+T72	clinicalFeature 10 12	疼痛
+T73	clinicalFeature 12 14	麻木
+T74	clinicalFeature 14 16	受限
+R1	bodyClinicalFeature Arg1:T2 Arg2:T72
+R2	bodyClinicalFeature Arg1:T2 Arg2:T73
+R3	bodyClinicalFeature Arg1:T2 Arg2:T74
+R4	clinicalFeatureTime Arg1:T72 Arg2:T3
+R5	clinicalFeatureTime Arg1:T73 Arg2:T3
+R6	clinicalFeatureTime Arg1:T74 Arg2:T3
+R7	clinicalFeatureTime Arg1:T1 Arg2:T3
+R8	clinicalFeatureTime Arg1:T6 Arg2:T4
+R9	causeClinicalFeature Arg1:T5 Arg2:T6
+R10	causeClinicalFeature Arg1:T5 Arg2:T7
+R11	clinicalFeatureTime Arg1:T7 Arg2:T4
+R12	negativeClinicalFeature Arg1:T8 Arg2:T9
+R13	negativeClinicalFeature Arg1:T8 Arg2:T10
+R14	negativeClinicalFeature Arg1:T11 Arg2:T12
+R15	negativeClinicalFeature Arg1:T11 Arg2:T13
+R16	negativeClinicalFeature Arg1:T14 Arg2:T15
+R17	clinicalFeatureTime Arg1:T9 Arg2:T4
+R18	clinicalFeatureTime Arg1:T10 Arg2:T4
+R19	clinicalFeatureTime Arg1:T12 Arg2:T4
+R20	clinicalFeatureTime Arg1:T13 Arg2:T4
+R21	clinicalFeatureTime Arg1:T15 Arg2:T4
+T75	cure 110 114	保守治疗
+T76	auxiliaryExamination 92 97	MRI检查
+T77	auxiliaryDescript 101 107	腰椎间盘突出
+R22	auxiliaryExaminationAuxiliaryDescript Arg1:T76 Arg2:T77
+R24	clinicalFeatureTime Arg1:T18 Arg2:T17
+R25	modificationClinicalFeature Arg1:T19 Arg2:T18
+T16	drug 175 179	厄贝沙坦
+T23	dose 180 182	1片
+T24	frequency 182 184	/日
+R27	doseFrequency Arg1:T23 Arg2:T24
+R28	drugDose Arg1:T16 Arg2:T23
+R29	diseaseClinicalFeature Arg1:T22 Arg2:T25
+T39	clinicalFeature 238 241	精神可
+R37	signIndexValue Arg1:T41 Arg2:T42
+R38	signIndexValue Arg1:T43 Arg2:T44
+R39	signIndexValue Arg1:T45 Arg2:T46
+R40	signIndexValue Arg1:T47 Arg2:T48
+R41	bodyClinicalFeature Arg1:T49 Arg2:T50
+T40	body 283 284	腹
+T51	clinicalFeature 284 285	软
+R42	bodyClinicalFeature Arg1:T40 Arg2:T51
+T54	body 290 293	腰骶部
+T78	clinicalFeature 293 295	压痛
+R44	bodyClinicalFeature Arg1:T40 Arg2:T53
+R45	bodyClinicalFeature Arg1:T54 Arg2:T78
+R46	modificationClinicalFeature Arg1:T55 Arg2:T78
+T57	sign 306 312	直腿抬高试验
+T79	indexValue 312 314	阳性
+R47	signIndexValue Arg1:T57 Arg2:T79
+R48	bodySign Arg1:T56 Arg2:T57
+T58	sign 315 320	骨盆挤压征
+R49	signIndexValue Arg1:T58 Arg2:T59
+T80	sign 323 329	"4"字试验
+R50	signIndexValue Arg1:T80 Arg2:T60
+R51	signIndexValue Arg1:T61 Arg2:T62
+R52	signIndexValue Arg1:T63 Arg2:T64
+T65	sign 350 353	膝反射
+T66	indexValue 353 355	对症
+R53	signIndexValue Arg1:T65 Arg2:T66
+T67	body 356 358	足趾
+T81	clinicalFeature 358 362	活动正常
+R54	bodyClinicalFeature Arg1:T67 Arg2:T81
+R55	signIndexValue Arg1:T68 Arg2:T69
+R56	signIndexValue Arg1:T70 Arg2:T71
+R57	auxiliaryExaminationTime Arg1:T76 Arg2:T4
+T82	body 332 334	双侧
+R58	bodySign Arg1:T82 Arg2:T61
+R59	bodySign Arg1:T82 Arg2:T63
+T83	body 348 350	双侧
+R60	bodySign Arg1:T83 Arg2:T65

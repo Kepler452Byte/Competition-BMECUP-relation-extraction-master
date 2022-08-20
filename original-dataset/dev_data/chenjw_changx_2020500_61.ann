@@ -1,0 +1,48 @@
+T1	clinicalFeature 7 9	头晕
+T2	clinicalFeature 10 14	视物旋转
+T3	time 14 16	3天
+T4	time 27 30	3天前
+T5	cause 32 37	无明显诱因
+T7	clinicalFeature 52 54	头晕
+T8	clinicalFeature 55 59	视物旋转
+T10	modification 72 75	阵发性
+T12	negative 90 91	无
+T13	clinicalFeature 91 95	走路不稳
+T14	time 97 100	今天早
+T15	clinicalFeature 108 110	头晕
+T16	trend 110 112	加重
+T17	clinicalFeature 113 118	头部沉重感
+T18	clinicalFeature 120 122	恶心
+T19	negative 123 124	无
+T20	clinicalFeature 124 130	偏侧肢体无力
+T21	negative 131 132	无
+T22	clinicalFeature 132 134	黑朦
+T23	negative 135 136	无
+T24	clinicalFeature 136 140	意识丧失
+T25	disease 161 167	眩晕原因待查
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R8	causeClinicalFeature Arg1:T5 Arg2:T8
+R14	negativeClinicalFeature Arg1:T12 Arg2:T13
+R15	clinicalFeatureTime Arg1:T13 Arg2:T4
+T112	trend 103 107	仍有发作
+R16	clinicalFeatureTrend Arg1:T7 Arg2:T112
+R18	clinicalFeatureTrend Arg1:T8 Arg2:T112
+R19	clinicalFeatureTrend Arg1:T15 Arg2:T16
+R20	clinicalFeatureTime Arg1:T15 Arg2:T14
+R21	clinicalFeatureTime Arg1:T17 Arg2:T14
+R22	clinicalFeatureTime Arg1:T18 Arg2:T14
+R23	negativeClinicalFeature Arg1:T19 Arg2:T20
+R24	negativeClinicalFeature Arg1:T21 Arg2:T22
+R25	negativeClinicalFeature Arg1:T23 Arg2:T24
+R26	clinicalFeatureTime Arg1:T20 Arg2:T14
+R27	clinicalFeatureTime Arg1:T22 Arg2:T14
+R28	clinicalFeatureTime Arg1:T24 Arg2:T14
+T38	modification 4 7	发作性
+R36	modificationClinicalFeature Arg1:T38 Arg2:T1
+T39	clinicalFeature 60 63	视物转
+R10	modificationClinicalFeature Arg1:T10 Arg2:T7
+R11	modificationClinicalFeature Arg1:T10 Arg2:T39

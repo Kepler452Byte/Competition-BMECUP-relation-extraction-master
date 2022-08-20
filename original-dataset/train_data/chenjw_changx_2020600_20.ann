@@ -1,0 +1,173 @@
+T1	disease 4 10	左踝骨折术后
+T2	time 10 14	10月余
+T3	time 24 29	10月余前
+T4	cause 40 42	撞伤
+T5	body 44 46	头部
+T6	body 47 49	腰部
+T7	body 50 53	左下肢
+T8	clinicalFeature 57 59	疼痛
+T9	body 61 64	左下肢
+T10	body 65 67	腰部
+T11	clinicalFeature 67 71	活动受限
+T12	negative 74 75	无
+T13	clinicalFeature 75 77	昏迷
+T14	negative 78 80	否认
+T15	clinicalFeature 81 83	恶心
+T16	clinicalFeature 84 86	呕吐
+T17	negative 87 89	否认
+T18	clinicalFeature 90 92	发热
+T19	clinicalFeature 93 95	寒战
+T20	negative 97 99	否认
+T21	clinicalFeature 100 102	胸闷
+T22	clinicalFeature 103 105	胸痛
+T23	negative 106 108	否认
+T24	clinicalFeature 109 111	腹胀
+T25	clinicalFeature 112 114	腹痛
+T26	body 129 133	左足多发
+T27	auxiliaryDescript 133 135	骨折
+T28	body 136 138	腰椎
+T29	auxiliaryDescript 138 140	骨折
+T30	disease 141 145	头部挫伤
+T31	operation 155 179	左双踝骨折切开复位内固定术+植骨术+石膏外固定术
+T32	cure 182 186	抗炎补液
+T33	cure 187 191	止痛治疗
+T34	time 214 215	现
+T35	auxiliaryExamination 223 225	X片
+T48	disease 285 288	糖尿病
+T49	time 290 292	数年
+T50	drug 296 303	盐酸二甲双胍片
+T51	dose 303 305	4片
+T52	frequency 306 307	天
+T53	clinicalFeature 308 312	控制良好
+T54	sign 321 323	体温
+T55	indexValue 323 328	36.8℃
+T56	sign 329 331	脉搏
+T57	indexValue 331 336	88次/分
+T58	sign 337 339	呼吸
+T59	indexValue 339 344	20次/分
+T60	sign 345 347	血压
+T61	indexValue 347 357	124/71mmHg
+T62	clinicalFeature 358 360	神清
+T63	clinicalFeature 361 364	精神可
+T64	body 365 367	双瞳
+T65	clinicalFeature 367 371	等大等圆
+T66	clinicalFeature 372 378	Φ3.0mm
+T67	clinicalFeature 379 385	对光反射灵敏
+T68	body 386 387	颈
+T69	clinicalFeature 387 388	软
+T70	sign 389 392	颈抵抗
+T71	indexValue 392 394	阴性
+T72	body 396 398	颈部
+T73	clinicalFeature 398 401	无畸形
+T75	clinicalFeature 402 405	无压痛
+T76	clinicalFeature 406 410	活动正常
+T77	body 411 414	心前区
+T78	clinicalFeature 414 417	无膨隆
+T79	clinicalFeature 418 426	未闻及病理性杂音
+T80	body 427 429	双肺
+T81	clinicalFeature 429 434	呼吸音清晰
+T82	clinicalFeature 435 443	未闻及干、湿罗音
+T83	body 444 445	腹
+T84	clinicalFeature 445 447	平坦
+T85	body 448 449	肝
+T86	body 450 451	脾
+T87	clinicalFeature 451 458	肋下、剑下未及
+T89	clinicalFeature 459 462	无压痛
+T90	body 463 465	脊柱
+T91	clinicalFeature 465 468	无畸形
+T92	negative 469 470	无
+T93	clinicalFeature 472 475	叩击痛
+T95	clinicalFeature 477 481	无放射痛
+T96	clinicalFeature 482 486	活动自如
+T97	body 487 491	左内外踝
+T98	clinicalFeature 491 500	原手术切口愈合良好
+T100	clinicalFeature 501 504	无压痛
+T102	clinicalFeature 505 509	无麻木感
+T104	clinicalFeature 510 515	无活动受限
+T105	body 516 518	足趾
+T106	clinicalFeature 518 525	血运及活动正常
+T107	body 526 529	余肢体
+T108	clinicalFeature 529 531	正常
+T109	sign 532 535	腱反射
+T110	indexValue 535 539	左右对称
+T111	sign 540 544	病理反射
+T112	indexValue 544 547	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	bodyClinicalFeature Arg1:T6 Arg2:T8
+R3	bodyClinicalFeature Arg1:T5 Arg2:T8
+R4	bodyClinicalFeature Arg1:T7 Arg2:T8
+R5	clinicalFeatureTime Arg1:T8 Arg2:T3
+R6	causeClinicalFeature Arg1:T4 Arg2:T8
+R7	bodyClinicalFeature Arg1:T9 Arg2:T11
+R8	bodyClinicalFeature Arg1:T10 Arg2:T11
+R9	clinicalFeatureTime Arg1:T11 Arg2:T3
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	negativeClinicalFeature Arg1:T14 Arg2:T16
+R13	negativeClinicalFeature Arg1:T17 Arg2:T18
+R14	negativeClinicalFeature Arg1:T17 Arg2:T19
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	clinicalFeatureTime Arg1:T15 Arg2:T3
+R17	clinicalFeatureTime Arg1:T16 Arg2:T3
+R18	clinicalFeatureTime Arg1:T18 Arg2:T3
+R19	clinicalFeatureTime Arg1:T19 Arg2:T3
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R21	negativeClinicalFeature Arg1:T20 Arg2:T22
+R22	negativeClinicalFeature Arg1:T23 Arg2:T24
+R23	negativeClinicalFeature Arg1:T23 Arg2:T25
+T113	auxiliaryExamination 125 127	ct
+R24	bodyAuxiliaryDescript Arg1:T26 Arg2:T27
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T113 Arg2:T27
+R26	bodyAuxiliaryDescript Arg1:T28 Arg2:T29
+R27	auxiliaryExaminationAuxiliaryDescript Arg1:T113 Arg2:T29
+R29	clinicalFeatureTime Arg1:T21 Arg2:T3
+R30	clinicalFeatureTime Arg1:T22 Arg2:T3
+R31	clinicalFeatureTime Arg1:T24 Arg2:T3
+R32	clinicalFeatureTime Arg1:T25 Arg2:T3
+R33	auxiliaryExaminationTime Arg1:T35 Arg2:T34
+T114	auxiliaryDescript 227 233	骨折愈合良好
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T35 Arg2:T114
+R41	timeDisease Arg1:T49 Arg2:T48
+R42	drugDose Arg1:T50 Arg2:T51
+R43	doseFrequency Arg1:T51 Arg2:T52
+R44	drugFrequency Arg1:T50 Arg2:T52
+R45	diseaseClinicalFeature Arg1:T48 Arg2:T53
+R46	signIndexValue Arg1:T54 Arg2:T55
+R47	signIndexValue Arg1:T56 Arg2:T57
+R48	signIndexValue Arg1:T58 Arg2:T59
+R49	signIndexValue Arg1:T60 Arg2:T61
+R50	bodyClinicalFeature Arg1:T64 Arg2:T65
+R51	bodyClinicalFeature Arg1:T64 Arg2:T66
+R52	bodyClinicalFeature Arg1:T64 Arg2:T67
+R53	bodyClinicalFeature Arg1:T68 Arg2:T69
+R54	signIndexValue Arg1:T70 Arg2:T71
+R55	bodyClinicalFeature Arg1:T72 Arg2:T73
+R57	bodyClinicalFeature Arg1:T72 Arg2:T75
+R58	bodyClinicalFeature Arg1:T72 Arg2:T76
+R59	bodyClinicalFeature Arg1:T77 Arg2:T78
+R60	bodyClinicalFeature Arg1:T77 Arg2:T79
+R61	bodyClinicalFeature Arg1:T80 Arg2:T81
+R62	bodyClinicalFeature Arg1:T80 Arg2:T82
+R63	bodyClinicalFeature Arg1:T83 Arg2:T84
+R64	bodyClinicalFeature Arg1:T85 Arg2:T87
+R65	bodyClinicalFeature Arg1:T86 Arg2:T87
+R67	bodyClinicalFeature Arg1:T90 Arg2:T91
+R68	bodyClinicalFeature Arg1:T90 Arg2:T93
+R69	negativeClinicalFeature Arg1:T92 Arg2:T93
+R71	bodyClinicalFeature Arg1:T90 Arg2:T95
+R72	bodyClinicalFeature Arg1:T90 Arg2:T96
+R73	bodyClinicalFeature Arg1:T97 Arg2:T98
+R74	bodyClinicalFeature Arg1:T97 Arg2:T100
+R78	bodyClinicalFeature Arg1:T97 Arg2:T102
+R79	bodyClinicalFeature Arg1:T97 Arg2:T104
+R80	bodyClinicalFeature Arg1:T105 Arg2:T106
+R82	bodyClinicalFeature Arg1:T107 Arg2:T108
+R83	signIndexValue Arg1:T109 Arg2:T110
+R84	signIndexValue Arg1:T111 Arg2:T112
+R85	auxiliaryExaminationTime Arg1:T113 Arg2:T3
+R56	bodyClinicalFeature Arg1:T83 Arg2:T89
+T74	clinicalFeature 470 472	压痛
+R66	negativeClinicalFeature Arg1:T92 Arg2:T74
+R87	bodyClinicalFeature Arg1:T90 Arg2:T74
+T88	modification 55 57	剧烈
+R70	modificationClinicalFeature Arg1:T88 Arg2:T8

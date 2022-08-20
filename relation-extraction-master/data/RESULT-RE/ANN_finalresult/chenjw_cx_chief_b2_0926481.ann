@@ -1,0 +1,5 @@
+T1	clinicalFeature 3 5	停经
+T2	time 5 8	45天
+T3	modification 9 15	咖啡色分泌物
+T4	time 15 17	半月
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2

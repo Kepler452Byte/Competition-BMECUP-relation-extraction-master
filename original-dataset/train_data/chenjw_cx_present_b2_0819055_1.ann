@@ -1,0 +1,12 @@
+T1	time 8 10	一年
+T2	time 11 15	近半年来
+T3	clinicalFeature 23 25	出血
+T6	modification 19 21	间断
+R1	modificationClinicalFeature Arg1:T6 Arg2:T3
+R2	clinicalFeatureTime Arg1:T3 Arg2:T2
+T8	modification 21 23	少许
+R4	modificationClinicalFeature Arg1:T8 Arg2:T3
+T9	body 15 17	阴道
+R5	bodyClinicalFeature Arg1:T9 Arg2:T3
+T10	clinicalFeature 6 8	绝经
+R6	clinicalFeatureTime Arg1:T10 Arg2:T1

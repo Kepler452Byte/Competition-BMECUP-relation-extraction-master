@@ -1,0 +1,124 @@
+T1	disease 4 13	左肺腺癌术后化疗后
+T2	time 13 16	8月余
+T3	clinicalFeature 17 19	咳嗽
+T4	clinicalFeature 19 21	咳痰
+T5	clinicalFeature 21 23	胸闷
+T6	time 23 25	1周
+T7	time 35 39	8月余前
+T8	clinicalFeature 41 43	咳嗽
+T9	clinicalFeature 43 45	咳痰
+T10	clinicalFeature 47 49	胸闷
+T11	clinicalFeature 49 51	气急
+T12	auxiliaryExamination 63 67	胸部CT
+T13	disease 69 75	左肺腺癌术后
+T14	cure 83 87	手术治疗
+T15	drug 96 101	培美曲塞针
+T16	dose 101 106	800mg
+T17	drug 110 113	顺铂针
+T18	dose 113 117	40mg
+T19	frequency 118 123	d1-d3
+T20	clinicalFeature 133 139	一般情况尚可
+T21	time 140 143	1周前
+T22	cause 143 148	无明显诱因
+T23	clinicalFeature 153 155	咳嗽
+T24	clinicalFeature 155 157	咳痰
+T25	modification 158 161	痰不多
+T26	modification 162 167	为白色黏痰
+T27	negative 169 170	无
+T28	clinicalFeature 170 172	咯血
+T29	clinicalFeature 173 177	痰中带血
+T30	clinicalFeature 179 181	胸闷
+T31	clinicalFeature 181 183	气促
+T32	negative 184 185	无
+T33	clinicalFeature 185 187	畏寒
+T34	clinicalFeature 187 189	发热
+T35	cure 190 194	未曾诊治
+T36	trend 197 201	未见好转
+T38	disease 213 218	肺恶性肿瘤
+T51	sign 270 271	T
+T52	indexValue 272 277	37.1℃
+T53	sign 278 279	P
+T54	indexValue 279 284	86次/分
+T55	sign 285 286	R
+T56	indexValue 287 292	20次/分
+T57	sign 293 295	BP
+T58	indexValue 295 305	107/76mmHg
+T59	clinicalFeature 306 309	神志清
+T60	clinicalFeature 310 314	呼吸略促
+T61	body 315 320	浅表淋巴结
+T62	clinicalFeature 320 324	未及肿大
+T63	body 325 327	口唇
+T64	clinicalFeature 327 332	无明显发绀
+T65	body 333 335	两肺
+T66	clinicalFeature 335 339	呼吸音粗
+T67	clinicalFeature 341 349	未闻及干湿性啰音
+T68	sign 350 352	心率
+T69	indexValue 352 357	86次/分
+T70	clinicalFeature 358 360	律齐
+T71	clinicalFeature 361 366	未闻及杂音
+T72	body 367 368	腹
+T73	clinicalFeature 368 370	平软
+T74	clinicalFeature 371 374	无压痛
+T75	body 375 376	肝
+T76	body 376 377	脾
+T77	clinicalFeature 377 382	肋下未触及
+T78	body 383 386	双下肢
+T79	clinicalFeature 386 389	无浮肿
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T6
+R3	clinicalFeatureTime Arg1:T4 Arg2:T6
+R4	clinicalFeatureTime Arg1:T5 Arg2:T6
+R5	clinicalFeatureTime Arg1:T8 Arg2:T7
+R6	clinicalFeatureTime Arg1:T9 Arg2:T7
+R7	clinicalFeatureTime Arg1:T10 Arg2:T7
+R8	clinicalFeatureTime Arg1:T11 Arg2:T7
+R10	auxiliaryExaminationTime Arg1:T12 Arg2:T7
+T80	frequency 107 109	d1
+R9	drugFrequency Arg1:T15 Arg2:T80
+R11	drugDose Arg1:T15 Arg2:T16
+R12	doseFrequency Arg1:T16 Arg2:T80
+R13	drugDose Arg1:T17 Arg2:T18
+R14	drugFrequency Arg1:T17 Arg2:T19
+R15	doseFrequency Arg1:T18 Arg2:T19
+T81	cure 126 130	化疗5次
+R19	causeClinicalFeature Arg1:T22 Arg2:T23
+R20	causeClinicalFeature Arg1:T22 Arg2:T24
+R23	negativeClinicalFeature Arg1:T27 Arg2:T28
+R24	negativeClinicalFeature Arg1:T27 Arg2:T29
+R25	negativeClinicalFeature Arg1:T32 Arg2:T33
+R26	negativeClinicalFeature Arg1:T32 Arg2:T34
+R27	causeClinicalFeature Arg1:T22 Arg2:T30
+R28	causeClinicalFeature Arg1:T22 Arg2:T31
+R29	cureTime Arg1:T35 Arg2:T21
+R30	clinicalFeatureTrend Arg1:T30 Arg2:T36
+R31	clinicalFeatureTrend Arg1:T31 Arg2:T36
+R32	clinicalFeatureTrend Arg1:T23 Arg2:T36
+R33	clinicalFeatureTrend Arg1:T24 Arg2:T36
+R35	clinicalFeatureTime Arg1:T23 Arg2:T21
+R36	clinicalFeatureTime Arg1:T24 Arg2:T21
+R37	clinicalFeatureTime Arg1:T28 Arg2:T21
+R38	clinicalFeatureTime Arg1:T29 Arg2:T21
+R39	clinicalFeatureTime Arg1:T30 Arg2:T21
+R40	clinicalFeatureTime Arg1:T31 Arg2:T21
+T82	modification 75 79	两肺转移
+R44	cureTime Arg1:T14 Arg2:T7
+T83	time 89 91	术后
+R45	cureTime Arg1:T81 Arg2:T83
+R46	clinicalFeatureTime Arg1:T33 Arg2:T21
+R47	clinicalFeatureTime Arg1:T34 Arg2:T21
+R54	signIndexValue Arg1:T51 Arg2:T52
+R55	signIndexValue Arg1:T53 Arg2:T54
+R56	signIndexValue Arg1:T55 Arg2:T56
+R57	signIndexValue Arg1:T57 Arg2:T58
+R58	bodyClinicalFeature Arg1:T61 Arg2:T62
+R59	bodyClinicalFeature Arg1:T63 Arg2:T64
+R60	bodyClinicalFeature Arg1:T65 Arg2:T66
+R61	bodyClinicalFeature Arg1:T65 Arg2:T67
+R62	signIndexValue Arg1:T68 Arg2:T69
+R63	bodyClinicalFeature Arg1:T72 Arg2:T73
+R64	bodyClinicalFeature Arg1:T72 Arg2:T74
+R65	bodyClinicalFeature Arg1:T75 Arg2:T77
+R66	bodyClinicalFeature Arg1:T76 Arg2:T77
+R67	bodyClinicalFeature Arg1:T78 Arg2:T79
+R21	modificationClinicalFeature Arg1:T25 Arg2:T24
+R22	modificationClinicalFeature Arg1:T26 Arg2:T24

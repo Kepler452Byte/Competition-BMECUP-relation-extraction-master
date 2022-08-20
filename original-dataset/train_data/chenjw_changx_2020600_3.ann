@@ -1,0 +1,124 @@
+T2	time 12 14	半天
+T3	time 27 32	今天早晨前
+T4	cause 36 38	摔倒
+T5	clinicalFeature 39 44	伤致右髋部
+T6	clinicalFeature 48 52	右髋疼痛
+T7	negative 53 54	无
+T8	clinicalFeature 56 61	双下肢麻木
+T9	negative 62 63	无
+T10	clinicalFeature 63 70	双下肢活动受限
+T11	negative 71 72	无
+T12	clinicalFeature 72 77	大小便失禁
+T13	negative 78 79	无
+T14	clinicalFeature 79 81	头晕
+T16	negative 85 86	无
+T17	clinicalFeature 86 88	恶心
+T18	clinicalFeature 88 90	呕吐
+T19	negative 92 93	无
+T20	clinicalFeature 93 95	胸闷
+T21	clinicalFeature 95 97	气急
+T22	negative 98 99	无
+T23	clinicalFeature 99 101	腹痛
+T24	clinicalFeature 101 103	腹胀
+T26	disease 131 137	右股骨颈骨折
+T40	sign 208 210	体温
+T41	indexValue 210 215	36.6℃
+T42	sign 216 218	脉搏
+T43	indexValue 218 223	85次/分
+T44	sign 224 226	呼吸
+T45	indexValue 226 231	20次/分
+T46	sign 232 234	血压
+T47	indexValue 234 244	140/85mmHg
+T50	clinicalFeature 266 269	外旋位
+T51	body 270 274	右侧髋部
+T52	clinicalFeature 274 276	压痛
+T54	body 286 289	右下肢
+T55	clinicalFeature 289 295	未及明显麻木
+T56	body 296 302	右侧足背动脉
+T61	body 353 355	余肢
+T63	sign 370 374	病理反射
+T64	indexValue 374 377	未引出
+T1	clinicalFeature 7 12	右髋部疼痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	negativeClinicalFeature Arg1:T7 Arg2:T8
+R3	negativeClinicalFeature Arg1:T9 Arg2:T10
+R4	negativeClinicalFeature Arg1:T11 Arg2:T12
+R5	negativeClinicalFeature Arg1:T13 Arg2:T14
+R7	negativeClinicalFeature Arg1:T16 Arg2:T17
+R8	negativeClinicalFeature Arg1:T16 Arg2:T18
+R9	negativeClinicalFeature Arg1:T19 Arg2:T20
+R10	negativeClinicalFeature Arg1:T19 Arg2:T21
+R11	negativeClinicalFeature Arg1:T22 Arg2:T23
+R12	negativeClinicalFeature Arg1:T22 Arg2:T24
+T65	auxiliaryExamination 113 115	X线
+T25	body 119 124	右侧股骨颈
+T66	auxiliaryDescript 124 126	骨折
+R14	bodyAuxiliaryDescript Arg1:T25 Arg2:T66
+R15	auxiliaryExaminationAuxiliaryDescript Arg1:T65 Arg2:T66
+R16	clinicalFeatureTime Arg1:T6 Arg2:T3
+R17	clinicalFeatureTime Arg1:T5 Arg2:T3
+R18	causeClinicalFeature Arg1:T4 Arg2:T6
+R19	clinicalFeatureTime Arg1:T8 Arg2:T3
+R20	clinicalFeatureTime Arg1:T10 Arg2:T3
+R21	clinicalFeatureTime Arg1:T12 Arg2:T3
+R22	clinicalFeatureTime Arg1:T14 Arg2:T3
+T15	clinicalFeature 81 83	头痛
+R6	negativeClinicalFeature Arg1:T13 Arg2:T15
+R23	clinicalFeatureTime Arg1:T15 Arg2:T3
+R24	clinicalFeatureTime Arg1:T17 Arg2:T3
+R25	clinicalFeatureTime Arg1:T18 Arg2:T3
+R26	clinicalFeatureTime Arg1:T20 Arg2:T3
+R27	clinicalFeatureTime Arg1:T21 Arg2:T3
+R28	clinicalFeatureTime Arg1:T23 Arg2:T3
+R29	clinicalFeatureTime Arg1:T24 Arg2:T3
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	signIndexValue Arg1:T46 Arg2:T47
+T48	sign 246 252	骨盆分离实验
+T68	indexValue 252 254	阴性
+R40	signIndexValue Arg1:T48 Arg2:T68
+T49	body 255 258	右髋部
+T69	clinicalFeature 258 261	稍肿胀
+R41	bodyClinicalFeature Arg1:T49 Arg2:T69
+R42	bodyClinicalFeature Arg1:T51 Arg2:T52
+T53	body 278 283	腹股沟中点
+T70	clinicalFeature 283 285	压痛
+R43	bodyClinicalFeature Arg1:T53 Arg2:T70
+R44	bodyClinicalFeature Arg1:T54 Arg2:T55
+T57	body 303 307	胫后动脉
+T71	clinicalFeature 307 311	搏动正常
+R45	bodyClinicalFeature Arg1:T56 Arg2:T71
+R46	bodyClinicalFeature Arg1:T57 Arg2:T71
+T58	body 312 316	右髋关节
+T72	clinicalFeature 316 322	主动活动受限
+R47	bodyClinicalFeature Arg1:T58 Arg2:T72
+T73	body 331 334	膝关节
+T74	clinicalFeature 334 338	活动尚可
+R49	bodyClinicalFeature Arg1:T73 Arg2:T74
+T60	body 339 342	余关节
+T75	clinicalFeature 342 346	活动尚可
+R50	bodyClinicalFeature Arg1:T60 Arg2:T75
+T76	body 347 349	脊柱
+T77	clinicalFeature 349 351	无殊
+R51	bodyClinicalFeature Arg1:T76 Arg2:T77
+T78	clinicalFeature 355 361	未见明显异常
+R52	bodyClinicalFeature Arg1:T61 Arg2:T78
+T62	sign 362 365	腱反射
+T79	indexValue 365 369	左右对称
+R54	signIndexValue Arg1:T63 Arg2:T64
+T27	disease 148 151	糖尿病
+T80	time 151 153	数年
+R55	timeDisease Arg1:T80 Arg2:T27
+T81	cure 154 162	间断口服药物治疗
+T82	body 262 265	右下肢
+R57	bodyClinicalFeature Arg1:T82 Arg2:T50
+T59	sign 323 328	被动活动痛
+T83	indexValue 328 330	阳性
+R48	signIndexValue Arg1:T59 Arg2:T83
+R53	signIndexValue Arg1:T62 Arg2:T79
+T84	time 104 106	晚上
+R58	auxiliaryExaminationTime Arg1:T65 Arg2:T84
+R59	bodySign Arg1:T58 Arg2:T59
+T85	cause 4 6	摔伤
+R60	causeClinicalFeature Arg1:T85 Arg2:T1

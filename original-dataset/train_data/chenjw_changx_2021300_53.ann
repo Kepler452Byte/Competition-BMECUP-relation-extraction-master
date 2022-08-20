@@ -1,0 +1,111 @@
+T1	disease 4 10	右股骨骨术后
+T2	time 10 12	2年
+T3	time 21 24	2年前
+T4	clinicalFeature 41 46	右大腿摔伤
+T7	operation 73 81	骨折切复内固定术
+T8	cure 88 90	抗炎
+T10	time 103 107	术后2年
+T11	auxiliaryDescript 110 116	骨折愈合良好
+T13	disease 134 140	右股骨骨术后
+T18	sign 186 188	T:
+T19	indexValue 188 193	36.7℃
+T20	sign 194 195	P
+T21	indexValue 196 201	88bpm
+T22	sign 202 204	BP
+T23	indexValue 205 215	130/80mmhg
+T24	sign 216 217	R
+T25	indexValue 218 226	20bpm;神清
+T26	clinicalFeature 227 230	精神可
+T27	body 231 233	头部
+T28	clinicalFeature 233 236	无畸形
+T29	body 237 239	双瞳
+T30	clinicalFeature 239 243	等大等圆
+T31	clinicalFeature 244 250	Φ3.0mm
+T32	clinicalFeature 251 257	对光反射灵敏
+T33	body 259 260	颈
+T34	clinicalFeature 260 261	软
+T35	sign 262 265	颈抵抗
+T36	indexValue 265 267	阴性
+T37	sign 268 271	克氏征
+T38	indexValue 271 273	阴性
+T39	body 274 277	心前区
+T40	clinicalFeature 277 280	无膨隆
+T43	clinicalFeature 289 292	无猫喘
+T44	clinicalFeature 293 301	未闻及病理性杂音
+T45	body 302 304	双肺
+T46	clinicalFeature 304 310	呼吸运动对称
+T47	body 311 313	双肺
+T48	clinicalFeature 313 318	呼吸音清晰
+T49	clinicalFeature 322 327	干、湿罗音
+T50	body 332 333	腹
+T51	clinicalFeature 333 335	平坦
+T52	body 337 338	肝
+T53	body 339 340	脾
+T54	clinicalFeature 340 347	肋下、剑下未及
+T55	body 348 352	肝、脾区
+T56	negative 352 354	未及
+T57	clinicalFeature 354 356	叩痛
+T58	clinicalFeature 357 359	压痛
+T59	body 360 361	肝
+T60	body 362 363	脾
+T62	sign 370 374	墨菲氏征
+T63	indexValue 374 376	阴性
+T64	sign 377 380	肠鸣音
+T65	indexValue 380 386	3-4bpm
+T66	indexValue 387 389	调中
+T67	sign 390 394	神经系统
+T68	indexValue 394 396	阴性
+T69	clinicalFeature 402 406	切口疤痕
+R1	timeDisease Arg1:T2 Arg2:T1
+T70	cause 38 40	跌倒
+R2	causeClinicalFeature Arg1:T70 Arg2:T4
+R3	clinicalFeatureTime Arg1:T4 Arg2:T3
+T71	auxiliaryExamination 59 64	右股骨X线
+T5	disease 65 70	右股骨骨折
+T6	auxiliaryExamination 107 109	摄片
+R7	auxiliaryExaminationAuxiliaryDescript Arg1:T6 Arg2:T11
+R8	auxiliaryExaminationTime Arg1:T6 Arg2:T10
+R15	signIndexValue Arg1:T18 Arg2:T19
+R16	signIndexValue Arg1:T20 Arg2:T21
+R17	signIndexValue Arg1:T22 Arg2:T23
+R18	signIndexValue Arg1:T24 Arg2:T25
+R19	bodyClinicalFeature Arg1:T27 Arg2:T28
+R20	bodyClinicalFeature Arg1:T29 Arg2:T30
+R21	bodyClinicalFeature Arg1:T29 Arg2:T31
+R22	bodyClinicalFeature Arg1:T29 Arg2:T32
+R23	bodyClinicalFeature Arg1:T33 Arg2:T34
+R24	signIndexValue Arg1:T35 Arg2:T36
+R25	signIndexValue Arg1:T37 Arg2:T38
+R26	bodyClinicalFeature Arg1:T39 Arg2:T40
+R28	bodyClinicalFeature Arg1:T39 Arg2:T43
+R29	bodyClinicalFeature Arg1:T39 Arg2:T44
+R30	bodyClinicalFeature Arg1:T45 Arg2:T46
+R31	bodyClinicalFeature Arg1:T47 Arg2:T48
+R32	bodyClinicalFeature Arg1:T47 Arg2:T49
+R33	bodyClinicalFeature Arg1:T50 Arg2:T51
+R34	bodyClinicalFeature Arg1:T53 Arg2:T54
+R35	bodyClinicalFeature Arg1:T52 Arg2:T54
+R36	negativeClinicalFeature Arg1:T56 Arg2:T57
+R37	negativeClinicalFeature Arg1:T56 Arg2:T58
+R38	bodyClinicalFeature Arg1:T55 Arg2:T57
+R39	bodyClinicalFeature Arg1:T55 Arg2:T58
+R44	signIndexValue Arg1:T62 Arg2:T63
+R45	signIndexValue Arg1:T64 Arg2:T65
+R46	signIndexValue Arg1:T67 Arg2:T68
+T61	sign 363 366	浊音界
+T76	indexValue 366 369	无扩大
+R40	signIndexValue Arg1:T61 Arg2:T76
+R41	bodySign Arg1:T59 Arg2:T61
+R42	bodySign Arg1:T60 Arg2:T61
+T41	body 281 282	心
+T77	sign 282 285	浊音界
+T78	indexValue 285 288	无扩大
+R43	signIndexValue Arg1:T77 Arg2:T78
+R47	bodySign Arg1:T41 Arg2:T77
+T42	clinicalFeature 328 331	啸鸣音
+T79	negative 319 322	未闻及
+R27	negativeClinicalFeature Arg1:T79 Arg2:T49
+R48	negativeClinicalFeature Arg1:T79 Arg2:T42
+R49	signIndexValue Arg1:T64 Arg2:T66
+T80	body 397 402	右大腿髋部
+R50	bodyClinicalFeature Arg1:T80 Arg2:T69

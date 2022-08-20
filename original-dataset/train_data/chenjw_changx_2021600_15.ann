@@ -1,0 +1,105 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	胸闷
+T3	time 8 10	1月
+T4	time 20 23	1月前
+T5	cause 25 30	无明显诱因
+T6	clinicalFeature 33 35	咳嗽
+T7	clinicalFeature 36 38	咳痰
+T8	clinicalFeature 40 42	胸闷
+T9	clinicalFeature 43 45	气促
+T10	negative 46 47	无
+T11	clinicalFeature 47 49	发热
+T12	negative 50 51	无
+T13	clinicalFeature 51 53	胸痛
+T14	negative 54 55	无
+T15	clinicalFeature 55 57	咯血
+T16	negative 58 59	无
+T17	clinicalFeature 59 61	潮热
+T18	negative 64 65	无
+T19	clinicalFeature 65 67	恶心
+T20	clinicalFeature 67 69	呕吐
+T21	negative 70 71	无
+T22	clinicalFeature 71 73	腹痛
+T23	clinicalFeature 73 75	腹泻
+T24	trend 78 83	无明显好转
+T26	disease 97 108	慢性阻塞性肺病急性加重
+T36	disease 152 156	高血压病
+T37	time 157 160	4年余
+T38	cure 163 168	降压药治疗
+T39	clinicalFeature 175 181	血压控制尚可
+T40	sign 190 191	T
+T41	indexValue 192 197	36.9℃
+T42	sign 198 199	P
+T43	indexValue 200 205	86次/分
+T44	sign 206 207	R
+T45	indexValue 208 213	19次/分
+T46	sign 214 216	BP
+T47	indexValue 217 227	156/87mmHg
+T48	clinicalFeature 228 231	神志清
+T49	clinicalFeature 232 236	呼吸平稳
+T50	body 237 242	浅表淋巴结
+T51	clinicalFeature 242 246	未及肿大
+T52	body 247 249	口唇
+T53	clinicalFeature 249 254	无明显发绀
+T54	body 255 257	两肺
+T55	clinicalFeature 257 261	呼吸音粗
+T56	clinicalFeature 263 271	可及散在干湿啰音
+T57	sign 272 274	心率
+T58	indexValue 274 279	86次/分
+T59	clinicalFeature 280 282	律齐
+T60	clinicalFeature 283 288	未闻及杂音
+T61	body 289 290	腹
+T62	clinicalFeature 290 292	平软
+T63	clinicalFeature 293 296	无压痛
+T64	body 297 298	肝
+T65	body 298 299	脾
+T66	clinicalFeature 299 304	肋下未触及
+T67	body 305 308	双下肢
+T68	clinicalFeature 308 312	轻度浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	clinicalFeatureTime Arg1:T8 Arg2:T4
+R8	clinicalFeatureTime Arg1:T9 Arg2:T4
+R9	clinicalFeatureTime Arg1:T11 Arg2:T4
+R10	clinicalFeatureTime Arg1:T13 Arg2:T4
+R11	clinicalFeatureTime Arg1:T15 Arg2:T4
+T69	clinicalFeature 61 63	盗汗
+R12	clinicalFeatureTime Arg1:T17 Arg2:T4
+R13	clinicalFeatureTime Arg1:T69 Arg2:T4
+R14	clinicalFeatureTime Arg1:T19 Arg2:T4
+R15	clinicalFeatureTime Arg1:T20 Arg2:T4
+R16	clinicalFeatureTime Arg1:T22 Arg2:T4
+R17	clinicalFeatureTime Arg1:T23 Arg2:T4
+R18	clinicalFeatureTrend Arg1:T6 Arg2:T24
+R19	clinicalFeatureTrend Arg1:T7 Arg2:T24
+R21	negativeClinicalFeature Arg1:T10 Arg2:T11
+R22	negativeClinicalFeature Arg1:T12 Arg2:T13
+R23	negativeClinicalFeature Arg1:T14 Arg2:T15
+R24	negativeClinicalFeature Arg1:T16 Arg2:T17
+R25	negativeClinicalFeature Arg1:T16 Arg2:T69
+R26	negativeClinicalFeature Arg1:T18 Arg2:T19
+R27	negativeClinicalFeature Arg1:T18 Arg2:T20
+R28	negativeClinicalFeature Arg1:T21 Arg2:T22
+R29	negativeClinicalFeature Arg1:T21 Arg2:T23
+R35	timeDisease Arg1:T37 Arg2:T36
+T71	drug 169 173	用药不详
+R39	diseaseClinicalFeature Arg1:T36 Arg2:T39
+R40	signIndexValue Arg1:T40 Arg2:T41
+R41	signIndexValue Arg1:T42 Arg2:T43
+R42	signIndexValue Arg1:T44 Arg2:T45
+R43	signIndexValue Arg1:T46 Arg2:T47
+R44	bodyClinicalFeature Arg1:T50 Arg2:T51
+R45	bodyClinicalFeature Arg1:T52 Arg2:T53
+R46	bodyClinicalFeature Arg1:T54 Arg2:T55
+R47	bodyClinicalFeature Arg1:T54 Arg2:T56
+R48	signIndexValue Arg1:T57 Arg2:T58
+R49	bodyClinicalFeature Arg1:T61 Arg2:T62
+R50	bodyClinicalFeature Arg1:T61 Arg2:T63
+R51	bodyClinicalFeature Arg1:T64 Arg2:T66
+R52	bodyClinicalFeature Arg1:T65 Arg2:T66
+R53	bodyClinicalFeature Arg1:T67 Arg2:T68
+R20	drugCure Arg1:T71 Arg2:T38	

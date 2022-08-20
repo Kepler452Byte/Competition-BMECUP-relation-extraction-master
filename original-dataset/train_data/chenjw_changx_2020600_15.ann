@@ -1,0 +1,75 @@
+T1	disease 4 11	右胫骨骨折术后
+T2	time 11 14	1年余
+T3	time 23 27	1年余前
+T4	clinicalFeature 31 36	右胫骨骨折
+T5	operation 42 52	右胫骨骨折髓内钉固定
+T8	clinicalFeature 86 89	无疼痛
+T9	clinicalFeature 90 94	活动良好
+T11	clinicalFeature 96 101	下肢无麻木
+T13	disease 122 129	右胫骨骨折术后
+T26	clinicalFeature 183 186	神志清
+T29	clinicalFeature 196 200	对答切题
+T30	body 201 204	双瞳孔
+T31	clinicalFeature 204 208	等大等圆
+T32	clinicalFeature 209 216	直径3.0毫米
+T33	clinicalFeature 217 222	光反射灵敏
+T34	body 223 225	颈部
+T35	clinicalFeature 225 226	软
+T38	body 234 236	腹部
+T39	clinicalFeature 236 237	软
+T41	clinicalFeature 238 241	无压痛
+T43	modification 260 263	愈合佳
+T44	modification 264 268	皮温正常
+T47	clinicalFeature 276 278	等长
+T48	sign 279 281	肌力
+T49	indexValue 281 283	5级
+T50	sign 284 287	肌张力
+T51	clinicalFeature 292 298	活动及血供可
+T52	sign 299 308	神经系统检查病理征
+T53	indexValue 308 311	未引出
+T54	cause 28 30	车祸
+R2	causeClinicalFeature Arg1:T54 Arg2:T4
+R3	clinicalFeatureTime Arg1:T4 Arg2:T3
+T6	cure 61 63	抗炎
+T7	clinicalFeature 187 190	精神可
+T10	clinicalFeature 191 195	查体配合
+R11	bodyClinicalFeature Arg1:T30 Arg2:T31
+R12	bodyClinicalFeature Arg1:T30 Arg2:T32
+R13	bodyClinicalFeature Arg1:T30 Arg2:T33
+R14	bodyClinicalFeature Arg1:T34 Arg2:T35
+T27	body 227 228	心
+T28	body 228 229	肺
+T36	clinicalFeature 229 233	听诊无殊
+R15	bodyClinicalFeature Arg1:T28 Arg2:T36
+R16	bodyClinicalFeature Arg1:T27 Arg2:T36
+R17	bodyClinicalFeature Arg1:T38 Arg2:T39
+R18	bodyClinicalFeature Arg1:T38 Arg2:T41
+T37	body 243 246	右小腿
+T42	clinicalFeature 250 259	陈旧性手术切口疤痕
+R20	bodyClinicalFeature Arg1:T37 Arg2:T42
+T55	quantity 248 250	多处
+R22	modificationClinicalFeature Arg1:T43 Arg2:T42
+R24	signIndexValue Arg1:T48 Arg2:T49
+T57	indexValue 287 289	正常
+R25	signIndexValue Arg1:T50 Arg2:T57
+R26	signIndexValue Arg1:T52 Arg2:T53
+R27	modificationClinicalFeature Arg1:T44 Arg2:T42
+T45	modification 269 272	无压痛
+R23	modificationClinicalFeature Arg1:T45 Arg2:T42
+R1	timeDisease Arg1:T2 Arg2:T1
+T46	cure 64 66	消肿
+R28	timeOperation Arg1:T3 Arg2:T5
+R29	cureTime Arg1:T6 Arg2:T3
+R30	cureTime Arg1:T46 Arg2:T3
+T58	time 82 83	现
+R31	clinicalFeatureTime Arg1:T8 Arg2:T58
+T59	body 83 86	右小腿
+R32	bodyClinicalFeature Arg1:T59 Arg2:T8
+R33	bodyClinicalFeature Arg1:T59 Arg2:T9
+R34	clinicalFeatureTime Arg1:T11 Arg2:T58
+T60	body 273 276	双下肢
+R35	bodyClinicalFeature Arg1:T60 Arg2:T47
+R36	bodySign Arg1:T60 Arg2:T48
+R37	bodySign Arg1:T60 Arg2:T50
+T61	body 290 292	足趾
+R38	bodyClinicalFeature Arg1:T61 Arg2:T51

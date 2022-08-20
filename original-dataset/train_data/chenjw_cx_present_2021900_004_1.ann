@@ -1,0 +1,8 @@
+T1	time 9 12	2周前
+T3	clinicalFeature 26 28	腹胀
+T4	clinicalFeature 28 30	乏力
+T2	cause 13 26	睡眠障碍服用中药调理后出现
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1

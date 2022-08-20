@@ -1,0 +1,154 @@
+T1	clinicalFeature 8 12	左足肿痛
+T2	time 12 14	1天
+T3	time 27 30	1天前
+T4	body 43 45	左足
+T5	clinicalFeature 48 50	疼痛
+T6	clinicalFeature 53 55	流血
+T7	modification 56 60	较为剧烈
+T8	modification 62 65	持续性
+T9	negative 68 70	否认
+T10	clinicalFeature 70 78	头、胸、腹部外伤
+T11	negative 79 81	否认
+T12	clinicalFeature 81 83	昏迷
+T13	clinicalFeature 84 86	头晕
+T14	clinicalFeature 87 89	恶心
+T15	clinicalFeature 90 92	呕吐
+T16	negative 94 95	无
+T17	clinicalFeature 96 100	肢体麻木
+T18	negative 101 102	无
+T19	clinicalFeature 103 108	大小便异常
+T20	cure 128 132	左足清创
+T22	auxiliaryExamination 163 165	拍片
+T23	disease 170 177	左第4跖骨骨折
+T25	disease 181 188	左第4跖骨骨折
+T38	sign 242 244	体温
+T39	indexValue 244 249	36.7℃
+T40	sign 250 252	脉搏
+T41	indexValue 252 257	72次/分
+T42	sign 258 260	呼吸
+T43	indexValue 260 265	19次/分
+T44	sign 266 268	血压
+T45	indexValue 268 278	135/78mmHg
+T46	clinicalFeature 279 281	神清
+T47	clinicalFeature 282 285	精神可
+T48	body 286 288	头部
+T49	clinicalFeature 288 291	无畸形
+T50	body 293 295	双瞳
+T51	clinicalFeature 295 299	等大等圆
+T52	clinicalFeature 300 306	Φ3.0mm
+T53	clinicalFeature 307 313	对光反射灵敏
+T54	body 315 316	颈
+T55	clinicalFeature 316 317	软
+T56	sign 318 321	颈抵抗
+T57	indexValue 321 323	阴性
+T58	sign 324 327	克氏征
+T59	indexValue 327 329	阴性
+T60	body 330 331	心
+T61	body 331 332	肺
+T62	clinicalFeature 332 340	听诊未及明显异常
+T63	body 341 342	腹
+T64	clinicalFeature 342 344	平坦
+T65	body 345 346	肝
+T66	body 347 348	脾
+T67	clinicalFeature 348 355	肋下、剑下未及
+T68	body 358 360	脾区
+T69	negative 360 362	未及
+T70	clinicalFeature 362 364	叩痛
+T71	clinicalFeature 365 367	压痛
+T72	body 368 369	肝
+T73	body 370 371	脾
+T75	sign 378 382	墨菲氏征
+T76	indexValue 382 384	阴性
+T77	sign 385 388	肠鸣音
+T78	indexValue 388 394	3-4bpm
+T79	indexValue 396 398	调中
+T80	sign 399 403	神经系统
+T81	indexValue 403 405	阴性
+T82	body 406 408	左足
+T83	clinicalFeature 408 412	敷料包扎
+T84	clinicalFeature 413 416	稍渗血
+T85	body 417 420	左足背
+T86	modification 431 440	未见明显红肿、渗出
+T87	body 441 444	左足背
+T88	clinicalFeature 444 448	动脉可及
+T89	clinicalFeature 449 455	末梢循环良好
+T90	sign 456 460	生理反射
+T91	indexValue 460 462	存在
+T92	sign 463 467	病理反射
+T93	indexValue 467 470	未引出
+T94	cause 6 8	砸伤
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T94 Arg2:T1
+T95	cause 38 40	砸伤
+T96	cause 45 48	外伤后
+R3	causeClinicalFeature Arg1:T96 Arg2:T5
+R4	causeClinicalFeature Arg1:T95 Arg2:T5
+R5	bodyClinicalFeature Arg1:T4 Arg2:T5
+R6	clinicalFeatureTime Arg1:T5 Arg2:T3
+R7	bodyClinicalFeature Arg1:T4 Arg2:T6
+R8	causeClinicalFeature Arg1:T95 Arg2:T6
+R9	causeClinicalFeature Arg1:T96 Arg2:T6
+R12	negativeClinicalFeature Arg1:T9 Arg2:T10
+R13	negativeClinicalFeature Arg1:T11 Arg2:T12
+R14	negativeClinicalFeature Arg1:T11 Arg2:T13
+R15	negativeClinicalFeature Arg1:T11 Arg2:T14
+R16	negativeClinicalFeature Arg1:T11 Arg2:T15
+R17	negativeClinicalFeature Arg1:T16 Arg2:T17
+R18	negativeClinicalFeature Arg1:T18 Arg2:T19
+R19	clinicalFeatureTime Arg1:T10 Arg2:T3
+R20	clinicalFeatureTime Arg1:T12 Arg2:T3
+R21	clinicalFeatureTime Arg1:T13 Arg2:T3
+R22	clinicalFeatureTime Arg1:T14 Arg2:T3
+R23	clinicalFeatureTime Arg1:T17 Arg2:T3
+R24	clinicalFeatureTime Arg1:T19 Arg2:T3
+T97	drug 121 127	破伤风抗毒素
+T98	time 109 111	伤后
+R25	drugTime Arg1:T97 Arg2:T98
+R26	cureTime Arg1:T20 Arg2:T98
+R35	signIndexValue Arg1:T38 Arg2:T39
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	bodyClinicalFeature Arg1:T48 Arg2:T49
+R40	bodyClinicalFeature Arg1:T50 Arg2:T51
+R41	bodyClinicalFeature Arg1:T50 Arg2:T52
+R42	bodyClinicalFeature Arg1:T50 Arg2:T53
+R43	bodyClinicalFeature Arg1:T54 Arg2:T55
+R44	signIndexValue Arg1:T56 Arg2:T57
+R45	signIndexValue Arg1:T58 Arg2:T59
+R46	bodyClinicalFeature Arg1:T61 Arg2:T62
+R47	bodyClinicalFeature Arg1:T60 Arg2:T62
+R48	bodyClinicalFeature Arg1:T63 Arg2:T64
+R49	bodyBody Arg1:T65 Arg2:T66
+T21	body 356 357	肝
+R50	negativeClinicalFeature Arg1:T69 Arg2:T70
+R51	bodyClinicalFeature Arg1:T68 Arg2:T70
+R52	bodyClinicalFeature Arg1:T21 Arg2:T70
+R53	negativeClinicalFeature Arg1:T69 Arg2:T71
+R54	bodyClinicalFeature Arg1:T68 Arg2:T71
+R55	bodyClinicalFeature Arg1:T21 Arg2:T71
+R58	signIndexValue Arg1:T75 Arg2:T76
+R61	signIndexValue Arg1:T80 Arg2:T81
+R62	bodyClinicalFeature Arg1:T82 Arg2:T83
+R63	bodyClinicalFeature Arg1:T82 Arg2:T84
+T99	clinicalFeature 428 430	创口
+R64	bodyClinicalFeature Arg1:T85 Arg2:T99
+R66	bodyClinicalFeature Arg1:T87 Arg2:T88
+R67	bodyClinicalFeature Arg1:T87 Arg2:T89
+R68	signIndexValue Arg1:T90 Arg2:T91
+R69	signIndexValue Arg1:T92 Arg2:T93
+T100	quantity 421 422	一
+R65	modificationClinicalFeature Arg1:T86 Arg2:T99
+R59	signIndexValue Arg1:T77 Arg2:T78
+R60	signIndexValue Arg1:T77 Arg2:T79
+R72	bodyClinicalFeature Arg1:T66 Arg2:T67
+R73	bodyClinicalFeature Arg1:T65 Arg2:T67
+T74	sign 371 374	浊音界
+T102	indexValue 374 377	无扩大
+R56	bodySign Arg1:T72 Arg2:T74
+R57	bodySign Arg1:T73 Arg2:T74
+R74	signIndexValue Arg1:T74 Arg2:T102
+R10	modificationClinicalFeature Arg1:T7 Arg2:T5
+T103	modification 65 67	锐痛
+R11	modificationClinicalFeature Arg1:T8 Arg2:T5
+R75	modificationClinicalFeature Arg1:T103 Arg2:T5

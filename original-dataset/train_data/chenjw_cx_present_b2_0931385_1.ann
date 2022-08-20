@@ -1,0 +1,12 @@
+T1	time 6 11	17余年前
+T2	cause 11 15	检查发现
+T3	clinicalFeature 15 19	血糖升高
+T4	disease 23 28	2型糖尿病
+T5	drug 32 37	“瑞格列奈
+T6	dose 37 39	1#
+T7	frequency 39 42	TID
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3
+R3	timeDisease Arg1:T1 Arg2:T4
+R4	drugDose Arg1:T5 Arg2:T6
+R5	doseFrequency Arg1:T6 Arg2:T7

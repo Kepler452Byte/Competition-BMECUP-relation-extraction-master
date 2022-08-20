@@ -1,0 +1,127 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	胸闷
+T3	clinicalFeature 8 10	气促
+T4	time 10 13	5年余
+T5	time 16 18	1天
+T6	time 28 32	5年余前
+T7	clinicalFeature 36 38	胸闷
+T8	clinicalFeature 39 41	气促
+T9	negative 42 43	无
+T10	clinicalFeature 43 45	胸痛
+T11	negative 46 47	无
+T12	clinicalFeature 47 49	晕厥
+T13	cure 53 62	曾反复我院住院治疗
+T14	modification 54 56	反复
+T15	disease 70 74	高血压病
+T16	disease 75 82	高血压性心脏病
+T17	disease 83 92	快速心室率心房颤动
+T18	disease 93 98	心功能3级
+T19	disease 99 105	双侧胸腔积液
+T20	disease 108 119	慢性阻塞性肺病急性加重
+T21	body 122 127	双侧颈动脉
+T22	auxiliaryDescript 127 129	硬化
+T23	auxiliaryDescript 132 136	斑块形成
+T24	disease 139 144	前列腺增生
+T25	disease 148 153	高尿酸血症
+T26	disease 156 160	低钾血症
+T27	disease 162 167	泌尿道感染
+T28	time 170 173	1天前
+T29	clinicalFeature 177 179	胸闷
+T30	clinicalFeature 180 182	气促
+T31	trend 186 188	加重
+T32	negative 189 190	无
+T33	clinicalFeature 190 192	胸痛
+T34	negative 193 194	无
+T35	clinicalFeature 208 214	小便不能自解
+T36	time 215 216	今
+T37	auxiliaryExamination 223 226	心电图
+T38	clinicalFeature 228 230	房颤
+T39	disease 228 230	房颤
+T40	laboratory 231 239	频发室早，血常规
+T41	laboratory 236 239	血常规
+T42	laboratory 236 243	血常规示WBC
+T43	laboratory 240 243	WBC
+T44	laboratoryValue 243 254	12.3*10E9/L
+T45	laboratoryValue 251 254	9/L
+T46	laboratoryValue 251 261	9/L，N92.9%
+T47	sign 255 256	N
+T48	laboratoryValue 256 261	92.9%
+T49	laboratory 262 268	肾功能电解质
+T50	laboratory 269 273	肌钙蛋白
+T51	laboratoryValue 273 277	未见异常
+T52	disease 290 292	房颤
+T53	disease 338 342	高血压病
+T54	time 345 349	10余年
+T55	drug 352 356	药物不详
+T56	clinicalFeature 357 365	血压控制具体不详
+T57	sign 374 376	体温
+T58	indexValue 376 382	36.30℃
+T59	sign 383 385	脉搏
+T60	indexValue 385 390	80次/分
+T61	sign 391 393	呼吸
+T62	indexValue 393 398	19次/分
+T63	sign 399 401	血压
+T64	indexValue 401 412	192/113mmHg
+T65	clinicalFeature 413 416	神志清
+T66	clinicalFeature 417 421	呼吸平稳
+T67	body 422 427	浅表淋巴结
+T68	clinicalFeature 427 431	未及肿大
+T69	body 432 434	两肺
+T70	clinicalFeature 434 438	呼吸音粗
+T71	body 440 443	双下肺
+T72	clinicalFeature 443 449	可闻及湿罗音
+T73	sign 450 452	心率
+T74	indexValue 452 457	98次/分
+T75	clinicalFeature 458 463	律绝对不齐
+T76	clinicalFeature 464 472	未闻及病理性杂音
+T77	body 473 474	腹
+T78	clinicalFeature 474 476	平软
+T79	body 477 480	剑突下
+T80	clinicalFeature 480 484	压之不适
+T81	body 485 488	下腹部
+T82	clinicalFeature 488 490	压痛
+T83	clinicalFeature 492 494	尿意
+T84	body 495 496	肝
+T85	body 496 497	脾
+T86	clinicalFeature 497 502	肋下未触及
+T87	body 503 506	双下肢
+T88	clinicalFeature 506 509	无浮肿
+R1	modificationClinicalfeature Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5
+R3	clinicalFeatureTime Arg1:T3 Arg2:T5
+R4	clinicalFeatureTime Arg1:T7 Arg2:T6
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R6	negativeClinicalfeature Arg1:T9 Arg2:T10
+R7	clinicalFeatureTime Arg1:T10 Arg2:T6
+R8	negativeClinicalfeature Arg1:T11 Arg2:T12
+R9	clinicalFeatureTime Arg1:T12 Arg2:T6
+R10	bodyAuxiliarydescript Arg1:T21 Arg2:T23
+R11	clinicalFeatureTime Arg1:T29 Arg2:T28
+R12	clinicalFeatureTime Arg1:T30 Arg2:T28
+R13	negativeClinicalfeature Arg1:T32 Arg2:T33
+R14	clinicalFeatureTime Arg1:T33 Arg2:T28
+R15	clinicalFeatureTime Arg1:T35 Arg2:T28
+R16	auxiliaryExaminationTime Arg1:T37 Arg2:T28
+R17	auxiliaryExaminationTime Arg1:T37 Arg2:T36
+R18	clinicalFeatureTime Arg1:T39 Arg2:T36
+R19	diseaseTime Arg1:T39 Arg2:T36
+R20	laboratoryTime Arg1:T42 Arg2:T36
+R21	laboratoryLaboratoryvalue Arg1:T43 Arg2:T44
+R22	laboratoryLaboratoryvalue Arg1:T43 Arg2:T46
+R23	signLaboratoryvalue Arg1:T47 Arg2:T48
+R24	laboratoryLaboratoryvalue Arg1:T50 Arg2:T51
+R25	diseaseClinicalfeature Arg1:53 Arg2:56
+R26	timeDisease Arg1:54 Arg2:53
+R27	signIndexvalue Arg1:57 Arg2:58
+R28	signIndexvalue Arg1:59 Arg2:60
+R29	signIndexvalue Arg1:61 Arg2:62
+R30	signIndexvalue Arg1:63 Arg2:64
+R31	bodyClinicalfeature Arg1:67 Arg2:68
+R32	bodyClinicalfeature Arg1:71 Arg2:72
+R33	signIndexvalue Arg1:73 Arg2:74
+R34	bodyClinicalfeature Arg1:77 Arg2:78
+R35	bodyClinicalfeature Arg1:79 Arg2:80
+R36	bodyClinicalfeature Arg1:81 Arg2:83
+R37	bodyClinicalfeature Arg1:84 Arg2:86
+R38	bodyClinicalfeature Arg1:85 Arg2:86
+R39	bodyClinicalfeature Arg1:87 Arg2:88

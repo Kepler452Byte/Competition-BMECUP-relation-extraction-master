@@ -1,0 +1,103 @@
+T1	disease 4 12	乙状结肠息肉术后
+T2	time 12 15	1小时
+T3	time 25 29	1小时前
+T4	operation 30 42	肠镜下乙状结肠息肉摘除术
+T5	time 44 45	现
+T6	negative 45 46	无
+T7	clinicalFeature 46 48	腹痛
+T8	clinicalFeature 48 50	腹泻
+T9	negative 51 52	无
+T10	clinicalFeature 52 54	便秘
+T11	negative 55 56	无
+T12	clinicalFeature 56 58	便血
+T13	negative 59 60	无
+T14	clinicalFeature 60 62	恶心
+T15	clinicalFeature 62 64	呕吐
+T16	negative 65 66	无
+T17	clinicalFeature 66 68	头晕
+T18	clinicalFeature 68 70	头痛
+T19	negative 71 72	无
+T20	clinicalFeature 72 74	畏寒
+T21	clinicalFeature 74 76	发热
+T34	sign 131 133	BP
+T35	indexValue 133 143	156/86mmHg
+T36	sign 144 145	T
+T37	indexValue 145 150	37.1℃
+T38	sign 151 152	P
+T39	indexValue 152 157	92次/分
+T40	sign 158 159	R
+T41	indexValue 159 164	19次/分
+T42	clinicalFeature 165 167	神清
+T43	clinicalFeature 168 171	精神可
+T44	body 172 174	巩膜
+T45	clinicalFeature 174 179	无明显黄染
+T46	body 180 185	浅表淋巴结
+T47	clinicalFeature 185 189	未及肿大
+T48	sign 190 192	心率
+T49	indexValue 192 197	92次/分
+T50	clinicalFeature 198 200	律齐
+T51	body 202 204	两肺
+T52	clinicalFeature 204 208	呼吸音清
+T53	clinicalFeature 209 214	未闻及罗音
+T54	body 215 216	腹
+T55	clinicalFeature 216 217	软
+T56	clinicalFeature 218 221	无压痛
+T57	sign 222 226	墨菲氏征
+T58	indexValue 226 228	阴性
+T59	negative 229 230	无
+T60	clinicalFeature 230 233	反跳痛
+T61	body 234 235	肝
+T62	body 235 236	脾
+T63	clinicalFeature 236 240	肋下未及
+T64	sign 241 244	肠鸣音
+T65	indexValue 244 247	无亢进
+T66	body 248 251	双下肢
+T67	clinicalFeature 251 254	无浮肿
+T68	body 255 257	四肢
+T69	sign 257 259	肌力
+T70	indexValue 259 261	正常
+T71	sign 262 265	病理症
+T72	indexValue 265 268	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	timeOperation Arg1:T3 Arg2:T4
+R3	negativeClinicalFeature Arg1:T6 Arg2:T7
+R4	negativeClinicalFeature Arg1:T6 Arg2:T8
+R5	clinicalFeatureTime Arg1:T7 Arg2:T5
+R6	clinicalFeatureTime Arg1:T8 Arg2:T5
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T13 Arg2:T15
+R11	negativeClinicalFeature Arg1:T16 Arg2:T17
+R12	negativeClinicalFeature Arg1:T16 Arg2:T18
+R13	negativeClinicalFeature Arg1:T19 Arg2:T20
+R14	negativeClinicalFeature Arg1:T19 Arg2:T21
+R15	clinicalFeatureTime Arg1:T10 Arg2:T5
+R16	clinicalFeatureTime Arg1:T12 Arg2:T5
+R17	clinicalFeatureTime Arg1:T14 Arg2:T5
+R18	clinicalFeatureTime Arg1:T15 Arg2:T5
+R19	clinicalFeatureTime Arg1:T17 Arg2:T5
+R20	clinicalFeatureTime Arg1:T18 Arg2:T5
+R21	clinicalFeatureTime Arg1:T20 Arg2:T5
+R22	clinicalFeatureTime Arg1:T21 Arg2:T5
+R29	signIndexValue Arg1:T34 Arg2:T35
+R30	signIndexValue Arg1:T36 Arg2:T37
+R31	signIndexValue Arg1:T38 Arg2:T39
+R32	signIndexValue Arg1:T40 Arg2:T41
+R33	bodyClinicalFeature Arg1:T44 Arg2:T45
+R34	bodyClinicalFeature Arg1:T46 Arg2:T47
+R35	signIndexValue Arg1:T48 Arg2:T49
+R36	bodyClinicalFeature Arg1:T51 Arg2:T52
+R37	bodyClinicalFeature Arg1:T51 Arg2:T53
+R38	bodyClinicalFeature Arg1:T54 Arg2:T55
+R39	bodyClinicalFeature Arg1:T54 Arg2:T56
+R40	signIndexValue Arg1:T57 Arg2:T58
+R41	negativeClinicalFeature Arg1:T59 Arg2:T60
+R42	bodyClinicalFeature Arg1:T54 Arg2:T60
+R43	bodyClinicalFeature Arg1:T62 Arg2:T63
+R44	bodyClinicalFeature Arg1:T61 Arg2:T63
+R45	signIndexValue Arg1:T64 Arg2:T65
+R46	bodyClinicalFeature Arg1:T66 Arg2:T67
+R47	signIndexValue Arg1:T69 Arg2:T70
+R48	bodySign Arg1:T68 Arg2:T69
+R49	signIndexValue Arg1:T71 Arg2:T72

@@ -1,0 +1,202 @@
+T1	body 7 9	头部
+T2	clinicalFeature 14 16	疼痛
+T3	time 16 19	3小时
+T4	time 28 32	3小时前
+T7	clinicalFeature 50 52	疼痛
+T9	modification 69 72	后清醒
+T10	negative 73 75	否认
+T11	clinicalFeature 76 78	恶心
+T12	clinicalFeature 79 81	呕吐
+T13	negative 82 84	否认
+T14	clinicalFeature 85 87	胸闷
+T15	clinicalFeature 88 90	胸痛
+T16	negative 91 93	否认
+T17	clinicalFeature 94 96	腹胀
+T18	clinicalFeature 97 99	腹痛
+T19	auxiliaryExamination 113 115	CT
+T20	auxiliaryDescript 118 124	老年性脑改变
+T25	body 173 175	肝内
+T26	auxiliaryDescript 175 179	低密度灶
+T27	body 190 195	双侧甲状腺
+T28	auxiliaryDescript 195 197	肿大
+T34	auxiliaryDescript 277 280	楔形变
+T45	auxiliaryDescript 365 369	低密度灶
+T48	disease 386 390	胸椎骨折
+T57	disease 441 445	高血压病
+T58	time 446 448	多年
+T59	cure 449 455	口服药物治疗
+T61	sign 469 471	体温
+T62	indexValue 471 476	37.4℃
+T63	sign 477 479	脉搏
+T64	indexValue 479 484	80次/分
+T65	sign 485 487	呼吸
+T66	indexValue 487 492	20次/分
+T67	sign 493 495	血压
+T68	indexValue 495 505	123/77mmHg
+T69	clinicalFeature 506 509	神志清
+T72	body 514 517	双瞳孔
+T73	clinicalFeature 517 521	等大等圆
+T74	clinicalFeature 522 526	光反灵敏
+T76	body 547 550	左胸部
+T77	clinicalFeature 550 552	压痛
+T78	body 553 554	心
+T79	clinicalFeature 555 559	听诊无殊
+T80	clinicalFeature 561 562	软
+T82	clinicalFeature 563 566	无压痛
+T83	clinicalFeature 569 571	压痛
+T84	clinicalFeature 572 576	活动受限
+T86	clinicalFeature 591 595	活动受限
+T88	sign 601 603	感觉
+T89	sign 606 610	生理反射
+T90	indexValue 610 612	存在
+T91	sign 613 616	病理征
+T92	indexValue 616 619	未引出
+T93	cause 4 6	车祸
+T94	body 10 11	腰
+T95	body 12 14	臀部
+R1	bodyClinicalFeature Arg1:T95 Arg2:T2
+R2	bodyClinicalFeature Arg1:T94 Arg2:T2
+R3	bodyClinicalFeature Arg1:T1 Arg2:T2
+R4	causeClinicalFeature Arg1:T93 Arg2:T2
+R5	clinicalFeatureTime Arg1:T2 Arg2:T3
+T5	cause 39 41	撞伤
+T6	body 43 45	头部
+T96	body 46 47	腰
+T97	body 48 50	臀部
+R6	bodyClinicalFeature Arg1:T97 Arg2:T7
+R7	bodyClinicalFeature Arg1:T96 Arg2:T7
+R8	bodyClinicalFeature Arg1:T6 Arg2:T7
+R9	causeClinicalFeature Arg1:T5 Arg2:T7
+R10	clinicalFeatureTime Arg1:T7 Arg2:T4
+T8	body 54 56	腰部
+T98	body 57 59	髋部
+T99	clinicalFeature 59 63	活动受限
+R11	bodyClinicalFeature Arg1:T98 Arg2:T99
+R12	bodyClinicalFeature Arg1:T8 Arg2:T99
+R13	clinicalFeatureTime Arg1:T99 Arg2:T4
+R14	causeClinicalFeature Arg1:T5 Arg2:T99
+T100	clinicalFeature 66 68	昏迷
+R15	clinicalFeatureTime Arg1:T100 Arg2:T4
+R16	modificationClinicalFeature Arg1:T9 Arg2:T100
+R17	negativeClinicalFeature Arg1:T10 Arg2:T11
+R18	negativeClinicalFeature Arg1:T10 Arg2:T12
+R19	negativeClinicalFeature Arg1:T13 Arg2:T14
+R20	negativeClinicalFeature Arg1:T13 Arg2:T15
+R21	negativeClinicalFeature Arg1:T16 Arg2:T17
+R22	negativeClinicalFeature Arg1:T16 Arg2:T18
+R23	clinicalFeatureTime Arg1:T11 Arg2:T4
+R24	clinicalFeatureTime Arg1:T12 Arg2:T4
+R25	clinicalFeatureTime Arg1:T14 Arg2:T4
+R26	clinicalFeatureTime Arg1:T15 Arg2:T4
+R27	clinicalFeatureTime Arg1:T17 Arg2:T4
+R28	clinicalFeatureTime Arg1:T18 Arg2:T4
+T21	auxiliaryDescript 132 137	软组织肿胀
+R29	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T20
+R30	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T21
+T23	auxiliaryDescript 155 161	骨皮质不光整
+R32	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T23
+R33	bodyAuxiliaryDescript Arg1:T25 Arg2:T26
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T26
+R35	bodyAuxiliaryDescript Arg1:T27 Arg2:T28
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T28
+T24	auxiliaryDescript 218 220	骨折
+T29	auxiliaryDescript 225 227	骨折
+T30	auxiliaryDescript 234 236	骨折
+T31	auxiliaryDescript 246 250	楔形改变
+R37	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T24
+R38	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T29
+R39	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T30
+R40	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T31
+T33	auxiliaryDescript 295 300	退行性改变
+T35	auxiliaryDescript 314 316	骨折
+T36	auxiliaryDescript 333 335	骨折
+T32	auxiliaryDescript 267 272	压缩性骨折
+T37	auxiliaryDescript 337 347	左侧髂腰肌较右侧增粗
+R41	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T32
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T34
+R43	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T33
+R44	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T35
+R45	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T36
+R46	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T37
+R47	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T45
+T38	disease 391 395	骨盆骨折
+R54	timeDisease Arg1:T58 Arg2:T57
+R56	signIndexValue Arg1:T61 Arg2:T62
+R57	signIndexValue Arg1:T63 Arg2:T64
+R58	signIndexValue Arg1:T65 Arg2:T66
+R59	signIndexValue Arg1:T67 Arg2:T68
+T41	clinicalFeature 510 513	精神软
+R60	bodyClinicalFeature Arg1:T72 Arg2:T73
+R61	bodyClinicalFeature Arg1:T72 Arg2:T74
+T42	body 527 530	后枕部
+T44	clinicalFeature 539 541	包块
+R63	bodyClinicalFeature Arg1:T42 Arg2:T44
+R64	bodyClinicalFeature Arg1:T76 Arg2:T77
+R65	bodyClinicalFeature Arg1:T78 Arg2:T79
+T46	body 560 561	腹
+R66	bodyClinicalFeature Arg1:T46 Arg2:T80
+R68	bodyClinicalFeature Arg1:T46 Arg2:T82
+T60	body 567 569	腰部
+R69	bodyClinicalFeature Arg1:T60 Arg2:T83
+R70	bodyClinicalFeature Arg1:T60 Arg2:T84
+T70	sign 579 586	分离及挤压试验
+T71	indexValue 586 588	阳性
+R71	signIndexValue Arg1:T70 Arg2:T71
+T75	body 589 591	双髋
+R72	bodyClinicalFeature Arg1:T75 Arg2:T86
+R73	signIndexValue Arg1:T89 Arg2:T90
+R74	signIndexValue Arg1:T91 Arg2:T92
+R75	auxiliaryExaminationTime Arg1:T19 Arg2:T4
+T85	body 125 128	后枕部
+T101	body 129 132	左额部
+R76	bodyAuxiliaryDescript Arg1:T85 Arg2:T21
+R77	bodyAuxiliaryDescript Arg1:T101 Arg2:T21
+T102	body 147 155	左侧3-10前肋
+R78	bodyAuxiliaryDescript Arg1:T102 Arg2:T23
+T103	auxiliaryDescript 162 164	骨折
+R31	bodyAuxiliaryDescript Arg1:T102 Arg2:T103
+T104	disease 181 185	胆囊结石
+T105	auxiliaryDescript 198 202	低密度灶
+R80	bodyAuxiliaryDescript Arg1:T27 Arg2:T105
+T106	body 211 218	双侧耻骨上下支
+R81	bodyAuxiliaryDescript Arg1:T106 Arg2:T24
+T107	body 221 225	骶椎左侧
+R82	bodyAuxiliaryDescript Arg1:T107 Arg2:T29
+T108	body 228 234	L5左侧横突
+R83	bodyAuxiliaryDescript Arg1:T108 Arg2:T30
+T109	body 238 246	T12-L1椎体
+R84	bodyAuxiliaryDescript Arg1:T109 Arg2:T31
+T110	body 262 267	T12椎体
+R85	bodyAuxiliaryDescript Arg1:T110 Arg2:T32
+T111	body 273 277	L1椎体
+R86	bodyAuxiliaryDescript Arg1:T111 Arg2:T34
+T112	body 293 295	腰椎
+R87	bodyAuxiliaryDescript Arg1:T112 Arg2:T33
+T113	body 301 309	双侧耻骨上、下支
+T114	body 310 314	耻骨联合
+R88	bodyAuxiliaryDescript Arg1:T113 Arg2:T35
+R89	bodyAuxiliaryDescript Arg1:T114 Arg2:T35
+T115	auxiliaryDescript 317 324	周围软组织损伤
+R90	bodyAuxiliaryDescript Arg1:T114 Arg2:T115
+R91	bodyAuxiliaryDescript Arg1:T113 Arg2:T115
+T116	body 325 329	骶骨左侧
+T117	body 330 332	左髂
+R92	bodyAuxiliaryDescript Arg1:T116 Arg2:T36
+R93	bodyAuxiliaryDescript Arg1:T117 Arg2:T36
+T118	modification 348 354	血肿不能除外
+R94	auxiliaryDesModification Arg1:T37 Arg2:T118
+T119	body 363 365	肝脏
+R95	bodyAuxiliaryDescript Arg1:T119 Arg2:T45
+T120	body 554 555	肺
+R96	bodyClinicalFeature Arg1:T120 Arg2:T79
+T121	body 577 579	骨盆
+R97	bodySign Arg1:T121 Arg2:T70
+T87	body 596 598	四肢
+T122	sign 598 600	肌力
+T123	indexValue 603 605	正常
+R98	bodySign Arg1:T87 Arg2:T122
+R99	bodySign Arg1:T87 Arg2:T88
+R100	signIndexValue Arg1:T122 Arg2:T123
+R101	signIndexValue Arg1:T88 Arg2:T123
+T81	modification 543 545	压痛
+R67	modificationClinicalFeature Arg1:T81 Arg2:T44

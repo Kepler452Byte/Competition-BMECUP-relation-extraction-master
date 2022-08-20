@@ -1,0 +1,6 @@
+T1	time 6 10	1月余前
+T2	clinicalFeature 14 18	左乳肿块
+T3	time 18 20	半年
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+T5	auxiliaryExamination 43 49	左乳肿块活检
+R2	auxiliaryExaminationTime Arg1:T5 Arg2:T1

@@ -1,0 +1,117 @@
+T1	modification 4 6	突发
+T2	clinicalFeature 6 8	胸闷
+T3	clinicalFeature 8 10	气促
+T4	time 10 13	5小时
+T5	time 22 26	5小时前
+T6	cause 29 34	无明显诱因
+T7	modification 35 37	突发
+T8	clinicalFeature 37 39	胸闷
+T9	clinicalFeature 39 41	气促
+T10	clinicalFeature 42 46	难以平卧
+T11	clinicalFeature 49 51	大汗
+T12	negative 52 53	无
+T13	clinicalFeature 53 55	胸痛
+T14	negative 56 57	无
+T15	clinicalFeature 57 59	咯血
+T16	negative 60 61	无
+T17	clinicalFeature 61 63	恶心
+T18	clinicalFeature 63 65	呕吐
+T19	negative 66 67	无
+T20	clinicalFeature 67 71	四肢抽搐
+T21	negative 72 73	无
+T22	clinicalFeature 73 75	头痛
+T23	clinicalFeature 75 77	头晕
+T24	negative 78 79	无
+T25	clinicalFeature 79 81	畏寒
+T26	clinicalFeature 81 83	发热
+T27	negative 84 85	无
+T28	clinicalFeature 85 87	黑朦
+T29	clinicalFeature 87 89	晕厥
+T30	negative 91 92	无
+T31	clinicalFeature 92 97	大小便失禁
+T32	trend 109 112	未缓解
+T33	disease 135 139	急性心衰
+T34	disease 189 193	高血压病
+T35	time 193 197	10余年
+T36	drug 203 206	拜新同
+T37	dose 206 208	1片
+T38	frequency 209 211	qd
+T39	cure 212 214	降压
+T40	clinicalFeature 215 223	血压控制情况不详
+T41	sign 232 233	T
+T42	indexValue 233 238	36.5℃
+T43	sign 239 240	R
+T44	indexValue 240 245	30次/分
+T45	sign 246 248	Bp
+T46	indexValue 248 259	189/123mmHg
+T47	sign 261 262	P
+T48	indexValue 262 267	90次/分
+T49	clinicalFeature 268 271	神志清
+T50	body 272 276	双侧瞳孔
+T51	clinicalFeature 276 280	等大等圆
+T52	clinicalFeature 281 287	约2.5mm
+T53	clinicalFeature 288 294	对光反射灵敏
+T54	body 295 297	两肺
+T55	clinicalFeature 297 301	呼吸音粗
+T56	clinicalFeature 303 312	可闻及呼气相哮鸣音
+T57	body 313 316	颈静脉
+T58	clinicalFeature 316 319	略充盈
+T59	body 320 325	浅表淋巴结
+T60	clinicalFeature 325 329	未及肿大
+T61	sign 330 332	心率
+T62	indexValue 332 338	100次/分
+T63	clinicalFeature 339 342	律不齐
+T64	clinicalFeature 343 353	未闻及明显病理性杂音
+T65	body 354 356	腹部
+T66	clinicalFeature 356 359	略膨隆
+T67	clinicalFeature 360 365	未触及包块
+T68	body 366 369	双下肢
+T69	clinicalFeature 369 374	凹陷性浮肿
+T70	sign 375 378	病理征
+T71	indexValue 378 380	阴性
+R1	modificationClinicalfeature Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	modificationClinicalfeature Arg1:T7 Arg2:T9
+R5	clinicalFeatureTime Arg1:T8 Arg2:T5
+R6	clinicalFeatureTrend Arg1:T8 Arg2:T32
+R7	clinicalFeatureTime Arg1:T9 Arg2:T5
+R8	clinicalFeatureTrend Arg1:T9 Arg2:T32
+R9	clinicalFeatureTime Arg1:T10 Arg2:T5
+R10	clinicalFeatureTime Arg1:T11 Arg2:T5
+R11	negativeClinicalfeature Arg1:T12 Arg2:T13
+R12	clinicalFeatureTime Arg1:T13 Arg2:T5
+R13	negativeClinicalfeature Arg1:T14 Arg2:T15
+R14	clinicalFeatureTime Arg1:T15 Arg2:T5
+R15	negativeClinicalfeature Arg1:T16 Arg2:T18
+R16	clinicalFeatureTime Arg1:T17 Arg2:T5
+R17	clinicalFeatureTime Arg1:T18 Arg2:T5
+R18	negativeClinicalfeature Arg1:T19 Arg2:T20
+R19	clinicalFeatureTime Arg1:T20 Arg2:T5
+R20	negativeClinicalfeature Arg1:T21 Arg2:T23
+R21	clinicalFeatureTime Arg1:T22 Arg2:T5
+R22	clinicalFeatureTime Arg1:T23 Arg2:T5
+R23	negativeClinicalfeature Arg1:T24 Arg2:T26
+R24	clinicalFeatureTime Arg1:T25 Arg2:T5
+R25	clinicalFeatureTime Arg1:T26 Arg2:T5
+R26	negativeClinicalfeature Arg1:T27 Arg2:T29
+R27	clinicalFeatureTime Arg1:T28 Arg2:T5
+R28	clinicalFeatureTime Arg1:T29 Arg2:T5
+R29	negativeClinicalfeature Arg1:T30 Arg2:T31
+R30	clinicalFeatureTime Arg1:T31 Arg2:T5
+R31	diseaseClinicalfeature Arg1:T34 Arg2:T40
+R32	timeDisease Arg1:T35 Arg2:T34
+R33	drugDose Arg1:T36 Arg2:T37
+R34	doseFrequency Arg1:T37 Arg2:T38
+R35	signIndexvalue Arg1:T41 Arg2:T42
+R36	signIndexvalue Arg1:T43 Arg2:T44
+R37	signIndexvalue Arg1:T45 Arg2:T46
+R38	signIndexvalue Arg1:T47 Arg2:T48
+R39	bodyClinicalfeature Arg1:T50 Arg2:T53
+R40	bodyClinicalfeature Arg1:T54 Arg2:T56
+R41	bodyClinicalfeature Arg1:T57 Arg2:T58
+R42	bodyClinicalfeature Arg1:T59 Arg2:T60
+R43	signIndexvalue Arg1:T61 Arg2:T62
+R44	bodyClinicalfeature Arg1:T65 Arg2:T67
+R45	bodyClinicalfeature Arg1:T68 Arg2:T69
+R46	signIndexvalue Arg1:T70 Arg2:T71

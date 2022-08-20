@@ -1,0 +1,128 @@
+T1	disease 4 12	右胫腓骨骨折术后
+T2	time 12 15	1年余
+T4	cause 31 33	摔下
+T7	modification 49 53	疼痛较剧
+T8	clinicalFeature 55 59	活动受限
+T9	clinicalFeature 60 65	后腰部疼痛
+T10	clinicalFeature 66 71	右小腿肿胀
+T11	clinicalFeature 72 78	右足有麻木感
+T12	negative 81 82	无
+T13	clinicalFeature 82 84	昏迷
+T14	negative 85 86	无
+T15	clinicalFeature 86 88	头痛
+T16	clinicalFeature 88 90	头晕
+T17	negative 91 92	无
+T18	clinicalFeature 92 94	恶心
+T19	clinicalFeature 94 96	呕吐
+T20	negative 98 99	无
+T21	clinicalFeature 99 101	胸痛
+T22	clinicalFeature 101 103	胸闷
+T23	negative 104 105	无
+T24	clinicalFeature 105 107	腹痛
+T25	clinicalFeature 107 109	腹泻
+T29	clinicalFeature 190 199	愈合及功能恢复尚可
+T30	clinicalFeature 204 206	畏寒
+T31	clinicalFeature 206 208	发热
+T32	clinicalFeature 208 210	心悸
+T34	disease 236 244	右胫腓骨骨折术后
+T48	sign 316 318	体温
+T49	indexValue 318 323	36.4℃
+T50	sign 324 326	脉搏
+T51	indexValue 326 331	78次/分
+T52	sign 332 334	呼吸
+T53	indexValue 334 339	20次/分
+T54	sign 340 342	血压
+T55	indexValue 342 352	115/75mmHg
+T56	clinicalFeature 353 356	神志清
+T57	clinicalFeature 357 360	精神可
+T60	clinicalFeature 371 380	未及明显干湿性啰音
+T61	clinicalFeature 381 384	心律齐
+T64	body 394 395	腹
+T65	clinicalFeature 395 397	平软
+T67	clinicalFeature 397 400	无压痛
+T69	modification 414 417	愈合佳
+T75	sign 447 450	病理征
+T76	indexValue 450 452	阴性
+R1	timeDisease Arg1:T2 Arg2:T1
+T77	body 40 42	腰部
+T6	body 43 46	右小腿
+T78	clinicalFeature 46 48	疼痛
+T3	time 24 27	1年前
+R8	signIndexValue Arg1:T48 Arg2:T49
+R9	signIndexValue Arg1:T50 Arg2:T51
+R10	signIndexValue Arg1:T52 Arg2:T53
+R11	signIndexValue Arg1:T54 Arg2:T55
+T5	body 361 363	双肺
+T58	clinicalFeature 365 370	呼吸音清晰
+R12	bodyClinicalFeature Arg1:T5 Arg2:T58
+R13	bodyClinicalFeature Arg1:T5 Arg2:T60
+T59	body 386 388	瓣膜
+T62	clinicalFeature 388 393	听诊无杂音
+R14	bodyClinicalFeature Arg1:T59 Arg2:T62
+R15	bodyClinicalFeature Arg1:T64 Arg2:T65
+R17	bodyClinicalFeature Arg1:T64 Arg2:T67
+T63	body 401 404	右小腿
+T68	clinicalFeature 406 413	陈旧性手术疤痕
+R18	bodyClinicalFeature Arg1:T63 Arg2:T68
+R19	modificationClinicalFeature Arg1:T69 Arg2:T68
+T70	modification 418 425	无明显窦道形成
+R20	modificationClinicalFeature Arg1:T70 Arg2:T68
+T71	body 426 429	右下肢
+T72	clinicalFeature 429 435	感觉及活动可
+R21	bodyClinicalFeature Arg1:T71 Arg2:T72
+T73	sign 436 438	肌力
+T79	indexValue 438 440	V级
+R22	signIndexValue Arg1:T73 Arg2:T79
+R23	signIndexValue Arg1:T75 Arg2:T76
+R24	bodyClinicalFeature Arg1:T77 Arg2:T78
+R25	bodyClinicalFeature Arg1:T6 Arg2:T78
+R27	negativeClinicalFeature Arg1:T12 Arg2:T13
+R28	negativeClinicalFeature Arg1:T14 Arg2:T15
+R29	negativeClinicalFeature Arg1:T14 Arg2:T16
+R30	negativeClinicalFeature Arg1:T17 Arg2:T18
+R31	negativeClinicalFeature Arg1:T17 Arg2:T19
+R32	causeClinicalFeature Arg1:T4 Arg2:T78
+R33	clinicalFeatureTime Arg1:T78 Arg2:T3
+R34	clinicalFeatureTime Arg1:T8 Arg2:T3
+R35	clinicalFeatureTime Arg1:T9 Arg2:T3
+R36	clinicalFeatureTime Arg1:T10 Arg2:T3
+R37	clinicalFeatureTime Arg1:T11 Arg2:T3
+R38	clinicalFeatureTime Arg1:T13 Arg2:T3
+R39	clinicalFeatureTime Arg1:T15 Arg2:T3
+R40	clinicalFeatureTime Arg1:T16 Arg2:T3
+R41	clinicalFeatureTime Arg1:T18 Arg2:T3
+R42	clinicalFeatureTime Arg1:T19 Arg2:T3
+R43	clinicalFeatureTime Arg1:T21 Arg2:T3
+R44	clinicalFeatureTime Arg1:T22 Arg2:T3
+R45	clinicalFeatureTime Arg1:T24 Arg2:T3
+R46	clinicalFeatureTime Arg1:T25 Arg2:T3
+T26	body 110 113	余肢体
+T80	clinicalFeature 113 121	无麻木及感觉异常
+R47	bodyClinicalFeature Arg1:T26 Arg2:T80
+R48	clinicalFeatureTime Arg1:T80 Arg2:T3
+T81	auxiliaryExamination 135 137	拍片
+T27	disease 139 145	右胫腓骨骨折
+T82	auxiliaryDescript 146 154	T10椎体楔形变
+R50	auxiliaryExaminationAuxiliaryDescript Arg1:T81 Arg2:T82
+T28	operation 169 182	右胫腓骨骨折切开复位内固定
+T83	time 188 190	术后
+R51	clinicalFeatureTime Arg1:T29 Arg2:T83
+T84	negative 201 202	无
+T33	clinicalFeature 210 212	胸闷
+R53	negativeClinicalFeature Arg1:T84 Arg2:T30
+R54	negativeClinicalFeature Arg1:T84 Arg2:T31
+R55	negativeClinicalFeature Arg1:T84 Arg2:T32
+R56	negativeClinicalFeature Arg1:T84 Arg2:T33
+T86	disease 254 256	甲减
+T35	drug 265 269	具体不详
+R59	auxiliaryExaminationTime Arg1:T81 Arg2:T3
+T87	time 200 201	现
+R60	clinicalFeatureTime Arg1:T30 Arg2:T87
+R61	clinicalFeatureTime Arg1:T31 Arg2:T87
+R62	clinicalFeatureTime Arg1:T32 Arg2:T87
+R63	clinicalFeatureTime Arg1:T33 Arg2:T87
+T88	cure 259 265	口服药物治疗
+T74	sign 441 444	肌张力
+T89	indexValue 444 446	正常
+R66	signIndexValue Arg1:T74 Arg2:T89
+R16	modificationClinicalFeature Arg1:T7 Arg2:T78

@@ -1,0 +1,13 @@
+T1	time 7 12	5小时余前
+T2	clinicalFeature 17 19	头晕
+T3	clinicalFeature 21 23	恶心
+T4	clinicalFeature 23 25	呕吐
+T5	modification 26 34	呕吐物为胃内容物
+T6	clinicalFeature 36 40	视物旋转
+T9	cause 12 17	干活时出现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T9 Arg2:T2
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	modificationClinicalFeature Arg1:T5 Arg2:T4
+R6	clinicalFeatureTime Arg1:T6 Arg2:T1

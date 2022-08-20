@@ -1,0 +1,20 @@
+T1	time 6 10	1月余前
+T2	time 12 15	近半年
+T3	clinicalFeature 17 19	腹胀
+T4	clinicalFeature 20 22	腹泻
+T5	body 33 36	左下肺
+T7	drug 54 64	阿莫西林克拉维酸钾针
+T8	dose 64 69	2.4静滴
+T9	frequency 69 72	bid
+T10	drug 73 82	甲磺酸左氧氟沙星针
+T11	dose 82 87	0.5静滴
+T12	frequency 87 89	qd
+T13	drug 90 95	莫西沙星针
+T14	dose 95 100	0.5静滴
+T15	frequency 100 102	qd
+T16	cure 102 105	抗感染
+R1	clinicalFeatureTime Arg1:T3 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T2
+T6	clinicalFeature 36 41	团片状病灶
+R3	bodyClinicalFeature Arg1:T5 Arg2:T6
+R4	clinicalFeatureTime Arg1:T6 Arg2:T1

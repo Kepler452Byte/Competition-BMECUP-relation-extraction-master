@@ -1,0 +1,112 @@
+T1	clinicalFeature 4 7	上腹痛
+T2	time 7 9	半月
+T3	time 18 21	半月前
+T4	cause 21 26	无明显诱因
+T5	clinicalFeature 28 33	上腹部疼痛
+T6	modification 36 40	程度可忍
+T7	modification 41 46	阵发性加剧
+T8	clinicalFeature 48 50	恶心
+T9	clinicalFeature 50 52	呕吐
+T10	modification 53 60	呕吐为胃内容物
+T11	negative 61 62	无
+T12	clinicalFeature 62 64	畏寒
+T13	clinicalFeature 64 66	发热
+T14	negative 67 68	无
+T15	clinicalFeature 68 70	头晕
+T16	clinicalFeature 70 72	头痛
+T17	negative 73 74	无
+T18	clinicalFeature 74 76	腹泻
+T21	clinicalFeature 82 84	大便
+T22	modification 85 88	量较少
+T24	disease 116 118	腹痛
+T37	sign 171 173	BP
+T38	indexValue 173 183	156/72mmHg
+T39	sign 184 185	T
+T40	indexValue 185 190	37.4℃
+T41	sign 191 192	P
+T42	indexValue 192 197	78次/分
+T43	sign 198 199	R
+T44	indexValue 199 204	18次/分
+T45	clinicalFeature 205 207	神清
+T46	clinicalFeature 208 211	精神可
+T47	body 212 214	巩膜
+T48	clinicalFeature 214 219	无明显黄染
+T49	body 220 225	浅表淋巴结
+T50	clinicalFeature 225 229	未及肿大
+T51	sign 230 232	心率
+T52	indexValue 232 237	78次/分
+T53	clinicalFeature 238 240	律齐
+T54	body 242 244	两肺
+T55	clinicalFeature 244 248	呼吸音粗
+T56	clinicalFeature 249 254	未闻及罗音
+T57	body 255 256	腹
+T58	clinicalFeature 256 257	软
+T59	body 258 260	上腹
+T60	clinicalFeature 260 262	压痛
+T61	sign 263 267	墨菲氏征
+T62	indexValue 267 269	阴性
+T63	clinicalFeature 270 274	无反跳痛
+T64	body 275 276	肝
+T65	body 276 277	脾
+T66	clinicalFeature 277 281	肋下未及
+T67	sign 282 285	肠鸣音
+T68	indexValue 285 288	无亢进
+T69	body 289 292	双下肢
+T70	clinicalFeature 292 295	无浮肿
+T71	body 296 298	四肢
+T72	sign 298 300	肌力
+T73	indexValue 300 302	正常
+T74	sign 303 306	病理症
+T75	indexValue 306 309	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R5	clinicalFeatureTime Arg1:T5 Arg2:T3
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+R9	negativeClinicalFeature Arg1:T11 Arg2:T12
+R10	negativeClinicalFeature Arg1:T11 Arg2:T13
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	negativeClinicalFeature Arg1:T14 Arg2:T16
+R13	negativeClinicalFeature Arg1:T17 Arg2:T18
+T19	frequency 77 82	2天解一次
+R14	clinicalFeatureFrequency Arg1:T21 Arg2:T19
+R15	modificationClinicalFeature Arg1:T22 Arg2:T21
+R23	signIndexValue Arg1:T37 Arg2:T38
+R24	signIndexValue Arg1:T39 Arg2:T40
+R25	signIndexValue Arg1:T41 Arg2:T42
+R26	signIndexValue Arg1:T43 Arg2:T44
+R27	bodyClinicalFeature Arg1:T47 Arg2:T48
+R28	bodyClinicalFeature Arg1:T49 Arg2:T50
+R29	signIndexValue Arg1:T51 Arg2:T52
+R30	bodyClinicalFeature Arg1:T54 Arg2:T55
+R31	bodyClinicalFeature Arg1:T54 Arg2:T56
+R32	bodyClinicalFeature Arg1:T57 Arg2:T58
+R33	bodyClinicalFeature Arg1:T59 Arg2:T60
+R34	signIndexValue Arg1:T61 Arg2:T62
+R35	bodyClinicalFeature Arg1:T64 Arg2:T66
+R36	bodyClinicalFeature Arg1:T65 Arg2:T66
+R37	signIndexValue Arg1:T67 Arg2:T68
+R38	bodyClinicalFeature Arg1:T69 Arg2:T70
+R39	bodySign Arg1:T71 Arg2:T72
+R40	signIndexValue Arg1:T72 Arg2:T73
+R41	signIndexValue Arg1:T74 Arg2:T75
+T20	clinicalFeature 90 98	肛门排气较前减少
+R42	causeClinicalFeature Arg1:T4 Arg2:T8
+R43	causeClinicalFeature Arg1:T4 Arg2:T9
+R44	clinicalFeatureTime Arg1:T12 Arg2:T3
+R45	clinicalFeatureTime Arg1:T13 Arg2:T3
+R46	clinicalFeatureTime Arg1:T15 Arg2:T3
+R47	clinicalFeatureTime Arg1:T16 Arg2:T3
+R48	clinicalFeatureTime Arg1:T18 Arg2:T3
+R49	clinicalFeatureTime Arg1:T21 Arg2:T3
+R50	clinicalFeatureTime Arg1:T20 Arg2:T3
+R3	modificationClinicalFeature Arg1:T6 Arg2:T5
+R4	modificationClinicalFeature Arg1:T7 Arg2:T5
+R8	modificationClinicalFeature Arg1:T10 Arg2:T9
+T23	time 127 130	患病来
+T25	clinicalFeature 131 134	神志清
+T26	clinicalFeature 135 138	精神可
+T27	clinicalFeature 139 142	胃纳可
+T28	clinicalFeature 143 146	睡眠可
+T29	clinicalFeature 147 152	大小便如常
+T30	clinicalFeature 153 162	近期体重无明显改变

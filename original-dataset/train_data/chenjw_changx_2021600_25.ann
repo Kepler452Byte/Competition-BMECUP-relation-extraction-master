@@ -1,0 +1,109 @@
+T1	clinicalFeature 4 6	发热
+T2	time 6 8	3天
+T3	time 17 20	3天前
+T4	cause 20 23	受凉后
+T5	clinicalFeature 25 27	发热
+T6	negative 28 29	无
+T7	clinicalFeature 29 31	咳嗽
+T8	clinicalFeature 31 33	咳痰
+T9	negative 34 35	无
+T10	clinicalFeature 35 37	盗汗
+T11	negative 43 44	无
+T12	clinicalFeature 44 46	腹痛
+T13	clinicalFeature 46 48	腹胀
+T14	clinicalFeature 48 50	腹泻
+T15	negative 51 52	无
+T16	clinicalFeature 52 54	尿频
+T17	clinicalFeature 54 56	尿急
+T19	trend 74 80	未见明显好转
+T20	laboratory 91 94	血常规
+T21	laboratory 97 100	白细胞
+T22	laboratoryValue 100 110	4.2*10^9/L
+T24	laboratory 120 123	CRP
+T25	laboratoryValue 123 130	158mg/L
+T26	auxiliaryExamination 132 136	胸部CT
+T27	body 138 140	两肺
+T28	auxiliaryDescript 140 144	纹理增粗
+T29	auxiliaryDescript 145 150	慢性纤维灶
+T31	disease 166 170	发热待查
+T43	sign 222 223	T
+T44	indexValue 224 229	37.7℃
+T45	sign 230 231	P
+T46	indexValue 232 237	86次/分
+T47	sign 238 239	R
+T48	indexValue 240 245	20次/分
+T49	sign 246 248	BP
+T50	indexValue 249 258	67/45mmHg
+T51	clinicalFeature 259 262	神志清
+T52	clinicalFeature 263 267	呼吸平稳
+T53	body 268 273	浅表淋巴结
+T54	clinicalFeature 273 277	未及肿大
+T55	body 278 280	口唇
+T56	clinicalFeature 280 285	无明显发绀
+T57	body 286 288	两肺
+T58	clinicalFeature 288 292	呼吸音粗
+T59	clinicalFeature 294 303	未闻及干湿性啰音音
+T60	sign 304 306	心率
+T61	indexValue 306 311	86次/分
+T62	clinicalFeature 312 314	律齐
+T63	clinicalFeature 315 320	未闻及杂音
+T64	body 321 322	腹
+T65	clinicalFeature 322 324	平软
+T67	clinicalFeature 325 328	无压痛
+T68	body 329 330	肝
+T69	body 330 331	脾
+T70	clinicalFeature 331 336	肋下未触及
+T71	body 337 340	双下肢
+T72	clinicalFeature 340 343	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	negativeClinicalFeature Arg1:T6 Arg2:T7
+R3	negativeClinicalFeature Arg1:T6 Arg2:T8
+T73	clinicalFeature 38 42	午后潮热
+R4	negativeClinicalFeature Arg1:T9 Arg2:T10
+R5	negativeClinicalFeature Arg1:T9 Arg2:T73
+R6	negativeClinicalFeature Arg1:T11 Arg2:T12
+R7	negativeClinicalFeature Arg1:T11 Arg2:T13
+R8	negativeClinicalFeature Arg1:T11 Arg2:T14
+R9	negativeClinicalFeature Arg1:T15 Arg2:T16
+R10	negativeClinicalFeature Arg1:T15 Arg2:T17
+T18	cure 66 70	具体不详
+R11	causeClinicalFeature Arg1:T4 Arg2:T5
+R12	clinicalFeatureTime Arg1:T5 Arg2:T3
+R13	clinicalFeatureTime Arg1:T7 Arg2:T3
+R14	clinicalFeatureTime Arg1:T8 Arg2:T3
+R15	clinicalFeatureTime Arg1:T10 Arg2:T3
+R16	clinicalFeatureTime Arg1:T73 Arg2:T3
+R17	clinicalFeatureTime Arg1:T12 Arg2:T3
+R18	clinicalFeatureTime Arg1:T13 Arg2:T3
+R19	clinicalFeatureTime Arg1:T14 Arg2:T3
+R20	clinicalFeatureTime Arg1:T16 Arg2:T3
+R21	clinicalFeatureTime Arg1:T17 Arg2:T3
+R22	cureTime Arg1:T18 Arg2:T3
+R23	clinicalFeatureTrend Arg1:T5 Arg2:T19
+R24	laboratoryLaboratoryValue Arg1:T21 Arg2:T22
+T23	laboratory 111 116	中性粒细胞
+T74	laboratoryValue 116 119	92%
+R26	laboratoryLaboratoryValue Arg1:T23 Arg2:T74
+R27	laboratoryLaboratoryValue Arg1:T24 Arg2:T25
+T75	time 81 82	今
+R30	laboratoryTime Arg1:T20 Arg2:T75
+R31	auxiliaryExaminationTime Arg1:T26 Arg2:T75
+R32	bodyAuxiliaryDescript Arg1:T27 Arg2:T28
+R37	bodyAuxiliaryDescript Arg1:T27 Arg2:T29
+R38	auxiliaryExaminationAuxiliaryDescript Arg1:T26 Arg2:T28
+R39	auxiliaryExaminationAuxiliaryDescript Arg1:T26 Arg2:T29
+R43	signIndexValue Arg1:T43 Arg2:T44
+R44	signIndexValue Arg1:T45 Arg2:T46
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	bodyClinicalFeature Arg1:T53 Arg2:T54
+R48	bodyClinicalFeature Arg1:T55 Arg2:T56
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T57 Arg2:T59
+R51	signIndexValue Arg1:T60 Arg2:T61
+R52	bodyClinicalFeature Arg1:T64 Arg2:T65
+R53	bodyClinicalFeature Arg1:T64 Arg2:T67
+R54	bodyClinicalFeature Arg1:T68 Arg2:T70
+R55	bodyClinicalFeature Arg1:T69 Arg2:T70
+R56	bodyClinicalFeature Arg1:T71 Arg2:T72
+R58	auxiliaryExaminationTime Arg1:T26 Arg2:T75

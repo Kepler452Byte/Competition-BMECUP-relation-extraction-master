@@ -1,0 +1,50 @@
+T1	modification 4 6	反复
+T3	time 13 16	8小时
+T4	time 26 29	6年前
+T5	modification 33 35	反复
+T6	clinicalFeature 35 39	肢体抽搐
+T7	disease 51 57	线粒体脑肌病
+T8	disease 58 63	继发性癫痫
+T9	drug 69 73	开浦兰片
+T10	dose 73 77	0.5片
+T11	modification 90 94	反复发作
+T12	time 101 105	8小时前
+T13	clinicalFeature 112 114	抽搐
+T14	modification 118 126	肢体的不自主抽动
+T15	modification 127 130	意识清
+T17	frequency 143 152	每次间隔半小时左右
+T18	cure 155 161	未予特殊处置
+T19	disease 179 185	线粒体脑肌病
+T107	clinicalFeature 6 8	抽搐
+T108	time 8 10	6年
+R3	clinicalFeatureTime Arg1:T107 Arg2:T108
+R6	clinicalFeatureTime Arg1:T6 Arg2:T4
+R7	drugDose Arg1:T9 Arg2:T10
+R10	drugTime Arg1:T9 Arg2:T4
+T109	frequency 78 81	BID
+R11	doseFrequency Arg1:T10 Arg2:T109
+T110	cure 81 86	抗癫痫治疗
+T111	clinicalFeature 87 89	抽搐
+R14	clinicalFeatureTime Arg1:T111 Arg2:T4
+R15	clinicalFeatureTime Arg1:T13 Arg2:T12
+R22	cureTime Arg1:T18 Arg2:T12
+R1	clinicalFeatureTime Arg1:T107 Arg2:T3
+R2	cureTime Arg1:T110 Arg2:T4
+R4	modificationClinicalFeature Arg1:T1 Arg2:T107
+R5	modificationClinicalFeature Arg1:T5 Arg2:T6
+R12	modificationClinicalFeature Arg1:T11 Arg2:T111
+R16	modificationClinicalFeature Arg1:T14 Arg2:T13
+R18	clinicalFeatureFrequency Arg1:T13 Arg2:T17
+R17	modificationClinicalFeature Arg1:T15 Arg2:T13
+T2	time 193 196	患病来
+T16	clinicalFeature 197 200	神志清
+T20	clinicalFeature 201 204	精神软
+T21	clinicalFeature 205 208	胃纳可
+T22	clinicalFeature 209 212	睡眠可
+T23	clinicalFeature 213 218	大小便如常
+T24	clinicalFeature 219 228	近期体重无明显改变
+R8	clinicalFeatureTime Arg1:T16 Arg2:T2	
+R9	clinicalFeatureTime Arg1:T20 Arg2:T2	
+R13	clinicalFeatureTime Arg1:T21 Arg2:T2	
+R19	clinicalFeatureTime Arg1:T22 Arg2:T2	
+R20	clinicalFeatureTime Arg1:T23 Arg2:T2	

@@ -1,0 +1,146 @@
+T1	clinicalFeature 6 10	颈部肿块
+T2	time 10 13	1年余
+T3	time 22 25	1年前
+T5	clinicalFeature 30 35	颈部有肿块
+T6	modification 36 42	约鸽子蛋大小
+T7	negative 43 44	无
+T8	clinicalFeature 44 48	颈部疼痛
+T9	trend 56 62	较前稍有增大
+T10	modification 63 67	边界清晰
+T11	negative 68 69	无
+T12	clinicalFeature 69 71	恶心
+T13	clinicalFeature 71 73	呕吐
+T14	negative 74 75	无
+T15	clinicalFeature 75 77	胸闷
+T16	clinicalFeature 77 79	气促
+T17	negative 80 81	无
+T18	clinicalFeature 81 85	四肢麻木
+T19	negative 86 87	无
+T20	clinicalFeature 87 89	畏寒
+T21	clinicalFeature 89 91	发热
+T22	negative 93 94	无
+T23	clinicalFeature 94 96	反酸
+T24	clinicalFeature 96 98	嗳气
+T25	negative 99 100	无
+T26	clinicalFeature 100 102	尿频
+T27	negative 105 106	无
+T28	clinicalFeature 106 108	呕血
+T29	clinicalFeature 108 110	黑便
+T31	disease 138 142	皮肤肿物
+T44	sign 194 196	体温
+T45	indexValue 196 201	36.1℃
+T46	sign 202 204	脉搏
+T47	indexValue 204 209	66次/分
+T48	sign 210 212	呼吸
+T49	indexValue 212 217	17次/分
+T50	sign 218 220	血压
+T51	indexValue 220 230	155/95mmHg
+T52	clinicalFeature 231 234	神志清
+T55	body 242 244	巩膜
+T56	clinicalFeature 244 247	无黄染
+T57	body 248 253	浅表淋巴结
+T58	clinicalFeature 253 257	未及肿大
+T60	clinicalFeature 262 265	无抵抗
+T61	body 267 269	颈部
+T62	clinicalFeature 279 281	肿块
+T63	modification 282 286	边界清晰
+T64	modification 287 292	活动度良好
+T65	body 293 295	两肺
+T66	clinicalFeature 295 299	呼吸音粗
+T67	clinicalFeature 300 307	未闻及干湿啰音
+T68	sign 308 310	心率
+T69	indexValue 310 315	66次/分
+T70	clinicalFeature 316 318	律齐
+T71	body 319 320	腹
+T72	clinicalFeature 320 322	平软
+T73	body 324 326	全腹
+T74	clinicalFeature 329 331	压痛
+T75	clinicalFeature 336 341	未扪及肿块
+T76	clinicalFeature 345 349	肋下未及
+T77	body 358 361	双肾区
+T79	clinicalFeature 361 364	无叩痛
+T80	clinicalFeature 365 371	肠鸣音无亢进
+T81	body 372 375	双下肢
+T82	clinicalFeature 375 378	无水肿
+T83	clinicalFeature 381 386	活动无障碍
+T84	body 387 391	左侧手臂
+T85	clinicalFeature 398 402	手术疤痕
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T4	cause 25 30	无意间发现
+R2	clinicalFeatureTime Arg1:T5 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+R4	modificationClinicalFeature Arg1:T6 Arg2:T5
+R5	negativeClinicalFeature Arg1:T7 Arg2:T8
+T86	clinicalFeature 54 56	肿块
+T87	time 52 53	现
+R6	clinicalFeatureTime Arg1:T86 Arg2:T87
+R7	clinicalFeatureTrend Arg1:T86 Arg2:T9
+R9	modificationClinicalFeature Arg1:T10 Arg2:T86
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	negativeClinicalFeature Arg1:T11 Arg2:T13
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	negativeClinicalFeature Arg1:T14 Arg2:T16
+R14	negativeClinicalFeature Arg1:T17 Arg2:T18
+R15	negativeClinicalFeature Arg1:T19 Arg2:T20
+R16	negativeClinicalFeature Arg1:T19 Arg2:T21
+R17	negativeClinicalFeature Arg1:T22 Arg2:T23
+R18	negativeClinicalFeature Arg1:T22 Arg2:T24
+T88	clinicalFeature 102 104	尿急
+R19	negativeClinicalFeature Arg1:T25 Arg2:T26
+R20	negativeClinicalFeature Arg1:T25 Arg2:T88
+R21	negativeClinicalFeature Arg1:T27 Arg2:T28
+R22	negativeClinicalFeature Arg1:T27 Arg2:T29
+R30	clinicalFeatureTime Arg1:T8 Arg2:T3
+R31	clinicalFeatureTime Arg1:T12 Arg2:T87
+R32	clinicalFeatureTime Arg1:T13 Arg2:T87
+R33	clinicalFeatureTime Arg1:T15 Arg2:T87
+R34	clinicalFeatureTime Arg1:T16 Arg2:T87
+R35	clinicalFeatureTime Arg1:T18 Arg2:T87
+R36	clinicalFeatureTime Arg1:T20 Arg2:T87
+R37	clinicalFeatureTime Arg1:T21 Arg2:T87
+R38	clinicalFeatureTime Arg1:T23 Arg2:T87
+R39	clinicalFeatureTime Arg1:T24 Arg2:T87
+R40	clinicalFeatureTime Arg1:T26 Arg2:T87
+R41	clinicalFeatureTime Arg1:T88 Arg2:T87
+R42	clinicalFeatureTime Arg1:T28 Arg2:T87
+R43	clinicalFeatureTime Arg1:T29 Arg2:T87
+R44	signIndexValue Arg1:T44 Arg2:T45
+R45	signIndexValue Arg1:T46 Arg2:T47
+R46	signIndexValue Arg1:T48 Arg2:T49
+R47	signIndexValue Arg1:T50 Arg2:T51
+T53	clinicalFeature 235 239	面容无殊
+T54	body 240 242	皮肤
+R48	bodyClinicalFeature Arg1:T54 Arg2:T56
+R49	bodyClinicalFeature Arg1:T55 Arg2:T56
+R50	bodyClinicalFeature Arg1:T57 Arg2:T58
+T89	body 258 259	颈
+T90	clinicalFeature 259 260	软
+R51	bodyClinicalFeature Arg1:T89 Arg2:T90
+R52	bodyClinicalFeature Arg1:T89 Arg2:T60
+R54	modificationClinicalFeature Arg1:T63 Arg2:T62
+R55	modificationClinicalFeature Arg1:T64 Arg2:T62
+R56	bodyClinicalFeature Arg1:T61 Arg2:T62
+R57	bodyClinicalFeature Arg1:T65 Arg2:T66
+R58	bodyClinicalFeature Arg1:T65 Arg2:T67
+R59	signIndexValue Arg1:T68 Arg2:T69
+R60	bodyClinicalFeature Arg1:T71 Arg2:T72
+T91	clinicalFeature 332 335	反跳痛
+T92	negative 326 327	无
+R61	bodyClinicalFeature Arg1:T73 Arg2:T74
+R62	bodyClinicalFeature Arg1:T73 Arg2:T91
+R63	negativeClinicalFeature Arg1:T92 Arg2:T74
+R64	negativeClinicalFeature Arg1:T92 Arg2:T91
+R65	bodyClinicalFeature Arg1:T73 Arg2:T75
+T93	sign 350 355	移动性浊音
+T94	indexValue 355 357	阴性
+R66	signIndexValue Arg1:T93 Arg2:T94
+R67	bodyClinicalFeature Arg1:T77 Arg2:T79
+R68	bodyClinicalFeature Arg1:T81 Arg2:T82
+T78	body 379 381	四肢
+R69	bodyClinicalFeature Arg1:T78 Arg2:T83
+R70	bodyClinicalFeature Arg1:T84 Arg2:T85
+T96	quantity 393 394	一
+T97	body 343 344	肝
+T98	body 344 345	脾
+R73	bodyClinicalFeature Arg1:T97 Arg2:T76
+R74	bodyClinicalFeature Arg1:T98 Arg2:T76

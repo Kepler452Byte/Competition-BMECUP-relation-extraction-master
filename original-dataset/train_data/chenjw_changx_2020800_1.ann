@@ -1,0 +1,125 @@
+T1	time 15 18	13年
+T2	trend 21 23	加重
+T3	time 23 25	2天
+T4	time 35 39	13年前
+T5	cause 41 46	无明显诱因
+T6	clinicalFeature 51 53	头昏
+T7	clinicalFeature 53 55	乏力
+T8	clinicalFeature 59 61	胸闷
+T9	clinicalFeature 61 63	心悸
+T10	laboratory 76 79	血常规
+T15	time 141 144	2天前
+T16	cause 146 151	无明显诱因
+T17	clinicalFeature 154 156	乏力
+T18	trend 156 158	加重
+T19	clinicalFeature 161 163	心悸
+T20	negative 164 165	无
+T21	clinicalFeature 165 167	头晕
+T22	clinicalFeature 167 169	头痛
+T23	negative 170 171	无
+T24	clinicalFeature 171 173	恶心
+T25	clinicalFeature 173 175	呕吐
+T26	negative 176 177	无
+T27	clinicalFeature 177 179	畏寒
+T28	clinicalFeature 179 181	发热
+T29	negative 183 184	无
+T30	clinicalFeature 184 186	胸闷
+T31	clinicalFeature 186 188	气急
+T33	disease 206 215	骨髓增生异常综合征
+T46	sign 266 268	体温
+T47	indexValue 268 273	36.8℃
+T48	sign 274 276	脉搏
+T49	indexValue 276 281	75次/分
+T50	sign 282 284	呼吸
+T51	indexValue 284 289	19次/分
+T52	sign 290 292	血压
+T53	indexValue 292 302	105/60mmHg
+T54	clinicalFeature 303 305	神清
+T57	clinicalFeature 311 314	贫血貌
+T59	body 327 329	双肺
+T60	clinicalFeature 329 333	呼吸音粗
+T61	clinicalFeature 334 339	可及湿啰音
+T62	sign 341 343	心率
+T63	indexValue 343 348	75次/分
+T64	clinicalFeature 349 352	律尚齐
+T65	body 353 356	心尖区
+T66	clinicalFeature 356 366	可闻及2~3/6SM
+T68	negative 370 371	无
+T69	clinicalFeature 371 373	压痛
+T70	clinicalFeature 374 377	反跳痛
+T71	clinicalFeature 380 384	肋下未及
+T72	clinicalFeature 388 390	不肿
+T73	disease 6 15	骨髓增生异常综合征
+R1	timeDisease Arg1:T1 Arg2:T73
+T74	modification 47 49	反复
+R6	causeClinicalFeature Arg1:T5 Arg2:T6
+R7	causeClinicalFeature Arg1:T5 Arg2:T7
+R8	clinicalFeatureTime Arg1:T6 Arg2:T4
+R9	clinicalFeatureTime Arg1:T7 Arg2:T4
+T75	modification 56 58	有时
+R12	clinicalFeatureTime Arg1:T8 Arg2:T4
+R13	clinicalFeatureTime Arg1:T9 Arg2:T4
+R14	causeClinicalFeature Arg1:T5 Arg2:T8
+R15	causeClinicalFeature Arg1:T5 Arg2:T9
+T11	laboratory 80 82	骨髓
+T12	disease 88 97	骨髓增生异常综合征
+T77	disease 98 104	贫血性心脏病
+T14	trend 123 127	效果欠佳
+T78	cure 134 140	输血支持治疗
+R19	clinicalFeatureTrend Arg1:T17 Arg2:T18
+R20	causeClinicalFeature Arg1:T16 Arg2:T17
+R21	clinicalFeatureTime Arg1:T17 Arg2:T15
+R22	causeClinicalFeature Arg1:T16 Arg2:T19
+R23	clinicalFeatureTime Arg1:T19 Arg2:T15
+R24	negativeClinicalFeature Arg1:T20 Arg2:T21
+R25	negativeClinicalFeature Arg1:T20 Arg2:T22
+R26	negativeClinicalFeature Arg1:T23 Arg2:T24
+R27	negativeClinicalFeature Arg1:T23 Arg2:T25
+R28	negativeClinicalFeature Arg1:T26 Arg2:T27
+R29	negativeClinicalFeature Arg1:T26 Arg2:T28
+R30	clinicalFeatureTime Arg1:T21 Arg2:T15
+R31	clinicalFeatureTime Arg1:T22 Arg2:T15
+R32	clinicalFeatureTime Arg1:T24 Arg2:T15
+R33	clinicalFeatureTime Arg1:T25 Arg2:T15
+R34	clinicalFeatureTime Arg1:T27 Arg2:T15
+R35	clinicalFeatureTime Arg1:T28 Arg2:T15
+R36	negativeClinicalFeature Arg1:T29 Arg2:T30
+R37	negativeClinicalFeature Arg1:T29 Arg2:T31
+R38	clinicalFeatureTime Arg1:T30 Arg2:T15
+R39	clinicalFeatureTime Arg1:T31 Arg2:T15
+R47	signIndexValue Arg1:T46 Arg2:T47
+R48	signIndexValue Arg1:T48 Arg2:T49
+R49	signIndexValue Arg1:T50 Arg2:T51
+R50	signIndexValue Arg1:T52 Arg2:T53
+T55	clinicalFeature 306 310	精神一般
+T56	body 315 319	皮肤黏膜
+T79	clinicalFeature 319 326	未见新鲜出血点
+R52	bodyClinicalFeature Arg1:T56 Arg2:T79
+R53	bodyClinicalFeature Arg1:T59 Arg2:T60
+R54	bodyClinicalFeature Arg1:T59 Arg2:T61
+R55	signIndexValue Arg1:T62 Arg2:T63
+R56	bodyClinicalFeature Arg1:T65 Arg2:T66
+T67	body 367 368	腹
+T80	clinicalFeature 368 369	软
+R57	bodyClinicalFeature Arg1:T67 Arg2:T80
+R58	negativeClinicalFeature Arg1:T68 Arg2:T69
+R59	negativeClinicalFeature Arg1:T68 Arg2:T70
+R60	bodyClinicalFeature Arg1:T67 Arg2:T69
+R61	bodyClinicalFeature Arg1:T67 Arg2:T70
+R16	timeDisease Arg1:T4 Arg2:T12
+R17	timeDisease Arg1:T4 Arg2:T77
+T13	cure 107 121	曾服"中药、安特尔"等药处理
+R18	cureTime Arg1:T13 Arg2:T4
+R63	cureTime Arg1:T78 Arg2:T4
+T76	modification 159 161	偶有
+T58	body 378 379	肝
+T81	body 379 380	脾
+R51	bodyClinicalFeature Arg1:T58 Arg2:T71
+R65	bodyClinicalFeature Arg1:T81 Arg2:T71
+T82	body 385 388	双下肢
+R66	bodyClinicalFeature Arg1:T82 Arg2:T72
+R4	modificationClinicalFeature Arg1:T74 Arg2:T6
+R5	modificationClinicalFeature Arg1:T74 Arg2:T7
+R10	modificationClinicalFeature Arg1:T75 Arg2:T8
+R11	modificationClinicalFeature Arg1:T75 Arg2:T9
+R64	modificationClinicalFeature Arg1:T76 Arg2:T19

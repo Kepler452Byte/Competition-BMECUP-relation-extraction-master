@@ -1,0 +1,8 @@
+T1	time 9 13	7月余前
+T2	cause 14 18	检查发现
+T3	clinicalFeature 18 23	右上腹占位
+T4	time 24 34	2019-03-29
+T7	operation 40 48	肝占位穿刺活检术
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T2 Arg2:T3
+R3	timeOperation Arg1:T4 Arg2:T7

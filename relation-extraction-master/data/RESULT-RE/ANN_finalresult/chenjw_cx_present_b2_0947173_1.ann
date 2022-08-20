@@ -1,0 +1,13 @@
+T1	time 6 10	1小时前
+T2	cause 18 22	被门夹伤
+T3	body 23 27	右手中指
+T4	clinicalFeature 29 31	疼痛
+T5	clinicalFeature 33 38	活动性出血
+T6	negative 39 41	否认
+T7	body 41 43	腹部
+R1	causeClinicalfeature Arg1:T2 Arg2:T4
+R2	causeClinicalfeature Arg1:T2 Arg2:T5
+R3	bodyClinicalfeature Arg1:T3 Arg2:T4
+R4	bodyClinicalfeature Arg1:T3 Arg2:T5
+R5	clinicalFeatureTime Arg1:T4 Arg2:T1
+R6	clinicalFeatureTime Arg1:T5 Arg2:T1

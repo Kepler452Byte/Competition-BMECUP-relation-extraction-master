@@ -1,0 +1,50 @@
+T1	clinicalFeature 4 6	头晕
+T2	clinicalFeature 7 9	恶心
+T3	clinicalFeature 9 11	呕吐
+T4	time 11 13	3天
+T5	time 23 30	12月2号晚上
+T6	cause 30 35	无明显诱因
+T7	clinicalFeature 37 39	头晕
+T8	modification 40 47	与体位变化有关
+T11	time 67 72	次日晨起时
+T12	clinicalFeature 73 77	视物旋转
+T13	clinicalFeature 79 81	恶心
+T14	clinicalFeature 81 83	呕吐
+T15	negative 84 85	无
+T16	clinicalFeature 85 87	耳鸣
+T17	negative 88 89	无
+T18	clinicalFeature 89 91	畏寒
+T19	clinicalFeature 91 93	发热
+T20	negative 95 96	无
+T21	clinicalFeature 96 100	肢体麻木
+T22	negative 101 102	无
+T24	clinicalFeature 102 107	双下肢水肿
+T25	clinicalFeature 108 112	运动障碍
+T26	negative 113 114	无
+T27	clinicalFeature 114 116	腹痛
+T28	clinicalFeature 116 118	腹胀
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R7	clinicalFeatureTime Arg1:T12 Arg2:T11
+R8	clinicalFeatureTime Arg1:T13 Arg2:T11
+R9	clinicalFeatureTime Arg1:T14 Arg2:T11
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T17 Arg2:T18
+R12	negativeClinicalFeature Arg1:T17 Arg2:T19
+R13	causeClinicalFeature Arg1:T6 Arg2:T7
+R14	clinicalFeatureTime Arg1:T7 Arg2:T5
+R15	clinicalFeatureTime Arg1:T16 Arg2:T11
+R16	clinicalFeatureTime Arg1:T18 Arg2:T11
+R17	clinicalFeatureTime Arg1:T19 Arg2:T11
+R18	negativeClinicalFeature Arg1:T20 Arg2:T21
+R19	negativeClinicalFeature Arg1:T22 Arg2:T24
+R20	negativeClinicalFeature Arg1:T22 Arg2:T25
+R21	negativeClinicalFeature Arg1:T26 Arg2:T27
+R22	negativeClinicalFeature Arg1:T26 Arg2:T28
+R23	clinicalFeatureTime Arg1:T21 Arg2:T11
+R24	clinicalFeatureTime Arg1:T24 Arg2:T11
+R25	clinicalFeatureTime Arg1:T25 Arg2:T11
+R26	clinicalFeatureTime Arg1:T27 Arg2:T11
+R27	clinicalFeatureTime Arg1:T28 Arg2:T11
+R4	modificationClinicalFeature Arg1:T8 Arg2:T7

@@ -1,0 +1,91 @@
+T1	sign 17 18	T
+T2	indexValue 18 23	36.0℃
+T3	sign 24 25	P
+T4	indexValue 25 31	138次/分
+T5	sign 32 33	R
+T6	indexValue 33 38	20次/分
+T7	sign 39 41	BP
+T8	indexValue 41 51	138/86mmHg
+T9	clinicalFeature 54 57	神志清
+T12	clinicalFeature 63 66	满月脸
+T13	clinicalFeature 73 75	白斑
+T15	body 92 94	巩膜
+T16	clinicalFeature 94 97	无黄染
+T17	body 98 101	颈静脉
+T18	clinicalFeature 101 104	无怒张
+T19	body 105 109	双肺听诊
+T20	clinicalFeature 109 113	呼吸音粗
+T21	clinicalFeature 114 123	未闻及明显干湿啰音
+T22	sign 124 126	心率
+T23	indexValue 126 132	138次/分
+T24	clinicalFeature 134 137	心律齐
+T25	clinicalFeature 143 145	早搏
+T26	clinicalFeature 153 154	软
+T27	negative 155 156	无
+T28	clinicalFeature 156 158	压痛
+T29	clinicalFeature 164 168	肋下未及
+T32	body 184 187	双下肢
+T33	clinicalFeature 187 190	无浮肿
+T34	sign 193 195	肌力
+T35	indexValue 195 197	5级
+T36	body 198 200	脊柱
+T37	clinicalFeature 200 203	无畸形
+T38	negative 204 205	无
+T39	clinicalFeature 205 207	压痛
+T40	clinicalFeature 208 210	叩痛
+T41	body 221 226	左手无名指
+T42	clinicalFeature 231 235	辅料干燥
+R1	signIndexValue Arg1:T1 Arg2:T2
+R2	signIndexValue Arg1:T3 Arg2:T4
+R3	signIndexValue Arg1:T5 Arg2:T6
+R4	signIndexValue Arg1:T7 Arg2:T8
+T10	clinicalFeature 58 62	精神一般
+T11	clinicalFeature 89 91	红斑
+T14	body 76 79	颜面部
+T45	body 80 83	颈前区
+T46	body 84 87	颈后区
+R5	bodyClinicalFeature Arg1:T46 Arg2:T11
+R6	bodyClinicalFeature Arg1:T45 Arg2:T11
+R7	bodyClinicalFeature Arg1:T14 Arg2:T11
+T47	body 67 71	口腔粘膜
+R8	bodyClinicalFeature Arg1:T47 Arg2:T13
+R9	bodyClinicalFeature Arg1:T15 Arg2:T16
+R10	bodyClinicalFeature Arg1:T17 Arg2:T18
+R11	bodyClinicalFeature Arg1:T19 Arg2:T20
+R12	signIndexValue Arg1:T22 Arg2:T23
+T48	body 152 153	腹
+R13	bodyClinicalFeature Arg1:T48 Arg2:T26
+T49	clinicalFeature 158 161	反跳痛
+R15	negativeClinicalFeature Arg1:T27 Arg2:T28
+R14	negativeClinicalFeature Arg1:T27 Arg2:T49
+T50	clinicalFeature 146 151	病理性杂音
+T51	negative 138 141	未闻及
+R16	negativeClinicalFeature Arg1:T51 Arg2:T25
+R17	negativeClinicalFeature Arg1:T51 Arg2:T50
+R18	bodyClinicalFeature Arg1:T32 Arg2:T33
+R19	signIndexValue Arg1:T34 Arg2:T35
+R20	bodyClinicalFeature Arg1:T36 Arg2:T37
+R21	negativeClinicalFeature Arg1:T38 Arg2:T39
+R22	negativeClinicalFeature Arg1:T38 Arg2:T40
+T52	body 227 231	左侧腰部
+R24	bodyClinicalFeature Arg1:T41 Arg2:T42
+R25	bodyClinicalFeature Arg1:T52 Arg2:T42
+T53	sign 212 218	神经系统检查
+T54	indexValue 218 220	阴性
+R26	signIndexValue Arg1:T53 Arg2:T54
+T55	body 191 193	四肢
+R27	bodySign Arg1:T55 Arg2:T34
+T31	sign 176 181	移动性浊音
+T56	indexValue 181 183	阴性
+R28	signIndexValue Arg1:T31 Arg2:T56
+T57	body 162 163	肝
+T58	body 163 164	脾
+R29	bodyClinicalFeature Arg1:T57 Arg2:T29
+R30	bodyClinicalFeature Arg1:T58 Arg2:T29
+R31	bodyClinicalFeature Arg1:T36 Arg2:T39
+R32	bodyClinicalFeature Arg1:T36 Arg2:T40
+T43	modification 236 239	无渗出
+R23	modificationClinicalFeature Arg1:T43 Arg2:T42
+T30	sign 169 172	肠鸣音
+T44	indexValue 172 175	无亢进
+R33	signIndexValue Arg1:T30 Arg2:T44

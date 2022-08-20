@@ -1,0 +1,8 @@
+T1	time 2 4	病来
+T2	clinicalFeature 4 7	精神好
+T3	clinicalFeature 8 12	胃纳一般
+T4	clinicalFeature 19 28	大小便未见明显异常
+T5	time 29 31	近期
+T6	clinicalFeature 31 39	体重未见明显增减
+T7	clinicalFeature 40 45	无性格改变
+R1	clinicalFeatureTime Arg1:T6 Arg2:T5	

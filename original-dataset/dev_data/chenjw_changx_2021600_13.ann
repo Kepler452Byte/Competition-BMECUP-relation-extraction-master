@@ -1,0 +1,111 @@
+T1	clinicalFeature 9 14	左上肺占位
+T2	time 14 16	1天
+T3	auxiliaryExamination 34 38	胸部CT
+T4	body 40 43	左上肺
+T5	auxiliaryDescript 43 45	占位
+T6	auxiliaryDescript 47 54	肺内、胸膜转移
+T7	time 58 60	平素
+T8	negative 60 61	无
+T9	clinicalFeature 61 63	咳嗽
+T10	clinicalFeature 63 65	咳痰
+T11	negative 66 67	无
+T12	clinicalFeature 67 69	咯血
+T13	clinicalFeature 70 74	痰中带血
+T14	negative 75 76	无
+T15	clinicalFeature 76 78	胸闷
+T16	clinicalFeature 78 80	气促
+T17	negative 81 82	无
+T18	clinicalFeature 82 84	心慌
+T19	clinicalFeature 84 86	胸痛
+T20	negative 87 88	无
+T21	clinicalFeature 88 90	畏寒
+T22	clinicalFeature 90 92	发热
+T23	negative 94 95	无
+T24	clinicalFeature 95 97	盗汗
+T25	clinicalFeature 98 102	午后潮热
+T26	negative 103 104	无
+T27	clinicalFeature 104 106	腹痛
+T28	clinicalFeature 106 108	腹胀
+T29	clinicalFeature 108 110	腹泻
+T31	disease 133 138	左上肺占位
+T43	sign 190 191	T
+T44	indexValue 192 197	36.7℃
+T45	sign 198 199	P
+T46	indexValue 200 205	64次/分
+T47	sign 206 207	R
+T48	indexValue 208 213	18次/分
+T49	sign 214 216	BP
+T50	indexValue 217 227	127/77mmHg
+T51	clinicalFeature 228 231	神志清
+T52	clinicalFeature 232 236	呼吸平稳
+T53	body 237 242	浅表淋巴结
+T54	clinicalFeature 242 246	未及肿大
+T55	body 247 249	口唇
+T56	clinicalFeature 249 252	无发绀
+T57	body 253 255	两肺
+T58	clinicalFeature 255 260	呼吸音略粗
+T59	clinicalFeature 262 270	未闻及干湿性啰音
+T60	sign 271 273	心率
+T61	indexValue 273 278	64次/分
+T62	clinicalFeature 279 281	律齐
+T63	clinicalFeature 282 287	未闻及杂音
+T64	body 288 289	腹
+T65	clinicalFeature 289 291	平软
+T66	clinicalFeature 292 295	无压痛
+T67	body 296 297	肝
+T68	body 297 298	脾
+T69	clinicalFeature 298 303	肋下未触及
+T70	body 304 307	双下肢
+T71	clinicalFeature 307 310	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	auxiliaryExaminationAuxiliaryDescript Arg1:T3 Arg2:T5
+R3	bodyAuxiliaryDescript Arg1:T4 Arg2:T5
+R4	auxiliaryExaminationAuxiliaryDescript Arg1:T3 Arg2:T6
+R5	negativeClinicalFeature Arg1:T8 Arg2:T9
+R6	negativeClinicalFeature Arg1:T8 Arg2:T10
+T72	time 25 26	昨
+R7	auxiliaryExaminationTime Arg1:T3 Arg2:T72
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	clinicalFeatureTime Arg1:T9 Arg2:T7
+R10	clinicalFeatureTime Arg1:T10 Arg2:T7
+R11	clinicalFeatureTime Arg1:T12 Arg2:T7
+R12	clinicalFeatureTime Arg1:T13 Arg2:T7
+R13	negativeClinicalFeature Arg1:T14 Arg2:T15
+R14	negativeClinicalFeature Arg1:T11 Arg2:T13
+R15	negativeClinicalFeature Arg1:T14 Arg2:T16
+R16	clinicalFeatureTime Arg1:T15 Arg2:T7
+R17	clinicalFeatureTime Arg1:T16 Arg2:T7
+R18	negativeClinicalFeature Arg1:T17 Arg2:T18
+R19	negativeClinicalFeature Arg1:T17 Arg2:T19
+R20	clinicalFeatureTime Arg1:T18 Arg2:T7
+R21	clinicalFeatureTime Arg1:T19 Arg2:T7
+R22	negativeClinicalFeature Arg1:T20 Arg2:T21
+R23	negativeClinicalFeature Arg1:T20 Arg2:T22
+R24	clinicalFeatureTime Arg1:T21 Arg2:T7
+R25	clinicalFeatureTime Arg1:T22 Arg2:T7
+R26	negativeClinicalFeature Arg1:T23 Arg2:T24
+R27	negativeClinicalFeature Arg1:T23 Arg2:T25
+R28	negativeClinicalFeature Arg1:T26 Arg2:T27
+R29	negativeClinicalFeature Arg1:T26 Arg2:T28
+R30	negativeClinicalFeature Arg1:T26 Arg2:T29
+R32	clinicalFeatureTime Arg1:T24 Arg2:T7
+R33	clinicalFeatureTime Arg1:T25 Arg2:T7
+R34	clinicalFeatureTime Arg1:T27 Arg2:T7
+R35	clinicalFeatureTime Arg1:T28 Arg2:T7
+R36	clinicalFeatureTime Arg1:T29 Arg2:T7
+R43	signIndexValue Arg1:T43 Arg2:T44
+R44	signIndexValue Arg1:T45 Arg2:T46
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	bodyClinicalFeature Arg1:T53 Arg2:T54
+R48	bodyClinicalFeature Arg1:T55 Arg2:T56
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T57 Arg2:T59
+R51	signIndexValue Arg1:T60 Arg2:T61
+R52	bodyClinicalFeature Arg1:T64 Arg2:T65
+R53	bodyClinicalFeature Arg1:T64 Arg2:T66
+R54	bodyClinicalFeature Arg1:T67 Arg2:T69
+R55	bodyClinicalFeature Arg1:T68 Arg2:T69
+R56	bodyClinicalFeature Arg1:T70 Arg2:T71
+T73	cause 4 9	体检时发现
+R57	causeClinicalFeature Arg1:T73 Arg2:T1

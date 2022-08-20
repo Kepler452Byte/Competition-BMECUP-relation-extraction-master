@@ -1,0 +1,72 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 8	2天
+T3	time 17 20	2天前
+T4	cause 21 26	无明显诱因
+T5	clinicalFeature 34 36	头晕
+T6	negative 37 38	无
+T7	clinicalFeature 38 40	恶心
+T8	clinicalFeature 40 42	呕吐
+T9	negative 43 44	无
+T10	clinicalFeature 44 46	畏寒
+T11	clinicalFeature 46 48	发热
+T12	negative 49 50	无
+T13	clinicalFeature 50 52	耳鸣
+T14	negative 61 62	无
+T15	clinicalFeature 62 64	复视
+T16	negative 65 66	无
+T17	clinicalFeature 66 72	肢体麻木无力
+T18	negative 73 74	无
+T19	clinicalFeature 74 76	胸闷
+T20	clinicalFeature 76 78	气促
+T21	negative 79 80	无
+T22	clinicalFeature 80 84	四肢抽搐
+T23	negative 86 87	无
+T24	clinicalFeature 87 89	黑朦
+T25	clinicalFeature 89 91	晕厥
+T26	time 97 101	昨日凌晨
+T27	clinicalFeature 104 106	头晕
+T28	trend 116 118	加重
+T31	disease 159 164	眩晕综合征
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T5 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T8
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T9 Arg2:T11
+T117	clinicalFeature 53 55	耳闭
+T118	clinicalFeature 56 60	听力下降
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T12 Arg2:T117
+R10	negativeClinicalFeature Arg1:T12 Arg2:T118
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	negativeClinicalFeature Arg1:T16 Arg2:T17
+R13	negativeClinicalFeature Arg1:T18 Arg2:T19
+R14	negativeClinicalFeature Arg1:T18 Arg2:T20
+R15	negativeClinicalFeature Arg1:T21 Arg2:T22
+R16	negativeClinicalFeature Arg1:T23 Arg2:T24
+R17	negativeClinicalFeature Arg1:T23 Arg2:T25
+R18	clinicalFeatureTime Arg1:T7 Arg2:T3
+R19	clinicalFeatureTime Arg1:T8 Arg2:T3
+R20	clinicalFeatureTime Arg1:T10 Arg2:T3
+R21	clinicalFeatureTime Arg1:T11 Arg2:T3
+R22	clinicalFeatureTime Arg1:T13 Arg2:T3
+R23	clinicalFeatureTime Arg1:T117 Arg2:T3
+R24	clinicalFeatureTime Arg1:T118 Arg2:T3
+R25	clinicalFeatureTime Arg1:T15 Arg2:T3
+R26	clinicalFeatureTime Arg1:T17 Arg2:T3
+R27	clinicalFeatureTime Arg1:T19 Arg2:T3
+R28	clinicalFeatureTime Arg1:T20 Arg2:T3
+R29	clinicalFeatureTime Arg1:T22 Arg2:T3
+R30	clinicalFeatureTime Arg1:T25 Arg2:T3
+R31	clinicalFeatureTime Arg1:T24 Arg2:T3
+R32	clinicalFeatureTime Arg1:T27 Arg2:T26
+R33	clinicalFeatureTrend Arg1:T27 Arg2:T28
+T119	cure 123 125	止晕
+T120	time 130 131	今
+T123	modification 102 104	轻微
+R44	cureTime Arg1:T119 Arg2:T26
+T29	clinicalFeature 133 135	头晕
+R35	clinicalFeatureTime Arg1:T29 Arg2:T120
+R36	modificationClinicalFeature Arg1:T123 Arg2:T27
+T42	cure 107 111	未予重视

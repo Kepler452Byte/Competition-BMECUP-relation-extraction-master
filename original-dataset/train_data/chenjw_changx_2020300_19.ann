@@ -1,0 +1,124 @@
+T2	time 10 13	3月余
+T3	time 16 18	半天
+T4	time 27 31	3月余前
+T5	disease 33 38	胆总管占位
+T6	disease 39 44	梗阻性黄疸
+T7	disease 45 55	胆囊结石伴慢性胆囊炎
+T8	operation 68 72	PTCD
+T9	clinicalFeature 76 80	引流通畅
+T10	negative 81 82	无
+T11	clinicalFeature 84 86	腹痛
+T12	clinicalFeature 86 88	腹胀
+T15	clinicalFeature 136 138	腹痛
+T16	clinicalFeature 138 140	腹胀
+T17	negative 141 142	无
+T18	clinicalFeature 142 144	恶心
+T19	clinicalFeature 144 146	呕吐
+T20	negative 147 148	无
+T21	clinicalFeature 148 150	畏寒
+T22	clinicalFeature 150 152	发热
+T23	time 153 156	半天前
+T24	clinicalFeature 161 166	引流管扯掉
+T26	disease 194 200	PTCD术后
+T27	disease 201 206	胆总管占位
+T28	disease 207 212	梗阻性黄疸
+T29	disease 213 223	胆囊结石伴慢性胆囊炎
+T30	disease 224 228	高血压病
+T31	disease 229 232	冠心病
+T43	disease 279 283	高血压病
+T44	time 285 289	30余年
+T45	drug 295 300	缬沙坦胶囊
+T46	dose 301 303	1#
+T47	frequency 304 307	qd"
+T48	clinicalFeature 308 314	血压控制尚可
+T49	disease 317 320	冠心病
+T50	time 323 327	10余年
+T51	cure 329 332	未服药
+T52	clinicalFeature 338 340	胸闷
+T53	clinicalFeature 340 342	气促
+T54	sign 353 355	体温
+T55	indexValue 355 360	36.6℃
+T56	sign 361 363	脉搏
+T57	indexValue 363 368	68次/分
+T58	sign 369 371	呼吸
+T59	indexValue 371 376	17次/分
+T60	sign 377 379	血压
+T61	indexValue 379 389	116/66mmHg
+T62	clinicalFeature 390 393	神志清
+T65	body 400 402	巩膜
+T66	clinicalFeature 402 406	轻度黄染
+T67	body 407 411	浅表淋巴
+T68	clinicalFeature 411 415	未及肿大
+T69	body 416 420	双肺听诊
+T70	clinicalFeature 420 425	呼吸音稍粗
+T71	clinicalFeature 427 430	心律齐
+T72	clinicalFeature 431 441	未闻及明显病理性杂音
+T73	body 442 443	腹
+T74	clinicalFeature 443 445	平软
+T75	body 446 450	右侧肋弓
+T76	clinicalFeature 452 462	PTCD术后皮肤瘘口
+T77	modification 464 473	较多淡黄色渗液流出
+T78	body 474 477	右上腹
+T79	clinicalFeature 477 481	轻度压痛
+T80	negative 482 483	无
+T81	clinicalFeature 485 488	反跳痛
+T83	body 499 502	双肾区
+T85	clinicalFeature 502 505	无叩痛
+T86	body 507 510	双下肢
+T87	clinicalFeature 510 513	无浮肿
+T88	sign 514 517	病理征
+T89	indexValue 517 520	未引出
+T90	clinicalFeature 14 16	脱落
+R3	clinicalFeatureTime Arg1:T90 Arg2:T3
+R4	operationReasonClinicalFeature Arg1:T8 Arg2:T9
+R5	timeDisease Arg1:T4 Arg2:T8
+R6	negativeClinicalFeature Arg1:T10 Arg2:T11
+R7	negativeClinicalFeature Arg1:T10 Arg2:T12
+R8	clinicalFeatureTime Arg1:T11 Arg2:T4
+R9	clinicalFeatureTime Arg1:T12 Arg2:T4
+T92	negative 133 134	无
+R11	negativeClinicalFeature Arg1:T92 Arg2:T15
+R12	negativeClinicalFeature Arg1:T92 Arg2:T16
+R13	negativeClinicalFeature Arg1:T17 Arg2:T18
+R14	negativeClinicalFeature Arg1:T17 Arg2:T19
+R15	negativeClinicalFeature Arg1:T20 Arg2:T21
+R16	negativeClinicalFeature Arg1:T20 Arg2:T22
+R10	timeDisease Arg1:T44 Arg2:T43
+R29	doseFrequency Arg1:T46 Arg2:T47
+R30	diseaseClinicalFeature Arg1:T43 Arg2:T48
+R32	drugDose Arg1:T45 Arg2:T46
+R33	timeDisease Arg1:T50 Arg2:T49
+T13	negative 335 336	无
+R35	negativeClinicalFeature Arg1:T13 Arg2:T52
+R36	negativeClinicalFeature Arg1:T13 Arg2:T53
+T14	time 333 335	近期
+R37	clinicalFeatureTime Arg1:T52 Arg2:T14
+R38	clinicalFeatureTime Arg1:T53 Arg2:T14
+R39	signIndexValue Arg1:T54 Arg2:T55
+R40	signIndexValue Arg1:T56 Arg2:T57
+R41	signIndexValue Arg1:T58 Arg2:T59
+R42	signIndexValue Arg1:T60 Arg2:T61
+R44	bodyClinicalFeature Arg1:T65 Arg2:T66
+R45	bodyClinicalFeature Arg1:T67 Arg2:T68
+R46	bodyClinicalFeature Arg1:T69 Arg2:T70
+R49	bodyClinicalFeature Arg1:T73 Arg2:T74
+R50	bodyClinicalFeature Arg1:T75 Arg2:T76
+R51	modificationClinicalFeature Arg1:T77 Arg2:T76
+R52	bodyClinicalFeature Arg1:T78 Arg2:T79
+R53	negativeClinicalFeature Arg1:T80 Arg2:T81
+R55	clinicalFeatureTime Arg1:T24 Arg2:T23
+R56	signIndexValue Arg1:T88 Arg2:T89
+R57	bodyClinicalFeature Arg1:T86 Arg2:T87
+T93	body 398 400	皮肤
+R59	bodyClinicalFeature Arg1:T93 Arg2:T66
+T91	clinicalFeature 489 492	肌紧张
+R47	negativeClinicalFeature Arg1:T80 Arg2:T91
+R48	bodyClinicalFeature Arg1:T78 Arg2:T81
+R60	bodyClinicalFeature Arg1:T78 Arg2:T91
+R54	bodyClinicalFeature Arg1:T83 Arg2:T85
+R58	drugFrequency Arg1:T45 Arg2:T47
+T82	sign 493 496	肠鸣音
+T84	indexValue 496 498	正常
+R61	signIndexValue Arg1:T82 Arg2:T84
+T32	disease 4 10	PTCD术后
+R1	timeDisease Arg1:T2 Arg2:T32	

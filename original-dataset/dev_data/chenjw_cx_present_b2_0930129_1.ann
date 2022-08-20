@@ -1,0 +1,9 @@
+T1	time 7 12	19月余前
+T2	operation 32 37	去骨瓣减压
+T3	operation 38 46	颅内压探头植入术
+T4	operation 47 58	右侧额角穿刺室外引流术
+T7	operation 21 31	右侧基底节区血肿清除
+R1	timeOperation Arg1:T1 Arg2:T7
+R2	timeOperation Arg1:T1 Arg2:T2
+R3	timeOperation Arg1:T1 Arg2:T3
+R4	timeOperation Arg1:T1 Arg2:T4

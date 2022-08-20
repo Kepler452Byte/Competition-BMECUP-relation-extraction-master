@@ -1,0 +1,5 @@
+T1	clinicalFeature 3 5	头晕
+T2	clinicalFeature 6 10	双手麻木
+T5	time 10 12	3h
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5

@@ -1,0 +1,5 @@
+T1	time 9 12	6天前
+T2	disease 16 20	结肠息肉
+T5	cause 12 16	检查发现
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	causeDisease Arg1:T5 Arg2:T2

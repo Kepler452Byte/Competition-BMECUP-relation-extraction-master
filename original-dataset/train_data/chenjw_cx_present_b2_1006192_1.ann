@@ -1,0 +1,6 @@
+T1	time 6 15	2016年10月因
+T2	cause 15 19	检查发现
+T4	operation 34 40	直肠癌根冶术
+T3	disease 20 23	直肠癌
+R1	timeDisease Arg1:T1 Arg2:T3
+R2	causeDisease Arg1:T2 Arg2:T3

@@ -1,0 +1,8 @@
+T1	time 6 11	14年余前
+T2	cause 11 15	检查发现
+T3	disease 16 20	左乳腺癌
+T4	time 22 32	2005-11-09
+T5	operation 39 48	左乳腺癌改良根治术
+R1	timeDisease Arg1:T1 Arg2:T3
+R2	causeDisease Arg1:T2 Arg2:T3
+R3	timeOperation Arg1:T4 Arg2:T5

@@ -1,0 +1,222 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	晕厥
+T3	time 8 11	半年余
+T4	clinicalFeature 27 29	黑曚
+T6	clinicalFeature 43 46	神志清
+T7	negative 47 48	无
+T8	clinicalFeature 48 50	头痛
+T9	clinicalFeature 50 52	头晕
+T10	negative 53 54	无
+T11	clinicalFeature 54 58	视物旋转
+T12	negative 59 60	无
+T13	clinicalFeature 60 62	晕厥
+T14	negative 63 64	无
+T15	clinicalFeature 64 66	恶心
+T16	clinicalFeature 66 68	呕吐
+T17	negative 69 70	无
+T18	clinicalFeature 70 76	肢体活动障碍
+T19	cure 81 85	未予治疗
+T20	clinicalFeature 97 99	黑曚
+T21	clinicalFeature 104 106	晕厥
+T23	clinicalFeature 117 121	全身发麻
+T24	clinicalFeature 123 127	神志不清
+T25	negative 128 129	无
+T26	clinicalFeature 129 133	四肢抽搐
+T27	negative 134 135	无
+T28	clinicalFeature 135 139	口吐白沫
+T29	negative 140 141	无
+T30	clinicalFeature 141 145	双眼上翻
+T31	negative 147 148	无
+T32	clinicalFeature 148 153	大小便失禁
+T33	auxiliaryExamination 164 167	心电图
+T34	auxiliaryDescript 170 176	窦性心动过缓
+T35	disease 179 190	不完全性右束支传导阻滞
+T36	auxiliaryExamination 191 197	颈部血管彩超
+T37	body 198 204	双侧颈总动脉
+T38	auxiliaryDescript 205 212	中膜不均匀增厚
+T39	body 214 221	右侧锁骨下动脉
+T40	auxiliaryDescript 221 227	斑块（单发）
+T41	auxiliaryExamination 228 231	脑电图
+T42	auxiliaryDescript 232 239	轻度异常脑电图
+T43	auxiliaryExamination 240 245	头颅MRI
+T44	auxiliaryDescript 249 256	轻度脱髓鞘改变
+T45	auxiliaryExamination 257 264	经颅多普勒超声
+T46	body 265 270	右侧椎动脉
+T47	auxiliaryDescript 270 275	血流速减低
+T48	auxiliaryExamination 277 286	24小时动态心电图
+T49	auxiliaryDescript 289 293	窦性心律
+T50	auxiliaryDescript 294 298	平均心率
+T51	indexValue 298 303	65次/分
+T52	auxiliaryDescript 306 310	房性早搏
+T53	auxiliaryDescript 316 320	短阵房速
+T54	auxiliaryDescript 325 329	室性早搏
+T55	disease 336 346	完全性右束支传导阻滞
+T56	auxiliaryExamination 348 353	超声心动图
+T59	time 364 368	今日中午
+T60	clinicalFeature 374 376	胸闷
+T61	clinicalFeature 376 378	心悸
+T63	clinicalFeature 389 393	神志不清
+T65	negative 406 407	无
+T66	clinicalFeature 407 409	恶心
+T67	clinicalFeature 409 411	呕吐
+T68	negative 412 413	无
+T69	clinicalFeature 413 415	胸闷
+T70	clinicalFeature 415 417	气急
+T71	negative 419 420	无
+T72	clinicalFeature 420 424	肢体抽搐
+T83	indexValue 509 514	66次/分
+T84	indexValue 525 535	112/55mmHg
+T85	clinicalFeature 535 539	神志清晰
+T86	clinicalFeature 540 543	精神软
+T87	body 544 548	全身皮肤
+T88	body 549 551	巩膜
+T89	sign 551 554	无黄染
+T90	body 555 560	浅表淋巴结
+T91	sign 560 563	未扪及
+T92	body 565 566	颈
+T93	clinicalFeature 566 567	软
+T94	body 568 571	颈静脉
+T95	clinicalFeature 571 574	无充盈
+T97	body 582 584	两肺
+T98	clinicalFeature 584 589	呼吸音清晰
+T99	clinicalFeature 590 597	未闻及干湿啰音
+T101	indexValue 600 605	66bpm
+T102	clinicalFeature 606 608	律齐
+T103	clinicalFeature 609 613	心音中等
+T104	body 614 620	各瓣膜听诊区
+T105	clinicalFeature 620 628	未闻及病理性杂音
+T106	body 629 631	腹部
+T107	clinicalFeature 631 633	平软
+T108	clinicalFeature 639 642	反跳痛
+T109	clinicalFeature 645 650	肋下未扪及
+T110	body 651 653	四肢
+T111	clinicalFeature 653 656	无畸形
+T115	clinicalFeature 680 683	无浮肿
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+T116	time 20 22	去年
+R3	clinicalFeatureTime Arg1:T4 Arg2:T116
+R5	clinicalFeatureTime Arg1:T6 Arg2:T116
+R6	negativeClinicalFeature Arg1:T7 Arg2:T8
+R7	negativeClinicalFeature Arg1:T7 Arg2:T9
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T14 Arg2:T15
+R11	negativeClinicalFeature Arg1:T14 Arg2:T16
+R12	negativeClinicalFeature Arg1:T17 Arg2:T18
+R13	cureTime Arg1:T19 Arg2:T116
+T117	time 86 93	今年06.03
+R14	clinicalFeatureTime Arg1:T20 Arg2:T117
+R15	clinicalFeatureTime Arg1:T21 Arg2:T117
+R18	clinicalFeatureTime Arg1:T23 Arg2:T117
+R19	clinicalFeatureTime Arg1:T24 Arg2:T117
+R20	negativeClinicalFeature Arg1:T25 Arg2:T26
+R21	negativeClinicalFeature Arg1:T27 Arg2:T28
+R22	negativeClinicalFeature Arg1:T29 Arg2:T30
+R23	clinicalFeatureTime Arg1:T26 Arg2:T117
+R24	clinicalFeatureTime Arg1:T28 Arg2:T117
+R25	clinicalFeatureTime Arg1:T30 Arg2:T117
+R26	negativeClinicalFeature Arg1:T31 Arg2:T32
+R27	clinicalFeatureTime Arg1:T32 Arg2:T117
+R28	auxiliaryExaminationTime Arg1:T33 Arg2:T117
+R29	clinicalFeatureTime Arg1:T8 Arg2:T116
+R30	clinicalFeatureTime Arg1:T9 Arg2:T116
+R31	clinicalFeatureTime Arg1:T11 Arg2:T116
+R32	clinicalFeatureTime Arg1:T13 Arg2:T116
+R33	clinicalFeatureTime Arg1:T15 Arg2:T116
+R34	clinicalFeatureTime Arg1:T16 Arg2:T116
+R35	clinicalFeatureTime Arg1:T18 Arg2:T116
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T34
+R38	auxiliaryExaminationTime Arg1:T36 Arg2:T117
+R39	bodyAuxiliaryDescript Arg1:T37 Arg2:T38
+R40	auxiliaryExaminationAuxiliaryDescript Arg1:T36 Arg2:T38
+R41	bodyAuxiliaryDescript Arg1:T39 Arg2:T40
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T36 Arg2:T40
+R43	auxiliaryExaminationTime Arg1:T41 Arg2:T117
+R44	auxiliaryExaminationAuxiliaryDescript Arg1:T41 Arg2:T42
+T118	body 246 249	脑白质
+R45	bodyAuxiliaryDescript Arg1:T118 Arg2:T44
+R46	auxiliaryExaminationTime Arg1:T43 Arg2:T117
+R47	auxiliaryExaminationAuxiliaryDescript Arg1:T43 Arg2:T44
+R48	bodyAuxiliaryDescript Arg1:T46 Arg2:T47
+R49	auxiliaryExaminationAuxiliaryDescript Arg1:T45 Arg2:T47
+R50	auxiliaryExaminationTime Arg1:T45 Arg2:T117
+R51	auxiliaryExaminationTime Arg1:T48 Arg2:T117
+R52	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T49
+T119	quantity 311 315	234个
+R54	auxiliaryDescriptQuantity Arg1:T52 Arg2:T119
+R55	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T52
+T120	quantity 320 322	7次
+R56	auxiliaryDescriptQuantity Arg1:T53 Arg2:T120
+R57	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T53
+T121	quantity 330 332	2次
+R58	auxiliaryDescriptQuantity Arg1:T54 Arg2:T121
+R59	auxiliaryExaminationAuxiliaryDescript Arg1:T48 Arg2:T54
+T57	auxiliaryDescript 354 361	三尖瓣轻度反流
+R61	auxiliaryExaminationAuxiliaryDescript Arg1:T56 Arg2:T57
+R62	auxiliaryExaminationTime Arg1:T56 Arg2:T117
+R63	clinicalFeatureTime Arg1:T60 Arg2:T59
+R64	clinicalFeatureTime Arg1:T61 Arg2:T59
+T58	clinicalFeature 383 385	黑曚
+T62	clinicalFeature 385 387	晕厥
+R65	clinicalFeatureTime Arg1:T58 Arg2:T59
+R66	clinicalFeatureTime Arg1:T62 Arg2:T59
+R67	clinicalFeatureTime Arg1:T63 Arg2:T59
+R73	negativeClinicalFeature Arg1:T65 Arg2:T66
+R74	negativeClinicalFeature Arg1:T65 Arg2:T67
+R75	negativeClinicalFeature Arg1:T68 Arg2:T69
+R76	negativeClinicalFeature Arg1:T68 Arg2:T70
+R77	negativeClinicalFeature Arg1:T71 Arg2:T72
+R78	clinicalFeatureTime Arg1:T66 Arg2:T59
+R79	clinicalFeatureTime Arg1:T67 Arg2:T59
+R80	clinicalFeatureTime Arg1:T69 Arg2:T59
+R81	clinicalFeatureTime Arg1:T70 Arg2:T59
+R82	clinicalFeatureTime Arg1:T72 Arg2:T59
+T123	disease 446 450	晕厥待查
+T125	sign 500 501	T
+T126	indexValue 501 506	37.9℃
+R90	signIndexValue Arg1:T125 Arg2:T126
+T127	sign 507 508	P
+R91	signIndexValue Arg1:T127 Arg2:T83
+T128	sign 515 516	R
+T129	indexValue 517 522	19次/分
+R92	signIndexValue Arg1:T128 Arg2:T129
+T130	sign 523 525	BP
+R93	signIndexValue Arg1:T130 Arg2:T84
+R94	bodySign Arg1:T87 Arg2:T89
+R95	bodySign Arg1:T88 Arg2:T89
+R96	bodySign Arg1:T90 Arg2:T91
+R97	bodyClinicalFeature Arg1:T92 Arg2:T93
+R98	bodyClinicalFeature Arg1:T94 Arg2:T95
+T96	body 575 578	甲状腺
+T131	clinicalFeature 578 581	不肿大
+R99	bodyClinicalFeature Arg1:T96 Arg2:T131
+R100	bodyClinicalFeature Arg1:T97 Arg2:T98
+R101	bodyClinicalFeature Arg1:T97 Arg2:T99
+T100	sign 598 600	HR
+R102	signIndexValue Arg1:T100 Arg2:T101
+R103	bodyClinicalFeature Arg1:T104 Arg2:T105
+R104	bodyClinicalFeature Arg1:T106 Arg2:T107
+T132	clinicalFeature 636 638	压痛
+T133	negative 635 636	无
+R105	negativeClinicalFeature Arg1:T133 Arg2:T132
+R106	negativeClinicalFeature Arg1:T133 Arg2:T108
+R107	bodyClinicalFeature Arg1:T106 Arg2:T132
+R108	bodyClinicalFeature Arg1:T106 Arg2:T108
+R109	bodyClinicalFeature Arg1:T110 Arg2:T111
+T113	sign 662 666	生理反射
+T134	indexValue 666 668	存在
+R111	signIndexValue Arg1:T113 Arg2:T134
+T114	sign 669 673	病理反射
+T135	indexValue 673 676	未引出
+R112	signIndexValue Arg1:T114 Arg2:T135
+T136	body 677 680	双下肢
+R113	bodyClinicalFeature Arg1:T136 Arg2:T115
+T112	sign 657 659	肌力
+T137	indexValue 659 661	正常
+R110	signIndexValue Arg1:T112 Arg2:T137
+R114	bodySign Arg1:T110 Arg2:T112
+T138	body 643 644	肝
+T139	body 644 645	脾
+R115	bodyClinicalFeature Arg1:T139 Arg2:T109
+R116	bodyClinicalFeature Arg1:T138 Arg2:T109
+R2	modificationClinicalFeature Arg1:T1 Arg2:T2

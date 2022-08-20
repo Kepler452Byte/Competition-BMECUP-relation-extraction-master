@@ -1,0 +1,108 @@
+T2	time 12 15	6小时
+T3	time 25 29	6小时前
+T4	clinicalFeature 40 45	右前臂肿痛
+T6	modification 53 58	疼痛较持续
+T7	negative 59 60	无
+T8	clinicalFeature 60 62	昏迷
+T9	negative 63 64	无
+T10	clinicalFeature 64 66	恶心
+T11	clinicalFeature 66 68	呕吐
+T12	negative 69 70	无
+T13	clinicalFeature 70 74	腹部疼痛
+T14	negative 75 76	无
+T15	clinicalFeature 76 81	上肢麻木等
+T16	auxiliaryDescript 99 105	未见明显异常
+T18	disease 108 113	右前臂血肿
+T19	disease 129 133	高血压病
+T20	time 134 136	数年
+T22	drug 144 148	具体不详
+T23	clinicalFeature 149 154	血压控制可
+T36	clinicalFeature 201 203	神清
+T39	sign 208 209	T
+T40	indexValue 209 214	37.1℃
+T41	sign 215 216	R
+T42	indexValue 216 221	20次/分
+T43	sign 222 223	P
+T44	indexValue 223 228	79次/分
+T45	sign 229 231	BP
+T46	indexValue 231 241	160/85mmHg
+T47	body 242 244	两肺
+T48	clinicalFeature 244 248	呼吸音清
+T51	clinicalFeature 252 255	无压痛
+T53	body 265 267	鞍区
+T54	clinicalFeature 267 271	无麻木感
+T58	body 290 293	桡动脉
+T59	clinicalFeature 293 296	搏动可
+T63	negative 322 323	无
+T64	clinicalFeature 329 333	感觉减退
+T67	sign 341 345	病理反射
+T68	indexValue 345 348	未引出
+T1	clinicalFeature 7 12	右前臂疼痛
+T69	cause 4 6	扭伤
+R1	causeClinicalFeature Arg1:T69 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T70	cause 33 35	扭伤
+T71	auxiliaryExamination 95 97	X线
+R4	causeClinicalFeature Arg1:T70 Arg2:T4
+R5	clinicalFeatureTime Arg1:T4 Arg2:T3
+R8	negativeClinicalFeature Arg1:T7 Arg2:T8
+R9	negativeClinicalFeature Arg1:T9 Arg2:T10
+R10	negativeClinicalFeature Arg1:T9 Arg2:T11
+R11	negativeClinicalFeature Arg1:T12 Arg2:T13
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	clinicalFeatureTime Arg1:T8 Arg2:T3
+R14	clinicalFeatureTime Arg1:T10 Arg2:T3
+R15	clinicalFeatureTime Arg1:T11 Arg2:T3
+R16	clinicalFeatureTime Arg1:T13 Arg2:T3
+R17	clinicalFeatureTime Arg1:T15 Arg2:T3
+R18	auxiliaryExaminationAuxiliaryDescript Arg1:T71 Arg2:T16
+R19	timeDisease Arg1:T20 Arg2:T19
+R22	diseaseClinicalFeature Arg1:T19 Arg2:T23
+T37	clinicalFeature 204 207	精神可
+R29	signIndexValue Arg1:T39 Arg2:T40
+R30	signIndexValue Arg1:T41 Arg2:T42
+R31	signIndexValue Arg1:T43 Arg2:T44
+R32	signIndexValue Arg1:T45 Arg2:T46
+R33	bodyClinicalFeature Arg1:T47 Arg2:T48
+T38	body 249 250	腹
+T49	clinicalFeature 250 251	软
+R34	bodyClinicalFeature Arg1:T38 Arg2:T49
+R36	bodyClinicalFeature Arg1:T38 Arg2:T51
+R37	bodyClinicalFeature Arg1:T53 Arg2:T54
+T52	body 256 258	脊柱
+T72	clinicalFeature 258 264	生理曲度变直
+R38	bodyClinicalFeature Arg1:T52 Arg2:T72
+T55	body 273 276	右前臂
+T73	clinicalFeature 276 280	肿胀明显
+R39	bodyClinicalFeature Arg1:T55 Arg2:T73
+T56	body 281 284	右前臂
+T57	clinicalFeature 284 289	末梢血运可
+R40	bodyClinicalFeature Arg1:T56 Arg2:T57
+R41	bodyClinicalFeature Arg1:T58 Arg2:T59
+T60	body 297 299	肢体
+T74	clinicalFeature 299 307	末梢感觉及血供可
+R42	bodyClinicalFeature Arg1:T60 Arg2:T74
+T61	body 308 311	双下肢
+T62	sign 317 319	肌力
+T76	indexValue 319 321	五级
+R43	signIndexValue Arg1:T62 Arg2:T76
+R44	negativeClinicalFeature Arg1:T63 Arg2:T64
+R46	bodySign Arg1:T61 Arg2:T62
+R47	bodyClinicalFeature Arg1:T61 Arg2:T64
+T65	sign 334 338	生理反射
+T66	indexValue 338 340	存在
+R48	signIndexValue Arg1:T65 Arg2:T66
+R49	signIndexValue Arg1:T67 Arg2:T68
+T5	body 46 49	右前臂
+T77	clinicalFeature 49 52	活动可
+R6	bodyClinicalFeature Arg1:T5 Arg2:T77
+R50	auxiliaryExaminationTime Arg1:T71 Arg2:T3
+T21	cure 137 143	口服药物治疗
+T75	sign 311 314	肌张力
+T78	indexValue 314 316	不高
+R45	signIndexValue Arg1:T75 Arg2:T78
+T79	clinicalFeature 326 328	麻木
+R52	negativeClinicalFeature Arg1:T63 Arg2:T79
+R53	bodyClinicalFeature Arg1:T61 Arg2:T79
+R7	modificationClinicalFeature Arg1:T6 Arg2:T4
+R3	drugCure Arg1:T22 Arg2:T21	

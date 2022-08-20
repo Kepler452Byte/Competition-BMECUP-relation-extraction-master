@@ -1,0 +1,9 @@
+T1	clinicalFeature 7 10	神志清
+T2	clinicalFeature 11 14	精神可
+T3	clinicalFeature 15 19	大便难解
+T4	clinicalFeature 20 24	小便正常
+T5	general 27 29	体重
+T6	generalDescript 32 36	改变不详
+T7	general 30 32	体力
+R1	generalGeneralDescript Arg1:T7 Arg2:T6	
+R2	generalGeneralDescript Arg1:T5 Arg2:T6	

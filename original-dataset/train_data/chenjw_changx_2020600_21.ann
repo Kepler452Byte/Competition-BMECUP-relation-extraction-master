@@ -1,0 +1,100 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 12	头颈部疼痛
+T3	clinicalFeature 13 18	左上肢麻木
+T4	time 18 21	2小时
+T5	time 34 37	2小时
+T6	cause 48 50	摔下
+T7	clinicalFeature 52 57	头颈部疼痛
+T8	body 58 61	左前臂
+T9	clinicalFeature 63 65	麻木
+T10	body 66 68	颈部
+T11	clinicalFeature 68 72	活动受限
+T12	negative 73 75	否认
+T13	clinicalFeature 77 79	昏迷
+T14	negative 80 81	无
+T15	clinicalFeature 81 83	恶心
+T16	clinicalFeature 83 85	呕吐
+T17	negative 86 87	无
+T18	clinicalFeature 87 90	胸腹痛
+T19	auxiliaryExamination 106 110	CT检查
+T20	auxiliaryExamination 113 119	头颅CT平扫
+T21	auxiliaryExamination 129 135	颈椎CT平扫
+T23	disease 156 160	颈髓损伤
+T33	sign 210 212	体温
+T34	indexValue 212 217	36.3℃
+T35	sign 218 220	脉搏
+T36	indexValue 220 225	64次/分
+T37	sign 226 228	呼吸
+T38	indexValue 228 233	20次/分
+T39	sign 234 236	血压
+T40	indexValue 236 246	117/82mmHg
+T41	clinicalFeature 247 249	神清
+T42	clinicalFeature 250 253	精神软
+T43	body 254 255	心
+T44	body 255 256	肺
+T45	clinicalFeature 256 260	听诊无殊
+T46	body 261 262	腹
+T47	clinicalFeature 262 263	软
+T49	clinicalFeature 264 267	无压痛
+T50	body 268 270	颈部
+T51	clinicalFeature 270 274	颈托固定
+T52	body 275 277	颈部
+T53	clinicalFeature 277 279	压痛
+T54	clinicalFeature 281 285	活动受限
+T55	clinicalFeature 292 296	感觉减退
+T56	sign 297 299	肌力
+T57	indexValue 299 301	正常
+T58	body 302 305	余肢体
+T59	clinicalFeature 305 307	正常
+T60	sign 308 312	生理反射
+T61	indexValue 312 313	存
+T62	sign 314 318	病理反射
+T63	indexValue 318 321	未引出
+R1	causeClinicalFeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	causeClinicalFeature Arg1:T1 Arg2:T3
+R5	causeClinicalFeature Arg1:T6 Arg2:T7
+R6	bodyClinicalFeature Arg1:T8 Arg2:T9
+T64	body 61 63	左手
+R7	bodyClinicalFeature Arg1:T64 Arg2:T9
+R8	causeClinicalFeature Arg1:T6 Arg2:T9
+R9	clinicalFeatureTime Arg1:T7 Arg2:T5
+R10	clinicalFeatureTime Arg1:T9 Arg2:T5
+R11	bodyClinicalFeature Arg1:T10 Arg2:T11
+R12	clinicalFeatureTime Arg1:T11 Arg2:T5
+R13	negativeClinicalFeature Arg1:T12 Arg2:T13
+R14	negativeClinicalFeature Arg1:T14 Arg2:T15
+R15	negativeClinicalFeature Arg1:T14 Arg2:T16
+R16	negativeClinicalFeature Arg1:T17 Arg2:T18
+R17	clinicalFeatureTime Arg1:T18 Arg2:T5
+R18	clinicalFeatureTime Arg1:T15 Arg2:T5
+R19	clinicalFeatureTime Arg1:T16 Arg2:T5
+R20	clinicalFeatureTime Arg1:T13 Arg2:T5
+T65	auxiliaryDescript 121 127	未见明显异常
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T65
+R22	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T65
+T66	auxiliaryDescript 135 141	未见明显异常
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T21 Arg2:T66
+R24	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T66
+R30	signIndexValue Arg1:T33 Arg2:T34
+R31	signIndexValue Arg1:T35 Arg2:T36
+R32	signIndexValue Arg1:T37 Arg2:T38
+R33	signIndexValue Arg1:T39 Arg2:T40
+R34	bodyClinicalFeature Arg1:T43 Arg2:T45
+R35	bodyClinicalFeature Arg1:T44 Arg2:T45
+R36	bodyClinicalFeature Arg1:T46 Arg2:T47
+R38	bodyClinicalFeature Arg1:T46 Arg2:T49
+R39	bodyClinicalFeature Arg1:T52 Arg2:T53
+R40	bodyClinicalFeature Arg1:T52 Arg2:T54
+T68	body 287 289	前臂
+T69	body 290 292	左手
+R41	bodyClinicalFeature Arg1:T68 Arg2:T55
+R42	bodyClinicalFeature Arg1:T69 Arg2:T55
+R43	signIndexValue Arg1:T56 Arg2:T57
+R44	bodyClinicalFeature Arg1:T58 Arg2:T59
+R45	signIndexValue Arg1:T60 Arg2:T61
+R46	signIndexValue Arg1:T62 Arg2:T63
+R47	bodyClinicalFeature Arg1:T50 Arg2:T51
+R37	auxiliaryExaminationTime Arg1:T19 Arg2:T5
+R48	auxiliaryExaminationTime Arg1:T21 Arg2:T5

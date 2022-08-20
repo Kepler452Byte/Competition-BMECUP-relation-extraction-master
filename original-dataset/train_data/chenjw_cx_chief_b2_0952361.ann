@@ -1,0 +1,3 @@
+T2	clinicalFeature 6 8	胸闷
+T5	time 8 10	一月
+R1	clinicalFeatureTime Arg1:T2 Arg2:T5

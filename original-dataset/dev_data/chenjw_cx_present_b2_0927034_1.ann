@@ -1,0 +1,8 @@
+T1	time 6 9	3天前
+T2	clinicalFeature 13 18	肝功能异常
+T3	clinicalFeature 20 22	乏力
+T6	cause 9 13	验血发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1
+R3	causeClinicalFeature Arg1:T6 Arg2:T2
+R4	causeClinicalFeature Arg1:T6 Arg2:T3

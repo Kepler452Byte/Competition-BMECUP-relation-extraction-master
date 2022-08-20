@@ -1,0 +1,5 @@
+T1	modification 3 5	反复
+T2	clinicalFeature 5 8	左腰痛
+T3	time 8 10	1周
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3

@@ -1,0 +1,9 @@
+T1	time 8 11	1天前
+T2	cause 11 16	无明显诱因
+T3	body 19 22	右下腹
+T4	modification 22 25	持续性
+T5	clinicalFeature 25 27	钝痛
+R1	bodyClinicalFeature Arg1:T3 Arg2:T5
+R2	clinicalFeatureTime Arg1:T5 Arg2:T1
+R3	causeClinicalFeature Arg1:T2 Arg2:T5
+R4	modificationClinicalFeature Arg1:T4 Arg2:T5

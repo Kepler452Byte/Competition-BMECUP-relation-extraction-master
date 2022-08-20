@@ -1,0 +1,122 @@
+T1	clinicalFeature 4 6	头晕
+T2	clinicalFeature 6 8	乏力
+T3	time 8 10	1周
+T4	time 19 22	1周前
+T5	cause 22 27	无明显诱因
+T6	clinicalFeature 30 32	头晕
+T7	clinicalFeature 33 35	乏力
+T9	negative 42 43	无
+T10	clinicalFeature 43 45	头痛
+T11	negative 46 47	无
+T12	clinicalFeature 47 49	恶心
+T13	clinicalFeature 49 51	呕吐
+T14	negative 52 53	无
+T15	clinicalFeature 53 55	胸闷
+T16	clinicalFeature 55 57	气促
+T17	negative 58 59	无
+T18	clinicalFeature 59 63	视物旋转
+T19	negative 64 65	无
+T20	clinicalFeature 65 67	腹痛
+T21	clinicalFeature 67 69	腹泻
+T22	negative 70 71	无
+T23	clinicalFeature 71 75	肢体麻木
+T24	clinicalFeature 76 78	抽搐
+T26	disease 104 108	头晕待查
+T39	sign 160 162	BP
+T40	indexValue 162 172	148/84mmHg
+T41	sign 173 174	T
+T42	indexValue 175 180	36.6℃
+T43	sign 181 182	P
+T44	indexValue 182 188	112次/分
+T45	sign 189 190	R
+T46	indexValue 190 195	19次/分
+T47	clinicalFeature 196 199	神志清
+T48	clinicalFeature 200 203	精神软
+T49	body 204 206	皮肤
+T50	body 206 208	巩膜
+T51	clinicalFeature 208 211	无黄染
+T52	body 212 215	锁骨上
+T53	clinicalFeature 215 223	未及肿大的淋巴结
+T54	body 224 227	颈静脉
+T55	clinicalFeature 227 230	无怒张
+T56	sign 232 234	心率
+T57	indexValue 234 240	112次/分
+T58	clinicalFeature 241 244	心律齐
+T59	negative 245 248	未闻及
+T60	clinicalFeature 250 252	早搏
+T61	clinicalFeature 253 258	病理性杂音
+T62	body 259 263	双肺听诊
+T63	clinicalFeature 263 267	呼吸音粗
+T64	clinicalFeature 268 277	未闻及明显干湿啰音
+T65	body 278 279	腹
+T66	clinicalFeature 279 280	软
+T67	clinicalFeature 281 284	无压痛
+T68	negative 285 286	无
+T69	clinicalFeature 288 291	反跳痛
+T70	body 292 293	肝
+T71	body 293 294	脾
+T72	clinicalFeature 294 298	肋下未及
+T73	sign 299 302	肠鸣音
+T74	indexValue 302 305	无亢进
+T75	sign 307 312	移动性浊音
+T76	indexValue 312 314	阴性
+T77	body 315 318	双下肢
+T78	clinicalFeature 318 320	不肿
+T79	body 321 323	四肢
+T80	sign 323 325	肌力
+T81	indexValue 325 327	5级
+T82	body 328 330	双侧
+T83	sign 330 335	巴宾斯基征
+T84	indexValue 335 337	阴性
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	clinicalFeatureTime Arg1:T6 Arg2:T4
+R5	causeClinicalFeature Arg1:T5 Arg2:T7
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R9	negativeClinicalFeature Arg1:T9 Arg2:T10
+R10	clinicalFeatureTime Arg1:T10 Arg2:T4
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	clinicalFeatureTime Arg1:T12 Arg2:T4
+R13	negativeClinicalFeature Arg1:T11 Arg2:T13
+R14	clinicalFeatureTime Arg1:T13 Arg2:T4
+R15	negativeClinicalFeature Arg1:T14 Arg2:T15
+R16	negativeClinicalFeature Arg1:T14 Arg2:T16
+R17	clinicalFeatureTime Arg1:T15 Arg2:T4
+R18	clinicalFeatureTime Arg1:T16 Arg2:T4
+R19	negativeClinicalFeature Arg1:T17 Arg2:T18
+R20	clinicalFeatureTime Arg1:T18 Arg2:T4
+R21	negativeClinicalFeature Arg1:T19 Arg2:T20
+R22	clinicalFeatureTime Arg1:T20 Arg2:T4
+R23	negativeClinicalFeature Arg1:T19 Arg2:T21
+R24	clinicalFeatureTime Arg1:T21 Arg2:T4
+R25	negativeClinicalFeature Arg1:T22 Arg2:T23
+R26	clinicalFeatureTime Arg1:T23 Arg2:T4
+R27	negativeClinicalFeature Arg1:T22 Arg2:T24
+R28	clinicalFeatureTime Arg1:T24 Arg2:T4
+R36	signIndexValue Arg1:T39 Arg2:T40
+R37	signIndexValue Arg1:T41 Arg2:T42
+R38	signIndexValue Arg1:T43 Arg2:T44
+R39	signIndexValue Arg1:T45 Arg2:T46
+R40	bodyClinicalFeature Arg1:T50 Arg2:T51
+R41	bodyClinicalFeature Arg1:T49 Arg2:T51
+R42	bodyClinicalFeature Arg1:T52 Arg2:T53
+R43	bodyClinicalFeature Arg1:T54 Arg2:T55
+R44	signIndexValue Arg1:T56 Arg2:T57
+R45	negativeClinicalFeature Arg1:T59 Arg2:T60
+R46	negativeClinicalFeature Arg1:T59 Arg2:T61
+R47	bodyClinicalFeature Arg1:T62 Arg2:T63
+R48	bodyClinicalFeature Arg1:T62 Arg2:T64
+R49	bodyClinicalFeature Arg1:T65 Arg2:T66
+R50	bodyClinicalFeature Arg1:T65 Arg2:T67
+R51	negativeClinicalFeature Arg1:T68 Arg2:T69
+R52	bodyClinicalFeature Arg1:T65 Arg2:T69
+R53	bodyClinicalFeature Arg1:T71 Arg2:T72
+R54	bodyClinicalFeature Arg1:T70 Arg2:T72
+R55	signIndexValue Arg1:T73 Arg2:T74
+R56	signIndexValue Arg1:T75 Arg2:T76
+R57	bodyClinicalFeature Arg1:T77 Arg2:T78
+R58	bodySign Arg1:T79 Arg2:T80
+R59	signIndexValue Arg1:T80 Arg2:T81
+R60	bodySign Arg1:T82 Arg2:T83
+R61	signIndexValue Arg1:T83 Arg2:T84

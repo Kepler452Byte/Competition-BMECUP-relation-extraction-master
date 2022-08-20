@@ -1,0 +1,79 @@
+T1	disease 4 10	右肾结石术后
+T3	time 33 36	2周前
+T6	drug 76 80	具体不详
+T7	clinicalFeature 86 88	尿频
+T8	negative 94 95	无
+T9	clinicalFeature 97 99	畏寒
+T10	clinicalFeature 99 101	发热
+T11	negative 103 104	无
+T12	clinicalFeature 106 108	尿痛
+T13	negative 114 115	无
+T14	clinicalFeature 115 119	腰部酸痛
+T16	disease 144 150	右肾结石术后
+T30	sign 208 210	体温
+T31	indexValue 210 215	36.1℃
+T32	sign 216 218	脉搏
+T33	indexValue 218 223	87次/分
+T34	sign 224 226	呼吸
+T35	indexValue 226 231	20次/分
+T36	sign 232 234	血压
+T37	indexValue 234 244	134/67mmHg
+T38	clinicalFeature 245 248	神志清
+T41	sign 253 255	心率
+T42	indexValue 255 260	87次/分
+T43	clinicalFeature 261 264	心律齐
+T44	body 266 267	腹
+T45	clinicalFeature 267 269	平软
+T46	negative 270 271	无
+T47	clinicalFeature 271 273	压痛
+T48	clinicalFeature 274 277	反跳痛
+T49	negative 285 286	无
+T50	clinicalFeature 286 288	压痛
+T51	clinicalFeature 295 300	无明显压痛
+T53	clinicalFeature 316 321	无明显异常
+T54	clinicalFeature 325 329	活动正常
+T55	time 10 12	2周
+T2	operation 45 54	右肾结石软镜碎石术
+R1	timeOperation Arg1:T3 Arg2:T2
+T4	cure 64 66	抗炎
+T5	cure 66 68	补液
+T56	clinicalFeature 88 90	尿急
+T57	clinicalFeature 90 93	尿不尽
+R4	negativeClinicalFeature Arg1:T8 Arg2:T9
+R5	negativeClinicalFeature Arg1:T8 Arg2:T10
+T58	time 82 83	现
+R6	clinicalFeatureTime Arg1:T7 Arg2:T58
+R7	clinicalFeatureTime Arg1:T56 Arg2:T58
+R8	clinicalFeatureTime Arg1:T57 Arg2:T58
+T59	clinicalFeature 109 113	肉眼血尿
+R9	negativeClinicalFeature Arg1:T11 Arg2:T12
+R10	negativeClinicalFeature Arg1:T11 Arg2:T59
+R11	negativeClinicalFeature Arg1:T13 Arg2:T14
+R20	signIndexValue Arg1:T30 Arg2:T31
+R21	signIndexValue Arg1:T32 Arg2:T33
+R22	signIndexValue Arg1:T34 Arg2:T35
+R23	signIndexValue Arg1:T36 Arg2:T37
+T39	clinicalFeature 249 252	精神可
+R24	signIndexValue Arg1:T41 Arg2:T42
+R25	bodyClinicalFeature Arg1:T44 Arg2:T45
+R26	negativeClinicalFeature Arg1:T46 Arg2:T47
+R27	negativeClinicalFeature Arg1:T46 Arg2:T48
+R28	bodyClinicalFeature Arg1:T44 Arg2:T47
+R29	bodyClinicalFeature Arg1:T44 Arg2:T48
+R30	negativeClinicalFeature Arg1:T49 Arg2:T50
+T40	body 279 285	输尿管移行区
+R31	bodyClinicalFeature Arg1:T40 Arg2:T50
+T61	body 289 295	下腹部膀胱处
+R32	bodyClinicalFeature Arg1:T61 Arg2:T51
+T52	sign 301 305	肾区叩痛
+T62	indexValue 305 307	阴性
+R33	signIndexValue Arg1:T52 Arg2:T62
+T63	body 308 310	会阴
+T64	body 311 316	外生殖系统
+R34	bodyClinicalFeature Arg1:T63 Arg2:T53
+R35	bodyClinicalFeature Arg1:T64 Arg2:T53
+T65	body 323 325	四肢
+R36	bodyClinicalFeature Arg1:T65 Arg2:T54
+R37	timeDisease Arg1:T55 Arg2:T1
+R2	drugCure Arg1:T6 Arg2:T5	
+R3	drugCure Arg1:T6 Arg2:T4	

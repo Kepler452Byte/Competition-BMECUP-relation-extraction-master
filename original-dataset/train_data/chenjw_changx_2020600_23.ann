@@ -1,0 +1,91 @@
+T1	disease 4 10	右踝骨折术后
+T2	time 10 12	1年
+T3	time 21 24	1年前
+T5	clinicalFeature 37 39	疼痛
+T6	clinicalFeature 40 42	流血
+T7	clinicalFeature 43 47	活动受限
+T8	clinicalFeature 48 50	畸形
+T9	negative 55 56	无
+T10	clinicalFeature 56 58	昏迷
+T11	negative 59 60	无
+T12	clinicalFeature 60 62	恶心
+T13	clinicalFeature 63 65	呕吐
+T14	negative 66 67	无
+T15	clinicalFeature 67 69	胸闷
+T16	clinicalFeature 70 72	气促
+T17	body 90 93	右双踝
+T18	auxiliaryDescript 93 95	骨折
+T20	disease 109 117	右双踝开放性骨折
+T21	cure 127 131	手术清创
+T22	cure 140 144	抗炎补液
+T23	time 168 169	现
+T24	auxiliaryExamination 174 176	X片
+T27	clinicalFeature 204 207	精神可
+T33	sign 238 240	体温
+T34	indexValue 240 245	37.0℃
+T35	sign 246 248	脉搏
+T36	indexValue 248 253	78次/分
+T37	sign 254 256	呼吸
+T38	indexValue 256 261	20次/分
+T39	sign 262 264	血压
+T40	indexValue 264 274	122/78mmHg
+T41	clinicalFeature 278 281	神志清
+T42	clinicalFeature 282 285	精神可
+T43	body 286 290	右内外踝
+T44	clinicalFeature 290 299	原手术切口愈合良好
+T46	clinicalFeature 300 303	无压痛
+T47	body 304 306	关节
+T48	clinicalFeature 306 309	活动可
+T49	body 311 317	右侧足背动脉
+T50	clinicalFeature 317 321	搏动存在
+T51	body 322 324	足趾
+T52	clinicalFeature 324 330	活动及血供可
+R1	timeDisease Arg1:T2 Arg2:T1
+T4	cause 31 33	撞倒
+R2	clinicalFeatureTime Arg1:T5 Arg2:T3
+R3	causeClinicalFeature Arg1:T4 Arg2:T5
+T53	body 35 37	右踝
+R4	bodyClinicalFeature Arg1:T53 Arg2:T5
+R5	bodyClinicalFeature Arg1:T53 Arg2:T6
+R6	clinicalFeatureTime Arg1:T6 Arg2:T3
+R7	bodyClinicalFeature Arg1:T53 Arg2:T7
+R8	clinicalFeatureTime Arg1:T7 Arg2:T3
+R9	bodyClinicalFeature Arg1:T53 Arg2:T8
+R10	clinicalFeatureTime Arg1:T8 Arg2:T3
+R11	causeClinicalFeature Arg1:T4 Arg2:T6
+R12	causeClinicalFeature Arg1:T4 Arg2:T7
+R13	causeClinicalFeature Arg1:T4 Arg2:T8
+R14	negativeClinicalFeature Arg1:T9 Arg2:T10
+R15	negativeClinicalFeature Arg1:T11 Arg2:T12
+R16	negativeClinicalFeature Arg1:T11 Arg2:T13
+R17	negativeClinicalFeature Arg1:T14 Arg2:T15
+R18	negativeClinicalFeature Arg1:T14 Arg2:T16
+R19	clinicalFeatureTime Arg1:T10 Arg2:T3
+R20	clinicalFeatureTime Arg1:T12 Arg2:T3
+R21	clinicalFeatureTime Arg1:T13 Arg2:T3
+R22	clinicalFeatureTime Arg1:T15 Arg2:T3
+R23	clinicalFeatureTime Arg1:T16 Arg2:T3
+T54	auxiliaryExamination 84 88	X线检查
+R24	bodyAuxiliaryDescript Arg1:T17 Arg2:T18
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T54 Arg2:T18
+R27	auxiliaryExaminationTime Arg1:T24 Arg2:T23
+T55	auxiliaryDescript 178 184	骨折愈合良好
+R28	auxiliaryExaminationAuxiliaryDescript Arg1:T24 Arg2:T55
+R32	signIndexValue Arg1:T33 Arg2:T34
+R33	signIndexValue Arg1:T35 Arg2:T36
+R34	signIndexValue Arg1:T37 Arg2:T38
+R35	signIndexValue Arg1:T39 Arg2:T40
+R37	bodyClinicalFeature Arg1:T47 Arg2:T48
+R38	bodyClinicalFeature Arg1:T43 Arg2:T46
+R39	bodyClinicalFeature Arg1:T43 Arg2:T48
+R40	bodyClinicalFeature Arg1:T43 Arg2:T44
+R41	bodyClinicalFeature Arg1:T49 Arg2:T50
+R42	bodyClinicalFeature Arg1:T51 Arg2:T52
+R43	auxiliaryExaminationTime Arg1:T54 Arg2:T3
+R44	timeDisease Arg1:T3 Arg2:T20
+T56	cure 132 137	内固定治疗
+R45	cureTime Arg1:T21 Arg2:T3
+R46	cureTime Arg1:T56 Arg2:T3
+R47	cureTime Arg1:T22 Arg2:T3
+T57	modification 50 52	明显
+R36	modificationClinicalFeature Arg1:T57 Arg2:T8

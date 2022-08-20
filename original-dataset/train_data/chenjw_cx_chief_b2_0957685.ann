@@ -1,0 +1,7 @@
+T1	body 5 10	左侧耳下区
+T2	clinicalFeature 13 15	肿物
+T5	modification 10 13	渐增性
+R1	modificationClinicalFeature Arg1:T5 Arg2:T2
+R2	bodyClinicalFeature Arg1:T1 Arg2:T2
+T6	time 15 17	3月
+R3	clinicalFeatureTime Arg1:T2 Arg2:T6

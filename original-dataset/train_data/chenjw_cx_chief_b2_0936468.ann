@@ -1,0 +1,10 @@
+T2	time 15 17	1天
+T5	clinicalFeature 3 5	停经
+T6	time 5 8	38周
+R1	clinicalFeatureTime Arg1:T5 Arg2:T6
+T1	body 9 11	阴道
+T7	modification 11 13	少许
+T8	clinicalFeature 13 15	见红
+R2	bodyClinicalFeature Arg1:T1 Arg2:T8
+R3	modificationClinicalFeature Arg1:T7 Arg2:T8
+R4	clinicalFeatureTime Arg1:T8 Arg2:T2

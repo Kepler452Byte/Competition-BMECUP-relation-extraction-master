@@ -1,0 +1,90 @@
+T1	disease 4 11	回盲部腺癌术后
+T2	time 15 18	6月余
+T3	clinicalFeature 19 21	咳痰
+T4	time 21 24	2月余
+T5	time 33 37	6月余前
+T6	disease 41 45	结肠肿瘤
+T7	operation 49 56	右半结肠癌根治
+T8	disease 81 86	回盲部腺癌
+T9	disease 91 94	脑出血
+T10	disease 95 97	脑疝
+T11	time 117 120	2月前
+T12	clinicalFeature 122 124	咳嗽
+T13	clinicalFeature 124 126	咳痰
+T14	modification 129 131	反复
+T23	sign 181 182	T
+T24	indexValue 182 187	37.4℃
+T25	sign 188 189	P
+T26	indexValue 189 195	110次/分
+T27	sign 196 197	R
+T28	indexValue 197 202	21次/分
+T29	clinicalFeature 203 210	呼吸机辅助通气
+T30	sign 212 214	Bp
+T31	indexValue 214 224	156/89mmHg
+T32	clinicalFeature 225 229	神志不清
+T33	clinicalFeature 230 234	呼之不应
+T34	clinicalFeature 235 238	能睁眼
+T35	body 246 249	双瞳孔
+T36	clinicalFeature 249 251	无殊
+T37	body 252 253	颈
+T38	clinicalFeature 253 254	软
+T39	clinicalFeature 258 260	切开
+T40	clinicalFeature 261 269	接呼吸机辅助通气
+T41	modification 270 277	模式BIPAP
+T42	clinicalFeature 278 284	自主呼吸存在
+T43	body 285 287	双肺
+T44	clinicalFeature 287 292	呼吸音偏低
+T45	clinicalFeature 293 302	未闻及明显干湿啰音
+T46	sign 303 305	心率
+T49	indexValue 309 315	110bpm
+T50	clinicalFeature 316 319	律尚齐
+T51	clinicalFeature 321 322	软
+T52	clinicalFeature 327 329	偏瘫
+T53	body 331 335	左侧肢体
+T54	clinicalFeature 336 341	不自主活动
+T55	sign 349 352	病理征
+T56	indexValue 352 355	未引出
+T57	body 356 359	双下肢
+T58	clinicalFeature 359 364	无明显水肿
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T6 Arg2:T5
+T60	time 87 89	术后
+T62	cure 109 113	气管切开
+R12	clinicalFeatureTime Arg1:T12 Arg2:T11
+R13	clinicalFeatureTime Arg1:T13 Arg2:T11
+R19	signIndexValue Arg1:T23 Arg2:T24
+R20	signIndexValue Arg1:T25 Arg2:T26
+R21	signIndexValue Arg1:T27 Arg2:T28
+R22	signIndexValue Arg1:T30 Arg2:T31
+T63	clinicalFeature 239 245	不能配合检查
+R26	bodyClinicalFeature Arg1:T35 Arg2:T36
+R27	bodyClinicalFeature Arg1:T37 Arg2:T38
+R28	signIndexValue Arg1:T55 Arg2:T56
+R29	bodyClinicalFeature Arg1:T57 Arg2:T58
+R30	bodyClinicalFeature Arg1:T53 Arg2:T54
+R32	signIndexValue Arg1:T46 Arg2:T49
+R33	bodyClinicalFeature Arg1:T43 Arg2:T44
+R34	bodyClinicalFeature Arg1:T43 Arg2:T45
+T48	disease 12 15	脑出血
+R36	timeDisease Arg1:T2 Arg2:T48
+T64	cause 37 41	检查发现
+R37	causeDisease Arg1:T64 Arg2:T6
+R6	timeDisease Arg1:T60 Arg2:T9
+R7	timeDisease Arg1:T60 Arg2:T10
+T61	body 256 258	气管
+R10	bodyClinicalFeature Arg1:T61 Arg2:T39
+R11	bodyClinicalFeature Arg1:T61 Arg2:T40
+R23	modificationClinicalFeature Arg1:T41 Arg2:T40
+T47	body 320 321	腹
+R24	bodyClinicalFeature Arg1:T47 Arg2:T51
+T65	body 323 327	右侧肢体
+R25	bodyClinicalFeature Arg1:T65 Arg2:T52
+T66	clinicalFeature 342 348	不能配合检查
+R31	bodyClinicalFeature Arg1:T53 Arg2:T66
+T67	operation 57 62	肠粘连松解
+T68	operation 63 70	大网膜结节切除
+T69	operation 71 76	小肠排列术
+R5	cureTime Arg1:T62 Arg2:T60
+R14	modificationClinicalFeature Arg1:T14 Arg2:T13
+R15	modificationClinicalFeature Arg1:T14 Arg2:T12

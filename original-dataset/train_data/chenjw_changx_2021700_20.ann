@@ -1,0 +1,165 @@
+T1	clinicalFeature 4 6	口干
+T2	clinicalFeature 6 8	多饮
+T3	time 8 10	2年
+T4	time 20 23	2年前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 31 33	口干
+T7	clinicalFeature 33 35	多饮
+T8	laboratory 41 43	血糖
+T9	laboratoryValue 43 53	28.7mmol/L
+T10	negative 54 55	无
+T11	clinicalFeature 55 57	恶心
+T12	clinicalFeature 57 59	呕吐
+T13	negative 60 61	无
+T14	clinicalFeature 61 63	头晕
+T15	clinicalFeature 63 65	头痛
+T16	negative 66 67	无
+T17	clinicalFeature 67 71	四肢麻木
+T18	disease 79 84	二型糖尿病
+T19	drug 89 94	预混胰岛素
+T21	drug 110 115	阿卡波糖片
+T22	dose 116 118	1#
+T23	frequency 119 122	BID
+T24	time 129 132	9月前
+T25	clinicalFeature 134 136	乏力
+T26	time 136 139	10月
+T27	drug 156 161	诺和锐30
+T29	drug 176 183	二甲双胍缓释片
+T30	dose 184 188	0.5g
+T31	frequency 189 192	BID
+T32	time 197 198	现
+T33	clinicalFeature 201 205	血糖偏高
+T34	drug 212 217	诺和锐30
+T36	drug 232 237	阿卡波糖片
+T37	dose 238 240	1#
+T38	frequency 241 244	BID
+T39	time 249 250	今
+T40	clinicalFeature 253 259	血糖控制不稳
+T41	negative 263 264	无
+T42	clinicalFeature 266 268	口干
+T43	clinicalFeature 268 270	多饮
+T44	negative 271 272	无
+T45	clinicalFeature 272 274	恶心
+T46	clinicalFeature 274 276	呕吐
+T47	negative 277 278	无
+T48	clinicalFeature 278 280	头晕
+T49	clinicalFeature 280 282	头痛
+T50	negative 284 285	无
+T51	clinicalFeature 285 289	四肢麻木
+T53	disease 297 302	2型糖尿病
+T65	sign 354 356	体温
+T66	indexValue 356 361	37.5℃
+T67	sign 362 364	脉搏
+T68	indexValue 364 369	80次/分
+T69	sign 370 372	呼吸
+T70	indexValue 372 377	18次/分
+T71	sign 378 380	血压
+T72	indexValue 380 390	172/93mmHg
+T73	sign 391 393	体重
+T74	indexValue 393 397	60Kg
+T75	sign 398 400	身高
+T76	indexValue 400 405	155cm
+T77	clinicalFeature 406 409	神志清
+T78	body 410 415	表浅淋巴结
+T79	clinicalFeature 415 418	未触及
+T80	clinicalFeature 419 423	呼吸平稳
+T81	body 424 425	颈
+T82	clinicalFeature 425 426	软
+T83	body 428 431	颈静脉
+T84	clinicalFeature 431 434	无怒张
+T85	body 435 438	甲状腺
+T86	clinicalFeature 438 440	不大
+T87	body 441 443	双肺
+T88	clinicalFeature 443 447	呼吸音粗
+T89	clinicalFeature 448 455	未闻及干湿罗音
+T90	sign 456 458	心率
+T91	indexValue 458 463	80次/分
+T92	clinicalFeature 464 466	律齐
+T93	clinicalFeature 467 477	未闻及明显病理性杂音
+T94	body 478 479	腹
+T95	clinicalFeature 479 480	软
+T96	body 481 482	肝
+T97	body 482 483	脾
+T98	clinicalFeature 483 487	肋下未及
+T99	body 488 490	全腹
+T100	negative 490 491	无
+T101	clinicalFeature 493 496	反跳痛
+T102	body 497 500	双下肢
+T103	clinicalFeature 500 503	无浮肿
+T104	body 505 507	四肢
+T105	sign 507 509	肌力
+T106	indexValue 509 511	5级
+T107	sign 512 515	病理征
+T108	indexValue 515 518	未引出
+T109	body 519 524	双足背动脉
+T110	clinicalFeature 524 526	可及
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	laboratoryLaboratoryValue Arg1:T8 Arg2:T9
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T10 Arg2:T12
+R10	negativeClinicalFeature Arg1:T13 Arg2:T14
+R11	negativeClinicalFeature Arg1:T13 Arg2:T15
+R12	negativeClinicalFeature Arg1:T16 Arg2:T17
+R13	laboratoryTime Arg1:T8 Arg2:T4
+R14	clinicalFeatureTime Arg1:T11 Arg2:T4
+R15	clinicalFeatureTime Arg1:T12 Arg2:T4
+R16	clinicalFeatureTime Arg1:T14 Arg2:T4
+R17	clinicalFeatureTime Arg1:T15 Arg2:T4
+R18	clinicalFeatureTime Arg1:T17 Arg2:T4
+T111	frequency 95 104	早10u 晚10u
+R19	drugFrequency Arg1:T19 Arg2:T111
+R20	drugDose Arg1:T21 Arg2:T22
+R21	drugFrequency Arg1:T21 Arg2:T23
+T20	frequency 162 170	早10u 晚6u
+R23	drugFrequency Arg1:T27 Arg2:T20
+R24	drugDose Arg1:T29 Arg2:T30
+R25	drugFrequency Arg1:T29 Arg2:T31
+R26	clinicalFeatureTime Arg1:T33 Arg2:T32
+T28	frequency 218 226	早11u 晚9u
+R27	drugFrequency Arg1:T34 Arg2:T28
+R28	drugDose Arg1:T36 Arg2:T37
+R29	drugFrequency Arg1:T36 Arg2:T38
+R30	clinicalFeatureTime Arg1:T40 Arg2:T39
+R31	negativeClinicalFeature Arg1:T41 Arg2:T42
+R32	negativeClinicalFeature Arg1:T41 Arg2:T43
+R33	negativeClinicalFeature Arg1:T44 Arg2:T45
+R34	negativeClinicalFeature Arg1:T44 Arg2:T46
+R35	negativeClinicalFeature Arg1:T47 Arg2:T48
+R36	negativeClinicalFeature Arg1:T47 Arg2:T49
+R37	clinicalFeatureTime Arg1:T42 Arg2:T39
+R38	clinicalFeatureTime Arg1:T43 Arg2:T39
+R39	clinicalFeatureTime Arg1:T45 Arg2:T39
+R40	clinicalFeatureTime Arg1:T46 Arg2:T39
+R41	clinicalFeatureTime Arg1:T48 Arg2:T39
+R42	clinicalFeatureTime Arg1:T49 Arg2:T39
+R43	negativeClinicalFeature Arg1:T50 Arg2:T51
+R51	signIndexValue Arg1:T65 Arg2:T66
+R52	signIndexValue Arg1:T67 Arg2:T68
+R53	signIndexValue Arg1:T69 Arg2:T70
+R54	signIndexValue Arg1:T71 Arg2:T72
+R55	signIndexValue Arg1:T73 Arg2:T74
+R56	signIndexValue Arg1:T75 Arg2:T76
+R57	bodyClinicalFeature Arg1:T78 Arg2:T79
+R58	bodyClinicalFeature Arg1:T81 Arg2:T82
+R59	bodyClinicalFeature Arg1:T83 Arg2:T84
+R60	bodyClinicalFeature Arg1:T85 Arg2:T86
+R61	bodyClinicalFeature Arg1:T87 Arg2:T88
+R62	bodyClinicalFeature Arg1:T87 Arg2:T89
+R63	signIndexValue Arg1:T90 Arg2:T91
+R64	bodyClinicalFeature Arg1:T94 Arg2:T95
+R65	bodyClinicalFeature Arg1:T96 Arg2:T98
+R66	bodyClinicalFeature Arg1:T97 Arg2:T98
+R67	negativeClinicalFeature Arg1:T100 Arg2:T101
+R68	bodyClinicalFeature Arg1:T99 Arg2:T101
+R69	bodyClinicalFeature Arg1:T102 Arg2:T103
+R70	bodySign Arg1:T104 Arg2:T105
+R71	signIndexValue Arg1:T105 Arg2:T106
+R72	signIndexValue Arg1:T107 Arg2:T108
+R73	bodyClinicalFeature Arg1:T109 Arg2:T110
+R74	timeDisease Arg1:T4 Arg2:T18
+R22	clinicalFeatureTime Arg1:T25 Arg2:T26

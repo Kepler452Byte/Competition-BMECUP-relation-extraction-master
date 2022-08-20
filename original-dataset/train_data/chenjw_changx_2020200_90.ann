@@ -1,0 +1,167 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 6 8	气促
+T3	clinicalFeature 9 14	双下肢浮肿
+T4	time 14 17	1月余
+T5	time 27 31	1月余前
+T6	cause 31 36	无明显诱因
+T7	clinicalFeature 38 40	胸闷
+T8	clinicalFeature 40 42	气促
+T9	modification 44 47	阵发性
+T10	clinicalFeature 49 58	夜间阵发性呼吸困难
+T11	clinicalFeature 60 65	双下肢浮肿
+T12	negative 66 67	无
+T13	clinicalFeature 67 69	胸痛
+T14	clinicalFeature 69 71	心悸
+T15	negative 72 73	无
+T16	clinicalFeature 73 77	大汗淋漓
+T17	negative 78 79	无
+T18	clinicalFeature 79 81	反酸
+T19	clinicalFeature 81 83	烧心
+T20	negative 84 85	无
+T21	clinicalFeature 85 87	头痛
+T22	clinicalFeature 87 89	头晕
+T23	negative 91 92	无
+T24	clinicalFeature 92 94	黑朦
+T25	clinicalFeature 94 96	晕厥
+T26	negative 97 98	无
+T27	clinicalFeature 98 102	视物旋转
+T28	negative 103 104	无
+T29	clinicalFeature 104 106	恶心
+T30	clinicalFeature 106 108	呕吐
+T31	negative 109 110	无
+T32	clinicalFeature 110 112	畏寒
+T33	clinicalFeature 112 114	发热
+T34	negative 115 116	无
+T35	clinicalFeature 116 118	咳嗽
+T36	clinicalFeature 118 120	咳痰
+T37	negative 121 122	无
+T38	clinicalFeature 122 124	腹胀
+T39	clinicalFeature 124 126	腹泻
+T40	cure 134 138	未予治疗
+T41	trend 139 147	症状未见明显好转
+T42	auxiliaryExamination 162 165	心电图
+T43	auxiliaryDescript 168 172	窦性心律
+T44	disease 175 183	Ⅲ度房室传导阻滞
+T45	auxiliaryDescript 198 203	ST段下移
+T46	sign 204 206	BP
+T47	indexValue 207 217	240/60mmHg
+T49	disease 231 235	心律失常
+T50	disease 236 239	高血压
+T64	disease 291 294	高血压
+T65	drug 302 307	"吲达帕胺
+T66	dose 307 309	1#
+T67	frequency 310 312	qd
+T68	time 316 319	1周前
+T69	clinicalFeature 320 326	血压控制不佳
+T70	drug 329 332	缬沙坦
+T71	dose 332 334	1#
+T72	frequency 335 337	qd
+T73	sign 346 348	体温
+T74	indexValue 348 353	36.3℃
+T75	sign 354 356	脉搏
+T76	indexValue 356 361	39次/分
+T77	sign 362 364	呼吸
+T78	indexValue 364 369	19次/分
+T79	sign 370 372	血压
+T80	indexValue 372 382	234/69mmHg
+T81	clinicalFeature 382 385	神志清
+T82	clinicalFeature 386 390	呼吸平稳
+T83	body 391 396	浅表淋巴结
+T84	clinicalFeature 396 400	未及肿大
+T85	body 401 403	两肺
+T86	clinicalFeature 403 407	呼吸音粗
+T87	body 409 412	双下肺
+T88	clinicalFeature 412 419	未闻及干湿啰音
+T89	sign 420 422	心率
+T90	indexValue 422 427	39次/分
+T91	clinicalFeature 428 430	律齐
+T92	clinicalFeature 431 439	未闻及病理性杂音
+T93	body 440 441	腹
+T94	clinicalFeature 441 443	平软
+T96	clinicalFeature 444 447	无压痛
+T98	clinicalFeature 448 452	无反跳痛
+T99	clinicalFeature 455 460	肋下未触及
+T100	body 461 464	双下肢
+T101	clinicalFeature 464 468	中度浮肿
+R1	clinicalFeatureTime Arg1:T3 Arg2:T4
+R2	clinicalFeatureTime Arg1:T1 Arg2:T4
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	causeClinicalFeature Arg1:T6 Arg2:T7
+R5	causeClinicalFeature Arg1:T6 Arg2:T8
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T12 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T17 Arg2:T18
+R12	negativeClinicalFeature Arg1:T17 Arg2:T19
+R13	negativeClinicalFeature Arg1:T20 Arg2:T21
+R14	negativeClinicalFeature Arg1:T20 Arg2:T22
+R15	negativeClinicalFeature Arg1:T23 Arg2:T24
+R16	negativeClinicalFeature Arg1:T23 Arg2:T25
+R17	negativeClinicalFeature Arg1:T26 Arg2:T27
+R18	negativeClinicalFeature Arg1:T28 Arg2:T29
+R19	negativeClinicalFeature Arg1:T28 Arg2:T30
+R20	negativeClinicalFeature Arg1:T31 Arg2:T32
+R21	negativeClinicalFeature Arg1:T31 Arg2:T33
+R22	negativeClinicalFeature Arg1:T34 Arg2:T35
+R23	negativeClinicalFeature Arg1:T34 Arg2:T36
+R24	negativeClinicalFeature Arg1:T37 Arg2:T38
+R25	negativeClinicalFeature Arg1:T37 Arg2:T39
+R26	clinicalFeatureTime Arg1:T7 Arg2:T5
+R27	clinicalFeatureTime Arg1:T8 Arg2:T5
+R28	clinicalFeatureTime Arg1:T10 Arg2:T5
+R29	clinicalFeatureTime Arg1:T11 Arg2:T5
+R30	clinicalFeatureTime Arg1:T13 Arg2:T5
+R31	clinicalFeatureTime Arg1:T14 Arg2:T5
+R32	clinicalFeatureTime Arg1:T16 Arg2:T5
+R33	clinicalFeatureTime Arg1:T18 Arg2:T5
+R34	clinicalFeatureTime Arg1:T19 Arg2:T5
+R35	clinicalFeatureTime Arg1:T21 Arg2:T5
+R36	clinicalFeatureTime Arg1:T22 Arg2:T5
+R37	clinicalFeatureTime Arg1:T24 Arg2:T5
+R38	clinicalFeatureTime Arg1:T25 Arg2:T5
+R39	clinicalFeatureTime Arg1:T27 Arg2:T5
+R40	clinicalFeatureTime Arg1:T29 Arg2:T5
+R41	clinicalFeatureTime Arg1:T30 Arg2:T5
+R42	clinicalFeatureTime Arg1:T32 Arg2:T5
+R43	clinicalFeatureTime Arg1:T33 Arg2:T5
+R44	clinicalFeatureTime Arg1:T35 Arg2:T5
+R45	clinicalFeatureTime Arg1:T36 Arg2:T5
+R46	clinicalFeatureTime Arg1:T38 Arg2:T5
+R47	clinicalFeatureTime Arg1:T39 Arg2:T5
+R48	auxiliaryExaminationAuxiliaryDescript Arg1:T42 Arg2:T43
+R50	signIndexValue Arg1:T46 Arg2:T47
+R51	auxiliaryExaminationAuxiliaryDescript Arg1:T42 Arg2:T45
+R61	drugDose Arg1:T65 Arg2:T66
+R62	drugFrequency Arg1:T65 Arg2:T67
+R63	doseFrequency Arg1:T66 Arg2:T67
+R65	clinicalFeatureTime Arg1:T69 Arg2:T68
+R66	drugDose Arg1:T70 Arg2:T71
+R67	drugFrequency Arg1:T70 Arg2:T72
+R68	doseFrequency Arg1:T71 Arg2:T72
+R70	diseaseClinicalFeature Arg1:T64 Arg2:T69
+R71	signIndexValue Arg1:T73 Arg2:T74
+R72	signIndexValue Arg1:T75 Arg2:T76
+R73	signIndexValue Arg1:T77 Arg2:T78
+R74	signIndexValue Arg1:T79 Arg2:T80
+R75	bodyClinicalFeature Arg1:T83 Arg2:T84
+R76	bodyClinicalFeature Arg1:T85 Arg2:T86
+R77	bodyClinicalFeature Arg1:T87 Arg2:T88
+R78	signIndexValue Arg1:T89 Arg2:T90
+R79	bodyClinicalFeature Arg1:T93 Arg2:T94
+R82	bodyClinicalFeature Arg1:T93 Arg2:T96
+R83	bodyClinicalFeature Arg1:T93 Arg2:T98
+R84	bodyClinicalFeature Arg1:T100 Arg2:T101
+R85	drugTime Arg1:T70 Arg2:T68
+R91	clinicalFeatureTrend Arg1:T7 Arg2:T41
+R92	clinicalFeatureTrend Arg1:T8 Arg2:T41
+R93	clinicalFeatureTrend Arg1:T10 Arg2:T41
+R94	clinicalFeatureTrend Arg1:T11 Arg2:T41
+T103	time 148 149	今
+R95	auxiliaryExaminationTime Arg1:T42 Arg2:T103
+T104	modification 184 195	心室由心室自主心律控制
+T105	body 453 454	肝
+T106	body 454 455	脾
+R98	bodyClinicalFeature Arg1:T105 Arg2:T99
+R99	bodyClinicalFeature Arg1:T106 Arg2:T99
+R6	modificationClinicalFeature Arg1:T9 Arg2:T8
+R7	modificationClinicalFeature Arg1:T9 Arg2:T7

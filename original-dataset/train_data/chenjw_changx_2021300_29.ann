@@ -1,0 +1,155 @@
+T1	clinicalFeature 8 14	全身多处疼痛
+T2	time 14 17	2小时
+T3	time 27 31	2小时前
+T4	cause 37 39	摔倒
+T5	body 42 47	左侧头面部
+T6	body 48 50	左肘
+T7	body 51 53	左手
+T8	clinicalFeature 58 62	疼痛不适
+T9	negative 63 65	否认
+T10	clinicalFeature 66 70	肢体麻木
+T11	clinicalFeature 71 73	抽搐
+T12	negative 74 76	否认
+T13	clinicalFeature 77 79	头痛
+T14	clinicalFeature 80 82	头昏
+T15	clinicalFeature 83 85	恶心
+T16	clinicalFeature 86 88	呕吐
+T17	negative 93 95	否认
+T18	clinicalFeature 96 98	发热
+T19	clinicalFeature 98 100	畏寒
+T20	negative 101 103	否认
+T21	clinicalFeature 104 106	胸闷
+T22	clinicalFeature 107 109	气促
+T23	clinicalFeature 110 112	胸痛
+T24	negative 113 115	否认
+T25	clinicalFeature 116 118	腹痛
+T26	clinicalFeature 118 120	腹胀
+T27	auxiliaryExamination 131 133	拍片
+T28	disease 137 143	未见明显骨折
+T30	disease 157 161	多处挫伤
+T43	sign 211 212	T
+T44	indexValue 213 218	36.5℃
+T45	sign 219 220	P
+T46	indexValue 221 226	96bpm
+T47	sign 227 229	BP
+T48	indexValue 230 240	136/86mmhg
+T49	sign 241 242	R
+T50	indexValue 243 248	18bpm
+T51	clinicalFeature 249 251	神清
+T52	clinicalFeature 252 255	精神可
+T53	body 256 258	双瞳
+T54	clinicalFeature 258 262	等大等圆
+T55	clinicalFeature 263 269	Φ3.0mm
+T56	clinicalFeature 270 276	对光反射灵敏
+T57	body 278 283	左侧面颊部
+T58	clinicalFeature 283 289	可见皮肤挫伤
+T59	body 290 293	心前区
+T60	clinicalFeature 293 296	无膨隆
+T61	clinicalFeature 297 305	未闻及病理性杂音
+T62	body 306 308	双肺
+T63	clinicalFeature 308 314	呼吸运动对称
+T64	body 315 317	双肺
+T65	clinicalFeature 317 322	呼吸音清晰
+T66	clinicalFeature 326 331	干、湿罗音
+T67	body 336 337	腹
+T68	clinicalFeature 337 339	平坦
+T69	body 340 344	肝、脾区
+T70	negative 344 346	未及
+T71	clinicalFeature 346 348	叩痛
+T72	clinicalFeature 349 351	压痛
+T73	sign 353 357	墨菲氏征
+T74	indexValue 357 359	阴性
+T75	sign 360 363	肠鸣音
+T76	indexValue 363 369	4-5bpm
+T77	indexValue 370 372	调中
+T78	sign 373 377	神经系统
+T79	indexValue 377 379	阴性
+T80	body 380 383	左肘部
+T81	clinicalFeature 383 387	局部压痛
+T82	clinicalFeature 388 392	活动受限
+T83	sign 393 397	侧方试验
+T84	indexValue 397 399	阴性
+T85	body 400 403	左手掌
+T86	clinicalFeature 403 407	局部压痛
+T87	clinicalFeature 408 411	活动可
+T89	clinicalFeature 412 417	无明显麻木
+T90	body 418 422	左桡动脉
+T91	clinicalFeature 422 424	可及
+T92	body 426 429	余肢体
+T93	clinicalFeature 429 435	未见明显异常
+T94	sign 436 439	病理征
+T95	indexValue 439 442	未引出
+R1	bodyClinicalFeature Arg1:T5 Arg2:T8
+R2	bodyClinicalFeature Arg1:T6 Arg2:T8
+R3	bodyClinicalFeature Arg1:T7 Arg2:T8
+R4	negativeClinicalFeature Arg1:T9 Arg2:T10
+R5	negativeClinicalFeature Arg1:T9 Arg2:T11
+R6	negativeClinicalFeature Arg1:T12 Arg2:T13
+R7	negativeClinicalFeature Arg1:T12 Arg2:T14
+R8	negativeClinicalFeature Arg1:T12 Arg2:T15
+T96	clinicalFeature 89 91	昏迷
+R9	negativeClinicalFeature Arg1:T12 Arg2:T16
+R10	negativeClinicalFeature Arg1:T12 Arg2:T96
+R11	clinicalFeatureTime Arg1:T1 Arg2:T2
+T97	cause 4 6	摔倒
+R12	causeClinicalFeature Arg1:T97 Arg2:T1
+R13	clinicalFeatureTime Arg1:T8 Arg2:T3
+R14	clinicalFeatureTime Arg1:T10 Arg2:T3
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	clinicalFeatureTime Arg1:T14 Arg2:T3
+R17	clinicalFeatureTime Arg1:T15 Arg2:T3
+R18	clinicalFeatureTime Arg1:T16 Arg2:T3
+R19	clinicalFeatureTime Arg1:T96 Arg2:T3
+R20	negativeClinicalFeature Arg1:T17 Arg2:T18
+R21	negativeClinicalFeature Arg1:T17 Arg2:T19
+R22	negativeClinicalFeature Arg1:T20 Arg2:T21
+R23	negativeClinicalFeature Arg1:T20 Arg2:T22
+R24	negativeClinicalFeature Arg1:T20 Arg2:T23
+R25	negativeClinicalFeature Arg1:T24 Arg2:T25
+R26	negativeClinicalFeature Arg1:T24 Arg2:T26
+R35	signIndexValue Arg1:T43 Arg2:T44
+R36	signIndexValue Arg1:T45 Arg2:T46
+R37	signIndexValue Arg1:T47 Arg2:T48
+R38	signIndexValue Arg1:T49 Arg2:T50
+R39	bodyClinicalFeature Arg1:T53 Arg2:T54
+R40	bodyClinicalFeature Arg1:T53 Arg2:T55
+R41	bodyClinicalFeature Arg1:T53 Arg2:T56
+R42	bodyClinicalFeature Arg1:T57 Arg2:T58
+R43	bodyClinicalFeature Arg1:T59 Arg2:T60
+R44	clinicalFeatureTime Arg1:T11 Arg2:T3
+R45	bodyClinicalFeature Arg1:T59 Arg2:T61
+R46	bodyClinicalFeature Arg1:T62 Arg2:T63
+R47	bodyClinicalFeature Arg1:T64 Arg2:T65
+R48	bodyClinicalFeature Arg1:T64 Arg2:T66
+R49	bodyClinicalFeature Arg1:T67 Arg2:T68
+R50	negativeClinicalFeature Arg1:T70 Arg2:T71
+R51	negativeClinicalFeature Arg1:T70 Arg2:T72
+R52	bodyClinicalFeature Arg1:T69 Arg2:T71
+R53	bodyClinicalFeature Arg1:T69 Arg2:T72
+R54	signIndexValue Arg1:T73 Arg2:T74
+R55	signIndexValue Arg1:T75 Arg2:T76
+R56	signIndexValue Arg1:T75 Arg2:T77
+R57	signIndexValue Arg1:T78 Arg2:T79
+R58	bodyClinicalFeature Arg1:T80 Arg2:T81
+R59	bodyClinicalFeature Arg1:T80 Arg2:T82
+R60	signIndexValue Arg1:T83 Arg2:T84
+R61	bodyClinicalFeature Arg1:T85 Arg2:T86
+R62	bodyClinicalFeature Arg1:T85 Arg2:T87
+R64	bodyClinicalFeature Arg1:T90 Arg2:T91
+R65	bodyClinicalFeature Arg1:T92 Arg2:T93
+R66	signIndexValue Arg1:T94 Arg2:T95
+R67	auxiliaryExaminationTime Arg1:T27 Arg2:T3
+R68	clinicalFeatureTime Arg1:T18 Arg2:T3
+R69	clinicalFeatureTime Arg1:T19 Arg2:T3
+R70	clinicalFeatureTime Arg1:T21 Arg2:T3
+R71	clinicalFeatureTime Arg1:T22 Arg2:T3
+R72	clinicalFeatureTime Arg1:T23 Arg2:T3
+R73	clinicalFeatureTime Arg1:T25 Arg2:T3
+R74	clinicalFeatureTime Arg1:T26 Arg2:T3
+T98	clinicalFeature 332 335	啸鸣音
+T99	negative 323 326	未闻及
+R75	negativeClinicalFeature Arg1:T99 Arg2:T66
+R76	negativeClinicalFeature Arg1:T99 Arg2:T98
+R77	bodyClinicalFeature Arg1:T64 Arg2:T98
+R63	bodyClinicalFeature Arg1:T85 Arg2:T89
+R78	causeClinicalFeature Arg1:T4 Arg2:T8

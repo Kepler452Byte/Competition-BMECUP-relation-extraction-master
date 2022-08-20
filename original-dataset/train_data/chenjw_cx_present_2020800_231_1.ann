@@ -1,0 +1,13 @@
+T1	time 9 13	3月余前
+T2	disease 17 21	结肠肿瘤
+T3	operation 25 32	右半结肠癌根治
+T4	operation 33 38	肠粘连松解
+T5	operation 39 46	大网膜结节切除
+T6	operation 47 52	小肠排列术
+T9	cause 13 17	检查发现
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	causeDisease Arg1:T9 Arg2:T2
+R3	timeOperation Arg1:T1 Arg2:T3
+R4	timeOperation Arg1:T1 Arg2:T4
+R5	timeOperation Arg1:T1 Arg2:T5
+R6	timeOperation Arg1:T1 Arg2:T6

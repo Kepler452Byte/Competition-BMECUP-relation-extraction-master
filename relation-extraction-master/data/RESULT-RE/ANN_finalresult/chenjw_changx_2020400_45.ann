@@ -1,0 +1,98 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 10	夜尿增多
+T3	time 10 13	1年余
+T4	time 22 25	1年前
+T5	clinicalFeature 28 32	夜尿增多
+T6	modification 33 40	约5-7次/晚
+T7	negative 43 44	无
+T8	clinicalFeature 44 46	尿频
+T9	negative 47 48	无
+T10	clinicalFeature 48 50	尿急
+T11	clinicalFeature 51 53	尿痛
+T12	clinicalFeature 54 58	肉眼血尿
+T13	negative 59 60	无
+T14	body 60 63	会阴部
+T15	clinicalFeature 60 67	会阴部酸胀不适
+T16	negative 68 69	无
+T17	clinicalFeature 69 71	恶心
+T18	clinicalFeature 72 74	呕吐
+T19	negative 75 76	无
+T20	clinicalFeature 76 78	畏寒
+T21	clinicalFeature 79 81	发热
+T22	negative 82 83	无
+T23	clinicalFeature 83 85	腹胀
+T24	clinicalFeature 86 88	腹痛
+T25	negative 89 90	无
+T26	clinicalFeature 90 92	腰痛
+T27	cure 94 98	未予治疗
+T28	time 99 102	3年前
+T29	disease 104 109	膀胱颈硬化
+T30	cure 110 114	手术治疗
+T31	drug 115 119	具体不详
+T32	disease 135 140	膀胱颈梗阻
+T33	disease 141 145	前列腺炎
+T34	clinicalFeature 196 199	神志清
+T35	clinicalFeature 200 203	精神软
+T36	sign 204 206	T：
+T37	indexValue 206 211	36.0℃
+T38	sign 212 215	BP:
+T39	indexValue 215 225	117/78mmHg
+T40	sign 226 228	P:
+T41	indexValue 228 233	93次/分
+T42	sign 234 236	R:
+T43	indexValue 236 241	20次/分
+T44	body 242 243	腹
+T45	clinicalFeature 243 245	平软
+T46	body 246 248	腹部
+T47	negative 248 249	无
+T48	clinicalFeature 249 251	压痛
+T49	clinicalFeature 252 255	反跳痛
+T50	clinicalFeature 256 260	未及包块
+T51	body 262 265	耻骨上
+T52	clinicalFeature 265 271	未及充盈膀胱
+T53	body 272 275	双肾区
+T54	clinicalFeature 275 279	无叩击痛
+T55	body 280 285	双侧腹股沟
+T56	clinicalFeature 285 289	未及肿块
+T57	body 290 293	前列腺
+T58	clinicalFeature 293 295	增大
+T59	body 305 308	中央沟
+T60	clinicalFeature 311 315	未及结节
+T61	clinicalFeature 316 319	无触痛
+R1	modificationClinicalfeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+R4	modificationClinicalfeature Arg1:T6 Arg2:T5
+R5	negativeClinicalfeature Arg1:T7 Arg2:T8
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R7	negativeClinicalfeature Arg1:T9 Arg2:T12
+R8	clinicalFeatureTime Arg1:T10 Arg2:T4
+R9	clinicalFeatureTime Arg1:T11 Arg2:T4
+R10	clinicalFeatureTime Arg1:T12 Arg2:T4
+R11	negativeClinicalfeature Arg1:T13 Arg2:T15
+R12	clinicalFeatureTime Arg1:T15 Arg2:T4
+R13	negativeClinicalfeature Arg1:T16 Arg2:T18
+R14	clinicalFeatureTime Arg1:T17 Arg2:T4
+R15	clinicalFeatureTime Arg1:T18 Arg2:T4
+R16	negativeClinicalfeature Arg1:T19 Arg2:T21
+R17	clinicalFeatureTime Arg1:T20 Arg2:T4
+R18	clinicalFeatureTime Arg1:T21 Arg2:T4
+R19	negativeClinicalfeature Arg1:T22 Arg2:T24
+R20	clinicalFeatureTime Arg1:T23 Arg2:T4
+R21	clinicalFeatureTime Arg1:T24 Arg2:T4
+R22	negativeClinicalfeature Arg1:T25 Arg2:T26
+R23	clinicalFeatureTime Arg1:T26 Arg2:T4
+R24	cureTime Arg1:T27 Arg2:T4
+R25	cureTime Arg1:T30 Arg2:T28
+R26	drugCure Arg1:T31 Arg2:T30
+R27	signIndexvalue Arg1:T36 Arg2:T37
+R28	signIndexvalue Arg1:T38 Arg2:T39
+R29	signIndexvalue Arg1:T40 Arg2:T41
+R30	signIndexvalue Arg1:T42 Arg2:T43
+R31	bodyClinicalfeature Arg1:T44 Arg2:T45
+R32	bodyClinicalfeature Arg1:T46 Arg2:T50
+R33	negativeClinicalfeature Arg1:T47 Arg2:T49
+R34	bodyClinicalfeature Arg1:T51 Arg2:T52
+R35	bodyClinicalfeature Arg1:T53 Arg2:T54
+R36	bodyClinicalfeature Arg1:T55 Arg2:T56
+R37	bodyClinicalfeature Arg1:T59 Arg2:T60

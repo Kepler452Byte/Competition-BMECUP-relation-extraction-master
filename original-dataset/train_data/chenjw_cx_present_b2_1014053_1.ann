@@ -1,0 +1,11 @@
+T1	clinicalFeature 8 13	月经尚规则
+T2	modification 14 22	周期30-37天
+T3	modification 23 29	经期10余天
+T4	modification 30 33	经量中
+T6	drug 44 48	止痛药物
+R1	modificationClinicalFeature Arg1:T2 Arg2:T1
+R2	modificationClinicalFeature Arg1:T3 Arg2:T1
+R3	modificationClinicalFeature Arg1:T4 Arg2:T1
+T5	clinicalFeature 36 38	痛经
+T9	frequency 34 36	偶有
+R4	clinicalFeatureFrequency Arg1:T5 Arg2:T9

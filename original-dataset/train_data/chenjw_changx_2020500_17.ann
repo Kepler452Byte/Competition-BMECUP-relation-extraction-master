@@ -1,0 +1,66 @@
+T1	clinicalFeature 12 18	右侧肢体无力
+T2	time 18 20	1天
+T3	clinicalFeature 39 43	不能言语
+T4	clinicalFeature 55 61	右侧肢体无力
+T5	modification 62 67	抓不紧东西
+T6	clinicalFeature 68 72	行走不稳
+T7	negative 73 74	无
+T8	clinicalFeature 74 76	恶心
+T9	clinicalFeature 76 78	呕吐
+T10	negative 79 80	无
+T11	clinicalFeature 80 84	四肢抽搐
+T12	negative 85 86	无
+T13	clinicalFeature 86 88	畏寒
+T14	clinicalFeature 88 90	发热
+T15	negative 91 92	无
+T16	clinicalFeature 92 94	胸闷
+T17	clinicalFeature 94 96	气促
+T18	auxiliaryExamination 114 118	颅脑CT
+T19	body 120 125	左侧小脑区
+T20	auxiliaryDescript 125 132	条片状低密度影
+T22	auxiliaryDescript 150 156	老年性脑改变
+T23	body 167 172	左侧上颌窦
+T25	disease 188 192	脑血管病
+T35	disease 238 242	高血压病
+T36	cure 243 249	自服药物治疗
+T37	clinicalFeature 250 256	血压控制不详
+T111	clinicalFeature 7 11	不能言语
+R1	clinicalFeatureTime Arg1:T111 Arg2:T2
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T112	time 30 34	今日早晨
+R3	clinicalFeatureTime Arg1:T3 Arg2:T112
+R4	clinicalFeatureTime Arg1:T4 Arg2:T112
+R6	clinicalFeatureTime Arg1:T6 Arg2:T112
+R7	negativeClinicalFeature Arg1:T7 Arg2:T8
+R8	negativeClinicalFeature Arg1:T7 Arg2:T9
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	clinicalFeatureTime Arg1:T8 Arg2:T112
+R15	clinicalFeatureTime Arg1:T9 Arg2:T112
+R16	clinicalFeatureTime Arg1:T11 Arg2:T112
+R17	clinicalFeatureTime Arg1:T13 Arg2:T112
+R18	clinicalFeatureTime Arg1:T14 Arg2:T112
+R19	clinicalFeatureTime Arg1:T16 Arg2:T112
+R20	clinicalFeatureTime Arg1:T17 Arg2:T112
+R21	bodyAuxiliaryDescript Arg1:T19 Arg2:T20
+R22	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T20
+T113	auxiliaryDescript 157 162	脑白质变性
+T114	auxiliaryDescript 172 174	炎症
+R26	bodyAuxiliaryDescript Arg1:T23 Arg2:T114
+R34	diseaseClinicalFeature Arg1:T35 Arg2:T37
+R36	auxiliaryExaminationTime Arg1:T18 Arg2:T112
+T21	modification 133 136	软化灶
+R24	auxiliaryDesModification Arg1:T20 Arg2:T21
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T22
+R37	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T113
+R38	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T114
+T38	modification 4 7	被发现
+R39	modificationClinicalFeature Arg1:T38 Arg2:T111
+R40	modificationClinicalFeature Arg1:T38 Arg2:T1
+T39	modification 34 39	被家属发现
+R41	modificationClinicalFeature Arg1:T39 Arg2:T3
+R5	modificationClinicalFeature Arg1:T5 Arg2:T4
+T41	cure 44 48	未予重视

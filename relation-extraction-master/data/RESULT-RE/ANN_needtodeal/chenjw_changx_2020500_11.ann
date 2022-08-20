@@ -1,0 +1,55 @@
+T1	time 12 15	2月前
+T2	cause 15 20	无明显诱因
+T3	clinicalFeature 23 25	头晕
+T4	clinicalFeature 27 32	头部沉重感
+T5	body 33 36	后枕部
+T6	modification 36 38	明显
+T7	modification 39 44	阵发性发作
+T8	negative 52 53	无
+T9	clinicalFeature 53 55	头痛
+T10	negative 56 57	无
+T11	clinicalFeature 57 59	耳鸣
+T12	clinicalFeature 60 64	听力下降
+T13	negative 65 66	无
+T14	clinicalFeature 66 70	行走不稳
+T15	negative 71 72	无
+T16	clinicalFeature 72 74	恶心
+T17	clinicalFeature 74 76	呕吐
+T18	negative 77 78	无
+T19	clinicalFeature 78 84	偏侧肢体无力
+T20	negative 86 87	无
+T21	clinicalFeature 87 91	视物成双
+T22	cure 92 98	期间未予诊治
+T23	cure 94 98	未予诊治
+T24	time 99 102	2月来
+T25	trend 106 112	未见明显好转
+T26	disease 163 167	高血压病
+T27	time 168 170	1年
+T28	cure 171 177	未予服药治疗
+T29	clinicalFeature 178 184	血压控制不详
+R1	causeClinicalfeature Arg1:T2 Arg2:T3
+R2	causeClinicalfeature Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	modificationClinicalfeature Arg1:T6 Arg2:T3
+R6	modificationClinicalfeature Arg1:T6 Arg2:T4
+R7	modificationClinicalfeature Arg1:T7 Arg2:T3
+R8	modificationClinicalfeature Arg1:T7 Arg2:T4
+R9	negativeClinicalfeature Arg1:T8 Arg2:T9
+R10	clinicalFeatureTime Arg1:T9 Arg2:T1
+R11	negativeClinicalfeature Arg1:T10 Arg2:T12
+R12	clinicalFeatureTime Arg1:T11 Arg2:T1
+R13	clinicalFeatureTime Arg1:T12 Arg2:T1
+R14	negativeClinicalfeature Arg1:T13 Arg2:T14
+R15	clinicalFeatureTime Arg1:T14 Arg2:T1
+R16	negativeClinicalfeature Arg1:T15 Arg2:T17
+R17	clinicalFeatureTime Arg1:T16 Arg2:T1
+R18	clinicalFeatureTime Arg1:T17 Arg2:T1
+R19	negativeClinicalfeature Arg1:T18 Arg2:T19
+R20	clinicalFeatureTime Arg1:T19 Arg2:T1
+R21	negativeClinicalfeature Arg1:T20 Arg2:T21
+R22	clinicalFeatureTime Arg1:T21 Arg2:T1
+R23	cureTime Arg1:T22 Arg2:T1
+R24	cureTime Arg1:T23 Arg2:T1
+R25	diseaseClinicalfeature Arg1:T26 Arg2:T29
+R26	timeDisease Arg1:T27 Arg2:T26

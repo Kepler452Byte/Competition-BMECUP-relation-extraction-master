@@ -1,0 +1,138 @@
+T1	clinicalFeature 4 6	乏力
+T2	clinicalFeature 7 9	恶心
+T3	time 11 14	1周余
+T4	time 24 28	1周余前
+T5	cause 28 33	无明显诱因
+T6	clinicalFeature 36 38	乏力
+T8	clinicalFeature 46 48	恶心
+T9	clinicalFeature 48 50	纳差
+T10	negative 51 52	无
+T11	clinicalFeature 52 54	呕吐
+T12	negative 55 56	无
+T13	clinicalFeature 56 58	胸闷
+T14	clinicalFeature 58 60	气促
+T15	negative 61 62	无
+T16	clinicalFeature 62 64	畏寒
+T17	clinicalFeature 64 66	发热
+T18	negative 67 68	无
+T19	clinicalFeature 68 70	腹痛
+T20	clinicalFeature 70 72	腹泻
+T21	trend 90 93	无好转
+T37	disease 169 173	高血压病
+T38	time 174 178	10余年
+T39	drug 183 186	拜新同
+T40	dose 186 190	30mg
+T41	frequency 191 194	bid
+T42	drug 195 202	倍他乐克缓释片
+T43	dose 202 208	47.5mg
+T44	frequency 209 211	qd
+T45	drug 212 215	洛欣平
+T46	dose 215 218	2mg
+T47	frequency 219 221	qn
+T48	clinicalFeature 225 231	血压控制尚可
+T49	disease 237 240	糖尿病
+T50	time 241 245	10余年
+T51	drug 250 254	诺和锐针
+T52	dose 254 265	16u-16u-12u
+T53	clinicalFeature 277 284	血糖控制未监测
+T54	sign 293 295	体温
+T55	indexValue 295 300	37.2℃
+T56	sign 301 303	脉搏
+T57	indexValue 303 308	85次/分
+T58	sign 309 311	呼吸
+T59	indexValue 311 316	20次/分
+T60	sign 317 319	血压
+T61	indexValue 319 329	170/89mmHg
+T62	clinicalFeature 330 333	神志清
+T63	clinicalFeature 334 337	精神可
+T64	clinicalFeature 338 344	慢性肾病面容
+T65	body 345 348	颈静脉
+T66	clinicalFeature 348 351	无怒张
+T67	sign 352 354	心率
+T68	indexValue 354 359	85次/分
+T69	clinicalFeature 360 363	律尚齐
+T70	body 365 369	各瓣膜区
+T71	clinicalFeature 369 374	未闻及杂音
+T72	body 375 377	双肺
+T73	clinicalFeature 377 381	呼吸音粗
+T74	clinicalFeature 382 387	啰音未闻及
+T75	body 388 389	腹
+T76	clinicalFeature 389 390	软
+T77	body 391 392	肝
+T78	body 392 393	脾
+T79	clinicalFeature 393 398	肋下未触及
+T80	negative 399 400	无
+T81	clinicalFeature 400 402	压痛
+T82	body 403 406	双肾区
+T83	clinicalFeature 406 410	无叩击痛
+T84	body 411 414	双下肢
+T85	clinicalFeature 414 418	中度浮肿
+T86	body 419 421	四肢
+T87	sign 421 423	肌力
+T88	indexValue 423 425	正常
+T89	sign 426 429	病理征
+T90	indexValue 429 432	未引出
+T91	body 433 435	腹部
+T92	clinicalFeature 435 443	可见腹透导管一根
+T93	modification 449 454	管口无渗液
+T94	clinicalFeature 9 11	纳差
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T94 Arg2:T3
+R4	causeClinicalFeature Arg1:T5 Arg2:T6
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R7	clinicalFeatureTime Arg1:T8 Arg2:T4
+R8	clinicalFeatureTime Arg1:T9 Arg2:T4
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T19
+R15	negativeClinicalFeature Arg1:T18 Arg2:T20
+R16	clinicalFeatureTime Arg1:T11 Arg2:T4
+R17	clinicalFeatureTime Arg1:T13 Arg2:T4
+R18	clinicalFeatureTime Arg1:T14 Arg2:T4
+R19	clinicalFeatureTime Arg1:T16 Arg2:T4
+R20	clinicalFeatureTime Arg1:T17 Arg2:T4
+R21	clinicalFeatureTime Arg1:T19 Arg2:T4
+R22	clinicalFeatureTime Arg1:T20 Arg2:T4
+R30	timeDisease Arg1:T38 Arg2:T37
+R31	drugDose Arg1:T39 Arg2:T40
+R32	drugFrequency Arg1:T39 Arg2:T41
+R33	drugDose Arg1:T42 Arg2:T43
+R34	drugFrequency Arg1:T42 Arg2:T44
+R35	drugDose Arg1:T45 Arg2:T46
+R36	drugFrequency Arg1:T45 Arg2:T47
+R37	timeDisease Arg1:T50 Arg2:T49
+R38	drugDose Arg1:T51 Arg2:T52
+T95	frequency 266 273	三餐前皮下注射
+R39	drugFrequency Arg1:T51 Arg2:T95
+R40	signIndexValue Arg1:T54 Arg2:T55
+R41	signIndexValue Arg1:T56 Arg2:T57
+R42	signIndexValue Arg1:T58 Arg2:T59
+R43	signIndexValue Arg1:T60 Arg2:T61
+R44	bodyClinicalFeature Arg1:T65 Arg2:T66
+R45	signIndexValue Arg1:T67 Arg2:T68
+R46	bodyClinicalFeature Arg1:T70 Arg2:T71
+R47	bodyClinicalFeature Arg1:T72 Arg2:T73
+R48	bodyClinicalFeature Arg1:T72 Arg2:T74
+R49	bodyClinicalFeature Arg1:T75 Arg2:T76
+R50	bodyClinicalFeature Arg1:T78 Arg2:T79
+R51	bodyClinicalFeature Arg1:T77 Arg2:T79
+R52	negativeClinicalFeature Arg1:T80 Arg2:T81
+R53	bodyClinicalFeature Arg1:T75 Arg2:T81
+R54	bodyClinicalFeature Arg1:T82 Arg2:T83
+R55	bodyClinicalFeature Arg1:T84 Arg2:T85
+R56	bodySign Arg1:T86 Arg2:T87
+R57	signIndexValue Arg1:T87 Arg2:T88
+R58	signIndexValue Arg1:T89 Arg2:T90
+R59	bodyClinicalFeature Arg1:T91 Arg2:T92
+T96	modification 445 448	固定妥
+R60	modificationClinicalFeature Arg1:T96 Arg2:T92
+R61	modificationClinicalFeature Arg1:T93 Arg2:T92
+T97	cure 78 85	未予重视及诊治
+R62	cureTime Arg1:T97 Arg2:T4
+R63	clinicalFeatureTrend Arg1:T6 Arg2:T21
+R64	clinicalFeatureTrend Arg1:T8 Arg2:T21
+R65	clinicalFeatureTrend Arg1:T9 Arg2:T21

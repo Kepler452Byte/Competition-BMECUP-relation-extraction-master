@@ -1,0 +1,142 @@
+T1	clinicalFeature 4 6	胸闷
+T2	clinicalFeature 6 8	气促
+T3	clinicalFeature 9 11	咳嗽
+T4	clinicalFeature 11 13	咳痰
+T5	time 13 15	3天
+T6	time 24 27	3天前
+T7	cause 27 32	无明显诱因
+T8	clinicalFeature 36 38	胸闷
+T9	clinicalFeature 38 40	气促
+T12	negative 57 58	无
+T13	clinicalFeature 58 63	双下肢浮肿
+T14	negative 64 65	无
+T15	clinicalFeature 65 67	咳嗽
+T16	clinicalFeature 67 69	咳痰
+T17	negative 70 71	无
+T18	clinicalFeature 71 73	心慌
+T19	clinicalFeature 73 75	胸痛
+T20	negative 76 77	无
+T21	clinicalFeature 77 79	便血
+T22	clinicalFeature 79 81	黑便
+T23	clinicalFeature 86 92	食欲睡眠欠佳
+T24	auxiliaryExamination 101 106	胸部CT"
+T25	body 106 111	两肺胸膜下
+T26	auxiliaryDescript 113 116	肺大泡
+T27	body 117 120	冠脉区
+T28	auxiliaryDescript 120 122	钙化
+T29	disease 127 131	肺部感染
+T40	disease 180 184	高血压病
+T41	time 187 191	10余年
+T42	dose 199 204	5.0mg
+T43	frequency 205 207	qd
+T44	drug 208 212	替米沙坦
+T45	dose 213 217	40mg
+T46	frequency 218 221	qd"
+T47	disease 227 230	糖尿病
+T48	time 233 237	10余年
+T49	drug 241 244	美迪康
+T50	dose 244 248	0.5g
+T51	frequency 249 252	tid
+T52	drug 253 256	达美康
+T53	dose 257 261	30mg
+T54	frequency 262 264	qd
+T55	dose 269 273	50mg
+T56	indexValue 287 292	36.2℃
+T57	indexValue 295 300	77次/分
+T58	indexValue 303 308	20次/分
+T59	sign 309 311	BP
+T60	indexValue 311 321	137/88mmHg
+T61	clinicalFeature 322 325	神志清
+T62	clinicalFeature 326 330	呼吸平稳
+T63	body 331 336	浅表淋巴结
+T64	clinicalFeature 336 340	未及肿大
+T65	body 341 343	口唇
+T66	clinicalFeature 343 347	轻度发绀
+T67	body 349 351	两肺
+T68	sign 351 356	呼吸音略粗
+T69	sign 361 365	干性啰音
+T70	sign 366 368	心率
+T71	indexValue 368 373	77次/分
+T72	clinicalFeature 374 376	律齐
+T73	clinicalFeature 377 382	未闻及杂音
+T74	body 383 384	腹
+T75	clinicalFeature 384 386	平软
+T76	sign 387 390	无压痛
+T77	sign 393 398	肋下未触及
+T78	body 399 402	双下肢
+T79	clinicalFeature 402 405	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5
+R3	clinicalFeatureTime Arg1:T3 Arg2:T5
+R4	clinicalFeatureTime Arg1:T4 Arg2:T5
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R6	clinicalFeatureTime Arg1:T9 Arg2:T6
+R9	causeClinicalFeature Arg1:T7 Arg2:T8
+R10	causeClinicalFeature Arg1:T7 Arg2:T9
+R13	negativeClinicalFeature Arg1:T12 Arg2:T13
+R14	negativeClinicalFeature Arg1:T14 Arg2:T15
+R15	negativeClinicalFeature Arg1:T14 Arg2:T16
+R16	negativeClinicalFeature Arg1:T17 Arg2:T18
+R17	negativeClinicalFeature Arg1:T17 Arg2:T19
+R18	negativeClinicalFeature Arg1:T20 Arg2:T21
+R19	negativeClinicalFeature Arg1:T20 Arg2:T22
+T81	quantity 111 113	多发
+R21	auxiliaryDescriptQuantity Arg1:T26 Arg2:T81
+R22	bodyAuxiliaryDescript Arg1:T25 Arg2:T26
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T24 Arg2:T26
+R24	bodyAuxiliaryDescript Arg1:T27 Arg2:T28
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T24 Arg2:T28
+R27	clinicalFeatureTime Arg1:T13 Arg2:T6
+R28	clinicalFeatureTime Arg1:T15 Arg2:T6
+R29	clinicalFeatureTime Arg1:T16 Arg2:T6
+R30	clinicalFeatureTime Arg1:T18 Arg2:T6
+R31	clinicalFeatureTime Arg1:T19 Arg2:T6
+R32	clinicalFeatureTime Arg1:T21 Arg2:T6
+R33	clinicalFeatureTime Arg1:T22 Arg2:T6
+R34	clinicalFeatureTime Arg1:T23 Arg2:T6
+R41	timeDisease Arg1:T41 Arg2:T40
+T85	drug 195 198	波依定
+R42	drugDose Arg1:T85 Arg2:T42
+R43	drugFrequency Arg1:T85 Arg2:T43
+R44	doseFrequency Arg1:T42 Arg2:T43
+R46	drugDose Arg1:T44 Arg2:T45
+R47	drugFrequency Arg1:T44 Arg2:T46
+R48	doseFrequency Arg1:T45 Arg2:T46
+R49	timeDisease Arg1:T48 Arg2:T47
+R51	doseFrequency Arg1:T50 Arg2:T51
+R52	drugDose Arg1:T49 Arg2:T50
+R53	drugFrequency Arg1:T49 Arg2:T51
+R54	drugDose Arg1:T52 Arg2:T53
+R55	drugFrequency Arg1:T52 Arg2:T54
+R56	doseFrequency Arg1:T53 Arg2:T54
+T86	drug 265 268	卡博平
+T87	frequency 274 277	tid
+R58	drugDose Arg1:T86 Arg2:T55
+R59	drugFrequency Arg1:T86 Arg2:T87
+R60	doseFrequency Arg1:T55 Arg2:T87
+T88	sign 285 286	T
+R62	signIndexValue Arg1:T88 Arg2:T56
+T89	sign 293 294	P
+R63	signIndexValue Arg1:T89 Arg2:T57
+T90	sign 301 302	R
+R64	signIndexValue Arg1:T90 Arg2:T58
+R65	signIndexValue Arg1:T59 Arg2:T60
+R66	bodyClinicalFeature Arg1:T63 Arg2:T64
+R67	bodyClinicalFeature Arg1:T65 Arg2:T66
+R70	signIndexValue Arg1:T70 Arg2:T71
+R71	bodyClinicalFeature Arg1:T74 Arg2:T75
+R73	bodySign Arg1:T74 Arg2:T76
+R74	bodyClinicalFeature Arg1:T78 Arg2:T79
+T92	body 391 392	肝
+T93	body 392 393	脾
+R75	bodySign Arg1:T92 Arg2:T77
+R76	bodySign Arg1:T93 Arg2:T77
+T10	clinicalFeature 141 144	神志清
+T11	clinicalFeature 145 148	精神软
+T30	clinicalFeature 149 153	胃纳欠佳
+T31	clinicalFeature 154 158	睡眠欠佳
+T32	clinicalFeature 159 164	大小便如常
+T33	clinicalFeature 167 174	体重无明显改变
+T34	time 165 167	近期
+R7	bodySign Arg1:T67 Arg2:T68	
+R8	bodySign Arg1:T67 Arg2:T69	

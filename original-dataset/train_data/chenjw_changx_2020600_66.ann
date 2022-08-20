@@ -1,0 +1,116 @@
+T2	time 11 13	2周
+T3	time 22 25	2周前
+T7	modification 46 50	尚能忍受
+T8	negative 51 52	无
+T9	clinicalFeature 52 54	畏寒
+T10	clinicalFeature 54 56	发热
+T11	negative 57 58	无
+T12	clinicalFeature 58 62	下肢麻木
+T13	cure 63 66	未治疗
+T14	clinicalFeature 71 73	疼痛
+T15	trend 73 75	加重
+T16	modification 76 80	难以忍受
+T21	auxiliaryDescript 133 140	骨折PVP改变
+T26	auxiliaryDescript 225 229	退变增生
+T28	disease 235 239	胸椎骨折
+T41	sign 291 293	体温
+T42	indexValue 293 298	36.7℃
+T43	sign 299 301	脉搏
+T44	indexValue 301 306	78次/分
+T45	sign 307 309	呼吸
+T46	indexValue 309 313	0次/分
+T47	sign 314 316	血压
+T48	indexValue 316 326	125/73mmHg
+T49	clinicalFeature 327 330	神志清
+T52	body 335 336	心
+T53	clinicalFeature 337 341	听诊无殊
+T54	clinicalFeature 343 344	软
+T56	clinicalFeature 345 348	无压痛
+T57	clinicalFeature 359 361	压痛
+T58	clinicalFeature 365 369	活动受限
+T62	sign 381 385	病理反射
+T63	indexValue 385 388	未引出
+T1	cause 4 6	摔伤
+T64	body 6 8	腰部
+T65	clinicalFeature 9 11	疼痛
+R1	causeClinicalFeature Arg1:T1 Arg2:T65
+R2	bodyClinicalFeature Arg1:T64 Arg2:T65
+R3	clinicalFeatureTime Arg1:T65 Arg2:T2
+T4	cause 27 29	摔伤
+T66	body 29 31	腰部
+T5	clinicalFeature 34 36	疼痛
+R4	bodyClinicalFeature Arg1:T66 Arg2:T5
+R5	causeClinicalFeature Arg1:T4 Arg2:T5
+R6	clinicalFeatureTime Arg1:T5 Arg2:T3
+R9	negativeClinicalFeature Arg1:T8 Arg2:T9
+R10	negativeClinicalFeature Arg1:T8 Arg2:T10
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	clinicalFeatureTime Arg1:T9 Arg2:T3
+R13	clinicalFeatureTime Arg1:T10 Arg2:T3
+R14	clinicalFeatureTime Arg1:T12 Arg2:T3
+R16	clinicalFeatureTrend Arg1:T14 Arg2:T15
+T67	time 68 70	今日
+R17	clinicalFeatureTime Arg1:T14 Arg2:T67
+T68	auxiliaryExamination 94 96	CT
+T17	disease 98 107	胸11椎体压缩骨折
+T18	auxiliaryDescript 115 119	轻度变形
+R20	auxiliaryExaminationAuxiliaryDescript Arg1:T68 Arg2:T18
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T68 Arg2:T21
+T19	auxiliaryDescript 144 149	退行性改变
+R22	auxiliaryExaminationAuxiliaryDescript Arg1:T68 Arg2:T19
+T20	auxiliaryExamination 151 154	MRT
+T22	auxiliaryDescript 161 165	压缩骨折
+R24	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T22
+T24	auxiliaryDescript 183 189	PVP后改变
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T24
+T25	auxiliaryDescript 208 217	椎间盘变性伴膨突出
+R26	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T25
+R27	auxiliaryExaminationAuxiliaryDescript Arg1:T20 Arg2:T26
+R35	signIndexValue Arg1:T41 Arg2:T42
+R36	signIndexValue Arg1:T43 Arg2:T44
+R37	signIndexValue Arg1:T45 Arg2:T46
+R38	signIndexValue Arg1:T47 Arg2:T48
+T50	clinicalFeature 331 334	精神软
+R39	bodyClinicalFeature Arg1:T52 Arg2:T53
+T51	body 342 343	腹
+R40	bodyClinicalFeature Arg1:T51 Arg2:T54
+R42	bodyClinicalFeature Arg1:T51 Arg2:T56
+R43	signIndexValue Arg1:T62 Arg2:T63
+R15	cureTime Arg1:T13 Arg2:T3
+R44	auxiliaryExaminationTime Arg1:T68 Arg2:T67
+T59	body 109 115	胸7、8椎体
+R45	bodyAuxiliaryDescript Arg1:T59 Arg2:T18
+T61	body 128 133	胸12椎体
+R46	bodyAuxiliaryDescript Arg1:T61 Arg2:T21
+T69	body 142 144	胸椎
+R47	bodyAuxiliaryDescript Arg1:T69 Arg2:T19
+T70	body 156 161	胸11椎体
+R48	bodyAuxiliaryDescript Arg1:T70 Arg2:T22
+T71	body 178 183	胸12椎体
+R49	bodyAuxiliaryDescript Arg1:T71 Arg2:T24
+T72	body 191 208	腰2-3、3-4、4-5、腰5骶1
+R50	bodyAuxiliaryDescript Arg1:T72 Arg2:T25
+T73	body 219 221	腰椎
+T74	body 222 225	下胸椎
+R51	bodyAuxiliaryDescript Arg1:T73 Arg2:T26
+R52	bodyAuxiliaryDescript Arg1:T74 Arg2:T26
+T75	body 336 337	肺
+R53	bodyClinicalFeature Arg1:T75 Arg2:T53
+T76	body 349 359	胸11椎体棘突及椎旁
+R54	bodyClinicalFeature Arg1:T76 Arg2:T57
+T77	body 363 365	胸椎
+R55	bodyClinicalFeature Arg1:T77 Arg2:T58
+T60	body 370 373	双下肢
+T78	sign 373 375	肌力
+T79	sign 376 378	感觉
+T80	indexValue 378 380	正常
+R56	bodySign Arg1:T60 Arg2:T78
+R57	bodySign Arg1:T60 Arg2:T79
+R58	signIndexValue Arg1:T78 Arg2:T80
+R59	signIndexValue Arg1:T79 Arg2:T80
+T55	modification 36 38	明显
+R41	modificationClinicalFeature Arg1:T55 Arg2:T5
+T6	modification 40 43	持续性
+R7	modificationClinicalFeature Arg1:T6 Arg2:T5
+R8	modificationClinicalFeature Arg1:T7 Arg2:T5
+R18	modificationClinicalFeature Arg1:T16 Arg2:T14

@@ -1,0 +1,4 @@
+T1	time 6 13	2017.11
+T2	operation 31 37	宫颈癌切除术
+T5	disease 16 19	宫颈癌
+R1	timeDisease Arg1:T1 Arg2:T5

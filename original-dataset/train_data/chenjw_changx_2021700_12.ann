@@ -1,0 +1,104 @@
+T1	clinicalFeature 4 8	声音嘶哑
+T2	time 8 12	10年余
+T3	clinicalFeature 13 17	听力下降
+T4	time 17 19	1月
+T5	clinicalFeature 20 22	乏力
+T6	time 22 24	1天
+T7	time 33 38	10年余前
+T8	cause 38 43	无明显诱因
+T9	clinicalFeature 46 50	声音嘶哑
+T10	auxiliaryDescript 76 83	气管淀粉样变性
+T11	time 84 87	1年前
+T12	operation 92 100	气管淀粉样变手术
+T13	time 103 106	1月前
+T14	clinicalFeature 108 112	听力下降
+T15	disease 123 128	突发性耳聋
+T16	time 139 142	1天前
+T17	cause 142 147	无明显诱因
+T18	clinicalFeature 150 152	乏力
+T19	clinicalFeature 152 154	纳差
+T20	clinicalFeature 155 160	腰背部酸痛
+T21	negative 161 162	无
+T22	clinicalFeature 162 164	恶心
+T23	clinicalFeature 164 166	呕吐
+T24	negative 167 168	无
+T25	clinicalFeature 168 170	头痛
+T26	clinicalFeature 170 172	头晕
+T27	negative 173 174	无
+T28	clinicalFeature 174 178	视物旋转
+T29	negative 180 181	无
+T30	clinicalFeature 181 185	肢体麻木
+T32	disease 209 217	乏力待查：功能性
+T46	sign 272 274	体温
+T47	indexValue 274 279	36.5℃
+T48	sign 280 282	脉搏
+T49	indexValue 282 287	75次/分
+T50	sign 288 290	呼吸
+T51	indexValue 290 295	17次/分
+T52	sign 296 298	血压
+T53	indexValue 298 308	138/75mmHg
+T54	clinicalFeature 309 312	神志清
+T55	body 313 318	表浅淋巴结
+T56	clinicalFeature 318 321	未触及
+T57	body 322 324	双肺
+T58	clinicalFeature 324 328	呼吸音清
+T59	clinicalFeature 329 337	未闻及干、湿啰音
+T60	clinicalFeature 338 341	心律齐
+T61	clinicalFeature 343 353	未闻及明显病理性杂音
+T62	body 354 355	腹
+T63	clinicalFeature 355 356	软
+T64	body 357 358	肝
+T65	body 358 359	脾
+T66	clinicalFeature 359 363	肋下未及
+T67	body 364 366	全腹
+T68	negative 366 367	无
+T69	clinicalFeature 369 372	反跳痛
+T70	body 373 376	双下肢
+T71	clinicalFeature 376 379	无水肿
+T72	body 380 383	双下肢
+T73	sign 383 385	肌力
+T74	indexValue 385 387	5级
+T75	body 388 391	双上肢
+T76	sign 391 393	肌力
+T77	indexValue 393 395	5级
+T78	sign 396 399	病理征
+T79	indexValue 399 402	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T8 Arg2:T9
+R5	clinicalFeatureTime Arg1:T9 Arg2:T7
+T80	auxiliaryExamination 64 71	经支气管镜活检
+R6	auxiliaryExaminationAuxiliaryDescript Arg1:T80 Arg2:T10
+R7	timeOperation Arg1:T11 Arg2:T12
+R8	clinicalFeatureTime Arg1:T14 Arg2:T13
+R10	causeClinicalFeature Arg1:T17 Arg2:T18
+R11	causeClinicalFeature Arg1:T17 Arg2:T19
+R12	clinicalFeatureTime Arg1:T18 Arg2:T16
+R13	clinicalFeatureTime Arg1:T19 Arg2:T16
+R14	causeClinicalFeature Arg1:T17 Arg2:T20
+R15	clinicalFeatureTime Arg1:T20 Arg2:T16
+R16	negativeClinicalFeature Arg1:T21 Arg2:T22
+R17	negativeClinicalFeature Arg1:T21 Arg2:T23
+R18	negativeClinicalFeature Arg1:T24 Arg2:T25
+R19	negativeClinicalFeature Arg1:T24 Arg2:T26
+R20	negativeClinicalFeature Arg1:T27 Arg2:T28
+R21	negativeClinicalFeature Arg1:T29 Arg2:T30
+R30	signIndexValue Arg1:T46 Arg2:T47
+R31	signIndexValue Arg1:T48 Arg2:T49
+R32	signIndexValue Arg1:T50 Arg2:T51
+R33	signIndexValue Arg1:T52 Arg2:T53
+R34	bodyClinicalFeature Arg1:T55 Arg2:T56
+R35	bodyClinicalFeature Arg1:T57 Arg2:T58
+R36	bodyClinicalFeature Arg1:T57 Arg2:T59
+R37	bodyClinicalFeature Arg1:T62 Arg2:T63
+R38	bodyClinicalFeature Arg1:T64 Arg2:T66
+R39	bodyClinicalFeature Arg1:T65 Arg2:T66
+R40	negativeClinicalFeature Arg1:T68 Arg2:T69
+R41	bodyClinicalFeature Arg1:T67 Arg2:T69
+R42	bodyClinicalFeature Arg1:T70 Arg2:T71
+R43	bodySign Arg1:T72 Arg2:T73
+R44	signIndexValue Arg1:T73 Arg2:T74
+R45	bodySign Arg1:T75 Arg2:T76
+R46	signIndexValue Arg1:T76 Arg2:T77
+R47	signIndexValue Arg1:T78 Arg2:T79

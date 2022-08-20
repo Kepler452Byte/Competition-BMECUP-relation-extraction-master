@@ -1,0 +1,126 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 11	二月余
+T4	time 20 23	二月前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 31 33	咳嗽
+T7	clinicalFeature 33 35	咳嗽
+T8	clinicalFeature 36 39	痰不多
+T9	modification 40 43	可咳出
+T10	modification 44 46	偶有
+T11	clinicalFeature 46 50	痰中带血
+T12	modification 51 53	色红
+T13	negative 54 55	无
+T14	clinicalFeature 57 59	胸闷
+T15	clinicalFeature 59 61	气急
+T16	negative 62 63	无
+T17	clinicalFeature 63 65	畏寒
+T18	clinicalFeature 65 67	发热
+T19	negative 68 69	无
+T20	clinicalFeature 69 71	胸痛
+T21	negative 72 73	无
+T22	clinicalFeature 73 75	头晕
+T23	clinicalFeature 75 77	头痛
+T24	negative 78 79	无
+T25	clinicalFeature 79 81	恶心
+T26	clinicalFeature 81 83	呕吐
+T27	drug 91 97	具体用药不详
+T28	trend 100 103	无好转
+T29	auxiliaryExamination 113 117	胸部CT
+T30	body 118 120	两肺
+T31	body 125 128	右下肺
+T32	auxiliaryDescript 128 131	片状影
+T33	body 132 134	肝脏
+T34	auxiliaryDescript 136 140	低密度影
+T36	disease 145 149	肺部感染
+T49	sign 204 205	T
+T50	indexValue 206 211	36.3℃
+T51	sign 212 213	P
+T52	indexValue 214 219	80次/分
+T53	sign 220 221	R
+T54	indexValue 222 227	18次/分
+T55	sign 228 230	BP
+T56	indexValue 231 241	129/87mmHg
+T57	clinicalFeature 242 245	神志清
+T58	clinicalFeature 246 250	呼吸平稳
+T59	body 251 256	浅表淋巴结
+T60	clinicalFeature 256 260	未及肿大
+T61	body 261 263	口唇
+T62	clinicalFeature 263 268	无明显发绀
+T63	body 270 272	两肺
+T64	clinicalFeature 272 276	呼吸音粗
+T65	clinicalFeature 277 282	未闻及啰音
+T66	sign 283 285	心率
+T67	indexValue 285 290	80次/分
+T68	clinicalFeature 291 293	律齐
+T69	clinicalFeature 294 299	未闻及杂音
+T70	body 300 301	腹
+T71	clinicalFeature 301 303	平软
+T72	clinicalFeature 304 307	无压痛
+T73	body 308 309	肝
+T74	body 309 310	脾
+T75	clinicalFeature 310 315	肋下未触及
+T76	body 316 319	双下肢
+T77	clinicalFeature 319 322	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	causeClinicalFeature Arg1:T5 Arg2:T7
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T13 Arg2:T15
+R11	negativeClinicalFeature Arg1:T16 Arg2:T17
+R12	negativeClinicalFeature Arg1:T16 Arg2:T18
+R13	negativeClinicalFeature Arg1:T19 Arg2:T20
+R14	negativeClinicalFeature Arg1:T21 Arg2:T22
+R15	negativeClinicalFeature Arg1:T21 Arg2:T23
+R16	negativeClinicalFeature Arg1:T24 Arg2:T25
+R17	negativeClinicalFeature Arg1:T24 Arg2:T26
+R18	causeClinicalFeature Arg1:T5 Arg2:T11
+R19	clinicalFeatureTime Arg1:T6 Arg2:T4
+R20	clinicalFeatureTime Arg1:T7 Arg2:T4
+R21	clinicalFeatureTime Arg1:T11 Arg2:T4
+R22	clinicalFeatureTime Arg1:T14 Arg2:T4
+R23	clinicalFeatureTime Arg1:T15 Arg2:T4
+R24	clinicalFeatureTime Arg1:T17 Arg2:T4
+R25	clinicalFeatureTime Arg1:T18 Arg2:T4
+R26	clinicalFeatureTime Arg1:T20 Arg2:T4
+R27	clinicalFeatureTime Arg1:T22 Arg2:T4
+R28	clinicalFeatureTime Arg1:T23 Arg2:T4
+R29	clinicalFeatureTime Arg1:T25 Arg2:T4
+R30	clinicalFeatureTime Arg1:T26 Arg2:T4
+T78	cure 87 89	治疗
+R33	cureTime Arg1:T78 Arg2:T4
+R34	clinicalFeatureTrend Arg1:T6 Arg2:T28
+R35	clinicalFeatureTrend Arg1:T7 Arg2:T28
+R36	clinicalFeatureTrend Arg1:T11 Arg2:T28
+R37	bodyAuxiliaryDescript Arg1:T31 Arg2:T32
+T79	quantity 134 136	多发
+R38	auxiliaryDescriptQuantity Arg1:T34 Arg2:T79
+R39	bodyAuxiliaryDescript Arg1:T33 Arg2:T34
+T80	auxiliaryDescript 120 124	粟粒样影
+R40	bodyAuxiliaryDescript Arg1:T30 Arg2:T80
+R41	auxiliaryExaminationAuxiliaryDescript Arg1:T29 Arg2:T80
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T29 Arg2:T32
+R43	auxiliaryExaminationAuxiliaryDescript Arg1:T29 Arg2:T34
+T81	time 104 105	今
+R45	auxiliaryExaminationTime Arg1:T29 Arg2:T81
+R52	signIndexValue Arg1:T49 Arg2:T50
+R53	signIndexValue Arg1:T51 Arg2:T52
+R54	signIndexValue Arg1:T53 Arg2:T54
+R55	signIndexValue Arg1:T55 Arg2:T56
+R56	bodyClinicalFeature Arg1:T59 Arg2:T60
+R57	bodyClinicalFeature Arg1:T61 Arg2:T62
+R58	bodyClinicalFeature Arg1:T63 Arg2:T64
+R59	bodyClinicalFeature Arg1:T63 Arg2:T65
+R60	signIndexValue Arg1:T66 Arg2:T67
+R61	bodyClinicalFeature Arg1:T70 Arg2:T71
+R62	bodyClinicalFeature Arg1:T70 Arg2:T72
+R63	bodyClinicalFeature Arg1:T73 Arg2:T75
+R64	bodyClinicalFeature Arg1:T74 Arg2:T75
+R65	bodyClinicalFeature Arg1:T76 Arg2:T77
+R5	modificationClinicalFeature Arg1:T9 Arg2:T8
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R66	causeClinicalFeature Arg1:T5 Arg2:T8
+R7	modificationClinicalFeature Arg1:T10 Arg2:T11
+R8	modificationClinicalFeature Arg1:T12 Arg2:T11
+R31	drugCure Arg1:T27 Arg2:T78	

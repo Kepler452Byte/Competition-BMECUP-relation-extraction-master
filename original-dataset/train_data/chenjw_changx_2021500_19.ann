@@ -1,0 +1,41 @@
+T1	disease 4 12	脑室腹腔分流术后
+T2	time 12 14	半月
+T3	clinicalFeature 15 19	缄默不语
+T4	time 19 21	2天
+T5	time 30 33	半月前
+T6	operation 41 49	脑室腹腔分流手术
+T7	time 62 66	近2天来
+T8	clinicalFeature 69 73	缄默不语
+T9	clinicalFeature 74 78	精神萎靡
+T10	negative 79 80	无
+T11	clinicalFeature 80 82	呕吐
+T12	negative 83 84	无
+T13	clinicalFeature 84 88	四肢抽搐
+T14	negative 89 90	无
+T15	clinicalFeature 90 95	大小便失禁
+T16	auxiliaryExamination 106 108	摄片
+T17	body 109 113	左侧额叶
+T18	auxiliaryDescript 113 118	见密度增高
+T19	modification 119 125	术后改变可能
+T20	disease 134 143	脑积水引流术后改变
+T21	time 145 156	2019-11-24前
+T22	body 157 162	双侧侧脑室
+T23	auxiliaryDescript 162 167	增宽、增深
+T25	disease 182 190	脑室腹腔分流术后
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+T38	disease 33 36	脑积水
+R3	timeDisease Arg1:T5 Arg2:T38
+R5	timeOperation Arg1:T5 Arg2:T6
+R6	clinicalFeatureTime Arg1:T8 Arg2:T7
+R7	clinicalFeatureTime Arg1:T9 Arg2:T7
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T14 Arg2:T15
+R11	clinicalFeatureTime Arg1:T11 Arg2:T7
+R12	clinicalFeatureTime Arg1:T13 Arg2:T7
+R13	clinicalFeatureTime Arg1:T15 Arg2:T7
+R14	bodyAuxiliaryDescript Arg1:T17 Arg2:T18
+R15	auxiliaryExaminationAuxiliaryDescript Arg1:T16 Arg2:T18
+R16	bodyAuxiliaryDescript Arg1:T22 Arg2:T23
+R18	auxiliaryDesModification Arg1:T18 Arg2:T19

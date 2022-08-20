@@ -1,0 +1,63 @@
+T1	sign 48 50	T：
+T2	indexValue 50 55	36.5℃
+T3	sign 56 58	P：
+T4	indexValue 58 63	74次/分
+T5	sign 64 66	R：
+T6	indexValue 66 71	20次/分
+T7	sign 72 75	Bp：
+T8	indexValue 75 85	128/75mmHg
+T9	clinicalFeature 86 88	神清
+T10	clinicalFeature 89 92	精神可
+T11	body 93 97	双侧瞳孔
+T12	clinicalFeature 97 101	等大等圆
+T13	clinicalFeature 102 109	直径2.5mm
+T14	clinicalFeature 110 116	对光反射灵敏
+T15	body 118 120	两肺
+T16	clinicalFeature 120 124	呼吸音粗
+T17	clinicalFeature 125 134	未闻及明显干湿罗音
+T18	clinicalFeature 135 138	心律齐
+T19	body 139 145	各瓣膜听诊区
+T20	clinicalFeature 145 152	未及病理性杂音
+T21	body 153 154	腹
+T22	clinicalFeature 154 155	软
+T23	negative 156 157	无
+T24	clinicalFeature 157 159	压痛
+T25	clinicalFeature 160 163	反跳痛
+T26	body 164 165	肝
+T27	body 165 166	脾
+T28	clinicalFeature 166 170	肋下未及
+T29	body 171 174	双肾区
+T30	clinicalFeature 174 178	无叩击痛
+T31	body 179 182	双下肢
+T32	clinicalFeature 182 184	不肿
+T33	body 185 187	腰部
+T34	sign 185 189	腰部压痛
+T35	sign 187 189	压痛
+T36	indexValue 189 191	阴性
+T37	clinicalFeature 192 197	活动稍受限
+T38	sign 199 205	直腿抬高试验
+T39	indexValue 205 207	阳性
+T40	sign 208 212	加强试验
+T41	indexValue 212 214	阳性
+T42	sign 215 221	”4”字试验
+T43	indexValue 221 223	阳性
+T44	sign 224 230	屈髋屈膝试验
+T45	indexValue 230 232	阴性
+R1	signIndexvalue Arg1:T1 Arg2:T2
+R2	signIndexvalue Arg1:T3 Arg2:T4
+R3	signIndexvalue Arg1:T5 Arg2:T6
+R4	signIndexvalue Arg1:T7 Arg2:T8
+R5	bodyClinicalfeature Arg1:T11 Arg2:T14
+R6	bodyClinicalfeature Arg1:T15 Arg2:T17
+R7	bodyClinicalfeature Arg1:T19 Arg2:T20
+R8	negativeClinicalfeature Arg1:T23 Arg2:T25
+R9	bodyClinicalfeature Arg1:T26 Arg2:T28
+R10	bodyClinicalfeature Arg1:T27 Arg2:T28
+R11	bodyClinicalfeature Arg1:T29 Arg2:T30
+R12	bodyClinicalfeature Arg1:T31 Arg2:T32
+R13	bodyClinicalfeature Arg1:T34 Arg2:T37
+R14	signIndexvalue Arg1:T35 Arg2:T36
+R15	signIndexvalue Arg1:T38 Arg2:T39
+R16	signIndexvalue Arg1:T40 Arg2:T41
+R17	signIndexvalue Arg1:T42 Arg2:T43
+R18	signIndexvalue Arg1:T44 Arg2:T45

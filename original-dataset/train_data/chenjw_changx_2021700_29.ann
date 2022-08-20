@@ -1,0 +1,174 @@
+T1	clinicalFeature 6 10	血糖升高
+T2	time 10 12	6年
+T3	clinicalFeature 13 15	血尿
+T4	time 15 17	半月
+T5	time 26 29	6年前
+T6	clinicalFeature 34 38	血糖升高
+T8	negative 49 50	无
+T9	clinicalFeature 50 56	口干多饮多尿
+T10	negative 57 58	无
+T11	clinicalFeature 58 62	视物模糊
+T12	negative 63 64	无
+T13	clinicalFeature 64 68	视物旋转
+T14	negative 69 70	无
+T15	clinicalFeature 70 74	四肢发麻
+T16	disease 85 90	2型糖尿病
+T17	cure 94 100	口服降糖药物
+T18	drug 101 105	具体不详
+T19	cure 109 115	饮食控制一般
+T21	drug 127 131	诺和力针
+T22	dose 131 136	1.2mg
+T23	drug 146 151	二甲双胍片
+T24	dose 151 153	1片
+T25	frequency 154 158	每日两次
+T26	clinicalFeature 182 188	血糖控制不佳
+T27	laboratoryValue 200 210	15.6mmol/L
+T28	negative 211 212	无
+T29	clinicalFeature 214 216	口干
+T30	negative 221 222	无
+T31	clinicalFeature 222 224	头痛
+T32	clinicalFeature 224 226	头晕
+T33	negative 227 228	无
+T34	clinicalFeature 228 232	视物旋转
+T35	negative 233 234	无
+T36	clinicalFeature 234 236	胸闷
+T37	clinicalFeature 236 238	气促
+T38	negative 239 240	无
+T39	clinicalFeature 240 246	四肢活动障碍
+T40	clinicalFeature 247 249	抽搐
+T41	time 255 258	半月前
+T42	clinicalFeature 260 262	血尿
+T43	modification 265 275	小便中肉眼可见血凝块
+T44	cure 276 284	休息及控制饮食后
+T45	trend 289 293	未见缓解
+T46	clinicalFeature 294 302	血糖未见明显下降
+T48	disease 316 321	2型糖尿病
+T61	disease 374 378	高血压病
+T62	time 379 382	16年
+T63	drug 386 393	倍他乐克缓释片
+T64	dose 393 399	47.5mg
+T65	frequency 400 402	qd
+T66	drug 403 405	代文
+T67	dose 405 409	80mg
+T68	frequency 410 412	qd
+T70	clinicalFeature 420 424	控制一般
+T71	disease 428 433	2型糖尿病
+T72	time 434 437	6年余
+T73	drug 444 447	格华止
+T74	dose 447 449	1#
+T75	frequency 449 452	BID
+T76	drug 457 460	诺和力
+T77	dose 460 465	1.2mg
+T78	frequency 466 468	QD
+T80	clinicalFeature 473 479	血糖控制欠佳
+T81	sign 488 489	T
+T82	indexValue 490 495	37.3℃
+T83	sign 496 497	P
+T84	indexValue 498 504	102次/分
+T85	sign 505 506	R
+T86	indexValue 507 512	19次/分
+T87	sign 513 515	BP
+T88	indexValue 516 526	138/79mmHg
+T89	clinicalFeature 527 530	神志清
+T90	body 531 537	浅表浅淋巴结
+T91	clinicalFeature 537 540	未触及
+T92	body 541 542	颈
+T93	clinicalFeature 542 543	软
+T94	body 544 547	颈静脉
+T95	clinicalFeature 547 550	无怒张
+T96	body 551 554	甲状腺
+T97	clinicalFeature 554 556	不大
+T98	body 558 560	双肺
+T99	clinicalFeature 560 564	呼吸音粗
+T100	clinicalFeature 565 572	未闻及干湿罗音
+T101	sign 573 575	心率
+T102	indexValue 575 581	102次/分
+T103	clinicalFeature 582 584	律齐
+T104	clinicalFeature 585 595	未闻及明显病理性杂音
+T105	body 596 597	腹
+T106	clinicalFeature 597 598	软
+T107	body 599 600	肝
+T108	body 600 601	脾
+T109	clinicalFeature 601 605	肋下未及
+T110	body 606 608	全腹
+T112	clinicalFeature 608 614	无明显反跳痛
+T113	body 615 618	双下肢
+T114	clinicalFeature 618 621	无浮肿
+T115	body 622 624	四肢
+T116	sign 624 626	肌力
+T117	indexValue 626 628	5级
+T118	sign 629 632	病理征
+T119	indexValue 632 635	未引出
+T120	body 637 642	双足背动脉
+T121	clinicalFeature 642 646	搏动存在
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R3	clinicalFeatureTime Arg1:T6 Arg2:T5
+R4	negativeClinicalFeature Arg1:T8 Arg2:T9
+R5	clinicalFeatureTime Arg1:T9 Arg2:T5
+R6	negativeClinicalFeature Arg1:T10 Arg2:T11
+R7	clinicalFeatureTime Arg1:T11 Arg2:T5
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	clinicalFeatureTime Arg1:T13 Arg2:T5
+R10	negativeClinicalFeature Arg1:T14 Arg2:T15
+R11	clinicalFeatureTime Arg1:T15 Arg2:T5
+R13	timeDisease Arg1:T5 Arg2:T16
+R15	drugDose Arg1:T21 Arg2:T22
+T7	frequency 141 145	每天一次
+R16	doseFrequency Arg1:T22 Arg2:T7
+R17	drugDose Arg1:T23 Arg2:T24
+R18	doseFrequency Arg1:T24 Arg2:T25
+T122	laboratory 193 197	餐后血糖
+T123	time 189 191	最近
+R19	laboratoryTime Arg1:T122 Arg2:T123
+R20	laboratoryLaboratoryValue Arg1:T122 Arg2:T27
+R21	negativeClinicalFeature Arg1:T28 Arg2:T29
+R22	negativeClinicalFeature Arg1:T30 Arg2:T31
+R23	negativeClinicalFeature Arg1:T30 Arg2:T32
+R24	negativeClinicalFeature Arg1:T33 Arg2:T34
+R25	negativeClinicalFeature Arg1:T35 Arg2:T36
+R26	negativeClinicalFeature Arg1:T35 Arg2:T37
+R27	negativeClinicalFeature Arg1:T38 Arg2:T39
+R28	negativeClinicalFeature Arg1:T38 Arg2:T40
+R29	clinicalFeatureTime Arg1:T42 Arg2:T41
+R30	modificationClinicalFeature Arg1:T43 Arg2:T42
+T124	quantity 262 264	两次
+R39	timeDisease Arg1:T72 Arg2:T71
+R41	drugDose Arg1:T73 Arg2:T74
+R42	doseFrequency Arg1:T74 Arg2:T75
+R43	drugDose Arg1:T76 Arg2:T77
+R44	doseFrequency Arg1:T77 Arg2:T78
+R47	diseaseClinicalFeature Arg1:T71 Arg2:T80
+R48	signIndexValue Arg1:T81 Arg2:T82
+R49	signIndexValue Arg1:T83 Arg2:T84
+R50	signIndexValue Arg1:T85 Arg2:T86
+R51	signIndexValue Arg1:T87 Arg2:T88
+R52	bodyClinicalFeature Arg1:T90 Arg2:T91
+R53	bodyClinicalFeature Arg1:T92 Arg2:T93
+R54	bodyClinicalFeature Arg1:T94 Arg2:T95
+R55	bodyClinicalFeature Arg1:T96 Arg2:T97
+R56	bodyClinicalFeature Arg1:T98 Arg2:T99
+R57	bodyClinicalFeature Arg1:T98 Arg2:T100
+R58	signIndexValue Arg1:T101 Arg2:T102
+R59	bodyClinicalFeature Arg1:T105 Arg2:T106
+R60	bodyClinicalFeature Arg1:T107 Arg2:T109
+R61	bodyClinicalFeature Arg1:T108 Arg2:T109
+R62	bodyClinicalFeature Arg1:T110 Arg2:T112
+R64	bodyClinicalFeature Arg1:T113 Arg2:T114
+R65	bodySign Arg1:T115 Arg2:T116
+R66	signIndexValue Arg1:T116 Arg2:T117
+R67	signIndexValue Arg1:T118 Arg2:T119
+R68	bodyClinicalFeature Arg1:T120 Arg2:T121
+R70	timeDisease Arg1:T62 Arg2:T61
+R72	drugDose Arg1:T63 Arg2:T64
+R73	doseFrequency Arg1:T64 Arg2:T65
+R74	drugDose Arg1:T66 Arg2:T67
+R75	drugFrequency Arg1:T66 Arg2:T68
+R78	diseaseClinicalFeature Arg1:T61 Arg2:T70
+R82	drugFrequency Arg1:T23 Arg2:T25
+R83	diseaseClinicalFeature Arg1:T16 Arg2:T26
+T20	clinicalFeature 216 218	多饮
+T125	clinicalFeature 218 220	多尿
+R84	negativeClinicalFeature Arg1:T28 Arg2:T20
+R85	negativeClinicalFeature Arg1:T28 Arg2:T125
+R86	cureTime Arg1:T44 Arg2:T41

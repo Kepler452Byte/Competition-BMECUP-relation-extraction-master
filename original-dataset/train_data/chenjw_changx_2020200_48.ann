@@ -1,0 +1,91 @@
+T1	time 19 22	一年前
+T2	clinicalFeature 24 26	胸闷
+T3	body 33 36	剑突下
+T6	negative 59 60	无
+T7	clinicalFeature 60 62	恶心
+T8	clinicalFeature 63 65	呕吐
+T9	negative 66 67	无
+T10	clinicalFeature 67 69	胸痛
+T11	clinicalFeature 70 74	呼吸困难
+T12	negative 76 77	无
+T13	clinicalFeature 77 79	黑曚
+T14	clinicalFeature 80 84	意识障碍
+T15	negative 85 86	无
+T16	clinicalFeature 86 88	头晕
+T17	clinicalFeature 88 90	头痛
+T18	negative 91 92	无
+T20	clinicalFeature 92 96	四肢乏力
+T21	trend 110 114	较前加重
+T22	disease 123 127	胸闷待查
+T34	sign 183 185	体温
+T35	indexValue 185 190	37.2℃
+T36	sign 191 193	脉搏
+T37	indexValue 193 199	112次/分
+T38	sign 200 202	呼吸
+T39	indexValue 202 207	17次/分
+T40	sign 208 210	血压
+T41	indexValue 210 220	111/70mmHg
+T42	clinicalFeature 220 223	神志清
+T43	clinicalFeature 224 228	呼吸平稳
+T44	body 229 234	浅表淋巴结
+T45	clinicalFeature 234 238	未及肿大
+T46	body 239 241	两肺
+T47	clinicalFeature 241 245	呼吸音清
+T48	clinicalFeature 250 257	未闻及干湿啰音
+T49	sign 258 260	心率
+T50	indexValue 260 266	112次/分
+T51	clinicalFeature 267 269	律齐
+T52	clinicalFeature 270 278	未闻及病理性杂音
+T53	body 279 280	腹
+T54	clinicalFeature 280 282	平软
+T55	clinicalFeature 284 286	压痛
+T56	clinicalFeature 288 291	反跳痛
+T57	clinicalFeature 294 299	肋下未触及
+T58	body 300 303	双下肢
+T59	clinicalFeature 303 306	无浮肿
+T60	clinicalFeature 4 6	胸闷
+T61	time 6 9	一年余
+R1	clinicalFeatureTime Arg1:T60 Arg2:T61
+R2	clinicalFeatureTime Arg1:T2 Arg2:T1
+R6	negativeClinicalFeature Arg1:T6 Arg2:T7
+R7	negativeClinicalFeature Arg1:T6 Arg2:T8
+R8	negativeClinicalFeature Arg1:T9 Arg2:T10
+R9	negativeClinicalFeature Arg1:T9 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T20
+R16	clinicalFeatureTrend Arg1:T2 Arg2:T21
+T62	disease 128 131	冠心病
+R18	clinicalFeatureTime Arg1:T7 Arg2:T1
+R19	clinicalFeatureTime Arg1:T8 Arg2:T1
+R20	clinicalFeatureTime Arg1:T10 Arg2:T1
+R21	clinicalFeatureTime Arg1:T11 Arg2:T1
+R22	clinicalFeatureTime Arg1:T13 Arg2:T1
+R23	clinicalFeatureTime Arg1:T14 Arg2:T1
+R24	clinicalFeatureTime Arg1:T16 Arg2:T1
+R25	clinicalFeatureTime Arg1:T17 Arg2:T1
+R26	clinicalFeatureTime Arg1:T20 Arg2:T1
+R33	signIndexValue Arg1:T34 Arg2:T35
+R34	signIndexValue Arg1:T36 Arg2:T37
+R35	signIndexValue Arg1:T38 Arg2:T39
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	bodyClinicalFeature Arg1:T44 Arg2:T45
+R38	bodyClinicalFeature Arg1:T46 Arg2:T47
+T64	body 247 250	双下肺
+R39	bodyClinicalFeature Arg1:T64 Arg2:T48
+R40	signIndexValue Arg1:T49 Arg2:T50
+R41	bodyClinicalFeature Arg1:T53 Arg2:T54
+T65	negative 283 284	无
+R42	negativeClinicalFeature Arg1:T65 Arg2:T55
+R43	bodyClinicalFeature Arg1:T53 Arg2:T55
+T66	negative 287 288	无
+R44	negativeClinicalFeature Arg1:T66 Arg2:T56
+R45	bodyClinicalFeature Arg1:T53 Arg2:T56
+R46	bodyClinicalFeature Arg1:T58 Arg2:T59
+T67	body 292 293	肝
+T68	body 293 294	脾
+R47	bodyClinicalFeature Arg1:T68 Arg2:T57
+R48	bodyClinicalFeature Arg1:T67 Arg2:T57
+R3	bodyClinicalFeature Arg1:T3 Arg2:T2

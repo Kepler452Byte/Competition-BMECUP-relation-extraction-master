@@ -1,0 +1,141 @@
+T1	clinicalFeature 12 16	活动受限
+T2	time 16 19	2小时
+T3	time 33 36	2小时
+T4	cause 43 45	摔倒
+T5	clinicalFeature 56 58	疼痛
+T6	modification 60 63	持续性
+T7	clinicalFeature 68 72	活动受限
+T8	negative 73 74	无
+T9	clinicalFeature 74 76	出血
+T10	negative 77 78	无
+T11	clinicalFeature 78 83	肢体麻木感
+T12	negative 84 85	无
+T13	clinicalFeature 85 88	昏迷史
+T14	negative 89 90	无
+T15	clinicalFeature 90 92	头痛
+T16	clinicalFeature 92 94	头晕
+T17	negative 95 96	无
+T18	clinicalFeature 96 98	胸闷
+T19	clinicalFeature 98 100	气急
+T20	negative 102 103	无
+T21	clinicalFeature 103 105	腹痛
+T22	clinicalFeature 105 107	腹胀
+T23	negative 108 109	无
+T24	clinicalFeature 109 111	恶心
+T25	clinicalFeature 111 113	呕吐
+T26	auxiliaryExamination 124 126	拍片
+T27	body 128 133	左股骨远端
+T28	auxiliaryDescript 133 135	骨折
+T30	disease 151 158	左股骨远端骨折
+T31	time 173 175	5年
+T32	cure 176 182	服用药物治疗
+T45	sign 235 237	体温
+T46	indexValue 237 242	36.3℃
+T47	sign 243 245	脉搏
+T48	indexValue 245 250	82次/分
+T49	sign 251 253	呼吸
+T50	indexValue 253 258	19次/分
+T51	sign 259 261	血压
+T52	indexValue 261 271	133/74mmHg
+T53	clinicalFeature 272 275	神志清
+T54	clinicalFeature 276 279	精神软
+T56	clinicalFeature 282 285	无抵抗
+T59	body 291 294	左膝部
+T60	clinicalFeature 294 296	肿胀
+T61	clinicalFeature 300 302	压痛
+T62	clinicalFeature 306 310	活动受限
+T64	clinicalFeature 311 314	无出血
+T65	clinicalFeature 315 321	石膏固定在位
+T68	body 341 344	左下肢
+T69	clinicalFeature 344 348	无麻木感
+T70	body 349 353	足背动脉
+T71	clinicalFeature 353 358	搏动可触及
+T72	sign 359 363	生理反射
+T73	indexValue 363 364	存
+T74	sign 365 369	病理反射
+T75	indexValue 369 372	未引出
+T76	body 373 377	左右上肢
+T77	clinicalFeature 381 384	无异常
+T78	cause 4 6	摔伤
+T79	body 47 50	左大腿
+R3	bodyClinicalFeature Arg1:T79 Arg2:T5
+R5	bodyClinicalFeature Arg1:T79 Arg2:T7
+R6	negativeClinicalFeature Arg1:T8 Arg2:T9
+R7	negativeClinicalFeature Arg1:T10 Arg2:T11
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T14 Arg2:T15
+R10	negativeClinicalFeature Arg1:T14 Arg2:T16
+R11	negativeClinicalFeature Arg1:T17 Arg2:T18
+R12	negativeClinicalFeature Arg1:T17 Arg2:T19
+R13	causeClinicalFeature Arg1:T4 Arg2:T5
+R14	causeClinicalFeature Arg1:T4 Arg2:T7
+T80	clinicalFeature 10 12	疼痛
+T81	body 7 10	左大腿
+R1	bodyClinicalFeature Arg1:T81 Arg2:T80
+R2	bodyClinicalFeature Arg1:T81 Arg2:T1
+R15	causeClinicalFeature Arg1:T78 Arg2:T80
+R16	causeClinicalFeature Arg1:T78 Arg2:T1
+R17	clinicalFeatureTime Arg1:T1 Arg2:T2
+R18	clinicalFeatureTime Arg1:T80 Arg2:T2
+T82	modification 54 56	剧烈
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R21	negativeClinicalFeature Arg1:T20 Arg2:T22
+R22	negativeClinicalFeature Arg1:T23 Arg2:T24
+R23	negativeClinicalFeature Arg1:T23 Arg2:T25
+R24	bodyAuxiliaryDescript Arg1:T27 Arg2:T28
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T26 Arg2:T28
+R27	clinicalFeatureTime Arg1:T5 Arg2:T3
+R28	clinicalFeatureTime Arg1:T7 Arg2:T3
+R29	clinicalFeatureTime Arg1:T9 Arg2:T3
+R30	clinicalFeatureTime Arg1:T11 Arg2:T3
+R31	clinicalFeatureTime Arg1:T13 Arg2:T3
+R32	clinicalFeatureTime Arg1:T15 Arg2:T3
+R33	clinicalFeatureTime Arg1:T16 Arg2:T3
+R34	clinicalFeatureTime Arg1:T18 Arg2:T3
+R35	clinicalFeatureTime Arg1:T19 Arg2:T3
+R36	clinicalFeatureTime Arg1:T21 Arg2:T3
+R37	clinicalFeatureTime Arg1:T22 Arg2:T3
+R38	clinicalFeatureTime Arg1:T24 Arg2:T3
+R39	clinicalFeatureTime Arg1:T25 Arg2:T3
+T83	disease 168 172	忧郁症病
+R40	timeDisease Arg1:T31 Arg2:T83
+R49	signIndexValue Arg1:T45 Arg2:T46
+R50	signIndexValue Arg1:T47 Arg2:T48
+R51	signIndexValue Arg1:T49 Arg2:T50
+R52	signIndexValue Arg1:T51 Arg2:T52
+T55	body 280 281	颈
+T85	clinicalFeature 281 282	软
+R53	bodyClinicalFeature Arg1:T55 Arg2:T85
+R54	bodyClinicalFeature Arg1:T55 Arg2:T56
+T86	clinicalFeature 297 299	畸形
+R56	bodyClinicalFeature Arg1:T59 Arg2:T60
+R57	bodyClinicalFeature Arg1:T59 Arg2:T86
+R58	bodyClinicalFeature Arg1:T59 Arg2:T61
+R59	bodyClinicalFeature Arg1:T59 Arg2:T62
+T57	body 286 287	心
+T58	body 287 288	肺
+T63	clinicalFeature 288 290	无殊
+R55	bodyClinicalFeature Arg1:T57 Arg2:T63
+R61	bodyClinicalFeature Arg1:T58 Arg2:T63
+R60	bodyClinicalFeature Arg1:T59 Arg2:T64
+R62	bodyClinicalFeature Arg1:T68 Arg2:T69
+R63	bodyClinicalFeature Arg1:T70 Arg2:T71
+R64	signIndexValue Arg1:T72 Arg2:T73
+R65	signIndexValue Arg1:T74 Arg2:T75
+T87	body 378 381	右下肢
+R66	bodyClinicalFeature Arg1:T76 Arg2:T77
+R67	bodyClinicalFeature Arg1:T87 Arg2:T77
+R68	bodyClinicalFeature Arg1:T59 Arg2:T65
+T66	body 322 324	左膝
+T67	sign 324 328	侧方试验
+T88	sign 329 333	抽屉试验
+T89	indexValue 336 340	拒绝检查
+R69	bodySign Arg1:T66 Arg2:T67
+R70	bodySign Arg1:T66 Arg2:T88
+R71	signIndexValue Arg1:T67 Arg2:T89
+R72	signIndexValue Arg1:T88 Arg2:T89
+R73	auxiliaryExaminationTime Arg1:T26 Arg2:T3
+R4	modificationClinicalFeature Arg1:T82 Arg2:T5
+T84	modification 63 66	酸胀性
+R19	modificationClinicalFeature Arg1:T6 Arg2:T5
+R42	modificationClinicalFeature Arg1:T84 Arg2:T5

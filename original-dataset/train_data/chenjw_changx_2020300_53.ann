@@ -1,0 +1,205 @@
+T1	disease 4 9	结肠癌术后
+T2	time 9 12	1年余
+T3	clinicalFeature 17 20	肝肿物
+T4	time 20 22	2周
+T5	time 31 34	1年前
+T6	disease 38 51	结肠肝曲腺癌伴不全性肠梗阻
+T7	operation 57 65	右半结肠癌根治术
+T24	operation 274 280	输液港植入术
+T25	time 283 293	2018-07-27
+T26	drug 304 309	奥沙利铂针
+T27	dose 309 314	175mg
+T28	drug 319 324	卡培他滨片
+T29	dose 324 327	1.5
+T30	frequency 327 330	Bid
+T33	time 359 362	2周前
+T34	auxiliaryExamination 366 375	腹部CT平扫+增强
+T38	auxiliaryDescript 444 448	少许渗出
+T39	disease 450 453	脂肪肝
+T40	body 459 461	左肾
+T41	auxiliaryDescript 461 464	小囊肿
+T42	body 466 468	胆囊
+T43	auxiliaryDescript 468 474	未见确切显示
+T44	auxiliaryExamination 476 483	腹主动脉CTA
+T45	auxiliaryDescript 483 489	未见重要异常
+T46	auxiliaryDescript 490 497	左侧一副肾动脉
+T47	negative 503 504	无
+T48	clinicalFeature 504 506	恶心
+T49	clinicalFeature 506 508	呕吐
+T50	negative 509 510	无
+T51	clinicalFeature 510 512	畏寒
+T52	clinicalFeature 512 514	发热
+T53	negative 515 516	无
+T55	negative 521 522	无
+T56	clinicalFeature 522 524	腰酸
+T57	negative 527 528	无
+T58	clinicalFeature 528 530	腹胀
+T59	clinicalFeature 530 532	腹痛
+T60	negative 533 534	无
+T61	clinicalFeature 534 536	尿频
+T62	clinicalFeature 536 538	尿急
+T63	clinicalFeature 538 540	尿痛
+T65	disease 559 562	肝肿物
+T76	disease 612 615	糖尿病
+T77	time 618 620	4年
+T78	drug 626 629	美迪康
+T79	clinicalFeature 642 648	血糖控制一般
+T80	disease 651 655	高脂血症
+T81	time 658 660	2年
+T82	drug 666 673	瑞舒伐他汀钙片
+T83	dose 674 678	10mg
+T84	sign 695 697	体温
+T85	indexValue 697 702	36.0℃
+T86	sign 703 705	脉搏
+T87	indexValue 705 710	83次/分
+T88	sign 711 713	呼吸
+T89	indexValue 713 718	17次/分
+T90	sign 719 721	血压
+T91	indexValue 721 731	160/69mmHg
+T92	clinicalFeature 732 735	神志清
+T93	clinicalFeature 736 740	慢性病容
+T94	body 741 743	皮肤
+T95	body 743 745	巩膜
+T96	clinicalFeature 745 748	无黄染
+T97	body 749 754	浅表淋巴结
+T98	clinicalFeature 754 758	未及肿大
+T99	body 759 760	颈
+T100	clinicalFeature 760 761	软
+T101	body 763 767	右上胸壁
+T102	clinicalFeature 775 781	横行手术疤痕
+T103	body 782 784	两肺
+T104	clinicalFeature 784 788	呼吸音清
+T105	clinicalFeature 789 796	未闻及干湿啰音
+T106	sign 797 799	心率
+T107	indexValue 799 804	83次/分
+T108	clinicalFeature 805 807	律齐
+T109	body 808 809	腹
+T110	clinicalFeature 809 811	平软
+T111	body 812 816	腹部正中
+T112	clinicalFeature 825 831	纵行手术疤痕
+T113	body 833 836	上腹部
+T114	clinicalFeature 838 845	反L型手术疤痕
+T115	body 846 848	全腹
+T116	negative 848 849	无
+T117	clinicalFeature 851 853	压痛
+T118	clinicalFeature 854 857	反跳痛
+T119	clinicalFeature 858 863	未扪及肿块
+T120	body 864 865	肝
+T121	body 865 866	脾
+T122	clinicalFeature 866 870	肋下未及
+T123	sign 871 876	移动性浊音
+T124	indexValue 876 878	阴性
+T125	body 879 882	双肾区
+T126	clinicalFeature 882 885	无叩痛
+T128	body 893 896	双下肢
+T129	clinicalFeature 896 899	无水肿
+T130	body 900 902	四肢
+T131	clinicalFeature 902 907	活动无障碍
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+R3	timeDisease Arg1:T5 Arg2:T6
+R4	timeOperation Arg1:T5 Arg2:T7
+T132	auxiliaryExamination 73 75	病理
+T8	body 78 82	右半结肠
+T133	auxiliaryDescript 83 91	溃疡型中分化腺癌
+T135	modification 106 112	浸润至浆膜层
+R6	auxiliaryDesModification Arg1:T133 Arg2:T135
+R8	bodyAuxiliaryDescript Arg1:T8 Arg2:T133
+T11	disease 182 187	慢性阑尾炎
+T9	cure 295 303	CapeOX方案
+R7	cureTime Arg1:T9 Arg2:T25
+R9	drugDose Arg1:T26 Arg2:T27
+R10	drugDose Arg1:T28 Arg2:T29
+R11	doseFrequency Arg1:T29 Arg2:T30
+R12	auxiliaryExaminationTime Arg1:T34 Arg2:T33
+T10	body 379 382	肝右叶
+T12	auxiliaryDescript 382 389	转移灶术后改变
+R13	bodyAuxiliaryDescript Arg1:T10 Arg2:T12
+T13	body 390 400	肝右叶（约VII段）
+T14	auxiliaryDescript 400 407	新增一枚转移灶
+R14	bodyAuxiliaryDescript Arg1:T13 Arg2:T14
+T15	body 422 425	横结肠
+T16	auxiliaryDescript 425 431	肝曲术后改变
+R16	bodyAuxiliaryDescript Arg1:T15 Arg2:T16
+T17	body 432 443	周围系膜及相应皮下软组
+R17	bodyAuxiliaryDescript Arg1:T17 Arg2:T38
+T18	body 454 456	脾脏
+T19	auxiliaryDescript 456 458	稍大
+R18	bodyAuxiliaryDescript Arg1:T18 Arg2:T19
+R19	bodyAuxiliaryDescript Arg1:T40 Arg2:T41
+R20	bodyAuxiliaryDescript Arg1:T42 Arg2:T43
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T44 Arg2:T45
+R22	negativeClinicalFeature Arg1:T47 Arg2:T48
+R23	negativeClinicalFeature Arg1:T47 Arg2:T49
+T20	time 500 501	现
+R24	negativeClinicalFeature Arg1:T50 Arg2:T51
+R25	negativeClinicalFeature Arg1:T50 Arg2:T52
+T21	clinicalFeature 516 518	眼黄
+T22	clinicalFeature 518 520	尿赤
+T23	clinicalFeature 524 526	血尿
+R26	negativeClinicalFeature Arg1:T53 Arg2:T21
+R27	negativeClinicalFeature Arg1:T53 Arg2:T22
+R28	negativeClinicalFeature Arg1:T55 Arg2:T56
+R29	negativeClinicalFeature Arg1:T55 Arg2:T23
+R30	negativeClinicalFeature Arg1:T57 Arg2:T58
+R31	negativeClinicalFeature Arg1:T57 Arg2:T59
+R32	negativeClinicalFeature Arg1:T60 Arg2:T61
+R33	negativeClinicalFeature Arg1:T60 Arg2:T62
+R34	negativeClinicalFeature Arg1:T60 Arg2:T63
+R36	clinicalFeatureTime Arg1:T48 Arg2:T20
+R37	clinicalFeatureTime Arg1:T49 Arg2:T20
+R38	clinicalFeatureTime Arg1:T51 Arg2:T20
+R39	clinicalFeatureTime Arg1:T52 Arg2:T20
+R40	clinicalFeatureTime Arg1:T21 Arg2:T20
+R41	clinicalFeatureTime Arg1:T22 Arg2:T20
+R42	clinicalFeatureTime Arg1:T56 Arg2:T20
+R43	clinicalFeatureTime Arg1:T23 Arg2:T20
+R44	clinicalFeatureTime Arg1:T58 Arg2:T20
+R45	clinicalFeatureTime Arg1:T59 Arg2:T20
+R46	clinicalFeatureTime Arg1:T61 Arg2:T20
+R47	clinicalFeatureTime Arg1:T62 Arg2:T20
+R48	clinicalFeatureTime Arg1:T63 Arg2:T20
+R55	timeDisease Arg1:T77 Arg2:T76
+T32	dose 630 633	1.0
+T35	frequency 633 637	二次/日
+R56	drugDose Arg1:T78 Arg2:T32
+R57	drugFrequency Arg1:T78 Arg2:T35
+R58	doseFrequency Arg1:T32 Arg2:T35
+R60	diseaseClinicalFeature Arg1:T76 Arg2:T79
+R61	timeDisease Arg1:T81 Arg2:T80
+T37	frequency 678 682	一次/日
+R62	drugFrequency Arg1:T82 Arg2:T37
+R63	drugDose Arg1:T82 Arg2:T83
+R64	doseFrequency Arg1:T83 Arg2:T37
+R66	signIndexValue Arg1:T84 Arg2:T85
+R67	signIndexValue Arg1:T86 Arg2:T87
+R68	signIndexValue Arg1:T88 Arg2:T89
+R69	signIndexValue Arg1:T90 Arg2:T91
+R70	bodyClinicalFeature Arg1:T94 Arg2:T96
+R71	bodyClinicalFeature Arg1:T95 Arg2:T96
+R72	bodyClinicalFeature Arg1:T97 Arg2:T98
+R73	bodyClinicalFeature Arg1:T99 Arg2:T100
+T136	quantity 768 769	一
+R74	bodyClinicalFeature Arg1:T101 Arg2:T102
+R77	bodyClinicalFeature Arg1:T103 Arg2:T104
+R78	bodyClinicalFeature Arg1:T103 Arg2:T105
+R79	signIndexValue Arg1:T106 Arg2:T107
+R80	bodyClinicalFeature Arg1:T109 Arg2:T110
+T137	quantity 817 818	一
+R81	bodyClinicalFeature Arg1:T111 Arg2:T112
+T139	quantity 837 838	一
+R84	bodyClinicalFeature Arg1:T113 Arg2:T114
+R86	bodyClinicalFeature Arg1:T115 Arg2:T117
+R87	bodyClinicalFeature Arg1:T115 Arg2:T118
+R88	negativeClinicalFeature Arg1:T116 Arg2:T117
+R89	negativeClinicalFeature Arg1:T116 Arg2:T118
+R90	bodyClinicalFeature Arg1:T115 Arg2:T119
+R91	bodyClinicalFeature Arg1:T120 Arg2:T122
+R92	bodyClinicalFeature Arg1:T121 Arg2:T122
+R93	signIndexValue Arg1:T123 Arg2:T124
+R94	bodyClinicalFeature Arg1:T125 Arg2:T126
+T127	sign 886 889	肠鸣音
+T140	indexValue 889 892	无亢进
+R95	signIndexValue Arg1:T127 Arg2:T140
+R96	bodyClinicalFeature Arg1:T128 Arg2:T129
+R97	bodyClinicalFeature Arg1:T130 Arg2:T131

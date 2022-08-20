@@ -1,0 +1,48 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 8 12	意识丧失
+T3	time 15 18	1个月
+T4	time 28 32	1个月前
+T5	modification 32 34	突发
+T6	clinicalFeature 34 38	意识丧失
+T7	modification 39 48	均为打喷嚏之后发作
+T8	frequency 52 56	发作2次
+T10	negative 66 67	无
+T11	clinicalFeature 67 69	黑朦
+T12	negative 70 71	无
+T13	clinicalFeature 71 73	抽搐
+T14	negative 74 75	无
+T15	clinicalFeature 75 80	大小便失禁
+T17	disease 96 98	晕厥
+T30	disease 144 148	高血压病
+T31	time 151 153	1年
+T32	drug 157 160	缬沙坦
+T33	dose 160 164	40mg
+T36	drug 170 173	施慧达
+T37	dose 173 178	2.5mg
+T40	clinicalFeature 185 191	血压控制不详
+T113	frequency 12 14	2次
+R1	clinicalFeatureFrequency Arg1:T2 Arg2:T113
+R3	clinicalFeatureTime Arg1:T2 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T4
+R6	modificationClinicalFeature Arg1:T7 Arg2:T6
+R7	clinicalFeatureFrequency Arg1:T6 Arg2:T8
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	clinicalFeatureTime Arg1:T11 Arg2:T4
+R13	clinicalFeatureTime Arg1:T13 Arg2:T4
+R14	clinicalFeatureTime Arg1:T15 Arg2:T4
+R22	timeDisease Arg1:T31 Arg2:T30
+R24	drugDose Arg1:T32 Arg2:T33
+T34	frequency 165 169	1#qd
+R25	drugFrequency Arg1:T32 Arg2:T34
+R26	drugDose Arg1:T36 Arg2:T37
+T38	frequency 179 183	1#qd
+R27	drugFrequency Arg1:T36 Arg2:T38
+R28	diseaseClinicalFeature Arg1:T30 Arg2:T40
+T35	modification 6 8	突发
+R2	modificationClinicalFeature Arg1:T35 Arg2:T2
+R30	modificationClinicalFeature Arg1:T1 Arg2:T2
+R4	modificationClinicalFeature Arg1:T5 Arg2:T6
+T39	modification 50 52	反复
+R31	modificationClinicalFeature Arg1:T39 Arg2:T6

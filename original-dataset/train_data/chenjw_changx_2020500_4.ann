@@ -1,0 +1,56 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 8	1天
+T3	clinicalFeature 30 32	头晕
+T4	modification 36 39	持续性
+T5	clinicalFeature 41 43	乏力
+T6	clinicalFeature 44 46	恶心
+T10	cause 77 79	摔倒
+T11	clinicalFeature 83 87	头部外伤
+T12	clinicalFeature 94 96	肿胀
+T13	negative 97 98	无
+T14	clinicalFeature 98 100	出血
+T15	negative 101 102	无
+T16	clinicalFeature 102 104	呕吐
+T17	negative 105 106	无
+T18	clinicalFeature 106 108	耳鸣
+T19	negative 109 110	无
+T20	clinicalFeature 110 116	偏侧肢体无力
+T21	negative 117 118	无
+T22	clinicalFeature 118 122	视物成双
+T23	negative 123 124	无
+T24	clinicalFeature 124 129	意识丧失等
+T25	disease 158 162	高血压病
+T26	dose 174 176	1片
+T27	frequency 176 178	qd
+T28	clinicalFeature 182 187	血压控制可
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T117	clinicalFeature 9 11	摔倒
+T118	time 22 24	今晨
+R3	clinicalFeatureTime Arg1:T3 Arg2:T118
+R4	clinicalFeatureTime Arg1:T5 Arg2:T118
+R5	clinicalFeatureTime Arg1:T6 Arg2:T118
+T9	body 89 92	后脑勺
+R9	bodyClinicalFeature Arg1:T9 Arg2:T12
+R13	bodyClinicalFeature Arg1:T9 Arg2:T14
+R14	negativeClinicalFeature Arg1:T13 Arg2:T14
+R15	negativeClinicalFeature Arg1:T15 Arg2:T16
+R16	negativeClinicalFeature Arg1:T17 Arg2:T18
+R17	clinicalFeatureTime Arg1:T16 Arg2:T118
+R18	clinicalFeatureTime Arg1:T18 Arg2:T118
+R19	negativeClinicalFeature Arg1:T19 Arg2:T20
+R20	clinicalFeatureTime Arg1:T20 Arg2:T118
+R21	negativeClinicalFeature Arg1:T21 Arg2:T22
+R22	clinicalFeatureTime Arg1:T22 Arg2:T118
+R23	negativeClinicalFeature Arg1:T23 Arg2:T24
+R24	clinicalFeatureTime Arg1:T24 Arg2:T118
+T120	drug 168 174	北京降压0号
+R25	drugDose Arg1:T120 Arg2:T26
+R26	doseFrequency Arg1:T26 Arg2:T27
+R28	diseaseClinicalFeature Arg1:T25 Arg2:T28
+T121	quantity 11 13	1次
+R36	clinicalFeatureTime Arg1:T117 Arg2:T2
+R10	causeClinicalFeature Arg1:T10 Arg2:T11
+T8	time 59 61	上午
+R11	clinicalFeatureTime Arg1:T11 Arg2:T8
+R12	doseFrequency Arg1:T26 Arg2:T27
+R2	modificationClinicalFeature Arg1:T4 Arg2:T3

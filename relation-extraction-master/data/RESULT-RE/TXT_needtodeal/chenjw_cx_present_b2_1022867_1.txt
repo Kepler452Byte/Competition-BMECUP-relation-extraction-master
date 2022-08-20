@@ -1,0 +1,8 @@
+{"sent": "现 病 史 ： 患 者 于 2 小 时 前 在 家 中 休 息 过 程 中 出 现 背 痛 ， 为 抽 痛 ， 伴 胸 部 不 适 ， 以 心 前 区 明 显 ， 略 有 隐 痛 ，", "ners": [[7, 11, "time", "2小时前"], [21, 23, "clinicalFeature", "背痛"], [25, 27, "clinicalFeature", "抽痛"], [25, 27, "modification", "抽痛"], [29, 33, "clinicalFeature", "胸部不适"], [34, 40, "modification", "以心前区明显"], [41, 43, "modification", "略有"], [43, 45, "modification", "隐痛"]]}
+[21, 23, 'clinicalFeature', '背痛']	[7, 11, 'time', '2小时前']	属性
+[25, 27, 'clinicalFeature', '抽痛']	[7, 11, 'time', '2小时前']	属性
+[25, 27, 'modification', '抽痛']	[21, 23, 'clinicalFeature', '背痛']	属性
+[29, 33, 'clinicalFeature', '胸部不适']	[7, 11, 'time', '2小时前']	属性
+[34, 40, 'modification', '以心前区明显']	[29, 33, 'clinicalFeature', '胸部不适']	属性
+[41, 43, 'modification', '略有']	[43, 45, 'modification', '隐痛']	属性
+

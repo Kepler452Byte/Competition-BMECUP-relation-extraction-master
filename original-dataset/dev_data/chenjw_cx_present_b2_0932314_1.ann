@@ -1,0 +1,14 @@
+T1	time 6 9	1年前
+T2	clinicalFeature 13 17	血糖升高
+T3	cure 23 30	未予重视而就诊
+T4	time 31 34	半年前
+T5	clinicalFeature 38 40	口干
+T6	clinicalFeature 40 42	多饮
+T7	modification 43 52	每日饮水约2-3升
+T10	cause 9 13	体检发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T10 Arg2:T2
+R3	cureTime Arg1:T3 Arg2:T1
+R4	clinicalFeatureTime Arg1:T6 Arg2:T4
+R5	clinicalFeatureTime Arg1:T5 Arg2:T4
+R6	modificationClinicalFeature Arg1:T7 Arg2:T6

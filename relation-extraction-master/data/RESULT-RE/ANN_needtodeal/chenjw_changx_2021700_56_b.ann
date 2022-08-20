@@ -1,0 +1,63 @@
+T1	disease 39 43	高血压病
+T2	drug 47 50	施慧达
+T3	dose 51 56	2.5mg
+T4	frequency 57 59	qd
+T5	clinicalFeature 62 67	血压控制可
+T6	sign 76 78	体温
+T7	indexValue 78 83	36.6℃
+T8	sign 84 86	脉搏
+T9	indexValue 86 91	95次/分
+T10	sign 92 94	呼吸
+T11	indexValue 94 99	19次/分
+T12	sign 100 102	血压
+T13	indexValue 102 112	163/94mmHg
+T14	clinicalFeature 113 116	神志清
+T15	body 117 122	表浅淋巴结
+T16	clinicalFeature 122 125	未触及
+T17	body 126 127	颈
+T18	clinicalFeature 127 128	软
+T19	body 129 132	甲状腺
+T20	clinicalFeature 132 134	不大
+T21	body 135 137	双肺
+T22	clinicalFeature 137 141	呼吸音清
+T23	clinicalFeature 142 149	未闻及干湿罗音
+T24	clinicalFeature 151 154	心律齐
+T25	clinicalFeature 155 165	未闻及明显病理性杂音
+T26	body 166 167	腹
+T27	clinicalFeature 167 168	软
+T28	body 169 170	肝
+T29	body 170 171	脾
+T30	clinicalFeature 171 175	肋下未及
+T31	body 176 178	全腹
+T32	negative 178 179	无
+T33	clinicalFeature 181 184	反跳痛
+T34	body 185 188	双下肢
+T35	clinicalFeature 188 191	无浮肿
+T36	body 192 194	四肢
+T37	sign 194 196	肌力
+T38	indexValue 196 198	5级
+T39	sign 199 202	病理征
+T40	indexValue 202 205	未引出
+T41	body 206 211	双足背动脉
+T42	clinicalFeature 211 215	搏动存在
+R1	diseaseClinicalfeature Arg1:T1 Arg2:T5
+R2	drugFrequency Arg1:T2 Arg2:T4
+R3	doseFrequency Arg1:T3 Arg2:T4
+R4	signIndexvalue Arg1:T6 Arg2:T7
+R5	signIndexvalue Arg1:T8 Arg2:T9
+R6	signIndexvalue Arg1:T10 Arg2:T11
+R7	signIndexvalue Arg1:T12 Arg2:T13
+R8	bodyClinicalfeature Arg1:T15 Arg2:T16
+R9	bodyClinicalfeature Arg1:T17 Arg2:T18
+R10	bodyClinicalfeature Arg1:T19 Arg2:T20
+R11	bodyClinicalfeature Arg1:T21 Arg2:T23
+R12	bodyClinicalfeature Arg1:T26 Arg2:T27
+R13	bodyClinicalfeature Arg1:T28 Arg2:T30
+R14	bodyClinicalfeature Arg1:T29 Arg2:T30
+R15	bodyClinicalfeature Arg1:T31 Arg2:T33
+R16	negativeClinicalfeature Arg1:T32 Arg2:T33
+R17	bodyClinicalfeature Arg1:T34 Arg2:T35
+R18	bodySign Arg1:T36 Arg2:T37
+R19	signIndexvalue Arg1:T37 Arg2:T38
+R20	signIndexvalue Arg1:T39 Arg2:T40
+R21	bodyClinicalfeature Arg1:T41 Arg2:T42

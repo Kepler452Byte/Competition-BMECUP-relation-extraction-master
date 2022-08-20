@@ -1,0 +1,4 @@
+T1	time 7 17	2010年3月21日
+T2	auxiliaryExamination 18 25	头颅MRI检查
+T3	disease 30 37	小脑髓母细胞瘤
+R1	auxiliaryExaminationTime Arg1:T2 Arg2:T1

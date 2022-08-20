@@ -1,0 +1,124 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 8 10	咳痰
+T4	clinicalFeature 10 15	伴气管切开
+T5	time 15 18	7月余
+T6	time 27 31	7月余前
+T7	clinicalFeature 38 40	咳嗽
+T8	clinicalFeature 40 42	咳痰
+T9	clinicalFeature 47 49	胸闷
+T10	clinicalFeature 49 51	气促
+T11	clinicalFeature 52 56	神志不清
+T12	clinicalFeature 58 64	血氧饱和度低
+T13	disease 79 83	肺部感染
+T14	disease 84 88	呼吸衰竭
+T15	disease 89 95	阿尔兹海默症
+T16	cure 99 107	气管插管机械通气
+T18	cure 124 128	气管切开
+T19	cause 129 138	因气切套管拔除困难
+T20	clinicalFeature 139 145	不能经口进食
+T21	clinicalFeature 153 157	鼻饲流质
+T23	disease 179 183	肺部感染
+T30	sign 232 233	T
+T31	indexValue 233 238	36.5℃
+T32	sign 239 240	P
+T33	indexValue 240 245	78次/分
+T34	sign 246 247	R
+T35	indexValue 247 252	22次/分
+T36	sign 253 255	Bp
+T37	indexValue 255 265	120/65mmHg
+T38	clinicalFeature 266 269	神志清
+T41	body 274 276	皮肤
+T42	clinicalFeature 278 281	无黄染
+T43	body 282 287	浅表淋巴结
+T44	clinicalFeature 287 291	未及肿大
+T45	body 292 294	头颅
+T46	clinicalFeature 294 297	无畸形
+T47	body 298 300	结膜
+T48	clinicalFeature 300 303	无充血
+T49	body 305 307	巩膜
+T50	clinicalFeature 307 310	无黄染
+T53	negative 328 329	无
+T54	clinicalFeature 329 331	压痛
+T55	negative 334 335	无
+T56	clinicalFeature 335 337	压痛
+T57	clinicalFeature 340 344	位置居中
+T58	body 345 348	甲状腺
+T59	clinicalFeature 348 351	不肿大
+T60	body 352 355	颈静脉
+T61	clinicalFeature 355 358	无怒张
+T62	clinicalFeature 361 366	外形无畸形
+T63	clinicalFeature 370 373	无增宽
+T64	body 374 376	双肺
+T65	clinicalFeature 376 380	呼吸音粗
+T66	clinicalFeature 382 388	未及干湿啰音
+T67	clinicalFeature 389 392	心律齐
+T68	body 393 398	各瓣膜听诊
+T69	clinicalFeature 398 402	未及杂音
+T70	clinicalFeature 404 405	软
+T72	clinicalFeature 406 409	无压痛
+T73	body 410 413	双下肢
+T74	clinicalFeature 413 416	无水肿
+T75	sign 417 420	病理征
+T76	indexValue 420 422	阴性
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T2 Arg2:T5
+R5	clinicalFeatureTime Arg1:T3 Arg2:T5
+R6	clinicalFeatureTime Arg1:T7 Arg2:T6
+R7	clinicalFeatureTime Arg1:T8 Arg2:T6
+T78	modification 43 46	痰较多
+R8	modificationClinicalFeature Arg1:T78 Arg2:T8
+R9	clinicalFeatureTime Arg1:T9 Arg2:T6
+R10	clinicalFeatureTime Arg1:T10 Arg2:T6
+T79	cure 108 111	抗感染
+T17	clinicalFeature 116 122	脱机拔管困难
+T80	clinicalFeature 148 152	留置胃管
+T81	disease 184 190	气管造口状态
+R16	signIndexValue Arg1:T30 Arg2:T31
+R17	signIndexValue Arg1:T32 Arg2:T33
+R18	signIndexValue Arg1:T34 Arg2:T35
+R19	signIndexValue Arg1:T36 Arg2:T37
+T39	clinicalFeature 270 273	精神软
+R20	bodyClinicalFeature Arg1:T41 Arg2:T42
+R21	bodyClinicalFeature Arg1:T43 Arg2:T44
+R22	bodyClinicalFeature Arg1:T45 Arg2:T46
+R23	bodyClinicalFeature Arg1:T47 Arg2:T48
+R24	bodyClinicalFeature Arg1:T49 Arg2:T50
+T40	body 311 313	瞳孔
+T51	clinicalFeature 313 319	对光反射存在
+R25	bodyClinicalFeature Arg1:T40 Arg2:T51
+T52	body 320 321	鼻
+T83	clinicalFeature 321 324	通气畅
+R26	bodyClinicalFeature Arg1:T52 Arg2:T83
+T84	body 325 328	副鼻窦
+R27	negativeClinicalFeature Arg1:T53 Arg2:T54
+R28	bodyClinicalFeature Arg1:T84 Arg2:T54
+T85	body 332 334	乳突
+R29	negativeClinicalFeature Arg1:T55 Arg2:T56
+R30	bodyClinicalFeature Arg1:T85 Arg2:T56
+R31	bodyClinicalFeature Arg1:T58 Arg2:T59
+R32	bodyClinicalFeature Arg1:T60 Arg2:T61
+R33	bodyClinicalFeature Arg1:T64 Arg2:T65
+R34	bodyClinicalFeature Arg1:T64 Arg2:T66
+R35	bodyClinicalFeature Arg1:T68 Arg2:T69
+T86	body 403 404	腹
+R36	bodyClinicalFeature Arg1:T86 Arg2:T70
+R38	bodyClinicalFeature Arg1:T86 Arg2:T72
+R39	bodyClinicalFeature Arg1:T73 Arg2:T74
+R40	signIndexValue Arg1:T75 Arg2:T76
+R41	clinicalFeatureTime Arg1:T11 Arg2:T6
+R42	clinicalFeatureTime Arg1:T12 Arg2:T6
+R43	cureTime Arg1:T16 Arg2:T6
+R44	cureTime Arg1:T79 Arg2:T6
+R45	cureTime Arg1:T18 Arg2:T6
+R46	causeClinicalFeature Arg1:T19 Arg2:T20
+T87	body 276 278	巩膜
+R48	bodyClinicalFeature Arg1:T87 Arg2:T42
+T88	body 338 340	气管
+R49	bodyClinicalFeature Arg1:T88 Arg2:T57
+T89	body 359 361	胸部
+R50	bodyClinicalFeature Arg1:T89 Arg2:T62
+T90	body 367 370	肋间隙
+R51	bodyClinicalFeature Arg1:T90 Arg2:T63
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3

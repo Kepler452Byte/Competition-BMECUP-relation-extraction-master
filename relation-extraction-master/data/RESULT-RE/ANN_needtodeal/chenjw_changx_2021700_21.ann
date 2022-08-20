@@ -1,0 +1,114 @@
+T1	clinicalFeature 4 9	双下肢水肿
+T2	time 9 11	4天
+T3	time 20 23	4天前
+T4	cause 23 28	无明显诱因
+T5	clinicalFeature 31 36	双下肢浮肿
+T6	body 37 41	以脚踝处
+T7	modification 37 45	以脚踝处水肿明显
+T8	body 38 41	脚踝处
+T9	modification 43 45	明显
+T10	modification 48 50	稍感
+T11	clinicalFeature 50 54	走路乏力
+T12	negative 55 56	无
+T13	clinicalFeature 56 61	双下肢麻木
+T14	clinicalFeature 62 64	疼痛
+T15	negative 65 66	无
+T16	clinicalFeature 66 68	胸闷
+T17	clinicalFeature 68 70	气促
+T18	negative 71 72	无
+T19	clinicalFeature 72 74	恶心
+T20	clinicalFeature 74 76	呕吐
+T21	negative 77 78	无
+T22	clinicalFeature 78 82	四肢抽搐
+T23	negative 83 84	无
+T24	clinicalFeature 84 88	视物旋转
+T25	negative 90 91	无
+T26	clinicalFeature 91 93	黑朦
+T27	clinicalFeature 93 95	晕厥
+T28	cure 101 107	未做特殊处理
+T29	trend 110 115	无明显改善
+T30	disease 138 142	水肿待查
+T31	disease 188 191	高血压
+T32	time 194 198	10余年
+T33	time 199 203	近半个月
+T34	drug 206 214	苯磺酸氨氯地平片
+T35	dose 215 219	10mg
+T36	frequency 220 222	qd
+T37	clinicalFeature 223 229	血压控制尚可
+T38	sign 237 238	T
+T39	indexValue 238 243	37.6℃
+T40	sign 244 245	P
+T41	indexValue 245 251	104次/分
+T42	sign 252 253	R
+T43	indexValue 253 258	20次/分
+T44	sign 259 261	Bp
+T45	indexValue 261 271	148/81mmHg
+T46	clinicalFeature 272 274	神清
+T47	clinicalFeature 275 278	精神软
+T48	body 279 280	颈
+T49	clinicalFeature 280 281	软
+T50	body 282 287	浅表淋巴结
+T51	body 290 293	颈静脉
+T52	clinicalFeature 293 296	无怒张
+T53	body 297 299	双肺
+T54	clinicalFeature 299 303	呼吸音粗
+T55	clinicalFeature 305 312	未闻及干湿啰音
+T56	body 313 314	腹
+T57	clinicalFeature 314 315	软
+T58	clinicalFeature 316 319	无压痛
+T59	sign 320 322	心率
+T60	indexValue 322 328	104次/分
+T61	clinicalFeature 329 331	律齐
+T62	body 332 333	腹
+T63	clinicalFeature 333 334	软
+T64	clinicalFeature 335 338	无压痛
+T65	body 339 342	双下肢
+T66	clinicalFeature 342 346	轻度水肿
+T67	body 347 349	四肢
+T68	sign 349 351	肌力
+T69	indexValue 351 353	5级
+T70	sign 354 361	神经系统病理征
+T71	indexValue 361 364	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	clinicalFeatureTrend Arg1:T5 Arg2:T29
+R5	bodyClinicalfeature Arg1:T7 Arg2:T5
+R6	modificationClinicalfeature Arg1:T7 Arg2:T5
+R7	modificationClinicalfeature Arg1:T9 Arg2:T5
+R8	modificationClinicalfeature Arg1:T10 Arg2:T11
+R9	clinicalFeatureTime Arg1:T11 Arg2:T3
+R10	negativeClinicalfeature Arg1:T12 Arg2:T14
+R11	clinicalFeatureTime Arg1:T13 Arg2:T3
+R12	clinicalFeatureTime Arg1:T14 Arg2:T3
+R13	negativeClinicalfeature Arg1:T15 Arg2:T17
+R14	clinicalFeatureTime Arg1:T16 Arg2:T3
+R15	clinicalFeatureTime Arg1:T17 Arg2:T3
+R16	negativeClinicalfeature Arg1:T18 Arg2:T20
+R17	clinicalFeatureTime Arg1:T19 Arg2:T3
+R18	clinicalFeatureTime Arg1:T20 Arg2:T3
+R19	negativeClinicalfeature Arg1:T21 Arg2:T22
+R20	clinicalFeatureTime Arg1:T22 Arg2:T3
+R21	negativeClinicalfeature Arg1:T23 Arg2:T24
+R22	clinicalFeatureTime Arg1:T24 Arg2:T3
+R23	negativeClinicalfeature Arg1:T25 Arg2:T27
+R24	clinicalFeatureTime Arg1:T26 Arg2:T3
+R25	clinicalFeatureTime Arg1:T27 Arg2:T3
+R26	cureTime Arg1:T28 Arg2:T3
+R27	diseaseClinicalfeature Arg1:T31 Arg2:T37
+R28	timeDisease Arg1:T32 Arg2:T31
+R29	doseFrequency Arg1:T35 Arg2:T36
+R30	signIndexvalue Arg1:T38 Arg2:T39
+R31	signIndexvalue Arg1:T40 Arg2:T41
+R32	signIndexvalue Arg1:T42 Arg2:T43
+R33	signIndexvalue Arg1:T44 Arg2:T45
+R34	bodyClinicalfeature Arg1:T48 Arg2:T49
+R35	bodyClinicalfeature Arg1:T51 Arg2:T52
+R36	bodyClinicalfeature Arg1:T53 Arg2:T55
+R37	bodyClinicalfeature Arg1:T56 Arg2:T58
+R38	signIndexvalue Arg1:T59 Arg2:T60
+R39	bodyClinicalfeature Arg1:T62 Arg2:T64
+R40	bodyClinicalfeature Arg1:T65 Arg2:T66
+R41	bodySign Arg1:T67 Arg2:T68
+R42	signIndexvalue Arg1:T68 Arg2:T69
+R43	signIndexvalue Arg1:T70 Arg2:T71

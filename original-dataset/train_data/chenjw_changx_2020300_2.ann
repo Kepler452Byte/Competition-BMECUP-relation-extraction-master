@@ -1,0 +1,119 @@
+T1	disease 8 12	胆囊结石
+T2	time 12 15	7月余
+T3	time 24 27	7月余
+T4	disease 32 36	胆囊结石
+T5	clinicalFeature 38 40	疼痛
+T6	negative 45 46	无
+T7	clinicalFeature 46 48	恶心
+T8	clinicalFeature 48 50	呕吐
+T9	negative 51 52	无
+T10	clinicalFeature 52 54	胸闷
+T11	clinicalFeature 54 56	气促
+T12	negative 57 58	无
+T13	clinicalFeature 58 60	畏寒
+T14	clinicalFeature 60 62	发热
+T15	clinicalFeature 103 105	疼痛
+T16	modification 108 112	不能忍受
+T19	time 133 143	2019-12-04
+T20	auxiliaryDescript 162 164	囊肿
+T21	body 171 174	前列腺
+T22	auxiliaryDescript 174 177	钙化灶
+T24	auxiliaryDescript 186 194	目前未见明显异常
+T26	disease 201 205	胆囊结石
+T38	disease 259 263	高血压病
+T39	time 265 268	7月余
+T40	drug 273 281	药物（具体不详）
+T41	clinicalFeature 282 288	血压控制不详
+T42	sign 297 299	体温
+T43	indexValue 299 304	36.2℃
+T44	sign 305 307	脉搏
+T45	indexValue 307 312	78次/分
+T46	sign 313 315	呼吸
+T47	indexValue 315 320	17次/分
+T48	sign 321 323	血压
+T49	indexValue 323 334	180/100mmHg
+T50	clinicalFeature 335 338	神志清
+T53	body 345 347	巩膜
+T54	clinicalFeature 347 350	无黄染
+T55	body 351 353	双肺
+T56	clinicalFeature 353 358	呼吸音清晰
+T57	clinicalFeature 359 368	未闻及明显干湿罗音
+T58	sign 370 372	HR
+T59	indexValue 372 377	78次/分
+T60	clinicalFeature 378 380	律齐
+T61	clinicalFeature 381 385	未及杂音
+T62	body 386 387	腹
+T63	clinicalFeature 387 389	平软
+T64	clinicalFeature 395 397	压痛
+T65	clinicalFeature 398 403	反跳痛阳性
+T66	clinicalFeature 404 408	未及包块
+T67	clinicalFeature 411 415	肋下未及
+T68	indexValue 428 430	阴性
+T69	body 431 434	双肾区
+T71	clinicalFeature 434 437	无叩痛
+T72	body 438 441	双下肢
+T73	clinicalFeature 441 444	无浮肿
+T74	sign 446 449	病理征
+T75	indexValue 449 452	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+T76	cause 27 32	检查时发现
+R2	timeDisease Arg1:T3 Arg2:T4
+R3	causeDisease Arg1:T76 Arg2:T4
+R4	diseaseClinicalFeature Arg1:T4 Arg2:T5
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7
+R6	negativeClinicalFeature Arg1:T6 Arg2:T8
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T9 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	negativeClinicalFeature Arg1:T12 Arg2:T14
+T77	clinicalFeature 63 65	黄尿
+T78	clinicalFeature 65 67	黄等
+R11	negativeClinicalFeature Arg1:T12 Arg2:T77
+R12	negativeClinicalFeature Arg1:T12 Arg2:T78
+T79	time 99 100	今
+T80	trend 105 107	加剧
+R13	clinicalFeatureTime Arg1:T15 Arg2:T79
+R14	clinicalFeatureTrend Arg1:T15 Arg2:T80
+T18	auxiliaryExamination 145 147	CT
+R18	auxiliaryExaminationTime Arg1:T18 Arg2:T19
+T81	disease 151 155	胆囊结石
+T82	body 157 159	肝脏
+T83	body 160 162	双肾
+R20	bodyAuxiliaryDescript Arg1:T82 Arg2:T20
+R21	bodyAuxiliaryDescript Arg1:T83 Arg2:T20
+T84	disease 166 168	副脾
+R22	bodyAuxiliaryDescript Arg1:T21 Arg2:T22
+R24	auxiliaryExaminationAuxiliaryDescript Arg1:T18 Arg2:T22
+T23	auxiliaryExamination 179 186	腹主动脉CTA
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T23 Arg2:T24
+T85	disease 206 211	慢性胆囊炎
+R34	timeDisease Arg1:T39 Arg2:T38
+R36	diseaseClinicalFeature Arg1:T38 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	signIndexValue Arg1:T46 Arg2:T47
+R40	signIndexValue Arg1:T48 Arg2:T49
+T51	clinicalFeature 339 342	精神可
+T52	body 343 345	皮肤
+R41	bodyClinicalFeature Arg1:T52 Arg2:T54
+R42	bodyClinicalFeature Arg1:T53 Arg2:T54
+R43	bodyClinicalFeature Arg1:T55 Arg2:T56
+R44	bodyClinicalFeature Arg1:T55 Arg2:T57
+R45	signIndexValue Arg1:T58 Arg2:T59
+R46	bodyClinicalFeature Arg1:T62 Arg2:T63
+T86	body 390 394	右上腹部
+R47	bodyClinicalFeature Arg1:T86 Arg2:T64
+R48	bodyClinicalFeature Arg1:T86 Arg2:T65
+R49	bodyClinicalFeature Arg1:T86 Arg2:T66
+T87	sign 416 427	Murphy sign
+R50	signIndexValue Arg1:T87 Arg2:T68
+R51	bodyClinicalFeature Arg1:T69 Arg2:T71
+R52	bodyClinicalFeature Arg1:T72 Arg2:T73
+R53	signIndexValue Arg1:T74 Arg2:T75
+T70	body 409 410	肝
+T88	body 410 411	脾
+R54	bodyClinicalFeature Arg1:T70 Arg2:T67
+R55	bodyClinicalFeature Arg1:T88 Arg2:T67
+R16	modificationClinicalFeature Arg1:T16 Arg2:T15
+T17	cure 86 92	补液对症治疗
+T25	trend 115 118	无缓解

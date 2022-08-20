@@ -1,0 +1,4 @@
+{"sent": "主 诉 ： 不 规 则 阴 道 流 血 $ 半 个 月", "ners": [[3, 6, "modification", "不规则"], [6, 10, "clinicalFeature", "阴道流血"], [11, 14, "time", "半个月"]]}
+[3, 6, 'modification', '不规则']	[6, 10, 'clinicalFeature', '阴道流血']	属性
+[6, 10, 'clinicalFeature', '阴道流血']	[11, 14, 'time', '半个月']	属性
+

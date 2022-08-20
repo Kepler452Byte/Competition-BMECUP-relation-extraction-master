@@ -1,0 +1,231 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 8 10	咳痰
+T4	clinicalFeature 10 12	胸闷
+T5	clinicalFeature 12 14	气促
+T6	time 14 18	30余年
+T7	trend 21 23	加重
+T8	clinicalFeature 24 26	畏寒
+T9	clinicalFeature 26 28	发热
+T10	time 28 30	4天
+T11	time 41 45	30年前
+T12	cause 45 50	无明显诱因
+T13	clinicalFeature 55 57	咳嗽
+T14	clinicalFeature 58 60	咳痰
+T17	clinicalFeature 97 99	胸闷
+T18	clinicalFeature 100 102	气促
+T22	disease 149 160	慢性阻塞性肺病急性加重
+T23	disease 161 165	肺部感染
+T24	disease 166 172	肺源性心脏病
+T25	disease 173 178	肺动脉高压
+T26	disease 179 187	大便隐血原因待查
+T27	disease 188 193	胆囊小息肉
+T31	time 239 242	4天前
+T32	clinicalFeature 253 255	咳嗽
+T33	clinicalFeature 256 258	咳痰
+T34	clinicalFeature 259 261	胸闷
+T35	clinicalFeature 262 264	气促
+T36	modification 271 277	少量白色粘痰
+T37	modification 278 282	不易咳出
+T38	negative 283 284	无
+T40	clinicalFeature 297 299	畏寒
+T41	clinicalFeature 300 302	发热
+T44	drug 332 336	具体不详
+T45	trend 342 347	无明显改善
+T47	disease 359 370	慢性阻塞性肺病急性发作
+T48	clinicalFeature 389 391	胸痛
+T49	clinicalFeature 399 401	咯血
+T50	clinicalFeature 402 404	盗汗
+T51	clinicalFeature 405 407	心悸
+T52	clinicalFeature 408 410	腹痛
+T53	clinicalFeature 411 413	腹胀
+T54	clinicalFeature 414 416	恶心
+T55	clinicalFeature 417 419	呕吐
+T56	clinicalFeature 420 422	黑朦
+T57	clinicalFeature 423 425	晕厥
+T58	clinicalFeature 426 428	抽搐
+T59	clinicalFeature 429 433	肢体麻木
+T72	sign 482 484	T:
+T73	indexValue 484 489	38.0℃
+T74	sign 490 492	P:
+T75	indexValue 492 498	113次/分
+T76	sign 499 501	R:
+T77	indexValue 501 506	20次/分
+T78	sign 507 510	Bp：
+T79	indexValue 510 520	117/71mmHg
+T80	clinicalFeature 521 525	神志清晰
+T81	clinicalFeature 526 529	精神软
+T82	body 530 532	皮肤
+T83	clinicalFeature 534 537	无黄染
+T85	clinicalFeature 539 544	皮下出血点
+T86	body 546 550	双侧瞳孔
+T87	clinicalFeature 550 554	等大等圆
+T88	clinicalFeature 562 568	对光反射灵敏
+T89	body 574 576	咽部
+T90	clinicalFeature 576 581	无明显充血
+T91	body 582 587	双侧扁桃体
+T92	clinicalFeature 587 591	未见肿大
+T93	body 595 597	两肺
+T94	clinicalFeature 597 601	呼吸音粗
+T95	body 602 604	两肺
+T96	clinicalFeature 604 614	可闻及广泛性干湿罗音
+T99	indexValue 625 631	113次/分
+T100	clinicalFeature 632 634	律齐
+T101	body 635 639	各瓣膜区
+T102	clinicalFeature 639 644	未闻及杂音
+T103	body 645 646	腹
+T104	clinicalFeature 646 648	平软
+T105	body 649 651	全腹
+T106	clinicalFeature 652 654	压痛
+T107	clinicalFeature 655 658	反跳痛
+T108	clinicalFeature 659 663	未及包块
+T109	clinicalFeature 666 670	肋下未及
+T110	body 671 672	肝
+T112	clinicalFeature 673 676	无叩痛
+T113	body 677 680	双下肢
+T114	clinicalFeature 680 683	无水肿
+T115	indexValue 690 692	阴性
+R5	clinicalFeatureTime Arg1:T2 Arg2:T6
+R6	clinicalFeatureTime Arg1:T3 Arg2:T6
+R7	clinicalFeatureTime Arg1:T4 Arg2:T6
+R8	clinicalFeatureTime Arg1:T5 Arg2:T6
+R9	clinicalFeatureTrend Arg1:T2 Arg2:T7
+R10	clinicalFeatureTrend Arg1:T3 Arg2:T7
+R11	clinicalFeatureTrend Arg1:T4 Arg2:T7
+R12	clinicalFeatureTrend Arg1:T5 Arg2:T7
+R13	clinicalFeatureTime Arg1:T8 Arg2:T10
+R14	clinicalFeatureTime Arg1:T9 Arg2:T10
+R16	causeClinicalFeature Arg1:T12 Arg2:T13
+R17	causeClinicalFeature Arg1:T12 Arg2:T14
+T117	modification 84 89	为白色粘痰
+T118	modification 90 93	量中等
+T15	modification 67 72	阵发性发作
+T16	modification 73 77	非刺激性
+T28	modification 78 80	不剧
+R35	clinicalFeatureTime Arg1:T13 Arg2:T11
+R36	clinicalFeatureTime Arg1:T14 Arg2:T11
+R37	clinicalFeatureTime Arg1:T17 Arg2:T11
+R38	clinicalFeatureTime Arg1:T18 Arg2:T11
+R39	causeClinicalFeature Arg1:T12 Arg2:T17
+R40	causeClinicalFeature Arg1:T12 Arg2:T18
+T29	cure 198 201	抗感染
+T119	cure 202 206	平喘祛痰
+T120	cure 207 209	补液
+T121	cure 210 212	对症
+T122	cause 246 249	受凉后
+R41	causeClinicalFeature Arg1:T122 Arg2:T32
+R42	causeClinicalFeature Arg1:T122 Arg2:T33
+R43	causeClinicalFeature Arg1:T122 Arg2:T34
+R44	causeClinicalFeature Arg1:T122 Arg2:T35
+R45	clinicalFeatureTime Arg1:T32 Arg2:T31
+R46	clinicalFeatureTime Arg1:T33 Arg2:T31
+R47	clinicalFeatureTime Arg1:T34 Arg2:T31
+R48	clinicalFeatureTime Arg1:T35 Arg2:T31
+R49	modificationClinicalFeature Arg1:T36 Arg2:T33
+T39	negative 383 384	无
+T123	clinicalFeature 384 388	长期低热
+R51	negativeClinicalFeature Arg1:T39 Arg2:T123
+R52	negativeClinicalFeature Arg1:T39 Arg2:T48
+T124	clinicalFeature 392 398	心前区压迫感
+R53	negativeClinicalFeature Arg1:T39 Arg2:T124
+R54	negativeClinicalFeature Arg1:T39 Arg2:T49
+R55	negativeClinicalFeature Arg1:T39 Arg2:T50
+R56	negativeClinicalFeature Arg1:T39 Arg2:T51
+R57	negativeClinicalFeature Arg1:T39 Arg2:T52
+R58	negativeClinicalFeature Arg1:T39 Arg2:T53
+R59	negativeClinicalFeature Arg1:T39 Arg2:T54
+R60	negativeClinicalFeature Arg1:T39 Arg2:T55
+R61	negativeClinicalFeature Arg1:T39 Arg2:T56
+R62	negativeClinicalFeature Arg1:T39 Arg2:T57
+R63	negativeClinicalFeature Arg1:T39 Arg2:T58
+R64	negativeClinicalFeature Arg1:T39 Arg2:T59
+R71	signIndexValue Arg1:T72 Arg2:T73
+R72	signIndexValue Arg1:T74 Arg2:T75
+R73	signIndexValue Arg1:T76 Arg2:T77
+R74	signIndexValue Arg1:T78 Arg2:T79
+T125	body 532 534	巩膜
+R75	bodyClinicalFeature Arg1:T82 Arg2:T83
+R76	bodyClinicalFeature Arg1:T125 Arg2:T83
+R79	bodyClinicalFeature Arg1:T86 Arg2:T88
+R80	bodyClinicalFeature Arg1:T89 Arg2:T90
+R81	bodyClinicalFeature Arg1:T91 Arg2:T92
+T126	body 592 593	颈
+T127	clinicalFeature 593 594	软
+R82	bodyClinicalFeature Arg1:T126 Arg2:T127
+R83	bodyClinicalFeature Arg1:T93 Arg2:T94
+R84	bodyClinicalFeature Arg1:T95 Arg2:T96
+T97	sign 621 623	心率
+R85	signIndexValue Arg1:T97 Arg2:T99
+R86	bodyClinicalFeature Arg1:T101 Arg2:T102
+R87	bodyClinicalFeature Arg1:T103 Arg2:T104
+T30	clinicalFeature 284 287	脓血痰
+R88	negativeClinicalFeature Arg1:T38 Arg2:T30
+T98	clinicalFeature 288 294	夜间不能平卧
+T128	cure 325 329	输液治疗
+T129	time 329 331	2天
+R89	cureTime Arg1:T128 Arg2:T129
+R95	causeClinicalFeature Arg1:T122 Arg2:T98
+R96	causeClinicalFeature Arg1:T122 Arg2:T40
+R97	causeClinicalFeature Arg1:T122 Arg2:T41
+R78	bodyClinicalFeature Arg1:T86 Arg2:T87
+T43	body 569 571	口唇
+T130	clinicalFeature 571 573	紫绀
+R99	bodyClinicalFeature Arg1:T43 Arg2:T130
+T131	modification 615 620	以左肺为甚
+R100	modificationClinicalFeature Arg1:T131 Arg2:T96
+R101	bodyClinicalFeature Arg1:T110 Arg2:T112
+T111	negative 651 652	无
+R102	negativeClinicalFeature Arg1:T111 Arg2:T106
+R103	negativeClinicalFeature Arg1:T111 Arg2:T107
+R104	bodyClinicalFeature Arg1:T105 Arg2:T107
+R105	bodyClinicalFeature Arg1:T105 Arg2:T108
+R106	bodyClinicalFeature Arg1:T113 Arg2:T114
+T132	sign 684 690	神经病理反射
+R107	signIndexValue Arg1:T132 Arg2:T115
+T116	negative 693 695	未见
+T133	clinicalFeature 695 701	杵状指（趾）
+R108	negativeClinicalFeature Arg1:T116 Arg2:T133
+R110	modificationClinicalFeature Arg1:T37 Arg2:T33
+R112	clinicalFeatureTime Arg1:T30 Arg2:T31
+R113	clinicalFeatureTime Arg1:T98 Arg2:T31
+R114	clinicalFeatureTime Arg1:T40 Arg2:T31
+R115	clinicalFeatureTime Arg1:T41 Arg2:T31
+T42	sign 307 311	体温最高
+T134	indexValue 312 317	38.8℃
+R98	signIndexValue Arg1:T42 Arg2:T134
+R91	clinicalFeatureTrend Arg1:T32 Arg2:T45
+R92	clinicalFeatureTrend Arg1:T33 Arg2:T45
+R93	clinicalFeatureTrend Arg1:T34 Arg2:T45
+R94	clinicalFeatureTrend Arg1:T35 Arg2:T45
+R111	clinicalFeatureTrend Arg1:T98 Arg2:T45
+R116	clinicalFeatureTrend Arg1:T40 Arg2:T45
+R117	clinicalFeatureTrend Arg1:T41 Arg2:T45
+T135	body 664 665	肝
+T136	body 665 666	脾
+R119	bodyClinicalFeature Arg1:T136 Arg2:T109
+R120	bodyClinicalFeature Arg1:T135 Arg2:T109
+T137	body 672 673	肾
+R121	bodyClinicalFeature Arg1:T137 Arg2:T112
+T138	clinicalFeature 555 560	直径3mm
+R122	bodyClinicalFeature Arg1:T86 Arg2:T138
+T84	negative 538 539	无
+R77	negativeClinicalFeature Arg1:T84 Arg2:T85
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+R3	modificationClinicalFeature Arg1:T1 Arg2:T4
+T139	clinicalFeature 63 65	咳嗽
+R4	modificationClinicalFeature Arg1:T15 Arg2:T139
+R18	modificationClinicalFeature Arg1:T16 Arg2:T139
+R19	modificationClinicalFeature Arg1:T28 Arg2:T139
+T140	clinicalFeature 81 83	咳痰
+R20	modificationClinicalFeature Arg1:T117 Arg2:T140
+R23	modificationClinicalFeature Arg1:T118 Arg2:T140
+T19	time 115 118	冬春季
+T20	trend 118 120	加重
+T21	time 121 123	夏季
+R21	timeTrend Arg1:T19 Arg2:T20	
+T61	cure 141 143	住院
+T62	quantity 132 134	2次
+T60	trend 125 127	缓解
+R15	timeTrend Arg1:T21 Arg2:T60	
+T46	modification 124 125	稍

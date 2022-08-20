@@ -1,0 +1,129 @@
+T1	clinicalFeature 7 16	头部及全身多处疼痛
+T2	time 16 19	3小时
+T3	time 28 31	半天前
+T5	clinicalFeature 51 57	头部疼痛肿胀
+T6	negative 58 59	无
+T7	clinicalFeature 59 61	昏迷
+T8	clinicalFeature 64 68	少量流血
+T10	clinicalFeature 77 79	擦伤
+T11	negative 82 83	无
+T12	clinicalFeature 83 85	恶心
+T13	clinicalFeature 85 87	呕吐
+T14	negative 88 89	无
+T15	clinicalFeature 89 91	畏寒
+T16	clinicalFeature 91 93	发热
+T17	negative 95 96	无
+T18	clinicalFeature 96 102	腰背部放射痛
+T19	negative 103 104	无
+T20	clinicalFeature 104 106	呕血
+T21	clinicalFeature 106 108	黑便
+T22	negative 109 110	无
+T23	clinicalFeature 110 112	腹泻
+T24	negative 113 114	无
+T25	clinicalFeature 114 116	头晕
+T26	clinicalFeature 116 118	头痛
+T27	negative 119 120	无
+T28	clinicalFeature 120 122	胸闷
+T29	clinicalFeature 122 124	气促
+T30	clinicalFeature 125 127	胸痛
+T31	clinicalFeature 127 129	心悸
+T33	disease 146 152	全身多处挫伤
+T45	sign 203 205	体温
+T46	indexValue 205 210	37.0℃
+T47	sign 211 213	脉搏
+T48	indexValue 213 218	76次/分
+T49	sign 219 221	呼吸
+T50	indexValue 221 226	20次/分
+T51	sign 227 229	血压
+T52	indexValue 229 239	151/98mmHg
+T53	clinicalFeature 240 243	神志清
+T56	body 250 252	巩膜
+T57	clinicalFeature 252 255	无黄染
+T58	body 256 258	头颅
+T59	clinicalFeature 258 261	无畸形
+T60	clinicalFeature 265 269	局部擦伤
+T61	body 271 273	双肺
+T62	clinicalFeature 273 278	呼吸音清晰
+T63	clinicalFeature 279 288	未闻及明显干湿罗音
+T64	sign 289 291	HR
+T65	indexValue 291 296	95次/分
+T66	clinicalFeature 297 299	律齐
+T67	clinicalFeature 300 304	未及杂音
+T68	body 305 306	腹
+T69	clinicalFeature 306 308	平软
+T70	body 309 311	腹部
+T71	clinicalFeature 312 314	压痛
+T72	negative 315 316	无
+T73	clinicalFeature 316 319	反跳痛
+T74	clinicalFeature 320 324	未及包块
+T75	clinicalFeature 327 331	肋下未及
+T76	indexValue 344 346	阴性
+T77	body 348 351	双肾区
+T79	clinicalFeature 351 354	无叩痛
+T80	body 355 358	双下肢
+T81	clinicalFeature 358 361	无浮肿
+T83	clinicalFeature 369 375	不能下地行走
+T84	clinicalFeature 382 385	活动可
+T85	sign 386 389	病理征
+T86	indexValue 389 392	未引出
+T87	cause 4 6	车祸
+R1	causeClinicalFeature Arg1:T87 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T4	cause 45 47	相撞
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	causeClinicalFeature Arg1:T4 Arg2:T5
+T9	body 69 71	左足
+T88	clinicalFeature 71 75	疼痛明显
+R6	bodyClinicalFeature Arg1:T9 Arg2:T88
+R7	bodyClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T11 Arg2:T13
+R10	negativeClinicalFeature Arg1:T14 Arg2:T15
+R11	negativeClinicalFeature Arg1:T14 Arg2:T16
+R12	negativeClinicalFeature Arg1:T17 Arg2:T18
+R13	negativeClinicalFeature Arg1:T19 Arg2:T20
+R14	negativeClinicalFeature Arg1:T19 Arg2:T21
+R15	negativeClinicalFeature Arg1:T22 Arg2:T23
+R16	negativeClinicalFeature Arg1:T24 Arg2:T25
+R17	negativeClinicalFeature Arg1:T24 Arg2:T26
+R18	negativeClinicalFeature Arg1:T27 Arg2:T28
+R19	negativeClinicalFeature Arg1:T27 Arg2:T29
+R20	negativeClinicalFeature Arg1:T27 Arg2:T30
+R21	negativeClinicalFeature Arg1:T27 Arg2:T31
+R29	signIndexValue Arg1:T45 Arg2:T46
+R30	signIndexValue Arg1:T47 Arg2:T48
+R31	signIndexValue Arg1:T49 Arg2:T50
+R32	signIndexValue Arg1:T51 Arg2:T52
+T54	clinicalFeature 244 247	精神可
+T55	body 248 250	皮肤
+R33	bodyClinicalFeature Arg1:T55 Arg2:T57
+R34	bodyClinicalFeature Arg1:T56 Arg2:T57
+R35	bodyClinicalFeature Arg1:T58 Arg2:T59
+T89	body 262 265	头顶部
+R36	bodyClinicalFeature Arg1:T89 Arg2:T60
+R37	bodyClinicalFeature Arg1:T61 Arg2:T62
+R38	bodyClinicalFeature Arg1:T61 Arg2:T63
+R39	signIndexValue Arg1:T64 Arg2:T65
+R40	bodyClinicalFeature Arg1:T68 Arg2:T69
+T90	negative 311 312	无
+R41	negativeClinicalFeature Arg1:T90 Arg2:T71
+R42	bodyClinicalFeature Arg1:T70 Arg2:T71
+R43	negativeClinicalFeature Arg1:T72 Arg2:T73
+R44	bodyClinicalFeature Arg1:T70 Arg2:T73
+R45	bodyClinicalFeature Arg1:T70 Arg2:T74
+T91	sign 332 343	Murphy sign
+R46	signIndexValue Arg1:T91 Arg2:T76
+R47	bodyClinicalFeature Arg1:T77 Arg2:T79
+R48	bodyClinicalFeature Arg1:T80 Arg2:T81
+T78	clinicalFeature 364 368	肿胀明显
+T82	body 362 364	左足
+R49	bodyClinicalFeature Arg1:T82 Arg2:T78
+R50	bodyClinicalFeature Arg1:T82 Arg2:T83
+T92	body 378 382	四肢关节
+R51	bodyClinicalFeature Arg1:T92 Arg2:T84
+R52	signIndexValue Arg1:T85 Arg2:T86
+T93	body 325 326	肝
+T94	body 326 327	脾
+R53	bodyClinicalFeature Arg1:T93 Arg2:T75
+R54	bodyClinicalFeature Arg1:T94 Arg2:T75
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7

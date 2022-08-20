@@ -1,0 +1,14 @@
+T1	cause 3 5	外伤
+T2	clinicalFeature 10 12	乏力
+T5	clinicalFeature 13 15	疼痛
+T6	time 16 18	半天
+T7	body 6 8	头面
+T8	body 8 10	四肢
+R1	bodyClinicalFeature Arg1:T7 Arg2:T2
+R2	bodyClinicalFeature Arg1:T8 Arg2:T2
+R3	bodyClinicalFeature Arg1:T7 Arg2:T5
+R4	bodyClinicalFeature Arg1:T8 Arg2:T5
+R5	clinicalFeatureTime Arg1:T2 Arg2:T6
+R6	clinicalFeatureTime Arg1:T5 Arg2:T6
+R7	causeClinicalFeature Arg1:T1 Arg2:T2
+R8	causeClinicalFeature Arg1:T1 Arg2:T5

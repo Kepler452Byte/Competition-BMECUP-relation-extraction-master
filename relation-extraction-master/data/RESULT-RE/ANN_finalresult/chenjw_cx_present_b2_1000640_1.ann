@@ -1,0 +1,13 @@
+T1	time 6 10	7月余前
+T2	disease 14 18	升结肠癌
+T3	body 21 22	脾
+T4	quantity 22 24	多发
+T5	disease 28 34	不全性肠梗阻
+T6	auxiliaryExamination 45 50	腹腔镜探查
+T7	operation 45 50	腹腔镜探查
+T8	operation 51 63	升结肠癌扩大根治性切除术
+T9	operation 64 70	右半结肠切除
+T10	operation 71 80	侧腹壁组织部分切除
+T11	operation 81 91	肾周脂肪囊部分切除术
+T12	operation 92 100	区域淋巴结清扫术
+R1	timeDisease Arg1:T1 Arg2:T2

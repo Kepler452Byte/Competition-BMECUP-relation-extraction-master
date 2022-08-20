@@ -1,0 +1,126 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 9 11	气促
+T4	time 11 14	3年余
+T5	trend 15 17	加重
+T6	time 17 19	1周
+T7	time 28 31	3年前
+T8	cause 31 36	无明显诱因
+T9	clinicalFeature 41 43	咳嗽
+T10	clinicalFeature 43 45	咳痰
+T11	modification 46 52	多为白色粘痰
+T13	negative 61 62	无
+T14	clinicalFeature 62 64	咯血
+T15	clinicalFeature 65 69	痰中带血
+T17	disease 90 97	慢性阻塞性肺病
+T18	time 100 103	1周前
+T19	cause 103 106	受凉后
+T20	clinicalFeature 108 110	咳嗽
+T21	clinicalFeature 110 112	咳痰
+T22	modification 113 116	痰不多
+T23	clinicalFeature 118 120	胸闷
+T24	clinicalFeature 120 122	气促
+T25	negative 125 126	无
+T26	clinicalFeature 126 128	发热
+T27	negative 129 130	无
+T28	clinicalFeature 130 132	头痛
+T29	clinicalFeature 132 134	头晕
+T30	negative 135 136	无
+T31	clinicalFeature 136 140	肢体麻木
+T32	negative 141 142	无
+T33	clinicalFeature 142 144	恶心
+T34	clinicalFeature 144 146	呕吐
+T35	negative 147 148	无
+T36	clinicalFeature 148 150	潮热
+T37	negative 153 154	无
+T38	clinicalFeature 154 156	畏寒
+T40	disease 171 182	慢性阻塞性肺病急性加重
+T50	sign 231 232	T
+T51	indexValue 233 238	36.3℃
+T52	sign 239 240	P
+T53	indexValue 241 246	94次/分
+T54	sign 247 248	R
+T55	indexValue 248 253	19次/分
+T56	sign 254 256	BP
+T57	indexValue 257 267	124/61mmHg
+T58	clinicalFeature 268 271	神志清
+T59	clinicalFeature 272 276	呼吸平稳
+T60	body 277 282	浅表淋巴结
+T61	clinicalFeature 282 286	未及肿大
+T62	body 287 289	口唇
+T63	clinicalFeature 289 294	无明显发绀
+T64	body 295 297	两肺
+T65	clinicalFeature 297 301	呼吸音粗
+T66	clinicalFeature 303 310	未闻及明显啰音
+T67	sign 311 313	心率
+T68	indexValue 313 318	94次/分
+T69	clinicalFeature 319 321	律齐
+T70	clinicalFeature 322 327	未闻及杂音
+T71	body 328 329	腹
+T72	clinicalFeature 329 331	平软
+T73	clinicalFeature 332 335	无压痛
+T74	body 336 337	肝
+T75	body 337 338	脾
+T76	clinicalFeature 338 343	肋下未触及
+T77	body 344 347	双下肢
+T78	clinicalFeature 347 350	无浮肿
+R4	clinicalFeatureTime Arg1:T2 Arg2:T4
+R5	clinicalFeatureTime Arg1:T3 Arg2:T4
+R6	clinicalFeatureTrend Arg1:T2 Arg2:T5
+R7	clinicalFeatureTrend Arg1:T3 Arg2:T5
+R8	causeClinicalFeature Arg1:T8 Arg2:T9
+R9	causeClinicalFeature Arg1:T8 Arg2:T10
+R13	negativeClinicalFeature Arg1:T13 Arg2:T14
+R14	negativeClinicalFeature Arg1:T13 Arg2:T15
+R15	causeClinicalFeature Arg1:T19 Arg2:T20
+R17	negativeClinicalFeature Arg1:T25 Arg2:T26
+R18	negativeClinicalFeature Arg1:T27 Arg2:T28
+R19	negativeClinicalFeature Arg1:T27 Arg2:T29
+R20	negativeClinicalFeature Arg1:T30 Arg2:T31
+R21	negativeClinicalFeature Arg1:T32 Arg2:T33
+R22	negativeClinicalFeature Arg1:T32 Arg2:T34
+R24	negativeClinicalFeature Arg1:T37 Arg2:T38
+T80	clinicalFeature 150 152	盗汗
+R25	negativeClinicalFeature Arg1:T35 Arg2:T36
+R26	negativeClinicalFeature Arg1:T35 Arg2:T80
+R27	causeClinicalFeature Arg1:T19 Arg2:T21
+R28	causeClinicalFeature Arg1:T19 Arg2:T23
+R29	causeClinicalFeature Arg1:T19 Arg2:T24
+R36	clinicalFeatureTime Arg1:T9 Arg2:T7
+R37	clinicalFeatureTime Arg1:T10 Arg2:T7
+R38	clinicalFeatureTime Arg1:T14 Arg2:T7
+R39	clinicalFeatureTime Arg1:T15 Arg2:T7
+R43	clinicalFeatureTime Arg1:T20 Arg2:T18
+R44	clinicalFeatureTime Arg1:T21 Arg2:T18
+R45	clinicalFeatureTime Arg1:T23 Arg2:T18
+R46	clinicalFeatureTime Arg1:T24 Arg2:T18
+R47	clinicalFeatureTime Arg1:T26 Arg2:T18
+R48	clinicalFeatureTime Arg1:T28 Arg2:T18
+R49	clinicalFeatureTime Arg1:T29 Arg2:T18
+R50	clinicalFeatureTime Arg1:T31 Arg2:T18
+R51	clinicalFeatureTime Arg1:T33 Arg2:T18
+R52	clinicalFeatureTime Arg1:T34 Arg2:T18
+R53	clinicalFeatureTime Arg1:T36 Arg2:T18
+R54	clinicalFeatureTime Arg1:T80 Arg2:T18
+R55	clinicalFeatureTime Arg1:T38 Arg2:T18
+R56	signIndexValue Arg1:T50 Arg2:T51
+R57	signIndexValue Arg1:T52 Arg2:T53
+R58	signIndexValue Arg1:T54 Arg2:T55
+R59	signIndexValue Arg1:T56 Arg2:T57
+R60	bodyClinicalFeature Arg1:T60 Arg2:T61
+R61	bodyClinicalFeature Arg1:T62 Arg2:T63
+R62	bodyClinicalFeature Arg1:T64 Arg2:T65
+R63	bodyClinicalFeature Arg1:T64 Arg2:T66
+R64	signIndexValue Arg1:T67 Arg2:T68
+R65	bodyClinicalFeature Arg1:T71 Arg2:T72
+R66	bodyClinicalFeature Arg1:T71 Arg2:T73
+R67	bodyClinicalFeature Arg1:T74 Arg2:T76
+R68	bodyClinicalFeature Arg1:T75 Arg2:T76
+R69	bodyClinicalFeature Arg1:T77 Arg2:T78
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+R10	modificationClinicalFeature Arg1:T11 Arg2:T10
+R23	modificationClinicalFeature Arg1:T22 Arg2:T21
+T79	modification 122 124	明显
+R41	modificationClinicalFeature Arg1:T79 Arg2:T24
+R42	modificationClinicalFeature Arg1:T79 Arg2:T23

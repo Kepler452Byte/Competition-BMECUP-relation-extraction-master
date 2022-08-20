@@ -1,0 +1,145 @@
+T1	clinicalFeature 4 6	畏寒
+T2	clinicalFeature 7 9	发热
+T3	clinicalFeature 10 14	上腹不适
+T4	clinicalFeature 15 17	恶心
+T5	time 17 19	1天
+T6	time 28 31	1天前
+T7	cause 31 36	无明显诱因
+T8	clinicalFeature 39 41	畏寒
+T9	clinicalFeature 42 44	发热
+T10	sign 45 49	最高体温
+T11	indexValue 49 54	38.0℃
+T12	clinicalFeature 56 60	上腹不适
+T13	body 61 66	以脐周为著
+T15	clinicalFeature 76 78	恶心
+T16	negative 79 80	无
+T17	clinicalFeature 80 82	呕吐
+T18	negative 83 84	无
+T19	clinicalFeature 84 86	呕血
+T20	clinicalFeature 87 89	黑便
+T21	negative 90 91	无
+T22	clinicalFeature 93 95	腹痛
+T23	negative 96 97	无
+T24	clinicalFeature 97 99	腹泻
+T25	negative 101 102	无
+T26	clinicalFeature 102 104	心悸
+T27	clinicalFeature 104 106	胸痛
+T28	negative 107 108	无
+T29	clinicalFeature 108 110	胸闷
+T30	clinicalFeature 110 112	气促
+T31	negative 113 114	无
+T32	clinicalFeature 114 116	咳嗽
+T33	clinicalFeature 116 118	咳痰
+T34	negative 119 120	无
+T35	clinicalFeature 120 122	黑曚
+T36	clinicalFeature 122 124	晕厥
+T37	negative 125 126	无
+T38	clinicalFeature 126 128	头痛
+T39	clinicalFeature 128 130	头晕
+T40	negative 131 132	无
+T41	clinicalFeature 132 138	肢体活动障碍
+T43	disease 161 166	感染性发热
+T56	sign 217 219	BP
+T57	indexValue 219 229	119/79mmHg
+T58	sign 230 231	T
+T59	indexValue 231 236	37.7℃
+T60	sign 237 238	P
+T61	indexValue 238 244	120次/分
+T62	sign 245 246	R
+T63	indexValue 246 251	19次/分
+T64	clinicalFeature 253 255	神清
+T65	clinicalFeature 256 259	精神可
+T66	body 260 262	巩膜
+T67	clinicalFeature 262 265	无黄染
+T68	body 266 271	浅表淋巴结
+T69	clinicalFeature 271 275	未及肿大
+T70	sign 276 278	心率
+T71	indexValue 278 284	120次/分
+T72	clinicalFeature 285 287	律齐
+T73	body 288 290	两肺
+T74	clinicalFeature 290 294	呼吸音清
+T75	clinicalFeature 295 300	未闻及罗音
+T76	body 301 302	腹
+T77	clinicalFeature 302 303	软
+T79	clinicalFeature 307 309	压痛
+T80	sign 310 314	墨菲氏征
+T81	indexValue 314 316	阴性
+T82	clinicalFeature 317 321	无反跳痛
+T83	body 322 323	肝
+T84	body 323 324	脾
+T85	clinicalFeature 324 328	肋下未及
+T86	sign 330 333	肠鸣音
+T87	indexValue 333 336	无亢进
+T88	body 337 340	双下肢
+T89	clinicalFeature 340 343	无浮肿
+T90	body 344 346	四肢
+T91	sign 346 348	肌力
+T92	indexValue 348 350	正常
+T93	sign 351 354	病理症
+T94	indexValue 354 357	未引出
+R1	clinicalFeatureTime Arg1:T4 Arg2:T5
+R2	clinicalFeatureTime Arg1:T3 Arg2:T5
+R3	clinicalFeatureTime Arg1:T2 Arg2:T5
+R4	clinicalFeatureTime Arg1:T1 Arg2:T5
+R5	causeClinicalFeature Arg1:T7 Arg2:T8
+R6	causeClinicalFeature Arg1:T7 Arg2:T9
+R7	clinicalFeatureTime Arg1:T8 Arg2:T6
+R8	clinicalFeatureTime Arg1:T9 Arg2:T6
+R9	signIndexValue Arg1:T10 Arg2:T11
+R10	clinicalFeatureTime Arg1:T12 Arg2:T6
+R13	clinicalFeatureTime Arg1:T15 Arg2:T6
+R14	negativeClinicalFeature Arg1:T16 Arg2:T17
+R15	clinicalFeatureTime Arg1:T17 Arg2:T6
+R16	negativeClinicalFeature Arg1:T18 Arg2:T19
+R17	clinicalFeatureTime Arg1:T19 Arg2:T6
+R18	negativeClinicalFeature Arg1:T18 Arg2:T20
+R19	clinicalFeatureTime Arg1:T20 Arg2:T6
+R20	negativeClinicalFeature Arg1:T21 Arg2:T22
+R21	clinicalFeatureTime Arg1:T22 Arg2:T6
+R22	negativeClinicalFeature Arg1:T23 Arg2:T24
+R23	clinicalFeatureTime Arg1:T24 Arg2:T6
+R24	negativeClinicalFeature Arg1:T25 Arg2:T26
+R25	negativeClinicalFeature Arg1:T25 Arg2:T27
+R26	clinicalFeatureTime Arg1:T26 Arg2:T6
+R27	clinicalFeatureTime Arg1:T27 Arg2:T6
+R28	negativeClinicalFeature Arg1:T28 Arg2:T29
+R29	clinicalFeatureTime Arg1:T29 Arg2:T6
+R30	negativeClinicalFeature Arg1:T28 Arg2:T30
+R31	clinicalFeatureTime Arg1:T30 Arg2:T6
+R32	negativeClinicalFeature Arg1:T31 Arg2:T32
+R33	clinicalFeatureTime Arg1:T32 Arg2:T6
+R34	negativeClinicalFeature Arg1:T31 Arg2:T33
+R35	clinicalFeatureTime Arg1:T33 Arg2:T6
+R36	negativeClinicalFeature Arg1:T34 Arg2:T35
+R37	negativeClinicalFeature Arg1:T34 Arg2:T36
+R38	clinicalFeatureTime Arg1:T35 Arg2:T6
+R39	clinicalFeatureTime Arg1:T36 Arg2:T6
+R40	negativeClinicalFeature Arg1:T37 Arg2:T38
+R41	negativeClinicalFeature Arg1:T37 Arg2:T39
+R42	clinicalFeatureTime Arg1:T38 Arg2:T6
+R43	clinicalFeatureTime Arg1:T39 Arg2:T6
+R44	negativeClinicalFeature Arg1:T40 Arg2:T41
+R45	clinicalFeatureTime Arg1:T41 Arg2:T6
+R53	signIndexValue Arg1:T56 Arg2:T57
+R54	signIndexValue Arg1:T58 Arg2:T59
+R55	signIndexValue Arg1:T60 Arg2:T61
+R56	signIndexValue Arg1:T62 Arg2:T63
+R57	bodyClinicalFeature Arg1:T66 Arg2:T67
+R58	bodyClinicalFeature Arg1:T68 Arg2:T69
+R59	signIndexValue Arg1:T70 Arg2:T71
+R60	bodyClinicalFeature Arg1:T73 Arg2:T74
+R61	bodyClinicalFeature Arg1:T73 Arg2:T75
+R62	bodyClinicalFeature Arg1:T76 Arg2:T77
+T78	negative 304 305	无
+R63	negativeClinicalFeature Arg1:T78 Arg2:T79
+R64	bodyClinicalFeature Arg1:T76 Arg2:T79
+R65	signIndexValue Arg1:T80 Arg2:T81
+R66	bodyClinicalFeature Arg1:T76 Arg2:T82
+R67	bodyClinicalFeature Arg1:T84 Arg2:T85
+R68	bodyClinicalFeature Arg1:T83 Arg2:T85
+R69	signIndexValue Arg1:T86 Arg2:T87
+R70	bodyClinicalFeature Arg1:T88 Arg2:T89
+R71	bodySign Arg1:T90 Arg2:T91
+R72	signIndexValue Arg1:T91 Arg2:T92
+R73	signIndexValue Arg1:T93 Arg2:T94
+R11	bodyClinicalFeature Arg1:T13 Arg2:T12

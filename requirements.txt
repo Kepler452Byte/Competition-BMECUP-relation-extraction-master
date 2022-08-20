@@ -1,0 +1,9 @@
+numpy==1.21.0
+sacremoses==0.0.53
+scikit-learn==0.24.2
+torch==1.9.0
+tqdm==4.62.3
+transformers==4.11.3
+setuptools==59.5.0
+torchmetrics==0.5
+pytorch-lightning==1.4.7

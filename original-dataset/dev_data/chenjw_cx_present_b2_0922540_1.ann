@@ -1,0 +1,11 @@
+T1	time 6 11	2小时余前
+T2	cause 24 31	与对方轿车相撞
+T3	body 34 36	头部
+T4	clinicalFeature 43 45	出血
+T7	body 37 40	双膝部
+T8	modification 41 43	少量
+R1	modificationClinicalFeature Arg1:T8 Arg2:T4
+R2	clinicalFeatureTime Arg1:T4 Arg2:T1
+R3	causeClinicalFeature Arg1:T2 Arg2:T4
+R4	bodyClinicalFeature Arg1:T3 Arg2:T4
+R5	bodyClinicalFeature Arg1:T7 Arg2:T4

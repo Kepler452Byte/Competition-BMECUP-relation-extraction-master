@@ -1,0 +1,121 @@
+T1	disease 4 9	左乳癌术后
+T2	time 9 12	6月余
+T3	time 21 25	6月余前
+T4	time 26 36	2019-06-05
+T5	disease 38 42	左乳肿块
+T6	operation 44 88	左乳肿块区段切除术+术中冰冻+左乳癌保乳根治术+前哨淋巴结显影活检+左乳筋膜组织瓣形成术
+T8	disease 97 103	左乳浸润性癌
+T9	negative 113 114	无
+T10	clinicalFeature 114 116	畏寒
+T11	clinicalFeature 116 118	发热
+T12	negative 119 120	无
+T13	clinicalFeature 120 122	胸闷
+T14	clinicalFeature 122 124	气促
+T15	negative 125 126	无
+T16	clinicalFeature 126 128	恶心
+T17	clinicalFeature 128 130	呕吐
+T18	negative 131 132	无
+T19	clinicalFeature 132 136	上肢麻木
+T20	cure 142 148	EC-T方案
+T21	drug 149 157	多西他赛（艾素）
+T22	dose 157 162	140mg
+T23	frequency 166 173	q3w*4-8
+T24	cure 174 176	化疗
+T26	disease 189 201	手术后恶性肿瘤维持性化疗
+T27	disease 202 207	左乳癌术后
+T40	sign 259 261	体温
+T41	indexValue 261 266	36.8℃
+T42	sign 267 269	脉搏
+T43	indexValue 269 274	89次/分
+T44	sign 275 277	呼吸
+T45	indexValue 277 282	20次/分
+T46	sign 283 285	血压
+T47	indexValue 285 295	140/87mmHg
+T48	clinicalFeature 298 300	神清
+T49	clinicalFeature 301 304	精神可
+T50	body 305 306	颈
+T51	clinicalFeature 306 307	软
+T52	clinicalFeature 308 311	无抵抗
+T53	body 312 314	皮肤
+T54	body 314 316	巩膜
+T55	clinicalFeature 316 319	无黄染
+T56	body 320 325	浅表淋巴结
+T57	clinicalFeature 325 329	未及肿大
+T58	body 330 332	双乳
+T59	clinicalFeature 332 335	略对称
+T60	body 336 338	左乳
+T61	body 339 342	左腋下
+T62	clinicalFeature 342 351	可见陈旧性手术疤痕
+T65	body 362 364	右乳
+T66	clinicalFeature 364 371	未扪及肿大结节
+T67	body 373 378	腋下淋巴结
+T68	clinicalFeature 378 382	未及肿大
+T69	body 383 384	心
+T70	body 384 385	肺
+T71	clinicalFeature 385 393	听诊未见明显异常
+T72	body 394 395	腹
+T73	clinicalFeature 395 397	平软
+T74	clinicalFeature 398 409	可见陈旧性纵行手术疤痕
+T75	negative 410 411	无
+T76	clinicalFeature 411 413	压痛
+T77	clinicalFeature 414 417	反跳痛
+T78	sign 418 421	肠鸣音
+T79	indexValue 421 424	无亢进
+T80	body 425 428	双下肢
+T81	clinicalFeature 428 431	无浮肿
+T82	sign 432 435	病理征
+T83	indexValue 435 438	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R3	timeOperation Arg1:T4 Arg2:T6
+R4	timeOperation Arg1:T3 Arg2:T6
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T9 Arg2:T11
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T12 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T15 Arg2:T17
+R12	negativeClinicalFeature Arg1:T18 Arg2:T19
+R13	clinicalFeatureTime Arg1:T10 Arg2:T3
+R14	clinicalFeatureTime Arg1:T11 Arg2:T3
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	clinicalFeatureTime Arg1:T14 Arg2:T3
+R17	clinicalFeatureTime Arg1:T16 Arg2:T3
+R18	clinicalFeatureTime Arg1:T19 Arg2:T3
+R19	clinicalFeatureTime Arg1:T17 Arg2:T3
+R20	clinicalFeatureTime Arg1:T10 Arg2:T4
+R21	clinicalFeatureTime Arg1:T11 Arg2:T4
+R22	clinicalFeatureTime Arg1:T13 Arg2:T4
+R23	clinicalFeatureTime Arg1:T14 Arg2:T4
+R24	clinicalFeatureTime Arg1:T16 Arg2:T4
+R25	clinicalFeatureTime Arg1:T17 Arg2:T4
+R26	clinicalFeatureTime Arg1:T19 Arg2:T4
+R27	drugDose Arg1:T21 Arg2:T22
+R28	doseFrequency Arg1:T22 Arg2:T23
+R32	drugFrequency Arg1:T21 Arg2:T23
+R41	signIndexValue Arg1:T40 Arg2:T41
+R42	signIndexValue Arg1:T42 Arg2:T43
+R43	signIndexValue Arg1:T44 Arg2:T45
+R44	signIndexValue Arg1:T46 Arg2:T47
+R45	bodyClinicalFeature Arg1:T50 Arg2:T51
+R46	bodyClinicalFeature Arg1:T50 Arg2:T52
+R47	bodyClinicalFeature Arg1:T53 Arg2:T55
+R48	bodyClinicalFeature Arg1:T54 Arg2:T55
+R49	bodyClinicalFeature Arg1:T56 Arg2:T57
+R50	bodyClinicalFeature Arg1:T58 Arg2:T59
+R51	bodyClinicalFeature Arg1:T60 Arg2:T62
+R52	bodyClinicalFeature Arg1:T61 Arg2:T62
+T7	modification 352 361	左乳癌保乳术后表现
+R53	modificationClinicalFeature Arg1:T7 Arg2:T62
+R54	bodyClinicalFeature Arg1:T65 Arg2:T66
+R55	bodyClinicalFeature Arg1:T67 Arg2:T68
+R56	bodyClinicalFeature Arg1:T69 Arg2:T71
+R57	bodyClinicalFeature Arg1:T70 Arg2:T71
+R58	bodyClinicalFeature Arg1:T72 Arg2:T73
+R59	bodyClinicalFeature Arg1:T72 Arg2:T74
+R60	negativeClinicalFeature Arg1:T75 Arg2:T76
+R61	negativeClinicalFeature Arg1:T75 Arg2:T77
+R62	bodyClinicalFeature Arg1:T72 Arg2:T76
+R63	bodyClinicalFeature Arg1:T72 Arg2:T77
+R64	signIndexValue Arg1:T78 Arg2:T79
+R65	bodyClinicalFeature Arg1:T80 Arg2:T81
+R66	signIndexValue Arg1:T82 Arg2:T83

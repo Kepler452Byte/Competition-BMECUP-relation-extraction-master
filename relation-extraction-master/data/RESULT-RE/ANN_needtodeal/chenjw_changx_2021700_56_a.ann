@@ -1,0 +1,85 @@
+T1	clinicalFeature 4 6	多尿
+T2	clinicalFeature 6 8	口干
+T3	clinicalFeature 8 10	多饮
+T4	time 10 13	16年
+T5	clinicalFeature 14 18	血糖不佳
+T6	time 18 20	1天
+T7	time 29 33	16年前
+T8	cause 33 38	无明显诱因
+T9	clinicalFeature 41 43	多尿
+T10	clinicalFeature 43 45	口干
+T11	clinicalFeature 45 47	多饮
+T12	modification 48 57	每天饮水1热水瓶水
+T13	negative 60 61	无
+T14	clinicalFeature 61 65	视物模糊
+T15	negative 66 67	无
+T16	clinicalFeature 67 71	四肢麻木
+T17	cure 74 80	口服药物降糖
+T18	cure 78 80	降糖
+T19	time 87 91	4年余前
+T20	clinicalFeature 92 96	血糖不稳
+T21	drug 102 105	胰岛素
+T22	cure 105 107	降糖
+T23	drug 108 114	具体用药不详
+T24	time 116 119	6月前
+T25	clinicalFeature 120 124	血糖不稳
+T26	cause 133 137	检查发现
+T27	disease 137 140	右肾癌
+T28	drug 159 162	诺和锐
+T29	dose 162 165	30针
+T30	frequency 166 173	早餐前20单位
+T31	drug 182 186	米格列醇
+T32	dose 187 191	50mg
+T33	frequency 195 199	每日三次
+T34	cure 199 201	降糖
+T35	cure 206 211	未控制饮食
+T36	negative 212 213	无
+T37	clinicalFeature 213 215	畏寒
+T38	clinicalFeature 215 217	发热
+T39	negative 218 219	无
+T40	clinicalFeature 219 221	胸闷
+T41	clinicalFeature 221 223	气急
+T42	negative 224 225	无
+T43	clinicalFeature 225 227	恶心
+T44	clinicalFeature 227 229	呕吐
+T45	time 234 235	今
+T46	laboratory 239 242	血生化
+T47	laboratory 244 247	葡萄糖
+T48	laboratoryValue 248 259	19.88mmol/L
+T49	laboratory 260 262	尿酸
+T50	laboratoryValue 262 271	485μmol/L
+T51	laboratory 272 274	肌酐
+T52	laboratoryValue 275 286	100.3μmol/L
+T53	laboratory 287 294	餐后二小时血糖
+T54	laboratory 292 294	血糖
+T55	laboratoryValue 295 306	18.45mmol/L
+T56	disease 319 324	2型糖尿病
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T6
+R5	causeClinicalfeature Arg1:T8 Arg2:T11
+R6	clinicalFeatureTime Arg1:T9 Arg2:T7
+R7	clinicalFeatureTime Arg1:T10 Arg2:T7
+R8	clinicalFeatureTime Arg1:T11 Arg2:T7
+R9	modificationClinicalfeature Arg1:T12 Arg2:T11
+R10	negativeClinicalfeature Arg1:T13 Arg2:T14
+R11	clinicalFeatureTime Arg1:T14 Arg2:T7
+R12	negativeClinicalfeature Arg1:T15 Arg2:T16
+R13	clinicalFeatureTime Arg1:T16 Arg2:T7
+R14	cureTime Arg1:T17 Arg2:T7
+R15	clinicalFeatureTime Arg1:T20 Arg2:T19
+R16	clinicalFeatureTime Arg1:T25 Arg2:T24
+R17	causeDisease Arg1:T26 Arg2:T27
+R18	drugFrequency Arg1:T28 Arg2:T30
+R19	doseFrequency Arg1:T29 Arg2:T30
+R20	drugDose Arg1:T31 Arg2:T32
+R21	doseFrequency Arg1:T32 Arg2:T33
+R22	negativeClinicalfeature Arg1:T36 Arg2:T38
+R23	negativeClinicalfeature Arg1:T39 Arg2:T41
+R24	negativeClinicalfeature Arg1:T42 Arg2:T44
+R25	laboratoryTime Arg1:T46 Arg2:T45
+R26	laboratoryLaboratoryvalue Arg1:T47 Arg2:T48
+R27	laboratoryLaboratoryvalue Arg1:T49 Arg2:T50
+R28	laboratoryLaboratoryvalue Arg1:T51 Arg2:T52
+R29	laboratoryLaboratoryvalue Arg1:T54 Arg2:T55

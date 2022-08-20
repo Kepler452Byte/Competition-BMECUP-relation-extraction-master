@@ -1,0 +1,106 @@
+T1	clinicalFeature 6 8	疼痛
+T2	time 8 10	数年
+T3	trend 11 13	加重
+T4	clinicalFeature 14 18	活动受限
+T5	time 18 20	半月
+T6	time 29 32	数年前
+T7	clinicalFeature 36 40	腰部疼痛
+T8	drug 47 51	具体不详
+T9	time 52 55	半月前
+T10	clinicalFeature 60 66	腰部活动受限
+T11	negative 67 68	无
+T12	clinicalFeature 70 75	双下肢麻木
+T13	negative 76 77	无
+T14	clinicalFeature 77 84	双下肢活动受限
+T15	negative 85 86	无
+T16	clinicalFeature 86 91	大小便失禁
+T17	negative 92 93	无
+T18	clinicalFeature 93 95	头晕
+T19	clinicalFeature 95 97	头痛
+T20	negative 100 101	无
+T21	clinicalFeature 101 103	恶心
+T22	clinicalFeature 103 105	呕吐
+T23	negative 106 107	无
+T24	clinicalFeature 107 109	胸闷
+T25	clinicalFeature 109 111	气急
+T26	negative 112 113	无
+T27	clinicalFeature 113 115	腹痛
+T28	clinicalFeature 115 117	腹胀
+T29	body 129 132	T12
+T30	auxiliaryDescript 132 134	骨折
+T32	disease 170 175	T12骨折
+T33	disease 177 181	骨质疏松
+T46	sign 234 236	体温
+T47	indexValue 236 239	36℃
+T48	sign 240 242	脉搏
+T49	indexValue 242 247	93次/分
+T50	sign 248 250	呼吸
+T51	indexValue 250 255	20次/分
+T52	sign 256 258	血压
+T53	indexValue 258 268	150/94mmHg
+T54	clinicalFeature 269 271	神清
+T55	clinicalFeature 272 275	精神可
+T56	body 276 277	心
+T57	body 277 278	肺
+T58	clinicalFeature 278 282	腹部尚可
+T59	body 284 286	腰椎
+T60	clinicalFeature 286 292	生理弧度存在
+T61	body 293 295	腰椎
+T62	clinicalFeature 295 297	压痛
+T63	clinicalFeature 301 305	活动受限
+T64	body 307 310	双下肢
+T65	sign 310 312	肌力
+T66	indexValue 312 314	无级
+T67	sign 315 318	病理征
+T68	indexValue 318 321	（-）
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTrend Arg1:T1 Arg2:T3
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+T69	body 4 6	腰部
+R4	bodyClinicalFeature Arg1:T69 Arg2:T1
+R5	bodyClinicalFeature Arg1:T69 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T6
+T70	cure 41 46	曾多次治疗
+R9	negativeClinicalFeature Arg1:T11 Arg2:T12
+R10	negativeClinicalFeature Arg1:T13 Arg2:T14
+R11	negativeClinicalFeature Arg1:T15 Arg2:T16
+R12	negativeClinicalFeature Arg1:T17 Arg2:T18
+R13	negativeClinicalFeature Arg1:T17 Arg2:T19
+T71	clinicalFeature 55 57	腰痛
+R14	clinicalFeatureTime Arg1:T71 Arg2:T9
+R16	clinicalFeatureTime Arg1:T10 Arg2:T9
+R17	clinicalFeatureTime Arg1:T12 Arg2:T9
+R18	clinicalFeatureTime Arg1:T14 Arg2:T9
+R19	clinicalFeatureTime Arg1:T16 Arg2:T9
+R20	clinicalFeatureTime Arg1:T18 Arg2:T9
+R21	clinicalFeatureTime Arg1:T19 Arg2:T9
+R22	negativeClinicalFeature Arg1:T20 Arg2:T21
+R23	negativeClinicalFeature Arg1:T20 Arg2:T22
+R24	negativeClinicalFeature Arg1:T23 Arg2:T24
+R25	negativeClinicalFeature Arg1:T23 Arg2:T25
+R26	negativeClinicalFeature Arg1:T26 Arg2:T27
+R27	negativeClinicalFeature Arg1:T26 Arg2:T28
+R28	clinicalFeatureTime Arg1:T21 Arg2:T9
+R29	clinicalFeatureTime Arg1:T22 Arg2:T9
+R30	clinicalFeatureTime Arg1:T24 Arg2:T9
+R31	clinicalFeatureTime Arg1:T25 Arg2:T9
+R32	clinicalFeatureTime Arg1:T27 Arg2:T9
+R33	clinicalFeatureTime Arg1:T28 Arg2:T9
+T72	auxiliaryExamination 124 127	磁共振
+R15	auxiliaryExaminationTime Arg1:T72 Arg2:T9
+R34	bodyAuxiliaryDescript Arg1:T29 Arg2:T30
+R35	auxiliaryExaminationAuxiliaryDescript Arg1:T72 Arg2:T30
+R44	signIndexValue Arg1:T46 Arg2:T47
+R45	signIndexValue Arg1:T48 Arg2:T49
+R46	signIndexValue Arg1:T50 Arg2:T51
+R47	signIndexValue Arg1:T52 Arg2:T53
+R48	bodyClinicalFeature Arg1:T56 Arg2:T58
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	bodyClinicalFeature Arg1:T59 Arg2:T60
+R51	bodyClinicalFeature Arg1:T61 Arg2:T62
+R52	signIndexValue Arg1:T65 Arg2:T66
+R53	bodySign Arg1:T64 Arg2:T65
+R54	signIndexValue Arg1:T67 Arg2:T68
+T73	body 299 301	腰部
+R56	bodyClinicalFeature Arg1:T73 Arg2:T63
+R7	drugCure Arg1:T8 Arg2:T70	

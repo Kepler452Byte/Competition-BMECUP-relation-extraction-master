@@ -1,0 +1,59 @@
+T1	clinicalFeature 7 9	恶心
+T2	clinicalFeature 9 11	呕吐
+T3	time 11 13	2天
+T4	time 22 25	2天前
+T5	cause 26 31	无明显诱因
+T6	clinicalFeature 34 36	纳差
+T7	clinicalFeature 38 40	恶心
+T8	clinicalFeature 40 42	呕吐
+T9	modification 45 52	呕吐物为内容物
+T12	negative 60 61	无
+T13	clinicalFeature 61 63	咳嗽
+T14	clinicalFeature 63 65	咳痰
+T15	negative 66 67	无
+T16	clinicalFeature 67 69	畏寒
+T17	clinicalFeature 69 71	发热
+T18	negative 72 73	无
+T19	clinicalFeature 73 75	胸闷
+T20	clinicalFeature 75 77	气促
+T21	negative 78 79	无
+T22	clinicalFeature 79 83	四肢抽搐
+T23	negative 84 85	无
+T24	clinicalFeature 85 89	视物旋转
+T27	disease 130 132	偏瘫
+T28	disease 133 139	脑出血后遗症
+T95	clinicalFeature 4 6	纳差
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T1 Arg2:T3
+R3	clinicalFeatureTime Arg1:T95 Arg2:T3
+R4	causeClinicalFeature Arg1:T5 Arg2:T6
+R5	causeClinicalFeature Arg1:T5 Arg2:T7
+R6	causeClinicalFeature Arg1:T5 Arg2:T8
+R7	clinicalFeatureTime Arg1:T6 Arg2:T4
+R8	clinicalFeatureTime Arg1:T7 Arg2:T4
+R9	clinicalFeatureTime Arg1:T8 Arg2:T4
+R10	modificationClinicalFeature Arg1:T9 Arg2:T8
+R12	negativeClinicalFeature Arg1:T12 Arg2:T13
+R13	negativeClinicalFeature Arg1:T12 Arg2:T14
+R14	negativeClinicalFeature Arg1:T15 Arg2:T16
+R15	negativeClinicalFeature Arg1:T15 Arg2:T17
+R16	negativeClinicalFeature Arg1:T18 Arg2:T19
+R17	negativeClinicalFeature Arg1:T18 Arg2:T20
+R18	negativeClinicalFeature Arg1:T21 Arg2:T22
+R19	negativeClinicalFeature Arg1:T23 Arg2:T24
+R20	clinicalFeatureTime Arg1:T13 Arg2:T4
+R22	clinicalFeatureTime Arg1:T14 Arg2:T4
+R23	clinicalFeatureTime Arg1:T16 Arg2:T4
+R24	clinicalFeatureTime Arg1:T17 Arg2:T4
+R25	clinicalFeatureTime Arg1:T19 Arg2:T4
+R26	clinicalFeatureTime Arg1:T20 Arg2:T4
+R27	clinicalFeatureTime Arg1:T22 Arg2:T4
+R28	clinicalFeatureTime Arg1:T24 Arg2:T4
+T10	modification 53 59	无咖啡样液体
+R11	modificationClinicalFeature Arg1:T10 Arg2:T8
+T11	frequency 42 44	数次
+R21	clinicalFeatureFrequency Arg1:T8 Arg2:T11
+T25	trend 102 107	无明显改善
+R29	clinicalFeatureTrend Arg1:T6 Arg2:T25
+R30	clinicalFeatureTrend Arg1:T7 Arg2:T25
+R39	clinicalFeatureTrend Arg1:T8 Arg2:T25

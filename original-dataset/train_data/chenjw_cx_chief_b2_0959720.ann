@@ -1,0 +1,5 @@
+T1	clinicalFeature 7 13	子宫内膜增厚
+T2	time 13 15	2天
+T5	cause 3 7	检查发现
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T5 Arg2:T1

@@ -1,0 +1,5 @@
+T1	clinicalFeature 14 20	心跳呼吸骤停
+T2	modification 21 25	呼之不应
+T5	time 6 12	入院前7分钟
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	modificationClinicalFeature Arg1:T2 Arg2:T1

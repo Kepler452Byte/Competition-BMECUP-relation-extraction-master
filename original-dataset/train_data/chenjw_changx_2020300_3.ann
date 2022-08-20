@@ -1,0 +1,142 @@
+T1	clinicalFeature 9 11	不适
+T2	time 11 14	2年余
+T3	trend 15 17	加重
+T4	time 17 19	1周
+T5	time 28 32	2年余前
+T6	cause 32 37	无明显诱因
+T7	clinicalFeature 42 47	右上腹胀痛
+T8	modification 48 52	程度不剧
+T10	time 64 67	1周前
+T11	clinicalFeature 71 76	上腹部不适
+T12	clinicalFeature 78 84	腰背部放射痛
+T13	clinicalFeature 85 87	恶心
+T14	clinicalFeature 87 89	呕吐
+T15	modification 90 98	呕吐物为胃内容物
+T16	negative 100 101	无
+T17	clinicalFeature 101 103	畏寒
+T18	clinicalFeature 103 105	发热
+T19	negative 106 107	无
+T20	clinicalFeature 107 109	腹泻
+T21	negative 110 111	无
+T22	clinicalFeature 111 117	皮肤巩膜发黄
+T23	negative 118 119	无
+T24	clinicalFeature 119 121	反酸
+T25	clinicalFeature 121 123	嗳气
+T27	disease 137 141	胆囊结石
+T39	sign 197 198	T
+T40	indexValue 198 203	36.4℃
+T41	sign 204 205	P
+T42	indexValue 205 210	72次/分
+T43	sign 211 212	R
+T44	indexValue 212 217	17次/分
+T45	sign 218 220	Bp
+T46	indexValue 220 230	122/73mmHg
+T50	body 241 243	巩膜
+T51	clinicalFeature 243 246	无黄染
+T52	body 247 251	双侧瞳孔
+T53	clinicalFeature 251 255	等大等圆
+T54	clinicalFeature 256 264	直径约2.5mm
+T55	clinicalFeature 266 272	对光反射存在
+T56	clinicalFeature 273 277	鼻通气畅
+T58	clinicalFeature 281 284	无压痛
+T60	clinicalFeature 287 290	无压痛
+T61	clinicalFeature 293 297	位置居中
+T62	body 298 301	甲状腺
+T63	clinicalFeature 301 304	不肿大
+T64	body 305 308	颈静脉
+T65	clinicalFeature 308 311	无怒张
+T66	clinicalFeature 314 319	外形无畸形
+T67	clinicalFeature 323 326	无增宽
+T68	body 327 329	肺部
+T69	clinicalFeature 329 333	呼吸音清
+T70	sign 334 336	心率
+T71	indexValue 336 341	72次/分
+T72	clinicalFeature 342 345	心律齐
+T73	clinicalFeature 347 351	心音正常
+T74	body 352 358	各瓣膜听诊区
+T75	clinicalFeature 358 366	未闻及病理性杂音
+T76	body 367 368	腹
+T77	clinicalFeature 368 370	平软
+T78	clinicalFeature 373 377	肋下未及
+T79	body 378 381	全腹部
+T80	clinicalFeature 384 386	压痛
+T81	negative 387 388	无
+T82	clinicalFeature 388 391	反跳痛
+T83	clinicalFeature 392 395	蠕动波
+T84	sign 397 400	墨菲征
+T85	indexValue 400 402	阴性
+T86	body 403 406	双肾区
+T88	clinicalFeature 406 409	无叩痛
+T89	clinicalFeature 422 424	正常
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R3	clinicalFeatureTrend Arg1:T1 Arg2:T3
+R4	clinicalFeatureTime Arg1:T7 Arg2:T5
+R5	causeClinicalFeature Arg1:T6 Arg2:T7
+R8	clinicalFeatureTime Arg1:T11 Arg2:T10
+R9	clinicalFeatureTime Arg1:T12 Arg2:T10
+R10	clinicalFeatureTime Arg1:T13 Arg2:T10
+R11	clinicalFeatureTime Arg1:T14 Arg2:T10
+R12	modificationClinicalFeature Arg1:T15 Arg2:T14
+R13	negativeClinicalFeature Arg1:T16 Arg2:T17
+R14	negativeClinicalFeature Arg1:T16 Arg2:T18
+R15	negativeClinicalFeature Arg1:T19 Arg2:T20
+R16	negativeClinicalFeature Arg1:T21 Arg2:T22
+R17	negativeClinicalFeature Arg1:T23 Arg2:T24
+R18	negativeClinicalFeature Arg1:T23 Arg2:T25
+T90	disease 142 147	慢性胆囊炎
+R27	signIndexValue Arg1:T39 Arg2:T40
+R28	signIndexValue Arg1:T41 Arg2:T42
+R29	signIndexValue Arg1:T43 Arg2:T44
+R30	signIndexValue Arg1:T45 Arg2:T46
+T93	body 239 241	皮肤
+R33	bodyClinicalFeature Arg1:T93 Arg2:T51
+R34	bodyClinicalFeature Arg1:T50 Arg2:T51
+R35	bodyClinicalFeature Arg1:T52 Arg2:T53
+R36	bodyClinicalFeature Arg1:T52 Arg2:T54
+R37	bodyClinicalFeature Arg1:T52 Arg2:T55
+T94	body 278 281	副鼻窦
+R38	bodyClinicalFeature Arg1:T94 Arg2:T58
+T57	body 285 287	乳突
+R39	bodyClinicalFeature Arg1:T57 Arg2:T60
+T59	body 291 293	气管
+R40	bodyClinicalFeature Arg1:T59 Arg2:T61
+R41	bodyClinicalFeature Arg1:T62 Arg2:T63
+R42	bodyClinicalFeature Arg1:T64 Arg2:T65
+T95	body 312 314	胸部
+R43	bodyClinicalFeature Arg1:T95 Arg2:T66
+T96	body 320 323	肋间隙
+R44	bodyClinicalFeature Arg1:T96 Arg2:T67
+R45	bodyClinicalFeature Arg1:T68 Arg2:T69
+R46	signIndexValue Arg1:T70 Arg2:T71
+R47	bodyClinicalFeature Arg1:T74 Arg2:T75
+R48	bodyClinicalFeature Arg1:T76 Arg2:T77
+T97	negative 381 382	无
+R49	negativeClinicalFeature Arg1:T97 Arg2:T80
+R50	bodyClinicalFeature Arg1:T79 Arg2:T80
+R51	negativeClinicalFeature Arg1:T81 Arg2:T82
+R52	bodyClinicalFeature Arg1:T79 Arg2:T82
+T98	negative 395 396	无
+R53	negativeClinicalFeature Arg1:T98 Arg2:T83
+R54	signIndexValue Arg1:T84 Arg2:T85
+R55	bodyClinicalFeature Arg1:T86 Arg2:T88
+T87	body 418 420	脊柱
+T99	body 420 422	四肢
+R56	bodyClinicalFeature Arg1:T87 Arg2:T89
+R57	bodyClinicalFeature Arg1:T99 Arg2:T89
+T100	sign 410 415	移动性浊音
+T101	indexValue 415 417	阴性
+R58	signIndexValue Arg1:T100 Arg2:T101
+T102	body 371 372	肝
+T103	body 372 373	脾
+R59	bodyClinicalFeature Arg1:T102 Arg2:T78
+R60	bodyClinicalFeature Arg1:T103 Arg2:T78
+T104	sign 426 432	神经系统检查
+T105	indexValue 432 434	阴性
+R61	signIndexValue Arg1:T104 Arg2:T105
+R6	modificationClinicalFeature Arg1:T8 Arg2:T7
+T107	body 4 7	上腹部
+R62	bodyClinicalFeature Arg1:T107 Arg2:T1
+T108	modification 7 9	反复
+R63	modificationClinicalFeature Arg1:T108 Arg2:T1
+T109	modification 38 40	经常
+R64	modificationClinicalFeature Arg1:T109 Arg2:T7

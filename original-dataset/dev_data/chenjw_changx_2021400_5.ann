@@ -1,0 +1,180 @@
+T1	clinicalFeature 7 14	浅表静脉迂曲扩
+T2	time 15 19	20余年
+T3	clinicalFeature 20 24	红肿疼痛
+T4	time 24 26	一周
+T5	time 36 41	20余年前
+T7	clinicalFeature 51 60	浅表静脉迂曲伴扩张
+T8	negative 63 64	无
+T9	clinicalFeature 64 68	任何异样
+T10	cure 73 76	未治疗
+T11	time 77 81	1年余前
+T12	trend 83 85	加重
+T13	clinicalFeature 86 91	稍有酸胀感
+T14	body 93 96	右下肢
+T15	clinicalFeature 96 100	轻度肿胀
+T17	negative 111 112	无
+T18	clinicalFeature 112 119	双下肢破溃出血
+T19	negative 120 121	无
+T20	clinicalFeature 121 123	畏寒
+T21	clinicalFeature 123 125	发热
+T22	negative 126 127	无
+T23	clinicalFeature 127 129	胸闷
+T24	clinicalFeature 129 131	气急
+T25	negative 132 133	无
+T26	clinicalFeature 133 135	腹痛
+T27	clinicalFeature 135 137	腹胀
+T28	negative 138 139	无
+T29	clinicalFeature 139 146	双下肢活动障碍
+T30	negative 147 148	无
+T31	clinicalFeature 148 150	头痛
+T32	clinicalFeature 150 152	头晕
+T33	time 156 159	一周前
+T34	clinicalFeature 161 168	右下肢红肿疼痛
+T36	negative 175 176	无
+T37	clinicalFeature 176 178	畏寒
+T38	clinicalFeature 178 180	发热
+T39	negative 182 183	无
+T40	clinicalFeature 183 187	破溃出血
+T41	negative 188 189	无
+T42	clinicalFeature 189 191	胸闷
+T43	clinicalFeature 191 193	气促
+T44	negative 194 195	无
+T45	clinicalFeature 195 200	间歇性跛行
+T46	negative 201 202	无
+T47	clinicalFeature 202 209	双下肢活动障碍
+T50	disease 234 246	右下肢大隐静脉曲张伴溃疡
+T51	disease 247 251	皮肤感染
+T64	sign 303 304	T
+T65	indexValue 304 309	36.4℃
+T66	sign 310 311	P
+T67	indexValue 311 316	66次/分
+T68	sign 317 318	R
+T69	indexValue 318 323	19次/分
+T70	sign 324 326	Bp
+T71	indexValue 326 336	142/89mmHg
+T72	clinicalFeature 338 341	神志清
+T73	clinicalFeature 342 345	精神可
+T74	body 346 348	皮肤
+T75	body 348 350	巩膜
+T76	clinicalFeature 350 353	无黄染
+T77	body 354 359	浅表淋巴结
+T78	clinicalFeature 359 363	未及肿大
+T79	body 364 366	巩膜
+T80	clinicalFeature 366 369	无黄染
+T81	body 370 372	瞳孔
+T82	clinicalFeature 372 378	对光反射存在
+T83	clinicalFeature 379 383	鼻通气畅
+T84	body 384 387	副鼻窦
+T85	clinicalFeature 387 390	无压痛
+T86	body 391 393	乳突
+T87	clinicalFeature 393 396	无压痛
+T88	body 397 399	气管
+T89	clinicalFeature 399 403	位置居中
+T90	body 404 407	颈静脉
+T91	clinicalFeature 407 410	无怒张
+T92	body 412 414	胸部
+T93	clinicalFeature 414 419	外形无畸形
+T94	body 420 422	两肺
+T95	clinicalFeature 422 426	呼吸音清
+T96	sign 427 429	心率
+T97	indexValue 429 434	66次/分
+T98	clinicalFeature 435 438	心律齐
+T99	clinicalFeature 439 443	心音正常
+T100	clinicalFeature 444 449	杂音未闻及
+T101	body 450 451	腹
+T102	clinicalFeature 451 453	平软
+T103	negative 454 455	无
+T104	clinicalFeature 455 457	压痛
+T105	clinicalFeature 458 461	反跳痛
+T106	body 462 469	右下肢浅表静脉
+T107	clinicalFeature 469 473	迂曲扩张
+T108	modification 474 478	局部成团
+T109	body 479 483	小腿内侧
+T110	clinicalFeature 483 489	可见溃疡形成
+T111	modification 491 495	周边红肿
+T112	modification 496 499	皮温高
+T113	modification 500 505	渗出不明显
+T114	sign 506 513	深静脉通畅试验
+T115	indexValue 513 515	阴性
+T116	body 516 518	四肢
+T117	clinicalFeature 518 522	活动正常
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+T118	body 4 7	右下肢
+R3	bodyClinicalFeature Arg1:T118 Arg2:T1
+R4	bodyClinicalFeature Arg1:T118 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T5
+T6	body 48 51	右下肢
+R6	bodyClinicalFeature Arg1:T6 Arg2:T7
+R7	negativeClinicalFeature Arg1:T8 Arg2:T9
+R9	clinicalFeatureTime Arg1:T9 Arg2:T5
+R10	clinicalFeatureTrend Arg1:T7 Arg2:T12
+R11	clinicalFeatureTime Arg1:T7 Arg2:T11
+R12	bodyClinicalFeature Arg1:T6 Arg2:T13
+R13	bodyClinicalFeature Arg1:T14 Arg2:T15
+R14	clinicalFeatureTime Arg1:T15 Arg2:T11
+R15	clinicalFeatureTime Arg1:T13 Arg2:T11
+R17	negativeClinicalFeature Arg1:T17 Arg2:T18
+R18	clinicalFeatureTime Arg1:T18 Arg2:T11
+R19	negativeClinicalFeature Arg1:T19 Arg2:T20
+R20	negativeClinicalFeature Arg1:T19 Arg2:T21
+R21	negativeClinicalFeature Arg1:T22 Arg2:T23
+R22	negativeClinicalFeature Arg1:T22 Arg2:T24
+R23	negativeClinicalFeature Arg1:T25 Arg2:T26
+R24	negativeClinicalFeature Arg1:T25 Arg2:T27
+R25	negativeClinicalFeature Arg1:T28 Arg2:T29
+R26	negativeClinicalFeature Arg1:T30 Arg2:T31
+R27	negativeClinicalFeature Arg1:T30 Arg2:T32
+R28	clinicalFeatureTime Arg1:T20 Arg2:T11
+R29	clinicalFeatureTime Arg1:T21 Arg2:T11
+R30	clinicalFeatureTime Arg1:T23 Arg2:T11
+R31	clinicalFeatureTime Arg1:T24 Arg2:T11
+R32	clinicalFeatureTime Arg1:T26 Arg2:T11
+R33	clinicalFeatureTime Arg1:T27 Arg2:T11
+R34	clinicalFeatureTime Arg1:T29 Arg2:T11
+R35	clinicalFeatureTime Arg1:T31 Arg2:T11
+R36	clinicalFeatureTime Arg1:T32 Arg2:T11
+R37	clinicalFeatureTime Arg1:T34 Arg2:T33
+R39	negativeClinicalFeature Arg1:T36 Arg2:T37
+R40	negativeClinicalFeature Arg1:T36 Arg2:T38
+R41	clinicalFeatureTime Arg1:T37 Arg2:T33
+R42	clinicalFeatureTime Arg1:T38 Arg2:T33
+R43	negativeClinicalFeature Arg1:T39 Arg2:T40
+R44	negativeClinicalFeature Arg1:T41 Arg2:T42
+R45	negativeClinicalFeature Arg1:T41 Arg2:T43
+R46	negativeClinicalFeature Arg1:T44 Arg2:T45
+R47	clinicalFeatureTime Arg1:T40 Arg2:T33
+R48	clinicalFeatureTime Arg1:T42 Arg2:T33
+R49	clinicalFeatureTime Arg1:T43 Arg2:T33
+R50	clinicalFeatureTime Arg1:T45 Arg2:T33
+R51	negativeClinicalFeature Arg1:T46 Arg2:T47
+R52	clinicalFeatureTime Arg1:T47 Arg2:T33
+R61	signIndexValue Arg1:T64 Arg2:T65
+R62	signIndexValue Arg1:T66 Arg2:T67
+R63	signIndexValue Arg1:T68 Arg2:T69
+R64	signIndexValue Arg1:T70 Arg2:T71
+R65	bodyClinicalFeature Arg1:T74 Arg2:T76
+R66	bodyClinicalFeature Arg1:T75 Arg2:T76
+R67	bodyClinicalFeature Arg1:T77 Arg2:T78
+R68	bodyClinicalFeature Arg1:T79 Arg2:T80
+R69	bodyClinicalFeature Arg1:T81 Arg2:T82
+R70	bodyClinicalFeature Arg1:T84 Arg2:T85
+R71	bodyClinicalFeature Arg1:T86 Arg2:T87
+R72	bodyClinicalFeature Arg1:T88 Arg2:T89
+R73	bodyClinicalFeature Arg1:T90 Arg2:T91
+R74	bodyClinicalFeature Arg1:T92 Arg2:T93
+R75	bodyClinicalFeature Arg1:T94 Arg2:T95
+R76	signIndexValue Arg1:T96 Arg2:T97
+R77	bodyClinicalFeature Arg1:T101 Arg2:T102
+R78	negativeClinicalFeature Arg1:T103 Arg2:T104
+R79	negativeClinicalFeature Arg1:T103 Arg2:T105
+R80	bodyClinicalFeature Arg1:T101 Arg2:T104
+R81	bodyClinicalFeature Arg1:T101 Arg2:T105
+R82	bodyClinicalFeature Arg1:T106 Arg2:T107
+R83	modificationClinicalFeature Arg1:T108 Arg2:T107
+R84	bodyClinicalFeature Arg1:T109 Arg2:T110
+R85	modificationClinicalFeature Arg1:T111 Arg2:T110
+R86	modificationClinicalFeature Arg1:T112 Arg2:T110
+R87	modificationClinicalFeature Arg1:T113 Arg2:T110
+R88	signIndexValue Arg1:T114 Arg2:T115
+R89	bodyClinicalFeature Arg1:T116 Arg2:T117

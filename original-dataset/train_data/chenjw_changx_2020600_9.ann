@@ -1,0 +1,110 @@
+T1	clinicalFeature 7 15	胸腰背部疼痛不适
+T2	time 15 18	3天余
+T3	time 27 30	3天前
+T5	clinicalFeature 47 53	腰部活动受限
+T6	negative 54 55	无
+T7	clinicalFeature 57 62	双下肢麻木
+T8	negative 63 64	无
+T9	clinicalFeature 64 71	双下肢活动受限
+T10	negative 72 73	无
+T11	clinicalFeature 73 78	大小便失禁
+T12	negative 79 80	无
+T13	clinicalFeature 80 82	头晕
+T14	clinicalFeature 82 85	头痛史
+T15	negative 86 87	无
+T16	clinicalFeature 87 89	恶心
+T17	clinicalFeature 89 91	呕吐
+T18	negative 92 93	无
+T19	clinicalFeature 93 95	胸闷
+T20	clinicalFeature 95 97	气急
+T21	negative 99 100	无
+T22	clinicalFeature 100 102	腹痛
+T23	clinicalFeature 102 104	腹胀
+T24	auxiliaryDescript 126 132	骨折术后改变
+T29	disease 207 213	L2椎体骨折
+T30	disease 214 219	骨质疏松症
+T43	sign 270 272	体温
+T44	indexValue 272 277	36.8℃
+T45	sign 278 280	脉搏
+T46	indexValue 280 285	72次/分
+T47	sign 286 288	呼吸
+T48	indexValue 288 293	20次/分
+T49	sign 294 296	血压
+T50	indexValue 296 306	160/90mmHg
+T53	clinicalFeature 329 333	活动受限
+T55	body 350 353	双下肢
+T56	clinicalFeature 353 358	无明显麻木
+T58	cause 4 6	扭伤
+R1	causeClinicalFeature Arg1:T58 Arg2:T1
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+T59	cause 34 36	扭伤
+T4	clinicalFeature 39 43	腰部疼痛
+R3	causeClinicalFeature Arg1:T59 Arg2:T4
+R4	clinicalFeatureTime Arg1:T4 Arg2:T3
+R5	causeClinicalFeature Arg1:T59 Arg2:T5
+R6	clinicalFeatureTime Arg1:T5 Arg2:T3
+R7	negativeClinicalFeature Arg1:T6 Arg2:T7
+R8	negativeClinicalFeature Arg1:T8 Arg2:T9
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T12 Arg2:T14
+R12	negativeClinicalFeature Arg1:T15 Arg2:T16
+R13	negativeClinicalFeature Arg1:T15 Arg2:T17
+R14	negativeClinicalFeature Arg1:T18 Arg2:T19
+R15	negativeClinicalFeature Arg1:T18 Arg2:T20
+R16	clinicalFeatureTime Arg1:T7 Arg2:T3
+R17	clinicalFeatureTime Arg1:T9 Arg2:T3
+R18	clinicalFeatureTime Arg1:T11 Arg2:T3
+R19	clinicalFeatureTime Arg1:T13 Arg2:T3
+R20	clinicalFeatureTime Arg1:T14 Arg2:T3
+R21	clinicalFeatureTime Arg1:T16 Arg2:T3
+R22	clinicalFeatureTime Arg1:T17 Arg2:T3
+R23	clinicalFeatureTime Arg1:T19 Arg2:T3
+R24	clinicalFeatureTime Arg1:T20 Arg2:T3
+R25	negativeClinicalFeature Arg1:T21 Arg2:T22
+R26	negativeClinicalFeature Arg1:T21 Arg2:T23
+R27	clinicalFeatureTime Arg1:T22 Arg2:T3
+R28	clinicalFeatureTime Arg1:T23 Arg2:T3
+T60	auxiliaryExamination 112 116	腰椎摄片
+T61	disease 138 149	腰3椎体陈旧性压缩骨折
+T63	auxiliaryDescript 160 165	退行性改变
+R30	auxiliaryExaminationAuxiliaryDescript Arg1:T60 Arg2:T24
+R32	auxiliaryExaminationAuxiliaryDescript Arg1:T60 Arg2:T63
+T25	auxiliaryDescript 171 174	略短缩
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T60 Arg2:T25
+R42	signIndexValue Arg1:T43 Arg2:T44
+R43	signIndexValue Arg1:T45 Arg2:T46
+R44	signIndexValue Arg1:T47 Arg2:T48
+R45	signIndexValue Arg1:T49 Arg2:T50
+T28	clinicalFeature 310 316	生理弧度存在
+T27	clinicalFeature 319 325	后凸畸形明显
+T51	clinicalFeature 345 347	压痛
+R46	bodyClinicalFeature Arg1:T55 Arg2:T56
+T52	sign 367 370	病理征
+T54	indexValue 370 373	（-）
+R47	signIndexValue Arg1:T52 Arg2:T54
+T64	body 166 171	左侧股骨颈
+R48	bodyAuxiliaryDescript Arg1:T64 Arg2:T25
+T65	modification 176 179	陈旧性
+R49	auxiliaryDesModification Arg1:T25 Arg2:T65
+T67	time 105 106	今
+R51	auxiliaryExaminationTime Arg1:T60 Arg2:T67
+T68	body 118 126	胸12、腰1椎体
+R52	bodyAuxiliaryDescript Arg1:T68 Arg2:T24
+T69	body 157 160	胸腰椎
+R53	bodyAuxiliaryDescript Arg1:T69 Arg2:T63
+T57	body 359 362	双下肢
+T70	sign 362 364	肌力
+T71	indexValue 364 366	五级
+R54	signIndexValue Arg1:T70 Arg2:T71
+R55	bodySign Arg1:T57 Arg2:T70
+T72	body 335 345	L2-3椎体棘突附近
+R56	bodyClinicalFeature Arg1:T72 Arg2:T51
+T73	body 327 329	腰部
+R57	bodyClinicalFeature Arg1:T73 Arg2:T53
+T74	body 308 310	腰椎
+R58	bodyClinicalFeature Arg1:T74 Arg2:T28
+T75	body 317 319	腰椎
+R59	bodyClinicalFeature Arg1:T75 Arg2:T27
+T76	modification 43 45	明显
+R60	modificationClinicalFeature Arg1:T76 Arg2:T4

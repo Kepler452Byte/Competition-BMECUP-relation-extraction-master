@@ -1,0 +1,11 @@
+T1	body 9 10	胸
+T2	body 11 14	右下肢
+T3	time 14 16	5月
+T6	cause 3 5	车祸
+T7	body 7 8	头
+T8	clinicalFeature 5 7	致伤
+R1	bodyClinicalFeature Arg1:T2 Arg2:T8
+R2	bodyClinicalFeature Arg1:T1 Arg2:T8
+R3	bodyClinicalFeature Arg1:T7 Arg2:T8
+R4	causeClinicalFeature Arg1:T6 Arg2:T8
+R5	clinicalFeatureTime Arg1:T8 Arg2:T3

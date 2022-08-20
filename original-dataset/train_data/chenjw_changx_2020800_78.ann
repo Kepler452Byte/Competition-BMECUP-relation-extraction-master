@@ -1,0 +1,79 @@
+T1	clinicalFeature 6 10	神志不清
+T2	clinicalFeature 11 15	呼吸急促
+T3	time 15 17	9月
+T4	time 26 30	9月余前
+T5	clinicalFeature 41 45	神志不清
+T6	modification 46 50	呼之不应
+T7	clinicalFeature 52 56	呼吸急促
+T8	clinicalFeature 58 62	大汗淋漓
+T9	negative 63 64	无
+T10	clinicalFeature 64 68	口角歪斜
+T11	negative 69 70	无
+T12	clinicalFeature 70 74	肢体抽搐
+T13	negative 75 76	无
+T14	clinicalFeature 76 78	呕吐
+T15	time 103 124	2018-12-27至2019-01-28
+T17	disease 142 146	肺部感染
+T18	disease 147 151	呼吸衰竭
+T31	sign 204 205	T
+T32	indexValue 205 208	36℃
+T33	sign 209 210	P
+T34	indexValue 210 215	65次/分
+T35	sign 216 217	R
+T36	indexValue 217 222	18次/分
+T37	sign 223 225	Bp
+T38	indexValue 225 235	107/60mmHg
+T39	clinicalFeature 236 240	神志痴呆
+T40	clinicalFeature 241 246	刺痛反应差
+T41	body 247 250	双瞳孔
+T42	clinicalFeature 250 254	等大等圆
+T43	clinicalFeature 255 263	直径约2.0mm
+T44	clinicalFeature 264 268	光反迟钝
+T45	clinicalFeature 269 273	呼吸平稳
+T46	sign 280 287	血氧饱和度监测
+T47	indexValue 287 290	不满意
+T48	body 291 293	双肺
+T49	clinicalFeature 293 297	呼吸音粗
+T50	clinicalFeature 298 304	可闻及湿啰音
+T51	sign 305 307	HR
+T52	indexValue 307 315	:65bpm左右
+T53	clinicalFeature 316 319	律尚齐
+T54	body 320 321	腹
+T55	clinicalFeature 321 323	平软
+T56	body 324 326	肢体
+T57	clinicalFeature 326 331	活动欠配合
+T58	sign 332 336	肌力检查
+T59	indexValue 336 340	不能配合
+T60	body 341 344	双下肢
+T61	clinicalFeature 344 346	不肿
+T62	sign 347 350	病理征
+T63	indexValue 350 353	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	clinicalFeatureTime Arg1:T10 Arg2:T4
+R11	clinicalFeatureTime Arg1:T12 Arg2:T4
+R12	clinicalFeatureTime Arg1:T14 Arg2:T4
+R21	signIndexValue Arg1:T31 Arg2:T32
+R22	signIndexValue Arg1:T33 Arg2:T34
+R23	signIndexValue Arg1:T35 Arg2:T36
+R24	signIndexValue Arg1:T37 Arg2:T38
+R25	bodyClinicalFeature Arg1:T41 Arg2:T42
+R26	bodyClinicalFeature Arg1:T41 Arg2:T43
+R27	bodyClinicalFeature Arg1:T41 Arg2:T44
+R28	signIndexValue Arg1:T46 Arg2:T47
+R29	bodyClinicalFeature Arg1:T48 Arg2:T49
+R30	bodyClinicalFeature Arg1:T48 Arg2:T50
+R31	signIndexValue Arg1:T51 Arg2:T52
+R32	bodyClinicalFeature Arg1:T54 Arg2:T55
+R33	bodyClinicalFeature Arg1:T56 Arg2:T57
+R34	signIndexValue Arg1:T58 Arg2:T59
+R35	bodyClinicalFeature Arg1:T60 Arg2:T61
+R36	signIndexValue Arg1:T62 Arg2:T63
+T64	clinicalFeature 275 279	氧袋吸氧
+R4	modificationClinicalFeature Arg1:T6 Arg2:T5

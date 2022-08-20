@@ -1,0 +1,7 @@
+T1	time 9 12	半天前
+T2	clinicalFeature 18 23	上腹部胀痛
+T3	modification 27 30	阵发性
+T7	cause 12 18	吃早饭后出现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T7 Arg2:T2
+R3	modificationClinicalFeature Arg1:T3 Arg2:T2

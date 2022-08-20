@@ -1,0 +1,94 @@
+T1	disease 6 10	右肺腺癌
+T2	time 10 13	3月余
+T3	time 30 34	3月余前
+T4	clinicalFeature 38 42	右侧胸痛
+T5	modification 43 47	程度不剧
+T6	modification 49 52	阵发性
+T7	clinicalFeature 53 55	咳嗽
+T8	modification 64 66	少许
+T9	clinicalFeature 66 68	咳嗽
+T10	clinicalFeature 68 70	咳痰
+T11	modification 71 76	咳黄色浓痰
+T12	negative 77 78	无
+T13	clinicalFeature 78 80	咯血
+T14	negative 81 82	无
+T15	clinicalFeature 82 84	发热
+T16	negative 85 86	无
+T17	clinicalFeature 86 88	恶心
+T18	clinicalFeature 88 90	呕吐
+T19	negative 91 92	无
+T20	clinicalFeature 92 94	腹痛
+T21	clinicalFeature 94 96	腹泻
+T22	auxiliaryExamination 102 107	肺穿刺活检
+T23	disease 111 118	右肺浸润性腺癌
+T24	time 124 134	2019-09-05
+T25	time 146 156	2019-10-16
+T26	time 146 167	2019-10-16、2019-11-07
+T27	time 157 167	2019-11-07
+T28	drug 168 173	培美曲塞针
+T29	dose 174 177	0.8
+T30	drug 182 185	顺铂针
+T31	dose 185 189	45mg
+T32	sign 190 191	d
+T33	cure 203 205	化疗
+T34	cure 208 210	化疗
+T35	time 210 213	出院后
+T36	negative 215 216	无
+T37	clinicalFeature 216 218	咳嗽
+T38	clinicalFeature 218 220	咳痰
+T39	negative 221 222	无
+T40	clinicalFeature 222 224	胸闷
+T41	clinicalFeature 224 226	气急
+T42	negative 227 228	无
+T43	clinicalFeature 228 230	胸痛
+T44	clinicalFeature 230 232	咯血
+T45	negative 233 234	无
+T46	clinicalFeature 234 236	头晕
+T47	clinicalFeature 236 238	头痛
+T48	negative 239 240	无
+T49	clinicalFeature 240 242	恶心
+T50	clinicalFeature 242 244	呕吐
+T51	clinicalFeature 245 248	胃纳可
+T52	clinicalFeature 249 253	睡眠欠佳
+T53	disease 270 280	肺恶性肿瘤维持性化疗
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+R3	modificationClinicalfeature Arg1:T5 Arg2:T4
+R4	modificationClinicalfeature Arg1:T6 Arg2:T4
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R6	modificationClinicalfeature Arg1:T8 Arg2:T10
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+R8	clinicalFeatureTime Arg1:T10 Arg2:T3
+R9	modificationClinicalfeature Arg1:T11 Arg2:T10
+R10	negativeClinicalfeature Arg1:T12 Arg2:T13
+R11	clinicalFeatureTime Arg1:T13 Arg2:T3
+R12	negativeClinicalfeature Arg1:T14 Arg2:T15
+R13	clinicalFeatureTime Arg1:T15 Arg2:T3
+R14	negativeClinicalfeature Arg1:T16 Arg2:T18
+R15	clinicalFeatureTime Arg1:T17 Arg2:T3
+R16	clinicalFeatureTime Arg1:T18 Arg2:T3
+R17	negativeClinicalfeature Arg1:T19 Arg2:T21
+R18	clinicalFeatureTime Arg1:T20 Arg2:T3
+R19	clinicalFeatureTime Arg1:T21 Arg2:T3
+R20	drugDose Arg1:T30 Arg2:T31
+R21	drugSign Arg1:T30 Arg2:T32
+R22	negativeClinicalfeature Arg1:T36 Arg2:T38
+R23	clinicalFeatureCure Arg1:T37 Arg2:T34
+R24	clinicalFeatureTime Arg1:T37 Arg2:T35
+R25	clinicalFeatureCure Arg1:T38 Arg2:T34
+R26	clinicalFeatureTime Arg1:T38 Arg2:T35
+R27	negativeClinicalfeature Arg1:T39 Arg2:T41
+R28	clinicalFeatureCure Arg1:T40 Arg2:T34
+R29	clinicalFeatureTime Arg1:T40 Arg2:T35
+R30	clinicalFeatureTime Arg1:T41 Arg2:T35
+R31	negativeClinicalfeature Arg1:T42 Arg2:T44
+R32	clinicalFeatureTime Arg1:T43 Arg2:T35
+R33	clinicalFeatureTime Arg1:T44 Arg2:T35
+R34	negativeClinicalfeature Arg1:T45 Arg2:T47
+R35	clinicalFeatureTime Arg1:T46 Arg2:T35
+R36	clinicalFeatureTime Arg1:T47 Arg2:T35
+R37	negativeClinicalfeature Arg1:T48 Arg2:T50
+R38	clinicalFeatureTime Arg1:T49 Arg2:T35
+R39	clinicalFeatureTime Arg1:T50 Arg2:T35
+R40	clinicalFeatureTime Arg1:T51 Arg2:T35
+R41	clinicalFeatureTime Arg1:T52 Arg2:T35

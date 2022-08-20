@@ -1,0 +1,80 @@
+T1	modification 4 6	突发
+T2	clinicalFeature 6 8	胸闷
+T3	clinicalFeature 8 10	气促
+T4	time 10 14	2小时余
+T5	time 24 29	2小时余前
+T7	cause 32 37	无明显诱因
+T8	modification 38 40	突发
+T9	clinicalFeature 40 42	胸闷
+T10	clinicalFeature 42 44	气促
+T11	clinicalFeature 49 53	难以平卧
+T12	negative 54 55	无
+T13	clinicalFeature 55 57	胸痛
+T14	negative 58 59	无
+T15	clinicalFeature 59 61	恶心
+T16	clinicalFeature 61 63	呕吐
+T17	negative 64 65	无
+T18	clinicalFeature 65 67	呕血
+T19	clinicalFeature 72 74	咳嗽
+T20	clinicalFeature 74 76	咳痰
+T21	modification 77 79	白痰
+T22	modification 80 83	量不多
+T23	clinicalFeature 88 90	气喘
+T24	negative 91 92	无
+T25	clinicalFeature 92 94	发热
+T26	clinicalFeature 94 96	畏寒
+T27	trend 118 122	略有缓解
+T28	disease 126 131	急性左心衰
+T40	disease 177 181	高血压病
+T41	disease 182 185	糖尿病
+T42	time 187 189	数年
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T3 Arg2:T4
+T43	clinicalFeature 45 48	端坐位
+R7	negativeClinicalFeature Arg1:T12 Arg2:T13
+R8	negativeClinicalFeature Arg1:T14 Arg2:T15
+R9	negativeClinicalFeature Arg1:T14 Arg2:T16
+T6	clinicalFeature 67 69	咯血
+R10	negativeClinicalFeature Arg1:T17 Arg2:T18
+R11	negativeClinicalFeature Arg1:T17 Arg2:T6
+T44	modification 70 72	稍有
+R13	modificationClinicalFeature Arg1:T44 Arg2:T19
+R14	modificationClinicalFeature Arg1:T44 Arg2:T20
+R12	modificationClinicalFeature Arg1:T21 Arg2:T20
+R15	modificationClinicalFeature Arg1:T22 Arg2:T20
+T45	negative 85 88	无明显
+R16	negativeClinicalFeature Arg1:T45 Arg2:T23
+R17	negativeClinicalFeature Arg1:T24 Arg2:T25
+R18	negativeClinicalFeature Arg1:T24 Arg2:T26
+R19	causeClinicalFeature Arg1:T7 Arg2:T9
+R20	causeClinicalFeature Arg1:T7 Arg2:T10
+R21	causeClinicalFeature Arg1:T7 Arg2:T43
+R22	causeClinicalFeature Arg1:T7 Arg2:T11
+R23	causeClinicalFeature Arg1:T7 Arg2:T19
+R24	causeClinicalFeature Arg1:T7 Arg2:T20
+R25	clinicalFeatureTime Arg1:T9 Arg2:T5
+R26	clinicalFeatureTime Arg1:T10 Arg2:T5
+R27	clinicalFeatureTime Arg1:T43 Arg2:T5
+R28	clinicalFeatureTime Arg1:T11 Arg2:T5
+R29	clinicalFeatureTime Arg1:T13 Arg2:T5
+R30	clinicalFeatureTime Arg1:T15 Arg2:T5
+R31	clinicalFeatureTime Arg1:T16 Arg2:T5
+R32	clinicalFeatureTime Arg1:T18 Arg2:T5
+R33	clinicalFeatureTime Arg1:T6 Arg2:T5
+R34	clinicalFeatureTime Arg1:T19 Arg2:T5
+R35	clinicalFeatureTime Arg1:T20 Arg2:T5
+R36	clinicalFeatureTime Arg1:T23 Arg2:T5
+R37	clinicalFeatureTime Arg1:T25 Arg2:T5
+R38	clinicalFeatureTime Arg1:T26 Arg2:T5
+R39	clinicalFeatureTrend Arg1:T9 Arg2:T27
+R40	clinicalFeatureTrend Arg1:T10 Arg2:T27
+R41	clinicalFeatureTrend Arg1:T43 Arg2:T27
+R42	clinicalFeatureTrend Arg1:T11 Arg2:T27
+T46	cure 111 116	行相关诊疗
+R51	timeDisease Arg1:T42 Arg2:T40
+R52	timeDisease Arg1:T42 Arg2:T41
+T49	drug 198 202	具体不详
+R5	modificationClinicalFeature Arg1:T8 Arg2:T9
+R6	modificationClinicalFeature Arg1:T8 Arg2:T10
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3

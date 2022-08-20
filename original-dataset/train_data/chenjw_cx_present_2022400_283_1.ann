@@ -1,0 +1,7 @@
+T1	time 10 14	2小时前
+T2	modification 20 22	突发
+T3	clinicalFeature 24 29	剑突下疼痛
+T6	cause 15 20	家中吃饭时
+R1	clinicalFeatureTime Arg1:T3 Arg2:T1
+R2	causeClinicalFeature Arg1:T6 Arg2:T3
+R3	modificationClinicalFeature Arg1:T2 Arg2:T3

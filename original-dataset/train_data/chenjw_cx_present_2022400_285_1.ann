@@ -1,0 +1,5 @@
+T1	time 9 13	4小时前
+T2	clinicalFeature 21 25	呼之不应
+T5	cause 13 21	睡觉时被家属发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T5 Arg2:T2

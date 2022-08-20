@@ -1,0 +1,12 @@
+T1	cause 22 24	撞伤
+T2	clinicalFeature 25 29	右踝肿痛
+T3	body 30 32	右踝
+T4	body 33 35	右足
+T5	clinicalFeature 35 39	活动受限
+T8	time 7 13	早上八点左右
+R1	clinicalFeatureTime Arg1:T2 Arg2:T8
+R2	causeClinicalFeature Arg1:T1 Arg2:T2
+R3	bodyClinicalFeature Arg1:T3 Arg2:T5
+R4	bodyClinicalFeature Arg1:T4 Arg2:T5
+R5	causeClinicalFeature Arg1:T1 Arg2:T5
+R6	clinicalFeatureTime Arg1:T5 Arg2:T8

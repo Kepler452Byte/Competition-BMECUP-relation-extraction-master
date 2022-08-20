@@ -1,0 +1,168 @@
+T1	clinicalFeature 6 11	泌乳素升高
+T2	time 11 14	10年
+T3	time 24 28	10年前
+T4	disease 30 37	多囊卵巢综合征
+T5	clinicalFeature 42 49	血清泌乳素升高
+T7	negative 56 57	无
+T8	clinicalFeature 57 61	乳房胀痛
+T9	negative 62 63	无
+T10	clinicalFeature 63 67	红肿溢液
+T11	negative 68 69	无
+T12	clinicalFeature 69 71	畏寒
+T13	clinicalFeature 71 73	发热
+T14	disease 81 87	高泌乳素血症
+T15	cure 89 92	未治疗
+T16	time 94 97	1年前
+T18	drug 128 131	溴隐亭
+T19	dose 132 136	0.5#
+T20	frequency 137 139	QD
+T21	clinicalFeature 151 163	泌乳素水平在正常范围之内
+T22	time 165 168	1月前
+T23	laboratory 176 181	血清泌乳素
+T24	laboratoryValue 181 190	29.79μg/L
+T27	negative 219 220	无
+T28	clinicalFeature 220 224	月经失调
+T29	negative 225 226	无
+T30	clinicalFeature 226 230	乳房胀痛
+T31	negative 231 232	无
+T32	clinicalFeature 232 234	胸闷
+T33	clinicalFeature 234 236	气促
+T34	negative 237 238	无
+T35	clinicalFeature 238 240	畏寒
+T36	clinicalFeature 240 242	发热
+T37	negative 244 245	无
+T38	clinicalFeature 245 247	恶心
+T39	clinicalFeature 247 249	呕吐
+T40	laboratory 269 274	血清泌乳素
+T41	laboratoryValue 274 284	84.90μg/L"
+T43	disease 287 293	高泌乳素血症
+T55	disease 341 348	多囊卵巢综合征
+T56	time 351 354	10年
+T57	drug 358 360	达英
+T58	drug 370 374	二甲双胍
+T59	dose 375 377	1g
+T60	frequency 378 381	BID
+T61	sign 396 398	体温
+T62	indexValue 398 403	36.4℃
+T63	sign 404 406	脉搏
+T64	indexValue 406 411	85次/分
+T65	sign 412 414	呼吸
+T66	indexValue 414 419	19次/分
+T67	sign 420 422	血压
+T68	indexValue 422 432	116/84mmHg
+T69	sign 433 435	身高
+T70	indexValue 435 440	162cm
+T71	sign 441 443	体重
+T72	indexValue 443 447	60kg
+T73	clinicalFeature 448 451	神志清
+T74	clinicalFeature 452 455	精神可
+T75	body 456 461	表浅淋巴结
+T76	clinicalFeature 461 464	未触及
+T77	body 465 466	颈
+T78	clinicalFeature 466 467	软
+T79	body 469 472	颈静脉
+T80	clinicalFeature 472 475	无怒张
+T81	body 476 479	甲状腺
+T82	clinicalFeature 479 481	不大
+T83	body 482 484	双肺
+T84	clinicalFeature 484 488	呼吸音清
+T85	clinicalFeature 489 496	未闻及干湿啰音
+T86	sign 497 499	心率
+T87	indexValue 499 504	85次/分
+T88	clinicalFeature 505 507	律齐
+T89	clinicalFeature 508 518	未闻及明显病理性杂音
+T90	body 519 520	腹
+T91	clinicalFeature 520 521	软
+T92	body 522 523	肝
+T93	body 523 524	脾
+T94	clinicalFeature 524 528	肋下未及
+T95	negative 529 530	无
+T96	clinicalFeature 532 534	压痛
+T97	clinicalFeature 535 538	反跳痛
+T98	body 539 542	双下肢
+T99	clinicalFeature 542 545	无浮肿
+T100	body 547 549	四肢
+T101	sign 549 551	肌力
+T102	sign 551 554	肌张力
+T103	indexValue 554 556	正常
+T104	sign 557 560	病理征
+T105	indexValue 560 563	未引出
+T106	body 564 569	双足背动脉
+T107	clinicalFeature 569 573	搏动存在
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	timeDisease Arg1:T3 Arg2:T4
+R3	negativeClinicalFeature Arg1:T7 Arg2:T8
+R4	clinicalFeatureTime Arg1:T8 Arg2:T3
+R5	clinicalFeatureTime Arg1:T5 Arg2:T3
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	clinicalFeatureTime Arg1:T10 Arg2:T3
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T11 Arg2:T13
+R10	clinicalFeatureTime Arg1:T12 Arg2:T3
+R11	clinicalFeatureTime Arg1:T13 Arg2:T3
+T6	laboratory 101 106	血清泌乳素
+T17	laboratoryValue 106 115	40-50μg/L
+R13	laboratoryLaboratoryValue Arg1:T6 Arg2:T17
+R14	laboratoryTime Arg1:T6 Arg2:T16
+R15	drugDose Arg1:T18 Arg2:T19
+R16	doseFrequency Arg1:T19 Arg2:T20
+T108	time 148 151	1年来
+R18	clinicalFeatureTime Arg1:T21 Arg2:T108
+R19	laboratoryLaboratoryValue Arg1:T23 Arg2:T24
+R20	laboratoryTime Arg1:T23 Arg2:T22
+R21	negativeClinicalFeature Arg1:T27 Arg2:T28
+R22	negativeClinicalFeature Arg1:T29 Arg2:T30
+R23	negativeClinicalFeature Arg1:T31 Arg2:T32
+R24	negativeClinicalFeature Arg1:T31 Arg2:T33
+R25	negativeClinicalFeature Arg1:T34 Arg2:T35
+R26	negativeClinicalFeature Arg1:T34 Arg2:T36
+T25	time 208 209	现
+R27	clinicalFeatureTime Arg1:T28 Arg2:T25
+R28	clinicalFeatureTime Arg1:T30 Arg2:T25
+R29	clinicalFeatureTime Arg1:T32 Arg2:T25
+R30	clinicalFeatureTime Arg1:T33 Arg2:T25
+R31	clinicalFeatureTime Arg1:T35 Arg2:T25
+R32	clinicalFeatureTime Arg1:T36 Arg2:T25
+R33	negativeClinicalFeature Arg1:T37 Arg2:T38
+R34	negativeClinicalFeature Arg1:T37 Arg2:T39
+R35	clinicalFeatureTime Arg1:T38 Arg2:T25
+R36	clinicalFeatureTime Arg1:T39 Arg2:T25
+R37	laboratoryLaboratoryValue Arg1:T40 Arg2:T41
+R44	timeDisease Arg1:T56 Arg2:T55
+R47	drugDose Arg1:T58 Arg2:T59
+R48	doseFrequency Arg1:T59 Arg2:T60
+T26	frequency 364 367	按周期
+T109	dose 361 363	35
+R49	drugDose Arg1:T57 Arg2:T109
+R50	doseFrequency Arg1:T109 Arg2:T26
+R51	signIndexValue Arg1:T61 Arg2:T62
+R52	signIndexValue Arg1:T63 Arg2:T64
+R53	signIndexValue Arg1:T65 Arg2:T66
+R54	signIndexValue Arg1:T67 Arg2:T68
+R55	signIndexValue Arg1:T69 Arg2:T70
+R56	signIndexValue Arg1:T71 Arg2:T72
+R57	bodyClinicalFeature Arg1:T75 Arg2:T76
+R58	bodyClinicalFeature Arg1:T77 Arg2:T78
+R59	bodyClinicalFeature Arg1:T79 Arg2:T80
+R60	bodyClinicalFeature Arg1:T81 Arg2:T82
+R61	bodyClinicalFeature Arg1:T83 Arg2:T84
+R62	bodyClinicalFeature Arg1:T83 Arg2:T85
+R63	signIndexValue Arg1:T86 Arg2:T87
+R64	bodyClinicalFeature Arg1:T90 Arg2:T91
+R65	bodyClinicalFeature Arg1:T93 Arg2:T94
+R66	bodyClinicalFeature Arg1:T92 Arg2:T94
+R67	negativeClinicalFeature Arg1:T95 Arg2:T96
+R69	negativeClinicalFeature Arg1:T95 Arg2:T97
+R68	bodyClinicalFeature Arg1:T90 Arg2:T96
+R70	bodyClinicalFeature Arg1:T90 Arg2:T97
+R71	bodyClinicalFeature Arg1:T98 Arg2:T99
+R72	bodySign Arg1:T100 Arg2:T101
+R73	signIndexValue Arg1:T101 Arg2:T103
+R74	bodySign Arg1:T100 Arg2:T102
+R75	signIndexValue Arg1:T102 Arg2:T103
+R76	signIndexValue Arg1:T104 Arg2:T105
+R77	bodyClinicalFeature Arg1:T106 Arg2:T107
+R12	cureTime Arg1:T15 Arg2:T3
+R17	drugTime Arg1:T18 Arg2:T16
+R78	drugFrequency Arg1:T18 Arg2:T20
+R79	drugFrequency Arg1:T58 Arg2:T60

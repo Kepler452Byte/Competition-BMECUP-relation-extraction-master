@@ -1,0 +1,126 @@
+T1	disease 6 10	结肠息肉
+T2	time 10 13	11天
+T3	time 22 26	11天前
+T4	disease 33 37	结肠息肉
+T5	negative 38 39	无
+T6	clinicalFeature 39 41	畏寒
+T7	clinicalFeature 41 43	发热
+T8	negative 44 45	无
+T9	clinicalFeature 45 47	恶心
+T10	clinicalFeature 47 49	呕吐
+T11	negative 50 51	无
+T12	clinicalFeature 51 53	腹痛
+T13	clinicalFeature 53 55	腹胀
+T14	negative 56 57	无
+T15	clinicalFeature 57 59	呕血
+T16	clinicalFeature 59 61	黑便
+T17	negative 62 63	无
+T18	clinicalFeature 63 67	大便变细
+T19	negative 68 69	无
+T20	clinicalFeature 69 71	尿频
+T21	clinicalFeature 71 73	尿急
+T22	negative 74 75	无
+T23	clinicalFeature 75 77	胸闷
+T24	clinicalFeature 77 79	气急
+T25	negative 80 81	无
+T26	clinicalFeature 81 83	头晕
+T27	clinicalFeature 83 85	乏力
+T28	cure 92 96	未予治疗
+T30	disease 114 118	结肠息肉
+T43	disease 165 168	冠心病
+T44	drug 177 183	拜阿司匹林片
+T45	sign 195 197	BP
+T46	indexValue 197 207	105/71mmHg
+T47	sign 208 209	T
+T48	indexValue 209 214	36.2℃
+T49	sign 215 216	P
+T50	indexValue 216 221	19次/分
+T51	sign 222 223	R
+T52	indexValue 223 228	80次/分
+T53	clinicalFeature 229 231	神清
+T54	clinicalFeature 232 235	精神可
+T55	body 236 238	巩膜
+T56	clinicalFeature 238 241	无黄染
+T57	body 242 247	浅表淋巴结
+T58	clinicalFeature 247 251	未及肿大
+T59	sign 252 254	心率
+T60	indexValue 254 259	80次/分
+T61	clinicalFeature 260 262	律齐
+T62	body 264 266	两肺
+T63	clinicalFeature 266 270	呼吸音清
+T64	clinicalFeature 271 276	未闻及罗音
+T65	body 277 278	腹
+T66	clinicalFeature 278 279	软
+T67	clinicalFeature 280 285	未见胃肠型
+T68	clinicalFeature 286 289	无压痛
+T69	sign 290 294	墨菲氏征
+T70	indexValue 294 296	阴性
+T71	clinicalFeature 297 301	无反跳痛
+T72	body 302 303	肝
+T73	body 303 304	脾
+T74	clinicalFeature 304 308	肋下未及
+T75	sign 309 312	肠鸣音
+T76	indexValue 312 315	无亢进
+T77	body 316 319	双下肢
+T78	clinicalFeature 319 322	无浮肿
+T79	body 323 325	四肢
+T80	sign 325 327	肌力
+T81	indexValue 327 329	正常
+T82	sign 330 333	病理症
+T83	indexValue 333 336	未引出
+T84	auxiliaryExamination 27 31	肠镜检查
+R1	timeDisease Arg1:T2 Arg2:T1
+R4	negativeClinicalFeature Arg1:T5 Arg2:T6
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+R6	negativeClinicalFeature Arg1:T5 Arg2:T7
+R7	clinicalFeatureTime Arg1:T7 Arg2:T3
+R8	negativeClinicalFeature Arg1:T8 Arg2:T9
+R9	clinicalFeatureTime Arg1:T9 Arg2:T3
+R10	negativeClinicalFeature Arg1:T8 Arg2:T10
+R11	clinicalFeatureTime Arg1:T10 Arg2:T3
+R12	negativeClinicalFeature Arg1:T11 Arg2:T12
+R13	clinicalFeatureTime Arg1:T12 Arg2:T3
+R14	negativeClinicalFeature Arg1:T11 Arg2:T13
+R15	clinicalFeatureTime Arg1:T13 Arg2:T3
+R16	negativeClinicalFeature Arg1:T14 Arg2:T15
+R17	clinicalFeatureTime Arg1:T15 Arg2:T3
+R18	negativeClinicalFeature Arg1:T14 Arg2:T16
+R19	clinicalFeatureTime Arg1:T16 Arg2:T3
+R20	negativeClinicalFeature Arg1:T17 Arg2:T18
+R21	clinicalFeatureTime Arg1:T18 Arg2:T3
+R22	negativeClinicalFeature Arg1:T19 Arg2:T20
+R23	clinicalFeatureTime Arg1:T20 Arg2:T3
+R24	negativeClinicalFeature Arg1:T19 Arg2:T21
+R25	clinicalFeatureTime Arg1:T21 Arg2:T3
+R26	negativeClinicalFeature Arg1:T22 Arg2:T23
+R27	clinicalFeatureTime Arg1:T23 Arg2:T3
+R28	negativeClinicalFeature Arg1:T22 Arg2:T24
+R29	clinicalFeatureTime Arg1:T24 Arg2:T3
+R30	negativeClinicalFeature Arg1:T25 Arg2:T26
+R31	clinicalFeatureTime Arg1:T26 Arg2:T3
+R32	negativeClinicalFeature Arg1:T25 Arg2:T27
+R33	clinicalFeatureTime Arg1:T27 Arg2:T3
+R34	cureTime Arg1:T28 Arg2:T3
+T85	cure 184 186	治疗
+R44	signIndexValue Arg1:T45 Arg2:T46
+R45	signIndexValue Arg1:T47 Arg2:T48
+R46	signIndexValue Arg1:T49 Arg2:T50
+R47	signIndexValue Arg1:T51 Arg2:T52
+R48	bodyClinicalFeature Arg1:T55 Arg2:T56
+R49	bodyClinicalFeature Arg1:T57 Arg2:T58
+R50	signIndexValue Arg1:T59 Arg2:T60
+R51	bodyClinicalFeature Arg1:T62 Arg2:T63
+R52	bodyClinicalFeature Arg1:T62 Arg2:T64
+R53	bodyClinicalFeature Arg1:T65 Arg2:T66
+R54	bodyClinicalFeature Arg1:T65 Arg2:T67
+R55	bodyClinicalFeature Arg1:T65 Arg2:T68
+R56	signIndexValue Arg1:T69 Arg2:T70
+R57	bodyClinicalFeature Arg1:T65 Arg2:T71
+R58	bodyClinicalFeature Arg1:T73 Arg2:T74
+R59	bodyClinicalFeature Arg1:T72 Arg2:T74
+R60	signIndexValue Arg1:T75 Arg2:T76
+R61	bodyClinicalFeature Arg1:T77 Arg2:T78
+R62	bodySign Arg1:T79 Arg2:T80
+R63	signIndexValue Arg1:T80 Arg2:T81
+R64	signIndexValue Arg1:T82 Arg2:T83
+R3	auxiliaryExaminationTime Arg1:T84 Arg2:T3

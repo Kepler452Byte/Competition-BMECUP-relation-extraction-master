@@ -1,0 +1,165 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 9	腰背痛
+T3	time 9 12	2年余
+T4	trend 13 15	加重
+T5	time 15 17	2天
+T6	time 26 30	2年余前
+T7	cause 30 35	无明显诱因
+T8	clinicalFeature 38 43	腰背部疼痛
+T10	clinicalFeature 51 55	翻身困难
+T11	clinicalFeature 57 59	晨僵
+T13	time 73 76	1年前
+T16	disease 124 130	强直性脊柱炎
+T17	drug 135 140	甲氨蝶呤片
+T18	dose 140 144	10mg
+T19	frequency 145 147	qw
+T20	drug 148 153	美洛昔康片
+T21	dose 153 158	7.5mg
+T22	frequency 159 161	qd
+T24	trend 173 177	效果欠佳
+T25	drug 186 190	益赛普针
+T26	dose 191 195	50mg
+T28	time 228 231	2天来
+T29	trend 236 238	加重
+T30	clinicalFeature 240 242	晨僵
+T31	clinicalFeature 244 248	弯腰困难
+T33	negative 257 258	无
+T34	clinicalFeature 258 262	口腔溃疡
+T35	negative 263 264	无
+T36	clinicalFeature 264 268	面部红斑
+T37	clinicalFeature 269 271	发热
+T38	clinicalFeature 271 273	畏寒
+T39	negative 274 275	无
+T40	clinicalFeature 275 277	恶心
+T41	clinicalFeature 277 279	呕吐
+T42	negative 280 281	无
+T43	clinicalFeature 281 283	胸闷
+T44	clinicalFeature 283 285	气促
+T45	cure 290 293	未治疗
+T47	disease 302 308	强直性脊柱炎
+T60	sign 362 363	T
+T61	indexValue 363 368	36.3℃
+T62	sign 369 370	P
+T63	indexValue 370 375	80次/分
+T64	sign 376 377	R
+T65	indexValue 377 382	20次/分
+T66	sign 383 385	BP
+T67	indexValue 385 395	122/73mmHg
+T68	clinicalFeature 397 400	神志清
+T71	body 405 407	皮肤
+T72	clinicalFeature 409 412	无黄染
+T73	body 413 416	颈静脉
+T74	clinicalFeature 416 419	无怒张
+T75	clinicalFeature 422 426	视力正常
+T76	body 427 431	双肺听诊
+T77	clinicalFeature 431 435	呼吸音清
+T78	clinicalFeature 436 445	未闻及明显干湿啰音
+T79	sign 446 448	HR
+T80	indexValue 448 453	80次/分
+T81	clinicalFeature 454 457	心律齐
+T82	clinicalFeature 466 471	病理性杂音
+T83	body 472 473	腹
+T84	clinicalFeature 473 474	软
+T85	negative 476 477	无
+T86	clinicalFeature 477 479	压痛
+T87	clinicalFeature 485 489	肋下未及
+T90	body 505 508	双下肢
+T91	clinicalFeature 508 511	无浮肿
+T92	sign 514 516	肌力
+T93	indexValue 516 518	5级
+T95	indexValue 535 539	10cm
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTrend Arg1:T2 Arg2:T4
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R6	causeClinicalFeature Arg1:T7 Arg2:T8
+R8	clinicalFeatureTime Arg1:T10 Arg2:T6
+R9	clinicalFeatureTime Arg1:T11 Arg2:T6
+T96	cure 68 71	未治疗
+T97	modification 78 80	反复
+T98	clinicalFeature 81 84	腰背痛
+R12	clinicalFeatureTime Arg1:T98 Arg2:T13
+R13	cureTime Arg1:T96 Arg2:T6
+T14	laboratory 91 98	HLA-B27
+T99	laboratoryValue 98 100	阳性
+R14	laboratoryLaboratoryValue Arg1:T14 Arg2:T99
+T100	auxiliaryExamination 101 107	骶髂关节CT
+R17	drugDose Arg1:T17 Arg2:T18
+R18	drugFrequency Arg1:T17 Arg2:T19
+R19	drugDose Arg1:T20 Arg2:T21
+R20	drugFrequency Arg1:T20 Arg2:T22
+R21	drugDose Arg1:T25 Arg2:T26
+T101	cure 201 207	免疫抑制治疗
+T23	cure 162 172	口服抗炎免疫抑制治疗
+T102	clinicalFeature 231 234	腰背痛
+R30	clinicalFeatureTrend Arg1:T102 Arg2:T29
+R31	clinicalFeatureTime Arg1:T102 Arg2:T28
+R32	clinicalFeatureTime Arg1:T30 Arg2:T28
+R33	clinicalFeatureTime Arg1:T31 Arg2:T28
+R35	negativeClinicalFeature Arg1:T33 Arg2:T34
+R36	negativeClinicalFeature Arg1:T35 Arg2:T36
+R37	negativeClinicalFeature Arg1:T35 Arg2:T37
+R38	negativeClinicalFeature Arg1:T35 Arg2:T38
+R39	negativeClinicalFeature Arg1:T39 Arg2:T40
+R40	negativeClinicalFeature Arg1:T39 Arg2:T41
+R41	negativeClinicalFeature Arg1:T42 Arg2:T43
+R42	negativeClinicalFeature Arg1:T42 Arg2:T44
+R43	clinicalFeatureTime Arg1:T36 Arg2:T28
+R44	clinicalFeatureTime Arg1:T36 Arg2:T28
+R45	clinicalFeatureTime Arg1:T37 Arg2:T28
+R46	clinicalFeatureTime Arg1:T38 Arg2:T28
+R47	clinicalFeatureTime Arg1:T40 Arg2:T28
+R48	clinicalFeatureTime Arg1:T41 Arg2:T28
+R49	clinicalFeatureTime Arg1:T43 Arg2:T28
+R50	clinicalFeatureTime Arg1:T44 Arg2:T28
+R58	signIndexValue Arg1:T60 Arg2:T61
+R59	signIndexValue Arg1:T62 Arg2:T63
+R60	signIndexValue Arg1:T64 Arg2:T65
+R61	signIndexValue Arg1:T66 Arg2:T67
+T69	clinicalFeature 401 404	精神可
+R62	bodyClinicalFeature Arg1:T71 Arg2:T72
+R63	bodyClinicalFeature Arg1:T73 Arg2:T74
+R64	bodyClinicalFeature Arg1:T76 Arg2:T77
+R65	signIndexValue Arg1:T79 Arg2:T80
+R66	bodyClinicalFeature Arg1:T83 Arg2:T84
+T70	clinicalFeature 479 482	反跳痛
+R67	negativeClinicalFeature Arg1:T85 Arg2:T86
+R68	negativeClinicalFeature Arg1:T85 Arg2:T70
+R69	bodyClinicalFeature Arg1:T90 Arg2:T91
+R70	signIndexValue Arg1:T92 Arg2:T93
+T103	sign 519 522	4字征
+T104	indexValue 522 524	阳性
+R71	signIndexValue Arg1:T103 Arg2:T104
+T94	sign 525 529	枕壁试验
+T105	indexValue 529 531	阴性
+R72	signIndexValue Arg1:T94 Arg2:T105
+T106	sign 532 535	指地距
+R73	signIndexValue Arg1:T106 Arg2:T95
+T15	disease 109 118	骶髂关节炎Ⅱ-Ⅲ级
+R16	cureTime Arg1:T23 Arg2:T13
+R24	cureTime Arg1:T101 Arg2:T13
+R25	cureTime Arg1:T45 Arg2:T28
+T27	body 420 422	双眼
+R26	bodyClinicalFeature Arg1:T27 Arg2:T75
+T107	body 407 409	巩膜
+R27	bodyClinicalFeature Arg1:T107 Arg2:T72
+R28	bodyClinicalFeature Arg1:T76 Arg2:T78
+T108	clinicalFeature 463 465	早搏
+T109	negative 458 461	未闻及
+R29	negativeClinicalFeature Arg1:T109 Arg2:T108
+R74	negativeClinicalFeature Arg1:T109 Arg2:T82
+R75	bodyClinicalFeature Arg1:T83 Arg2:T86
+R76	bodyClinicalFeature Arg1:T83 Arg2:T70
+T110	body 483 484	肝
+T111	body 484 485	脾
+R77	bodyClinicalFeature Arg1:T110 Arg2:T87
+R78	bodyClinicalFeature Arg1:T111 Arg2:T87
+T89	sign 497 502	移动性浊音
+T112	indexValue 502 504	阴性
+R79	signIndexValue Arg1:T89 Arg2:T112
+T113	body 512 514	四肢
+R80	bodySign Arg1:T113 Arg2:T92
+T88	sign 490 493	肠鸣音
+T114	indexValue 493 496	无亢进
+R81	signIndexValue Arg1:T88 Arg2:T114
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R11	modificationClinicalFeature Arg1:T97 Arg2:T98

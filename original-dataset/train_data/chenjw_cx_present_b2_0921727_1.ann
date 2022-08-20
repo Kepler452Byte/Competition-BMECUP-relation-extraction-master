@@ -1,0 +1,11 @@
+T1	time 6 10	3小时前
+T2	cause 16 18	砸伤
+T4	clinicalFeature 27 34	左侧季肋部疼痛
+T5	modification 34 36	明显
+T6	negative 37 39	否认
+T7	clinicalFeature 39 41	昏迷
+R1	modificationClinicalFeature Arg1:T5 Arg2:T4
+R2	negativeClinicalFeature Arg1:T6 Arg2:T7
+R3	causeClinicalFeature Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T4 Arg2:T1
+R5	clinicalFeatureTime Arg1:T7 Arg2:T1

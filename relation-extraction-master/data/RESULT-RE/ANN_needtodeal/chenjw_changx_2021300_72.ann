@@ -1,0 +1,85 @@
+T1	clinicalFeature 4 11	左臀部疼痛不适
+T2	time 11 13	1天
+T3	time 23 25	昨天
+T4	cause 25 30	无明显诱因
+T5	clinicalFeature 32 37	左臀部疼痛
+T6	clinicalFeature 48 55	左下肢麻木不适
+T7	negative 63 64	无
+T8	clinicalFeature 64 69	大小便失禁
+T9	trend 70 76	无进行性加重
+T10	negative 86 87	无
+T11	clinicalFeature 87 89	恶心
+T12	clinicalFeature 90 92	呕吐
+T13	negative 94 95	无
+T14	clinicalFeature 95 97	胸闷
+T15	clinicalFeature 97 99	气促
+T16	clinicalFeature 104 108	行走疼痛
+T17	trend 108 110	加重
+T18	trend 108 115	加重，平卧好转
+T19	disease 132 135	糖尿病
+T20	time 135 137	8年
+T21	laboratoryValue 138 148	初始10mmol/L
+T22	laboratoryValue 140 148	10mmol/L
+T23	cure 149 156	注射胰岛素治疗
+T24	drug 151 154	胰岛素
+T25	laboratoryValue 157 167	今日22mmol/L
+T26	sign 214 216	体温
+T27	indexValue 216 221	36.5℃
+T28	sign 222 224	脉搏
+T29	indexValue 224 230	107次/分
+T30	sign 231 233	呼吸
+T31	indexValue 233 238	19次/分
+T32	sign 239 241	血压
+T33	indexValue 241 251	146/78mmHg
+T34	clinicalFeature 252 254	神清
+T35	body 255 256	心
+T36	body 256 257	肺
+T37	clinicalFeature 257 261	听诊无殊
+T38	body 262 263	腹
+T39	clinicalFeature 263 264	软
+T40	clinicalFeature 265 268	无压痛
+T41	body 269 271	腰部
+T42	body 271 278	L3-5椎间隙
+T43	clinicalFeature 278 280	压痛
+T44	body 282 285	左下肢
+T45	sign 285 291	直腿抬高试验
+T46	indexValue 291 293	阳性
+T47	body 294 296	小腿
+T48	clinicalFeature 296 298	麻木
+T49	sign 299 301	肌力
+T50	indexValue 301 302	可
+T51	sign 303 307	生理反射
+T52	indexValue 307 308	存
+T53	sign 309 313	病理反射
+T54	indexValue 313 316	未引出
+T55	body 317 320	右下肢
+T56	clinicalFeature 320 322	无殊
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	negativeClinicalfeature Arg1:T7 Arg2:T8
+R6	clinicalFeatureTime Arg1:T8 Arg2:T3
+R7	negativeClinicalfeature Arg1:T10 Arg2:T12
+R8	clinicalFeatureTime Arg1:T11 Arg2:T3
+R9	negativeClinicalfeature Arg1:T13 Arg2:T15
+R10	clinicalFeatureTime Arg1:T14 Arg2:T3
+R11	clinicalFeatureTrend Arg1:T16 Arg2:T18
+R12	timeDisease Arg1:T20 Arg2:T19
+R13	drugLaboratoryvalue Arg1:T24 Arg2:T25
+R14	signIndexvalue Arg1:T26 Arg2:T27
+R15	signIndexvalue Arg1:T28 Arg2:T29
+R16	signIndexvalue Arg1:T30 Arg2:T31
+R17	signIndexvalue Arg1:T32 Arg2:T33
+R18	bodyClinicalfeature Arg1:T35 Arg2:T37
+R19	bodyClinicalfeature Arg1:T36 Arg2:T37
+R20	bodyClinicalfeature Arg1:T38 Arg2:T40
+R21	bodyClinicalfeature Arg1:T41 Arg2:T43
+R22	bodyClinicalfeature Arg1:T42 Arg2:T43
+R23	bodySign Arg1:T44 Arg2:T45
+R24	signIndexvalue Arg1:T45 Arg2:T46
+R25	bodyClinicalfeature Arg1:T47 Arg2:T48
+R26	signIndexvalue Arg1:T49 Arg2:T50
+R27	signIndexvalue Arg1:T51 Arg2:T52
+R28	signIndexvalue Arg1:T53 Arg2:T54
+R29	bodyClinicalfeature Arg1:T55 Arg2:T56

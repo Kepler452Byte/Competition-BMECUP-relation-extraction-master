@@ -1,0 +1,21 @@
+T1	time 9 12	2周前
+T2	clinicalFeature 20 29	肝功能异常(轻度)
+T3	negative 32 33	无
+T4	clinicalFeature 33 35	头晕
+T5	clinicalFeature 35 37	头痛
+T6	negative 38 39	无
+T7	clinicalFeature 39 41	恶心
+T8	clinicalFeature 41 43	呕吐
+T9	clinicalFeature 46 48	纳差
+T12	cause 15 20	体检时发现
+R1	causeClinicalFeature Arg1:T12 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T1
+R3	negativeClinicalFeature Arg1:T3 Arg2:T4
+R4	negativeClinicalFeature Arg1:T3 Arg2:T5
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7
+R6	negativeClinicalFeature Arg1:T6 Arg2:T8
+R7	clinicalFeatureTime Arg1:T9 Arg2:T1
+R8	clinicalFeatureTime Arg1:T4 Arg2:T1
+R9	clinicalFeatureTime Arg1:T5 Arg2:T1
+R10	clinicalFeatureTime Arg1:T7 Arg2:T1
+R11	clinicalFeatureTime Arg1:T8 Arg2:T1

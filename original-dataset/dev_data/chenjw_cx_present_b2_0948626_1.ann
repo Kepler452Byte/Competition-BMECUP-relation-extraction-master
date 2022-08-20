@@ -1,0 +1,10 @@
+T1	time 6 9	1天前
+T2	clinicalFeature 31 33	发热
+T3	sign 34 36	热峰
+T4	indexValue 36 39	40℃
+T5	clinicalFeature 40 44	手脚发凉
+T6	clinicalFeature 46 48	寒战
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	signIndexValue Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1
+R5	clinicalFeatureTime Arg1:T6 Arg2:T1

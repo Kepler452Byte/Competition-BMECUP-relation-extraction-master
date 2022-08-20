@@ -1,0 +1,186 @@
+T1	clinicalFeature 6 10	双乳结节
+T2	time 10 13	1年余
+T3	time 22 26	1年余前
+T4	clinicalFeature 29 33	双乳胀痛
+T5	clinicalFeature 35 39	双乳结节
+T6	body 40 44	左乳内上
+T7	body 45 49	右乳外上
+T8	clinicalFeature 60 62	包块
+T9	modification 63 67	质地稍韧
+T10	modification 68 72	表面光滑
+T11	negative 73 74	无
+T12	clinicalFeature 74 78	乳房红肿
+T13	negative 79 80	无
+T14	clinicalFeature 80 84	乳头溢液
+T15	negative 85 86	无
+T16	clinicalFeature 86 88	畏寒
+T17	clinicalFeature 88 90	发热
+T18	negative 92 93	无
+T19	clinicalFeature 93 95	胸闷
+T20	clinicalFeature 95 97	气促
+T21	negative 98 99	无
+T22	clinicalFeature 99 101	腹胀
+T23	clinicalFeature 101 103	腹痛
+T24	cure 114 117	未治疗
+T25	time 118 120	近来
+T26	trend 131 133	加重
+T28	auxiliaryExamination 170 174	乳腺B超
+T29	auxiliaryDescript 186 188	结节
+T30	auxiliaryDescript 201 210	双侧腋下淋巴结探及
+T32	disease 232 236	双乳结节
+T45	disease 280 284	高血压病
+T46	time 285 287	5年
+T47	cure 288 292	未行治疗
+T48	sign 295 297	血压
+T49	indexValue 298 316	160-120/100-80mmhg
+T50	sign 325 327	体温
+T51	indexValue 327 332	37.1℃
+T52	sign 333 335	脉搏
+T53	indexValue 335 340	98次/分
+T54	sign 341 343	呼吸
+T55	indexValue 343 348	19次/分
+T56	sign 349 351	血压
+T57	indexValue 351 362	158/100mmHg
+T58	clinicalFeature 364 366	神清
+T59	clinicalFeature 367 370	精神可
+T60	body 371 372	颈
+T61	clinicalFeature 372 373	软
+T62	clinicalFeature 374 377	无抵抗
+T63	body 378 380	皮肤
+T64	body 380 382	巩膜
+T65	clinicalFeature 382 385	无黄染
+T66	body 386 391	浅表淋巴结
+T67	clinicalFeature 391 395	未及肿大
+T68	body 396 398	双乳
+T69	clinicalFeature 398 400	对称
+T70	body 401 407	右乳外上象限
+T73	clinicalFeature 421 423	包块
+T74	body 425 431	左乳内上象限
+T77	clinicalFeature 441 445	大小包块
+T78	modification 446 450	质地稍韧
+T79	modification 451 455	表面光滑
+T80	modification 456 460	边界清晰
+T81	modification 461 469	与周围组织无黏连
+T82	modification 470 474	活动度可
+T84	clinicalFeature 475 478	无压痛
+T85	body 479 483	双侧乳房
+T86	negative 483 484	无
+T87	clinicalFeature 484 486	红肿
+T88	body 489 491	乳头
+T89	clinicalFeature 491 496	挤压无溢液
+T90	negative 497 498	无
+T91	clinicalFeature 498 502	乳头凹陷
+T92	negative 504 505	无
+T93	clinicalFeature 505 508	酒窝征
+T94	body 515 519	双侧腋窝
+T95	clinicalFeature 519 525	为及肿大包块
+T96	body 526 527	心
+T97	body 527 528	肺
+T98	clinicalFeature 528 536	听诊未见明显异常
+T99	body 537 538	腹
+T100	clinicalFeature 538 540	平软
+T101	negative 541 542	无
+T102	clinicalFeature 542 544	压痛
+T103	clinicalFeature 545 548	反跳痛
+T104	body 549 553	腹部正中
+T105	clinicalFeature 565 569	手术疤痕
+T106	indexValue 573 576	无亢进
+T107	body 577 580	双下肢
+T108	clinicalFeature 580 583	无浮肿
+T109	sign 585 588	病理征
+T110	indexValue 588 591	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+T111	modification 27 29	偶感
+T112	modification 56 60	蚕豆大小
+R6	bodyClinicalFeature Arg1:T7 Arg2:T8
+R7	bodyClinicalFeature Arg1:T6 Arg2:T8
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	clinicalFeatureTime Arg1:T12 Arg2:T3
+R12	negativeClinicalFeature Arg1:T13 Arg2:T14
+R13	negativeClinicalFeature Arg1:T15 Arg2:T16
+R14	negativeClinicalFeature Arg1:T15 Arg2:T17
+R15	clinicalFeatureTime Arg1:T16 Arg2:T3
+R16	clinicalFeatureTime Arg1:T17 Arg2:T3
+R17	clinicalFeatureTime Arg1:T14 Arg2:T3
+R18	negativeClinicalFeature Arg1:T18 Arg2:T19
+R19	negativeClinicalFeature Arg1:T18 Arg2:T20
+R20	clinicalFeatureTime Arg1:T19 Arg2:T3
+R21	clinicalFeatureTime Arg1:T20 Arg2:T3
+R22	negativeClinicalFeature Arg1:T21 Arg2:T22
+R23	negativeClinicalFeature Arg1:T21 Arg2:T23
+R24	clinicalFeatureTime Arg1:T22 Arg2:T3
+R25	clinicalFeatureTime Arg1:T23 Arg2:T3
+T113	clinicalFeature 126 131	双乳胀痛感
+R28	clinicalFeatureTrend Arg1:T113 Arg2:T26
+R30	clinicalFeatureTime Arg1:T113 Arg2:T25
+T115	time 156 165	2019-9-12
+R31	auxiliaryExaminationTime Arg1:T28 Arg2:T115
+R32	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T29
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T30
+R41	timeDisease Arg1:T46 Arg2:T45
+R43	signIndexValue Arg1:T48 Arg2:T49
+R45	signIndexValue Arg1:T50 Arg2:T51
+R46	signIndexValue Arg1:T52 Arg2:T53
+R47	signIndexValue Arg1:T54 Arg2:T55
+R48	signIndexValue Arg1:T56 Arg2:T57
+R49	bodyClinicalFeature Arg1:T60 Arg2:T61
+R50	bodyClinicalFeature Arg1:T60 Arg2:T62
+R51	bodyClinicalFeature Arg1:T63 Arg2:T65
+R52	bodyClinicalFeature Arg1:T64 Arg2:T65
+R53	bodyClinicalFeature Arg1:T66 Arg2:T67
+R54	bodyClinicalFeature Arg1:T68 Arg2:T69
+R55	bodyClinicalFeature Arg1:T70 Arg2:T73
+R57	bodyClinicalFeature Arg1:T74 Arg2:T77
+R59	modificationClinicalFeature Arg1:T78 Arg2:T77
+R60	modificationClinicalFeature Arg1:T79 Arg2:T77
+R61	modificationClinicalFeature Arg1:T80 Arg2:T77
+R62	modificationClinicalFeature Arg1:T81 Arg2:T77
+R63	modificationClinicalFeature Arg1:T82 Arg2:T77
+R65	modificationClinicalFeature Arg1:T78 Arg2:T73
+R66	modificationClinicalFeature Arg1:T79 Arg2:T73
+R67	modificationClinicalFeature Arg1:T80 Arg2:T73
+R68	modificationClinicalFeature Arg1:T81 Arg2:T73
+R69	modificationClinicalFeature Arg1:T82 Arg2:T73
+R70	negativeClinicalFeature Arg1:T86 Arg2:T87
+R71	bodyClinicalFeature Arg1:T85 Arg2:T87
+R72	bodyClinicalFeature Arg1:T88 Arg2:T89
+R73	negativeClinicalFeature Arg1:T90 Arg2:T91
+R74	negativeClinicalFeature Arg1:T92 Arg2:T93
+R75	bodyClinicalFeature Arg1:T94 Arg2:T95
+R76	bodyClinicalFeature Arg1:T96 Arg2:T98
+R77	bodyClinicalFeature Arg1:T97 Arg2:T98
+R78	bodyClinicalFeature Arg1:T99 Arg2:T100
+R79	negativeClinicalFeature Arg1:T101 Arg2:T102
+R80	bodyClinicalFeature Arg1:T99 Arg2:T102
+R81	negativeClinicalFeature Arg1:T101 Arg2:T103
+R82	bodyClinicalFeature Arg1:T99 Arg2:T103
+T116	modification 554 559	陈旧性竖行
+R83	modificationClinicalFeature Arg1:T116 Arg2:T105
+R85	bodyClinicalFeature Arg1:T104 Arg2:T105
+T117	sign 570 573	肠鸣音
+R86	signIndexValue Arg1:T117 Arg2:T106
+R87	bodyClinicalFeature Arg1:T107 Arg2:T108
+R88	signIndexValue Arg1:T109 Arg2:T110
+R89	bodyClinicalFeature Arg1:T74 Arg2:T84
+R90	bodyClinicalFeature Arg1:T70 Arg2:T84
+T118	quantity 54 55	一
+R26	cureTime Arg1:T24 Arg2:T3
+T119	disease 176 181	双乳腺腺病
+T120	modification 189 199	BI-RADS 3类
+R91	auxiliaryDesModification Arg1:T29 Arg2:T120
+T121	body 182 184	双乳
+T122	quantity 184 186	多发
+R93	auxiliaryDescriptQuantity Arg1:T29 Arg2:T122
+R94	bodyAuxiliaryDescript Arg1:T121 Arg2:T29
+T71	quantity 410 411	一
+T123	quantity 434 435	一
+T83	clinicalFeature 486 488	压痛
+R64	negativeClinicalFeature Arg1:T86 Arg2:T83
+T124	clinicalFeature 509 514	橘皮样改变
+R97	negativeClinicalFeature Arg1:T92 Arg2:T124
+R4	modificationClinicalFeature Arg1:T111 Arg2:T4
+R5	modificationClinicalFeature Arg1:T112 Arg2:T8
+R8	modificationClinicalFeature Arg1:T9 Arg2:T8
+R9	modificationClinicalFeature Arg1:T10 Arg2:T8

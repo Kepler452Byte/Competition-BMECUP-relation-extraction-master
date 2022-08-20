@@ -1,0 +1,86 @@
+T2	time 11 14	6小时
+T4	modification 49 52	持续性
+T5	negative 55 56	无
+T6	clinicalFeature 56 59	放射痛
+T7	clinicalFeature 62 66	活动受限
+T9	negative 74 75	无
+T10	clinicalFeature 75 77	恶心
+T11	clinicalFeature 77 79	呕吐
+T12	negative 80 81	无
+T13	clinicalFeature 81 83	心慌
+T14	clinicalFeature 83 85	胸闷
+T17	disease 120 125	腰2椎骨折
+T30	sign 182 184	体温
+T31	indexValue 184 189	37.2℃
+T32	sign 190 192	脉搏
+T33	indexValue 192 197	72次/分
+T34	sign 198 200	呼吸
+T35	indexValue 200 205	19次/分
+T36	sign 206 208	血压
+T37	indexValue 208 218	128/74mmHg
+T38	clinicalFeature 219 221	神清
+T39	body 222 223	心
+T40	clinicalFeature 224 228	听诊无殊
+T41	clinicalFeature 230 231	软
+T43	clinicalFeature 232 235	无压痛
+T44	clinicalFeature 243 245	压痛
+T45	clinicalFeature 248 252	活动受限
+T48	sign 264 268	生理反射
+T49	indexValue 268 269	存
+T50	sign 270 274	病理反射
+T51	indexValue 274 277	未引出
+T1	cause 4 6	摔伤
+T52	clinicalFeature 7 11	腰背疼痛
+R1	causeClinicalFeature Arg1:T1 Arg2:T52
+R2	clinicalFeatureTime Arg1:T52 Arg2:T2
+T53	time 24 30	入院前6小时
+T3	cause 39 41	摔伤
+T54	clinicalFeature 42 47	腰背部疼痛
+R3	causeClinicalFeature Arg1:T3 Arg2:T54
+R4	clinicalFeatureTime Arg1:T54 Arg2:T53
+R6	negativeClinicalFeature Arg1:T5 Arg2:T6
+R7	clinicalFeatureTime Arg1:T6 Arg2:T53
+R8	clinicalFeatureTime Arg1:T7 Arg2:T53
+T8	negative 67 69	否认
+T55	clinicalFeature 71 73	昏迷
+R9	negativeClinicalFeature Arg1:T8 Arg2:T55
+R10	negativeClinicalFeature Arg1:T9 Arg2:T10
+R11	negativeClinicalFeature Arg1:T9 Arg2:T11
+R12	negativeClinicalFeature Arg1:T12 Arg2:T13
+R13	negativeClinicalFeature Arg1:T12 Arg2:T14
+R14	clinicalFeatureTime Arg1:T55 Arg2:T53
+R15	clinicalFeatureTime Arg1:T55 Arg2:T53
+R16	clinicalFeatureTime Arg1:T10 Arg2:T53
+R17	clinicalFeatureTime Arg1:T11 Arg2:T53
+R18	clinicalFeatureTime Arg1:T13 Arg2:T53
+R19	clinicalFeatureTime Arg1:T14 Arg2:T53
+T56	auxiliaryExamination 101 103	CT
+R28	signIndexValue Arg1:T30 Arg2:T31
+R29	signIndexValue Arg1:T32 Arg2:T33
+R30	signIndexValue Arg1:T34 Arg2:T35
+R31	signIndexValue Arg1:T36 Arg2:T37
+R32	bodyClinicalFeature Arg1:T39 Arg2:T40
+T57	body 229 230	腹
+R33	bodyClinicalFeature Arg1:T57 Arg2:T41
+R35	bodyClinicalFeature Arg1:T57 Arg2:T43
+T58	body 236 242	脊柱腰2棘突
+R36	bodyClinicalFeature Arg1:T58 Arg2:T44
+R37	signIndexValue Arg1:T48 Arg2:T49
+R38	signIndexValue Arg1:T50 Arg2:T51
+R39	auxiliaryExaminationTime Arg1:T56 Arg2:T53
+T15	disease 107 113	腰2椎体骨折
+T46	body 254 257	双下肢
+T47	sign 257 259	感觉
+T59	sign 260 262	肌力
+T60	indexValue 262 263	可
+R40	bodySign Arg1:T46 Arg2:T47
+R41	bodySign Arg1:T46 Arg2:T59
+R42	signIndexValue Arg1:T47 Arg2:T60
+R43	signIndexValue Arg1:T59 Arg2:T60
+T61	body 223 224	肺
+R44	bodyClinicalFeature Arg1:T61 Arg2:T40
+T62	body 246 248	腰部
+R45	bodyClinicalFeature Arg1:T62 Arg2:T45
+T42	modification 52 54	胀痛
+R5	modificationClinicalFeature Arg1:T4 Arg2:T54
+R34	modificationClinicalFeature Arg1:T42 Arg2:T54

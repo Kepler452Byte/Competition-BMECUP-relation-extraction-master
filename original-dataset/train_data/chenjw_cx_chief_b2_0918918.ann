@@ -1,0 +1,6 @@
+T3	clinicalFeature 3 5	停经
+T4	time 5 8	40周
+T5	clinicalFeature 9 13	阴道见红
+T6	time 13 17	4+小时
+R1	clinicalFeatureTime Arg1:T3 Arg2:T4
+R2	clinicalFeatureTime Arg1:T5 Arg2:T6

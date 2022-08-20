@@ -1,0 +1,12 @@
+T1	time 6 9	6年前
+T2	clinicalFeature 16 20	右肩疼痛
+T3	body 30 32	右肩
+T4	clinicalFeature 32 34	疼痛
+T5	trend 34 36	缓解
+T8	cause 9 15	不慎在家摔伤
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T8 Arg2:T2
+T9	cure 22 28	悬吊固定休息
+R3	cureTime Arg1:T9 Arg2:T1
+R4	bodyClinicalFeature Arg1:T3 Arg2:T4
+R5	clinicalFeatureTrend Arg1:T4 Arg2:T5

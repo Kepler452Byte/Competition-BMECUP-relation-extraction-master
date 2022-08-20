@@ -1,0 +1,7 @@
+{"sent": "现 $ 病 $ 史 : $ 患 者 4 天 前 无 意 见 肛 门 左 侧 前 位 扪 及 一 肿 块 ， 约 鹌 鹑 蛋 大 小 ， 周 围 红 肿 明 显 ， 表 皮 无 明 显 破 溃 流 脓", "ners": [[9, 12, "time", "4天前"], [12, 15, "negative", "无意见"], [17, 21, "body", "左侧前位"], [23, 24, "quantity", "一"], [24, 26, "clinicalFeature", "肿块"], [27, 33, "modification", "约鹌鹑蛋大小"], [34, 40, "modification", "周围红肿明显"], [41, 43, "body", "表皮"], [43, 44, "negative", "无"]]}
+[12, 15, 'negative', '无意见']	[24, 26, 'clinicalFeature', '肿块']	属性
+[17, 21, 'body', '左侧前位']	[24, 26, 'clinicalFeature', '肿块']	属性
+[24, 26, 'clinicalFeature', '肿块']	[9, 12, 'time', '4天前']	属性
+[27, 33, 'modification', '约鹌鹑蛋大小']	[24, 26, 'clinicalFeature', '肿块']	属性
+[34, 40, 'modification', '周围红肿明显']	[24, 26, 'clinicalFeature', '肿块']	属性
+

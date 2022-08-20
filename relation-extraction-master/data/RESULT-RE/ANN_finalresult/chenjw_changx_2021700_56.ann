@@ -1,0 +1,148 @@
+T1	clinicalFeature 4 6	多尿
+T2	clinicalFeature 6 8	口干
+T3	clinicalFeature 8 10	多饮
+T4	time 10 13	16年
+T5	clinicalFeature 14 18	血糖不佳
+T6	time 18 20	1天
+T7	time 29 33	16年前
+T8	cause 33 38	无明显诱因
+T9	clinicalFeature 41 43	多尿
+T10	clinicalFeature 43 45	口干
+T11	clinicalFeature 45 47	多饮
+T12	modification 48 57	每天饮水1热水瓶水
+T13	negative 60 61	无
+T14	clinicalFeature 61 65	视物模糊
+T15	negative 66 67	无
+T16	clinicalFeature 67 71	四肢麻木
+T17	cure 74 80	口服药物降糖
+T18	cure 78 80	降糖
+T19	time 87 91	4年余前
+T20	clinicalFeature 92 96	血糖不稳
+T21	drug 102 105	胰岛素
+T22	cure 105 107	降糖
+T23	drug 108 114	具体用药不详
+T24	time 116 119	6月前
+T25	clinicalFeature 120 124	血糖不稳
+T26	cause 133 137	检查发现
+T27	disease 137 140	右肾癌
+T28	drug 159 162	诺和锐
+T29	dose 162 165	30针
+T30	frequency 166 173	早餐前20单位
+T31	drug 182 186	米格列醇
+T32	dose 187 191	50mg
+T33	frequency 195 199	每日三次
+T34	cure 199 201	降糖
+T35	cure 206 211	未控制饮食
+T36	negative 212 213	无
+T37	clinicalFeature 213 215	畏寒
+T38	clinicalFeature 215 217	发热
+T39	negative 218 219	无
+T40	clinicalFeature 219 221	胸闷
+T41	clinicalFeature 221 223	气急
+T42	negative 224 225	无
+T43	clinicalFeature 225 227	恶心
+T44	clinicalFeature 227 229	呕吐
+T45	time 234 235	今
+T46	laboratory 239 242	血生化
+T47	laboratory 244 247	葡萄糖
+T48	laboratoryValue 248 259	19.88mmol/L
+T49	laboratory 260 262	尿酸
+T50	laboratoryValue 262 271	485μmol/L
+T51	laboratory 272 274	肌酐
+T52	laboratoryValue 275 286	100.3μmol/L
+T53	laboratory 287 294	餐后二小时血糖
+T54	laboratory 292 294	血糖
+T55	laboratoryValue 295 306	18.45mmol/L
+T56	disease 319 324	2型糖尿病
+T57	disease 369 373	高血压病
+T58	drug 377 380	施慧达
+T59	dose 381 386	2.5mg
+T60	frequency 387 389	qd
+T61	clinicalFeature 392 397	血压控制可
+T62	sign 406 408	体温
+T63	indexValue 408 413	36.6℃
+T64	sign 414 416	脉搏
+T65	indexValue 416 421	95次/分
+T66	sign 422 424	呼吸
+T67	indexValue 424 429	19次/分
+T68	sign 430 432	血压
+T69	indexValue 432 442	163/94mmHg
+T70	clinicalFeature 443 446	神志清
+T71	body 447 452	表浅淋巴结
+T72	clinicalFeature 452 455	未触及
+T73	body 456 457	颈
+T74	clinicalFeature 457 458	软
+T75	body 459 462	甲状腺
+T76	clinicalFeature 462 464	不大
+T77	body 465 467	双肺
+T78	clinicalFeature 467 471	呼吸音清
+T79	clinicalFeature 472 479	未闻及干湿罗音
+T80	clinicalFeature 481 484	心律齐
+T81	clinicalFeature 485 495	未闻及明显病理性杂音
+T82	body 496 497	腹
+T83	clinicalFeature 497 498	软
+T84	body 499 500	肝
+T85	body 500 501	脾
+T86	clinicalFeature 501 505	肋下未及
+T87	body 506 508	全腹
+T88	negative 508 509	无
+T89	clinicalFeature 511 514	反跳痛
+T90	body 515 518	双下肢
+T91	clinicalFeature 518 521	无浮肿
+T92	body 522 524	四肢
+T93	sign 524 526	肌力
+T94	indexValue 526 528	5级
+T95	sign 529 532	病理征
+T96	indexValue 532 535	未引出
+T97	body 536 541	双足背动脉
+T98	clinicalFeature 541 545	搏动存在
+R1	clinicalFeatureTime Arg1:T1 Arg2:T4
+R2	clinicalFeatureTime Arg1:T2 Arg2:T4
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T6
+R5	causeClinicalfeature Arg1:T8 Arg2:T11
+R6	clinicalFeatureTime Arg1:T9 Arg2:T7
+R7	clinicalFeatureTime Arg1:T10 Arg2:T7
+R8	clinicalFeatureTime Arg1:T11 Arg2:T7
+R9	modificationClinicalfeature Arg1:T12 Arg2:T11
+R10	negativeClinicalfeature Arg1:T13 Arg2:T14
+R11	clinicalFeatureTime Arg1:T14 Arg2:T7
+R12	negativeClinicalfeature Arg1:T15 Arg2:T16
+R13	clinicalFeatureTime Arg1:T16 Arg2:T7
+R14	cureTime Arg1:T17 Arg2:T7
+R15	clinicalFeatureTime Arg1:T20 Arg2:T19
+R16	clinicalFeatureTime Arg1:T25 Arg2:T24
+R17	causeDisease Arg1:T26 Arg2:T27
+R18	drugFrequency Arg1:T28 Arg2:T30
+R19	doseFrequency Arg1:T29 Arg2:T30
+R20	drugDose Arg1:T31 Arg2:T32
+R21	doseFrequency Arg1:T32 Arg2:T33
+R22	negativeClinicalfeature Arg1:T36 Arg2:T38
+R23	negativeClinicalfeature Arg1:T39 Arg2:T41
+R24	negativeClinicalfeature Arg1:T42 Arg2:T44
+R25	laboratoryTime Arg1:T46 Arg2:T45
+R26	laboratoryLaboratoryvalue Arg1:T47 Arg2:T48
+R27	laboratoryLaboratoryvalue Arg1:T49 Arg2:T50
+R28	laboratoryLaboratoryvalue Arg1:T51 Arg2:T52
+R29	laboratoryLaboratoryvalue Arg1:T54 Arg2:T55
+R30	diseaseClinicalfeature Arg1:57 Arg2:61
+R31	drugFrequency Arg1:58 Arg2:60
+R32	doseFrequency Arg1:59 Arg2:60
+R33	signIndexvalue Arg1:62 Arg2:63
+R34	signIndexvalue Arg1:64 Arg2:65
+R35	signIndexvalue Arg1:66 Arg2:67
+R36	signIndexvalue Arg1:68 Arg2:69
+R37	bodyClinicalfeature Arg1:71 Arg2:72
+R38	bodyClinicalfeature Arg1:73 Arg2:74
+R39	bodyClinicalfeature Arg1:75 Arg2:76
+R40	bodyClinicalfeature Arg1:77 Arg2:79
+R41	bodyClinicalfeature Arg1:82 Arg2:83
+R42	bodyClinicalfeature Arg1:84 Arg2:86
+R43	bodyClinicalfeature Arg1:85 Arg2:86
+R44	bodyClinicalfeature Arg1:87 Arg2:89
+R45	negativeClinicalfeature Arg1:88 Arg2:89
+R46	bodyClinicalfeature Arg1:90 Arg2:91
+R47	bodySign Arg1:92 Arg2:93
+R48	signIndexvalue Arg1:93 Arg2:94
+R49	signIndexvalue Arg1:95 Arg2:96
+R50	bodyClinicalfeature Arg1:97 Arg2:98

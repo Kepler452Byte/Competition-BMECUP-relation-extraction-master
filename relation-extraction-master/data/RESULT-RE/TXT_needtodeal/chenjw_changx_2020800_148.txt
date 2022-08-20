@@ -1,0 +1,31 @@
+{"sent": "主 诉 : $ 咳 嗽 咳 痰 7 月 余 。 $ ￣ 现 病 史 : $ 患 者 7 月 余 前 无 明 显 诱 因 下 出 现 咳 嗽 咳 痰 ， 阵 发 性 ， 痰 不 易 咳 出 ， 伴 胸 闷 ， 呼 吸 困 难 ， 无 胸 痛 ， 无 腹 泻 ， 无 咯 血 黑 便 ， 无 肢 体 抽 搐 等 不 适 。 ￣ 最 近 一 次 于 2 0 1 8 - 1 1 - 2 6 至 2 0 1 8 - 1 1 2 - 2 4 于 我 科 住 院 治 疗 ， 今 为 进 一 步 治 疗 ， 再 次 拟 ” 肺 部 感 染 $ 呼 吸 衰 竭 ” 收 住 入 院 。 $ ￣ 患 病 来 ， 神 志 朦 胧 ， 精 神 软 ， 胃 纳 差 ， 睡 眠 一 般 ， 大 小 便 如 常 ， 近 期 体 重 无 明 显 改 变 。 $ ￣ 专 科 查 体 : $ T 3 6 . 8 ℃ ， P 7 8 次 / 分 ， R 2 6 次 / 分 ， B P 1 1 7 / 4 7 m m H g 。 神 志 朦 胧 ， 呼 吸 略 促 ， 气 管 切 开 状 态 ， 浅 表 淋 巴 结 未 及 肿 大 ， 口 唇 无 发 绀 ， 两 肺 呼 吸 音 粗 ， ￣ 未 及 明 显 啰 音 ， 心 率 7 8 次 / 分 ， 律 齐 ， 未 闻 及 杂 音 ， 腹 平 软 ， 无 压 痛 ， 肝 脾 肋 下 未 触 及 ， 双 下 肢 无 浮 肿 。", "ners": [[4, 6, "clinicalFeature", "咳嗽"], [6, 8, "clinicalFeature", "咳痰"], [8, 11, "time", "7月余"], [21, 25, "time", "7月余前"], [25, 30, "cause", "无明显诱因"], [33, 35, "clinicalFeature", "咳嗽"], [35, 37, "clinicalFeature", "咳痰"], [38, 41, "modification", "阵发性"], [42, 47, "modification", "痰不易咳出"], [49, 51, "clinicalFeature", "胸闷"], [52, 56, "clinicalFeature", "呼吸困难"], [57, 58, "negative", "无"], [58, 60, "clinicalFeature", "胸痛"], [61, 62, "negative", "无"], [62, 64, "clinicalFeature", "腹泻"], [65, 66, "negative", "无"], [66, 68, "clinicalFeature", "咯血"], [68, 70, "clinicalFeature", "黑便"], [71, 72, "negative", "无"], [72, 76, "clinicalFeature", "肢体抽搐"], [86, 108, "time", "2018-11-26至2018-112-24"], [97, 108, "time", "2018-112-24"], [128, 132, "disease", "肺部感染"], [133, 137, "disease", "呼吸衰竭"], [191, 192, "sign", "T"], [192, 197, "indexValue", "36.8℃"], [198, 199, "sign", "P"], [199, 204, "indexValue", "78次/分"], [205, 206, "sign", "R"], [206, 211, "indexValue", "26次/分"], [212, 214, "sign", "BP"], [214, 224, "indexValue", "117/47mmHg"], [225, 229, "clinicalFeature", "神志朦胧"], [230, 234, "clinicalFeature", "呼吸略促"], [235, 237, "body", "气管"], [237, 241, "clinicalFeature", "切开状态"], [242, 247, "body", "浅表淋巴结"], [247, 251, "clinicalFeature", "未及肿大"], [252, 254, "body", "口唇"], [254, 257, "clinicalFeature", "无发绀"], [258, 260, "body", "两肺"], [260, 264, "clinicalFeature", "呼吸音粗"], [266, 272, "clinicalFeature", "未及明显啰音"], [273, 275, "sign", "心率"], [275, 280, "indexValue", "78次/分"], [281, 283, "clinicalFeature", "律齐"], [284, 289, "clinicalFeature", "未闻及杂音"], [290, 291, "body", "腹"], [291, 293, "clinicalFeature", "平软"], [294, 297, "clinicalFeature", "无压痛"], [298, 299, "body", "肝"], [299, 300, "body", "脾"], [300, 305, "clinicalFeature", "肋下未触及"], [306, 309, "body", "双下肢"], [309, 312, "clinicalFeature", "无浮肿"]]}
+[4, 6, 'clinicalFeature', '咳嗽']	[8, 11, 'time', '7月余']	属性
+[6, 8, 'clinicalFeature', '咳痰']	[8, 11, 'time', '7月余']	属性
+[25, 30, 'cause', '无明显诱因']	[35, 37, 'clinicalFeature', '咳痰']	属性
+[38, 41, 'modification', '阵发性']	[35, 37, 'clinicalFeature', '咳痰']	属性
+[42, 47, 'modification', '痰不易咳出']	[35, 37, 'clinicalFeature', '咳痰']	属性
+[49, 51, 'clinicalFeature', '胸闷']	[21, 25, 'time', '7月余前']	属性
+[52, 56, 'clinicalFeature', '呼吸困难']	[21, 25, 'time', '7月余前']	属性
+[57, 58, 'negative', '无']	[58, 60, 'clinicalFeature', '胸痛']	属性
+[58, 60, 'clinicalFeature', '胸痛']	[21, 25, 'time', '7月余前']	属性
+[61, 62, 'negative', '无']	[62, 64, 'clinicalFeature', '腹泻']	属性
+[62, 64, 'clinicalFeature', '腹泻']	[21, 25, 'time', '7月余前']	属性
+[65, 66, 'negative', '无']	[68, 70, 'clinicalFeature', '黑便']	属性
+[66, 68, 'clinicalFeature', '咯血']	[21, 25, 'time', '7月余前']	属性
+[68, 70, 'clinicalFeature', '黑便']	[21, 25, 'time', '7月余前']	属性
+[71, 72, 'negative', '无']	[72, 76, 'clinicalFeature', '肢体抽搐']	属性
+[72, 76, 'clinicalFeature', '肢体抽搐']	[21, 25, 'time', '7月余前']	属性
+[191, 192, 'sign', 'T']	[192, 197, 'indexValue', '36.8℃']	属性
+[198, 199, 'sign', 'P']	[199, 204, 'indexValue', '78次/分']	属性
+[205, 206, 'sign', 'R']	[206, 211, 'indexValue', '26次/分']	属性
+[212, 214, 'sign', 'BP']	[214, 224, 'indexValue', '117/47mmHg']	属性
+[235, 237, 'body', '气管']	[237, 241, 'clinicalFeature', '切开状态']	属性
+[242, 247, 'body', '浅表淋巴结']	[247, 251, 'clinicalFeature', '未及肿大']	属性
+[252, 254, 'body', '口唇']	[254, 257, 'clinicalFeature', '无发绀']	属性
+[258, 260, 'body', '两肺']	[266, 272, 'clinicalFeature', '未及明显啰音']	属性
+[273, 275, 'sign', '心率']	[275, 280, 'indexValue', '78次/分']	属性
+[290, 291, 'body', '腹']	[294, 297, 'clinicalFeature', '无压痛']	属性
+[298, 299, 'body', '肝']	[300, 305, 'clinicalFeature', '肋下未触及']	属性
+[299, 300, 'body', '脾']	[300, 305, 'clinicalFeature', '肋下未触及']	属性
+[306, 309, 'body', '双下肢']	[309, 312, 'clinicalFeature', '无浮肿']	属性
+

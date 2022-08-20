@@ -1,0 +1,10 @@
+T1	time 6 10	1月余前
+T2	disease 14 19	右上肺占位
+T3	time 19 22	5天”
+T4	auxiliaryExamination 31 40	胸部CT增强加平扫
+T5	body 43 46	右上肺
+T6	auxiliaryDescript 46 51	不规则结节
+R1	timeDisease Arg1:T3 Arg2:T2
+R2	auxiliaryExaminationTime Arg1:T4 Arg2:T1
+R3	bodyAuxiliaryDescript Arg1:T5 Arg2:T6
+R4	auxiliaryExaminationAuxiliaryDescript Arg1:T4 Arg2:T6

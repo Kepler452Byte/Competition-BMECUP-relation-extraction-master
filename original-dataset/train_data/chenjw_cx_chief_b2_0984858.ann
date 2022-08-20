@@ -1,0 +1,5 @@
+T2	time 11 15	3小时余
+T1	cause 3 7	性生活后
+T5	clinicalFeature 7 11	阴道出血
+R1	clinicalFeatureTime Arg1:T5 Arg2:T2
+R2	causeClinicalFeature Arg1:T1 Arg2:T5

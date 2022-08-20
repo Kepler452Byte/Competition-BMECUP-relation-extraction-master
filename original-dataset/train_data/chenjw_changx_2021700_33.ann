@@ -1,0 +1,182 @@
+T1	clinicalFeature 6 10	血糖升高
+T2	time 10 12	8年
+T3	clinicalFeature 13 15	口干
+T4	time 17 19	1周
+T5	time 28 31	8年前
+T6	clinicalFeature 36 40	血糖升高
+T7	negative 43 44	无
+T8	clinicalFeature 44 46	口干
+T9	disease 55 60	2型糖尿病
+T10	drug 65 72	格列齐特缓释片
+T11	dose 73 77	30mg
+T12	frequency 78 80	QD
+T13	drug 81 83	瑞彤
+T14	dose 84 88	30mg
+T15	frequency 89 91	QD
+T16	drug 92 96	二甲双胍
+T17	dose 97 100	1.0
+T18	frequency 101 104	BID
+T19	time 105 115	2019-09-09
+T20	laboratory 123 125	血糖
+T21	laboratoryValue 125 135	7.32mmol/L
+T22	laboratory 136 142	糖化血红蛋白
+T23	laboratoryValue 142 147	5.8%后
+T24	cure 147 152	停格列齐特
+T25	time 162 172	2019-11-22
+T26	laboratory 178 180	血糖
+T27	laboratoryValue 180 191	10.03mmol/L
+T28	laboratory 193 199	糖化血红蛋白
+T29	laboratoryValue 200 205	7.40%
+T30	modification 206 208	偶感
+T31	clinicalFeature 212 214	疼痛
+T32	clinicalFeature 215 218	无麻木
+T33	clinicalFeature 220 224	视力模糊
+T34	negative 225 226	无
+T35	clinicalFeature 226 228	恶心
+T36	clinicalFeature 228 230	呕吐
+T37	negative 231 232	无
+T38	clinicalFeature 232 234	胸闷
+T39	clinicalFeature 234 236	气促
+T40	negative 237 238	无
+T41	clinicalFeature 238 240	腹痛
+T42	negative 241 242	无
+T43	clinicalFeature 242 244	头痛
+T44	clinicalFeature 244 246	头晕
+T45	negative 247 248	无
+T46	clinicalFeature 248 250	畏寒
+T47	clinicalFeature 250 252	纳差
+T48	time 257 260	1周前
+T49	cause 260 265	无明显诱因
+T50	clinicalFeature 268 270	口干
+T51	laboratory 290 292	血糖
+T52	laboratoryValue 292 302	10.1mmol/l
+T54	disease 307 312	2型糖尿病
+T68	sign 379 381	体温
+T69	indexValue 381 386	36.6℃
+T70	sign 387 389	脉搏
+T71	indexValue 389 394	84次/分
+T72	sign 395 397	呼吸
+T73	indexValue 397 402	19次/分
+T74	sign 403 405	血压
+T75	indexValue 405 415	152/84mmhg
+T76	sign 416 419	BMI
+T77	clinicalFeature 426 429	神志清
+T78	clinicalFeature 430 433	精神可
+T79	body 434 439	表浅淋巴结
+T80	clinicalFeature 439 442	未触及
+T81	clinicalFeature 443 447	呼吸平稳
+T82	body 448 449	颈
+T83	clinicalFeature 449 450	软
+T84	body 452 455	颈静脉
+T85	clinicalFeature 455 458	无怒张
+T86	body 459 462	甲状腺
+T87	clinicalFeature 462 464	不大
+T88	body 465 467	双肺
+T89	clinicalFeature 467 471	呼吸音清
+T90	clinicalFeature 472 479	未闻及干湿罗音
+T91	sign 480 482	心率
+T92	indexValue 482 487	84次/分
+T93	clinicalFeature 488 490	律齐
+T94	clinicalFeature 491 501	未闻及明显病理性杂音
+T95	body 502 503	腹
+T96	clinicalFeature 503 504	软
+T97	body 505 506	肝
+T98	body 506 507	脾
+T99	clinicalFeature 507 511	肋下未及
+T100	body 512 514	全腹
+T101	negative 514 515	无
+T102	clinicalFeature 517 520	反跳痛
+T103	body 521 524	双下肢
+T104	clinicalFeature 524 527	无浮肿
+T105	body 529 531	四肢
+T106	sign 531 533	肌力
+T107	indexValue 533 535	5级
+T108	sign 536 539	病理征
+T109	indexValue 539 542	未引出
+R1	clinicalFeatureTime Arg1:T3 Arg2:T4
+R2	clinicalFeatureTime Arg1:T1 Arg2:T2
+R3	clinicalFeatureTime Arg1:T6 Arg2:T5
+R4	negativeClinicalFeature Arg1:T7 Arg2:T8
+R5	clinicalFeatureTime Arg1:T8 Arg2:T5
+R6	drugDose Arg1:T10 Arg2:T11
+R7	doseFrequency Arg1:T11 Arg2:T12
+R8	drugDose Arg1:T13 Arg2:T14
+R9	doseFrequency Arg1:T14 Arg2:T15
+R10	drugDose Arg1:T16 Arg2:T17
+R11	doseFrequency Arg1:T17 Arg2:T18
+T110	time 63 64	现
+R12	drugTime Arg1:T10 Arg2:T110
+R13	drugTime Arg1:T13 Arg2:T110
+R14	drugTime Arg1:T16 Arg2:T110
+R15	laboratoryLaboratoryValue Arg1:T20 Arg2:T21
+R16	laboratoryLaboratoryValue Arg1:T22 Arg2:T23
+R17	laboratoryTime Arg1:T26 Arg2:T25
+R18	laboratoryTime Arg1:T20 Arg2:T19
+R19	laboratoryTime Arg1:T22 Arg2:T19
+R20	laboratoryLaboratoryValue Arg1:T26 Arg2:T27
+R21	laboratoryLaboratoryValue Arg1:T28 Arg2:T29
+R22	laboratoryTime Arg1:T28 Arg2:T25
+R23	modificationClinicalFeature Arg1:T30 Arg2:T31
+T111	body 208 212	左足踝部
+R24	bodyClinicalFeature Arg1:T111 Arg2:T32
+R25	negativeClinicalFeature Arg1:T34 Arg2:T35
+R26	negativeClinicalFeature Arg1:T34 Arg2:T36
+R27	clinicalFeatureTime Arg1:T31 Arg2:T25
+R28	clinicalFeatureTime Arg1:T33 Arg2:T25
+R29	clinicalFeatureTime Arg1:T35 Arg2:T25
+R30	clinicalFeatureTime Arg1:T36 Arg2:T25
+R31	negativeClinicalFeature Arg1:T37 Arg2:T38
+R32	negativeClinicalFeature Arg1:T37 Arg2:T39
+R33	clinicalFeatureTime Arg1:T38 Arg2:T25
+R34	clinicalFeatureTime Arg1:T39 Arg2:T25
+R35	negativeClinicalFeature Arg1:T40 Arg2:T41
+R36	clinicalFeatureTime Arg1:T41 Arg2:T25
+R37	negativeClinicalFeature Arg1:T42 Arg2:T43
+R38	negativeClinicalFeature Arg1:T42 Arg2:T44
+R39	clinicalFeatureTime Arg1:T43 Arg2:T25
+R40	clinicalFeatureTime Arg1:T44 Arg2:T25
+R41	negativeClinicalFeature Arg1:T45 Arg2:T46
+R42	negativeClinicalFeature Arg1:T45 Arg2:T47
+R43	clinicalFeatureTime Arg1:T46 Arg2:T25
+R44	clinicalFeatureTime Arg1:T47 Arg2:T25
+R45	causeClinicalFeature Arg1:T49 Arg2:T50
+R46	clinicalFeatureTime Arg1:T50 Arg2:T48
+R47	laboratoryLaboratoryValue Arg1:T51 Arg2:T52
+R59	signIndexValue Arg1:T68 Arg2:T69
+R60	signIndexValue Arg1:T70 Arg2:T71
+R61	signIndexValue Arg1:T72 Arg2:T73
+R62	signIndexValue Arg1:T74 Arg2:T75
+T113	indexValue 420 424	27.9
+R63	signIndexValue Arg1:T76 Arg2:T113
+R64	bodyClinicalFeature Arg1:T79 Arg2:T80
+R65	bodyClinicalFeature Arg1:T82 Arg2:T83
+R66	bodyClinicalFeature Arg1:T84 Arg2:T85
+R67	bodyClinicalFeature Arg1:T86 Arg2:T87
+R68	bodyClinicalFeature Arg1:T88 Arg2:T89
+R69	bodyClinicalFeature Arg1:T88 Arg2:T90
+R70	signIndexValue Arg1:T91 Arg2:T92
+R71	bodyClinicalFeature Arg1:T95 Arg2:T96
+R72	bodyClinicalFeature Arg1:T97 Arg2:T99
+R73	bodyClinicalFeature Arg1:T98 Arg2:T99
+R74	bodyClinicalFeature Arg1:T100 Arg2:T102
+R75	negativeClinicalFeature Arg1:T101 Arg2:T102
+R76	bodyClinicalFeature Arg1:T103 Arg2:T104
+R77	bodySign Arg1:T105 Arg2:T106
+R78	signIndexValue Arg1:T106 Arg2:T107
+R79	signIndexValue Arg1:T108 Arg2:T109
+T114	clinicalFeature 15 17	多饮
+R80	clinicalFeatureTime Arg1:T114 Arg2:T4
+T115	cause 31 36	体检时发现
+R81	causeClinicalFeature Arg1:T115 Arg2:T6
+T116	clinicalFeature 46 48	多饮
+T117	clinicalFeature 48 50	多尿
+R82	negativeClinicalFeature Arg1:T7 Arg2:T116
+R83	negativeClinicalFeature Arg1:T7 Arg2:T117
+R84	timeDisease Arg1:T5 Arg2:T9
+R85	cureTime Arg1:T24 Arg2:T19
+T119	clinicalFeature 270 272	多饮
+T120	clinicalFeature 272 274	多尿
+R50	clinicalFeatureTime Arg1:T119 Arg2:T48
+R86	clinicalFeatureTime Arg1:T120 Arg2:T48
+R87	causeClinicalFeature Arg1:T49 Arg2:T119
+R88	causeClinicalFeature Arg1:T49 Arg2:T120

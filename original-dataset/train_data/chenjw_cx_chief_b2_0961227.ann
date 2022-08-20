@@ -1,0 +1,7 @@
+T1	time 10 13	20天
+T4	body 3 5	阴道
+T5	modification 5 8	不规则
+T6	clinicalFeature 8 10	出血
+R1	bodyClinicalFeature Arg1:T4 Arg2:T6
+R2	modificationClinicalFeature Arg1:T5 Arg2:T6
+R3	clinicalFeatureTime Arg1:T6 Arg2:T1

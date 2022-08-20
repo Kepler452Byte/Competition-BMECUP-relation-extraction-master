@@ -1,0 +1,160 @@
+T1	clinicalFeature 10 12	肿胀
+T2	clinicalFeature 13 15	疼痛
+T3	time 15 18	半月余
+T4	time 27 30	半月前
+T5	clinicalFeature 45 47	肿胀
+T6	clinicalFeature 49 51	疼痛
+T7	trend 58 60	加剧
+T8	clinicalFeature 63 67	活动受限
+T9	negative 68 69	无
+T10	clinicalFeature 69 73	肢体麻木
+T11	negative 74 75	无
+T12	clinicalFeature 75 77	乏力
+T13	negative 78 80	否认
+T14	clinicalFeature 81 83	头痛
+T15	clinicalFeature 84 86	头昏
+T16	clinicalFeature 87 89	恶心
+T17	clinicalFeature 90 92	呕吐
+T18	negative 97 99	否认
+T19	clinicalFeature 100 102	发热
+T20	clinicalFeature 102 104	畏寒
+T21	negative 105 107	否认
+T22	clinicalFeature 108 110	胸闷
+T23	clinicalFeature 111 113	气促
+T24	clinicalFeature 114 116	胸痛
+T25	negative 117 119	否认
+T26	clinicalFeature 120 122	腹痛
+T27	clinicalFeature 122 124	腹胀
+T28	auxiliaryExamination 134 136	拍片
+T29	body 138 141	左髌骨
+T30	auxiliaryDescript 143 148	见一透亮影
+T31	disease 161 166	左小腿血肿
+T32	disease 167 174	左小腿皮肤挫伤
+T33	cure 180 189	入院后予以对症治疗
+T34	drug 190 194	具体不详
+T35	time 195 197	近来
+T36	clinicalFeature 201 206	左小腿疼痛
+T37	time 218 228	2019-12-3行
+T38	auxiliaryExamination 228 234	左小腿MRI
+T40	body 246 249	左小腿
+T41	auxiliaryDescript 249 251	血肿
+T43	disease 254 262	左小腿软组织挫伤
+T44	disease 263 268	左小腿血肿
+T45	disease 277 280	高血压
+T46	time 283 286	10年
+T47	drug 287 293	具体用药不详
+T48	clinicalFeature 294 300	血压控制一般
+T61	sign 346 347	T
+T62	indexValue 347 352	37.1℃
+T63	sign 353 354	R
+T64	indexValue 354 359	20次/分
+T65	sign 360 361	P
+T66	indexValue 361 366	80次/分
+T67	sign 367 369	BP
+T68	indexValue 369 378	93/68mmHg
+T69	clinicalFeature 379 381	神清
+T70	clinicalFeature 382 385	精神可
+T71	body 386 390	双侧瞳孔
+T72	clinicalFeature 390 394	等大等圆
+T73	clinicalFeature 395 401	直径约3mm
+T74	clinicalFeature 402 407	光反射灵敏
+T75	clinicalFeature 408 414	生命体征正常
+T76	body 416 418	脊柱
+T77	clinicalFeature 418 424	生理弯曲存在
+T78	body 425 428	各棘突
+T79	clinicalFeature 429 431	压痛
+T80	clinicalFeature 432 435	叩击痛
+T81	body 436 439	左小腿
+T82	clinicalFeature 439 443	肿胀明显
+T83	clinicalFeature 444 446	压痛
+T84	body 447 450	左下肢
+T85	clinicalFeature 450 453	活动可
+T86	body 455 458	余肢体
+T87	clinicalFeature 458 464	未见明显异常
+T88	sign 465 469	生理反射
+T89	indexValue 469 471	存在
+T90	sign 472 476	病理反射
+T91	indexValue 476 479	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+T92	cause 4 6	擦伤
+R2	causeClinicalFeature Arg1:T92 Arg2:T2
+R3	causeClinicalFeature Arg1:T92 Arg2:T1
+T93	body 7 10	左小腿
+R4	bodyClinicalFeature Arg1:T93 Arg2:T1
+R5	bodyClinicalFeature Arg1:T93 Arg2:T2
+R6	clinicalFeatureTime Arg1:T1 Arg2:T3
+T94	cause 38 40	挫伤
+T95	body 42 45	左小腿
+R7	causeClinicalFeature Arg1:T94 Arg2:T5
+R8	causeClinicalFeature Arg1:T94 Arg2:T6
+R9	bodyClinicalFeature Arg1:T95 Arg2:T6
+R10	bodyClinicalFeature Arg1:T95 Arg2:T5
+R11	clinicalFeatureTime Arg1:T5 Arg2:T4
+R12	clinicalFeatureTime Arg1:T6 Arg2:T4
+R13	clinicalFeatureTrend Arg1:T5 Arg2:T7
+R14	clinicalFeatureTrend Arg1:T6 Arg2:T7
+T96	negative 61 62	不
+R15	negativeClinicalFeature Arg1:T96 Arg2:T8
+R16	negativeClinicalFeature Arg1:T9 Arg2:T10
+R17	negativeClinicalFeature Arg1:T11 Arg2:T12
+R18	negativeClinicalFeature Arg1:T13 Arg2:T14
+R19	negativeClinicalFeature Arg1:T13 Arg2:T15
+R20	negativeClinicalFeature Arg1:T13 Arg2:T16
+T97	clinicalFeature 93 95	昏迷
+R21	negativeClinicalFeature Arg1:T13 Arg2:T17
+R22	negativeClinicalFeature Arg1:T13 Arg2:T97
+R23	negativeClinicalFeature Arg1:T18 Arg2:T19
+R24	negativeClinicalFeature Arg1:T18 Arg2:T20
+R25	negativeClinicalFeature Arg1:T21 Arg2:T22
+R26	negativeClinicalFeature Arg1:T21 Arg2:T23
+R27	negativeClinicalFeature Arg1:T21 Arg2:T24
+R28	negativeClinicalFeature Arg1:T25 Arg2:T26
+R29	negativeClinicalFeature Arg1:T25 Arg2:T27
+R30	clinicalFeatureTime Arg1:T8 Arg2:T4
+R31	clinicalFeatureTime Arg1:T10 Arg2:T4
+R32	clinicalFeatureTime Arg1:T12 Arg2:T4
+R33	clinicalFeatureTime Arg1:T14 Arg2:T4
+R34	clinicalFeatureTime Arg1:T15 Arg2:T4
+R35	clinicalFeatureTime Arg1:T16 Arg2:T4
+R36	clinicalFeatureTime Arg1:T17 Arg2:T4
+R37	clinicalFeatureTime Arg1:T97 Arg2:T4
+R38	clinicalFeatureTime Arg1:T19 Arg2:T4
+R39	clinicalFeatureTime Arg1:T20 Arg2:T4
+R40	clinicalFeatureTime Arg1:T22 Arg2:T4
+R41	clinicalFeatureTime Arg1:T23 Arg2:T4
+R42	clinicalFeatureTime Arg1:T24 Arg2:T4
+R43	clinicalFeatureTime Arg1:T26 Arg2:T4
+R44	clinicalFeatureTime Arg1:T27 Arg2:T4
+R45	bodyAuxiliaryDescript Arg1:T29 Arg2:T30
+R46	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T30
+R54	clinicalFeatureTime Arg1:T36 Arg2:T35
+R55	auxiliaryExaminationTime Arg1:T38 Arg2:T37
+R56	bodyAuxiliaryDescript Arg1:T40 Arg2:T41
+T39	body 237 240	左小腿
+T99	auxiliaryDescript 240 245	软组织挫伤
+R59	bodyAuxiliaryDescript Arg1:T39 Arg2:T99
+R60	auxiliaryExaminationAuxiliaryDescript Arg1:T38 Arg2:T99
+R61	auxiliaryExaminationAuxiliaryDescript Arg1:T38 Arg2:T41
+R62	timeDisease Arg1:T46 Arg2:T45
+R64	diseaseClinicalFeature Arg1:T45 Arg2:T48
+R71	signIndexValue Arg1:T61 Arg2:T62
+R72	signIndexValue Arg1:T63 Arg2:T64
+R73	signIndexValue Arg1:T65 Arg2:T66
+R74	signIndexValue Arg1:T67 Arg2:T68
+R75	bodyClinicalFeature Arg1:T71 Arg2:T72
+R76	bodyClinicalFeature Arg1:T71 Arg2:T73
+R77	bodyClinicalFeature Arg1:T71 Arg2:T74
+R78	bodyClinicalFeature Arg1:T76 Arg2:T77
+R79	bodyClinicalFeature Arg1:T78 Arg2:T79
+T100	negative 428 429	无
+R80	negativeClinicalFeature Arg1:T100 Arg2:T79
+R81	bodyClinicalFeature Arg1:T78 Arg2:T80
+R82	negativeClinicalFeature Arg1:T100 Arg2:T80
+R83	bodyClinicalFeature Arg1:T81 Arg2:T82
+R84	bodyClinicalFeature Arg1:T81 Arg2:T83
+R85	bodyClinicalFeature Arg1:T84 Arg2:T85
+R86	bodyClinicalFeature Arg1:T86 Arg2:T87
+R87	signIndexValue Arg1:T88 Arg2:T89
+R88	signIndexValue Arg1:T90 Arg2:T91
+R89	auxiliaryExaminationTime Arg1:T28 Arg2:T4
+R49	cureTime Arg1:T33 Arg2:T4

@@ -1,0 +1,10 @@
+T1	time 6 10	1年余年
+T2	clinicalFeature 22 28	癌胚抗原偏高
+T3	auxiliaryExamination 40 46	PET-CT
+T4	auxiliaryDescript 51 53	MT
+T7	clinicalFeature 11 15	血糖偏高
+R1	clinicalFeatureTime Arg1:T7 Arg2:T1
+R2	clinicalFeatureTime Arg1:T2 Arg2:T1
+R3	auxiliaryExaminationAuxiliaryDescript Arg1:T3 Arg2:T4
+T8	body 48 51	升结肠
+R4	bodyAuxiliaryDescript Arg1:T8 Arg2:T4

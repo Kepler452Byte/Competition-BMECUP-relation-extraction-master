@@ -1,0 +1,4 @@
+T1	time 6 9	4月前
+T2	disease 17 24	结直肠多发息肉
+T5	auxiliaryExamination 10 14	肠镜检查
+R2	auxiliaryExaminationTime Arg1:T5 Arg2:T1

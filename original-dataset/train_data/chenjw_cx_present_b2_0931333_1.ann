@@ -1,0 +1,15 @@
+T1	time 6 9	1周前
+T3	modification 16 18	突发
+T4	clinicalFeature 18 20	头晕
+T5	clinicalFeature 23 27	视物旋转
+T6	clinicalFeature 28 30	恶心
+T7	negative 31 32	未
+T8	clinicalFeature 32 34	呕吐
+R1	clinicalFeatureTime Arg1:T4 Arg2:T1
+T2	cause 9 16	夜间上卫生间时
+R2	causeClinicalFeature Arg1:T2 Arg2:T4
+R3	modificationClinicalFeature Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T5 Arg2:T1
+R5	clinicalFeatureTime Arg1:T6 Arg2:T1
+R6	negativeClinicalFeature Arg1:T7 Arg2:T8
+R7	clinicalFeatureTime Arg1:T8 Arg2:T1

@@ -1,0 +1,142 @@
+T1	clinicalFeature 4 7	上腹胀
+T2	clinicalFeature 8 10	呕吐
+T3	time 10 13	3小时
+T4	time 23 27	3小时前
+T5	cause 27 32	无明显诱因
+T6	clinicalFeature 35 38	上腹胀
+T7	clinicalFeature 40 42	呕吐
+T8	frequency 42 44	1次
+T9	modification 45 53	呕吐物为胃内容物
+T10	modification 54 60	无咖啡样液体
+T11	clinicalFeature 61 69	肛门排便排气消失
+T12	negative 70 71	无
+T13	clinicalFeature 71 73	呃逆
+T14	negative 76 77	无
+T15	clinicalFeature 77 79	畏寒
+T16	clinicalFeature 79 81	发热
+T17	negative 82 83	无
+T18	clinicalFeature 83 85	头晕
+T19	clinicalFeature 85 87	胸闷
+T20	negative 88 89	无
+T21	clinicalFeature 89 91	胸痛
+T22	clinicalFeature 91 93	心悸
+T23	negative 95 96	无
+T24	clinicalFeature 96 98	黑便
+T26	disease 121 128	不完全性肠梗阻
+T41	disease 180 184	高血压病
+T42	time 187 190	17年
+T43	drug 198 200	代文
+T44	drug 201 204	万爽力
+T45	drug 205 207	可定
+T46	clinicalFeature 211 217	血压控制尚可
+T47	sign 226 228	BP
+T48	indexValue 228 238	176/85mmHg
+T49	sign 239 240	T
+T50	indexValue 241 246	36.2℃
+T51	sign 247 248	P
+T52	indexValue 248 253	71次/分
+T53	sign 254 255	R
+T54	indexValue 255 260	19次/分
+T55	clinicalFeature 261 264	神志清
+T56	clinicalFeature 265 268	精神可
+T57	body 269 271	皮肤
+T58	body 271 273	巩膜
+T59	clinicalFeature 273 276	无黄染
+T60	body 277 280	颈静脉
+T61	clinicalFeature 280 283	无怒张
+T62	sign 284 286	心率
+T63	indexValue 286 291	71次/分
+T64	clinicalFeature 292 295	心律齐
+T65	negative 297 300	未闻及
+T66	clinicalFeature 302 304	早搏
+T67	clinicalFeature 305 310	病理性杂音
+T68	body 311 313	双肺
+T69	clinicalFeature 313 319	听诊呼吸音粗
+T70	clinicalFeature 320 329	未闻及明显干湿啰音
+T71	body 330 331	腹
+T72	clinicalFeature 331 332	软
+T73	negative 333 334	无
+T74	clinicalFeature 336 338	压痛
+T75	clinicalFeature 338 341	反跳痛
+T76	body 342 343	肝
+T77	body 343 344	脾
+T78	clinicalFeature 344 348	肋下未及
+T79	sign 349 352	肠鸣音
+T80	indexValue 353 357	2次/分
+T81	sign 358 363	移动性浊音
+T82	indexValue 363 365	阴性
+T83	body 366 369	双下肢
+T84	clinicalFeature 369 371	不肿
+T85	body 373 375	四肢
+T86	sign 375 377	肌力
+T87	indexValue 377 379	5级
+T88	body 380 382	双侧
+T89	sign 382 387	巴宾斯基征
+T90	indexValue 387 389	阴性
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T6
+R4	clinicalFeatureFrequency Arg1:T7 Arg2:T8
+R6	modificationClinicalFeature Arg1:T10 Arg2:T7
+T91	clinicalFeature 73 75	反酸
+R7	negativeClinicalFeature Arg1:T12 Arg2:T13
+R8	negativeClinicalFeature Arg1:T12 Arg2:T91
+R9	negativeClinicalFeature Arg1:T14 Arg2:T15
+R10	negativeClinicalFeature Arg1:T14 Arg2:T16
+R11	negativeClinicalFeature Arg1:T17 Arg2:T18
+R12	negativeClinicalFeature Arg1:T17 Arg2:T19
+R13	negativeClinicalFeature Arg1:T20 Arg2:T21
+R14	negativeClinicalFeature Arg1:T20 Arg2:T22
+R15	negativeClinicalFeature Arg1:T23 Arg2:T24
+T92	clinicalFeature 98 100	便血
+R16	negativeClinicalFeature Arg1:T23 Arg2:T92
+R25	timeDisease Arg1:T42 Arg2:T41
+R29	diseaseClinicalFeature Arg1:T41 Arg2:T46
+R30	signIndexValue Arg1:T47 Arg2:T48
+R31	signIndexValue Arg1:T49 Arg2:T50
+R32	signIndexValue Arg1:T51 Arg2:T52
+R33	signIndexValue Arg1:T53 Arg2:T54
+R34	bodyClinicalFeature Arg1:T57 Arg2:T59
+R35	bodyClinicalFeature Arg1:T58 Arg2:T59
+R36	bodyClinicalFeature Arg1:T60 Arg2:T61
+R37	signIndexValue Arg1:T62 Arg2:T63
+R38	negativeClinicalFeature Arg1:T65 Arg2:T66
+R39	negativeClinicalFeature Arg1:T65 Arg2:T67
+R40	bodyClinicalFeature Arg1:T68 Arg2:T69
+R41	bodyClinicalFeature Arg1:T68 Arg2:T70
+R42	bodyClinicalFeature Arg1:T71 Arg2:T72
+R43	negativeClinicalFeature Arg1:T73 Arg2:T74
+R44	negativeClinicalFeature Arg1:T73 Arg2:T75
+R45	bodyClinicalFeature Arg1:T71 Arg2:T74
+R46	bodyClinicalFeature Arg1:T71 Arg2:T75
+R47	bodyClinicalFeature Arg1:T76 Arg2:T78
+R48	bodyClinicalFeature Arg1:T77 Arg2:T78
+R49	signIndexValue Arg1:T79 Arg2:T80
+R50	signIndexValue Arg1:T81 Arg2:T82
+R51	bodyClinicalFeature Arg1:T83 Arg2:T84
+R52	bodySign Arg1:T85 Arg2:T86
+R53	signIndexValue Arg1:T86 Arg2:T87
+R54	bodySign Arg1:T88 Arg2:T89
+R55	signIndexValue Arg1:T89 Arg2:T90
+R56	clinicalFeatureTime Arg1:T6 Arg2:T4
+R57	clinicalFeatureTime Arg1:T7 Arg2:T4
+R58	clinicalFeatureTime Arg1:T11 Arg2:T4
+R59	clinicalFeatureTime Arg1:T13 Arg2:T4
+R60	clinicalFeatureTime Arg1:T91 Arg2:T4
+R61	clinicalFeatureTime Arg1:T15 Arg2:T4
+R62	clinicalFeatureTime Arg1:T16 Arg2:T4
+R63	clinicalFeatureTime Arg1:T18 Arg2:T4
+R64	clinicalFeatureTime Arg1:T19 Arg2:T4
+R65	clinicalFeatureTime Arg1:T21 Arg2:T4
+R66	clinicalFeatureTime Arg1:T22 Arg2:T4
+R67	clinicalFeatureTime Arg1:T24 Arg2:T4
+R68	clinicalFeatureTime Arg1:T92 Arg2:T4
+R5	modificationClinicalFeature Arg1:T9 Arg2:T7
+T25	time 136 139	患病来
+T27	clinicalFeature 140 143	神志清
+T28	clinicalFeature 144 147	精神可
+T29	clinicalFeature 148 152	胃纳较差
+T30	clinicalFeature 153 156	睡眠可
+T31	clinicalFeature 157 161	未解大便
+T32	clinicalFeature 162 166	小便无殊
+T33	clinicalFeature 167 176	近期体重无明显改变

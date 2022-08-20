@@ -1,0 +1,105 @@
+T1	clinicalFeature 6 10	神志不清
+T2	clinicalFeature 11 15	呼吸急促
+T3	time 15 17	8月
+T4	time 24 29	近8月余前
+T5	clinicalFeature 33 37	神志不清
+T6	modification 38 42	呼之不应
+T7	clinicalFeature 44 48	呼吸急促
+T8	clinicalFeature 50 54	大汗淋漓
+T9	negative 55 56	无
+T10	clinicalFeature 56 60	口角歪斜
+T11	negative 61 62	无
+T12	clinicalFeature 62 66	肢体抽搐
+T13	negative 67 68	无
+T14	clinicalFeature 68 70	呕吐
+T15	time 95 116	2018-10-27至2018-11-27
+T17	disease 134 138	肺部感染
+T18	disease 139 143	呼吸衰竭
+T31	disease 194 198	高血压病
+T32	time 200 202	2年
+T33	drug 207 212	贝那普利片
+T34	dose 213 218	2.5mg
+T35	frequency 222 226	1次/天
+T36	clinicalFeature 227 232	血压控制可
+T37	disease 235 238	糖尿病
+T38	time 241 243	2年
+T39	drug 248 253	二甲双胍片
+T41	frequency 258 262	3次/天
+T42	clinicalFeature 263 268	血糖控制可
+T43	sign 278 279	T
+T44	indexValue 279 284	36.0℃
+T45	sign 285 286	P
+T46	indexValue 286 291	76次/分
+T47	sign 292 293	R
+T48	indexValue 293 298	25次/分
+T49	sign 299 301	Bp
+T50	indexValue 301 310	96/52mmHg
+T51	clinicalFeature 311 315	神志不清
+T52	clinicalFeature 316 319	精神差
+T53	clinicalFeature 320 324	呼之不应
+T54	clinicalFeature 325 330	刺痛反应差
+T55	body 331 334	双瞳孔
+T56	clinicalFeature 334 338	等大等圆
+T57	clinicalFeature 339 347	直径约2.0mm
+T58	clinicalFeature 349 353	光反迟钝
+T59	clinicalFeature 354 358	呼吸急促
+T60	clinicalFeature 359 364	鼻导管吸氧
+T62	body 376 378	双肺
+T63	clinicalFeature 378 382	呼吸音粗
+T64	clinicalFeature 383 389	可闻及湿啰音
+T65	sign 390 392	HR
+T66	indexValue 392 400	:76bpm左右
+T67	clinicalFeature 401 404	律尚齐
+T68	body 405 406	腹
+T69	clinicalFeature 406 408	平软
+T70	clinicalFeature 411 416	活动欠配合
+T71	indexValue 421 425	不能配合
+T72	clinicalFeature 430 432	不肿
+T73	sign 433 436	病理征
+T74	indexValue 436 439	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R4	clinicalFeatureTime Arg1:T5 Arg2:T4
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R7	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T11 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	clinicalFeatureTime Arg1:T10 Arg2:T4
+R11	clinicalFeatureTime Arg1:T12 Arg2:T4
+R12	clinicalFeatureTime Arg1:T14 Arg2:T4
+T75	cure 119 121	治疗
+R13	cureTime Arg1:T75 Arg2:T15
+R22	timeDisease Arg1:T32 Arg2:T31
+R23	drugDose Arg1:T33 Arg2:T34
+R24	drugFrequency Arg1:T33 Arg2:T35
+R25	doseFrequency Arg1:T34 Arg2:T35
+R26	diseaseClinicalFeature Arg1:T31 Arg2:T36
+R27	timeDisease Arg1:T38 Arg2:T37
+R32	diseaseClinicalFeature Arg1:T37 Arg2:T42
+R34	signIndexValue Arg1:T43 Arg2:T44
+R35	signIndexValue Arg1:T45 Arg2:T46
+R36	signIndexValue Arg1:T47 Arg2:T48
+R37	signIndexValue Arg1:T49 Arg2:T50
+R39	bodyClinicalFeature Arg1:T55 Arg2:T56
+R40	bodyClinicalFeature Arg1:T55 Arg2:T57
+R41	bodyClinicalFeature Arg1:T55 Arg2:T58
+R42	bodyClinicalFeature Arg1:T62 Arg2:T63
+R43	bodyClinicalFeature Arg1:T62 Arg2:T64
+R44	signIndexValue Arg1:T65 Arg2:T66
+R45	bodyClinicalFeature Arg1:T68 Arg2:T69
+T76	body 427 430	双下肢
+R46	bodyClinicalFeature Arg1:T76 Arg2:T72
+R47	signIndexValue Arg1:T73 Arg2:T74
+T77	sign 417 421	肌力检查
+R48	signIndexValue Arg1:T77 Arg2:T71
+T40	dose 253 257	0.25
+R28	drugDose Arg1:T39 Arg2:T40
+R29	doseFrequency Arg1:T40 Arg2:T41
+R30	drugFrequency Arg1:T39 Arg2:T41
+T61	sign 365 372	血氧饱和度监测
+T78	indexValue 372 375	不满意
+R31	signIndexValue Arg1:T61 Arg2:T78
+T79	body 409 411	肢体
+R49	bodyClinicalFeature Arg1:T79 Arg2:T70
+R3	modificationClinicalFeature Arg1:T6 Arg2:T5

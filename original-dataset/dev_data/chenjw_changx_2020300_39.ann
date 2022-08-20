@@ -1,0 +1,165 @@
+T1	clinicalFeature 4 6	腹痛
+T2	clinicalFeature 7 9	恶心
+T3	clinicalFeature 9 11	呕吐
+T4	clinicalFeature 12 14	发热
+T5	time 14 16	半天
+T6	time 26 29	半天前
+T7	cause 31 36	无明显诱因
+T8	clinicalFeature 45 47	疼痛
+T9	clinicalFeature 49 51	恶心
+T10	clinicalFeature 52 54	呕吐
+T11	modification 57 64	为少量胃内容物
+T12	negative 65 66	无
+T13	clinicalFeature 66 68	血丝
+T14	clinicalFeature 70 72	发热
+T15	clinicalFeature 74 78	未测体温
+T16	negative 79 80	无
+T17	clinicalFeature 82 84	寒颤
+T18	negative 85 86	无
+T19	clinicalFeature 86 88	腹胀
+T20	clinicalFeature 88 90	腹泻
+T21	negative 91 92	无
+T22	clinicalFeature 92 96	小便失禁
+T23	negative 98 99	无
+T24	clinicalFeature 99 101	胸闷
+T25	clinicalFeature 101 103	气促
+T26	drug 113 117	具体不详
+T27	negative 120 121	无
+T28	clinicalFeature 121 123	好转
+T29	auxiliaryExamination 135 138	腹CT
+T30	auxiliaryDescript 143 147	低密度影
+T31	auxiliaryDescript 150 153	略扩张
+T32	body 165 167	胆囊
+T33	auxiliaryDescript 172 175	钙化灶
+T34	auxiliaryExamination 178 182	颅脑CT
+T35	body 185 191	右侧侧脑室旁
+T38	disease 256 260	腹痛待查
+T49	sign 312 314	体温
+T50	indexValue 314 319	37.7℃
+T51	sign 320 322	脉搏
+T52	indexValue 322 327	82次/分
+T53	sign 328 330	呼吸
+T54	indexValue 330 335	17次/分
+T55	sign 336 338	血压
+T56	indexValue 338 348	105/42mmHg
+T57	clinicalFeature 352 355	精神软
+T58	clinicalFeature 356 360	呼之能应
+T59	clinicalFeature 361 366	可遵嘱活动
+T60	clinicalFeature 367 374	对答不完全切题
+T61	body 377 379	巩膜
+T62	clinicalFeature 379 382	无黄染
+T63	body 384 389	浅表淋巴结
+T64	clinicalFeature 389 391	未及
+T65	body 392 395	颈静脉
+T66	clinicalFeature 395 398	无怒张
+T67	body 399 401	两肺
+T68	clinicalFeature 401 405	呼吸音粗
+T69	clinicalFeature 406 413	未及干、湿啰音
+T70	sign 414 416	心率
+T71	indexValue 416 421	82次/分
+T72	clinicalFeature 422 424	律齐
+T73	clinicalFeature 436 438	压痛
+T74	negative 439 440	无
+T75	clinicalFeature 440 443	反跳痛
+T76	clinicalFeature 450 453	蠕动波
+T77	clinicalFeature 456 460	肋下未及
+T78	clinicalFeature 462 465	肠鸣音
+T79	frequency 465 472	8-10次/分
+T80	body 473 476	双下肢
+T81	clinicalFeature 476 479	无水肿
+T85	sign 505 508	病理征
+T86	indexValue 508 511	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5
+R3	clinicalFeatureTime Arg1:T3 Arg2:T5
+R4	clinicalFeatureTime Arg1:T4 Arg2:T5
+R5	clinicalFeatureTime Arg1:T8 Arg2:T6
+R6	causeClinicalFeature Arg1:T7 Arg2:T8
+R7	clinicalFeatureTime Arg1:T9 Arg2:T6
+T87	frequency 54 56	一次
+R9	modificationClinicalFeature Arg1:T11 Arg2:T10
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	clinicalFeatureTime Arg1:T10 Arg2:T6
+R12	clinicalFeatureTime Arg1:T13 Arg2:T6
+R13	clinicalFeatureTime Arg1:T14 Arg2:T6
+R14	clinicalFeatureTime Arg1:T15 Arg2:T6
+R15	negativeClinicalFeature Arg1:T16 Arg2:T17
+R16	negativeClinicalFeature Arg1:T18 Arg2:T19
+R17	negativeClinicalFeature Arg1:T18 Arg2:T20
+R18	negativeClinicalFeature Arg1:T21 Arg2:T22
+R19	negativeClinicalFeature Arg1:T23 Arg2:T24
+R20	negativeClinicalFeature Arg1:T23 Arg2:T25
+T88	cure 110 112	输液
+R22	negativeClinicalFeature Arg1:T27 Arg2:T28
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T29 Arg2:T30
+T89	body 141 143	左肝
+R24	bodyAuxiliaryDescript Arg1:T89 Arg2:T30
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T29 Arg2:T31
+T90	body 148 150	胰管
+R26	bodyAuxiliaryDescript Arg1:T90 Arg2:T31
+T91	auxiliaryDescript 167 169	未见
+R27	bodyAuxiliaryDescript Arg1:T32 Arg2:T91
+T92	body 170 172	脾脏
+R28	bodyAuxiliaryDescript Arg1:T92 Arg2:T33
+T36	auxiliaryDescript 192 199	片状密度略低影
+T93	body 200 204	脑干右侧
+T94	auxiliaryDescript 204 209	密度略增高
+R29	bodyAuxiliaryDescript Arg1:T35 Arg2:T36
+R30	bodyAuxiliaryDescript Arg1:T93 Arg2:T94
+R31	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T36
+R32	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T94
+T95	auxiliaryDescript 223 229	老年性脑改变
+T37	auxiliaryDescript 230 235	脑白质变性
+R33	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T95
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T37
+R42	signIndexValue Arg1:T49 Arg2:T50
+R43	signIndexValue Arg1:T51 Arg2:T52
+R44	signIndexValue Arg1:T53 Arg2:T54
+R45	signIndexValue Arg1:T55 Arg2:T56
+T98	clinicalFeature 349 351	嗜睡
+T99	body 375 377	皮肤
+R46	bodyClinicalFeature Arg1:T99 Arg2:T62
+R47	bodyClinicalFeature Arg1:T61 Arg2:T62
+R48	bodyClinicalFeature Arg1:T63 Arg2:T64
+R49	bodyClinicalFeature Arg1:T65 Arg2:T66
+R50	bodyClinicalFeature Arg1:T67 Arg2:T68
+R51	bodyClinicalFeature Arg1:T67 Arg2:T69
+R52	signIndexValue Arg1:T70 Arg2:T71
+T100	body 425 426	腹
+T101	clinicalFeature 426 431	稍有肌紧张
+R53	bodyClinicalFeature Arg1:T100 Arg2:T101
+R55	negativeClinicalFeature Arg1:T74 Arg2:T75
+T102	clinicalFeature 446 449	胃肠型
+T103	negative 444 446	未见
+R56	negativeClinicalFeature Arg1:T103 Arg2:T102
+R57	negativeClinicalFeature Arg1:T103 Arg2:T76
+R58	clinicalFeatureFrequency Arg1:T78 Arg2:T79
+R59	bodyClinicalFeature Arg1:T80 Arg2:T81
+T82	sign 484 486	肌力
+T104	indexValue 486 488	5级
+R60	signIndexValue Arg1:T82 Arg2:T104
+T83	sign 492 494	肌力
+T105	indexValue 494 496	3级
+R61	signIndexValue Arg1:T83 Arg2:T105
+T84	sign 500 502	肌力
+T106	indexValue 502 504	1级
+R62	signIndexValue Arg1:T84 Arg2:T106
+R63	signIndexValue Arg1:T85 Arg2:T86
+T107	body 497 500	右下肢
+R64	bodySign Arg1:T107 Arg2:T84
+T108	body 489 492	右上肢
+R65	bodySign Arg1:T108 Arg2:T83
+T109	body 480 484	左侧肢体
+R66	bodySign Arg1:T109 Arg2:T82
+T110	body 454 455	肝
+T111	body 455 456	脾
+R67	bodyClinicalFeature Arg1:T110 Arg2:T77
+R68	bodyClinicalFeature Arg1:T111 Arg2:T77
+T112	body 432 435	上腹部
+R54	bodyClinicalFeature Arg1:T112 Arg2:T73
+R69	bodyClinicalFeature Arg1:T112 Arg2:T75
+T113	body 39 42	上腹部
+R70	bodyClinicalFeature Arg1:T113 Arg2:T8
+T114	modification 42 45	持续性
+R71	modificationClinicalFeature Arg1:T114 Arg2:T8
+R8	clinicalFeatureFrequency Arg1:T10 Arg2:T87

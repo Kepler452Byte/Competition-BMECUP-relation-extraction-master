@@ -1,0 +1,189 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 12	左小腿肿痛
+T3	time 12 15	1小时
+T4	time 28 34	入院前1小时
+T5	cause 37 39	摔伤
+T6	body 41 46	左小腿远端
+T7	clinicalFeature 44 48	远端疼痛
+T8	clinicalFeature 46 48	疼痛
+T9	clinicalFeature 49 51	畸形
+T10	clinicalFeature 52 54	疼痛
+T11	modification 52 54	疼痛
+T12	modification 55 59	较为剧烈
+T13	modification 61 64	持续性
+T14	modification 64 69	酸胀样疼痛
+T15	clinicalFeature 70 74	活动受限
+T16	clinicalFeature 75 79	行走不能
+T17	negative 80 82	否认
+T18	clinicalFeature 82 84	昏迷
+T19	clinicalFeature 87 89	头晕
+T20	negative 90 91	无
+T21	clinicalFeature 91 93	头痛
+T22	negative 95 96	无
+T23	clinicalFeature 96 98	畏寒
+T24	clinicalFeature 98 100	发热
+T25	negative 101 102	无
+T26	clinicalFeature 102 104	恶心
+T27	clinicalFeature 104 106	呕吐
+T28	negative 107 108	无
+T29	clinicalFeature 108 110	胸闷
+T30	clinicalFeature 110 112	气促
+T31	negative 113 114	无
+T32	clinicalFeature 114 116	胸痛
+T33	clinicalFeature 116 118	心悸
+T34	negative 119 120	无
+T35	clinicalFeature 120 125	大小便失禁
+T36	negative 126 128	否认
+T37	clinicalFeature 129 133	其他外伤
+T38	clinicalFeature 129 138	其他外伤及肢体麻木
+T39	clinicalFeature 139 143	活动障碍
+T40	auxiliaryExamination 163 165	X片
+T41	body 169 175	左胫腓骨下端
+T42	disease 169 177	左胫腓骨下端骨折
+T43	auxiliaryDescript 175 177	骨折
+T44	cure 179 187	稍复位后石膏固定
+T45	disease 190 198	左胫腓骨下端骨折
+T46	clinicalFeature 223 226	未睡眠
+T47	sign 251 253	T：
+T48	indexValue 253 258	37.8℃
+T49	sign 259 261	P：
+T50	indexValue 261 266	96bpm
+T51	sign 267 269	BP
+T52	indexValue 270 280	148/82mmhg
+T53	sign 281 283	R：
+T54	indexValue 283 288	19bpm
+T55	clinicalFeature 289 292	神志清
+T56	clinicalFeature 293 296	精神可
+T57	body 297 299	双瞳
+T58	clinicalFeature 299 303	等大等圆
+T59	clinicalFeature 304 310	Φ3.0mm
+T60	clinicalFeature 311 317	对光反射灵敏
+T61	body 318 319	颈
+T62	clinicalFeature 319 320	软
+T63	sign 322 325	颈抵抗
+T64	indexValue 325 327	阴性
+T65	sign 328 331	克氏征
+T66	indexValue 331 333	阴性
+T67	body 334 337	心前区
+T68	clinicalFeature 337 340	无膨隆
+T69	sign 341 345	心浊音界
+T70	indexValue 345 348	无扩大
+T71	clinicalFeature 349 352	无猫喘
+T72	clinicalFeature 353 361	未闻及病理性杂音
+T73	body 362 364	双肺
+T74	clinicalFeature 364 370	呼吸运动对称
+T75	body 371 373	双肺
+T76	clinicalFeature 373 378	呼吸音清晰
+T77	clinicalFeature 379 391	未闻及干、湿罗音及啸鸣音
+T78	body 392 393	腹
+T79	clinicalFeature 393 395	平坦
+T80	body 397 398	肝
+T81	body 399 400	脾
+T82	clinicalFeature 400 407	肋下、剑下未及
+T83	body 408 412	肝、脾区
+T84	negative 412 414	未及
+T85	clinicalFeature 414 416	叩痛
+T86	clinicalFeature 417 419	压痛
+T87	body 420 421	肝
+T88	body 422 423	脾
+T89	sign 423 426	浊音界
+T90	indexValue 426 429	无扩大
+T91	sign 430 434	墨菲氏征
+T92	indexValue 434 436	阴性
+T93	sign 437 440	肠鸣音
+T94	indexValue 440 446	4-5bpm
+T95	indexValue 447 449	调中
+T96	sign 450 454	神经系统
+T97	indexValue 454 456	阴性
+T98	body 457 459	脊柱
+T99	clinicalFeature 459 465	生理弯曲存在
+T100	clinicalFeature 466 469	无侧弯
+T101	negative 471 473	未及
+T102	clinicalFeature 475 477	压痛
+T103	clinicalFeature 478 480	叩痛
+T104	body 481 484	左小腿
+T105	body 481 486	左小腿远端
+T106	clinicalFeature 484 488	远端肿胀
+T107	clinicalFeature 486 488	肿胀
+T108	body 489 491	局部
+T109	clinicalFeature 491 493	压痛
+T110	body 494 498	左踝关节
+T111	clinicalFeature 498 502	活动受限
+T112	clinicalFeature 503 509	未及麻木不适
+T113	body 510 516	左侧足背动脉
+T114	clinicalFeature 516 520	波动良好
+T115	clinicalFeature 521 527	末梢循环良好
+T116	sign 528 532	生理反射
+T117	indexValue 532 534	存在
+T118	sign 535 539	病理反射
+T119	indexValue 539 542	未引出
+R1	causeClinicalfeature Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalfeature Arg1:T5 Arg2:T11
+R4	bodyClinicalfeature Arg1:T6 Arg2:T9
+R5	bodyClinicalfeature Arg1:T6 Arg2:T11
+R6	clinicalFeatureTime Arg1:T8 Arg2:T4
+R7	clinicalFeatureTime Arg1:T9 Arg2:T4
+R8	modificationClinicalfeature Arg1:T11 Arg2:T9
+R9	modificationClinicalfeature Arg1:T11 Arg2:T11
+R10	modificationClinicalfeature Arg1:T12 Arg2:T9
+R11	modificationClinicalfeature Arg1:T12 Arg2:T11
+R12	modificationClinicalfeature Arg1:T14 Arg2:T11
+R13	clinicalFeatureTime Arg1:T16 Arg2:T4
+R14	negativeClinicalfeature Arg1:T17 Arg2:T18
+R15	clinicalFeatureTime Arg1:T18 Arg2:T4
+R16	clinicalFeatureTime Arg1:T19 Arg2:T4
+R17	negativeClinicalfeature Arg1:T20 Arg2:T21
+R18	clinicalFeatureTime Arg1:T21 Arg2:T4
+R19	negativeClinicalfeature Arg1:T22 Arg2:T24
+R20	clinicalFeatureTime Arg1:T23 Arg2:T4
+R21	clinicalFeatureTime Arg1:T24 Arg2:T4
+R22	negativeClinicalfeature Arg1:T25 Arg2:T27
+R23	clinicalFeatureTime Arg1:T26 Arg2:T4
+R24	clinicalFeatureTime Arg1:T27 Arg2:T4
+R25	negativeClinicalfeature Arg1:T28 Arg2:T30
+R26	clinicalFeatureTime Arg1:T29 Arg2:T4
+R27	clinicalFeatureTime Arg1:T30 Arg2:T4
+R28	negativeClinicalfeature Arg1:T31 Arg2:T33
+R29	clinicalFeatureTime Arg1:T32 Arg2:T4
+R30	clinicalFeatureTime Arg1:T33 Arg2:T4
+R31	negativeClinicalfeature Arg1:T34 Arg2:T35
+R32	clinicalFeatureTime Arg1:T35 Arg2:T4
+R33	negativeClinicalfeature Arg1:T36 Arg2:T39
+R34	clinicalFeatureTime Arg1:T38 Arg2:T4
+R35	clinicalFeatureTime Arg1:T38 Arg2:T4
+R36	auxiliaryExaminationAuxiliarydescript Arg1:T40 Arg2:T43
+R37	auxiliaryExaminationCure Arg1:T40 Arg2:T44
+R38	bodyDisease Arg1:T42 Arg2:T42
+R39	bodyAuxiliarydescript Arg1:T42 Arg2:T43
+R40	diseaseAuxiliarydescript Arg1:T42 Arg2:T43
+R41	signIndexvalue Arg1:47 Arg2:48
+R42	signIndexvalue Arg1:49 Arg2:50
+R43	signIndexvalue Arg1:51 Arg2:52
+R44	signIndexvalue Arg1:53 Arg2:54
+R45	bodyClinicalfeature Arg1:57 Arg2:60
+R46	bodyClinicalfeature Arg1:61 Arg2:62
+R47	signIndexvalue Arg1:63 Arg2:64
+R48	signIndexvalue Arg1:65 Arg2:66
+R49	bodyClinicalfeature Arg1:67 Arg2:72
+R50	signIndexvalue Arg1:69 Arg2:70
+R51	bodyClinicalfeature Arg1:73 Arg2:74
+R52	bodyClinicalfeature Arg1:75 Arg2:77
+R53	bodyClinicalfeature Arg1:78 Arg2:79
+R54	bodyClinicalfeature Arg1:80 Arg2:82
+R55	bodyClinicalfeature Arg1:81 Arg2:82
+R56	bodyClinicalfeature Arg1:83 Arg2:86
+R57	negativeClinicalfeature Arg1:84 Arg2:86
+R58	bodySign Arg1:87 Arg2:89
+R59	bodySign Arg1:88 Arg2:89
+R60	signIndexvalue Arg1:89 Arg2:90
+R61	signIndexvalue Arg1:91 Arg2:92
+R62	signIndexvalue Arg1:93 Arg2:95
+R63	signIndexvalue Arg1:96 Arg2:97
+R64	bodyClinicalfeature Arg1:98 Arg2:103
+R65	negativeClinicalfeature Arg1:101 Arg2:103
+R66	bodyClinicalfeature Arg1:108 Arg2:109
+R67	bodyClinicalfeature Arg1:110 Arg2:112
+R68	bodyClinicalfeature Arg1:113 Arg2:115
+R69	signIndexvalue Arg1:116 Arg2:117
+R70	signIndexvalue Arg1:118 Arg2:119

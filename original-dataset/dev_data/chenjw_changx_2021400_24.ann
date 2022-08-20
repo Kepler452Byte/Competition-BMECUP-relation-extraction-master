@@ -1,0 +1,88 @@
+T1	disease 4 16	下腔静脉静脉滤器置入术后
+T2	time 16 19	2月余
+T3	time 29 33	2月余前
+T4	disease 35 44	左股总静脉血栓形成
+T5	operation 52 63	下腔静脉造影+滤器置术
+T7	negative 91 92	无
+T8	clinicalFeature 92 94	胸闷
+T9	clinicalFeature 94 96	气促
+T10	negative 98 99	无
+T11	clinicalFeature 99 106	双下肢活动障碍
+T12	negative 107 108	无
+T13	clinicalFeature 108 112	呼吸困难
+T14	negative 113 114	无
+T15	clinicalFeature 114 116	畏寒
+T16	clinicalFeature 116 118	发热
+T18	disease 130 138	取出下腔静脉滤器
+T31	disease 192 195	高血压
+T32	disease 198 201	糖尿病
+T33	time 204 207	数十年
+T34	cure 210 216	降压降糖药物
+T35	drug 217 221	具体不详
+T36	sign 230 232	体温
+T37	indexValue 232 237	36.0℃
+T38	sign 238 240	脉搏
+T39	indexValue 240 245	80次/分
+T40	sign 246 248	呼吸
+T41	indexValue 248 253	19次/分
+T42	sign 254 256	血压
+T43	indexValue 256 266	105/68mmHg
+T44	clinicalFeature 267 270	神志清
+T45	clinicalFeature 271 275	精神尚可
+T46	clinicalFeature 281 284	平卧位
+T47	body 285 287	皮肤
+T48	body 287 289	巩膜
+T49	clinicalFeature 289 292	无黄染
+T50	body 295 297	两肺
+T51	clinicalFeature 297 302	呼吸音清晰
+T52	clinicalFeature 303 307	未及啰音
+T53	clinicalFeature 308 311	心律齐
+T54	clinicalFeature 312 316	未及杂音
+T55	body 317 318	腹
+T56	clinicalFeature 318 320	平软
+T58	clinicalFeature 321 324	无压痛
+T59	clinicalFeature 328 330	缺如
+T60	body 348 352	右侧肢体
+T61	sign 352 354	肌力
+T62	indexValue 354 356	5级
+T63	body 357 361	左侧肢体
+T64	sign 361 363	肌力
+T65	indexValue 363 365	1级
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	timeDisease Arg1:T3 Arg2:T4
+R4	negativeClinicalFeature Arg1:T7 Arg2:T8
+R5	negativeClinicalFeature Arg1:T7 Arg2:T9
+T6	time 77 78	今
+R6	clinicalFeatureTime Arg1:T8 Arg2:T6
+R7	clinicalFeatureTime Arg1:T9 Arg2:T6
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T12 Arg2:T13
+R10	clinicalFeatureTime Arg1:T13 Arg2:T6
+R11	clinicalFeatureTime Arg1:T11 Arg2:T6
+R12	negativeClinicalFeature Arg1:T14 Arg2:T15
+R13	negativeClinicalFeature Arg1:T14 Arg2:T16
+R14	clinicalFeatureTime Arg1:T15 Arg2:T6
+R15	clinicalFeatureTime Arg1:T16 Arg2:T6
+R23	timeDisease Arg1:T33 Arg2:T32
+R24	timeDisease Arg1:T33 Arg2:T31
+R28	signIndexValue Arg1:T36 Arg2:T37
+R29	signIndexValue Arg1:T38 Arg2:T39
+R30	signIndexValue Arg1:T40 Arg2:T41
+R31	signIndexValue Arg1:T42 Arg2:T43
+T66	clinicalFeature 276 280	查体合作
+R32	bodyClinicalFeature Arg1:T47 Arg2:T49
+R33	bodyClinicalFeature Arg1:T48 Arg2:T49
+R34	bodyClinicalFeature Arg1:T50 Arg2:T51
+R35	bodyClinicalFeature Arg1:T50 Arg2:T52
+R36	bodyClinicalFeature Arg1:T55 Arg2:T56
+R38	bodyClinicalFeature Arg1:T55 Arg2:T58
+T67	body 331 343	双侧膝关节约10cm以下
+T68	clinicalFeature 343 345	缺如
+R39	bodyClinicalFeature Arg1:T67 Arg2:T68
+R41	bodySign Arg1:T60 Arg2:T61
+R42	signIndexValue Arg1:T61 Arg2:T62
+R43	bodySign Arg1:T63 Arg2:T64
+R44	signIndexValue Arg1:T64 Arg2:T65
+T57	body 325 328	双小腿
+R37	bodyClinicalFeature Arg1:T57 Arg2:T59
+R3	drugCure Arg1:T35 Arg2:T34	

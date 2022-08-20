@@ -1,0 +1,162 @@
+T1	clinicalFeature 4 6	腹痛
+T2	clinicalFeature 7 9	恶心
+T3	clinicalFeature 9 11	呕吐
+T4	clinicalFeature 12 14	头晕
+T5	time 16 19	7小时
+T7	time 30 33	7小时
+T8	cause 35 40	无明显诱因
+T9	clinicalFeature 43 45	腹痛
+T10	body 52 55	中下腹
+T11	body 56 59	右上腹
+T12	modification 61 64	阵发性
+T13	modification 67 69	不剧
+T14	negative 70 71	无
+T15	clinicalFeature 73 79	腰背部放射痛
+T16	clinicalFeature 81 83	恶心
+T17	clinicalFeature 83 85	呕吐
+T18	modification 86 94	呕吐物为胃内容物
+T19	modification 95 99	肺喷射状
+T20	negative 101 102	无
+T21	clinicalFeature 102 104	呕血
+T22	clinicalFeature 104 106	黑便
+T23	negative 107 108	无
+T24	clinicalFeature 108 110	发热
+T25	clinicalFeature 110 112	寒战
+T26	clinicalFeature 116 118	头晕
+T27	negative 119 120	无
+T28	clinicalFeature 122 126	视物旋转
+T29	negative 127 128	无
+T30	clinicalFeature 128 130	耳鸣
+T31	negative 131 132	无
+T32	clinicalFeature 132 138	肢体麻木抽搐
+T33	negative 139 140	无
+T34	clinicalFeature 140 144	口角歪斜
+T35	negative 145 146	无
+T36	clinicalFeature 146 150	意识丧失
+T37	negative 151 152	无
+T38	modification 152 155	一过性
+T39	clinicalFeature 155 157	黑朦
+T40	cure 158 162	未予治疗
+T42	disease 181 185	腹痛待查
+T57	sign 243 245	BP
+T58	indexValue 245 255	108/65mmHg
+T59	sign 256 257	T
+T60	indexValue 258 263	37.1℃
+T61	sign 264 265	P
+T62	indexValue 265 270	84次/分
+T63	sign 271 272	R
+T64	indexValue 272 277	19次/分
+T65	clinicalFeature 278 281	神志清
+T66	clinicalFeature 282 285	精神可
+T67	body 286 288	皮肤
+T68	body 288 290	巩膜
+T69	clinicalFeature 290 293	无黄染
+T70	body 294 297	颈静脉
+T71	clinicalFeature 297 300	无怒张
+T72	sign 301 303	心率
+T73	indexValue 303 308	84次/分
+T74	clinicalFeature 309 312	心律齐
+T75	negative 313 316	未闻及
+T76	clinicalFeature 318 320	早搏
+T77	clinicalFeature 321 326	病理性杂音
+T78	body 327 329	双肺
+T79	clinicalFeature 331 335	呼吸音清
+T80	clinicalFeature 336 345	未闻及明显干湿啰音
+T81	body 346 347	腹
+T82	clinicalFeature 347 348	软
+T84	clinicalFeature 349 352	无肌卫
+T85	body 354 357	左下腹
+T86	clinicalFeature 357 359	压痛
+T87	body 360 363	右上腹
+T88	clinicalFeature 363 366	轻压痛
+T89	clinicalFeature 367 371	无反跳痛
+T90	sign 372 375	墨菲征
+T91	indexValue 376 377	-
+T92	body 379 381	肝区
+T93	sign 381 384	叩击痛
+T94	indexValue 384 386	阳性
+T95	body 387 388	肝
+T96	body 388 389	脾
+T97	clinicalFeature 389 393	肋下未及
+T98	sign 394 397	肠鸣音
+T99	indexValue 397 400	无亢进
+T100	sign 401 406	移动性浊音
+T101	indexValue 406 408	阴性
+T102	body 409 412	双下肢
+T103	clinicalFeature 412 414	不肿
+T104	body 415 417	四肢
+T105	sign 417 419	肌力
+T106	indexValue 419 421	5级
+T107	body 422 424	双侧
+T108	sign 424 429	巴宾斯基征
+T109	indexValue 429 431	阴性
+R1	causeClinicalFeature Arg1:T8 Arg2:T9
+R2	clinicalFeatureTime Arg1:T9 Arg2:T7
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T2 Arg2:T5
+R5	clinicalFeatureTime Arg1:T1 Arg2:T5
+R6	clinicalFeatureTime Arg1:T3 Arg2:T5
+R7	bodyClinicalFeature Arg1:T10 Arg2:T9
+R8	bodyClinicalFeature Arg1:T11 Arg2:T9
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	clinicalFeatureTime Arg1:T15 Arg2:T7
+R13	clinicalFeatureTime Arg1:T16 Arg2:T7
+R14	clinicalFeatureTime Arg1:T17 Arg2:T7
+R17	negativeClinicalFeature Arg1:T20 Arg2:T21
+R18	negativeClinicalFeature Arg1:T20 Arg2:T22
+R19	clinicalFeatureTime Arg1:T21 Arg2:T7
+R20	clinicalFeatureTime Arg1:T22 Arg2:T7
+R21	negativeClinicalFeature Arg1:T23 Arg2:T24
+R22	negativeClinicalFeature Arg1:T23 Arg2:T25
+R23	clinicalFeatureTime Arg1:T24 Arg2:T7
+R24	clinicalFeatureTime Arg1:T25 Arg2:T7
+R25	clinicalFeatureTime Arg1:T26 Arg2:T7
+R26	negativeClinicalFeature Arg1:T27 Arg2:T28
+R27	clinicalFeatureTime Arg1:T28 Arg2:T7
+R28	negativeClinicalFeature Arg1:T29 Arg2:T30
+R29	clinicalFeatureTime Arg1:T30 Arg2:T7
+R30	negativeClinicalFeature Arg1:T31 Arg2:T32
+R31	clinicalFeatureTime Arg1:T32 Arg2:T7
+R32	negativeClinicalFeature Arg1:T33 Arg2:T34
+R33	clinicalFeatureTime Arg1:T34 Arg2:T7
+R34	negativeClinicalFeature Arg1:T35 Arg2:T36
+R35	clinicalFeatureTime Arg1:T36 Arg2:T7
+R36	negativeClinicalFeature Arg1:T37 Arg2:T39
+R37	modificationClinicalFeature Arg1:T38 Arg2:T39
+R38	cureTime Arg1:T40 Arg2:T7
+R39	clinicalFeatureTime Arg1:T39 Arg2:T7
+R48	signIndexValue Arg1:T57 Arg2:T58
+R49	signIndexValue Arg1:T59 Arg2:T60
+R50	signIndexValue Arg1:T61 Arg2:T62
+R51	signIndexValue Arg1:T63 Arg2:T64
+R52	bodyClinicalFeature Arg1:T67 Arg2:T69
+R53	bodyClinicalFeature Arg1:T68 Arg2:T69
+R54	bodyClinicalFeature Arg1:T70 Arg2:T71
+R55	signIndexValue Arg1:T72 Arg2:T73
+R56	negativeClinicalFeature Arg1:T75 Arg2:T76
+R57	negativeClinicalFeature Arg1:T75 Arg2:T77
+R58	bodyClinicalFeature Arg1:T78 Arg2:T79
+R59	bodyClinicalFeature Arg1:T78 Arg2:T80
+R60	bodyClinicalFeature Arg1:T81 Arg2:T82
+R62	bodyClinicalFeature Arg1:T81 Arg2:T84
+R63	bodyClinicalFeature Arg1:T85 Arg2:T86
+R64	bodyClinicalFeature Arg1:T87 Arg2:T88
+R65	bodyClinicalFeature Arg1:T81 Arg2:T89
+R66	signIndexValue Arg1:T90 Arg2:T91
+R67	bodySign Arg1:T92 Arg2:T93
+R68	signIndexValue Arg1:T93 Arg2:T94
+R69	bodyClinicalFeature Arg1:T96 Arg2:T97
+R70	bodyClinicalFeature Arg1:T95 Arg2:T97
+R71	signIndexValue Arg1:T98 Arg2:T99
+R72	signIndexValue Arg1:T100 Arg2:T101
+R73	bodyClinicalFeature Arg1:T102 Arg2:T103
+R74	bodySign Arg1:T104 Arg2:T105
+R75	signIndexValue Arg1:T105 Arg2:T106
+R76	bodySign Arg1:T107 Arg2:T108
+R77	signIndexValue Arg1:T108 Arg2:T109
+T6	modification 64 66	胀痛
+R9	modificationClinicalFeature Arg1:T12 Arg2:T9
+R61	modificationClinicalFeature Arg1:T6 Arg2:T9
+R10	modificationClinicalFeature Arg1:T13 Arg2:T9
+R15	modificationClinicalFeature Arg1:T18 Arg2:T17
+R16	modificationClinicalFeature Arg1:T19 Arg2:T17

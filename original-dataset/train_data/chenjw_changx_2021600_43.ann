@@ -1,0 +1,136 @@
+T1	disease 6 9	肺鳞癌
+T2	time 9 12	半月余
+T3	clinicalFeature 14 17	左胸痛
+T4	time 17 19	1周
+T5	time 28 31	半月前
+T6	clinicalFeature 32 34	咳嗽
+T7	clinicalFeature 34 36	咳痰
+T8	disease 56 60	左肺鳞癌
+T9	cure 63 69	对症支持治疗
+T10	time 73 76	1周前
+T11	cause 78 83	无明显诱因
+T12	clinicalFeature 88 91	左胸痛
+T16	modification 106 109	较剧烈
+T18	clinicalFeature 120 122	胸闷
+T19	clinicalFeature 122 124	气急
+T20	modification 125 127	时有
+T21	clinicalFeature 127 129	咳嗽
+T22	negative 130 131	无
+T23	clinicalFeature 133 135	咳痰
+T24	clinicalFeature 137 139	头痛
+T25	negative 140 141	无
+T26	clinicalFeature 141 143	畏寒
+T27	clinicalFeature 143 145	发热
+T28	negative 146 147	无
+T29	clinicalFeature 147 149	咯血
+T30	negative 150 151	无
+T31	clinicalFeature 151 153	恶心
+T32	clinicalFeature 153 155	呕吐
+T33	negative 156 157	无
+T34	clinicalFeature 157 159	头晕
+T35	negative 160 161	无
+T36	clinicalFeature 161 163	腹痛
+T37	clinicalFeature 163 165	腹泻
+T38	cure 166 169	未诊治
+T41	disease 194 199	肺恶性肿瘤
+T54	disease 245 248	高血压
+T55	time 251 255	10年余
+T56	drug 261 268	甲磺酸氨氯地平
+T57	clinicalFeature 272 278	血压监测良好
+T58	sign 292 293	T
+T59	indexValue 294 299	37.4℃
+T60	sign 300 301	P
+T61	indexValue 302 308	117次/分
+T62	sign 309 310	R
+T63	indexValue 311 316	21次/分
+T64	sign 317 319	BP
+T65	indexValue 320 330	156/92mmHg
+T66	clinicalFeature 331 334	神志清
+T67	clinicalFeature 335 338	精神软
+T68	clinicalFeature 339 344	呼吸尚平稳
+T69	body 345 350	浅表淋巴结
+T70	clinicalFeature 350 354	未及肿大
+T71	body 356 358	口唇
+T72	clinicalFeature 358 363	无明显发绀
+T73	body 364 366	两肺
+T74	clinicalFeature 366 370	呼吸音粗
+T75	clinicalFeature 371 381	未闻及明显干湿性啰音
+T76	sign 382 384	心率
+T77	indexValue 384 390	117次/分
+T78	clinicalFeature 391 393	律齐
+T79	clinicalFeature 394 404	未闻及明显病理性杂音
+T80	body 405 406	腹
+T81	clinicalFeature 406 408	平软
+T82	negative 409 410	无
+T83	clinicalFeature 410 412	压痛
+T84	clinicalFeature 413 416	反跳痛
+T85	body 417 418	肝
+T86	body 418 419	脾
+T87	clinicalFeature 419 424	肋下未触及
+T88	body 425 428	双下肢
+T89	clinicalFeature 428 431	无浮肿
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	clinicalFeatureTime Arg1:T3 Arg2:T4
+T90	clinicalFeature 36 38	咯血
+R3	clinicalFeatureTime Arg1:T6 Arg2:T5
+R4	clinicalFeatureTime Arg1:T7 Arg2:T5
+R5	clinicalFeatureTime Arg1:T90 Arg2:T5
+T91	auxiliaryExamination 46 52	支气管镜检查
+R8	cureTime Arg1:T9 Arg2:T5
+R7	auxiliaryExaminationTime Arg1:T91 Arg2:T5
+R9	causeClinicalFeature Arg1:T11 Arg2:T12
+R13	clinicalFeatureTime Arg1:T12 Arg2:T10
+T14	modification 100 105	无放射性痛
+R15	negativeClinicalFeature Arg1:T25 Arg2:T26
+R16	negativeClinicalFeature Arg1:T25 Arg2:T27
+R17	negativeClinicalFeature Arg1:T28 Arg2:T29
+R18	negativeClinicalFeature Arg1:T30 Arg2:T31
+R19	negativeClinicalFeature Arg1:T30 Arg2:T32
+R20	negativeClinicalFeature Arg1:T33 Arg2:T34
+R21	negativeClinicalFeature Arg1:T35 Arg2:T36
+R22	negativeClinicalFeature Arg1:T35 Arg2:T37
+R23	modificationClinicalFeature Arg1:T14 Arg2:T12
+R24	causeClinicalFeature Arg1:T11 Arg2:T18
+R25	causeClinicalFeature Arg1:T11 Arg2:T19
+R27	negativeClinicalFeature Arg1:T22 Arg2:T23
+R28	causeClinicalFeature Arg1:T11 Arg2:T24
+R29	clinicalFeatureTime Arg1:T18 Arg2:T10
+R30	clinicalFeatureTime Arg1:T19 Arg2:T10
+R31	clinicalFeatureTime Arg1:T21 Arg2:T10
+R32	clinicalFeatureTime Arg1:T23 Arg2:T10
+R33	clinicalFeatureTime Arg1:T24 Arg2:T10
+R34	clinicalFeatureTime Arg1:T26 Arg2:T10
+R35	clinicalFeatureTime Arg1:T27 Arg2:T10
+R36	clinicalFeatureTime Arg1:T29 Arg2:T10
+R37	clinicalFeatureTime Arg1:T31 Arg2:T10
+R38	clinicalFeatureTime Arg1:T32 Arg2:T10
+R39	clinicalFeatureTime Arg1:T34 Arg2:T10
+R40	clinicalFeatureTime Arg1:T36 Arg2:T10
+R41	clinicalFeatureTime Arg1:T37 Arg2:T10
+R42	cureTime Arg1:T38 Arg2:T10
+R49	timeDisease Arg1:T55 Arg2:T54
+T15	cure 269 271	降压
+R52	diseaseClinicalFeature Arg1:T54 Arg2:T57
+R53	signIndexValue Arg1:T58 Arg2:T59
+R54	signIndexValue Arg1:T60 Arg2:T61
+R55	signIndexValue Arg1:T62 Arg2:T63
+R56	signIndexValue Arg1:T64 Arg2:T65
+R57	bodyClinicalFeature Arg1:T69 Arg2:T70
+R58	bodyClinicalFeature Arg1:T71 Arg2:T72
+R59	bodyClinicalFeature Arg1:T73 Arg2:T74
+R60	bodyClinicalFeature Arg1:T73 Arg2:T75
+R61	signIndexValue Arg1:T76 Arg2:T77
+R62	bodyClinicalFeature Arg1:T80 Arg2:T81
+R63	negativeClinicalFeature Arg1:T82 Arg2:T83
+R64	negativeClinicalFeature Arg1:T82 Arg2:T84
+R65	bodyClinicalFeature Arg1:T80 Arg2:T83
+R66	bodyClinicalFeature Arg1:T80 Arg2:T84
+R67	bodyClinicalFeature Arg1:T85 Arg2:T87
+R68	bodyClinicalFeature Arg1:T86 Arg2:T87
+R69	bodyClinicalFeature Arg1:T88 Arg2:T89
+T13	modification 93 96	持续性
+T39	modification 96 98	胀痛
+R10	modificationClinicalFeature Arg1:T13 Arg2:T12
+R70	modificationClinicalFeature Arg1:T39 Arg2:T12
+R12	modificationClinicalFeature Arg1:T16 Arg2:T12
+R26	modificationClinicalFeature Arg1:T20 Arg2:T21

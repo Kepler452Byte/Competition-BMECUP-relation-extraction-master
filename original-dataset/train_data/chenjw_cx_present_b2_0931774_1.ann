@@ -1,0 +1,24 @@
+T1	time 6 10	5年余前
+T2	operation 19 23	右肾移植
+T4	drug 33 37	普乐可复
+T5	dose 37 40	2mg
+T6	frequency 41 44	bid
+T7	drug 45 49	强的松片
+T8	dose 49 51	5#
+T9	frequency 52 54	qd
+T10	drug 55 57	米芙
+T11	dose 57 59	3#
+T12	frequency 59 62	bid
+T13	drug 63 66	苏打片
+T14	dose 66 69	1 g
+T15	frequency 70 73	tid
+T18	disease 13 16	尿毒症
+R1	timeOperation Arg1:T1 Arg2:T2
+R3	drugDose Arg1:T4 Arg2:T5
+R4	doseFrequency Arg1:T5 Arg2:T6
+R5	drugDose Arg1:T7 Arg2:T8
+R6	doseFrequency Arg1:T8 Arg2:T9
+R7	drugDose Arg1:T10 Arg2:T11
+R8	doseFrequency Arg1:T11 Arg2:T12
+R9	drugDose Arg1:T13 Arg2:T14
+R10	doseFrequency Arg1:T14 Arg2:T15

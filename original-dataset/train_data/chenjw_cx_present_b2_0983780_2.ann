@@ -1,0 +1,9 @@
+T1	time 1 6	自起病以来
+T2	clinicalFeature 7 10	神志清
+T3	clinicalFeature 11 14	精神可
+T4	clinicalFeature 15 20	饮食睡眠可
+T5	clinicalFeature 21 25	大便正常
+T6	negative 32 34	否认
+T7	time 34 37	近3月
+T8	clinicalFeature 37 41	体重减轻
+R1	clinicalFeatureTime Arg1:T8 Arg2:T7	

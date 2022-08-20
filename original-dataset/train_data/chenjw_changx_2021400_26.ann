@@ -1,0 +1,112 @@
+T1	clinicalFeature 6 10	乳房肿块
+T2	time 10 12	5天
+T3	time 21 24	5天前
+T4	clinicalFeature 33 35	节结
+T6	negative 39 40	无
+T7	clinicalFeature 40 46	乳头溢血液体
+T8	negative 47 48	无
+T9	clinicalFeature 48 56	局部皮肤红肿疼痛
+T10	negative 57 58	无
+T11	clinicalFeature 58 60	畏寒
+T12	clinicalFeature 60 62	发热
+T13	negative 63 64	无
+T14	clinicalFeature 64 66	胸闷
+T15	clinicalFeature 66 68	气急
+T16	negative 69 70	无
+T17	clinicalFeature 70 72	腹胀
+T18	clinicalFeature 72 74	腹泻
+T20	disease 92 96	左乳结节
+T33	sign 145 146	T
+T34	indexValue 146 149	36℃
+T35	sign 150 151	R
+T36	indexValue 151 156	19次/分
+T37	sign 157 158	P
+T38	indexValue 158 163	68次/分
+T39	sign 164 166	BP
+T40	indexValue 166 176	126/69mmHg
+T41	clinicalFeature 178 180	神清
+T42	clinicalFeature 181 184	精神可
+T43	body 185 187	皮肤
+T44	body 187 189	巩膜
+T45	clinicalFeature 189 192	无黄染
+T46	body 193 198	浅表淋巴结
+T47	clinicalFeature 198 202	未及肿大
+T48	body 203 205	心肺
+T49	clinicalFeature 205 207	无殊
+T50	body 208 210	左乳
+T51	clinicalFeature 214 216	肿块
+T52	modification 217 222	花生粒大小
+T53	modification 223 226	质稍硬
+T54	modification 227 232	移动度一般
+T55	modification 233 237	边界不清
+T56	body 238 243	腋下淋巴结
+T57	clinicalFeature 243 249	未及明显肿大
+T58	body 250 252	右乳
+T59	auxiliaryDescript 252 254	无殊
+T60	body 256 257	腹
+T61	clinicalFeature 257 259	平软
+T62	body 260 262	腹部
+T64	clinicalFeature 262 265	无压痛
+T66	clinicalFeature 266 270	无反跳痛
+T67	sign 271 282	Murphy sign
+T68	indexValue 283 285	阴性
+T69	body 286 289	双肾区
+T70	clinicalFeature 289 292	无叩痛
+T71	body 293 294	肝
+T72	body 294 295	脾
+T73	clinicalFeature 295 299	肋下未及
+T74	indexValue 303 306	无亢进
+T75	body 307 310	双下肢
+T76	clinicalFeature 310 313	无浮肿
+T77	sign 314 317	病理征
+T78	indexValue 317 320	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T4 Arg2:T3
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	clinicalFeatureTime Arg1:T7 Arg2:T3
+R6	negativeClinicalFeature Arg1:T8 Arg2:T9
+R7	clinicalFeatureTime Arg1:T9 Arg2:T3
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	negativeClinicalFeature Arg1:T10 Arg2:T12
+R17	clinicalFeatureTime Arg1:T11 Arg2:T3
+R18	clinicalFeatureTime Arg1:T12 Arg2:T3
+R19	negativeClinicalFeature Arg1:T13 Arg2:T14
+R20	negativeClinicalFeature Arg1:T13 Arg2:T15
+R21	clinicalFeatureTime Arg1:T14 Arg2:T3
+R22	clinicalFeatureTime Arg1:T12 Arg2:T3
+R23	negativeClinicalFeature Arg1:T16 Arg2:T17
+R24	clinicalFeatureTime Arg1:T17 Arg2:T3
+R25	negativeClinicalFeature Arg1:T16 Arg2:T18
+R26	clinicalFeatureTime Arg1:T18 Arg2:T3
+R27	signIndexValue Arg1:T33 Arg2:T34
+R28	signIndexValue Arg1:T35 Arg2:T36
+R29	signIndexValue Arg1:T37 Arg2:T38
+R30	signIndexValue Arg1:T39 Arg2:T40
+R31	bodyClinicalFeature Arg1:T43 Arg2:T45
+R32	bodyClinicalFeature Arg1:T44 Arg2:T45
+R33	bodyClinicalFeature Arg1:T46 Arg2:T47
+R34	bodyClinicalFeature Arg1:T48 Arg2:T49
+R35	bodyClinicalFeature Arg1:T50 Arg2:T51
+T79	quantity 212 214	一个
+R38	modificationClinicalFeature Arg1:T53 Arg2:T51
+R39	modificationClinicalFeature Arg1:T54 Arg2:T51
+R40	modificationClinicalFeature Arg1:T55 Arg2:T51
+R41	bodyClinicalFeature Arg1:T56 Arg2:T57
+R42	bodyAuxiliaryDescript Arg1:T58 Arg2:T59
+R43	bodyClinicalFeature Arg1:T60 Arg2:T61
+R44	bodyClinicalFeature Arg1:T62 Arg2:T64
+R47	bodyClinicalFeature Arg1:T62 Arg2:T66
+R48	signIndexValue Arg1:T67 Arg2:T68
+R49	bodyClinicalFeature Arg1:T69 Arg2:T70
+R50	bodyClinicalFeature Arg1:T71 Arg2:T73
+R51	bodyClinicalFeature Arg1:T72 Arg2:T73
+R52	bodyClinicalFeature Arg1:T75 Arg2:T76
+R53	signIndexValue Arg1:T77 Arg2:T78
+T80	sign 300 303	肠鸣音
+R54	signIndexValue Arg1:T80 Arg2:T74
+T5	body 29 31	左乳
+T81	quantity 32 33	一
+R55	bodyClinicalFeature Arg1:T5 Arg2:T4
+R37	modificationClinicalFeature Arg1:T52 Arg2:T51
+T63	modification 36 38	不大
+R45	modificationClinicalFeature Arg1:T63 Arg2:T4

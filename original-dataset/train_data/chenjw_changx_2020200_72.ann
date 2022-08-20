@@ -1,0 +1,160 @@
+T1	modification 4 7	阵发性
+T2	clinicalFeature 7 9	胸痛
+T3	clinicalFeature 9 11	胸闷
+T4	time 11 15	12小时
+T5	cause 39 44	无明显诱因
+T6	clinicalFeature 49 51	胸痛
+T7	clinicalFeature 52 56	胸闷不适
+T8	modification 58 61	阵发性
+T10	modification 74 78	反复发作
+T11	trend 101 103	加重
+T12	modification 104 107	持续性
+T13	clinicalFeature 113 115	出汗
+T14	clinicalFeature 116 118	恶心
+T15	negative 119 120	无
+T16	clinicalFeature 120 122	黑朦
+T17	negative 126 127	无
+T18	clinicalFeature 127 129	偏瘫
+T19	clinicalFeature 130 132	抽搐
+T20	negative 133 134	无
+T21	clinicalFeature 134 136	头晕
+T22	clinicalFeature 136 138	头痛
+T23	negative 139 140	无
+T24	clinicalFeature 140 142	咳嗽
+T25	clinicalFeature 142 144	咳痰
+T26	negative 145 146	无
+T27	clinicalFeature 146 148	咯血
+T28	negative 149 150	无
+T29	clinicalFeature 150 152	气促
+T30	negative 153 154	无
+T31	clinicalFeature 154 156	呕吐
+T32	negative 158 159	无
+T33	clinicalFeature 159 161	畏寒
+T34	clinicalFeature 161 163	发热
+T35	negative 164 165	无
+T37	negative 175 176	无
+T38	clinicalFeature 176 181	双下肢水肿
+T39	auxiliaryExamination 192 195	心电图
+T43	disease 276 288	急性下壁ST段抬高型心梗
+T55	indexValue 347 352	71次/分
+T56	indexValue 354 359	19次/分
+T59	indexValue 378 381	97%
+T60	clinicalFeature 382 385	神志清
+T61	clinicalFeature 388 392	等大等圆
+T62	clinicalFeature 393 397	对光灵敏
+T63	clinicalFeature 398 402	呼吸平稳
+T64	body 404 406	两肺
+T65	clinicalFeature 406 410	呼吸音清
+T66	clinicalFeature 411 420	未闻及明显干湿啰音
+T67	sign 421 423	心率
+T68	indexValue 423 428	71次/分
+T69	clinicalFeature 429 431	律齐
+T70	clinicalFeature 432 440	未闻及病理性杂音
+T71	body 441 442	腹
+T72	clinicalFeature 442 444	平软
+T73	clinicalFeature 445 448	无压痛
+T74	clinicalFeature 451 456	肋下未触及
+T75	body 457 460	双下肢
+T76	clinicalFeature 460 463	无浮肿
+T77	sign 466 468	肌力
+T78	indexValue 468 470	5级
+T79	indexValue 475 477	阴性
+T80	body 478 480	全身
+T81	clinicalFeature 480 489	可见散在银屑病皮疹
+R3	clinicalFeatureTime Arg1:T3 Arg2:T4
+R4	clinicalFeatureTime Arg1:T2 Arg2:T4
+T82	trend 16 18	加重
+T83	time 18 22	1小时余
+R6	clinicalFeatureTrend Arg1:T2 Arg2:T82
+R7	clinicalFeatureTrend Arg1:T3 Arg2:T82
+T84	time 32 39	昨晚20时左右
+R8	causeClinicalFeature Arg1:T5 Arg2:T6
+R9	causeClinicalFeature Arg1:T5 Arg2:T7
+R16	clinicalFeatureTime Arg1:T6 Arg2:T84
+R17	clinicalFeatureTime Arg1:T7 Arg2:T84
+T85	time 87 94	今上午8时左右
+R18	clinicalFeatureTrend Arg1:T6 Arg2:T11
+R19	clinicalFeatureTrend Arg1:T7 Arg2:T11
+R21	clinicalFeatureTime Arg1:T13 Arg2:T85
+R22	clinicalFeatureTime Arg1:T14 Arg2:T85
+T86	clinicalFeature 123 125	晕厥
+R23	negativeClinicalFeature Arg1:T15 Arg2:T16
+R24	negativeClinicalFeature Arg1:T15 Arg2:T86
+R25	negativeClinicalFeature Arg1:T17 Arg2:T18
+R26	negativeClinicalFeature Arg1:T17 Arg2:T19
+R27	negativeClinicalFeature Arg1:T20 Arg2:T21
+R28	negativeClinicalFeature Arg1:T20 Arg2:T22
+R29	negativeClinicalFeature Arg1:T23 Arg2:T24
+R30	negativeClinicalFeature Arg1:T23 Arg2:T25
+R31	negativeClinicalFeature Arg1:T26 Arg2:T27
+R32	negativeClinicalFeature Arg1:T28 Arg2:T29
+R33	negativeClinicalFeature Arg1:T30 Arg2:T31
+R34	clinicalFeatureTime Arg1:T16 Arg2:T85
+R35	clinicalFeatureTime Arg1:T86 Arg2:T85
+R36	clinicalFeatureTime Arg1:T18 Arg2:T85
+R37	clinicalFeatureTime Arg1:T19 Arg2:T85
+R38	clinicalFeatureTime Arg1:T21 Arg2:T85
+R39	clinicalFeatureTime Arg1:T22 Arg2:T85
+R40	clinicalFeatureTime Arg1:T24 Arg2:T85
+R41	clinicalFeatureTime Arg1:T25 Arg2:T85
+R42	clinicalFeatureTime Arg1:T27 Arg2:T85
+R43	clinicalFeatureTime Arg1:T29 Arg2:T85
+R44	clinicalFeatureTime Arg1:T31 Arg2:T85
+R45	negativeClinicalFeature Arg1:T32 Arg2:T33
+R46	negativeClinicalFeature Arg1:T32 Arg2:T34
+T36	clinicalFeature 165 174	肢体感觉及活动异常
+R47	negativeClinicalFeature Arg1:T35 Arg2:T36
+R48	negativeClinicalFeature Arg1:T37 Arg2:T38
+T40	disease 204 216	急性下壁ST段抬高型心梗
+T41	auxiliaryDescript 217 223	窦性心动过缓
+T42	drug 227 234	阿司匹林肠溶片
+T87	drug 235 238	波立维
+T88	time 252 257	8:51时
+R50	auxiliaryExaminationAuxiliaryDescript Arg1:T39 Arg2:T41
+T90	operation 267 271	PCI术
+R54	timeOperation Arg1:T88 Arg2:T90
+T92	sign 339 340	T
+T93	indexValue 340 345	36.2℃
+R61	signIndexValue Arg1:T92 Arg2:T93
+T94	sign 346 347	P
+R62	signIndexValue Arg1:T94 Arg2:T55
+T95	sign 353 354	R
+R63	signIndexValue Arg1:T95 Arg2:T56
+T57	sign 360 362	Bp
+T96	indexValue 362 372	127/68mmHg
+R64	signIndexValue Arg1:T57 Arg2:T96
+T58	sign 373 377	SPO2
+R65	signIndexValue Arg1:T58 Arg2:T59
+T97	body 386 388	双瞳
+R66	bodyClinicalFeature Arg1:T97 Arg2:T61
+R67	bodyClinicalFeature Arg1:T97 Arg2:T62
+R68	bodyClinicalFeature Arg1:T64 Arg2:T65
+R69	bodyClinicalFeature Arg1:T64 Arg2:T66
+R70	signIndexValue Arg1:T67 Arg2:T68
+R71	bodyClinicalFeature Arg1:T71 Arg2:T72
+R73	bodyClinicalFeature Arg1:T71 Arg2:T73
+R74	bodyClinicalFeature Arg1:T75 Arg2:T76
+R75	signIndexValue Arg1:T77 Arg2:T78
+T99	sign 472 475	巴氏征
+R76	signIndexValue Arg1:T99 Arg2:T79
+R77	bodyClinicalFeature Arg1:T80 Arg2:T81
+R78	clinicalFeatureTime Arg1:T33 Arg2:T85
+R79	clinicalFeatureTime Arg1:T34 Arg2:T85
+R80	clinicalFeatureTime Arg1:T36 Arg2:T85
+R81	clinicalFeatureTime Arg1:T38 Arg2:T85
+R82	auxiliaryExaminationTime Arg1:T39 Arg2:T85
+T100	body 449 450	肝
+T101	body 450 451	脾
+R83	bodyClinicalFeature Arg1:T100 Arg2:T74
+R84	bodyClinicalFeature Arg1:T101 Arg2:T74
+T102	body 464 466	四肢
+R85	bodySign Arg1:T102 Arg2:T77
+R72	modificationClinicalFeature Arg1:T12 Arg2:T6
+R10	modificationClinicalFeature Arg1:T8 Arg2:T6
+R11	modificationClinicalFeature Arg1:T8 Arg2:T7
+R86	modificationClinicalFeature Arg1:T12 Arg2:T7
+R14	modificationClinicalFeature Arg1:T10 Arg2:T6
+R15	modificationClinicalFeature Arg1:T10 Arg2:T7
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+T103	cure 79 85	未重视未就诊

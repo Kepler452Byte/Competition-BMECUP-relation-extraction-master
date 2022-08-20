@@ -1,0 +1,104 @@
+T1	clinicalFeature 4 9	上腹部疼痛
+T2	time 9 11	1天
+T3	time 20 23	1天前
+T4	cause 23 28	无明显诱因
+T5	clinicalFeature 31 36	上腹部疼痛
+T6	clinicalFeature 38 43	腰背放射痛
+T7	negative 49 50	无
+T8	clinicalFeature 50 52	恶心
+T9	clinicalFeature 52 54	呕吐
+T10	negative 55 56	无
+T11	clinicalFeature 56 58	畏寒
+T12	clinicalFeature 58 60	发热
+T13	negative 61 62	无
+T14	clinicalFeature 62 68	腰背部放射痛
+T15	negative 69 70	无
+T16	clinicalFeature 70 72	呕血
+T17	clinicalFeature 72 74	黑便
+T18	negative 75 76	无
+T19	clinicalFeature 76 78	腹泻
+T20	negative 79 80	无
+T21	clinicalFeature 80 82	头晕
+T22	clinicalFeature 82 84	头痛
+T23	negative 85 86	无
+T24	clinicalFeature 86 88	胸闷
+T25	clinicalFeature 88 90	气促
+T26	clinicalFeature 92 94	胸痛
+T27	clinicalFeature 94 96	心悸
+T28	disease 121 125	胆囊结石
+T40	sign 176 178	体温
+T41	indexValue 178 183	36.7℃
+T42	sign 184 186	脉搏
+T43	indexValue 186 191	64次/分
+T44	sign 192 194	呼吸
+T45	indexValue 194 199	18次/分
+T46	sign 200 202	血压
+T47	indexValue 202 212	145/61mmHg
+T48	clinicalFeature 213 216	神志清
+T55	clinicalFeature 237 246	未闻及明显干湿罗音
+T56	sign 248 250	HR
+T57	indexValue 250 255	64次/分
+T58	clinicalFeature 256 258	律齐
+T59	clinicalFeature 259 263	未及杂音
+T65	clinicalFeature 281 285	未及包块
+T66	clinicalFeature 288 292	肋下未及
+T67	indexValue 305 307	阴性
+T68	body 308 311	双肾区
+R1	clinicalFeatureTime Arg1:T6 Arg2:T3
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T6 Arg2:T3
+R4	causeClinicalFeature Arg1:T4 Arg2:T6
+R5	negativeClinicalFeature Arg1:T7 Arg2:T8
+R6	negativeClinicalFeature Arg1:T7 Arg2:T9
+R7	negativeClinicalFeature Arg1:T10 Arg2:T11
+R8	negativeClinicalFeature Arg1:T10 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R11	negativeClinicalFeature Arg1:T15 Arg2:T17
+R12	negativeClinicalFeature Arg1:T18 Arg2:T19
+R13	negativeClinicalFeature Arg1:T20 Arg2:T21
+R14	negativeClinicalFeature Arg1:T20 Arg2:T22
+R15	negativeClinicalFeature Arg1:T23 Arg2:T24
+R16	negativeClinicalFeature Arg1:T23 Arg2:T25
+R17	negativeClinicalFeature Arg1:T23 Arg2:T26
+R18	negativeClinicalFeature Arg1:T23 Arg2:T27
+R26	signIndexValue Arg1:T40 Arg2:T41
+R27	signIndexValue Arg1:T42 Arg2:T43
+R28	signIndexValue Arg1:T44 Arg2:T45
+R29	signIndexValue Arg1:T46 Arg2:T47
+T49	clinicalFeature 217 220	精神可
+T50	clinicalFeature 225 228	无黄染
+T51	body 229 231	双肺
+T52	clinicalFeature 231 236	呼吸音清晰
+R30	bodyClinicalFeature Arg1:T51 Arg2:T52
+R31	bodyClinicalFeature Arg1:T51 Arg2:T55
+R32	signIndexValue Arg1:T56 Arg2:T57
+T53	clinicalFeature 265 267	平软
+T54	body 268 271	右上腹
+T60	clinicalFeature 272 275	有压痛
+T61	clinicalFeature 277 280	反跳痛
+R33	bodyClinicalFeature Arg1:T54 Arg2:T60
+R34	bodyClinicalFeature Arg1:T54 Arg2:T61
+R35	bodyClinicalFeature Arg1:T54 Arg2:T65
+T62	sign 293 304	Murphy sign
+R36	signIndexValue Arg1:T62 Arg2:T67
+T63	clinicalFeature 311 314	无叩痛
+R37	bodyClinicalFeature Arg1:T68 Arg2:T63
+T64	clinicalFeature 318 321	无浮肿
+T71	negative 276 277	无
+R39	negativeClinicalFeature Arg1:T71 Arg2:T61
+T72	body 315 318	双下肢
+R40	bodyClinicalFeature Arg1:T72 Arg2:T64
+T69	sign 323 326	病理征
+T73	indexValue 326 329	未引出
+R41	signIndexValue Arg1:T69 Arg2:T73
+T74	body 264 265	腹
+R42	bodyClinicalFeature Arg1:T74 Arg2:T53
+T75	body 286 287	肝
+T76	body 287 288	脾
+R43	bodyClinicalFeature Arg1:T75 Arg2:T66
+R44	bodyClinicalFeature Arg1:T76 Arg2:T66
+T77	body 221 223	皮肤
+T78	body 223 225	巩膜
+R45	bodyClinicalFeature Arg1:T77 Arg2:T50
+R46	bodyClinicalFeature Arg1:T78 Arg2:T50

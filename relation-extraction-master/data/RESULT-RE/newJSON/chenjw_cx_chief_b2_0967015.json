@@ -1,0 +1,103 @@
+[
+  {
+    "sent": "主 诉 ： 反 复 大 便 次 数 增 多 1 年",
+    "ners": [
+      [
+        3,
+        5,
+        "modification",
+        "反复"
+      ],
+      [
+        5,
+        11,
+        "clinicalFeature",
+        "大便次数增多"
+      ],
+      [
+        11,
+        13,
+        "time",
+        "1年"
+      ]
+    ],
+    "sentence_text": "[CLS] 主 诉 ： 反 复 大 便 次 数 增 多 1 年 [SEP] [modification] [/modification] [clinicalFeature] [/clinicalFeature] [time] [/time]",
+    "position_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      4,
+      5,
+      6,
+      11,
+      12,
+      13
+    ],
+    "relation": [
+      "[3, 5, 'modification', '反复']\t[5, 11, 'clinicalFeature', '大便次数增多']",
+      "[3, 5, 'modification', '反复']\t[11, 13, 'time', '1年']",
+      "[5, 11, 'clinicalFeature', '大便次数增多']\t[3, 5, 'modification', '反复']",
+      "[5, 11, 'clinicalFeature', '大便次数增多']\t[11, 13, 'time', '1年']",
+      "[11, 13, 'time', '1年']\t[3, 5, 'modification', '反复']",
+      "[11, 13, 'time', '1年']\t[5, 11, 'clinicalFeature', '大便次数增多']"
+    ],
+    "relation_label": [
+      "无",
+      "无",
+      "无",
+      "无",
+      "无",
+      "无"
+    ],
+    "relation_idx": [
+      [
+        15,
+        16,
+        17,
+        18
+      ],
+      [
+        15,
+        16,
+        19,
+        20
+      ],
+      [
+        17,
+        18,
+        15,
+        16
+      ],
+      [
+        17,
+        18,
+        19,
+        20
+      ],
+      [
+        19,
+        20,
+        15,
+        16
+      ],
+      [
+        19,
+        20,
+        17,
+        18
+      ]
+    ]
+  }
+]

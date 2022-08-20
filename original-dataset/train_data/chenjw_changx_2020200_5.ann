@@ -1,0 +1,120 @@
+T1	clinicalFeature 6 10	血压升高
+T2	time 10 14	20余年
+T3	clinicalFeature 15 17	头晕
+T4	clinicalFeature 18 22	走路不稳
+T5	time 22 24	5天
+T6	time 31 36	20余年前
+T7	clinicalFeature 40 44	血压升高
+T8	drug 49 52	拜新同
+T9	dose 52 54	1#
+T10	frequency 54 56	qd
+T11	clinicalFeature 59 65	血压控制尚可
+T12	time 66 69	3天前
+T13	cause 71 76	无明显诱因
+T14	clinicalFeature 78 80	头晕
+T15	clinicalFeature 81 85	走路不稳
+T17	negative 95 96	无
+T18	clinicalFeature 96 98	摔倒
+T19	negative 99 100	无
+T20	clinicalFeature 100 105	脚踩棉花感
+T21	negative 106 107	无
+T22	clinicalFeature 107 109	黑朦
+T23	negative 110 111	无
+T24	clinicalFeature 111 115	视物旋转
+T25	negative 116 117	无
+T26	clinicalFeature 117 121	听力下降
+T27	negative 122 123	无
+T28	clinicalFeature 123 125	胸闷
+T29	clinicalFeature 125 127	胸痛
+T30	modification 131 138	与改变体位无关
+T31	disease 158 162	高血压病
+T32	disease 165 169	头晕待查
+T33	disease 170 173	脑梗死
+T45	indexValue 233 238	81次/分
+T46	indexValue 240 245	19次/分
+T48	clinicalFeature 260 264	神志清晰
+T49	auxiliaryDescript 265 269	发育正常
+T50	clinicalFeature 270 274	营养中等
+T51	clinicalFeature 275 278	精神软
+T52	body 279 282	颈静脉
+T53	clinicalFeature 282 285	无充盈
+T55	body 294 296	胸廓
+T56	auxiliaryDescript 296 301	对称无畸形
+T57	body 302 304	两肺
+T58	clinicalFeature 304 309	呼吸音清晰
+T59	clinicalFeature 310 317	未闻及干湿啰音
+T61	clinicalFeature 326 328	律齐
+T62	clinicalFeature 329 333	心音中等
+T63	body 334 340	各瓣膜听诊区
+T64	clinicalFeature 340 348	未闻及病理性杂音
+T65	body 349 351	腹部
+T66	clinicalFeature 351 353	平软
+T67	clinicalFeature 360 363	无畸形
+T71	clinicalFeature 387 390	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	clinicalFeatureTime Arg1:T3 Arg2:T5
+R3	clinicalFeatureTime Arg1:T4 Arg2:T5
+R4	clinicalFeatureTime Arg1:T7 Arg2:T6
+R5	drugDose Arg1:T8 Arg2:T9
+R6	drugFrequency Arg1:T8 Arg2:T10
+R7	doseFrequency Arg1:T9 Arg2:T10
+R9	clinicalFeatureTime Arg1:T11 Arg2:T6
+R10	clinicalFeatureTime Arg1:T14 Arg2:T12
+R11	causeClinicalFeature Arg1:T13 Arg2:T14
+R12	clinicalFeatureTime Arg1:T15 Arg2:T12
+R13	causeClinicalFeature Arg1:T13 Arg2:T15
+R15	negativeClinicalFeature Arg1:T17 Arg2:T18
+R16	negativeClinicalFeature Arg1:T19 Arg2:T20
+R17	negativeClinicalFeature Arg1:T21 Arg2:T22
+R18	negativeClinicalFeature Arg1:T23 Arg2:T24
+R19	negativeClinicalFeature Arg1:T25 Arg2:T26
+R20	negativeClinicalFeature Arg1:T27 Arg2:T28
+R21	negativeClinicalFeature Arg1:T27 Arg2:T29
+R23	clinicalFeatureTime Arg1:T18 Arg2:T12
+R24	clinicalFeatureTime Arg1:T20 Arg2:T12
+R25	clinicalFeatureTime Arg1:T22 Arg2:T12
+R26	clinicalFeatureTime Arg1:T24 Arg2:T12
+R27	clinicalFeatureTime Arg1:T26 Arg2:T12
+R28	clinicalFeatureTime Arg1:T28 Arg2:T12
+R29	clinicalFeatureTime Arg1:T29 Arg2:T12
+T74	indexValue 226 231	36.5℃
+T75	sign 225 226	T
+T76	sign 232 233	P
+R37	signIndexValue Arg1:T75 Arg2:T74
+R38	signIndexValue Arg1:T76 Arg2:T45
+T77	sign 239 240	R
+R39	signIndexValue Arg1:T77 Arg2:T46
+T78	sign 246 248	Bp
+T47	indexValue 248 259	172/107mmHg
+R40	signIndexValue Arg1:T78 Arg2:T47
+R41	bodyClinicalFeature Arg1:T52 Arg2:T53
+T54	body 287 290	甲状腺
+T79	clinicalFeature 290 293	不肿大
+R42	bodyClinicalFeature Arg1:T54 Arg2:T79
+R43	bodyAuxiliaryDescript Arg1:T55 Arg2:T56
+R44	bodyClinicalFeature Arg1:T57 Arg2:T58
+R45	bodyClinicalFeature Arg1:T57 Arg2:T59
+T60	sign 318 320	HR
+T80	indexValue 320 325	81bpm
+R46	signIndexValue Arg1:T60 Arg2:T80
+R47	bodyClinicalFeature Arg1:T63 Arg2:T64
+R48	bodyClinicalFeature Arg1:T65 Arg2:T66
+T81	clinicalFeature 356 358	压痛
+T82	negative 355 356	无
+R49	negativeClinicalFeature Arg1:T82 Arg2:T81
+R50	bodyClinicalFeature Arg1:T65 Arg2:T81
+T83	body 358 360	四肢
+R51	bodyClinicalFeature Arg1:T83 Arg2:T67
+T70	sign 376 380	病理反射
+T84	indexValue 380 383	未引出
+R53	signIndexValue Arg1:T70 Arg2:T84
+T85	body 384 387	双下肢
+R54	bodyClinicalFeature Arg1:T85 Arg2:T71
+T69	sign 369 373	生理反射
+T86	indexValue 373 375	存在
+R55	signIndexValue Arg1:T69 Arg2:T86
+T68	sign 364 366	肌力
+T87	indexValue 366 368	正常
+R52	signIndexValue Arg1:T68 Arg2:T87
+R56	bodySign Arg1:T83 Arg2:T68
+R22	modificationClinicalFeature Arg1:T30 Arg2:T14

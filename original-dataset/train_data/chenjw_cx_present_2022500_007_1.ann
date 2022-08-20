@@ -1,0 +1,8 @@
+T1	time 10 27	2019年11月30日07时30分
+T2	clinicalFeature 33 37	口齿不清
+T3	clinicalFeature 41 46	右上肢乏力
+T6	cause 28 33	起床时发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T6 Arg2:T2
+R3	causeClinicalFeature Arg1:T6 Arg2:T3
+R4	clinicalFeatureTime Arg1:T3 Arg2:T1

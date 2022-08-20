@@ -1,0 +1,92 @@
+T1	clinicalFeature 4 6	头晕
+T2	time 6 8	1天
+T3	time 17 20	1天前
+T4	cause 21 26	无明显诱因
+T5	clinicalFeature 34 36	头晕
+T6	clinicalFeature 38 40	恶心
+T7	clinicalFeature 41 43	呕吐
+T8	modification 46 53	呕吐为胃内容物
+T10	modification 54 60	无咖啡色液体
+T11	negative 61 62	无
+T12	clinicalFeature 62 64	耳鸣
+T13	negative 73 74	无
+T14	clinicalFeature 74 76	复视
+T15	negative 77 78	无
+T16	clinicalFeature 78 82	视物旋转
+T17	negative 83 84	无
+T18	clinicalFeature 84 88	视物模糊
+T19	negative 90 91	无
+T20	clinicalFeature 91 97	肢体麻木无力
+T21	negative 98 99	无
+T22	clinicalFeature 99 101	胸闷
+T23	clinicalFeature 101 103	气促
+T24	negative 104 105	无
+T25	clinicalFeature 105 107	胸痛
+T26	clinicalFeature 107 109	心悸
+T27	negative 110 111	无
+T28	clinicalFeature 111 115	意识障碍
+T29	trend 121 125	逐渐加重
+T30	laboratoryValue 149 158	7.6mmol/L
+T31	laboratory 159 161	尿酸
+T32	laboratoryValue 161 170	352umol/L
+T33	laboratory 171 174	葡萄糖
+T34	laboratoryValue 174 184	6.21mmol/L
+T35	laboratory 185 191	糖化血红蛋白
+T37	time 197 207	2019-11-11
+T38	auxiliaryExamination 211 214	心电图
+T39	auxiliaryDescript 215 217	正常
+T40	disease 225 230	后循环缺血
+T53	disease 277 281	高血压病
+T54	disease 282 287	2型糖尿病
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+T134	modification 30 32	突然
+R4	clinicalFeatureTime Arg1:T5 Arg2:T3
+R5	clinicalFeatureTime Arg1:T6 Arg2:T3
+T135	frequency 43 45	2次
+R7	clinicalFeatureTime Arg1:T7 Arg2:T3
+R8	modificationClinicalFeature Arg1:T8 Arg2:T7
+R10	modificationClinicalFeature Arg1:T10 Arg2:T7
+R11	negativeClinicalFeature Arg1:T11 Arg2:T12
+R12	clinicalFeatureTime Arg1:T12 Arg2:T3
+R13	negativeClinicalFeature Arg1:T13 Arg2:T14
+R14	negativeClinicalFeature Arg1:T15 Arg2:T16
+R15	negativeClinicalFeature Arg1:T17 Arg2:T18
+R16	clinicalFeatureTime Arg1:T14 Arg2:T3
+R17	clinicalFeatureTime Arg1:T16 Arg2:T3
+R18	clinicalFeatureTime Arg1:T18 Arg2:T3
+R19	negativeClinicalFeature Arg1:T19 Arg2:T20
+R20	clinicalFeatureTime Arg1:T20 Arg2:T3
+R21	negativeClinicalFeature Arg1:T21 Arg2:T22
+R22	negativeClinicalFeature Arg1:T21 Arg2:T23
+R23	clinicalFeatureTime Arg1:T22 Arg2:T3
+R24	clinicalFeatureTime Arg1:T23 Arg2:T3
+R25	negativeClinicalFeature Arg1:T24 Arg2:T25
+R26	clinicalFeatureTime Arg1:T25 Arg2:T3
+R27	negativeClinicalFeature Arg1:T24 Arg2:T26
+R28	clinicalFeatureTime Arg1:T26 Arg2:T3
+R29	negativeClinicalFeature Arg1:T27 Arg2:T28
+R30	clinicalFeatureTime Arg1:T28 Arg2:T3
+R31	clinicalFeatureTrend Arg1:T5 Arg2:T29
+R32	clinicalFeatureTrend Arg1:T6 Arg2:T29
+R33	clinicalFeatureTrend Arg1:T7 Arg2:T29
+T136	laboratory 146 149	尿素氮
+R34	laboratoryLaboratoryValue Arg1:T136 Arg2:T30
+R35	laboratoryLaboratoryValue Arg1:T31 Arg2:T32
+R36	laboratoryLaboratoryValue Arg1:T33 Arg2:T34
+T137	laboratoryValue 192 196	8.9%
+R37	laboratoryLaboratoryValue Arg1:T35 Arg2:T137
+R38	auxiliaryExaminationTime Arg1:T38 Arg2:T37
+R39	auxiliaryExaminationAuxiliaryDescript Arg1:T38 Arg2:T39
+T36	drug 293 296	胰岛素
+T9	clinicalFeature 65 67	耳闭
+T139	clinicalFeature 68 72	听力下降
+R9	negativeClinicalFeature Arg1:T11 Arg2:T9
+R52	negativeClinicalFeature Arg1:T11 Arg2:T139
+R53	clinicalFeatureTime Arg1:T9 Arg2:T3
+R54	clinicalFeatureTime Arg1:T139 Arg2:T3
+T140	laboratory 142 144	生化
+T142	drug 297 300	降糖药
+T143	drug 301 305	降压药物
+R6	clinicalFeatureFrequency Arg1:T7 Arg2:T135
+R3	modificationClinicalFeature Arg1:T134 Arg2:T5

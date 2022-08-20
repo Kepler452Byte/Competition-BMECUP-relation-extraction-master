@@ -1,0 +1,9 @@
+T1	time 6 10	19年前
+T2	operation 20 24	肾移植术
+T3	drug 37 43	他克莫司胶囊
+T4	dose 43 46	1mg
+T5	frequency 47 50	BID
+T8	disease 11 14	尿毒症
+R1	timeOperation Arg1:T1 Arg2:T2
+R3	drugDose Arg1:T3 Arg2:T4
+R4	doseFrequency Arg1:T4 Arg2:T5

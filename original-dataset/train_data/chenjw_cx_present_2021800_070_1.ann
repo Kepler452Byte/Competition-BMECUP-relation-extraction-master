@@ -1,0 +1,12 @@
+T1	time 9 13	1月余前
+T2	disease 17 24	结直肠多发息肉
+T3	negative 27 28	无
+T4	clinicalFeature 28 30	腹痛
+T5	clinicalFeature 30 32	腹胀
+T8	cause 13 17	检查发现
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	causeDisease Arg1:T8 Arg2:T2
+R3	negativeClinicalFeature Arg1:T3 Arg2:T5
+R4	negativeClinicalFeature Arg1:T3 Arg2:T4
+R5	clinicalFeatureTime Arg1:T4 Arg2:T1
+R6	clinicalFeatureTime Arg1:T5 Arg2:T1

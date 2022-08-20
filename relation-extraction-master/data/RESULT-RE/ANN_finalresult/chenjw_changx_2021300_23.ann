@@ -1,0 +1,154 @@
+T1	clinicalFeature 4 8	颈部酸痛
+T2	time 8 12	10年余
+T3	trend 12 14	加重
+T4	time 14 16	1月
+T5	time 26 31	10年余前
+T6	cause 31 36	无明显诱因
+T7	clinicalFeature 39 43	颈部酸痛
+T8	negative 44 45	无
+T9	clinicalFeature 45 50	双上肢麻木
+T10	negative 51 52	无
+T11	clinicalFeature 52 56	活动受限
+T12	cure 64 68	未经处理
+T13	time 69 72	1月前
+T14	trend 76 78	加重
+T15	clinicalFeature 80 85	双上肢麻木
+T16	clinicalFeature 93 97	下肢酸痛
+T17	negative 99 100	无
+T18	clinicalFeature 100 104	活动受限
+T19	negative 105 106	无
+T20	clinicalFeature 106 108	畏寒
+T21	clinicalFeature 108 110	发热
+T22	negative 111 112	无
+T23	clinicalFeature 112 114	恶心
+T24	clinicalFeature 114 116	呕吐
+T25	negative 117 118	无
+T26	clinicalFeature 118 120	头痛
+T27	clinicalFeature 120 122	头晕
+T28	time 126 127	今
+T29	auxiliaryExamination 134 139	颈椎正侧片
+T30	body 146 153	C4/5椎间盘
+T31	auxiliaryDescript 150 155	椎间盘膨出
+T32	auxiliaryDescript 153 155	膨出
+T33	body 161 168	C6/7椎间盘
+T34	auxiliaryDescript 165 172	椎间盘向后突出
+T35	auxiliaryDescript 168 172	向后突出
+T36	auxiliaryDescript 170 172	突出
+T37	body 175 177	颈椎
+T38	auxiliaryDescript 177 181	退行性变
+T39	disease 195 200	颈椎不稳定
+T40	disease 248 251	糖尿病
+T41	time 252 256	10余年
+T42	drug 260 264	二甲双胍
+T43	dose 264 266	1片
+T44	frequency 266 269	tid
+T45	drug 270 272	倍欣
+T46	dose 272 274	1片
+T47	frequency 274 277	tid
+T48	clinicalFeature 281 287	血糖控制一般
+T49	sign 296 298	T:
+T50	indexValue 298 303	36.7℃
+T51	sign 304 306	P:
+T52	indexValue 306 311	99bpm
+T53	sign 312 315	BP:
+T54	indexValue 315 325	128/72mmhg
+T55	sign 326 328	R:
+T56	indexValue 328 333	20bpm
+T57	clinicalFeature 334 336	神清
+T58	clinicalFeature 337 340	精神可
+T59	body 341 343	头部
+T60	clinicalFeature 343 346	无畸形
+T61	body 347 349	双瞳
+T62	clinicalFeature 349 353	等大等圆
+T63	clinicalFeature 354 360	Φ3.0mm
+T64	clinicalFeature 361 367	对光反射灵敏
+T65	body 369 370	颈
+T66	clinicalFeature 370 371	软
+T67	body 372 374	颈部
+T68	clinicalFeature 374 376	酸痛
+T69	clinicalFeature 377 382	活动后明显
+T70	clinicalFeature 384 388	下肢酸痛
+T71	clinicalFeature 389 394	无活动受限
+T72	sign 395 398	克氏征
+T73	indexValue 398 400	阴性
+T74	body 401 402	心
+T75	body 402 403	肺
+T76	clinicalFeature 403 411	听诊未及明显异常
+T77	body 412 413	腹
+T78	clinicalFeature 413 415	平坦
+T79	body 416 417	肝
+T80	body 418 419	脾
+T81	clinicalFeature 419 426	肋下、剑下未及
+T82	body 427 431	肝、脾区
+T83	negative 431 433	未及
+T84	clinicalFeature 433 435	叩痛
+T85	clinicalFeature 436 438	压痛
+T86	body 439 440	肝
+T87	body 441 442	脾
+T88	sign 442 445	浊音界
+T89	indexValue 445 448	无扩大
+T90	sign 450 454	墨菲氏征
+T91	indexValue 454 456	阴性
+T92	sign 457 460	肠鸣音
+T93	indexValue 460 466	3-4bpm
+T94	indexValue 467 469	调中
+T95	sign 470 474	神经系统
+T96	indexValue 474 476	阴性
+R1	clinicalFeatureTrend Arg1:T1 Arg2:T3
+R2	causeClinicalfeature Arg1:T6 Arg2:T7
+R3	clinicalFeatureTime Arg1:T7 Arg2:T5
+R4	negativeClinicalfeature Arg1:T8 Arg2:T9
+R5	clinicalFeatureTime Arg1:T9 Arg2:T5
+R6	negativeClinicalfeature Arg1:T10 Arg2:T11
+R7	clinicalFeatureTime Arg1:T11 Arg2:T5
+R8	cureTime Arg1:T12 Arg2:T5
+R9	clinicalFeatureTime Arg1:T15 Arg2:T13
+R10	clinicalFeatureTime Arg1:T16 Arg2:T13
+R11	negativeClinicalfeature Arg1:T17 Arg2:T18
+R12	clinicalFeatureTime Arg1:T18 Arg2:T13
+R13	negativeClinicalfeature Arg1:T19 Arg2:T21
+R14	clinicalFeatureTime Arg1:T20 Arg2:T5
+R15	clinicalFeatureTime Arg1:T20 Arg2:T13
+R16	clinicalFeatureTime Arg1:T21 Arg2:T5
+R17	clinicalFeatureTime Arg1:T21 Arg2:T13
+R18	negativeClinicalfeature Arg1:T22 Arg2:T24
+R19	clinicalFeatureTime Arg1:T23 Arg2:T5
+R20	clinicalFeatureTime Arg1:T23 Arg2:T13
+R21	clinicalFeatureTime Arg1:T24 Arg2:T5
+R22	clinicalFeatureTime Arg1:T24 Arg2:T13
+R23	negativeClinicalfeature Arg1:T25 Arg2:T27
+R24	clinicalFeatureTime Arg1:T26 Arg2:T5
+R25	clinicalFeatureTime Arg1:T26 Arg2:T13
+R26	clinicalFeatureTime Arg1:T27 Arg2:T5
+R27	clinicalFeatureTime Arg1:T27 Arg2:T13
+R28	auxiliaryExaminationTime Arg1:T29 Arg2:T28
+R29	bodyAuxiliarydescript Arg1:T30 Arg2:T31
+R30	bodyAuxiliarydescript Arg1:T30 Arg2:T32
+R31	bodyAuxiliarydescript Arg1:T33 Arg2:T34
+R32	bodyAuxiliarydescript Arg1:T33 Arg2:T35
+R33	bodyAuxiliarydescript Arg1:T33 Arg2:T36
+R34	bodyAuxiliarydescript Arg1:T37 Arg2:T38
+R35	timeDisease Arg1:T41 Arg2:T40
+R36	drugFrequency Arg1:T42 Arg2:T44
+R37	drugFrequency Arg1:T45 Arg2:T47
+R38	signIndexvalue Arg1:T49 Arg2:T50
+R39	signIndexvalue Arg1:T51 Arg2:T52
+R40	signIndexvalue Arg1:T53 Arg2:T54
+R41	signIndexvalue Arg1:T55 Arg2:T56
+R42	bodyClinicalfeature Arg1:T59 Arg2:T60
+R43	bodyClinicalfeature Arg1:T61 Arg2:T64
+R44	bodyClinicalfeature Arg1:T65 Arg2:T66
+R45	signIndexvalue Arg1:T72 Arg2:T73
+R46	bodyClinicalfeature Arg1:T74 Arg2:T76
+R47	bodyClinicalfeature Arg1:T75 Arg2:T76
+R48	bodyClinicalfeature Arg1:T77 Arg2:T78
+R49	bodyClinicalfeature Arg1:T79 Arg2:T81
+R50	bodyClinicalfeature Arg1:T80 Arg2:T81
+R51	bodyClinicalfeature Arg1:T82 Arg2:T85
+R52	negativeClinicalfeature Arg1:T83 Arg2:T85
+R53	bodySign Arg1:T86 Arg2:T88
+R54	bodySign Arg1:T87 Arg2:T88
+R55	signIndexvalue Arg1:T88 Arg2:T89
+R56	signIndexvalue Arg1:T90 Arg2:T91
+R57	signIndexvalue Arg1:T92 Arg2:T94
+R58	signIndexvalue Arg1:T95 Arg2:T96

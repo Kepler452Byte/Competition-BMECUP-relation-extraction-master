@@ -1,0 +1,136 @@
+T1	disease 4 11	左髌骨骨折术后
+T2	time 11 13	一年
+T3	time 27 30	一年前
+T4	cause 35 37	摔倒
+T6	clinicalFeature 46 50	左膝疼痛
+T7	auxiliaryExamination 58 60	拍片
+T10	operation 69 80	左髌骨切开复位内固定术
+T11	time 91 99	术后12-14天
+T12	negative 119 120	否
+T13	clinicalFeature 120 124	认昏迷史
+T14	negative 125 126	无
+T15	clinicalFeature 126 128	头晕
+T16	negative 129 130	无
+T17	clinicalFeature 130 132	头痛
+T18	negative 133 134	无
+T19	clinicalFeature 134 136	畏寒
+T20	clinicalFeature 136 138	发热
+T21	negative 139 140	无
+T22	clinicalFeature 140 142	恶心
+T23	clinicalFeature 142 144	呕吐
+T24	negative 145 146	无
+T25	clinicalFeature 146 148	胸闷
+T26	clinicalFeature 148 150	气促
+T27	negative 151 152	无
+T28	clinicalFeature 152 154	胸痛
+T29	clinicalFeature 154 156	心悸
+T30	negative 157 158	无
+T31	clinicalFeature 158 163	大小便失禁
+T32	negative 165 167	否认
+T34	clinicalFeature 168 177	其他外伤及肢体麻木
+T35	clinicalFeature 178 182	活动障碍
+T36	time 188 192	术后1年
+T39	disease 225 232	左髌骨骨折术后
+T41	disease 242 249	左髌骨骨折术后
+T42	disease 259 263	高血压病
+T43	time 264 267	十余年
+T44	drug 270 274	倍他乐克
+T45	dose 274 278	0.5#
+T46	frequency 278 281	bid
+T47	drug 282 284	代文
+T48	dose 284 286	1#
+T49	frequency 286 288	qd
+T50	cure 291 295	控制尚可
+T51	disease 299 302	糖尿病
+T52	time 302 305	8年余
+T53	drug 309 313	胰岛素针
+T63	sign 372 374	体温
+T64	indexValue 374 377	37℃
+T65	sign 378 380	脉搏
+T66	indexValue 380 385	82次/分
+T67	sign 386 388	呼吸
+T68	indexValue 388 393	20次/分
+T69	sign 394 396	血压
+T70	indexValue 396 406	123/88mmHg
+T71	clinicalFeature 407 409	神清
+T72	clinicalFeature 410 413	精神可
+T73	body 414 416	双瞳
+T74	clinicalFeature 416 420	等大等圆
+T75	clinicalFeature 421 427	Φ2.5mm
+T76	clinicalFeature 428 434	对光反射灵敏
+T77	body 435 436	颈
+T78	clinicalFeature 436 437	软
+T79	sign 438 441	颈抵抗
+T80	indexValue 441 443	阴性
+T81	body 445 447	颈部
+T82	clinicalFeature 447 450	无畸形
+T83	clinicalFeature 451 454	无压痛
+T84	clinicalFeature 455 459	活动正常
+T85	body 460 461	心
+T86	body 461 463	肺腹
+T87	clinicalFeature 463 465	无殊
+T88	body 466 471	脊柱及骨盆
+T89	clinicalFeature 471 473	无殊
+T90	body 474 477	左膝前
+T91	clinicalFeature 477 486	可见陈旧性手术瘢痕
+T92	modification 487 491	愈合良好
+T93	body 492 497	左膝噶关节
+T94	clinicalFeature 497 501	活动正常
+T95	body 502 505	左足趾
+T96	clinicalFeature 505 512	血运、感觉正常
+T97	sign 513 516	病理征
+T98	indexValue 516 519	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T4 Arg2:T6
+R3	clinicalFeatureTime Arg1:T6 Arg2:T3
+T8	disease 62 67	左髌骨骨折
+R6	timeOperation Arg1:T3 Arg2:T10
+T9	cure 99 101	拆线
+R7	cureTime Arg1:T9 Arg2:T11
+R8	negativeClinicalFeature Arg1:T12 Arg2:T13
+R9	negativeClinicalFeature Arg1:T14 Arg2:T15
+R10	negativeClinicalFeature Arg1:T16 Arg2:T17
+R11	negativeClinicalFeature Arg1:T18 Arg2:T19
+R12	negativeClinicalFeature Arg1:T18 Arg2:T20
+R13	negativeClinicalFeature Arg1:T21 Arg2:T22
+R14	negativeClinicalFeature Arg1:T21 Arg2:T23
+R15	negativeClinicalFeature Arg1:T24 Arg2:T25
+R16	negativeClinicalFeature Arg1:T24 Arg2:T26
+R17	negativeClinicalFeature Arg1:T27 Arg2:T28
+R18	negativeClinicalFeature Arg1:T27 Arg2:T29
+R19	negativeClinicalFeature Arg1:T30 Arg2:T31
+R20	negativeClinicalFeature Arg1:T32 Arg2:T34
+R21	negativeClinicalFeature Arg1:T32 Arg2:T35
+R23	timeDisease Arg1:T36 Arg2:T39
+R25	timeDisease Arg1:T43 Arg2:T42
+R27	drugDose Arg1:T44 Arg2:T45
+R28	drugFrequency Arg1:T44 Arg2:T46
+R29	drugDose Arg1:T47 Arg2:T48
+R30	drugFrequency Arg1:T47 Arg2:T49
+R32	timeDisease Arg1:T52 Arg2:T51
+T33	frequency 314 321	早12u晚9u
+R34	drugFrequency Arg1:T53 Arg2:T33
+R40	signIndexValue Arg1:T63 Arg2:T64
+R41	signIndexValue Arg1:T65 Arg2:T66
+R42	signIndexValue Arg1:T67 Arg2:T68
+R43	signIndexValue Arg1:T69 Arg2:T70
+R44	bodyClinicalFeature Arg1:T73 Arg2:T74
+R45	bodyClinicalFeature Arg1:T73 Arg2:T75
+R46	bodyClinicalFeature Arg1:T73 Arg2:T76
+R47	bodyClinicalFeature Arg1:T77 Arg2:T78
+R48	signIndexValue Arg1:T79 Arg2:T80
+R49	bodyClinicalFeature Arg1:T81 Arg2:T82
+R50	bodyClinicalFeature Arg1:T81 Arg2:T83
+R51	bodyClinicalFeature Arg1:T81 Arg2:T84
+R52	bodyClinicalFeature Arg1:T86 Arg2:T87
+R53	bodyClinicalFeature Arg1:T85 Arg2:T87
+R54	bodyClinicalFeature Arg1:T88 Arg2:T89
+R55	bodyClinicalFeature Arg1:T90 Arg2:T91
+R56	modificationClinicalFeature Arg1:T92 Arg2:T91
+R57	bodyClinicalFeature Arg1:T93 Arg2:T94
+R58	bodyClinicalFeature Arg1:T95 Arg2:T96
+R59	signIndexValue Arg1:T97 Arg2:T98
+T37	modification 50 52	明显
+R60	modificationClinicalFeature Arg1:T37 Arg2:T6
+T99	clinicalFeature 38 42	伤致左膝
+R61	clinicalFeatureTime Arg1:T99 Arg2:T3

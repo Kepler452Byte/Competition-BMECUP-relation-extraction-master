@@ -1,0 +1,15 @@
+T1	time 6 10	3小时前
+T4	clinicalFeature 30 34	头部流血
+T5	clinicalFeature 38 40	疼痛
+T6	negative 41 43	否认
+T7	clinicalFeature 43 45	昏迷
+T10	cause 10 20	被他人用“铁管”打伤
+R1	clinicalFeatureTime Arg1:T4 Arg2:T1
+T2	body 20 22	头部
+T3	body 23 26	腰背部
+R2	causeClinicalFeature Arg1:T10 Arg2:T4
+R3	bodyClinicalFeature Arg1:T2 Arg2:T5
+R4	bodyClinicalFeature Arg1:T3 Arg2:T5
+R5	negativeClinicalFeature Arg1:T6 Arg2:T7
+R6	clinicalFeatureTime Arg1:T7 Arg2:T1
+R7	clinicalFeatureTime Arg1:T5 Arg2:T1

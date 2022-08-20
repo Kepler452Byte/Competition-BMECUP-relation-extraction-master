@@ -1,0 +1,13 @@
+T1	time 10 17	入院前半小时余
+T2	cause 17 21	被人发现
+T3	clinicalFeature 21 25	意识丧失
+T4	modification 26 30	呼之不应
+T5	negative 33 34	无
+T6	clinicalFeature 34 36	恶心
+T7	clinicalFeature 36 38	呕吐
+R1	causeClinicalfeature Arg1:T2 Arg2:T3
+R2	clinicalFeatureTime Arg1:T3 Arg2:T1
+R3	modificationClinicalfeature Arg1:T4 Arg2:T3
+R4	negativeClinicalfeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T6 Arg2:T1
+R6	clinicalFeatureTime Arg1:T7 Arg2:T1

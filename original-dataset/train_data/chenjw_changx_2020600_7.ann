@@ -1,0 +1,79 @@
+T1	clinicalFeature 4 8	右膝疼痛
+T2	time 8 10	1月
+T3	time 19 22	1月前
+T4	clinicalFeature 27 31	右膝疼痛
+T5	negative 32 33	无
+T6	clinicalFeature 33 35	红肿
+T7	negative 36 37	无
+T8	clinicalFeature 40 45	上下楼受限
+T13	disease 93 100	右膝半月板损伤
+T26	sign 152 154	体温
+T27	indexValue 154 159	36.9℃
+T28	sign 160 162	脉搏
+T29	indexValue 162 167	90次/分
+T30	sign 168 170	呼吸
+T31	indexValue 170 175	20次/分
+T32	sign 176 178	血压
+T33	indexValue 178 188	167/83mmHg
+T34	clinicalFeature 189 192	神志清
+T35	clinicalFeature 193 196	精神可
+T36	body 197 200	双瞳孔
+T37	clinicalFeature 200 204	等大等圆
+T38	clinicalFeature 205 209	光反灵敏
+T39	body 210 211	心
+T40	clinicalFeature 212 216	听诊无殊
+T41	clinicalFeature 218 219	软
+T43	clinicalFeature 220 223	无压痛
+T44	body 226 228	右膝
+T45	clinicalFeature 228 231	无肿胀
+T46	negative 232 233	无
+T47	clinicalFeature 233 235	压痛
+T49	clinicalFeature 243 247	屈膝受限
+T50	clinicalFeature 252 259	血运及活动正常
+T51	clinicalFeature 263 265	正常
+T54	sign 274 278	病理反射
+T55	indexValue 278 281	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T56	cause 22 25	爬楼后
+R2	causeClinicalFeature Arg1:T56 Arg2:T4
+R3	clinicalFeatureTime Arg1:T4 Arg2:T3
+R4	negativeClinicalFeature Arg1:T5 Arg2:T6
+T57	clinicalFeature 37 39	麻木
+R5	negativeClinicalFeature Arg1:T7 Arg2:T57
+R6	clinicalFeatureTime Arg1:T6 Arg2:T3
+R7	clinicalFeatureTime Arg1:T8 Arg2:T3
+R8	negativeClinicalFeature Arg1:T7 Arg2:T8
+T58	auxiliaryExamination 61 65	右膝MR
+T10	auxiliaryDescript 67 74	右膝半月板损伤
+R10	auxiliaryExaminationAuxiliaryDescript Arg1:T58 Arg2:T10
+R18	signIndexValue Arg1:T26 Arg2:T27
+R19	signIndexValue Arg1:T28 Arg2:T29
+R20	signIndexValue Arg1:T30 Arg2:T31
+R21	signIndexValue Arg1:T32 Arg2:T33
+R22	bodyClinicalFeature Arg1:T36 Arg2:T37
+R23	bodyClinicalFeature Arg1:T36 Arg2:T38
+R24	bodyClinicalFeature Arg1:T39 Arg2:T40
+T12	body 217 218	腹
+R25	bodyClinicalFeature Arg1:T12 Arg2:T41
+R27	bodyClinicalFeature Arg1:T44 Arg2:T45
+R28	negativeClinicalFeature Arg1:T46 Arg2:T47
+R29	bodyClinicalFeature Arg1:T12 Arg2:T43
+R30	bodyClinicalFeature Arg1:T44 Arg2:T47
+T48	sign 236 240	研磨试验
+T59	indexValue 240 242	阳性
+R31	signIndexValue Arg1:T48 Arg2:T59
+R32	signIndexValue Arg1:T54 Arg2:T55
+R33	auxiliaryExaminationTime Arg1:T58 Arg2:T3
+T52	body 211 212	肺
+R34	bodyClinicalFeature Arg1:T52 Arg2:T40
+R35	bodySign Arg1:T44 Arg2:T48
+R36	bodyClinicalFeature Arg1:T44 Arg2:T49
+T60	body 248 252	足趾末梢
+R37	bodyClinicalFeature Arg1:T60 Arg2:T50
+T61	body 260 263	余肢体
+R38	bodyClinicalFeature Arg1:T61 Arg2:T51
+T53	body 266 268	双侧
+T62	sign 268 272	生理反射
+T63	indexValue 272 273	存
+R39	bodySign Arg1:T53 Arg2:T62
+R40	signIndexValue Arg1:T62 Arg2:T63

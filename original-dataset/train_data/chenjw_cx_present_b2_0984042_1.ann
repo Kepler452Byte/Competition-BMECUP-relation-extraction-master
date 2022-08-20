@@ -1,0 +1,17 @@
+T1	time 6 10	1月余前
+T2	cause 10 14	检查发现
+T3	clinicalFeature 14 19	甲状腺结节
+T4	modification 20 22	不大
+T5	body 23 25	颈部
+T6	clinicalFeature 26 28	红肿
+R1	modificationClinicalFeature Arg1:T4 Arg2:T3
+R2	causeClinicalFeature Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T3 Arg2:T1
+T9	clinicalFeature 28 30	疼痛
+T10	negative 25 26	无
+R4	bodyClinicalFeature Arg1:T5 Arg2:T6
+R5	bodyClinicalFeature Arg1:T5 Arg2:T9
+R6	negativeClinicalFeature Arg1:T10 Arg2:T6
+R7	negativeClinicalFeature Arg1:T10 Arg2:T9
+R8	clinicalFeatureTime Arg1:T6 Arg2:T1
+R9	clinicalFeatureTime Arg1:T9 Arg2:T1

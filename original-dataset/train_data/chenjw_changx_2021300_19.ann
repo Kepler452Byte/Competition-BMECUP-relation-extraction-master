@@ -1,0 +1,128 @@
+T1	disease 4 10	腰椎骨折术后
+T2	time 10 13	1年余
+T3	time 23 27	1年余前
+T4	time 28 38	2018-10-28
+T5	cause 44 46	摔倒
+T6	clinicalFeature 47 52	致伤腰背部
+T7	clinicalFeature 53 60	站立及行走受限
+T8	auxiliaryExamination 71 73	X线
+T9	auxiliaryDescript 77 84	L1压缩性骨折
+T11	disease 104 110	腰1椎体骨折
+T13	operation 119 128	腰椎后路内固定手术
+T14	cure 131 132	补
+T16	time 139 143	术后2周
+T17	negative 172 173	无
+T18	clinicalFeature 173 175	乏力
+T19	negative 176 178	否认
+T20	clinicalFeature 179 181	头痛
+T21	clinicalFeature 182 184	头昏
+T22	clinicalFeature 185 187	恶心
+T23	clinicalFeature 188 190	呕吐
+T24	negative 194 196	否认
+T25	clinicalFeature 197 199	发热
+T26	clinicalFeature 199 201	畏寒
+T27	negative 202 204	否认
+T28	clinicalFeature 205 207	胸闷
+T29	clinicalFeature 208 210	气促
+T30	clinicalFeature 211 213	胸痛
+T31	negative 214 216	否认
+T32	clinicalFeature 217 219	腹痛
+T33	clinicalFeature 219 221	腹胀
+T35	disease 240 248	腰1椎体骨折术后
+T48	sign 299 301	体温
+T49	indexValue 301 306	36.4℃
+T50	sign 307 309	脉搏
+T51	indexValue 309 314	74次/分
+T52	sign 315 317	呼吸
+T53	indexValue 317 322	19次/分
+T54	sign 323 325	血压
+T55	indexValue 325 335	152/95mmHg
+T56	clinicalFeature 337 339	神清
+T57	clinicalFeature 340 343	精神可
+T58	body 344 346	双瞳
+T59	clinicalFeature 346 350	等大等圆
+T60	clinicalFeature 351 357	Φ2.5mm
+T61	clinicalFeature 358 364	对光反射灵敏
+T62	body 365 366	颈
+T63	clinicalFeature 366 367	软
+T65	clinicalFeature 368 371	无压痛
+T66	clinicalFeature 373 377	活动正常
+T67	body 378 381	胸腹部
+T68	clinicalFeature 381 383	无殊
+T69	body 384 386	脊柱
+T70	clinicalFeature 386 389	无畸形
+T72	clinicalFeature 390 393	无压痛
+T73	clinicalFeature 394 398	活动正常
+T74	body 399 401	骨盆
+T75	clinicalFeature 401 403	无殊
+T76	body 404 407	腰背部
+T77	clinicalFeature 407 412	切口愈合佳
+T79	clinicalFeature 413 416	无压痛
+T80	clinicalFeature 417 420	活动可
+T81	body 421 423	四肢
+T82	clinicalFeature 423 429	未及明显异常
+T83	sign 430 433	腱反射
+T84	indexValue 433 437	左右对称
+T85	sign 438 442	病理反射
+T86	indexValue 442 445	未引出
+R1	timeDisease Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T5 Arg2:T6
+R3	clinicalFeatureTime Arg1:T6 Arg2:T4
+R4	clinicalFeatureTime Arg1:T6 Arg2:T3
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	auxiliaryExaminationAuxiliaryDescript Arg1:T8 Arg2:T9
+R8	auxiliaryExaminationTime Arg1:T8 Arg2:T4
+R9	auxiliaryExaminationTime Arg1:T8 Arg2:T3
+R11	timeOperation Arg1:T4 Arg2:T13
+R12	timeOperation Arg1:T3 Arg2:T13
+R13	negativeClinicalFeature Arg1:T17 Arg2:T18
+R14	negativeClinicalFeature Arg1:T19 Arg2:T20
+R15	negativeClinicalFeature Arg1:T19 Arg2:T21
+R16	negativeClinicalFeature Arg1:T19 Arg2:T22
+T12	clinicalFeature 191 193	昏迷
+R17	negativeClinicalFeature Arg1:T19 Arg2:T23
+R18	negativeClinicalFeature Arg1:T19 Arg2:T12
+R19	negativeClinicalFeature Arg1:T24 Arg2:T25
+R20	negativeClinicalFeature Arg1:T24 Arg2:T26
+R21	negativeClinicalFeature Arg1:T27 Arg2:T28
+R22	negativeClinicalFeature Arg1:T27 Arg2:T29
+R23	negativeClinicalFeature Arg1:T27 Arg2:T30
+R24	negativeClinicalFeature Arg1:T31 Arg2:T32
+R25	negativeClinicalFeature Arg1:T31 Arg2:T33
+R33	signIndexValue Arg1:T48 Arg2:T49
+R34	signIndexValue Arg1:T50 Arg2:T51
+R35	signIndexValue Arg1:T52 Arg2:T53
+R36	signIndexValue Arg1:T54 Arg2:T55
+R37	bodyClinicalFeature Arg1:T58 Arg2:T59
+R38	bodyClinicalFeature Arg1:T58 Arg2:T60
+R39	bodyClinicalFeature Arg1:T58 Arg2:T61
+R40	bodyClinicalFeature Arg1:T62 Arg2:T63
+R42	bodyClinicalFeature Arg1:T62 Arg2:T66
+R43	bodyClinicalFeature Arg1:T67 Arg2:T68
+R44	bodyClinicalFeature Arg1:T69 Arg2:T70
+R46	bodyClinicalFeature Arg1:T69 Arg2:T72
+R47	bodyClinicalFeature Arg1:T69 Arg2:T73
+R48	bodyClinicalFeature Arg1:T74 Arg2:T75
+R49	bodyClinicalFeature Arg1:T76 Arg2:T77
+R51	bodyClinicalFeature Arg1:T76 Arg2:T79
+R52	bodyClinicalFeature Arg1:T76 Arg2:T80
+R53	bodyClinicalFeature Arg1:T81 Arg2:T82
+R54	signIndexValue Arg1:T83 Arg2:T84
+R55	signIndexValue Arg1:T85 Arg2:T86
+T15	cure 143 147	切口拆线
+R56	cureTime Arg1:T15 Arg2:T16
+T87	time 161 162	今
+R57	clinicalFeatureTime Arg1:T18 Arg2:T87
+R58	clinicalFeatureTime Arg1:T20 Arg2:T87
+R59	clinicalFeatureTime Arg1:T21 Arg2:T87
+R60	clinicalFeatureTime Arg1:T22 Arg2:T87
+R61	clinicalFeatureTime Arg1:T23 Arg2:T87
+R62	clinicalFeatureTime Arg1:T12 Arg2:T87
+R63	clinicalFeatureTime Arg1:T25 Arg2:T87
+R64	clinicalFeatureTime Arg1:T26 Arg2:T87
+R65	clinicalFeatureTime Arg1:T28 Arg2:T87
+R66	clinicalFeatureTime Arg1:T29 Arg2:T87
+R67	clinicalFeatureTime Arg1:T30 Arg2:T87
+R68	clinicalFeatureTime Arg1:T32 Arg2:T87
+R69	clinicalFeatureTime Arg1:T33 Arg2:T87

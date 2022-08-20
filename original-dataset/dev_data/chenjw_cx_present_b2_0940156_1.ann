@@ -1,0 +1,10 @@
+T1	time 7 10	15年
+T2	disease 21 26	2型糖尿病
+T4	drug 37 41	二甲双胍
+T5	dose 42 44	1#
+T6	frequency 45 47	QD
+T9	clinicalFeature 11 13	乏力
+R1	clinicalFeatureTime Arg1:T9 Arg2:T1
+R2	timeDisease Arg1:T1 Arg2:T2
+R3	drugDose Arg1:T4 Arg2:T5
+R4	doseFrequency Arg1:T5 Arg2:T6

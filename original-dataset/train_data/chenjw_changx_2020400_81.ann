@@ -1,0 +1,86 @@
+T2	clinicalFeature 4 9	左侧腰腹痛
+T3	time 9 11	1周
+T4	time 20 23	1周前
+T5	cause 23 28	无明显诱因
+T6	clinicalFeature 31 38	左侧腰腹部疼痛
+T7	modification 39 42	阵发性
+T8	clinicalFeature 46 48	恶心
+T9	negative 49 50	未
+T10	clinicalFeature 50 52	呕吐
+T13	negative 63 64	无
+T14	clinicalFeature 64 66	畏寒
+T15	clinicalFeature 66 68	发热
+T16	negative 69 70	无
+T17	clinicalFeature 70 72	胸闷
+T18	clinicalFeature 72 74	气急
+T19	negative 75 76	无
+T20	clinicalFeature 76 82	明显肉眼血尿
+T21	negative 83 84	无
+T22	clinicalFeature 84 90	排便排尿困难
+T23	auxiliaryExamination 105 108	腹CT
+T24	body 110 117	左侧输尿管上端
+T25	auxiliaryDescript 117 119	结石
+T28	disease 142 148	左输尿管结石
+T41	clinicalFeature 200 203	神志清
+T42	clinicalFeature 204 207	精神软
+T43	indexValue 210 215	36.0℃
+T44	sign 216 218	P:
+T45	indexValue 218 223	82次/分
+T46	sign 224 226	R:
+T47	indexValue 226 231	20次/分
+T48	sign 232 235	BP:
+T49	indexValue 235 245	110/60mmHg
+T50	body 246 247	腹
+T51	clinicalFeature 247 249	平软
+T52	body 250 252	腹部
+T53	clinicalFeature 253 255	压痛
+T54	clinicalFeature 256 259	反跳痛
+T55	clinicalFeature 260 264	未及包块
+T56	clinicalFeature 269 275	未及充盈膀胱
+T57	body 276 279	左肾区
+T58	clinicalFeature 279 281	叩痛
+T59	body 282 287	双侧腹股沟
+T60	clinicalFeature 287 291	未及肿块
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	causeClinicalFeature Arg1:T5 Arg2:T6
+R3	clinicalFeatureTime Arg1:T6 Arg2:T4
+R5	clinicalFeatureTime Arg1:T8 Arg2:T4
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R8	negativeClinicalFeature Arg1:T13 Arg2:T14
+R9	negativeClinicalFeature Arg1:T13 Arg2:T15
+R10	negativeClinicalFeature Arg1:T16 Arg2:T17
+R11	negativeClinicalFeature Arg1:T16 Arg2:T18
+R12	negativeClinicalFeature Arg1:T19 Arg2:T20
+R13	negativeClinicalFeature Arg1:T21 Arg2:T22
+R14	clinicalFeatureTime Arg1:T14 Arg2:T4
+R15	clinicalFeatureTime Arg1:T15 Arg2:T4
+R16	clinicalFeatureTime Arg1:T17 Arg2:T4
+R17	clinicalFeatureTime Arg1:T18 Arg2:T4
+R18	clinicalFeatureTime Arg1:T20 Arg2:T4
+R19	clinicalFeatureTime Arg1:T22 Arg2:T4
+R20	bodyAuxiliaryDescript Arg1:T24 Arg2:T25
+R21	auxiliaryExaminationAuxiliaryDescript Arg1:T23 Arg2:T25
+T1	cure 121 125	保守治疗
+T11	sign 208 209	T
+R29	signIndexValue Arg1:T11 Arg2:T43
+R30	signIndexValue Arg1:T44 Arg2:T45
+R31	signIndexValue Arg1:T46 Arg2:T47
+R32	signIndexValue Arg1:T48 Arg2:T49
+R33	bodyClinicalFeature Arg1:T50 Arg2:T51
+T26	negative 252 253	无
+R34	negativeClinicalFeature Arg1:T26 Arg2:T53
+R35	negativeClinicalFeature Arg1:T26 Arg2:T54
+R36	bodyClinicalFeature Arg1:T52 Arg2:T53
+R37	bodyClinicalFeature Arg1:T52 Arg2:T54
+R38	bodyClinicalFeature Arg1:T52 Arg2:T55
+R39	bodyClinicalFeature Arg1:T57 Arg2:T58
+R40	bodyClinicalFeature Arg1:T59 Arg2:T60
+T61	time 92 102	2019.11.28
+R41	auxiliaryExaminationTime Arg1:T23 Arg2:T61
+R42	clinicalFeatureTime Arg1:T10 Arg2:T4
+R43	cureTime Arg1:T1 Arg2:T61
+T62	body 266 269	耻骨上
+R44	bodyClinicalFeature Arg1:T62 Arg2:T56
+R4	modificationClinicalFeature Arg1:T7 Arg2:T6
+T64	modification 42 44	绞痛
+R45	modificationClinicalFeature Arg1:T64 Arg2:T6

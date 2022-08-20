@@ -1,0 +1,18 @@
+T1	time 9 10	昨
+T2	auxiliaryExamination 18 22	胸部CT
+T3	body 24 27	左上肺
+T4	auxiliaryDescript 27 29	占位
+T5	auxiliaryDescript 31 38	肺内、胸膜转移
+T6	time 42 44	平素
+T7	negative 44 45	无
+T8	clinicalFeature 45 47	咳嗽
+T9	clinicalFeature 47 49	咳痰
+T12	cause 15 18	体检时
+R1	negativeClinicalFeature Arg1:T7 Arg2:T8
+R2	negativeClinicalFeature Arg1:T7 Arg2:T9
+R3	auxiliaryExaminationAuxiliaryDescript Arg1:T2 Arg2:T4
+R4	auxiliaryExaminationAuxiliaryDescript Arg1:T2 Arg2:T5
+R5	bodyAuxiliaryDescript Arg1:T3 Arg2:T4
+R6	auxiliaryExaminationTime Arg1:T2 Arg2:T1
+R7	clinicalFeatureTime Arg1:T8 Arg2:T6
+R8	clinicalFeatureTime Arg1:T9 Arg2:T6

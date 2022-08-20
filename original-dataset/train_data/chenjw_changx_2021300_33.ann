@@ -1,0 +1,124 @@
+T1	cause 4 6	摔伤
+T2	clinicalFeature 7 14	右小腿肿痛不适
+T3	time 14 17	7天余
+T4	time 26 29	7天前
+T5	cause 33 35	摔伤
+T6	clinicalFeature 44 48	疼痛不适
+T7	clinicalFeature 49 53	皮肤擦伤
+T8	clinicalFeature 54 57	活动可
+T9	negative 58 59	无
+T10	clinicalFeature 59 63	足趾麻木
+T11	negative 64 65	无
+T12	clinicalFeature 65 67	乏力
+T13	negative 68 70	否认
+T14	clinicalFeature 71 73	头痛
+T15	clinicalFeature 74 76	头昏
+T16	clinicalFeature 77 79	恶心
+T17	clinicalFeature 80 82	呕吐
+T18	negative 86 88	否认
+T19	clinicalFeature 89 91	发热
+T20	clinicalFeature 91 93	畏寒
+T21	negative 95 97	否认
+T22	clinicalFeature 98 100	胸闷
+T23	clinicalFeature 101 103	气促
+T24	clinicalFeature 104 106	胸痛
+T25	negative 107 109	否认
+T26	clinicalFeature 110 112	腹痛
+T27	clinicalFeature 112 114	腹胀
+T28	auxiliaryExamination 123 125	X片
+T29	auxiliaryDescript 129 135	未见明显异常
+T30	time 144 147	近日来
+T31	clinicalFeature 151 156	右小腿疼痛
+T32	trend 156 158	加重
+T33	auxiliaryExamination 163 165	CT
+T34	body 168 171	右跟骨
+T35	auxiliaryDescript 171 176	撕脱性骨折
+T38	disease 182 190	右小腿软组织挫伤
+T39	disease 191 199	右跟骨陈旧性骨折
+T52	sign 250 251	T
+T53	indexValue 251 256	36.7℃
+T54	sign 257 258	P
+T55	indexValue 258 263	53次/分
+T56	sign 264 265	R
+T57	indexValue 265 270	18次/分
+T58	sign 271 273	Bp
+T59	indexValue 273 283	145/86mmHg
+T60	body 284 287	右小腿
+T61	clinicalFeature 287 289	肿胀
+T62	clinicalFeature 290 292	压痛
+T63	clinicalFeature 293 297	活动可限
+T64	clinicalFeature 298 304	局部皮肤擦伤
+T65	clinicalFeature 305 308	血运佳
+T66	body 309 313	足背动脉
+T67	clinicalFeature 313 315	正常
+T68	sign 316 318	肌力
+T69	indexValue 318 322	正常五级
+T70	body 324 327	双上肢
+T71	clinicalFeature 331 333	正常
+T72	sign 334 337	腱反射
+T73	indexValue 337 341	左右对称
+T74	sign 342 346	病理反射
+T75	indexValue 346 349	未引出
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R2	causeClinicalFeature Arg1:T1 Arg2:T2
+T76	body 41 44	右小腿
+R3	bodyClinicalFeature Arg1:T76 Arg2:T6
+R4	bodyClinicalFeature Arg1:T76 Arg2:T7
+R5	bodyClinicalFeature Arg1:T76 Arg2:T8
+R6	negativeClinicalFeature Arg1:T9 Arg2:T10
+R7	negativeClinicalFeature Arg1:T11 Arg2:T12
+R8	negativeClinicalFeature Arg1:T13 Arg2:T14
+R9	negativeClinicalFeature Arg1:T13 Arg2:T15
+R10	negativeClinicalFeature Arg1:T13 Arg2:T16
+T77	clinicalFeature 83 85	昏迷
+R11	negativeClinicalFeature Arg1:T13 Arg2:T17
+R12	negativeClinicalFeature Arg1:T13 Arg2:T77
+R13	negativeClinicalFeature Arg1:T18 Arg2:T19
+R14	negativeClinicalFeature Arg1:T18 Arg2:T20
+R15	causeClinicalFeature Arg1:T5 Arg2:T6
+R16	causeClinicalFeature Arg1:T5 Arg2:T7
+R17	clinicalFeatureTime Arg1:T6 Arg2:T4
+R18	clinicalFeatureTime Arg1:T7 Arg2:T4
+R19	clinicalFeatureTime Arg1:T8 Arg2:T4
+R20	clinicalFeatureTime Arg1:T10 Arg2:T4
+R21	clinicalFeatureTime Arg1:T12 Arg2:T4
+R22	clinicalFeatureTime Arg1:T14 Arg2:T4
+R23	clinicalFeatureTime Arg1:T15 Arg2:T4
+R24	clinicalFeatureTime Arg1:T16 Arg2:T4
+R25	clinicalFeatureTime Arg1:T17 Arg2:T4
+R26	clinicalFeatureTime Arg1:T77 Arg2:T4
+R27	clinicalFeatureTime Arg1:T19 Arg2:T4
+R28	clinicalFeatureTime Arg1:T20 Arg2:T4
+R29	negativeClinicalFeature Arg1:T21 Arg2:T22
+R30	negativeClinicalFeature Arg1:T21 Arg2:T23
+R31	negativeClinicalFeature Arg1:T21 Arg2:T24
+R32	negativeClinicalFeature Arg1:T25 Arg2:T26
+R33	negativeClinicalFeature Arg1:T25 Arg2:T27
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T28 Arg2:T29
+R35	clinicalFeatureTrend Arg1:T31 Arg2:T32
+R36	clinicalFeatureTime Arg1:T31 Arg2:T30
+R37	clinicalFeatureTime Arg1:T22 Arg2:T4
+R38	clinicalFeatureTime Arg1:T23 Arg2:T4
+R39	clinicalFeatureTime Arg1:T24 Arg2:T4
+R40	clinicalFeatureTime Arg1:T26 Arg2:T4
+R41	clinicalFeatureTime Arg1:T27 Arg2:T4
+R42	auxiliaryExaminationTime Arg1:T28 Arg2:T4
+R43	auxiliaryExaminationTime Arg1:T33 Arg2:T30
+R45	bodyAuxiliaryDescript Arg1:T34 Arg2:T35
+R46	auxiliaryExaminationAuxiliaryDescript Arg1:T33 Arg2:T35
+R56	signIndexValue Arg1:T52 Arg2:T53
+R57	signIndexValue Arg1:T54 Arg2:T55
+R58	signIndexValue Arg1:T56 Arg2:T57
+R59	signIndexValue Arg1:T58 Arg2:T59
+R60	bodyClinicalFeature Arg1:T60 Arg2:T61
+R61	bodyClinicalFeature Arg1:T60 Arg2:T62
+R62	bodyClinicalFeature Arg1:T60 Arg2:T63
+R63	bodyClinicalFeature Arg1:T60 Arg2:T64
+R64	bodyClinicalFeature Arg1:T60 Arg2:T65
+R65	bodyClinicalFeature Arg1:T66 Arg2:T67
+R66	signIndexValue Arg1:T68 Arg2:T69
+T80	body 328 331	左下肢
+R67	bodyClinicalFeature Arg1:T70 Arg2:T71
+R68	bodyClinicalFeature Arg1:T80 Arg2:T71
+R69	signIndexValue Arg1:T72 Arg2:T73
+R71	signIndexValue Arg1:T74 Arg2:T75

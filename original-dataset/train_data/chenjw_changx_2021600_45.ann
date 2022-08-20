@@ -1,0 +1,97 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	咳嗽
+T3	clinicalFeature 8 10	气促
+T4	time 10 14	10余年
+T6	time 17 19	3天
+T7	time 29 34	10余年前
+T8	cause 34 39	无明显诱因
+T9	clinicalFeature 44 46	咳嗽
+T10	clinicalFeature 46 48	咳痰
+T11	modification 49 55	多为白色粘痰
+T12	clinicalFeature 59 61	胸闷
+T13	clinicalFeature 61 63	气促
+T17	disease 98 105	慢性阻塞性肺病
+T18	time 118 121	3天前
+T19	clinicalFeature 126 128	胸闷
+T20	clinicalFeature 128 130	气促
+T21	clinicalFeature 134 136	咳嗽
+T22	clinicalFeature 136 138	咳痰
+T23	modification 139 142	痰不多
+T24	negative 143 144	无
+T25	clinicalFeature 144 146	畏寒
+T26	clinicalFeature 146 148	发热
+T29	disease 170 181	慢性阻塞性肺病急性加重
+T42	sign 233 234	T
+T43	indexValue 235 240	36.5℃
+T44	sign 241 242	P
+T45	indexValue 243 249	112次/分
+T46	sign 250 251	R
+T47	indexValue 252 257	20次/分
+T48	sign 258 260	BP
+T49	indexValue 261 271	135/75mmHg
+T50	clinicalFeature 272 275	神志清
+T51	clinicalFeature 276 280	呼吸平稳
+T52	body 281 286	浅表淋巴结
+T53	clinicalFeature 286 290	未及肿大
+T54	body 291 293	口唇
+T55	clinicalFeature 293 298	无明显发绀
+T56	body 299 301	两肺
+T57	clinicalFeature 301 305	呼吸音粗
+T58	clinicalFeature 307 314	可及散在干啰音
+T59	sign 315 317	心率
+T60	indexValue 317 323	112次/分
+T61	clinicalFeature 324 326	律齐
+T62	clinicalFeature 327 332	未闻及杂音
+T63	body 333 334	腹
+T64	clinicalFeature 334 336	平软
+T65	clinicalFeature 337 340	无压痛
+T66	body 341 342	肝
+T67	body 342 343	脾
+T68	clinicalFeature 343 348	肋下未触及
+T69	body 349 352	双下肢
+T70	clinicalFeature 352 355	无浮肿
+R3	clinicalFeatureTime Arg1:T2 Arg2:T4
+R4	clinicalFeatureTime Arg1:T3 Arg2:T4
+R8	causeClinicalFeature Arg1:T8 Arg2:T9
+R9	causeClinicalFeature Arg1:T8 Arg2:T10
+R15	causeClinicalFeature Arg1:T8 Arg2:T12
+R16	causeClinicalFeature Arg1:T8 Arg2:T13
+R17	clinicalFeatureTime Arg1:T9 Arg2:T7
+R18	clinicalFeatureTime Arg1:T10 Arg2:T7
+R19	clinicalFeatureTime Arg1:T12 Arg2:T7
+R20	clinicalFeatureTime Arg1:T13 Arg2:T7
+R21	timeDisease Arg1:T7 Arg2:T17
+R23	negativeClinicalFeature Arg1:T24 Arg2:T25
+R24	negativeClinicalFeature Arg1:T24 Arg2:T26
+R25	clinicalFeatureTime Arg1:T19 Arg2:T18
+R26	clinicalFeatureTime Arg1:T20 Arg2:T18
+R27	clinicalFeatureTime Arg1:T21 Arg2:T18
+R28	clinicalFeatureTime Arg1:T22 Arg2:T18
+R29	clinicalFeatureTime Arg1:T25 Arg2:T18
+R30	clinicalFeatureTime Arg1:T26 Arg2:T18
+R38	signIndexValue Arg1:T42 Arg2:T43
+R39	signIndexValue Arg1:T44 Arg2:T45
+R40	signIndexValue Arg1:T46 Arg2:T47
+R41	signIndexValue Arg1:T48 Arg2:T49
+R42	bodyClinicalFeature Arg1:T52 Arg2:T53
+R43	bodyClinicalFeature Arg1:T54 Arg2:T55
+R44	bodyClinicalFeature Arg1:T56 Arg2:T57
+R45	bodyClinicalFeature Arg1:T56 Arg2:T58
+T15	trend 150 156	休息未见好转
+R46	clinicalFeatureTrend Arg1:T19 Arg2:T15
+R47	clinicalFeatureTrend Arg1:T20 Arg2:T15
+R49	signIndexValue Arg1:T59 Arg2:T60
+R50	bodyClinicalFeature Arg1:T63 Arg2:T64
+R51	bodyClinicalFeature Arg1:T63 Arg2:T65
+R52	bodyClinicalFeature Arg1:T66 Arg2:T68
+R53	bodyClinicalFeature Arg1:T67 Arg2:T68
+R54	bodyClinicalFeature Arg1:T69 Arg2:T70
+R1	modificationClinicalFeature Arg1:T1 Arg2:T2
+R2	modificationClinicalFeature Arg1:T1 Arg2:T3
+R5	clinicalFeatureTime Arg1:T3 Arg2:T6
+R6	clinicalFeatureTime Arg1:T2 Arg2:T6
+R7	modificationClinicalFeature Arg1:T11 Arg2:T10
+T27	modification 130 132	明显
+R56	modificationClinicalFeature Arg1:T27 Arg2:T20
+R57	modificationClinicalFeature Arg1:T27 Arg2:T19
+R22	modificationClinicalFeature Arg1:T23 Arg2:T22

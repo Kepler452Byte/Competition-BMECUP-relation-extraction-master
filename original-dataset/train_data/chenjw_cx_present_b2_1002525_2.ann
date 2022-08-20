@@ -1,0 +1,9 @@
+T1	time 2 4	病来
+T2	clinicalFeature 4 6	神清
+T3	clinicalFeature 7 10	精神可
+T4	clinicalFeature 11 17	睡眠二便正常
+T5	time 18 20	近期
+T6	negative 20 23	无明显
+T7	clinicalFeature 23 27	体重变化
+R1	negativeClinicalFeature Arg1:T6 Arg2:T7	
+R2	clinicalFeatureTime Arg1:T7 Arg2:T5	

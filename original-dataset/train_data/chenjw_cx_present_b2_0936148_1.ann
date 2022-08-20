@@ -1,0 +1,13 @@
+T1	time 6 9	5年前
+T2	clinicalFeature 14 18	血糖升高
+T3	disease 31 36	2型糖尿病
+T4	drug 43 50	格列美脲分散片
+T5	dose 50 52	1#
+T6	frequency 53 56	bid
+T10	cause 9 14	检查时发现
+R1	clinicalFeatureTime Arg1:T2 Arg2:T1
+R2	causeClinicalFeature Arg1:T10 Arg2:T2
+R3	timeDisease Arg1:T1 Arg2:T3
+R5	drugDose Arg1:T4 Arg2:T5
+R6	doseFrequency Arg1:T5 Arg2:T6
+R7	drugFrequency Arg1:T4 Arg2:T6

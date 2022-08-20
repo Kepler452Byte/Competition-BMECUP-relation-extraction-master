@@ -1,0 +1,4 @@
+{"sent": "现 $ 病 $ 史 : $ 患 者 于 入 院 前 近 1 小 时 在 菜 场 买 菜 时 突 发 神 志 不 清 ， 摔 倒 在 地", "ners": [[10, 17, "time", "入院前近1小时"], [23, 25, "modification", "突发"], [25, 29, "clinicalFeature", "神志不清"], [30, 32, "cause", "摔倒"]]}
+[23, 25, 'modification', '突发']	[25, 29, 'clinicalFeature', '神志不清']	属性
+[25, 29, 'clinicalFeature', '神志不清']	[10, 17, 'time', '入院前近1小时']	属性
+

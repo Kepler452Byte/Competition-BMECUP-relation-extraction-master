@@ -1,0 +1,85 @@
+T1	clinicalFeature 4 10	左腰腹部疼痛
+T2	time 10 12	半天
+T3	time 21 24	半天前
+T4	cause 24 29	无明显诱因
+T5	clinicalFeature 31 37	左腰腹部疼痛
+T6	negative 38 39	无
+T8	negative 54 55	无
+T9	clinicalFeature 55 59	排尿不畅
+T10	negative 60 61	无
+T11	clinicalFeature 61 63	恶心
+T12	clinicalFeature 63 65	呕吐
+T13	clinicalFeature 66 68	畏寒
+T14	clinicalFeature 68 71	发热等
+T15	auxiliaryExamination 79 83	腹部CT
+T16	body 87 93	左输尿管下段
+T17	auxiliaryDescript 93 95	结石
+T18	disease 96 100	左肾积水
+T20	disease 115 121	左输尿管结石
+T27	clinicalFeature 145 148	未睡眠
+T33	sign 178 180	体温
+T34	indexValue 180 185	36.5℃
+T35	sign 186 188	脉搏
+T36	indexValue 188 193	85次/分
+T37	sign 194 196	呼吸
+T38	indexValue 196 201	20次/分
+T39	sign 202 204	血压
+T40	indexValue 204 214	154/92mmHg
+T41	clinicalFeature 215 218	神志清
+T44	body 223 224	腹
+T45	clinicalFeature 224 226	平软
+T46	body 227 229	腹部
+T47	clinicalFeature 230 232	压痛
+T48	clinicalFeature 233 236	反跳痛
+T49	clinicalFeature 237 241	未及包块
+T51	body 253 256	左肾区
+T52	clinicalFeature 256 258	叩痛
+T53	body 259 264	双侧腹股沟
+T54	clinicalFeature 264 268	未及肿块
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalFeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+T7	clinicalFeature 39 41	尿频
+T55	clinicalFeature 41 43	尿急
+T56	clinicalFeature 43 45	尿痛
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T55
+R6	negativeClinicalFeature Arg1:T6 Arg2:T56
+R7	clinicalFeatureTime Arg1:T7 Arg2:T3
+R8	clinicalFeatureTime Arg1:T55 Arg2:T3
+R9	clinicalFeatureTime Arg1:T56 Arg2:T3
+T57	clinicalFeature 46 50	肉眼血尿
+R10	negativeClinicalFeature Arg1:T6 Arg2:T57
+R11	clinicalFeatureTime Arg1:T57 Arg2:T3
+R12	negativeClinicalFeature Arg1:T8 Arg2:T9
+R13	negativeClinicalFeature Arg1:T10 Arg2:T11
+R14	negativeClinicalFeature Arg1:T10 Arg2:T12
+R15	negativeClinicalFeature Arg1:T10 Arg2:T13
+R16	negativeClinicalFeature Arg1:T10 Arg2:T14
+R17	clinicalFeatureTime Arg1:T9 Arg2:T3
+R18	clinicalFeatureTime Arg1:T11 Arg2:T3
+R19	clinicalFeatureTime Arg1:T12 Arg2:T3
+R20	clinicalFeatureTime Arg1:T13 Arg2:T3
+R21	clinicalFeatureTime Arg1:T14 Arg2:T3
+R22	bodyAuxiliaryDescript Arg1:T16 Arg2:T17
+R23	auxiliaryExaminationAuxiliaryDescript Arg1:T15 Arg2:T17
+R31	signIndexValue Arg1:T33 Arg2:T34
+R32	signIndexValue Arg1:T35 Arg2:T36
+R33	signIndexValue Arg1:T37 Arg2:T38
+R34	signIndexValue Arg1:T39 Arg2:T40
+T30	clinicalFeature 219 222	精神软
+R35	bodyClinicalFeature Arg1:T44 Arg2:T45
+R36	bodyClinicalFeature Arg1:T46 Arg2:T47
+T42	negative 229 230	无
+R37	negativeClinicalFeature Arg1:T42 Arg2:T47
+R38	negativeClinicalFeature Arg1:T42 Arg2:T48
+R39	bodyClinicalFeature Arg1:T46 Arg2:T48
+R41	bodyClinicalFeature Arg1:T46 Arg2:T49
+T50	body 242 245	耻骨上
+T58	negative 245 247	未及
+T59	clinicalFeature 247 251	充盈膀胱
+R42	negativeClinicalFeature Arg1:T58 Arg2:T59
+R43	bodyClinicalFeature Arg1:T50 Arg2:T59
+R44	bodyClinicalFeature Arg1:T51 Arg2:T52
+R45	bodyClinicalFeature Arg1:T53 Arg2:T54
+R46	auxiliaryExaminationTime Arg1:T15 Arg2:T3

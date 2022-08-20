@@ -1,0 +1,5 @@
+T1	clinicalFeature 3 7	口齿不清
+T2	clinicalFeature 8 11	流口水
+T5	time 11 13	2月
+R1	clinicalFeatureTime Arg1:T1 Arg2:T5
+R2	clinicalFeatureTime Arg1:T2 Arg2:T5

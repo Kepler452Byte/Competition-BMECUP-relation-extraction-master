@@ -1,0 +1,149 @@
+T1	clinicalFeature 4 6	口干
+T2	clinicalFeature 6 8	多饮
+T3	time 8 11	7年余
+T4	clinicalFeature 12 14	纳差
+T5	clinicalFeature 14 16	乏力
+T6	time 16 19	10天
+T7	time 28 31	7年前
+T8	disease 33 37	胰腺炎后
+T9	clinicalFeature 39 41	口干
+T10	clinicalFeature 42 44	多饮
+T11	modification 45 53	每天饮水2升左右
+T12	disease 57 60	糖尿病
+T13	cure 62 68	口服药物降糖
+T15	time 75 78	6年前
+T16	clinicalFeature 79 84	血糖不稳定
+T17	drug 90 94	诺和锐针
+T18	drug 103 106	优泌乐
+T19	dose 106 109	25针
+T20	cure 109 111	降糖
+T22	clinicalFeature 135 143	糖尿病酮症酸中毒
+T23	time 144 148	10天前
+T24	clinicalFeature 150 152	纳差
+T25	clinicalFeature 152 154	乏力
+T26	negative 155 156	无
+T27	clinicalFeature 156 158	胸痛
+T28	negative 159 160	无
+T29	clinicalFeature 160 162	胸闷
+T30	clinicalFeature 162 164	气急
+T31	negative 165 166	无
+T32	clinicalFeature 166 168	恶心
+T33	clinicalFeature 168 170	呕吐
+T34	negative 171 172	无
+T35	clinicalFeature 172 176	肢体麻木
+T36	negative 178 179	无
+T37	clinicalFeature 179 181	晕厥
+T38	negative 182 183	无
+T39	clinicalFeature 183 185	黑朦
+T41	disease 197 200	糖尿病
+T52	sign 246 248	体温
+T53	indexValue 248 253	37.1℃
+T54	sign 254 256	脉搏
+T55	indexValue 256 262	118次/分
+T56	sign 263 265	呼吸
+T57	indexValue 265 270	18次/分
+T58	sign 271 273	血压
+T59	indexValue 273 282	89/71mmHg
+T60	clinicalFeature 283 286	神志清
+T61	clinicalFeature 287 291	体型消瘦
+T62	body 292 297	表浅淋巴结
+T63	clinicalFeature 297 300	未触及
+T64	body 301 302	颈
+T65	clinicalFeature 302 303	软
+T66	body 304 307	颈静脉
+T67	clinicalFeature 307 310	无怒张
+T68	body 311 314	甲状腺
+T69	clinicalFeature 314 316	不大
+T70	body 318 320	双肺
+T71	clinicalFeature 320 324	呼吸音粗
+T72	clinicalFeature 325 332	未闻及干湿罗音
+T73	sign 333 335	心率
+T74	indexValue 335 341	118次/分
+T75	clinicalFeature 342 344	律齐
+T76	clinicalFeature 345 355	未闻及明显病理性杂音
+T77	body 356 357	腹
+T78	clinicalFeature 357 358	软
+T79	body 359 360	肝
+T80	body 360 361	脾
+T81	clinicalFeature 361 365	肋下未及
+T82	body 366 368	全腹
+T84	clinicalFeature 368 374	无明显反跳痛
+T85	body 375 378	双下肢
+T86	clinicalFeature 378 381	无浮肿
+T87	body 382 384	四肢
+T88	sign 384 386	肌力
+T89	indexValue 386 388	5级
+T90	sign 389 392	病理征
+T91	indexValue 392 395	未引出
+T92	body 397 402	双足背动脉
+T93	clinicalFeature 402 406	搏动减弱
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T4 Arg2:T6
+R4	clinicalFeatureTime Arg1:T5 Arg2:T6
+R5	timeDisease Arg1:T7 Arg2:T8
+R6	clinicalFeatureTime Arg1:T9 Arg2:T7
+R7	clinicalFeatureTime Arg1:T10 Arg2:T7
+R9	timeDisease Arg1:T7 Arg2:T12
+T14	drug 86 90	来得时针
+T94	cure 94 98	强化治疗
+R13	clinicalFeatureTime Arg1:T16 Arg2:T15
+R14	cureTime Arg1:T94 Arg2:T15
+R15	drugDose Arg1:T18 Arg2:T19
+T95	time 100 101	后
+R19	cureTime Arg1:T20 Arg2:T95
+R21	clinicalFeatureTime Arg1:T24 Arg2:T23
+R22	clinicalFeatureTime Arg1:T25 Arg2:T23
+R23	negativeClinicalFeature Arg1:T26 Arg2:T27
+R24	negativeClinicalFeature Arg1:T28 Arg2:T29
+R25	negativeClinicalFeature Arg1:T28 Arg2:T30
+R26	negativeClinicalFeature Arg1:T31 Arg2:T32
+R27	negativeClinicalFeature Arg1:T31 Arg2:T33
+R28	negativeClinicalFeature Arg1:T34 Arg2:T35
+R29	clinicalFeatureTime Arg1:T27 Arg2:T23
+R30	clinicalFeatureTime Arg1:T29 Arg2:T23
+R31	clinicalFeatureTime Arg1:T30 Arg2:T23
+R32	clinicalFeatureTime Arg1:T32 Arg2:T23
+R33	clinicalFeatureTime Arg1:T33 Arg2:T23
+R34	clinicalFeatureTime Arg1:T35 Arg2:T23
+R35	negativeClinicalFeature Arg1:T36 Arg2:T37
+R36	negativeClinicalFeature Arg1:T38 Arg2:T39
+R37	clinicalFeatureTime Arg1:T37 Arg2:T23
+R38	clinicalFeatureTime Arg1:T39 Arg2:T23
+R45	signIndexValue Arg1:T52 Arg2:T53
+T21	cure 116 130	不规律皮下注射胰岛素降糖治疗
+T96	time 112 114	平时
+R20	cureTime Arg1:T21 Arg2:T96
+T97	frequency 131 133	多次
+R46	clinicalFeatureFrequency Arg1:T22 Arg2:T97
+R47	clinicalFeatureTime Arg1:T22 Arg2:T96
+R48	signIndexValue Arg1:T54 Arg2:T55
+R49	signIndexValue Arg1:T56 Arg2:T57
+R50	signIndexValue Arg1:T58 Arg2:T59
+R51	bodyClinicalFeature Arg1:T62 Arg2:T63
+R52	bodyClinicalFeature Arg1:T64 Arg2:T65
+R53	bodyClinicalFeature Arg1:T66 Arg2:T67
+R54	bodyClinicalFeature Arg1:T68 Arg2:T69
+R55	bodyClinicalFeature Arg1:T70 Arg2:T71
+R56	bodyClinicalFeature Arg1:T70 Arg2:T72
+R57	signIndexValue Arg1:T73 Arg2:T74
+R58	bodyClinicalFeature Arg1:T77 Arg2:T78
+R59	bodyClinicalFeature Arg1:T79 Arg2:T81
+R60	bodyClinicalFeature Arg1:T80 Arg2:T81
+R61	bodyClinicalFeature Arg1:T82 Arg2:T84
+R62	bodyClinicalFeature Arg1:T85 Arg2:T86
+R63	bodySign Arg1:T87 Arg2:T88
+R64	signIndexValue Arg1:T88 Arg2:T89
+R65	signIndexValue Arg1:T90 Arg2:T91
+R66	bodyClinicalFeature Arg1:T92 Arg2:T93
+R8	modificationClinicalFeature Arg1:T11 Arg2:T10
+T40	time 207 210	患病来
+T42	clinicalFeature 211 214	神志清
+T43	clinicalFeature 215 219	精神一般
+T44	clinicalFeature 220 223	胃纳可
+T45	clinicalFeature 224 227	睡眠可
+T46	clinicalFeature 228 237	近期体重无明显改变
+R10	clinicalFeatureTime Arg1:T45 Arg2:T40	
+R11	clinicalFeatureTime Arg1:T44 Arg2:T40	
+R12	clinicalFeatureTime Arg1:T43 Arg2:T40	
+R16	clinicalFeatureTime Arg1:T42 Arg2:T40	

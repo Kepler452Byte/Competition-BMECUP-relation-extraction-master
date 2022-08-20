@@ -1,0 +1,99 @@
+T1	modification 4 6	突发
+T2	clinicalFeature 6 10	神志不清
+T3	time 10 14	1小时余
+T4	time 24 29	1小时余前
+T5	cause 32 37	无明显诱因
+T6	modification 38 40	突发
+T7	clinicalFeature 40 44	意识不清
+T8	modification 45 49	呼之不应
+T9	clinicalFeature 51 55	呼吸急促
+T10	negative 56 57	无
+T11	clinicalFeature 59 61	抽搐
+T12	negative 62 63	无
+T13	clinicalFeature 63 68	大小便失禁
+T14	negative 69 70	无
+T15	clinicalFeature 70 72	呕吐
+T16	negative 73 74	无
+T17	clinicalFeature 74 76	畏寒
+T18	clinicalFeature 76 78	发热
+T19	cure 96 100	气管插管
+T20	auxiliaryExamination 106 110	头颅CT
+T21	disease 113 117	脑干出血
+T23	disease 129 133	脑干出血
+T31	disease 178 182	高血压病
+T32	time 183 186	3年余
+T35	sign 217 218	T
+T36	indexValue 218 223	37.3℃
+T37	sign 224 226	BP
+T38	indexValue 226 237	173/108mmhg
+T39	sign 238 240	HR
+T40	indexValue 240 245	92次/分
+T41	clinicalFeature 246 250	神志不清
+T42	modification 251 255	呼之不应
+T43	clinicalFeature 258 262	插管状态
+T44	body 263 266	双瞳孔
+T45	clinicalFeature 266 270	等大等圆
+T47	clinicalFeature 280 284	光反迟钝
+T48	body 286 288	双肺
+T49	clinicalFeature 288 292	呼吸音粗
+T50	clinicalFeature 293 300	未闻及干湿啰音
+T51	sign 301 303	HR
+T52	indexValue 303 311	:92bpm左右
+T53	clinicalFeature 312 315	律尚齐
+T54	clinicalFeature 317 319	膨隆
+T55	clinicalFeature 322 326	肋下未及
+T56	clinicalFeature 329 334	活动欠配合
+T58	clinicalFeature 346 348	不肿
+T59	sign 349 352	巴氏征
+T60	indexValue 352 356	可疑阳性
+R1	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	causeClinicalFeature Arg1:T5 Arg2:T7
+R5	clinicalFeatureTime Arg1:T7 Arg2:T4
+R7	clinicalFeatureTime Arg1:T9 Arg2:T4
+R8	negativeClinicalFeature Arg1:T10 Arg2:T11
+R9	clinicalFeatureTime Arg1:T11 Arg2:T4
+R10	negativeClinicalFeature Arg1:T12 Arg2:T13
+R11	negativeClinicalFeature Arg1:T14 Arg2:T15
+R12	negativeClinicalFeature Arg1:T16 Arg2:T17
+R13	clinicalFeatureTime Arg1:T13 Arg2:T4
+R14	clinicalFeatureTime Arg1:T15 Arg2:T4
+R15	clinicalFeatureTime Arg1:T17 Arg2:T4
+R16	negativeClinicalFeature Arg1:T16 Arg2:T18
+R17	clinicalFeatureTime Arg1:T18 Arg2:T4
+R22	timeDisease Arg1:T32 Arg2:T31
+R26	signIndexValue Arg1:T35 Arg2:T36
+R27	signIndexValue Arg1:T37 Arg2:T38
+R28	signIndexValue Arg1:T39 Arg2:T40
+R29	modificationClinicalFeature Arg1:T42 Arg2:T41
+R30	bodyClinicalFeature Arg1:T44 Arg2:T45
+R33	bodyClinicalFeature Arg1:T44 Arg2:T47
+R34	bodyClinicalFeature Arg1:T48 Arg2:T49
+R35	bodyClinicalFeature Arg1:T48 Arg2:T50
+R36	signIndexValue Arg1:T51 Arg2:T52
+R37	signIndexValue Arg1:T59 Arg2:T60
+T62	body 256 258	气管
+R24	bodyClinicalFeature Arg1:T62 Arg2:T43
+T46	clinicalFeature 271 279	直径约2.5mm
+R31	bodyClinicalFeature Arg1:T44 Arg2:T46
+T63	body 316 317	腹
+R32	bodyClinicalFeature Arg1:T63 Arg2:T54
+T64	body 320 321	肝
+T65	body 321 322	脾
+R40	bodyClinicalFeature Arg1:T64 Arg2:T55
+R41	bodyClinicalFeature Arg1:T65 Arg2:T55
+T66	body 327 329	肢体
+R42	bodyClinicalFeature Arg1:T66 Arg2:T56
+T57	sign 335 339	肌力检查
+T67	indexValue 339 342	不满意
+R43	signIndexValue Arg1:T57 Arg2:T67
+T68	body 343 346	双下肢
+R44	bodyClinicalFeature Arg1:T68 Arg2:T58
+T61	sign 358 363	GLC评分
+T69	indexValue 363 368	2-T-2
+R45	signIndexValue Arg1:T61 Arg2:T69
+R38	cureTime Arg1:T19 Arg2:T4
+R39	auxiliaryExaminationTime Arg1:T20 Arg2:T4
+T33	cure 189 194	不规律服药
+R2	modificationClinicalFeature Arg1:T1 Arg2:T2
+R4	modificationClinicalFeature Arg1:T6 Arg2:T7
+R6	modificationClinicalFeature Arg1:T8 Arg2:T7

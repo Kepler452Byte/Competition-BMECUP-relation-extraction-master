@@ -1,0 +1,86 @@
+T1	clinicalFeature 4 6	咳嗽
+T2	clinicalFeature 6 8	咳痰
+T3	time 8 10	3天
+T4	time 20 23	3天前
+T5	clinicalFeature 25 27	咳嗽
+T6	clinicalFeature 28 30	咳痰
+T7	modification 31 35	痰为白痰
+T9	clinicalFeature 38 42	四肢酸痛
+T11	clinicalFeature 48 50	胸闷
+T12	clinicalFeature 53 55	发热
+T13	negative 56 57	无
+T14	clinicalFeature 57 59	胸痛
+T15	negative 60 61	无
+T16	clinicalFeature 61 63	盗汗
+T17	cure 66 70	未予处理
+T18	trend 75 79	未见好转
+T19	auxiliaryExamination 90 94	胸部CT
+T22	body 103 109	两上肺胸膜下
+T23	auxiliaryDescript 109 112	肺大疱
+T25	disease 117 121	右侧肺炎
+T38	sign 177 178	T
+T39	indexValue 179 184	37.7℃
+T40	sign 185 186	P
+T41	indexValue 187 193	108次/分
+T42	sign 194 195	R
+T43	indexValue 196 201	20次/分
+T44	sign 202 204	BP
+T45	indexValue 205 215	159/96mmHg
+T46	clinicalFeature 216 219	神志清
+T47	clinicalFeature 220 224	呼吸平稳
+T48	body 225 230	浅表淋巴结
+T49	clinicalFeature 230 234	未及肿大
+T50	body 235 237	口唇
+T51	clinicalFeature 237 242	无明显发绀
+T52	body 243 245	两肺
+T53	clinicalFeature 245 249	呼吸音粗
+T54	clinicalFeature 251 259	未闻及干湿性啰音
+T55	sign 260 262	心率
+T56	indexValue 262 268	108次/分
+T57	clinicalFeature 269 271	律齐
+T58	clinicalFeature 272 277	未闻及杂音
+T59	body 278 279	腹
+T60	clinicalFeature 279 281	平软
+T61	clinicalFeature 282 285	无压痛
+T62	body 286 287	肝
+T63	body 287 288	脾
+T64	clinicalFeature 288 293	肋下未触及
+T65	body 294 297	双下肢
+T66	clinicalFeature 297 300	无浮肿
+R1	clinicalFeatureTime Arg1:T1 Arg2:T3
+R2	clinicalFeatureTime Arg1:T2 Arg2:T3
+R3	clinicalFeatureTime Arg1:T5 Arg2:T4
+R4	clinicalFeatureTime Arg1:T6 Arg2:T4
+T67	negative 51 53	未感
+R8	negativeClinicalFeature Arg1:T67 Arg2:T12
+R9	negativeClinicalFeature Arg1:T13 Arg2:T14
+R10	negativeClinicalFeature Arg1:T15 Arg2:T16
+R6	clinicalFeatureTime Arg1:T9 Arg2:T4
+R11	clinicalFeatureTime Arg1:T11 Arg2:T4
+R12	clinicalFeatureTime Arg1:T12 Arg2:T4
+R13	clinicalFeatureTime Arg1:T14 Arg2:T4
+R14	clinicalFeatureTime Arg1:T16 Arg2:T4
+R17	cureTime Arg1:T17 Arg2:T4
+T8	time 71 72	现
+R19	clinicalFeatureTrend Arg1:T6 Arg2:T18
+R20	clinicalFeatureTrend Arg1:T5 Arg2:T18
+T20	disease 96 100	右下肺炎
+R24	bodyAuxiliaryDescript Arg1:T22 Arg2:T23
+R25	auxiliaryExaminationAuxiliaryDescript Arg1:T19 Arg2:T23
+R32	signIndexValue Arg1:T38 Arg2:T39
+R33	signIndexValue Arg1:T40 Arg2:T41
+R34	signIndexValue Arg1:T42 Arg2:T43
+R35	signIndexValue Arg1:T44 Arg2:T45
+R36	bodyClinicalFeature Arg1:T48 Arg2:T49
+R37	bodyClinicalFeature Arg1:T50 Arg2:T51
+R38	bodyClinicalFeature Arg1:T52 Arg2:T53
+R39	bodyClinicalFeature Arg1:T52 Arg2:T54
+R40	signIndexValue Arg1:T55 Arg2:T56
+R41	bodyClinicalFeature Arg1:T59 Arg2:T60
+R42	bodyClinicalFeature Arg1:T59 Arg2:T61
+R43	bodyClinicalFeature Arg1:T62 Arg2:T64
+R44	bodyClinicalFeature Arg1:T63 Arg2:T64
+R45	bodyClinicalFeature Arg1:T65 Arg2:T66
+T68	time 80 81	今
+R46	auxiliaryExaminationTime Arg1:T19 Arg2:T68
+R5	modificationClinicalFeature Arg1:T7 Arg2:T6

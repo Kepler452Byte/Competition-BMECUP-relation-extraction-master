@@ -1,0 +1,15 @@
+T1	time 6 10	2年余前
+T2	disease 14 21	升结肠肝曲腺癌
+T3	disease 29 33	右肝肿块
+T6	operation 45 52	右半结肠癌根治
+T4	disease 34 39	右肾大囊肿
+T5	disease 22 28	不全性肠梗阻
+T7	operation 53 61	右肾囊肿去顶引流
+T10	operation 62 69	右肝肿块切除术
+R1	timeDisease Arg1:T1 Arg2:T2
+R2	timeDisease Arg1:T1 Arg2:T5
+R3	timeDisease Arg1:T1 Arg2:T3
+R4	timeDisease Arg1:T1 Arg2:T4
+R5	timeOperation Arg1:T1 Arg2:T6
+R6	timeOperation Arg1:T1 Arg2:T7
+R7	timeOperation Arg1:T1 Arg2:T10

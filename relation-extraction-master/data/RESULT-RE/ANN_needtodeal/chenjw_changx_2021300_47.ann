@@ -1,0 +1,114 @@
+T1	clinicalFeature 4 8	腰部疼痛
+T2	time 8 11	1月余
+T3	time 22 26	1月余前
+T4	cause 32 34	摔倒
+T5	clinicalFeature 35 39	腰部疼痛
+T6	modification 41 44	持续性
+T7	modification 44 49	酸胀样疼痛
+T8	auxiliaryExamination 60 64	腰椎平扫
+T9	body 68 72	L1椎体
+T10	auxiliaryDescript 72 77	压缩性骨折
+T11	body 80 82	椎管
+T12	auxiliaryDescript 82 86	轻度狭窄
+T13	body 89 91	腰椎
+T14	auxiliaryDescript 91 95	退行性变
+T15	auxiliaryDescript 111 116	椎间盘突出
+T16	body 119 122	腰背部
+T17	auxiliaryDescript 122 128	皮下浅筋膜炎
+T18	auxiliaryDescript 126 128	膜炎
+T19	cure 131 134	未处理
+T20	time 142 145	出院后
+T21	time 150 151	现
+T22	clinicalFeature 151 156	走路稍酸痛
+T23	negative 158 159	无
+T24	clinicalFeature 160 164	活动受限
+T25	negative 165 166	无
+T26	clinicalFeature 166 170	肢体麻木
+T27	negative 171 172	无
+T28	clinicalFeature 172 174	畏寒
+T29	clinicalFeature 174 176	发热
+T30	auxiliaryDescript 204 210	L1椎体骨折
+T31	disease 204 210	L1椎体骨折
+T32	body 212 214	胸椎
+T33	auxiliaryDescript 214 218	骨质增生
+T34	disease 224 229	腰1椎骨折
+T35	sign 286 288	T:
+T36	indexValue 288 293	36.5℃
+T37	sign 294 296	P:
+T38	indexValue 296 301	81bpm
+T39	sign 302 304	BP
+T40	indexValue 304 315	:157/77mmhg
+T41	indexValue 305 315	157/77mmhg
+T42	sign 316 317	R
+T43	indexValue 318 323	19bpm
+T44	clinicalFeature 324 326	神清
+T45	clinicalFeature 327 330	精神可
+T46	body 331 333	头部
+T47	clinicalFeature 333 336	无畸形
+T48	body 337 339	双瞳
+T49	clinicalFeature 339 343	等大等圆
+T50	clinicalFeature 344 350	Φ3.0mm
+T51	clinicalFeature 352 358	对光反射灵敏
+T52	body 359 360	颈
+T53	clinicalFeature 360 361	软
+T54	sign 362 365	颈抵抗
+T55	indexValue 365 367	阴性
+T56	sign 368 371	克氏征
+T57	indexValue 371 373	阴性
+T58	body 374 375	心
+T59	body 375 376	肺
+T60	clinicalFeature 376 384	听诊未及明显异常
+T61	body 385 387	腹部
+T62	clinicalFeature 387 389	无殊
+T63	sign 390 394	神经系统
+T64	indexValue 394 396	阴性
+T65	body 397 399	腰部
+T66	clinicalFeature 399 403	压痛明显
+T67	clinicalFeature 404 407	无肿胀
+T68	clinicalFeature 408 413	无活动受限
+T69	sign 414 419	骨盆挤压征
+T70	indexValue 419 421	阴性
+T71	sign 422 426	生理反射
+T72	indexValue 426 428	存在
+T73	sign 430 434	病理反射
+T74	indexValue 434 437	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	causeClinicalfeature Arg1:T4 Arg2:T5
+R3	clinicalFeatureTime Arg1:T5 Arg2:T3
+R4	modificationClinicalfeature Arg1:T6 Arg2:T5
+R5	modificationClinicalfeature Arg1:T7 Arg2:T5
+R6	auxiliaryExaminationTime Arg1:T8 Arg2:T3
+R7	bodyAuxiliarydescript Arg1:T9 Arg2:T10
+R8	bodyAuxiliarydescript Arg1:T11 Arg2:T12
+R9	bodyAuxiliarydescript Arg1:T13 Arg2:T14
+R10	bodyAuxiliarydescript Arg1:T16 Arg2:T17
+R11	bodyAuxiliarydescript Arg1:T16 Arg2:T18
+R12	cureTime Arg1:T19 Arg2:T3
+R13	clinicalFeatureTime Arg1:T22 Arg2:T20
+R14	clinicalFeatureTime Arg1:T22 Arg2:T21
+R15	negativeClinicalfeature Arg1:T23 Arg2:T24
+R16	clinicalFeatureTime Arg1:T24 Arg2:T21
+R17	negativeClinicalfeature Arg1:T25 Arg2:T26
+R18	clinicalFeatureTime Arg1:T26 Arg2:T21
+R19	negativeClinicalfeature Arg1:T27 Arg2:T29
+R20	clinicalFeatureTime Arg1:T28 Arg2:T21
+R21	clinicalFeatureTime Arg1:T29 Arg2:T21
+R22	bodyAuxiliarydescript Arg1:T32 Arg2:T33
+R23	signIndexvalue Arg1:T35 Arg2:T36
+R24	signIndexvalue Arg1:T37 Arg2:T38
+R25	signIndexvalue Arg1:T39 Arg2:T40
+R26	signIndexvalue Arg1:T39 Arg2:T41
+R27	signIndexvalue Arg1:T42 Arg2:T43
+R28	bodyClinicalfeature Arg1:T46 Arg2:T47
+R29	bodyClinicalfeature Arg1:T48 Arg2:T51
+R30	bodyClinicalfeature Arg1:T52 Arg2:T53
+R31	signIndexvalue Arg1:T54 Arg2:T55
+R32	signIndexvalue Arg1:T56 Arg2:T57
+R33	bodyClinicalfeature Arg1:T58 Arg2:T60
+R34	bodyClinicalfeature Arg1:T59 Arg2:T60
+R35	bodyClinicalfeature Arg1:T61 Arg2:T62
+R36	signIndexvalue Arg1:T63 Arg2:T64
+R37	bodyClinicalfeature Arg1:T65 Arg2:T68
+R38	signIndexvalue Arg1:T69 Arg2:T70
+R39	signIndexvalue Arg1:T71 Arg2:T72
+R40	signIndexvalue Arg1:T73 Arg2:T74

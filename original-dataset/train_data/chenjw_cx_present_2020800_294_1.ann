@@ -1,0 +1,7 @@
+T1	time 10 13	5年前
+T2	clinicalFeature 18 22	左肺占位
+T3	disease 43 45	腺癌
+T6	cause 14 18	检查发现
+R1	causeClinicalFeature Arg1:T6 Arg2:T2
+R2	clinicalFeatureTime Arg1:T2 Arg2:T1
+T7	auxiliaryExamination 36 40	术后病理

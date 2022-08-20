@@ -1,0 +1,108 @@
+T1	clinicalFeature 6 12	结肠多发息肉
+T2	time 12 15	1年余
+T3	time 25 29	1年余前
+T4	auxiliaryExamination 30 34	肠镜检查
+T5	auxiliaryDescript 41 43	息肉
+T6	negative 53 54	无
+T7	clinicalFeature 54 56	腹痛
+T8	clinicalFeature 56 58	腹泻
+T9	negative 59 60	无
+T10	clinicalFeature 60 62	便秘
+T11	negative 63 64	无
+T12	clinicalFeature 64 66	便血
+T13	negative 67 68	无
+T14	clinicalFeature 68 70	恶心
+T15	clinicalFeature 70 72	呕吐
+T16	negative 73 74	无
+T17	clinicalFeature 74 76	头晕
+T18	clinicalFeature 76 78	头痛
+T19	negative 79 80	无
+T20	clinicalFeature 80 82	畏寒
+T21	clinicalFeature 82 84	发热
+T35	sign 161 163	BP
+T36	indexValue 163 173	132/82mmHg
+T37	sign 174 175	T
+T38	indexValue 175 180	37.1℃
+T39	sign 181 182	P
+T40	indexValue 182 187	87次/分
+T41	sign 188 189	R
+T42	indexValue 189 194	18次/分
+T43	clinicalFeature 195 197	神清
+T44	clinicalFeature 198 201	精神可
+T45	body 202 204	巩膜
+T46	clinicalFeature 204 209	无明显黄染
+T47	body 210 215	浅表淋巴结
+T48	clinicalFeature 215 219	未及肿大
+T49	sign 220 222	心率
+T50	indexValue 222 227	87次/分
+T51	clinicalFeature 228 230	律齐
+T52	body 232 234	两肺
+T53	clinicalFeature 234 238	呼吸音粗
+T54	clinicalFeature 239 244	未闻及罗音
+T55	body 245 246	腹
+T56	clinicalFeature 246 247	软
+T57	clinicalFeature 248 251	无压痛
+T58	sign 252 256	墨菲氏征
+T59	indexValue 256 258	阴性
+T60	clinicalFeature 259 263	无反跳痛
+T61	body 264 265	肝
+T62	body 265 266	脾
+T63	clinicalFeature 266 270	肋下未及
+T64	sign 271 274	肠鸣音
+T65	indexValue 274 277	无亢进
+T66	body 278 281	双下肢
+T67	clinicalFeature 281 284	无浮肿
+T68	body 285 287	四肢
+T69	sign 287 289	肌力
+T70	indexValue 289 291	正常
+T71	sign 292 295	病理症
+T72	indexValue 295 298	未引出
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+R2	auxiliaryExaminationTime Arg1:T4 Arg2:T3
+R3	auxiliaryExaminationAuxiliaryDescript Arg1:T4 Arg2:T5
+R4	negativeClinicalFeature Arg1:T6 Arg2:T7
+R5	negativeClinicalFeature Arg1:T6 Arg2:T8
+T73	cure 44 52	期间未予重视处理
+R6	clinicalFeatureTime Arg1:T7 Arg2:T3
+R7	clinicalFeatureTime Arg1:T8 Arg2:T3
+R8	negativeClinicalFeature Arg1:T9 Arg2:T10
+R9	clinicalFeatureTime Arg1:T10 Arg2:T3
+R10	negativeClinicalFeature Arg1:T11 Arg2:T12
+R11	clinicalFeatureTime Arg1:T12 Arg2:T3
+R12	negativeClinicalFeature Arg1:T13 Arg2:T14
+R13	negativeClinicalFeature Arg1:T13 Arg2:T15
+R14	clinicalFeatureTime Arg1:T14 Arg2:T3
+R15	clinicalFeatureTime Arg1:T15 Arg2:T3
+R16	negativeClinicalFeature Arg1:T16 Arg2:T17
+R17	negativeClinicalFeature Arg1:T16 Arg2:T18
+R18	clinicalFeatureTime Arg1:T17 Arg2:T3
+R19	clinicalFeatureTime Arg1:T18 Arg2:T3
+R20	negativeClinicalFeature Arg1:T19 Arg2:T20
+R21	negativeClinicalFeature Arg1:T19 Arg2:T21
+R22	clinicalFeatureTime Arg1:T20 Arg2:T3
+R23	clinicalFeatureTime Arg1:T21 Arg2:T3
+R30	signIndexValue Arg1:T35 Arg2:T36
+R31	signIndexValue Arg1:T37 Arg2:T38
+R32	signIndexValue Arg1:T39 Arg2:T40
+R33	signIndexValue Arg1:T41 Arg2:T42
+R34	bodyClinicalFeature Arg1:T45 Arg2:T46
+R35	bodyClinicalFeature Arg1:T47 Arg2:T48
+R36	signIndexValue Arg1:T49 Arg2:T50
+R37	bodyClinicalFeature Arg1:T52 Arg2:T53
+R38	bodyClinicalFeature Arg1:T52 Arg2:T54
+R39	bodyClinicalFeature Arg1:T55 Arg2:T56
+R40	bodyClinicalFeature Arg1:T55 Arg2:T57
+R41	signIndexValue Arg1:T58 Arg2:T59
+R42	bodyClinicalFeature Arg1:T55 Arg2:T60
+R43	bodyClinicalFeature Arg1:T61 Arg2:T63
+R44	bodyClinicalFeature Arg1:T62 Arg2:T63
+R45	signIndexValue Arg1:T64 Arg2:T65
+R46	bodyClinicalFeature Arg1:T66 Arg2:T67
+R47	bodySign Arg1:T68 Arg2:T69
+R48	signIndexValue Arg1:T69 Arg2:T70
+R49	signIndexValue Arg1:T71 Arg2:T72
+T74	body 37 39	结肠
+T75	quantity 39 41	多发
+R50	auxiliaryDescriptQuantity Arg1:T5 Arg2:T75
+R51	bodyAuxiliaryDescript Arg1:T74 Arg2:T5
+R52	cureTime Arg1:T73 Arg2:T3

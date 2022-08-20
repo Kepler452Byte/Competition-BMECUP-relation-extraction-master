@@ -1,0 +1,107 @@
+T1	clinicalFeature 12 14	肿块
+T2	time 14 17	2月余
+T3	time 26 30	2月余前
+T4	clinicalFeature 37 39	包块
+T5	modification 40 45	约鸡蛋大小
+T6	modification 46 55	行走及劳动时可突出
+T8	modification 62 73	包块突出时可有局部疼痛
+T11	negative 87 88	无
+T12	clinicalFeature 88 90	腹胀
+T13	negative 91 92	无
+T14	clinicalFeature 92 94	腹泻
+T15	clinicalFeature 95 97	黑便
+T16	negative 99 100	无
+T17	clinicalFeature 100 102	恶心
+T18	clinicalFeature 103 105	呕吐
+T19	negative 106 107	无
+T20	clinicalFeature 107 109	腰痛
+T21	negative 110 111	无
+T22	clinicalFeature 111 115	肉眼血尿
+T23	negative 116 117	无
+T24	clinicalFeature 117 121	阴囊肿痛
+T25	negative 122 123	无
+T26	clinicalFeature 123 127	排尿不适
+T27	disease 150 156	左腹股沟斜疝
+T40	sign 207 209	体温
+T41	indexValue 209 214	36.2℃
+T42	sign 215 217	脉搏
+T43	indexValue 217 222	85次/分
+T44	sign 223 225	呼吸
+T45	indexValue 225 230	20次/分
+T46	sign 231 233	血压
+T47	indexValue 233 244	162/103mmHg
+T48	clinicalFeature 245 248	神志清
+T49	body 249 250	颈
+T50	clinicalFeature 250 251	软
+T51	body 252 257	浅表淋巴结
+T52	clinicalFeature 257 261	未及肿大
+T53	body 262 263	腹
+T54	clinicalFeature 263 265	平软
+T55	clinicalFeature 266 271	未扪及包块
+T56	body 273 279	输尿管移行区
+T57	clinicalFeature 279 282	无压痛
+T58	body 283 289	下腹部膀胱处
+T59	clinicalFeature 289 294	无明显压痛
+T60	body 295 299	双侧肾区
+T61	clinicalFeature 299 304	无明显叩痛
+T62	body 305 310	左腹股沟区
+T64	clinicalFeature 319 321	包块
+T65	sign 322 326	透光试验
+T66	indexValue 326 328	阴性
+T67	clinicalFeature 329 334	包块可回纳
+T68	modification 335 342	回纳后压迫深环
+T71	body 357 360	双睾丸
+T72	clinicalFeature 363 369	形态大小正常
+T74	clinicalFeature 370 373	无压痛
+R1	clinicalFeatureTime Arg1:T1 Arg2:T2
+T75	body 4 9	左侧腹股沟
+T76	modification 9 12	可复性
+R3	bodyClinicalFeature Arg1:T75 Arg2:T1
+T77	body 32 36	左腹股沟
+T78	quantity 36 37	一
+R4	bodyClinicalFeature Arg1:T77 Arg2:T4
+R7	clinicalFeatureTime Arg1:T4 Arg2:T3
+R10	modificationClinicalFeature Arg1:T8 Arg2:T4
+R12	negativeClinicalFeature Arg1:T11 Arg2:T12
+R13	negativeClinicalFeature Arg1:T13 Arg2:T14
+R14	negativeClinicalFeature Arg1:T13 Arg2:T15
+R15	negativeClinicalFeature Arg1:T16 Arg2:T17
+R16	negativeClinicalFeature Arg1:T16 Arg2:T18
+R17	negativeClinicalFeature Arg1:T19 Arg2:T20
+R18	negativeClinicalFeature Arg1:T21 Arg2:T22
+R19	negativeClinicalFeature Arg1:T23 Arg2:T24
+R20	negativeClinicalFeature Arg1:T25 Arg2:T26
+R21	clinicalFeatureTime Arg1:T12 Arg2:T3
+R22	clinicalFeatureTime Arg1:T14 Arg2:T3
+R23	clinicalFeatureTime Arg1:T15 Arg2:T3
+R24	clinicalFeatureTime Arg1:T17 Arg2:T3
+R25	clinicalFeatureTime Arg1:T18 Arg2:T3
+R26	clinicalFeatureTime Arg1:T20 Arg2:T3
+R27	clinicalFeatureTime Arg1:T22 Arg2:T3
+R28	clinicalFeatureTime Arg1:T24 Arg2:T3
+R29	clinicalFeatureTime Arg1:T26 Arg2:T3
+R36	signIndexValue Arg1:T40 Arg2:T41
+R37	signIndexValue Arg1:T42 Arg2:T43
+R38	signIndexValue Arg1:T44 Arg2:T45
+R39	signIndexValue Arg1:T46 Arg2:T47
+R40	bodyClinicalFeature Arg1:T49 Arg2:T50
+R41	bodyClinicalFeature Arg1:T51 Arg2:T52
+R42	bodyClinicalFeature Arg1:T53 Arg2:T54
+R43	bodyClinicalFeature Arg1:T53 Arg2:T55
+R44	bodyClinicalFeature Arg1:T56 Arg2:T57
+R45	bodyClinicalFeature Arg1:T58 Arg2:T59
+R46	bodyClinicalFeature Arg1:T60 Arg2:T61
+R48	bodyClinicalFeature Arg1:T62 Arg2:T64
+R49	signIndexValue Arg1:T65 Arg2:T66
+T9	modification 346 352	咳嗽未见包块
+R52	modificationClinicalFeature Arg1:T9 Arg2:T64
+T69	body 361 363	附睾
+R53	bodyClinicalFeature Arg1:T71 Arg2:T72
+R54	bodyClinicalFeature Arg1:T69 Arg2:T72
+R55	bodyClinicalFeature Arg1:T69 Arg2:T74
+R56	bodyClinicalFeature Arg1:T71 Arg2:T74
+R50	bodyClinicalFeature Arg1:T62 Arg2:T67
+R51	modificationClinicalFeature Arg1:T68 Arg2:T67
+R2	modificationClinicalFeature Arg1:T76 Arg2:T1
+R8	modificationClinicalFeature Arg1:T6 Arg2:T4
+R6	modificationClinicalFeature Arg1:T5 Arg2:T4

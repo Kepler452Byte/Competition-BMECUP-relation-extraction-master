@@ -1,0 +1,161 @@
+T1	modification 4 6	反复
+T2	clinicalFeature 6 8	心悸
+T3	time 8 12	10余年
+T4	time 30 35	10余年前
+T5	clinicalFeature 39 41	心悸
+T6	modification 43 46	阵发性
+T8	negative 58 59	无
+T9	clinicalFeature 59 61	胸痛
+T10	negative 62 63	无
+T11	clinicalFeature 63 65	胸闷
+T12	clinicalFeature 65 67	气促
+T13	negative 68 69	无
+T14	clinicalFeature 69 73	呼吸困难
+T16	modification 102 106	反复发作
+T17	time 107 112	4小时余前
+T18	clinicalFeature 116 118	心悸
+T19	modification 120 123	持续性
+T20	negative 124 125	无
+T21	clinicalFeature 125 127	胸痛
+T22	negative 128 129	无
+T23	clinicalFeature 129 133	呼吸困难
+T24	negative 134 135	无
+T25	clinicalFeature 135 139	大汗淋漓
+T26	negative 140 141	无
+T27	clinicalFeature 141 143	反酸
+T28	clinicalFeature 143 145	烧心
+T29	negative 147 148	无
+T30	clinicalFeature 148 150	头痛
+T31	clinicalFeature 150 152	头晕
+T32	auxiliaryExamination 162 165	心电图
+T33	auxiliaryDescript 167 172	快室率房颤
+T34	auxiliaryExamination 173 177	胸部CT
+T35	auxiliaryDescript 182 184	感染
+T36	body 185 187	两肺
+T37	auxiliaryDescript 187 192	散在纤维灶
+T38	auxiliaryDescript 195 197	增大
+T39	body 198 201	主动脉
+T40	body 202 204	冠脉
+T41	auxiliaryDescript 204 206	钙化
+T42	body 210 213	甲状腺
+T43	auxiliaryDescript 213 218	肿大伴钙化
+T44	laboratory 219 222	血常规
+T45	laboratory 223 226	CRP
+T46	laboratoryValue 226 234	22.3mg/L
+T47	laboratory 235 238	WBC
+T48	laboratoryValue 238 248	9.8*10~9/L
+T49	laboratory 249 252	肾功能
+T50	laboratory 253 256	电解质
+T51	laboratory 257 259	血糖
+T52	laboratory 260 264	心肌酶谱
+T53	laboratoryValue 264 268	未见异常
+T54	drug 273 278	"西地兰针
+T55	dose 278 283	0.2mg
+T56	disease 299 303	心律失常
+T68	disease 349 352	高血压
+T69	drug 359 363	替米沙坦
+T70	cure 364 368	降压治疗
+T71	cure 377 383	未服降压药物
+T74	indexValue 407 412	36.5℃
+T75	indexValue 421 426	19次/分
+T76	sign 427 429	BP
+T77	indexValue 429 439	126/80mmHg
+T78	clinicalFeature 440 443	神志清
+T79	clinicalFeature 444 448	呼吸平稳
+T80	body 449 454	浅表淋巴结
+T81	clinicalFeature 454 458	未及肿大
+T82	body 459 461	两肺
+T83	clinicalFeature 461 465	呼吸音清
+T84	clinicalFeature 466 473	未闻及干湿啰音
+T85	sign 474 476	心率
+T86	indexValue 476 482	102次/分
+T87	clinicalFeature 483 488	律绝对不齐
+T88	clinicalFeature 489 497	未闻及病理性杂音
+T89	body 498 499	腹
+T90	clinicalFeature 499 501	平软
+T91	clinicalFeature 502 505	无压痛
+T92	clinicalFeature 509 514	肋下未触及
+T93	body 515 518	双下肢
+T94	clinicalFeature 518 521	无浮肿
+T96	time 15 19	4小时余
+R4	clinicalFeatureTime Arg1:T2 Arg2:T3
+R7	clinicalFeatureTime Arg1:T5 Arg2:T4
+R8	negativeClinicalFeature Arg1:T8 Arg2:T9
+R9	negativeClinicalFeature Arg1:T10 Arg2:T11
+R10	negativeClinicalFeature Arg1:T10 Arg2:T12
+R11	negativeClinicalFeature Arg1:T13 Arg2:T14
+R12	clinicalFeatureTime Arg1:T9 Arg2:T4
+R13	clinicalFeatureTime Arg1:T11 Arg2:T4
+R14	clinicalFeatureTime Arg1:T12 Arg2:T4
+R15	clinicalFeatureTime Arg1:T14 Arg2:T4
+R18	clinicalFeatureTime Arg1:T18 Arg2:T17
+R20	negativeClinicalFeature Arg1:T20 Arg2:T21
+R21	negativeClinicalFeature Arg1:T22 Arg2:T23
+R22	negativeClinicalFeature Arg1:T24 Arg2:T25
+R23	negativeClinicalFeature Arg1:T26 Arg2:T27
+R24	negativeClinicalFeature Arg1:T26 Arg2:T28
+R25	negativeClinicalFeature Arg1:T29 Arg2:T30
+R26	negativeClinicalFeature Arg1:T29 Arg2:T31
+R27	clinicalFeatureTime Arg1:T30 Arg2:T17
+R28	clinicalFeatureTime Arg1:T31 Arg2:T17
+R29	clinicalFeatureTime Arg1:T21 Arg2:T17
+R30	clinicalFeatureTime Arg1:T23 Arg2:T17
+R31	clinicalFeatureTime Arg1:T25 Arg2:T17
+R32	clinicalFeatureTime Arg1:T27 Arg2:T17
+R33	clinicalFeatureTime Arg1:T28 Arg2:T17
+R34	auxiliaryExaminationAuxiliaryDescript Arg1:T32 Arg2:T33
+T97	body 179 182	右中肺
+R35	bodyAuxiliaryDescript Arg1:T97 Arg2:T35
+R36	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T35
+R37	bodyAuxiliaryDescript Arg1:T36 Arg2:T37
+T99	body 193 195	心影
+R38	bodyAuxiliaryDescript Arg1:T99 Arg2:T38
+R39	bodyAuxiliaryDescript Arg1:T39 Arg2:T41
+R40	bodyAuxiliaryDescript Arg1:T40 Arg2:T41
+R41	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T37
+R42	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T38
+R43	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T41
+R44	bodyAuxiliaryDescript Arg1:T42 Arg2:T43
+R45	auxiliaryExaminationAuxiliaryDescript Arg1:T34 Arg2:T43
+R46	laboratoryLaboratoryValue Arg1:T45 Arg2:T46
+R48	laboratoryLaboratoryValue Arg1:T47 Arg2:T48
+R50	laboratoryLaboratoryValue Arg1:T49 Arg2:T53
+R51	laboratoryLaboratoryValue Arg1:T50 Arg2:T53
+R52	laboratoryLaboratoryValue Arg1:T51 Arg2:T53
+R53	laboratoryLaboratoryValue Arg1:T52 Arg2:T53
+R56	drugDose Arg1:T54 Arg2:T55
+T72	disease 385 389	心脏扩大
+T73	sign 406 407	T
+T103	sign 413 414	P
+T104	indexValue 414 419	86次/分
+R67	signIndexValue Arg1:T103 Arg2:T104
+R68	signIndexValue Arg1:T73 Arg2:T74
+T105	sign 420 421	R
+R69	signIndexValue Arg1:T105 Arg2:T75
+R70	signIndexValue Arg1:T76 Arg2:T77
+R71	bodyClinicalFeature Arg1:T80 Arg2:T81
+R72	bodyClinicalFeature Arg1:T82 Arg2:T83
+R73	bodyClinicalFeature Arg1:T82 Arg2:T84
+R74	signIndexValue Arg1:T85 Arg2:T86
+R75	bodyClinicalFeature Arg1:T89 Arg2:T90
+R77	bodyClinicalFeature Arg1:T93 Arg2:T94
+T107	time 370 372	近期
+R78	cureTime Arg1:T71 Arg2:T107
+R80	auxiliaryExaminationTime Arg1:T32 Arg2:T17
+R81	auxiliaryExaminationTime Arg1:T34 Arg2:T17
+R82	laboratoryTime Arg1:T44 Arg2:T17
+R83	laboratoryTime Arg1:T49 Arg2:T17
+R84	laboratoryTime Arg1:T50 Arg2:T17
+R85	laboratoryTime Arg1:T51 Arg2:T17
+R86	laboratoryTime Arg1:T52 Arg2:T17
+R87	bodyClinicalFeature Arg1:T89 Arg2:T91
+T108	body 507 508	肝
+T109	body 508 509	脾
+R88	bodyClinicalFeature Arg1:T108 Arg2:T92
+R89	bodyClinicalFeature Arg1:T109 Arg2:T92
+R5	modificationClinicalFeature Arg1:T6 Arg2:T5
+R17	modificationClinicalFeature Arg1:T16 Arg2:T5
+R19	modificationClinicalFeature Arg1:T19 Arg2:T18
+R3	modificationClinicalFeature Arg1:T1 Arg2:T2
+R1	clinicalFeatureTime Arg1:T2 Arg2:T96
+T95	cure 94 99	未重视就诊
