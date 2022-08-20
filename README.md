@@ -1,13 +1,14 @@
-# 2022ÄêÉúÎïÒ½Ñ§´´ĞÂÉè¼Æ¾ºÈü
+# 2022å¹´ç”Ÿç‰©åŒ»å­¦åˆ›æ–°è®¾è®¡ç«èµ›
+# å›½å®¶äºŒç­‰å¥–
 
-## ²Î¿¼ÏîÄ¿:https://github.com/yeqingzhao/relation-extraction/blob/master/README.md
+## å‚è€ƒé¡¹ç›®:https://github.com/yeqingzhao/relation-extraction/blob/master/README.md
 
-## ÒÑ¾­ÑµÁ·ºÃµÄÄ£ĞÍ,¿ÉÒÔÖ±½Ó½øĞĞÔ¤²â
-    Á´½Ó£ºhttps://pan.baidu.com/s/1nE_abL-n3mA_dxCdOWrjig?pwd=6666 
-    ÌáÈ¡Âë£º6666 
-    --À´×Ô°Ù¶ÈÍøÅÌ³¬¼¶»áÔ±V5µÄ·ÖÏí
+## å·²ç»è®­ç»ƒå¥½çš„æ¨¡å‹,å¯ä»¥ç›´æ¥è¿›è¡Œé¢„æµ‹
+    é“¾æ¥ï¼šhttps://pan.baidu.com/s/1nE_abL-n3mA_dxCdOWrjig?pwd=6666 
+    æå–ç ï¼š6666 
+    --æ¥è‡ªç™¾åº¦ç½‘ç›˜è¶…çº§ä¼šå‘˜V5çš„åˆ†äº«
 
-## ÔËĞĞ»·¾³
+## è¿è¡Œç¯å¢ƒ
 
 1. python==3.7.11
 2. torch==1.9.0
@@ -17,51 +18,51 @@
 6. numpy==1.21.0
 7. scikit-learn==0.24.2
 
-## ¸´ÏÖÁ÷³Ì
+## å¤ç°æµç¨‹
 
-1. Ô­Ê¼Êı¾İ·ÅÔÚ `data`ÎÄ¼ş¼Ğ£»
-2. ÏÂÔØ `chinese-roberta-wwm-ext-large`Ä£ĞÍ£¬ÒÑ·¢ËÍµ½ÓÊÏä£¬Óë¿ªÔ´µÄÓĞĞ©Ğí²î±ğ£¬`vocab.txt`Ìí¼ÓÁËÒ»Ğ©×¨ÒµµÄ´Ê»ã£¬Ìæ»»ÁË `[unused1]-[unused36]`£»
-3. ĞèÒªGPU(v100 32G)»·¾³£¬ÑµÁ·nerÄ£ĞÍ£¬´ó¸ÅĞèÒª3Ğ¡Ê±¡£±¾µØÎÄ¼ş¼ĞÏÂÔËĞĞ `global_pointer.py`£¬½«Éú³ÉÊı¾İ `data/labels.json`¡¢`data/train.json`¡¢`data/testB_ner.txt`¡¢
+1. åŸå§‹æ•°æ®æ”¾åœ¨ `data`æ–‡ä»¶å¤¹ï¼›
+2. ä¸‹è½½ `chinese-roberta-wwm-ext-large`æ¨¡å‹ï¼Œå·²å‘é€åˆ°é‚®ç®±ï¼Œä¸å¼€æºçš„æœ‰äº›è®¸å·®åˆ«ï¼Œ`vocab.txt`æ·»åŠ äº†ä¸€äº›ä¸“ä¸šçš„è¯æ±‡ï¼Œæ›¿æ¢äº† `[unused1]-[unused36]`ï¼›
+3. éœ€è¦GPU(v100 32G)ç¯å¢ƒï¼Œè®­ç»ƒneræ¨¡å‹ï¼Œå¤§æ¦‚éœ€è¦3å°æ—¶ã€‚æœ¬åœ°æ–‡ä»¶å¤¹ä¸‹è¿è¡Œ `global_pointer.py`ï¼Œå°†ç”Ÿæˆæ•°æ® `data/labels.json`ã€`data/train.json`ã€`data/testB_ner.txt`ã€
 
-   ÎåÕÛ½»²æµÄÄ£ĞÍ `global_pointer_model_1`¡¢`global_pointer_model_2`¡¢`global_pointer_model_3`¡¢`global_pointer_model_4`¡¢`global_pointer_model_5`£»
-4. ĞèÒªGPU(v100 32G)»·¾³£¬ÑµÁ·relationÄ£ĞÍ£¬´ó¸ÅĞèÒª12Ğ¡Ê±¡£±¾µØÎÄ¼ş¼ĞÏÂÔËĞĞ `relation.py`£¬½«Éú³ÉÊı¾İ `data_relation/train.json`¡¢`data_relation/submit_B.txt`¡¢
+   äº”æŠ˜äº¤å‰çš„æ¨¡å‹ `global_pointer_model_1`ã€`global_pointer_model_2`ã€`global_pointer_model_3`ã€`global_pointer_model_4`ã€`global_pointer_model_5`ï¼›
+4. éœ€è¦GPU(v100 32G)ç¯å¢ƒï¼Œè®­ç»ƒrelationæ¨¡å‹ï¼Œå¤§æ¦‚éœ€è¦12å°æ—¶ã€‚æœ¬åœ°æ–‡ä»¶å¤¹ä¸‹è¿è¡Œ `relation.py`ï¼Œå°†ç”Ÿæˆæ•°æ® `data_relation/train.json`ã€`data_relation/submit_B.txt`ã€
 
-   ÎåÕÛ½»²æµÄÄ£ĞÍ `relation_model_1`¡¢`relation_model_2`¡¢`relation_model_3`¡¢`relation_model_4`¡¢`relation_model_5`£»
-5. µÚ4²½Éú³ÉµÄ `data_relation/submit_B.txt`Îª×îÖÕµÄ½á¹û£»
+   äº”æŠ˜äº¤å‰çš„æ¨¡å‹ `relation_model_1`ã€`relation_model_2`ã€`relation_model_3`ã€`relation_model_4`ã€`relation_model_5`ï¼›
+5. ç¬¬4æ­¥ç”Ÿæˆçš„ `data_relation/submit_B.txt`ä¸ºæœ€ç»ˆçš„ç»“æœï¼›
 
-## ·şÎñÀàĞÍ½Ó¿ÚÊ¹ÓÃ
+## æœåŠ¡ç±»å‹æ¥å£ä½¿ç”¨
 
-cuda°æ±¾    cuda:10.2 cudnn:10.2
+cudaç‰ˆæœ¬    cuda:10.2 cudnn:10.2
 
-*ÊäÈë*:original dataset
+*è¾“å…¥*:original dataset
 
-    Ö÷ Ëß :$ ĞØ ÃÆ Æø ´Ù °é ĞÄ ¼Â 2 Ìì $ £ş ÏÖ ²¡ Ê· : $ »¼ Õß 2 Ìì Ç° ÎŞ Ã÷ ÏÔ ÓÕ Òò ÏÂ ³ö ÏÖ ĞØ ÃÆ Æø ´Ù £¬ °é ĞÄ ¼Â £¬ ³Ê Õó ·¢ ĞÔ £¬ °é ´ó º¹ ÁÜ Àì £¬ ÎŞ ĞØ ¹Ç ºó Ñ¹ Õ¥ ¸Ğ £¬ °é ·¦ Á¦ £¬ ÎŞ Ò¹ ¼ä Õó ·¢ ĞÔ ºô Îü À§ ÄÑ £¬ ÎŞ Î· º® ·¢ ÈÈ £¬ £ş ÎŞ ¶ñ ĞÄ Å» ÍÂ £¬ ÎŞ ·´ Ëá ÉÕ ĞÄ £¬ ÎŞ Í· Í´ Í· ÔÎ £¬ ÎŞ ºÚ •ä ÔÎ ØÊ £¬ ÎŞ ¿È ËÔ ¿È Ìµ µÈ ²» ÊÊ ¡£ Î´ Óè ÖÎ ÁÆ £¬ ´Ë ºó ÉÏ Êö Ö¢ ×´ ·´ ¸´ ´æ ÔÚ £¬ Ëì ÖÁ Ôº ÃÅ Õï ¾Í Õï £¬ Îª ½ø Ò» ²½ ÖÎ ÁÆ £¬ £ş ÃÅ Õï Äâ ¡± ĞÄ ·¿ ²ü ¶¯ ¡± ÊÕ ×¡ Èë Ôº ¡£
+    ä¸» è¯‰ :$ èƒ¸ é—· æ°” ä¿ƒ ä¼´ å¿ƒ æ‚¸ 2 å¤© $ ï¿£ ç° ç—… å² : $ æ‚£ è€… 2 å¤© å‰ æ—  æ˜ æ˜¾ è¯± å›  ä¸‹ å‡º ç° èƒ¸ é—· æ°” ä¿ƒ ï¼Œ ä¼´ å¿ƒ æ‚¸ ï¼Œ å‘ˆ é˜µ å‘ æ€§ ï¼Œ ä¼´ å¤§ æ±— æ·‹ æ¼“ ï¼Œ æ—  èƒ¸ éª¨ å å‹ æ¦¨ æ„Ÿ ï¼Œ ä¼´ ä¹ åŠ› ï¼Œ æ—  å¤œ é—´ é˜µ å‘ æ€§ å‘¼ å¸ å›° éš¾ ï¼Œ æ—  ç• å¯’ å‘ çƒ­ ï¼Œ ï¿£ æ—  æ¶ å¿ƒ å‘• å ï¼Œ æ—  å é…¸ çƒ§ å¿ƒ ï¼Œ æ—  å¤´ ç—› å¤´ æ™• ï¼Œ æ—  é»‘ æ›š æ™• å¥ ï¼Œ æ—  å’³ å—½ å’³ ç—° ç­‰ ä¸ é€‚ ã€‚ æœª äºˆ æ²» ç–— ï¼Œ æ­¤ å ä¸Š è¿° ç—‡ çŠ¶ å å¤ å­˜ åœ¨ ï¼Œ é‚ è‡³ é™¢ é—¨ è¯Š å°± è¯Š ï¼Œ ä¸º è¿› ä¸€ æ­¥ æ²» ç–— ï¼Œ ï¿£ é—¨ è¯Š æ‹Ÿ â€ å¿ƒ æˆ¿ é¢¤ åŠ¨ â€ æ”¶ ä½ å…¥ é™¢ ã€‚
 
-*Êä³ö*:¹Ù·½ÒªÇóµÄANNÎÄ¼ş
+*è¾“å‡º*:å®˜æ–¹è¦æ±‚çš„ANNæ–‡ä»¶
 
-    T1  clinicalFeature 4 6 ĞØÃÆ
+    T1  clinicalFeature 4 6 èƒ¸é—·
 
-    T2  clinicalFeature 6 8 Æø´Ù
+    T2  clinicalFeature 6 8 æ°”ä¿ƒ
 
-    T3  clinicalFeature 9 11    ĞÄ¼Â
+    T3  clinicalFeature 9 11    å¿ƒæ‚¸
 
-    T4  time 11 13  2Ìì
+    T4  time 11 13  2å¤©
 
-    T5  time 22 25  2ÌìÇ°
+    T5  time 22 25  2å¤©å‰
 
-    T6  cause 25 30 ÎŞÃ÷ÏÔÓÕÒò
+    T6  cause 25 30 æ— æ˜æ˜¾è¯±å› 
 
-    T7  clinicalFeature 33 35   ĞØÃÆ
+    T7  clinicalFeature 33 35   èƒ¸é—·
 
-    T8  clinicalFeature 35 37   Æø´Ù
+    T8  clinicalFeature 35 37   æ°”ä¿ƒ
 
-    T9  clinicalFeature 39 41   ĞÄ¼Â
+    T9  clinicalFeature 39 41   å¿ƒæ‚¸
 
-    T10 modification 43 46  Õó·¢ĞÔ
+    T10 modification 43 46  é˜µå‘æ€§
 
-    T11 clinicalFeature 48 52   ´óº¹ÁÜÀì
+    T11 clinicalFeature 48 52   å¤§æ±—æ·‹æ¼“
 
-ÔÚÄ£ĞÍÑµÁ·Íê³ÉÖ®ºó,ÏîÄ¿ÖĞ»áÉú³É `global_pointer_model_1` ~`global_pointer_model_5` ;`relation_model_1` ~`relation_model_5` ÕâĞ©ÎÄ¼ş,ÎÒÃÇ¿ÉÒÔÀûÓÃÕâĞ©Éú³ÉµÄÎÄ¼ş,¶ÔÊäÈëµÄÎÄ±¾½øĞĞÃüÃûÊµÌåÊ¶±ğÓë¹ØÏµ³éÈ¡:
+åœ¨æ¨¡å‹è®­ç»ƒå®Œæˆä¹‹å,é¡¹ç›®ä¸­ä¼šç”Ÿæˆ `global_pointer_model_1` ~`global_pointer_model_5` ;`relation_model_1` ~`relation_model_5` è¿™äº›æ–‡ä»¶,æˆ‘ä»¬å¯ä»¥åˆ©ç”¨è¿™äº›ç”Ÿæˆçš„æ–‡ä»¶,å¯¹è¾“å…¥çš„æ–‡æœ¬è¿›è¡Œå‘½åå®ä½“è¯†åˆ«ä¸å…³ç³»æŠ½å–:
 
-1. Ê×ÏÈÔËĞĞ `predict-test-ner.py`  ÎÄ¼ş,µÃµ½¸÷¸öÎÄ±¾µÄÃüÃûÊµÌåµÄÔ¤²â½á¹û
-2. È»ºóÔËĞĞ `predict-test-re.py` ÎÄ¼ş,ÔÚ `relation-extraction-master\data\RESULT-RE\ANN_finalresult` Â·¾¶ÏÂÉú³ÉÓë¹Ù·½Êı¾İ¸ñÊ½ÏàÍ¬µÄannÎÄ¼ş
+1. é¦–å…ˆè¿è¡Œ `predict-test-ner.py`  æ–‡ä»¶,å¾—åˆ°å„ä¸ªæ–‡æœ¬çš„å‘½åå®ä½“çš„é¢„æµ‹ç»“æœ
+2. ç„¶åè¿è¡Œ `predict-test-re.py` æ–‡ä»¶,åœ¨ `relation-extraction-master\data\RESULT-RE\ANN_finalresult` è·¯å¾„ä¸‹ç”Ÿæˆä¸å®˜æ–¹æ•°æ®æ ¼å¼ç›¸åŒçš„annæ–‡ä»¶
